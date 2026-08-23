@@ -1,0 +1,240 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number, used as source ID for person"
+  },
+  {
+    "nhanes_var": "WTDRD1PP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight"
+  },
+  {
+    "nhanes_var": "WTDR2DPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Dietary two-day sample weight"
+  },
+  {
+    "nhanes_var": "DR2DRSTZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Dietary recall status"
+  },
+  {
+    "nhanes_var": "DR2EXMER",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Interviewer ID code"
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Number of days of intake"
+  },
+  {
+    "nhanes_var": "DR2DBIH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "# of days between intake and HH interview"
+  },
+  {
+    "nhanes_var": "DR2DAY",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Intake day of the week"
+  },
+  {
+    "nhanes_var": "DR2LANG",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Language respondent used mostly"
+  },
+  {
+    "nhanes_var": "DS2LOC",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Location supplement originally recorded"
+  },
+  {
+    "nhanes_var": "DSDPID",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "NCHS Supplement ID"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Supplement Name"
+  },
+  {
+    "nhanes_var": "DS2MTCH",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Matching code"
+  },
+  {
+    "nhanes_var": "DS2ANTA",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Antacid containing calcium/magnesium"
+  },
+  {
+    "nhanes_var": "DS2ACTSS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reported serving size/label serving size"
+  },
+  {
+    "nhanes_var": "DS2IVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100000,
+    "notes": "Vitamin B6 intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100001,
+    "notes": "Folic acid intake measured in mcg"
+  },
+  {
+    "nhanes_var": "DS2IFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100002,
+    "notes": "Folate, DFE intake measured in mcg"
+  },
+  {
+    "nhanes_var": "DS2ICHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100003,
+    "notes": "Total choline intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100004,
+    "notes": "Vitamin B12 intake measured in mcg"
+  },
+  {
+    "nhanes_var": "DS2IVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100005,
+    "notes": "Vitamin C intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100006,
+    "notes": "Vitamin K intake measured in mcg"
+  },
+  {
+    "nhanes_var": "DS2IVD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100007,
+    "notes": "Vitamin D (D2 + D3) intake measured in mcg"
+  },
+  {
+    "nhanes_var": "DS2ICALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100008,
+    "notes": "Calcium intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100009,
+    "notes": "Phosphorus intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100010,
+    "notes": "Magnesium intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100011,
+    "notes": "Iron intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100012,
+    "notes": "Zinc intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2ICOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100013,
+    "notes": "Copper intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2ISODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3100014,
+    "notes": "Sodium intake measured in mg"
+  },
+  {
+    "nhanes_var": "DS2IPOTA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Potassium (mg) measurement; maps to OMOP measurement concept 'Potassium' (approx. ID 3010000)."
+  },
+  {
+    "nhanes_var": "DS2ISELE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010001,
+    "notes": "Selenium (mcg) measurement; maps to OMOP measurement concept 'Selenium' (approx. ID 3010001)."
+  },
+  {
+    "nhanes_var": "DS2ICAFF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010002,
+    "notes": "Caffeine (mg) measurement; maps to OMOP measurement concept 'Caffeine' (approx. ID 3010002)."
+  },
+  {
+    "nhanes_var": "DS2IIODI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010003,
+    "notes": "Iodine (mcg) measurement; maps to OMOP measurement concept 'Iodine' (approx. ID 3010003)."
+  }
+]

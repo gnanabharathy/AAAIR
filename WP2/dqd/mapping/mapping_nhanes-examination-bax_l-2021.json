@@ -1,0 +1,317 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "BAXMSTAT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "MRT exam status recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAXRXNC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason for partial MRT exam recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAXRXND",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason for not done MRT exam recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAX5STAT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Eligibility for Condition 5 recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ110",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self-reported ability to stand on own recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ121",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Current use of leg brace recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ125",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Injury to foot, leg, or hip recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "BAQ132",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dizziness problems in past 24 hours recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ140",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fall due to dizziness in last 12 months recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ150",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Current neck pain status recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ160",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Neck surgery history recorded as a procedure occurrence"
+  },
+  {
+    "nhanes_var": "BAQ170",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Duration of neck problem (>6 weeks) recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ201",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Range of head motion (30\u00b0) recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAQ173",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Consent to begin balance test recorded as an observation"
+  },
+  {
+    "nhanes_var": "BAXPF11",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Categorical indicator of eyes open during MRT condition 1, trial 1; stored as free text"
+  },
+  {
+    "nhanes_var": "BAXTC11",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous time (seconds) for MRT condition 1, trial 1"
+  },
+  {
+    "nhanes_var": "BAARFC11",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Reason stopped for MRT condition 1, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPF12",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Eyes open indicator for MRT condition 1, trial 2"
+  },
+  {
+    "nhanes_var": "BAXTC12",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Time for MRT condition 1, trial 2"
+  },
+  {
+    "nhanes_var": "BAARFC12",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Reason stopped for MRT condition 1, trial 2"
+  },
+  {
+    "nhanes_var": "BAXPF21",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Eyes closed indicator for MRT condition 2, trial 1"
+  },
+  {
+    "nhanes_var": "BAXTC21",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Time for MRT condition 2, trial 1"
+  },
+  {
+    "nhanes_var": "BAARFC21",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Reason stopped for MRT condition 2, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPF22",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Eyes closed indicator for MRT condition 2, trial 2"
+  },
+  {
+    "nhanes_var": "BAXTC22",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Time for MRT condition 2, trial 2"
+  },
+  {
+    "nhanes_var": "BAARFC22",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Reason stopped for MRT condition 2, trial 2"
+  },
+  {
+    "nhanes_var": "BAXPF31",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Eyes open indicator for MRT condition 3, trial 1"
+  },
+  {
+    "nhanes_var": "BAXTC31",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Time for MRT condition 3, trial 1"
+  },
+  {
+    "nhanes_var": "BAARFC31",
+    "omop_table": "observation",
+    "omop_field": "value_source_value",
+    "concept_id": null,
+    "notes": "Reason stopped for MRT condition 3, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPF32",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Eyes open status for MRT condition 3, trial 2"
+  },
+  {
+    "nhanes_var": "BAXTC32",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4000000,
+    "notes": "MRT time for condition 3, trial 2"
+  },
+  {
+    "nhanes_var": "BAARFC32",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason stopped for condition 3, trial 2"
+  },
+  {
+    "nhanes_var": "BAXPF41",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Eyes closed status for MRT condition 4, trial 1"
+  },
+  {
+    "nhanes_var": "BAXTC41",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4000000,
+    "notes": "MRT time for condition 4, trial 1"
+  },
+  {
+    "nhanes_var": "BAARFC41",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason stopped for condition 4, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPF42",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Eyes closed status for MRT condition 4, trial 2"
+  },
+  {
+    "nhanes_var": "BAXTC42",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4000000,
+    "notes": "MRT time for condition 4, trial 2"
+  },
+  {
+    "nhanes_var": "BAARFC42",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason stopped for condition 4, trial 2"
+  },
+  {
+    "nhanes_var": "BAXPF51",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Eyes closed status for MRT condition 5, trial 1"
+  },
+  {
+    "nhanes_var": "BAXTC51",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4000000,
+    "notes": "MRT time for condition 5, trial 1"
+  },
+  {
+    "nhanes_var": "BAARFC51",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason stopped for condition 5, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPF52",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Eyes closed status for MRT condition 5, trial 2"
+  },
+  {
+    "nhanes_var": "BAXTC52",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4000000,
+    "notes": "MRT time for condition 5, trial 2"
+  },
+  {
+    "nhanes_var": "BAARFC52",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason stopped for condition 5, trial 2"
+  }
+]

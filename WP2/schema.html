@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schema Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .schema-page { max-width: 800px; padding: 32px 40px; }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--text2);
+      text-decoration: none;
+      margin-bottom: 24px;
+      padding: 6px 10px;
+      border-radius: var(--radius);
+      transition: background .12s;
+    }
+    .back-btn:hover { background: var(--border); color: var(--text); }
+
+    .ds-header { margin-bottom: 24px; }
+    .ds-header-title { font-size: 20px; font-weight: 500; color: var(--text); margin-bottom: 6px; }
+    .ds-header-meta { font-size: 13px; color: var(--text3); margin-bottom: 12px; }
+    .ds-header-desc { font-size: 13px; color: var(--text2); line-height: 1.6; margin-bottom: 14px; }
+    .ds-header-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+
+    .schema-card {
+      background: var(--bg);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    .schema-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-bottom: 0.5px solid var(--border);
+      background: var(--bg2);
+    }
+
+    .schema-card-title {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text3);
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+
+    .doc-link {
+      font-size: 12px;
+      color: var(--blue-text);
+      text-decoration: none;
+    }
+    .doc-link:hover { text-decoration: underline; }
+
+    .sch-tbl { width: 100%; border-collapse: collapse; font-size: 13px; margin-left: 0;}
+    .sch-tbl th {
+    text-align: left;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--text2);
+    border-bottom: 0.5px solid var(--border);
+    background: var(--bg1);
+    }
+    .sch-tbl th:first-child { width: 25%; }
+    .sch-tbl th:nth-child(2) { width: 55%; }
+    .sch-tbl th:last-child { width: 20%; }
+    .phidu-tbl th { width: auto !important; }
+    .phidu-tbl td { width: auto !important; }
+    .sch-tbl td {
+    padding: 9px 16px;
+    border-bottom: 0.5px solid var(--border);
+    vertical-align: top;
+    }
+    .sch-tbl tr:last-child td { border-bottom: none; }
+    .sch-tbl tr:hover td { background: var(--bg2); }
+
+    .var-name {
+    font-family: ui-monospace, monospace;
+    font-size: 12px;
+    color: var(--text);
+    }
+    .var-label { font-size: 12px; color: var(--text2); line-height: 1.5; }
+  </style>
+</head>
+<body>
+<div style="display:flex;height:100vh;overflow:hidden">
+  <!-- Left: schema page -->
+  <div id="left-pane" style="flex:0 0 40%;overflow-y:auto;border-right:0.5px solid var(--border)">
+   <div class="schema-page">
+    <a class="back-btn" href="index.html">← Back to Explorer</a>
+
+    <div class="ds-header">
+      <div class="ds-header-title" id="ds-title">Loading…</div>
+      <div class="ds-header-meta" id="ds-meta"></div>
+      <div class="ds-header-desc" id="ds-desc"></div>
+      <div class="ds-header-tags" id="ds-tags"></div>
+    </div>
+
+    <div class="schema-card">
+      <div class="schema-card-header">
+        <div class="schema-card-title">Schema</div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <!-- <a class="doc-link" id="dqd-link" href="#" style="display:none">View DQD Report →</a> -->
+          <a class="doc-link" id="doc-link" href="#" target="_blank">View documentation ↗</a>
+          <button id="dqd-btn" onclick="runDQD()"
+            style="font-size:12px;padding:4px 12px;border-radius:6px;
+                   border:0.5px solid var(--border);background:var(--bg2);
+                   color:var(--text2);cursor:pointer;transition:background .12s"
+            onmouseover="this.style.background='var(--border)'"
+            onmouseout="this.style.background='var(--bg2)'">
+            View DQD
+          </button>
+        </div>
+      </div>
+      <div id="schema-body" style="padding:0">
+          <div class="loading" style="padding:32px 0">
+            <div class="spin"></div>Loading schema…
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Right: DQD panel (hidden by default) -->
+  <div id="dqd-pane" style="width:0;overflow-y:auto;overflow-x:hidden;transition:width .25s ease;background:var(--bg);flex-shrink:0">
+    <div style="padding:24px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
+        <div style="font-size:15px;font-weight:500;color:var(--text)">DQD Results</div>
+        <button onclick="closeDQD()"
+          style="background:none;border:none;font-size:14px;color:var(--text3);
+                 cursor:pointer;padding:4px 8px;border-radius:4px"
+          onmouseover="this.style.background='var(--bg2)'"
+          onmouseout="this.style.background='none'">✕ Close</button>
+      </div>
+      <div id="dqd-body"></div>
+    </div>
+  </div>
+
+</div>
+
+  <script src="data.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    const ds = DATASETS.find(d => d.id === id);
+
+    if (!ds) {
+      document.getElementById('ds-title').textContent = 'Dataset not found';
+    } else {
+      document.getElementById('ds-title').textContent = ds.name;
+      document.getElementById('ds-meta').textContent = ds.source;
+      document.getElementById('ds-desc').textContent = ds.desc;
+      document.getElementById('doc-link').href = ds.docUrl;
+      const dqdLink = document.getElementById('dqd-link');
+      if (dqdLink && ds.subtypes && ds.subtypes.includes('ehr')) {
+        dqdLink.href = `dqd.html?id=${ds.id}&table=person`;
+        dqdLink.style.display = 'inline';
+      }
+
+      const subtypeTags = ds.subtypes.map(s => {
+        const t = SUBTYPE_TAG[s] || { label: s, cls: 'tag-blue' };
+        return `<span class="ds-tag ${t.cls}">${t.label}</span>`;
+      }).join('');
+      const taskTags = ds.tasks.map(t => {
+        const tag = TASK_TAG[t] || { label: t, cls: 'tag-teal' };
+        return `<span class="ds-tag ${tag.cls}">${tag.label}</span>`;
+      }).join('');
+      document.getElementById('ds-tags').innerHTML = subtypeTags + taskTags;
+
+      fetchSchema(ds);
+    }
+
+    function fetchSchema(ds) {
+      if (ds.source === 'PHIDU') {
+        fetch('http://localhost:8765/api/phidu/data/' + encodeURIComponent(ds.id))
+        .then(async r => {
+          const data = await r.json();
+          if (!r.ok || data.error) {
+            throw new Error(data.error || ('HTTP error ' + r.status));
+          }
+          const cols = data.columns.filter(c => !c.startsWith('col_'));
+          const rows = data.rows;
+          let thead = '<tr>' + cols.map((c, i) => {
+            let style = i === 0 ? 'min-width:80px;white-space:nowrap' : i === 1 ? 'min-width:200px;white-space:nowrap' : 'min-width:90px;white-space:normal;width:90px';
+            return '<th style="' + style + ';padding:8px 12px;vertical-align:bottom">' + c + '</th>';
+          }).join('') + '</tr>';
+          let tbody = rows.map(row => '<tr>' + cols.map((c, i) => {
+            let style = i === 0 ? 'min-width:80px;white-space:nowrap' : i === 1 ? 'min-width:200px;white-space:nowrap' : 'min-width:90px;width:90px;white-space:nowrap';
+            return '<td style="' + style + ';font-size:12px;padding:6px 12px">' + (row[c] || '—') + '</td>';
+          }).join('') + '</tr>').join('');
+          document.getElementById('left-pane').style.flex = '0 0 100%';
+          document.getElementById('left-pane').style.maxWidth = '100%';
+          document.getElementById('dqd-pane').style.display = 'none';
+          document.querySelector('.schema-page').style.maxWidth = '100%';
+          document.querySelector('.schema-card').style.maxWidth = '100%';
+          document.getElementById('schema-body').innerHTML =
+            '<div style="display:flex;align-items:center;padding:12px 16px;border-bottom:0.5px solid var(--border);background:var(--bg2)">' +
+            '<span style="font-size:12px;color:var(--text3)">' + rows.length + ' rows (first 100)</span></div>' +
+            '<div style="overflow-x:auto"><table class="sch-tbl phidu-tbl" style="table-layout:fixed;width:max-content"><thead>' + thead + '</thead><tbody>' + tbody + '</tbody></table></div>';
+        })
+        .catch((err) => {
+          document.getElementById('schema-body').innerHTML = '<div class="empty">Error: ' + (err.message || err) + '</div>';
+        });
+      } else {
+        fetch('http://localhost:8765/api/schema/' + encodeURIComponent(ds.id))
+        .then(async r => {
+          const entry = await r.json();
+          if (!r.ok) {
+            if (r.status === 404) {
+              document.getElementById('schema-body').innerHTML =
+                '<div class="empty">Schema not available — <a href="' + ds.docUrl + '" target="_blank" style="color:#0C447C">see documentation ↗</a></div>';
+              return;
+            }
+            throw new Error(entry.error || ('HTTP error ' + r.status));
+          }
+          const schema = entry && entry.variables ? entry.variables : null;
+          if (schema && schema.length > 0) {
+            renderSchema(schema, ds.docUrl);
+          } else {
+            document.getElementById('schema-body').innerHTML =
+              '<div class="empty">Schema not available — <a href="' + ds.docUrl + '" target="_blank" style="color:#0C447C">see documentation ↗</a></div>';
+          }
+        })
+        .catch((err) => {
+          document.getElementById('schema-body').innerHTML =
+            '<div class="empty">Error: ' + (err.message || err) + '</div>';
+        });
+      }
+    }
+
+    function renderSchema(schema, docUrl) {
+  document.getElementById('schema-body').innerHTML = `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:0.5px solid var(--border);background:var(--bg2)">
+      <span style="font-size:12px;color:var(--text3)">${schema.length} variables</span>
+    </div>
+    <table class="sch-tbl">
+      <thead>
+        <tr>
+          <th>Variable</th>
+          <th>Label / Description</th>
+          <th style="text-align:right">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${schema.map((v, i) => `
+          <tr class="var-row" data-index="${i}" style="cursor:pointer">
+            <td style="white-space:nowrap"><span class="var-name">${v.name}</span></td>
+            <td><span class="var-label">${v.label}</span>${v.english_text && v.english_text !== v.label ? `<div style="font-size:11px;color:var(--text3);margin-top:2px">${v.english_text}</div>` : ''}</td>
+            <td style="text-align:right;font-size:12px;color:var(--text3)">${v.count != null ? v.count.toLocaleString() : '—'}</td>
+          </tr>
+          ${v.values && v.values.length > 0 ? `
+          <tr class="val-row" data-index="${i}">
+            <td colspan="3" style="padding:0 0 0 32px;background:var(--bg2)">
+              <table style="width:100%;border-collapse:collapse;font-size:11px">
+                <thead>
+                  <tr>
+                    <th style="padding:6px 12px;text-align:left;color:var(--text3);font-weight:500;border-bottom:0.5px solid var(--border)">Code</th>
+                    <th style="padding:6px 12px;text-align:left;color:var(--text3);font-weight:500;border-bottom:0.5px solid var(--border)">Value Description</th>
+                    <th style="padding:6px 12px;text-align:right;color:var(--text3);font-weight:500;border-bottom:0.5px solid var(--border)">Count</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${v.values.map(val => `
+                    <tr>
+                      <td style="padding:5px 12px;border-bottom:0.5px solid var(--border);font-family:ui-monospace,monospace;color:var(--text2)">${val.code}</td>
+                      <td style="padding:5px 12px;border-bottom:0.5px solid var(--border);color:var(--text2)">${val.desc}</td>
+                      <td style="padding:5px 12px;border-bottom:0.5px solid var(--border);text-align:right;color:var(--text3)">${val.count != null ? val.count != null ? val.count != null ? val.count.toLocaleString() : "—" : "—" : "—"}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </td>
+          </tr>` : ''}
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+// ── DQD ──────────────────────────────────────────────────────────────────
+function runDQD() {
+  if (!ds) return;
+  const btn = document.getElementById('dqd-btn');
+  btn.disabled = true;
+  btn.textContent = 'Loading…';
+
+  fetch(`http://localhost:8765/api/dqd/result?ds_id=${encodeURIComponent(ds.id)}`)
+  .then(r => r.json())
+  .then(data => {
+    btn.disabled = false;
+    btn.textContent = 'View DQD';
+    if (!data.ok) {
+      alert('DQD not available for this dataset.\nRun: Rscript dqd.R ' + ds.id);
+      return;
+    }
+    renderDQD(data.result);
+  })
+  .catch(err => {
+    btn.disabled = false;
+    btn.textContent = 'View DQD';
+    alert('Could not reach server. Make sure python3 api.py is running.');
+  });
+}
+
+function renderDQD(result) {
+  const ov = result.Overview;
+  const checks = result.CheckResults;
+  const failed = checks.filter(c => c.failed === 1);
+
+  // ── Overview cards ──
+  const overview = `
+    <div style="margin-bottom:24px">
+      <div style="font-size:11px;font-weight:500;letter-spacing:.07em;
+                  text-transform:uppercase;color:var(--text3);margin-bottom:12px">
+        DQD Overview
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px">
+        ${overviewCard('Overall Pass Rate', ov.percentPassed[0].toFixed(1) + '%',
+            ov.percentPassed[0] >= 95 ? '#0F6E56' : ov.percentPassed[0] >= 80 ? '#633806' : '#712B13',
+            ov.percentPassed[0] >= 95 ? '#E1F5EE' : ov.percentPassed[0] >= 80 ? '#FAEEDA' : '#FAECE7')}
+        ${overviewCard('Total Checks', ov.countTotal[0], '#1a1a18', '#f7f7f5')}
+        ${overviewCard('Passed', ov.countPassed[0], '#0F6E56', '#E1F5EE')}
+        ${overviewCard('Failed', ov.countOverallFailed[0], '#712B13', '#FAECE7')}
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+        ${categoryCard('Plausibility', ov.countTotalPlausibility[0],
+            ov.countFailedPlausibility[0], ov.countPassedPlausibility[0])}
+        ${categoryCard('Conformance', ov.countTotalConformance[0],
+            ov.countFailedConformance[0], ov.countPassedConformance[0])}
+        ${categoryCard('Completeness', ov.countTotalCompleteness[0],
+            ov.countFailedCompleteness[0], ov.countPassedCompleteness[0])}
+      </div>
+    </div>`;
+
+  // ── Failed checks table ──
+  const failedRows = failed.map((c, i) => `
+    <tr>
+      <td style="font-family:monospace;font-size:11px;color:#378ADD;word-break:break-word">${c.cdmTableName || '—'}</td>
+      <td style="font-size:11px;word-break:break-word">${c.cdmFieldName || '—'}</td>
+      <td style="font-size:11px;word-break:break-word">${c.checkName}</td>
+      <td style="font-size:11px;color:var(--text2);word-break:break-word">${c.checkDescription}</td>
+      <td style="font-family:monospace;font-size:11px;color:#712B13;text-align:right;padding:6px 10px;white-space:nowrap">
+        ${(c.pctViolatedRows * 100).toFixed(1)}%
+      </td>
+      <td style="font-size:11px;text-align:right;color:var(--text2);padding:6px 10px;white-space:nowrap">${c.numViolatedRows != null ? c.numViolatedRows != null ? c.numViolatedRows.toLocaleString() : "—" : "—"}</td>
+    </tr>`).join('');
+
+  const failedTable = failed.length > 0 ? `
+  <div>
+    <div style="font-size:11px;font-weight:500;letter-spacing:.07em;
+                text-transform:uppercase;color:var(--text3);margin-bottom:10px">
+      Failed Checks (${failed.length})
+    </div>
+    <div style="overflow-x:auto;border:0.5px solid var(--border);border-radius:8px">
+      <table style="width:100%;border-collapse:collapse;font-size:12px;table-layout:fixed">
+        <colgroup>
+          <col style="width:160px">
+          <col style="width:180px">
+          <col style="width:200px">
+          <col style="width:auto">
+          <col style="width:90px">
+          <col style="width:80px">
+        </colgroup>
+        <thead>
+          <tr style="background:var(--bg2)">
+            <th style="padding:7px 10px;text-align:left;font-size:10px;font-weight:500;
+                       text-transform:uppercase;letter-spacing:.06em;color:var(--text3);
+                       border-bottom:0.5px solid var(--border)">Table</th>
+            <th style="padding:7px 10px;text-align:left;font-size:10px;font-weight:500;
+                       text-transform:uppercase;letter-spacing:.06em;color:var(--text3);
+                       border-bottom:0.5px solid var(--border)">Field</th>
+            <th style="padding:7px 10px;text-align:left;font-size:10px;font-weight:500;
+                       text-transform:uppercase;letter-spacing:.06em;color:var(--text3);
+                       border-bottom:0.5px solid var(--border)">Check</th>
+            <th style="padding:7px 10px;text-align:left;font-size:10px;font-weight:500;
+                       text-transform:uppercase;letter-spacing:.06em;color:var(--text3);
+                       border-bottom:0.5px solid var(--border)">Description</th>
+            <th style="padding:7px 10px;text-align:right;font-size:10px;font-weight:500;
+                       text-transform:uppercase;letter-spacing:.06em;color:var(--text3);
+                       border-bottom:0.5px solid var(--border);white-space:nowrap">% Violated</th>
+            <th style="padding:7px 10px;text-align:right;font-size:10px;font-weight:500;
+                       text-transform:uppercase;letter-spacing:.06em;color:var(--text3);
+                       border-bottom:0.5px solid var(--border)">Rows</th>
+          </tr>
+        </thead>
+        <tbody>${failedRows}</tbody>
+      </table>
+    </div>
+  </div>` : '<div style="color:var(--text3);font-size:13px">No failed checks.</div>';
+
+  const dqdPane = document.getElementById('dqd-pane');
+  dqdPane.style.width = '60%';
+  document.getElementById('dqd-body').innerHTML = overview + failedTable;
+}
+
+function overviewCard(label, value, color, bg) {
+  return `
+    <div style="background:${bg};border-radius:8px;padding:14px 16px">
+      <div style="font-size:11px;color:${color};font-weight:500;margin-bottom:4px">${label}</div>
+      <div style="font-size:22px;font-weight:600;color:${color}">${value}</div>
+    </div>`;
+}
+
+function categoryCard(label, total, failed, passed) {
+  // Only count applicable checks (exclude notApplicable)
+  const applicable = passed + failed;
+  const pct = applicable > 0 ? ((passed / applicable) * 100).toFixed(0) : 100;
+  const color = pct >= 95 ? '#0F6E56' : pct >= 80 ? '#633806' : '#712B13';
+  const bg    = pct >= 95 ? '#E1F5EE' : pct >= 80 ? '#FAEEDA' : '#FAECE7';
+  return `
+    <div style="border:0.5px solid var(--border);border-radius:8px;padding:14px 16px">
+      <div style="font-size:11px;font-weight:500;color:var(--text3);margin-bottom:8px">${label}</div>
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="font-size:18px;font-weight:600;color:${color}">${pct}%</div>
+        <div style="font-size:11px;color:var(--text3)">${passed}/${applicable} passed</div>
+      </div>
+      <div style="margin-top:8px;height:4px;background:var(--bg3);border-radius:2px">
+        <div style="height:4px;background:${color};border-radius:2px;width:${pct}%"></div>
+      </div>
+    </div>`;
+}
+
+function closeDQD() {
+  document.getElementById('dqd-pane').style.width = '0';
+}
+
+  </script>
+</body>
+</html>

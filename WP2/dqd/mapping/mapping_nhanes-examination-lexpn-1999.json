@@ -1,0 +1,303 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Unique respondent identifier used as source value for person"
+  },
+  {
+    "nhanes_var": "LEALAMP",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Indicates left lower limb amputation; mapped to procedure observation"
+  },
+  {
+    "nhanes_var": "LEALBUN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of left bunion; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEALLES",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of left foot lesion; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEALLESS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Site of left foot lesion; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEARAMP",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Indicates right lower limb amputation; mapped to procedure observation"
+  },
+  {
+    "nhanes_var": "LEARBUN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of right bunion; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEARLES",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of right foot lesion; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEARLESS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Site of right foot lesion; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEXLMH11",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal head 1 status; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEALM1C1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on left metatarsal 1; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEXLHAL1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left hallux status; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEALHAC1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on left hallux; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEXLMH51",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal head 5 status; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEALM5C1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on left metatarsal 5; recorded as an observation"
+  },
+  {
+    "nhanes_var": "LEXLMH12",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal head 1, test 2 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEALM1C2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal 1 comment, test 2 \u2013 foot exam comment stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXLHAL2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left hallux, test 2 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEALHAC2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left hallux comments, test 2 \u2013 foot exam comment stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXLMH52",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal head 5, test 2 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEALM5C2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal 5 comment, test 2 \u2013 foot exam comment stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXLMH13",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal head 1, test 3 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXLHAL3",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left hallux, test 3 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXLMH53",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left metatarsal head 5, test 3 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXRHAL1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right hallux, test 1 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEARHAC1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right hallux comment, test 1 \u2013 foot exam comment stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXRMH11",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 1, test 1 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEARM1C1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 1 comment, test 1 \u2013 foot exam comment stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXRMH51",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 5, test 1 \u2013 foot exam finding stored as Observation"
+  },
+  {
+    "nhanes_var": "LEARM5C1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 5 comment, test 1 \u2013 foot exam comment stored as Observation"
+  },
+  {
+    "nhanes_var": "LEXRHAL2",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_concept_id",
+    "concept_id": null,
+    "notes": "Right hallux exam result test 2 (categorical)"
+  },
+  {
+    "nhanes_var": "LEARHAC2",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Right hallux comment test 2"
+  },
+  {
+    "nhanes_var": "LEXRMH12",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 1 exam result test 2"
+  },
+  {
+    "nhanes_var": "LEARM1C2",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Right metatarsal head 1 comment test 2"
+  },
+  {
+    "nhanes_var": "LEXRMH52",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 5 exam result test 2"
+  },
+  {
+    "nhanes_var": "LEARM5C2",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Right metatarsal head 5 comment test 2"
+  },
+  {
+    "nhanes_var": "LEXRHAL3",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_concept_id",
+    "concept_id": null,
+    "notes": "Right hallux exam result test 3"
+  },
+  {
+    "nhanes_var": "LEARHAC3",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Right hallux comment test 3"
+  },
+  {
+    "nhanes_var": "LEXRMH13",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 1 exam result test 3"
+  },
+  {
+    "nhanes_var": "LEARM1C3",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Right metatarsal head 1 comment test 3"
+  },
+  {
+    "nhanes_var": "LEXRMH53",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_concept_id",
+    "concept_id": null,
+    "notes": "Right metatarsal head 5 exam result test 3"
+  },
+  {
+    "nhanes_var": "LEALPN",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Left foot number of insensate areas (ordinal)"
+  },
+  {
+    "nhanes_var": "LEARPN",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Right foot number of insensate areas (ordinal)"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "nhanes_var": "DRXFDCD",
+    "omop_table": "Observation",
+    "omop_field": "concept_id",
+    "concept_id": null,
+    "notes": "Food code mapped to OMOP Observation concept_id representing the food item"
+  },
+  {
+    "nhanes_var": "DRXFCSD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Short food code description stored as Observation value_as_string"
+  },
+  {
+    "nhanes_var": "DRXFCLD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Long food code description stored as Observation value_as_string"
+  }
+]

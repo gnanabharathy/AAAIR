@@ -1,0 +1,156 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source value for person"
+  },
+  {
+    "nhanes_var": "BAAEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Status of MEC exam stored as a concept value"
+  },
+  {
+    "nhanes_var": "BAAEXCMT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for exam stored as a concept value"
+  },
+  {
+    "nhanes_var": "BAQ110",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary response to \"Can you stand on your own?\""
+  },
+  {
+    "nhanes_var": "BAQ120",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary response to \"Do you have a leg brace?\""
+  },
+  {
+    "nhanes_var": "BAQ130",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary response to \"Feeling dizzy or lightheaded now?\""
+  },
+  {
+    "nhanes_var": "BAXPFC11",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary result of Cond 1 Trial 1 Feet together eyes open"
+  },
+  {
+    "nhanes_var": "BAXFTC11",
+    "omop_table": "measurement",
+    "omop_field": "numeric_value",
+    "concept_id": null,
+    "notes": "Failure time (seconds) for Cond 1 Trial 1"
+  },
+  {
+    "nhanes_var": "BAXPFC12",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary result of Cond 1 Trial 2 Feet together eyes open"
+  },
+  {
+    "nhanes_var": "BAXFTC12",
+    "omop_table": "measurement",
+    "omop_field": "numeric_value",
+    "concept_id": null,
+    "notes": "Failure time (seconds) for Cond 1 Trial 2"
+  },
+  {
+    "nhanes_var": "BAXPFC21",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary result of Cond 2 Trial 1 Feet together eyes closed"
+  },
+  {
+    "nhanes_var": "BAXFTC21",
+    "omop_table": "measurement",
+    "omop_field": "numeric_value",
+    "concept_id": null,
+    "notes": "Failure time (seconds) for Cond 2 Trial 1"
+  },
+  {
+    "nhanes_var": "BAXPFC22",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary result of Cond 2 Trial 2 Feet together eyes closed"
+  },
+  {
+    "nhanes_var": "BAXFTC22",
+    "omop_table": "measurement",
+    "omop_field": "numeric_value",
+    "concept_id": null,
+    "notes": "Failure time (seconds) for Cond 2 Trial 2"
+  },
+  {
+    "nhanes_var": "BAXPFC31",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary result of Cond 3 Trial 1 Foam Pad Eyes Open"
+  },
+  {
+    "nhanes_var": "BAXFTC31",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 9200000,
+    "notes": "Failure time (seconds) for Condition 3 Trial 1, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BAXPFC32",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 9200001,
+    "notes": "Binary indicator of Foam Pad Eyes Open for Condition 3 Trial 2, mapped to a standard concept"
+  },
+  {
+    "nhanes_var": "BAXFTC32",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 9200000,
+    "notes": "Failure time (seconds) for Condition 3 Trial 2, numeric measurement"
+  },
+  {
+    "nhanes_var": "BAXPFC41",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 9200001,
+    "notes": "Binary indicator of Foam Pad Eyes Closed for Condition 4 Trial 1"
+  },
+  {
+    "nhanes_var": "BAXFTC41",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 9200000,
+    "notes": "Failure time (seconds) for Condition 4 Trial 1"
+  },
+  {
+    "nhanes_var": "BAXPFC42",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 9200001,
+    "notes": "Binary indicator of Foam Pad Eyes Closed for Condition 4 Trial 2"
+  },
+  {
+    "nhanes_var": "BAXFTC42",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 9200000,
+    "notes": "Failure time (seconds) for Condition 4 Trial 2"
+  }
+]

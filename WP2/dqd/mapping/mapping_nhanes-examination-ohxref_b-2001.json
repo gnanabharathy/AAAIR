@@ -1,0 +1,156 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person_source_value"
+  },
+  {
+    "nhanes_var": "OHAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Overall Oral Health Exam Status recorded as an observation source value"
+  },
+  {
+    "nhanes_var": "OHASCST5",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Referral Status Code recorded as an observation source value"
+  },
+  {
+    "nhanes_var": "OHQ131",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary question about antibiotic use mapped to an observation with a binary value"
+  },
+  {
+    "nhanes_var": "OHQ132",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Heart problem history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ134",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Congenital heart murmurs history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ136",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Heart valve problem history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ138",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Congenital heart disease history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ140",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Bacterial endocarditis history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ142",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Rheumatic fever history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ144",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Kidney disease with dialysis history recorded as a condition occurrence"
+  },
+  {
+    "nhanes_var": "OHQ146",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Artificial material presence recorded as an observation with binary value"
+  },
+  {
+    "nhanes_var": "OHQ148",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Hip, bone, or joint replacement recorded as a procedure occurrence"
+  },
+  {
+    "nhanes_var": "OHQ160",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Painful tooth in past 30 days recorded as an observation with binary value"
+  },
+  {
+    "nhanes_var": "OHQ170",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of days with painful tooth recorded as a numeric observation"
+  },
+  {
+    "nhanes_var": "OHAREC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000113,
+    "notes": "Overall recommendation for care mapped to an observation concept"
+  },
+  {
+    "nhanes_var": "OHAROCDT",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Untreated caries / restorative needs represented as a dental caries condition"
+  },
+  {
+    "nhanes_var": "OHAROCGP",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000108,
+    "notes": "Periodontal needs mapped to periodontal disease condition"
+  },
+  {
+    "nhanes_var": "OHAROCOH",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000109,
+    "notes": "Gingival / OHI needs mapped to gingival disease condition"
+  },
+  {
+    "nhanes_var": "OHAROCCI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000110,
+    "notes": "Assessment of soft tissue lesion mapped to oral soft tissue lesion condition"
+  },
+  {
+    "nhanes_var": "OHAROTH",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000111,
+    "notes": "Some other finding mapped to other oral finding condition"
+  },
+  {
+    "nhanes_var": "OHARNF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000112,
+    "notes": "No significant needs represented as an observation of no significant oral health needs"
+  }
+]

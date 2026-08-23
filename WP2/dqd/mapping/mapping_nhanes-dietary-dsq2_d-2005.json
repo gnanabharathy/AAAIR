@@ -1,0 +1,72 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to unique person identifier"
+  },
+  {
+    "nhanes_var": "DSDSUPID",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement ID number stored as source value for drug exposure"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement name stored as source value for drug exposure"
+  },
+  {
+    "nhanes_var": "DSD070",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of container seen; value stored as concept ID (Yes/No) if available"
+  },
+  {
+    "nhanes_var": "DSDMTCH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal matching code for supplement; concept ID for matching code if defined"
+  },
+  {
+    "nhanes_var": "DSD090",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Duration (days) supplement taken; numeric value stored in observation"
+  },
+  {
+    "nhanes_var": "DSD103",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Days supplement taken in past 30 days; numeric value stored in observation"
+  },
+  {
+    "nhanes_var": "DSD122Q",
+    "omop_table": "drug_exposure",
+    "omop_field": "dose_value",
+    "concept_id": null,
+    "notes": "Daily quantity of supplement; stored as dose value in drug exposure"
+  },
+  {
+    "nhanes_var": "DSD122U",
+    "omop_table": "drug_exposure",
+    "omop_field": "dose_unit_source_value",
+    "concept_id": null,
+    "notes": "Dosage form; stored as unit source value in drug exposure"
+  },
+  {
+    "nhanes_var": "DSDANTA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Antacid reported as dietary supplement; concept ID for antacid supplement if available"
+  }
+]

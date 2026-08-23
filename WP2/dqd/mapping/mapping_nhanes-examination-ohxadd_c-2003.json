@@ -1,0 +1,436 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "OHAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHDDEST",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Tooth wear status coded as a condition"
+  },
+  {
+    "nhanes_var": "OHDFCST",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Status code for contacts recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXMAXIN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximal incisal opening (mm) recorded as a measurement"
+  },
+  {
+    "nhanes_var": "OHXFCRZ1",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 1 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ2",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 2 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ3",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 3 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ4",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 4 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ5",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 5 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ6",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 6 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ7",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 7 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ8",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior right FOC Zone 8 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCLZ1",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC Zone 1 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCLZ2",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC Zone 2 status recorded as an observation"
+  },
+  {
+    "nhanes_var": "OHXFCLZ3",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC zone 3 erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHXFCLZ4",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC zone 4 erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHXFCLZ5",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC zone 5 erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHXFCLZ6",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC zone 6 erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHXFCLZ7",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC zone 7 erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHXFCLZ8",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Posterior left FOC zone 8 erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHXFCANT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Anterior FOC zone erosion status mapped as a categorical measurement value"
+  },
+  {
+    "nhanes_var": "OHX08ESL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lingual surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX08ESF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Facial surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX08ESI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Incisal surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX07ESL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lingual surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX07ESF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Facial surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX07ESI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Incisal surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX06ESL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lingual surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX06ESF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Facial surface erosion severity (ordinal) mapped as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "OHX06ESI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Incisal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX03ESO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Occlusal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX09ESL",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Lingual surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX09ESF",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Facial surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX09ESI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Incisal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX10ESL",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Lingual surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX10ESF",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Facial surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX10ESI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Incisal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX11ESL",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Lingual surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX11ESF",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Facial surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX11ESI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Incisal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX14ESO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Occlusal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX25ESL",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Lingual surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX25ESF",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Facial surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX25ESI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Incisal surface erosion code; stored as source value"
+  },
+  {
+    "nhanes_var": "OHX26ESL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, lingual surface for tooth 26"
+  },
+  {
+    "nhanes_var": "OHX26ESF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, facial surface for tooth 26"
+  },
+  {
+    "nhanes_var": "OHX26ESI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, incisal surface for tooth 26"
+  },
+  {
+    "nhanes_var": "OHX27ESL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, lingual surface for tooth 27"
+  },
+  {
+    "nhanes_var": "OHX27ESF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, facial surface for tooth 27"
+  },
+  {
+    "nhanes_var": "OHX27ESI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, incisal surface for tooth 27"
+  },
+  {
+    "nhanes_var": "OHX30ESO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, occlusal surface for tooth 30"
+  },
+  {
+    "nhanes_var": "OHX24ESL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, lingual surface for tooth 24"
+  },
+  {
+    "nhanes_var": "OHX24ESF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, facial surface for tooth 24"
+  },
+  {
+    "nhanes_var": "OHX24ESI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, incisal surface for tooth 24"
+  },
+  {
+    "nhanes_var": "OHX23ESL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, lingual surface for tooth 23"
+  },
+  {
+    "nhanes_var": "OHX23ESF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, facial surface for tooth 23"
+  },
+  {
+    "nhanes_var": "OHX23ESI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, incisal surface for tooth 23"
+  },
+  {
+    "nhanes_var": "OHX22ESL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, lingual surface for tooth 22"
+  },
+  {
+    "nhanes_var": "OHX22ESF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dental erosion, facial surface for tooth 22"
+  },
+  {
+    "nhanes_var": "OHX22ESI",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Incisal surface erosion severity ordinal code, stored as numeric value"
+  },
+  {
+    "nhanes_var": "OHX19ESO",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Occlusal surface erosion severity ordinal code, stored as numeric value"
+  }
+]

@@ -1,0 +1,373 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to OMOP person identifier"
+  },
+  {
+    "nhanes_var": "DTD010Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800012,
+    "notes": "Ordinal frequency of eating cereal; measurement_concept_id represents cereal consumption"
+  },
+  {
+    "nhanes_var": "DTQ010U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800012,
+    "notes": "Categorical frequency of eating cereal; measurement_concept_id represents cereal consumption"
+  },
+  {
+    "nhanes_var": "DTDCER",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800018,
+    "notes": "Continuous count of cereals reported in past month"
+  },
+  {
+    "nhanes_var": "DTD030Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800013,
+    "notes": "Ordinal frequency of drinking milk on cereal; measurement_concept_id represents milk consumption"
+  },
+  {
+    "nhanes_var": "DTQ030U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800013,
+    "notes": "Categorical frequency of drinking milk on cereal"
+  },
+  {
+    "nhanes_var": "DTD040Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800014,
+    "notes": "Ordinal frequency of drinking regular soft drinks; measurement_concept_id represents soft drink consumption"
+  },
+  {
+    "nhanes_var": "DTQ040U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800014,
+    "notes": "Categorical frequency of drinking regular soft drinks"
+  },
+  {
+    "nhanes_var": "DTD050Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Ordinal frequency of drinking 100% fruit juice; measurement_concept_id represents fruit juice consumption"
+  },
+  {
+    "nhanes_var": "DTQ050U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Categorical frequency of drinking 100% fruit juice"
+  },
+  {
+    "nhanes_var": "DTQ305",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800019,
+    "notes": "Check item identifier; mapped to a generic measurement concept"
+  },
+  {
+    "nhanes_var": "DTD060Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Ordinal frequency of drinking sweetened coffee/tea; measurement_concept_id represents coffee/tea consumption"
+  },
+  {
+    "nhanes_var": "DTQ060U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Categorical frequency of drinking sweetened coffee/tea"
+  },
+  {
+    "nhanes_var": "DTD070Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800017,
+    "notes": "Ordinal frequency of drinking fruit/sports/energy drinks; measurement_concept_id represents sports drink consumption"
+  },
+  {
+    "nhanes_var": "DTQ070U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800017,
+    "notes": "Categorical frequency of drinking fruit/sports/energy drinks"
+  },
+  {
+    "nhanes_var": "DTD080Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of fruit consumption"
+  },
+  {
+    "nhanes_var": "DTQ080U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of fruit consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD090Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000127,
+    "notes": "Frequency of leafy/lettuce salad consumption"
+  },
+  {
+    "nhanes_var": "DTQ090U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000127,
+    "notes": "Frequency of leafy/lettuce salad consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD100Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000128,
+    "notes": "Frequency of fried potato consumption"
+  },
+  {
+    "nhanes_var": "DTQ100U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000128,
+    "notes": "Frequency of fried potato consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD110Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000129,
+    "notes": "Frequency of non\u2011fried potato consumption"
+  },
+  {
+    "nhanes_var": "DTQ110U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000129,
+    "notes": "Frequency of non\u2011fried potato consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD120Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000130,
+    "notes": "Frequency of bean consumption"
+  },
+  {
+    "nhanes_var": "DTQ120U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000130,
+    "notes": "Frequency of bean consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD130Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000125,
+    "notes": "Frequency of other vegetable consumption"
+  },
+  {
+    "nhanes_var": "DTQ130U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000125,
+    "notes": "Frequency of other vegetable consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD140Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000131,
+    "notes": "Frequency of pizza consumption"
+  },
+  {
+    "nhanes_var": "DTQ140U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000131,
+    "notes": "Frequency of pizza consumption (categorical)"
+  },
+  {
+    "nhanes_var": "DTD150Q",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000132,
+    "notes": "Frequency of tomato\u2011based salsa consumption"
+  },
+  {
+    "nhanes_var": "DTQ150U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating tomato-based salsa (categorical). Use OMOP frequency concepts (e.g., \"Daily\", \"Weekly\")."
+  },
+  {
+    "nhanes_var": "DTD160Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating tomato sauce (e.g., servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ160U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating tomato sauce. Map to OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD170Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating red meat (servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ170U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating red meat. Use OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD180Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating processed meat (servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ180U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating processed meat. Map to OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD190Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating cheese (servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ190U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating cheese. Use OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD200Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating whole grain bread (servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ200U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating whole grain bread. Map to OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD210Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating cooked whole grains (servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ210U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating cooked whole grains. Use OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD220Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency of eating chocolate or candy (servings per day)."
+  },
+  {
+    "nhanes_var": "DTQ220U",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical frequency of eating chocolate or candy. Map to OMOP frequency concepts."
+  },
+  {
+    "nhanes_var": "DTD230Q",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of pastry consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTQ230U",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of pastry consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTD240Q",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of cookies/cake consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTQ240U",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of cookies/cake consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTD250Q",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of ice cream consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTQ250U",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of ice cream consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTD260Q",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of popcorn consumption mapped to Food consumption concept"
+  },
+  {
+    "nhanes_var": "DTQ260U",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of popcorn consumption mapped to Food consumption concept"
+  }
+]

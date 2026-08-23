@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "DXATRST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trunk (A/G region) scan status (categorical)"
+  },
+  {
+    "nhanes_var": "DXATRTV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trunk tissue invalidity code (categorical)"
+  },
+  {
+    "nhanes_var": "DXXANFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android fat mass (continuous)"
+  },
+  {
+    "nhanes_var": "DXXANLM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android lean mass (continuous)"
+  },
+  {
+    "nhanes_var": "DXXANTOM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android total mass (continuous)"
+  },
+  {
+    "nhanes_var": "DXXGYFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid fat mass (continuous)"
+  },
+  {
+    "nhanes_var": "DXXGYLM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid lean mass (continuous)"
+  },
+  {
+    "nhanes_var": "DXXGYTOM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid total mass (continuous)"
+  },
+  {
+    "nhanes_var": "DXXAGRAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android to Gynoid ratio (continuous)"
+  },
+  {
+    "nhanes_var": "DXXAPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android percent fat (continuous)"
+  },
+  {
+    "nhanes_var": "DXXGPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid percent fat (continuous)"
+  }
+]

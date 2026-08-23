@@ -1,0 +1,93 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number, stored as source value for person"
+  },
+  {
+    "nhanes_var": "LUAXSTAT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Elastography exam status (categorical)"
+  },
+  {
+    "nhanes_var": "LUARXNC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason for partial exam (categorical)"
+  },
+  {
+    "nhanes_var": "LUARXND",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason exam not done (categorical)"
+  },
+  {
+    "nhanes_var": "LUARXIN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason ineligible (categorical)"
+  },
+  {
+    "nhanes_var": "LUAPNME",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exam wand type (categorical)"
+  },
+  {
+    "nhanes_var": "LUANMVGP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of complete measures from final wand (numeric)"
+  },
+  {
+    "nhanes_var": "LUANMTGP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of measures attempted with final wand (numeric)"
+  },
+  {
+    "nhanes_var": "LUXSMED",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Median stiffness (E) in kilopascals (numeric)"
+  },
+  {
+    "nhanes_var": "LUXSIQR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Stiffness E interquartile range (numeric)"
+  },
+  {
+    "nhanes_var": "LUXSIQRM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Ratio of stiffness IQR to median E (numeric)"
+  },
+  {
+    "nhanes_var": "LUXCAPM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Median CAP in decibels per meter (numeric)"
+  },
+  {
+    "nhanes_var": "LUXCPIQR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "CAP interquartile range (numeric)"
+  }
+]

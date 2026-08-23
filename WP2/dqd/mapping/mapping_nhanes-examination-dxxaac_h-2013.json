@@ -1,0 +1,142 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "DXDAACST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Abdominal aortic calcification status recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAACTV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total AAC invalidity code recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL1CC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L1 invalidity code recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL2CC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L2 invalidity code recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL3CC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L3 invalidity code recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL4CC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L4 invalidity code recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L1 posterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL1AN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L1 anterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L2 posterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL2AN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L2 anterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L3 posterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL3AN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L3 anterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL4",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L4 posterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL4AN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "AAC L4 anterior score recorded as a measurement"
+  },
+  {
+    "nhanes_var": "DXXAL4MD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Abdominal aortic calcification L4 mid score; stored as numeric value in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "DXXAC8AN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "AAC anterior 8 score; numeric value in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "DXXAC8PO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "AAC posterior 8 score; numeric value in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "DXXAAC8",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "AAC total 8 score; numeric value in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "DXXAAC24",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "AAC total 24 score; numeric value in Observation.value_as_number."
+  }
+]

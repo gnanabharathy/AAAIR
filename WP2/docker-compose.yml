@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: nhanes_omop
+    environment:
+      POSTGRES_DB: omop
+      POSTGRES_USER: omop_user
+      POSTGRES_PASSWORD: omop_pass
+    ports:
+      - "5433:5432"
+    volumes:
+      - omop_data:/var/lib/postgresql/data
+
+volumes:
+  omop_data:

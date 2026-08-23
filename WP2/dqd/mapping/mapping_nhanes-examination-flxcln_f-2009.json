@@ -1,0 +1,51 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "FCX06DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800000,
+    "notes": "Dental fluorosis DI for tooth 6, mapped to OMOP concept for dental fluorosis"
+  },
+  {
+    "nhanes_var": "FCX07DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800000,
+    "notes": "Dental fluorosis DI for tooth 7, mapped to OMOP concept for dental fluorosis"
+  },
+  {
+    "nhanes_var": "FCX08DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800000,
+    "notes": "Dental fluorosis DI for tooth 8, mapped to OMOP concept for dental fluorosis"
+  },
+  {
+    "nhanes_var": "FCX09DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800000,
+    "notes": "Dental fluorosis DI for tooth 9, mapped to OMOP concept for dental fluorosis"
+  },
+  {
+    "nhanes_var": "FCX10DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800000,
+    "notes": "Dental fluorosis DI for tooth 10, mapped to OMOP concept for dental fluorosis"
+  },
+  {
+    "nhanes_var": "FCX11DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800000,
+    "notes": "Dental fluorosis DI for tooth 11, mapped to OMOP concept for dental fluorosis"
+  }
+]

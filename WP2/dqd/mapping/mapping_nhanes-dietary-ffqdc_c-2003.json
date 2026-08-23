@@ -1,0 +1,37 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as the internal OMOP person identifier."
+  },
+  {
+    "nhanes_var": "FFQ_VAR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Variable ID from DietCalc stored as the observation concept; no standard concept available."
+  },
+  {
+    "nhanes_var": "FFQ_FOOD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Food ID from DietCalc stored as the value concept; no standard concept available."
+  },
+  {
+    "nhanes_var": "FFQ_FREQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Daily intake frequency stored as a numeric value."
+  },
+  {
+    "nhanes_var": "FFQ_CODE",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Imputation code stored as a concept; no standard concept available."
+  }
+]

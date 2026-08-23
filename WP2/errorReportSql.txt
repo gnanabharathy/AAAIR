@@ -1,0 +1,48 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: ERROR: relation "person" already exists
+
+SQL:
+--HINT DISTRIBUTE ON KEY (person_id)
+CREATE TABLE public.person (
+			person_id integer NOT NULL,
+			gender_concept_id integer NOT NULL,
+			year_of_birth integer NOT NULL,
+			month_of_birth integer NULL,
+			day_of_birth integer NULL,
+			birth_datetime TIMESTAMP NULL,
+			race_concept_id integer NOT NULL,
+			ethnicity_concept_id integer NOT NULL,
+			location_id integer NULL,
+			provider_id integer NULL,
+			care_site_id integer NULL,
+			person_source_value varchar(50) NULL,
+			gender_source_value varchar(50) NULL,
+			gender_source_concept_id integer NULL,
+			race_source_value varchar(50) NULL,
+			race_source_concept_id integer NULL,
+			ethnicity_source_value varchar(50) NULL,
+			ethnicity_source_concept_id integer NULL )
+
+R version:
+R version 4.5.3 (2026-03-11)
+
+Platform:
+aarch64-apple-darwin20
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
+- CommonDataModel (1.0.1)
+- rJava (1.0-11)
+- SqlRender (1.19.5)
+- DatabaseConnector (7.1.0)

@@ -1,0 +1,35 @@
+2026-07-22 14:50:49	[Main thread]	INFO	readr	cli_block	 ── Column specification ──────────────────────────────────────────────────────── cols(   checkLevel = col_character(),   checkName = col_character(),   checkDescription = col_character(),   kahnContext = col_character(),   kahnCategory = col_character(),   kahnSubcategory = col_character(),   sqlFile = col_character(),   evaluationFilter = col_character(),   severity = col_character() ) 
+2026-07-22 14:50:49	[Main thread]	INFO	DataQualityDashboard	executeDqChecks	CDM Tables skipped: CONCEPT, VOCABULARY, CONCEPT_ANCESTOR, CONCEPT_RELATIONSHIP, CONCEPT_CLASS, CONCEPT_SYNONYM, RELATIONSHIP, DOMAIN
+2026-07-22 14:50:49	[Main thread]	WARN	DataQualityDashboard	executeDqChecks	DEPRECATION WARNING - The plausibleDuringLife check has been reimplemented with the plausibleBeforeDeath check.
+2026-07-22 14:50:49	[Main thread]	WARN	DataQualityDashboard	executeDqChecks	DEPRECATION WARNING - The plausibleTemporalAfter check has been reimplemented with the plausibleAfterBirth and plausibleStartBeforeEnd checks.
+2026-07-22 14:50:49	[Main thread]	WARN	DataQualityDashboard	executeDqChecks	DEPRECATION WARNING - The plausibleGender check has been reimplemented with the plausibleGenderUseDescendants check.
+2026-07-22 14:50:49	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
+2026-07-22 14:50:49	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmTable
+2026-07-22 14:50:54	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measurePersonCompleteness
+2026-07-22 14:50:54	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureConditionEraCompleteness
+2026-07-22 14:50:54	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureObservationPeriodOverlap
+2026-07-22 14:50:54	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmField
+2026-07-22 14:52:06	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isRequired
+2026-07-22 14:52:31	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmDatatype
+2026-07-22 14:55:51	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isPrimaryKey
+2026-07-22 14:56:05	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isForeignKey
+2026-07-22 14:57:14	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkDomain
+2026-07-22 14:57:23	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkClass
+2026-07-22 14:57:23	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isStandardValidConcept
+2026-07-22 14:57:41	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureValueCompleteness
+2026-07-22 14:59:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: standardConceptRecordCompleteness
+2026-07-22 15:00:06	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceConceptRecordCompleteness
+2026-07-22 15:00:15	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceValueCompleteness
+2026-07-22 15:01:31	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueLow
+2026-07-22 15:01:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueHigh
+2026-07-22 15:05:37	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleTemporalAfter
+2026-07-22 15:05:45	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleDuringLife
+2026-07-22 15:05:46	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: withinVisitDates
+2026-07-22 15:05:46	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleAfterBirth
+2026-07-22 15:05:57	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleBeforeDeath
+2026-07-22 15:06:04	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleStartBeforeEnd
+2026-07-22 15:06:04	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGender
+2026-07-22 15:06:10	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGenderUseDescendants
+2026-07-22 15:06:10	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleUnitConceptIds
+2026-07-22 15:12:31	[Main thread]	INFO	DataQualityDashboard	.writeResultsToJson	Writing results to file: dqd_results/nhanes-dietary-drxfcd_g-2011.json
+2026-07-22 15:12:31	[Main thread]	INFO	DataQualityDashboard	executeDqChecks	Execution Complete

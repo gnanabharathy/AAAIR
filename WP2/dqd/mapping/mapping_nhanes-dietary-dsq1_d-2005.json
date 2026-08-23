@@ -1,0 +1,37 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person_id"
+  },
+  {
+    "nhanes_var": "DSD010",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Binary indicator of any dietary supplement use"
+  },
+  {
+    "nhanes_var": "DSD010AN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Binary indicator of any antacid use"
+  },
+  {
+    "nhanes_var": "DSDCOUNT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Count of dietary supplements taken, mapped to measurement"
+  },
+  {
+    "nhanes_var": "DSDANCNT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Count of antacids taken, mapped to measurement"
+  }
+]

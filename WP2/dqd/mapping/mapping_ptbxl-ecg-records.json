@@ -1,0 +1,254 @@
+[
+  {
+    "ptbxl_var": "ecg_id",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Unique ECG record identifier stored as a source value in the measurement table."
+  },
+  {
+    "ptbxl_var": "patient_id",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Patient identifier mapped to the primary key of the person table."
+  },
+  {
+    "ptbxl_var": "age",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "value_field": "value_as_number",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Age at recording time stored as a numeric measurement; concept ID for \"Age\" is not specified."
+  },
+  {
+    "ptbxl_var": "sex",
+    "omop_table": "person",
+    "omop_field": "gender_concept_id",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "0 maps to concept_id 8507 (Male), 1 maps to concept_id 8532 (Female)."
+  },
+  {
+    "ptbxl_var": "height",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "value_field": "value_as_number",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Height in cm stored as a numeric measurement; concept ID for \"Height\" is not specified."
+  },
+  {
+    "ptbxl_var": "weight",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "value_field": "value_as_number",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Weight in kg stored as a numeric measurement; concept ID for \"Weight\" is not specified."
+  },
+  {
+    "ptbxl_var": "nurse",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Pseudonymized nurse identifier stored as a source value."
+  },
+  {
+    "ptbxl_var": "site",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Pseudonymized site identifier stored as a source value."
+  },
+  {
+    "ptbxl_var": "device",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "ECG device model stored as a source value."
+  },
+  {
+    "ptbxl_var": "recording_date",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "value_field": "value_as_datetime",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Recording date stored as a datetime measurement; concept ID for \"ECG recording date\" is not specified."
+  },
+  {
+    "ptbxl_var": "report",
+    "omop_table": "note",
+    "omop_field": "note_type_concept_id",
+    "value_field": "note_text",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Free‑text report stored in the note table; note_type_concept_id is not specified."
+  },
+  {
+    "ptbxl_var": "scp_codes",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "value_field": "condition_source_value",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Each SCP‑ECG statement key becomes a separate condition_occurrence row. condition_source_value holds the code; condition_concept_id depends on the code (e.g., 'NORM' -> concept_id 123456)."
+  },
+  {
+    "ptbxl_var": "heart_axis",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_string",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Heart axis stored as a string observation; concept ID for \"Heart axis\" is not specified."
+  },
+  {
+    "ptbxl_var": "infarction_stadium1",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_string",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Primary infarction stage stored as a string observation; concept ID not specified."
+  },
+  {
+    "ptbxl_var": "infarction_stadium2",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_string",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Secondary infarction stage stored as a string observation; concept ID not specified."
+  },
+  {
+    "ptbxl_var": "validated_by",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Pseudonymized validating cardiologist identifier stored as a source value."
+  },
+  {
+    "ptbxl_var": "second_opinion",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Binary flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "initial_autogenerated_report",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Binary flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "validated_by_human",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Binary flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "baseline_drift",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Signal quality flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "static_noise",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Signal quality flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "burst_noise",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Signal quality flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "electrodes_problems",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Signal quality flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "extra_beats",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "value_field": "value_as_number",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Count of extra beats stored as a numeric measurement; concept ID for \"Extra beats count\" is not specified."
+  },
+  {
+    "ptbxl_var": "pacemaker",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_concept_id",
+    "concept_id": null,
+    "concept_id_depends_on_value": true,
+    "notes": "Pacemaker signal pattern flag mapped to Yes/No concepts (38003565/38003564)."
+  },
+  {
+    "ptbxl_var": "strat_fold",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "value_field": "value_as_string",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Stratified CV fold stored as a string observation; concept ID not specified."
+  },
+  {
+    "ptbxl_var": "filename_lr",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Waveform path (100Hz) is a catalog reference; stored as a source value."
+  },
+  {
+    "ptbxl_var": "filename_hr",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "value_field": "N/A",
+    "concept_id": null,
+    "concept_id_depends_on_value": false,
+    "notes": "Waveform path (500Hz) is a catalog reference; stored as a source value."
+  }
+]

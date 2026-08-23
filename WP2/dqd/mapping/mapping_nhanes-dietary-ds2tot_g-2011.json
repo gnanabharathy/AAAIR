@@ -1,0 +1,345 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier, maps to OMOP person_id"
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTDR2D",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary two-day sample weight, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "DR2DRSTZ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Dietary recall status, categorical value stored as concept_id"
+  },
+  {
+    "nhanes_var": "DR2EXMER",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interviewer ID code, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of days of intake, categorical numeric value"
+  },
+  {
+    "nhanes_var": "DR2DBIH",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Days between intake and household interview, continuous numeric"
+  },
+  {
+    "nhanes_var": "DR2DAY",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Intake day of week, categorical value stored as concept_id"
+  },
+  {
+    "nhanes_var": "DR2LANG",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language used by respondent, categorical value stored as concept_id"
+  },
+  {
+    "nhanes_var": "DR2MNRSP",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Main respondent for interview, categorical value stored as concept_id"
+  },
+  {
+    "nhanes_var": "DR2HELPD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Helped in responding, categorical value stored as concept_id"
+  },
+  {
+    "nhanes_var": "DS2DSCNT",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total number of dietary supplements taken, continuous numeric"
+  },
+  {
+    "nhanes_var": "DS2DS",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Any dietary supplements taken? Binary, stored as concept_id"
+  },
+  {
+    "nhanes_var": "DS2ANCNT",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total number of antacids taken, continuous numeric"
+  },
+  {
+    "nhanes_var": "DS2AN",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Any antacids taken? Binary, stored as concept_id"
+  },
+  {
+    "nhanes_var": "DS2TKCAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Energy intake (kcal) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TPROT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Protein intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TCARB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Carbohydrate intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TSUGR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total sugars intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TFIBE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dietary fiber intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TTFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total fat intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TSFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total saturated fatty acids intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TMFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total monounsaturated fatty acids intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total polyunsaturated fatty acids intake (gm) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TCHOL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cholesterol intake (mg) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TLYCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lycopene intake (mcg) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TLZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake (mcg) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake (mg) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake (mg) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TNIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Niacin intake (mg) mapped to OMOP Measurement table; no standard concept ID available."
+  },
+  {
+    "nhanes_var": "DS2TVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280000,
+    "notes": "Vitamin B6 intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280001,
+    "notes": "Vitamin B12 intake (mcg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280002,
+    "notes": "Folic acid intake (mcg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280003,
+    "notes": "Folate, DFE intake (mcg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TCHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280004,
+    "notes": "Total choline intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280005,
+    "notes": "Vitamin C intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280006,
+    "notes": "Vitamin K intake (mcg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TVD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280007,
+    "notes": "Vitamin D (D2 + D3) intake (mcg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TCALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280008,
+    "notes": "Calcium intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280009,
+    "notes": "Phosphorus intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280010,
+    "notes": "Magnesium intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280011,
+    "notes": "Iron intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280012,
+    "notes": "Zinc intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TCOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280013,
+    "notes": "Copper intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TSODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280014,
+    "notes": "Sodium intake (mg) from dietary recall"
+  },
+  {
+    "nhanes_var": "DS2TPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Potassium concentration in serum; map to OMOP concept for Potassium (e.g., LOINC 10220-0)"
+  },
+  {
+    "nhanes_var": "DS2TSELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Selenium concentration; map to OMOP concept for Selenium (e.g., LOINC 10220-0)"
+  },
+  {
+    "nhanes_var": "DS2TCAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Caffeine concentration; map to OMOP concept for Caffeine (e.g., LOINC 10220-0)"
+  },
+  {
+    "nhanes_var": "DS2TIODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Iodine concentration; map to OMOP concept for Iodine (e.g., LOINC 10220-0)"
+  }
+]

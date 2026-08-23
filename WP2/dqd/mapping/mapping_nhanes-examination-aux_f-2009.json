@@ -1,0 +1,499 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "AUAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Status of an audio exam recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUAEXCMT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for audio exam recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ010",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Presence of ear tube (right or left) recorded as a condition"
+  },
+  {
+    "nhanes_var": "AUQ020",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Had cold, sinus or earache in last 24 hrs recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ020A",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Had cold in last 24 hrs recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ020B",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Had sinus problem in last 24 hrs recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ020C",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Earache in last 24 hrs, right ear recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ020D",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Earache in last 24 hrs, left ear recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ020E",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Earache in last 24 hrs, both ears recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ030",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exposure to loud noise/music in last 24 hrs recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUQ040",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Hours since noise/music ended recorded as a measurement"
+  },
+  {
+    "nhanes_var": "AUQ050",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self-reported better ear status recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUXOTSPL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Normal otoscopy, left ear recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUXLOEXC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Excessive cerumen, left ear recorded as an observation"
+  },
+  {
+    "nhanes_var": "AUXLOIMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123456,
+    "notes": "Impacted cerumen, left ear (binary)."
+  },
+  {
+    "nhanes_var": "AUXLOCOL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123457,
+    "notes": "Collapsing ear canals, left ear (binary)."
+  },
+  {
+    "nhanes_var": "AUXLOABN",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123458,
+    "notes": "Other exam abnormality, left ear (binary)."
+  },
+  {
+    "nhanes_var": "AUDLOABC",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on other exam abnormality, left ear (categorical)."
+  },
+  {
+    "nhanes_var": "AUXROTSP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123459,
+    "notes": "Normal otoscopy, right ear (binary)."
+  },
+  {
+    "nhanes_var": "AUXROEXC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123460,
+    "notes": "Excessive cerumen, right ear (binary)."
+  },
+  {
+    "nhanes_var": "AUXROIMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123461,
+    "notes": "Impacted cerumen, right ear (binary)."
+  },
+  {
+    "nhanes_var": "AUXROCOL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123462,
+    "notes": "Collapsing ear canals, right ear (binary)."
+  },
+  {
+    "nhanes_var": "AUXROABN",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 123463,
+    "notes": "Other exam abnormality, right ear (binary)."
+  },
+  {
+    "nhanes_var": "AUDROABC",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on other exam abnormality, right ear (categorical)."
+  },
+  {
+    "nhanes_var": "AUXTMEPR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 123464,
+    "notes": "Middle ear pressure, tympanometry, right ear (continuous, daPa)."
+  },
+  {
+    "nhanes_var": "AUXTPVR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 123465,
+    "notes": "Physical volume, tympanometry, right ear (continuous, cc)."
+  },
+  {
+    "nhanes_var": "AUXTWIDR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 123466,
+    "notes": "Tympanometric width, right ear (continuous)."
+  },
+  {
+    "nhanes_var": "AUXTCOMR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 123467,
+    "notes": "Compliance (tympanometry), right ear (continuous)."
+  },
+  {
+    "nhanes_var": "AUXTMEPL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 123468,
+    "notes": "Middle ear pressure, tympanometry, left ear (continuous, daPa)."
+  },
+  {
+    "nhanes_var": "AUXTPVL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Physical volume of tympanic membrane (left ear) in cc; mapped to OMOP concept for 'Tympanic membrane volume' if available."
+  },
+  {
+    "nhanes_var": "AUXTWIDL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tympanometric width (left ear); no standard concept, use custom concept."
+  },
+  {
+    "nhanes_var": "AUXTCOML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Compliance from tympanometry (left ear); custom concept."
+  },
+  {
+    "nhanes_var": "AUAEAR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010003,
+    "notes": "Ear tested first; mapped to observation concept 'Ear tested first'."
+  },
+  {
+    "nhanes_var": "AUAMODE",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010004,
+    "notes": "Audio test mode (manual/automatic/mixed); observation concept."
+  },
+  {
+    "nhanes_var": "AUAFMANL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Frequency for manual mode switch (left ear); custom concept."
+  },
+  {
+    "nhanes_var": "AUAFMANR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010006,
+    "notes": "Frequency for manual mode switch (right ear); custom concept."
+  },
+  {
+    "nhanes_var": "AUXU1K1R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010007,
+    "notes": "Right ear hearing threshold at 1000 Hz (dB); mapped to 'Hearing threshold at 1000 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU500R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010008,
+    "notes": "Right ear hearing threshold at 500 Hz (dB); mapped to 'Hearing threshold at 500 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU1K2R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010009,
+    "notes": "Right ear second reading at 1000 Hz (dB); custom concept."
+  },
+  {
+    "nhanes_var": "AUXU2KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010010,
+    "notes": "Right ear hearing threshold at 2000 Hz (dB); mapped to 'Hearing threshold at 2000 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU3KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010011,
+    "notes": "Right ear hearing threshold at 3000 Hz (dB); mapped to 'Hearing threshold at 3000 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU4KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010012,
+    "notes": "Right ear hearing threshold at 4000 Hz (dB); mapped to 'Hearing threshold at 4000 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU6KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010013,
+    "notes": "Right ear hearing threshold at 6000 Hz (dB); mapped to 'Hearing threshold at 6000 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU8KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010014,
+    "notes": "Right ear hearing threshold at 8000 Hz (dB); mapped to 'Hearing threshold at 8000 Hz'."
+  },
+  {
+    "nhanes_var": "AUXU1K1L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 1000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU500L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 500 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU1K2L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 1000 Hz (second read); requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU2KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 2000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU3KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 3000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU4KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 4000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU6KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 6000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXU8KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ear hearing threshold at 8000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR1K1R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 1000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR5CR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 500 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR1K2R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 1000 Hz (second read); requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR2KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 2000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR3KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 3000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR4KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 4000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR6KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ear retest hearing threshold at 6000 Hz; requires custom concept"
+  },
+  {
+    "nhanes_var": "AUXR8KR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Right ear audiogram threshold at 8000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR1K1L",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 1000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR5CL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 500 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR1K2L",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 1000 Hz (second read) (db)"
+  },
+  {
+    "nhanes_var": "AUXR2KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 2000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR3KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 3000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR4KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 4000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR6KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 6000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUXR8KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 301,
+    "notes": "Left ear audiogram threshold at 8000 Hz (db)"
+  },
+  {
+    "nhanes_var": "AUAREQC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 301,
+    "notes": "Right ear tympanogram quality code (categorical)"
+  },
+  {
+    "nhanes_var": "AUALEQC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 301,
+    "notes": "Left ear tympanogram quality code (categorical)"
+  }
+]

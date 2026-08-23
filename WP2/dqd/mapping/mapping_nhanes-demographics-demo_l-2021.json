@@ -1,0 +1,191 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier; maps to person_id as the primary key for the person table."
+  },
+  {
+    "nhanes_var": "SDDSRVYR",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Data release cycle is a survey metadata variable. Store as an observation with observation_concept_id representing 'Survey version' or similar. Concept_id depends on available vocabulary."
+  },
+  {
+    "nhanes_var": "RIDSTATR",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Interview/examination status is a study-specific attribute. Map to observation table. Concept_id for status categories (e.g., 'Interviewed only', 'Both interviewed and MEC examined') would need custom or existing concepts."
+  },
+  {
+    "nhanes_var": "RIAGENDR",
+    "omop_table": "person",
+    "omop_field": "gender_concept_id",
+    "concept_id": null,
+    "notes": "Gender of participant. Map code 1 (Male) to 8507, code 2 (Female) to 8532. Missing values map to 0."
+  },
+  {
+    "nhanes_var": "RIDAGEYR",
+    "omop_table": "person",
+    "omop_field": "year_of_birth",
+    "concept_id": null,
+    "notes": "Age in years at screening. Calculate year_of_birth as (year of screening - RIDAGEYR). For top-coded 80, use 80. Missing values require imputation or leave null."
+  },
+  {
+    "nhanes_var": "RIDAGEMN",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Age in months for persons <=24 months. Can be used to refine year_of_birth or stored as an observation with concept for 'Age in months'."
+  },
+  {
+    "nhanes_var": "RIDRETH1",
+    "omop_table": "person",
+    "omop_field": "ethnicity_concept_id",
+    "concept_id": null,
+    "notes": "Race/Hispanic origin recode. This variable combines race and ethnicity. Map Hispanic categories (1,2) to ethnicity_concept_id (Hispanic/Latino = 38003563). Non-Hispanic categories (3,4,5) map to 38003564 (Not Hispanic). Race details from this variable are less granular; use RIDRETH3 for race."
+  },
+  {
+    "nhanes_var": "RIDRETH3",
+    "omop_table": "person",
+    "omop_field": "race_concept_id",
+    "concept_id": null,
+    "notes": "Race/Hispanic origin with NH Asian. Map race categories: 1 (Mexican American) -> 0 (Hispanic ethnicity handled separately), 2 (Other Hispanic) -> 0, 3 (Non-Hispanic White) -> 8527 (White), 4 (Non-Hispanic Black) -> 8516 (Black or African American), 6 (Non-Hispanic Asian) -> 8515 (Asian). Multi-racial from RIDRETH1 code 5 may map to 0 or multiple race concepts."
+  },
+  {
+    "nhanes_var": "RIDEXMON",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Six-month time period of exam. Map to observation with concept for 'Season of examination' (e.g., November-April = 1, May-October = 2)."
+  },
+  {
+    "nhanes_var": "RIDEXAGM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Age in months at exam for <=19 years. Store as observation with concept for 'Age in months at examination'."
+  },
+  {
+    "nhanes_var": "DMQMILIZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Served active duty in US Armed Forces. Map to observation with concept for 'Military service history'. Yes/No/Refused/Don't know map to standard concepts (e.g., Yes=4188539, No=4188540)."
+  },
+  {
+    "nhanes_var": "DMDBORN4",
+    "omop_table": "person",
+    "omop_field": "place_of_birth_concept_id",
+    "concept_id": null,
+    "notes": "Country of birth. Code 1 (Born in 50 US states or Washington, DC) maps to concept for 'United States'. Code 2 (Others) maps to a generic 'Foreign born' concept. Refused/Don't know map to 0."
+  },
+  {
+    "nhanes_var": "DMDYRUSR",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Length of time in US. Map to observation with concept for 'Length of residence in US'. Categories (Less than 1 year, 1-4 years, etc.) map to ordinal concepts."
+  },
+  {
+    "nhanes_var": "DMDEDUC2",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Education level - Adults 20+. Map to observation with concept for 'Education level'. Standard concepts exist (e.g., Less than 9th grade, High school graduate, College graduate)."
+  },
+  {
+    "nhanes_var": "DMDMARTZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Marital status. Map to observation with concept for 'Marital status'. Standard concepts: Married/Living with partner, Widowed/Divorced/Separated, Never married."
+  },
+  {
+    "nhanes_var": "RIDEXPRG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Pregnancy status at exam. Map to observation with concept for 'Pregnancy status'. Positive/Not pregnant/Cannot ascertain map to standard concepts."
+  },
+  {
+    "nhanes_var": "DMDHHSIZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total number of people in the Household. Map to observation with concept for 'Household size'. Numeric value stored as value_as_number."
+  },
+  {
+    "nhanes_var": "DMDHRGND",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's gender. Map to observation with concept for 'Gender of household reference person'. Male/Female map to 8507/8532."
+  },
+  {
+    "nhanes_var": "DMDHRAGZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's age category. Map to observation with concept for 'Age category of household reference person'. Categories (<20, 20-39, 40-59, 60+) map to ordinal concepts."
+  },
+  {
+    "nhanes_var": "DMDHREDZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's education level. Map to observation with concept for 'Education level of household reference person'. Categories map to standard education concepts."
+  },
+  {
+    "nhanes_var": "DMDHRMAZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's marital status. Map to observation with concept for 'Marital status of household reference person'. Categories map to standard marital status concepts."
+  },
+  {
+    "nhanes_var": "DMDHSEDZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's spouse's education level. Map to observation with concept for 'Education level of spouse of household reference person'."
+  },
+  {
+    "nhanes_var": "WTINT2YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Full sample 2-year interview weight. Survey weights are stored in observation table with concept for 'Survey weight'."
+  },
+  {
+    "nhanes_var": "WTMEC2YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Full sample 2-year MEC exam weight. Survey weight for examined participants. Store in observation table."
+  },
+  {
+    "nhanes_var": "SDMVSTRA",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Masked variance pseudo-stratum. Design variable for variance estimation. Store as observation with concept for 'Survey design stratum'."
+  },
+  {
+    "nhanes_var": "SDMVPSU",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Masked variance pseudo-PSU. Design variable for variance estimation. Store as observation with concept for 'Survey design PSU'."
+  },
+  {
+    "nhanes_var": "INDFMPIR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Ratio of family income to poverty. Map to observation with concept for 'Income to poverty ratio'. Numeric value stored as value_as_number; top-coded value 5 can be stored as 5."
+  }
+]

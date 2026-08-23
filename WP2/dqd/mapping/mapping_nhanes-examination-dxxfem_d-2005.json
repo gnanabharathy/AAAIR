@@ -1,0 +1,142 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "DXAFMRST",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Femur scan status recorded as an observation"
+  },
+  {
+    "nhanes_var": "DXXFMBCC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Total femur BMD invalidity code recorded as an observation"
+  },
+  {
+    "nhanes_var": "DXXOFBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total femur bone mineral density (BMD) measured"
+  },
+  {
+    "nhanes_var": "DXXOFBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total femur bone mineral content (BMC) measured"
+  },
+  {
+    "nhanes_var": "DXXOFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total femur area measured"
+  },
+  {
+    "nhanes_var": "DXXNKBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Femoral neck BMD measured"
+  },
+  {
+    "nhanes_var": "DXXNKBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Femoral neck BMC measured"
+  },
+  {
+    "nhanes_var": "DXXNKA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Femoral neck area measured"
+  },
+  {
+    "nhanes_var": "DXXTRBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trochanter BMD measured"
+  },
+  {
+    "nhanes_var": "DXXTRBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trochanter BMC measured"
+  },
+  {
+    "nhanes_var": "DXXTRA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trochanter area measured"
+  },
+  {
+    "nhanes_var": "DXXINBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Intertrochanter BMD measured"
+  },
+  {
+    "nhanes_var": "DXXINBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Intertrochanter BMC measured"
+  },
+  {
+    "nhanes_var": "DXXINA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Intertrochanter area measured"
+  },
+  {
+    "nhanes_var": "DXXWDBMD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Ward's triangle BMD maps to bone mineral density measurement (LOINC 718-7)."
+  },
+  {
+    "nhanes_var": "DXXWDBMC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Ward's triangle BMC maps to bone mineral content measurement."
+  },
+  {
+    "nhanes_var": "DXXWDA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Ward's triangle area maps to bone area measurement."
+  },
+  {
+    "nhanes_var": "DXAFMRK",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated K for femur is a derived biomechanical property; no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "DXAFMRD0",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated DO for femur is a derived biomechanical property; no standard OMOP concept."
+  }
+]

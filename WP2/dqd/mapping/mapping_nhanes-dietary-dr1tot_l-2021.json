@@ -1,0 +1,1178 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as external identifier for the person."
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight; stored as a measurement with a custom source concept."
+  },
+  {
+    "nhanes_var": "WTDR2D",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Dietary two\u2011day sample weight; stored as a measurement with a custom source concept."
+  },
+  {
+    "nhanes_var": "DR1DRSTZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Dietary recall status; categorical variable stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1EXMER",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Interviewer ID code; used as an external identifier for the interviewer."
+  },
+  {
+    "nhanes_var": "DRABF",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380001,
+    "notes": "Breast\u2011fed infant indicator; mapped to OMOP concept 380001 (Breastfed infant)."
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Number of days of intake; ordinal count stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1DBIH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Days between intake and household interview; continuous value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1DAY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Intake day of the week; categorical value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1LANG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Language respondent used mostly; categorical value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1MRESP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Main respondent for this interview; categorical value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1HELP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Helped in responding for this interview; categorical value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DBQ095Z",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Type of table salt used; categorical value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DBD100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of adding salt to food at table; ordinal value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DRQSPREP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_concept_id",
+    "concept_id": null,
+    "notes": "Salt used in preparation; ordinal value stored as a measurement."
+  },
+  {
+    "nhanes_var": "DR1STY",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of salt use at table yesterday; maps to Observation with concept \"Salt used at table\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DR1SKY",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical type of salt used yesterday; maps to Observation with concept \"Type of salt used\" and value as specific salt type concept."
+  },
+  {
+    "nhanes_var": "DRQSDIET",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of being on a special diet; maps to Observation with concept \"Special diet status\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of weight loss/low calorie diet; maps to Observation with concept \"Weight loss/low calorie diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT2",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of low fat/low cholesterol diet; maps to Observation with concept \"Low fat/low cholesterol diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT3",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of low salt/low sodium diet; maps to Observation with concept \"Low salt/low sodium diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT4",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of sugar free/low sugar diet; maps to Observation with concept \"Sugar free/low sugar diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT5",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of low fiber diet; maps to Observation with concept \"Low fiber diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT6",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of high fiber diet; maps to Observation with concept \"High fiber diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT7",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of diabetic diet; maps to Observation with concept \"Diabetic diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT8",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of weight gain/muscle building diet; maps to Observation with concept \"Weight gain/muscle building diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT9",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of low carbohydrate diet; maps to Observation with concept \"Low carbohydrate diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT10",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of high protein diet; maps to Observation with concept \"High protein diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT11",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of gluten-free/celiac diet; maps to Observation with concept \"Gluten-free/celiac diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT12",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of renal/kidney diet; maps to Observation with concept \"Renal/kidney diet\" and value \"Yes\" or \"No\"."
+  },
+  {
+    "nhanes_var": "DRQSDT91",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other special diet, categorical variable"
+  },
+  {
+    "nhanes_var": "DR1TNUMF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Number of foods/beverages reported, count"
+  },
+  {
+    "nhanes_var": "DR1TKCAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181520,
+    "notes": "Total energy intake in kcal"
+  },
+  {
+    "nhanes_var": "DR1TPROT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181521,
+    "notes": "Protein intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TCARB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181522,
+    "notes": "Carbohydrate intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TSUGR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181523,
+    "notes": "Total sugars intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TFIBE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181524,
+    "notes": "Dietary fiber intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TTFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181525,
+    "notes": "Total fat intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TSFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181526,
+    "notes": "Total saturated fatty acids intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TMFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181527,
+    "notes": "Total monounsaturated fatty acids intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181528,
+    "notes": "Total polyunsaturated fatty acids intake in grams"
+  },
+  {
+    "nhanes_var": "DR1TCHOL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181529,
+    "notes": "Cholesterol intake in mg"
+  },
+  {
+    "nhanes_var": "DR1TATOC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181530,
+    "notes": "Vitamin E (alpha-tocopherol) intake in mg"
+  },
+  {
+    "nhanes_var": "DR1TATOA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Added alpha-tocopherol (Vitamin E) intake in mg"
+  },
+  {
+    "nhanes_var": "DR1TRET",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4181531,
+    "notes": "Retinol intake in mcg"
+  },
+  {
+    "nhanes_var": "DR1TVARA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Vitamin A (RAE) intake; map to measurement_concept_id for Vitamin A"
+  },
+  {
+    "nhanes_var": "DR1TACAR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Alpha-carotene intake; map to measurement_concept_id for Alpha-carotene"
+  },
+  {
+    "nhanes_var": "DR1TBCAR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Beta-carotene intake; map to measurement_concept_id for Beta-carotene"
+  },
+  {
+    "nhanes_var": "DR1TCRYP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Beta-cryptoxanthin intake; map to measurement_concept_id for Beta-cryptoxanthin"
+  },
+  {
+    "nhanes_var": "DR1TLYCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lycopene intake; map to measurement_concept_id for Lycopene"
+  },
+  {
+    "nhanes_var": "DR1TLZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake; map to measurement_concept_id for Lutein and Zeaxanthin"
+  },
+  {
+    "nhanes_var": "DR1TVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake; map to measurement_concept_id for Thiamin"
+  },
+  {
+    "nhanes_var": "DR1TVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake; map to measurement_concept_id for Riboflavin"
+  },
+  {
+    "nhanes_var": "DR1TNIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Niacin intake; map to measurement_concept_id for Niacin"
+  },
+  {
+    "nhanes_var": "DR1TVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Vitamin B6 intake; map to measurement_concept_id for Vitamin B6"
+  },
+  {
+    "nhanes_var": "DR1TFOLA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Total folate intake; map to measurement_concept_id for Total Folate"
+  },
+  {
+    "nhanes_var": "DR1TFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Folic acid intake; map to measurement_concept_id for Folic Acid"
+  },
+  {
+    "nhanes_var": "DR1TFFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Food folate intake; map to measurement_concept_id for Food Folate"
+  },
+  {
+    "nhanes_var": "DR1TFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Folate, DFE intake; map to measurement_concept_id for Folate, DFE"
+  },
+  {
+    "nhanes_var": "DR1TCHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Total choline intake; map to measurement_concept_id for Total Choline"
+  },
+  {
+    "nhanes_var": "DR1TVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Vitamin B12 intake measured in mcg; mapped to OMOP concept for Vitamin B12"
+  },
+  {
+    "nhanes_var": "DR1TB12A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Added vitamin B12 intake in mcg; separate concept for added vitamin B12"
+  },
+  {
+    "nhanes_var": "DR1TVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Vitamin C intake in mg; mapped to OMOP concept for Vitamin C"
+  },
+  {
+    "nhanes_var": "DR1TVD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Vitamin D (D2 + D3) intake in mcg; mapped to OMOP concept for Vitamin D"
+  },
+  {
+    "nhanes_var": "DR1TVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010004,
+    "notes": "Vitamin K intake in mcg; mapped to OMOP concept for Vitamin K"
+  },
+  {
+    "nhanes_var": "DR1TCALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Calcium intake in mg; mapped to OMOP concept for Calcium"
+  },
+  {
+    "nhanes_var": "DR1TPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010006,
+    "notes": "Phosphorus intake in mg; mapped to OMOP concept for Phosphorus"
+  },
+  {
+    "nhanes_var": "DR1TMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010007,
+    "notes": "Magnesium intake in mg; mapped to OMOP concept for Magnesium"
+  },
+  {
+    "nhanes_var": "DR1TIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010008,
+    "notes": "Iron intake in mg; mapped to OMOP concept for Iron"
+  },
+  {
+    "nhanes_var": "DR1TZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010009,
+    "notes": "Zinc intake in mg; mapped to OMOP concept for Zinc"
+  },
+  {
+    "nhanes_var": "DR1TCOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010010,
+    "notes": "Copper intake in mg; mapped to OMOP concept for Copper"
+  },
+  {
+    "nhanes_var": "DR1TSODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010011,
+    "notes": "Sodium intake in mg; mapped to OMOP concept for Sodium"
+  },
+  {
+    "nhanes_var": "DR1TPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010012,
+    "notes": "Potassium intake in mg; mapped to OMOP concept for Potassium"
+  },
+  {
+    "nhanes_var": "DR1TSELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010013,
+    "notes": "Selenium intake in mcg; mapped to OMOP concept for Selenium"
+  },
+  {
+    "nhanes_var": "DR1TCAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010014,
+    "notes": "Caffeine intake in mg; mapped to OMOP concept for Caffeine"
+  },
+  {
+    "nhanes_var": "DR1TTHEO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Theobromine intake measured in mg; map to OMOP measurement concept for Theobromine if available."
+  },
+  {
+    "nhanes_var": "DR1TALCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Alcohol consumption in grams; map to OMOP measurement concept for Alcohol consumption."
+  },
+  {
+    "nhanes_var": "DR1TMOIS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Moisture content in grams; map to OMOP measurement concept for Moisture."
+  },
+  {
+    "nhanes_var": "DR1TS040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 4:0 (Butanoic) intake in grams; map to OMOP measurement concept for SFA 4:0."
+  },
+  {
+    "nhanes_var": "DR1TS060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 6:0 (Hexanoic) intake; map to OMOP measurement concept for SFA 6:0."
+  },
+  {
+    "nhanes_var": "DR1TS080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 8:0 (Octanoic) intake; map to OMOP measurement concept for SFA 8:0."
+  },
+  {
+    "nhanes_var": "DR1TS100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 10:0 (Decanoic) intake; map to OMOP measurement concept for SFA 10:0."
+  },
+  {
+    "nhanes_var": "DR1TS120",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 12:0 (Dodecanoic) intake; map to OMOP measurement concept for SFA 12:0."
+  },
+  {
+    "nhanes_var": "DR1TS140",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 14:0 (Tetradecanoic) intake; map to OMOP measurement concept for SFA 14:0."
+  },
+  {
+    "nhanes_var": "DR1TS160",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 16:0 (Hexadecanoic) intake; map to OMOP measurement concept for SFA 16:0."
+  },
+  {
+    "nhanes_var": "DR1TS180",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 18:0 (Octadecanoic) intake; map to OMOP measurement concept for SFA 18:0."
+  },
+  {
+    "nhanes_var": "DR1TM161",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "MFA 16:1 (Hexadecenoic) intake; map to OMOP measurement concept for MFA 16:1."
+  },
+  {
+    "nhanes_var": "DR1TM181",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "MFA 18:1 (Octadecenoic) intake; map to OMOP measurement concept for MFA 18:1."
+  },
+  {
+    "nhanes_var": "DR1TM201",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "MFA 20:1 (Eicosenoic) intake; map to OMOP measurement concept for MFA 20:1."
+  },
+  {
+    "nhanes_var": "DR1TM221",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "MFA 22:1 (Docosenoic) intake; map to OMOP measurement concept for MFA 22:1."
+  },
+  {
+    "nhanes_var": "DR1TP182",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 18:2 (Octadecadienoic) intake in grams; map to fatty acid measurement concept if available."
+  },
+  {
+    "nhanes_var": "DR1TP183",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 18:3 (Octadecatrienoic) intake in grams; fatty acid measurement."
+  },
+  {
+    "nhanes_var": "DR1TP184",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 18:4 (Octadecatetraenoic) intake in grams; fatty acid measurement."
+  },
+  {
+    "nhanes_var": "DR1TP204",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 20:4 (Eicosatetraenoic) intake in grams; fatty acid measurement."
+  },
+  {
+    "nhanes_var": "DR1TP205",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 20:5 (Eicosapentaenoic) intake in grams; fatty acid measurement."
+  },
+  {
+    "nhanes_var": "DR1TP225",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 22:5 (Docosapentaenoic) intake in grams; fatty acid measurement."
+  },
+  {
+    "nhanes_var": "DR1TP226",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "PFA 22:6 (Docosahexaenoic) intake in grams; fatty acid measurement."
+  },
+  {
+    "nhanes_var": "DR1_300",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Comparison of yesterday's food consumption to usual; ordinal measurement."
+  },
+  {
+    "nhanes_var": "DR1_320Z",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total plain water intake yesterday in grams; water consumption measurement."
+  },
+  {
+    "nhanes_var": "DR1_330Z",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total tap water intake yesterday in grams; water consumption measurement."
+  },
+  {
+    "nhanes_var": "DR1BWATZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total bottled water intake yesterday in grams; water consumption measurement."
+  },
+  {
+    "nhanes_var": "DR1TWSZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Tap water source category; categorical measurement."
+  },
+  {
+    "nhanes_var": "DRD340",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Shellfish consumption in past 30 days; binary measurement."
+  },
+  {
+    "nhanes_var": "DRD350A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Clam consumption in past 30 days; binary measurement."
+  },
+  {
+    "nhanes_var": "DRD350AQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Number of times clams eaten in past 30 days; continuous measurement."
+  },
+  {
+    "nhanes_var": "DRD350B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Crab consumption (binary) mapped to Observation with concept for crab"
+  },
+  {
+    "nhanes_var": "DRD350BQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times crab eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123457,
+    "notes": "Crayfish consumption (binary) mapped to Observation with concept for crayfish"
+  },
+  {
+    "nhanes_var": "DRD350CQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times crayfish eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350D",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123458,
+    "notes": "Lobster consumption (binary) mapped to Observation with concept for lobster"
+  },
+  {
+    "nhanes_var": "DRD350DQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times lobster eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350E",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123459,
+    "notes": "Mussel consumption (binary) mapped to Observation with concept for mussel"
+  },
+  {
+    "nhanes_var": "DRD350EQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times mussel eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350F",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123460,
+    "notes": "Oyster consumption (binary) mapped to Observation with concept for oyster"
+  },
+  {
+    "nhanes_var": "DRD350FQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times oyster eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350G",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123461,
+    "notes": "Scallop consumption (binary) mapped to Observation with concept for scallop"
+  },
+  {
+    "nhanes_var": "DRD350GQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times scallop eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350H",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123462,
+    "notes": "Shrimp consumption (binary) mapped to Observation with concept for shrimp"
+  },
+  {
+    "nhanes_var": "DRD350HQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of times shrimp eaten, numeric value"
+  },
+  {
+    "nhanes_var": "DRD350I",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123463,
+    "notes": "Other shellfish consumption (binary) mapped to Observation with concept for other shellfish"
+  },
+  {
+    "nhanes_var": "DRD350IQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times other shellfish eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD350J",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: other unknown shellfish eaten past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD350JQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times other unknown shellfish eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD350K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Refusal indicator for shellfish consumption (1=Refused, 0=Not refused)"
+  },
+  {
+    "nhanes_var": "DRD360",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: fish eaten during past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD370A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: breaded fish products eaten past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD370AQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times breaded fish products eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370B",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: tuna eaten during past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD370BQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times tuna eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370C",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: bass eaten during past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD370CQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times bass eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370D",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: catfish eaten during past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD370DQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times catfish eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370E",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Binary indicator: cod eaten during past 30 days (1=Yes, 0=No)"
+  },
+  {
+    "nhanes_var": "DRD370EQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of times cod eaten in past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370F",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of flatfish consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370FQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times flatfish eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370G",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of haddock consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370GQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times haddock eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370H",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of mackerel consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370HQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times mackerel eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370I",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of perch consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370IQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times perch eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370J",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of pike consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370JQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times pike eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370K",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of pollock consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370KQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times pollock eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370L",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of porgy consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370LQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Number of times porgy eaten in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370M",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Binary indicator of salmon consumption in the past 30 days"
+  },
+  {
+    "nhanes_var": "DRD370MQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Number of times salmon eaten in past 30 days; stored as numeric value"
+  },
+  {
+    "nhanes_var": "DRD370N",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380002,
+    "notes": "Sardines eaten during past 30 days; binary yes/no mapped to 380002 (Sardines) with value_as_concept_id 380001 (Yes) or 380000 (No)"
+  },
+  {
+    "nhanes_var": "DRD370NQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380002,
+    "notes": "Number of times sardines eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370O",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380003,
+    "notes": "Sea bass eaten during past 30 days; binary yes/no"
+  },
+  {
+    "nhanes_var": "DRD370OQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380003,
+    "notes": "Number of times sea bass eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370P",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380004,
+    "notes": "Shark eaten during past 30 days; binary yes/no"
+  },
+  {
+    "nhanes_var": "DRD370PQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380004,
+    "notes": "Number of times shark eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370Q",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380005,
+    "notes": "Swordfish eaten during past 30 days; binary yes/no"
+  },
+  {
+    "nhanes_var": "DRD370QQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380005,
+    "notes": "Number of times swordfish eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370R",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380006,
+    "notes": "Trout eaten during past 30 days; binary yes/no"
+  },
+  {
+    "nhanes_var": "DRD370RQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380006,
+    "notes": "Number of times trout eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370S",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380007,
+    "notes": "Walleye eaten during past 30 days; binary yes/no"
+  },
+  {
+    "nhanes_var": "DRD370SQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380007,
+    "notes": "Number of times walleye eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370T",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380008,
+    "notes": "Other fish eaten during past 30 days; binary yes/no"
+  },
+  {
+    "nhanes_var": "DRD370TQ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380008,
+    "notes": "Number of times other fish eaten; numeric value"
+  },
+  {
+    "nhanes_var": "DRD370U",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Binary indicator of whether participant ate any unknown fish in the past 30 days; the actual yes/no value is stored in value_as_concept_id or value_as_string."
+  },
+  {
+    "nhanes_var": "DRD370UQ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Ordinal count of times unknown fish was eaten; stored as a numeric value in the observation record."
+  },
+  {
+    "nhanes_var": "DRD370V",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Refusal indicator for the fish consumption question; represented by a null or a specific refusal concept if available."
+  }
+]

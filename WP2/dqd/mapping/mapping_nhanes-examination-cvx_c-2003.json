@@ -1,0 +1,387 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "CVDEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Physical fitness exam status recorded as an observation"
+  },
+  {
+    "nhanes_var": "CVDEXCMT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for exam status stored as an observation"
+  },
+  {
+    "nhanes_var": "CVDEXCL1",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion due to physical limitations (binary flag) as observation"
+  },
+  {
+    "nhanes_var": "CVDEXCL2",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion due to cardiovascular conditions (binary flag) as observation"
+  },
+  {
+    "nhanes_var": "CVDEXCL3",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion due to lung/breathing conditions (binary flag) as observation"
+  },
+  {
+    "nhanes_var": "CVDEXCL4",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion due to asthma symptoms (binary flag) as observation"
+  },
+  {
+    "nhanes_var": "CVDEXCL5",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion due to medications (binary flag) as observation"
+  },
+  {
+    "nhanes_var": "CVDEXCL6",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion due to other specific reasons (binary flag) as observation"
+  },
+  {
+    "nhanes_var": "CVDEXLEN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Length of CV fitness exam in minutes recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CVDEXMER",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Examiner ID code stored as an observation"
+  },
+  {
+    "nhanes_var": "CVDPMHR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Predicted maximal heart rate (per min) recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CVXPARC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Physical activity readiness code recorded as an observation"
+  },
+  {
+    "nhanes_var": "CVDVOMAX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Predicted VO2max (ml/kg/min) recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CVAPROT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Assigned exercise protocol recorded as an observation"
+  },
+  {
+    "nhanes_var": "CVDPROT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Exercise protocol used in stage 1 and 2; categorical, map to a concept if available"
+  },
+  {
+    "nhanes_var": "CVATEMP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Room temperature (degrees F); numeric measurement"
+  },
+  {
+    "nhanes_var": "CVAARM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Arm selected for blood pressure monitor; categorical"
+  },
+  {
+    "nhanes_var": "CVACUFF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Cuff size for blood pressure monitor; categorical"
+  },
+  {
+    "nhanes_var": "CVAVEST",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Mesh vest used; binary (yes/no)"
+  },
+  {
+    "nhanes_var": "CVAWS1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Warm\u2011up speed (mph); numeric"
+  },
+  {
+    "nhanes_var": "CVAWG1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Warm\u2011up grade (% incline); numeric"
+  },
+  {
+    "nhanes_var": "CVDWTIM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Amount of time spent in warm\u2011up (min); numeric"
+  },
+  {
+    "nhanes_var": "CVXWRPE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Warm\u2011up rating of perceived exertion; ordinal, map to RPE concept if available"
+  },
+  {
+    "nhanes_var": "CVDWHR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Warm\u2011up heart rate (per min); numeric"
+  },
+  {
+    "nhanes_var": "CVDWSY",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Warm\u2011up systolic BP (mm Hg); numeric"
+  },
+  {
+    "nhanes_var": "CVDWDI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Warm\u2011up diastolic BP (mm Hg); numeric"
+  },
+  {
+    "nhanes_var": "CVDS1S",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Stage 1 speed (mph); numeric"
+  },
+  {
+    "nhanes_var": "CVDS1G",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Stage 1 grade (% incline); numeric"
+  },
+  {
+    "nhanes_var": "CVDS1TIM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Amount of time spent in Stage 1 (min); numeric"
+  },
+  {
+    "nhanes_var": "CVXS1RPE",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Stage 1 perceived exertion rating (Borg scale) \u2013 categorical, no standard concept"
+  },
+  {
+    "nhanes_var": "CVDS1HR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 391665,
+    "notes": "Stage 1 heart rate (per minute) \u2013 standard concept 391665 (Heart rate)"
+  },
+  {
+    "nhanes_var": "CVDS1SY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 1 systolic blood pressure (mm Hg) \u2013 no single standard concept; use custom concept if available"
+  },
+  {
+    "nhanes_var": "CVDS1DI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 1 diastolic blood pressure (mm Hg) \u2013 no single standard concept; use custom concept if available"
+  },
+  {
+    "nhanes_var": "CVDS2S",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 2 speed (mph) \u2013 no standard concept; use custom concept"
+  },
+  {
+    "nhanes_var": "CVDS2G",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 2 grade (% incline) \u2013 no standard concept; use custom concept"
+  },
+  {
+    "nhanes_var": "CVDS2TIM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 2 time spent (min) \u2013 no standard concept; use custom concept"
+  },
+  {
+    "nhanes_var": "CVXS2RPE",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Stage 2 perceived exertion rating (Borg scale) \u2013 categorical, no standard concept"
+  },
+  {
+    "nhanes_var": "CVDS2HR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 391665,
+    "notes": "Stage 2 heart rate (per minute) \u2013 standard concept 391665 (Heart rate)"
+  },
+  {
+    "nhanes_var": "CVDS2SY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 2 systolic blood pressure (mm Hg) \u2013 no single standard concept; use custom concept if available"
+  },
+  {
+    "nhanes_var": "CVDS2DI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Stage 2 diastolic blood pressure (mm Hg) \u2013 no single standard concept; use custom concept if available"
+  },
+  {
+    "nhanes_var": "CVDR1TIM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Recovery 1 time spent (min) \u2013 no standard concept; use custom concept"
+  },
+  {
+    "nhanes_var": "CVDR1HR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 391665,
+    "notes": "Recovery 1 heart rate (per minute) \u2013 standard concept 391665 (Heart rate)"
+  },
+  {
+    "nhanes_var": "CVDR1SY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Recovery 1 systolic blood pressure (mm Hg) \u2013 no single standard concept; use custom concept if available"
+  },
+  {
+    "nhanes_var": "CVDR1DI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Recovery 1 diastolic blood pressure (mm Hg) \u2013 no single standard concept; use custom concept if available"
+  },
+  {
+    "nhanes_var": "CVDR2TIM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Time spent in Recovery 2 (min) \u2013 no standard OMOP concept; record in measurement_source_value."
+  },
+  {
+    "nhanes_var": "CVDR2HR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Recovery 2 heart rate; unit: beats per minute (unit_concept_id 3010005)."
+  },
+  {
+    "nhanes_var": "CVDR2SY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Recovery 2 systolic blood pressure; unit: mmHg (unit_concept_id 3010006)."
+  },
+  {
+    "nhanes_var": "CVDR2DI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Recovery 2 diastolic blood pressure; unit: mmHg (unit_concept_id 3010006)."
+  },
+  {
+    "nhanes_var": "CVDR3TIM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Time spent in Recovery 3 (min) \u2013 no standard OMOP concept; record in measurement_source_value."
+  },
+  {
+    "nhanes_var": "CVDR3HR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Recovery 3 heart rate; unit: beats per minute (unit_concept_id 3010005)."
+  },
+  {
+    "nhanes_var": "CVDR3SY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Recovery 3 systolic blood pressure; unit: mmHg (unit_concept_id 3010006)."
+  },
+  {
+    "nhanes_var": "CVDR3DI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Recovery 3 diastolic blood pressure; unit: mmHg (unit_concept_id 3010006)."
+  },
+  {
+    "nhanes_var": "CVDESVO2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Estimated VO2max; unit: ml/kg/min (unit_concept_id 3010007)."
+  },
+  {
+    "nhanes_var": "CVDFITLV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cardiovascular fitness level (ordinal); no standard OMOP concept; record in measurement_source_value."
+  }
+]

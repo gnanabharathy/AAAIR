@@ -1,0 +1,590 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source value for person"
+  },
+  {
+    "nhanes_var": "WTDRD1PP",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight"
+  },
+  {
+    "nhanes_var": "WTDR2DPP",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary two-day sample weight"
+  },
+  {
+    "nhanes_var": "DR2ILINE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Food/Individual component number"
+  },
+  {
+    "nhanes_var": "DR2DRSTZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_text",
+    "concept_id": null,
+    "notes": "Dietary recall status"
+  },
+  {
+    "nhanes_var": "DR2EXMER",
+    "omop_table": "observation",
+    "omop_field": "value_as_text",
+    "concept_id": null,
+    "notes": "Interviewer ID code"
+  },
+  {
+    "nhanes_var": "DRABF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Breast-fed infant (binary) \u2013 concept 380001 (Breastfeeding status)"
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of days of intake"
+  },
+  {
+    "nhanes_var": "DR2DBIH",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "# of days between intake and HH interview"
+  },
+  {
+    "nhanes_var": "DR2DAY",
+    "omop_table": "measurement",
+    "omop_field": "value_as_text",
+    "concept_id": null,
+    "notes": "Intake day of the week"
+  },
+  {
+    "nhanes_var": "DR2LANG",
+    "omop_table": "person",
+    "omop_field": "language_source_value",
+    "concept_id": null,
+    "notes": "Language respondent used mostly"
+  },
+  {
+    "nhanes_var": "DR2CCMNM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Combination food number"
+  },
+  {
+    "nhanes_var": "DR2CCMTX",
+    "omop_table": "measurement",
+    "omop_field": "value_as_text",
+    "concept_id": null,
+    "notes": "Combination food type"
+  },
+  {
+    "nhanes_var": "DR2_020",
+    "omop_table": "measurement",
+    "omop_field": "value_as_text",
+    "concept_id": null,
+    "notes": "Time of eating occasion (HH:MM) \u2013 stored as text"
+  },
+  {
+    "nhanes_var": "DR2_030Z",
+    "omop_table": "measurement",
+    "omop_field": "value_as_text",
+    "concept_id": null,
+    "notes": "Name of eating occasion"
+  },
+  {
+    "nhanes_var": "DR2FS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000197,
+    "notes": "Source of food mapped to Observation table using concept \"Food source\" (38000197)."
+  },
+  {
+    "nhanes_var": "DR2_040Z",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000198,
+    "notes": "Meal location (at home) mapped to Observation table using concept \"Meal location\" (38000198)."
+  },
+  {
+    "nhanes_var": "DR2IFDCD",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": 38000199,
+    "notes": "USDA food code stored as source value in Observation table; concept \"Food code\" (38000199)."
+  },
+  {
+    "nhanes_var": "DR2IGRMS",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000184,
+    "notes": "Grams of food consumed mapped to Measurement table using concept \"Food intake\" (38000184); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2IKCAL",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000196,
+    "notes": "Energy (kcal) mapped to Measurement table using concept \"Energy\" (38000196); unit concept is kcal (38000198)."
+  },
+  {
+    "nhanes_var": "DR2IPROT",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000186,
+    "notes": "Protein (gm) mapped to Measurement table using concept \"Protein\" (38000186); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2ICARB",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000187,
+    "notes": "Carbohydrate (gm) mapped to Measurement table using concept \"Carbohydrate\" (38000187); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2ISUGR",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000195,
+    "notes": "Total sugars (gm) mapped to Measurement table using concept \"Sugar\" (38000195); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2IFIBE",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000194,
+    "notes": "Dietary fiber (gm) mapped to Measurement table using concept \"Fiber\" (38000194); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2ITFAT",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000188,
+    "notes": "Total fat (gm) mapped to Measurement table using concept \"Total fat\" (38000188); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2ISFAT",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000189,
+    "notes": "Total saturated fatty acids (gm) mapped to Measurement table using concept \"Saturated fat\" (38000189); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2IMFAT",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000190,
+    "notes": "Total monounsaturated fatty acids (gm) mapped to Measurement table using concept \"Monounsaturated fat\" (38000190); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2IPFAT",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000191,
+    "notes": "Total polyunsaturated fatty acids (gm) mapped to Measurement table using concept \"Polyunsaturated fat\" (38000191); unit concept is gram (38000197)."
+  },
+  {
+    "nhanes_var": "DR2ICHOL",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000192,
+    "notes": "Cholesterol (mg) mapped to Measurement table using concept \"Cholesterol\" (38000192); unit concept is mg (38000198)."
+  },
+  {
+    "nhanes_var": "DR2IATOC",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000193,
+    "notes": "Vitamin E as alpha\u2011tocopherol (mg) mapped to Measurement table using concept \"Vitamin E\" (38000193); unit concept is mg (38000198)."
+  },
+  {
+    "nhanes_var": "DR2IATOA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Added alpha\u2011tocopherol (Vitamin E) intake; map to Observation with concept for Vitamin E (alpha\u2011tocopherol) if available."
+  },
+  {
+    "nhanes_var": "DR2IRET",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Retinol (Vitamin A) intake; map to Observation with concept for Retinol."
+  },
+  {
+    "nhanes_var": "DR2IVARA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin A, RAE (retinol activity equivalents) intake; map to Observation with concept for Vitamin A (RAE)."
+  },
+  {
+    "nhanes_var": "DR2IACAR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Alpha\u2011carotene intake; map to Observation with concept for Alpha\u2011carotene."
+  },
+  {
+    "nhanes_var": "DR2IBCAR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Beta\u2011carotene intake; map to Observation with concept for Beta\u2011carotene."
+  },
+  {
+    "nhanes_var": "DR2ICRYP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Beta\u2011cryptoxanthin intake; map to Observation with concept for Beta\u2011cryptoxanthin."
+  },
+  {
+    "nhanes_var": "DR2ILYCO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Lycopene intake; map to Observation with concept for Lycopene."
+  },
+  {
+    "nhanes_var": "DR2ILZ",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake; map to Observation with concept for Lutein or Zeaxanthin (combined)."
+  },
+  {
+    "nhanes_var": "DR2IVB1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake; map to Observation with concept for Thiamin."
+  },
+  {
+    "nhanes_var": "DR2IVB2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake; map to Observation with concept for Riboflavin."
+  },
+  {
+    "nhanes_var": "DR2INIAC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Niacin intake; map to Observation with concept for Niacin."
+  },
+  {
+    "nhanes_var": "DR2IVB6",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B6 intake; map to Observation with concept for Vitamin B6."
+  },
+  {
+    "nhanes_var": "DR2IFOLA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Total folate intake; map to Observation with concept for Total Folate."
+  },
+  {
+    "nhanes_var": "DR2IFA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Folic acid intake; map to Observation with concept for Folic Acid."
+  },
+  {
+    "nhanes_var": "DR2IFF",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food folate intake; map to Observation with concept for Food Folate."
+  },
+  {
+    "nhanes_var": "DR2IFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Folate intake (mcg) mapped to OMOP concept \"Folate\""
+  },
+  {
+    "nhanes_var": "DR2ICHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Total choline intake (mg) mapped to OMOP concept \"Choline\""
+  },
+  {
+    "nhanes_var": "DR2IVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Vitamin B12 intake (mcg) mapped to OMOP concept \"Vitamin B12\""
+  },
+  {
+    "nhanes_var": "DR2IB12A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Added vitamin B12 intake (mcg) mapped to same OMOP concept \"Vitamin B12\""
+  },
+  {
+    "nhanes_var": "DR2IVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Vitamin C intake (mg) mapped to OMOP concept \"Vitamin C\""
+  },
+  {
+    "nhanes_var": "DR2IVD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010004,
+    "notes": "Vitamin D intake (mcg) mapped to OMOP concept \"Vitamin D\""
+  },
+  {
+    "nhanes_var": "DR2IVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Vitamin K intake (mcg) mapped to OMOP concept \"Vitamin K\""
+  },
+  {
+    "nhanes_var": "DR2ICALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010006,
+    "notes": "Calcium intake (mg) mapped to OMOP concept \"Calcium\""
+  },
+  {
+    "nhanes_var": "DR2IPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010007,
+    "notes": "Phosphorus intake (mg) mapped to OMOP concept \"Phosphorus\""
+  },
+  {
+    "nhanes_var": "DR2IMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010008,
+    "notes": "Magnesium intake (mg) mapped to OMOP concept \"Magnesium\""
+  },
+  {
+    "nhanes_var": "DR2IIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010009,
+    "notes": "Iron intake (mg) mapped to OMOP concept \"Iron\""
+  },
+  {
+    "nhanes_var": "DR2IZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010010,
+    "notes": "Zinc intake (mg) mapped to OMOP concept \"Zinc\""
+  },
+  {
+    "nhanes_var": "DR2ICOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010011,
+    "notes": "Copper intake (mg) mapped to OMOP concept \"Copper\""
+  },
+  {
+    "nhanes_var": "DR2ISODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010012,
+    "notes": "Sodium intake (mg) mapped to OMOP concept \"Sodium\""
+  },
+  {
+    "nhanes_var": "DR2IPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010013,
+    "notes": "Potassium intake (mg) mapped to OMOP concept \"Potassium\""
+  },
+  {
+    "nhanes_var": "DR2ISELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Selenium intake (mcg) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2ICAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Caffeine intake (mg) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2ITHEO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Theobromine intake (mg) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IALCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Alcohol intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IMOIS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Moisture intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 4:0 (Butanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 6:0 (Hexanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 8:0 (Octanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 10:0 (Decanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS120",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 12:0 (Dodecanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS140",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 14:0 (Tetradecanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS160",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 16:0 (Hexadecanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IS180",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 18:0 (Octadecanoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IM161",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "MFA 16:1 (Hexadecenoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IM181",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "MFA 18:1 (Octadecenoic acid) intake (gm) \u2013 dietary measurement"
+  },
+  {
+    "nhanes_var": "DR2IM201",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "MFA 20:1 (Eicosenoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IM221",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "MFA 22:1 (Docosenoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP182",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 18:2 (Octadecadienoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP183",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 18:3 (Octadecatrienoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP184",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 18:4 (Octadecatetraenoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP204",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 20:4 (Eicosatetraenoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP205",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 20:5 (Eicosapentaenoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP225",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 22:5 (Docosapentaenoic) measured in grams; map to Measurement table as source value"
+  },
+  {
+    "nhanes_var": "DR2IP226",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "PFA 22:6 (Docosahexaenoic) measured in grams; map to Measurement table as source value"
+  }
+]

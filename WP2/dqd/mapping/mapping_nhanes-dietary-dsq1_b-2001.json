@@ -1,0 +1,23 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique identifier for each participant"
+  },
+  {
+    "nhanes_var": "DSD010",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of any dietary supplement use"
+  },
+  {
+    "nhanes_var": "DSDCOUNT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Count of dietary supplements taken"
+  }
+]

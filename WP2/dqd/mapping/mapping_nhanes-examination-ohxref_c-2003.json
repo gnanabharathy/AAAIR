@@ -1,0 +1,198 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person_id"
+  },
+  {
+    "nhanes_var": "OHAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status"
+  },
+  {
+    "nhanes_var": "OHASCST5",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Referral status code"
+  },
+  {
+    "nhanes_var": "OHQ131",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Antibiotic usage behavior"
+  },
+  {
+    "nhanes_var": "OHQ132",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380001,
+    "notes": "Any heart problem"
+  },
+  {
+    "nhanes_var": "OHQ134",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380002,
+    "notes": "Congenital heart murmurs"
+  },
+  {
+    "nhanes_var": "OHQ136",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380003,
+    "notes": "Heart valve problem"
+  },
+  {
+    "nhanes_var": "OHQ138",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380004,
+    "notes": "Congenital heart disease"
+  },
+  {
+    "nhanes_var": "OHQ140",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380005,
+    "notes": "Bacterial endocarditis"
+  },
+  {
+    "nhanes_var": "OHQ142",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380006,
+    "notes": "Rheumatic fever"
+  },
+  {
+    "nhanes_var": "OHQ144",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380007,
+    "notes": "Kidney disease with dialysis"
+  },
+  {
+    "nhanes_var": "OHQ146",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of other artificial material"
+  },
+  {
+    "nhanes_var": "OHQ148",
+    "omop_table": "device_exposure",
+    "omop_field": "device_concept_id",
+    "concept_id": 380008,
+    "notes": "Hip, bone, or joint replacement"
+  },
+  {
+    "nhanes_var": "OHQ011",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Mouth/teeth condition"
+  },
+  {
+    "nhanes_var": "OHQ410",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Removable max denture"
+  },
+  {
+    "nhanes_var": "OHQ420",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of wearing a complete or partial maxillary denture; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHQ430",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of wearing a removable complete or partial mandibular denture; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHQ440",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of wearing a complete or partial mandibular denture; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHAREC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal overall recommendation for care; maps to an observation concept with ordinal value."
+  },
+  {
+    "nhanes_var": "OHAROCDT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of untreated caries or restorative needs; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHAROCGP",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of periodontal needs; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHAROCOH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of gingival or oral hygiene indicator needs; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHAROCCI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of assessment of soft tissue lesion; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHAROCDE",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of denture/partial denture/plates; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHAROTH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of some other finding; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHARNF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of no significant needs; maps to an observation concept."
+  },
+  {
+    "nhanes_var": "OHARCMT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Categorical other referral comments; maps to an observation concept with text value."
+  },
+  {
+    "nhanes_var": "OHAPOS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Categorical indicator of whether participant exam position was recumbent; maps to an observation concept."
+  }
+]

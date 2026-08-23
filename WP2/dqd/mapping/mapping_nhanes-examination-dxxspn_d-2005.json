@@ -1,0 +1,247 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as person source value"
+  },
+  {
+    "nhanes_var": "DXASPNST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Spine scan status (categorical)"
+  },
+  {
+    "nhanes_var": "DXXOSBCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for total spine BMD"
+  },
+  {
+    "nhanes_var": "DXXL1BCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L1 BMD"
+  },
+  {
+    "nhanes_var": "DXXL2BCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L2 BMD"
+  },
+  {
+    "nhanes_var": "DXXL3BCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L3 BMD"
+  },
+  {
+    "nhanes_var": "DXXL4BCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L4 BMD"
+  },
+  {
+    "nhanes_var": "DXXOSBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280000,
+    "notes": "Total spine bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXOSBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total spine bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXOSA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total spine area"
+  },
+  {
+    "nhanes_var": "DXXL1BMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L1 bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXL1BMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L1 bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXL1A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L1 area"
+  },
+  {
+    "nhanes_var": "DXXL2BMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L2 bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXL2BMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L2 bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXL2A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L2 bone area; no standard OMOP concept, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXL3BMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "L3 bone mineral density (DXA) mapped to OMOP concept 3010000"
+  },
+  {
+    "nhanes_var": "DXXL3BMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L3 bone mineral content; no standard concept, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXL3A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L3 bone area; no standard concept, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXL4BMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "L4 bone mineral density (DXA) mapped to OMOP concept 3010000"
+  },
+  {
+    "nhanes_var": "DXXL4BMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L4 bone mineral content; no standard concept, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXL4A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L4 bone area; no standard concept, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXASPNK",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Calculated K for spine; derived value, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXASPND0",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Calculated D0 for spine; derived value, store as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXTBSSV",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Trabecular Bone Score invalidity code; categorical, store as observation"
+  },
+  {
+    "nhanes_var": "DXXTOTBS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010003,
+    "notes": "Total Trabecular Bone Score; mapped to OMOP concept 3010003 if available"
+  },
+  {
+    "nhanes_var": "DXXTBSM",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "TBS missing data reason; categorical, store as observation"
+  },
+  {
+    "nhanes_var": "DXXL1TQA",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "L1 TBS invalidity code; categorical, store as observation"
+  },
+  {
+    "nhanes_var": "DXXL1TBS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010003,
+    "notes": "L1 Trabecular Bone Score; mapped to OMOP concept 3010003 if available"
+  },
+  {
+    "nhanes_var": "DXXL2TQA",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "L2 TBS invalidity code; categorical, store as observation"
+  },
+  {
+    "nhanes_var": "DXXL2TBS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280000,
+    "notes": "L2 lumbar spine trabecular bone score (numeric) mapped to OMOP measurement concept for TBS"
+  },
+  {
+    "nhanes_var": "DXXL3TQA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "L3 TBS invalidity code stored as source value (no standard concept)"
+  },
+  {
+    "nhanes_var": "DXXL3TBS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280000,
+    "notes": "L3 lumbar spine trabecular bone score (numeric) mapped to OMOP measurement concept for TBS"
+  },
+  {
+    "nhanes_var": "DXXL4TQA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "L4 TBS invalidity code stored as source value (no standard concept)"
+  },
+  {
+    "nhanes_var": "DXXL4TBS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280000,
+    "notes": "L4 lumbar spine trabecular bone score (numeric) mapped to OMOP measurement concept for TBS"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Original NHANES respondent ID"
+  },
+  {
+    "nhanes_var": "MGDEXSTS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Grip test status (categorical)"
+  },
+  {
+    "nhanes_var": "MGD050",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "History of hand or wrist surgery"
+  },
+  {
+    "nhanes_var": "MGD060",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Hand or wrist surgery location"
+  },
+  {
+    "nhanes_var": "MGQ070",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recent pain/aching/stiffness in right hand"
+  },
+  {
+    "nhanes_var": "MGQ080",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Cause of recent pain in right hand"
+  },
+  {
+    "nhanes_var": "MGQ090",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pain in right hand worsening recently"
+  },
+  {
+    "nhanes_var": "MGQ100",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recent pain/aching/stiffness in left hand"
+  },
+  {
+    "nhanes_var": "MGQ110",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Cause of recent pain in left hand"
+  },
+  {
+    "nhanes_var": "MGQ120",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pain in left hand worsening recently"
+  },
+  {
+    "nhanes_var": "MGD130",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dominant hand"
+  },
+  {
+    "nhanes_var": "MGQ90DG",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "90 degree angle with index finger"
+  },
+  {
+    "nhanes_var": "MGDSEAT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Testing position"
+  },
+  {
+    "nhanes_var": "MGAPHAND",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Hand assigned for practice trial"
+  },
+  {
+    "nhanes_var": "MGATHAND",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Hand used to begin test"
+  },
+  {
+    "nhanes_var": "MGXH1T1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Grip strength hand 1, test 1"
+  },
+  {
+    "nhanes_var": "MGXH1T1E",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Effort indicator for hand 1, test 1"
+  },
+  {
+    "nhanes_var": "MGXH2T1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Grip strength hand 2, test 1"
+  },
+  {
+    "nhanes_var": "MGXH2T1E",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Effort indicator for hand 2, test 1"
+  },
+  {
+    "nhanes_var": "MGXH1T2",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Grip strength hand 1, test 2"
+  },
+  {
+    "nhanes_var": "MGXH1T2E",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Effort indicator for hand 1, test 2"
+  },
+  {
+    "nhanes_var": "MGXH2T2",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Grip strength hand 2, test 2"
+  },
+  {
+    "nhanes_var": "MGXH2T2E",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Effort indicator for hand 2, test 2"
+  },
+  {
+    "nhanes_var": "MGXH1T3",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Grip strength hand 1, test 3"
+  },
+  {
+    "nhanes_var": "MGXH1T3E",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Effort indicator for hand 1, test 3"
+  },
+  {
+    "nhanes_var": "MGXH2T3",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Grip strength hand 2, test 3"
+  },
+  {
+    "nhanes_var": "MGXH2T3E",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Effort indicator for hand 2, test 3"
+  },
+  {
+    "nhanes_var": "MGDCGSZ",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4280735,
+    "notes": "Combined grip strength"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP Person.person_id"
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHDRCSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recommendation care status code stored as an Observation"
+  },
+  {
+    "nhanes_var": "OHAREC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall recommendation for care (ordinal) captured in Observation"
+  },
+  {
+    "nhanes_var": "OHAROCDT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Number of decayed teeth recorded as a Measurement"
+  },
+  {
+    "nhanes_var": "OHAROCGP",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Gum disease/problem coded as a ConditionOccurrence"
+  },
+  {
+    "nhanes_var": "OHAROCOH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Oral hygiene status recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROCCI",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Impression of soft tissue condition stored as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROCDE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Denture/partial denture/plates status recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHARNF",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "No significant findings noted as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROTH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other findings (specify) recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAPOS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exam position recumbent status stored as an Observation"
+  }
+]

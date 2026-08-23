@@ -1,0 +1,3551 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to Person.person_source_value as external identifier"
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Overall Oral Health Exam Status stored as source value in Observation table"
+  },
+  {
+    "nhanes_var": "OHDPDSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Periodontal Status Code stored as source value in Observation table"
+  },
+  {
+    "nhanes_var": "OHX02CJD",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) DF FGM-CEJ(mm) mapped to Measurement.value_as_number; source value stored in measurement_source_value"
+  },
+  {
+    "nhanes_var": "OHX02CJM",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) MdF FGM-CEJ(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02CJS",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) MF FGM-CEJ(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02CJP",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) DL FGM-CEJ(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02CJL",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) MdL FGM-CEJ(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02CJA",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) ML FGM-CEJ(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02PCD",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) DF FGM-sulcus(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02PCM",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) MdF FGM-sulcus(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02PCS",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) MF FGM-sulcus(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02PCP",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) DL FGM-sulcus(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02PCL",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2M) MdL FGM-sulcus(mm) mapped to Measurement.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most lateral point of the fovea\u2011to\u2011sulcus line (ML FGM\u2011sulcus) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX02LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most distal point of the fovea\u2011to\u2011sulcus line (DF calculated AL) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX02LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most medial point of the fovea\u2011to\u2011sulcus line (MdF calculated AL) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX02LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most frontal point of the fovea\u2011to\u2011sulcus line (MF calculated AL) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX02LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most distal point of the fovea\u2011to\u2011sulcus line (DL calculated AL) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX02LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most medial point of the fovea\u2011to\u2011sulcus line (MdL calculated AL) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX02LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 2\u2011meter distance, measured at the most lateral point of the fovea\u2011to\u2011sulcus line (ML calculated AL) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most distal point of the fovea\u2011to\u2011cephalic edge junction (DF FGM\u2011CEJ) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most medial point of the fovea\u2011to\u2011cephalic edge junction (MdF FGM\u2011CEJ) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most frontal point of the fovea\u2011to\u2011cephalic edge junction (MF FGM\u2011CEJ) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most distal point of the fovea\u2011to\u2011cephalic edge junction (DL FGM\u2011CEJ) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most medial point of the fovea\u2011to\u2011cephalic edge junction (MdL FGM\u2011CEJ) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most lateral point of the fovea\u2011to\u2011cephalic edge junction (ML FGM\u2011CEJ) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most distal point of the fovea\u2011to\u2011sulcus line (DF FGM\u2011sulcus) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4000000,
+    "notes": "Axial length of right eye (maximum) at 1\u2011meter distance, measured at the most medial point of the fovea\u2011to\u2011sulcus line (MdF FGM\u2011sulcus) in millimetres."
+  },
+  {
+    "nhanes_var": "OHX03PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at DL site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MdL site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at ML site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at DF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MdF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at DL site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MdL site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX03LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at ML site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX04CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at DF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX04CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MdF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX04CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MF site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX04CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at DL site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX04CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800016,
+    "notes": "Loss of attachment (max pocket depth) at MdL site, measured in mm"
+  },
+  {
+    "nhanes_var": "OHX04CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) ML FGM-CEJ(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) DF FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) MdF FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) MF FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) DL FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) MdL FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) ML FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) DF calculated AL(mm) \u2013 ocular axial length, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) MdF calculated AL(mm) \u2013 ocular axial length, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) MF calculated AL(mm) \u2013 ocular axial length, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) DL calculated AL(mm) \u2013 ocular axial length, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) MdL calculated AL(mm) \u2013 ocular axial length, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX04LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(2B) ML calculated AL(mm) \u2013 ocular axial length, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX05CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(1B) DF FGM-CEJ(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX05CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(1B) MdF FGM-CEJ(mm) \u2013 ocular measurement, no standard OMOP concept available"
+  },
+  {
+    "nhanes_var": "OHX05CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal epithelium junction (right eye, MF) \u2013 stored as a continuous measurement; no standard OMOP concept ID available."
+  },
+  {
+    "nhanes_var": "OHX05CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal epithelium junction (right eye, DL) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal epithelium junction (right eye, MdL) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal epithelium junction (right eye, ML) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal sulcus (right eye, DF) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal sulcus (right eye, MdF) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal sulcus (right eye, MF) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal sulcus (right eye, DL) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal sulcus (right eye, MdL) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum radius of curvature at the corneal sulcus (right eye, ML) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated axial length (right eye, DF) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated axial length (right eye, MdF) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated axial length (right eye, MF) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated axial length (right eye, DL) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated axial length (right eye, MdL) \u2013 continuous measurement; no standard OMOP concept ID."
+  },
+  {
+    "nhanes_var": "OHX05LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (maximum, calculated) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX06CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) DF FGM-CEJ (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) MdF FGM-CEJ (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) MF FGM-CEJ (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) DL FGM-CEJ (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) MdL FGM-CEJ (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) ML FGM-CEJ (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) DF FGM-sulcus (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) MdF FGM-sulcus (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) MF FGM-sulcus (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) DL FGM-sulcus (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) MdL FGM-sulcus (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ocular measurement: Max R(C) ML FGM-sulcus (mm) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHX06LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (maximum, calculated) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX06LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (maximum, calculated) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX06LAS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (calculated)"
+  },
+  {
+    "nhanes_var": "OHX06LAP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (calculated)"
+  },
+  {
+    "nhanes_var": "OHX06LAL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (calculated)"
+  },
+  {
+    "nhanes_var": "OHX06LAA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye (calculated)"
+  },
+  {
+    "nhanes_var": "OHX07CJD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-CEJ distance, DF (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07CJM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-CEJ distance, MdF (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07CJS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-CEJ distance, MF (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07CJP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-CEJ distance, DL (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07CJL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-CEJ distance, MdL (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07CJA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-CEJ distance, ML (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07PCD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-sulcus distance, DF (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07PCM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-sulcus distance, MdF (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07PCS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-sulcus distance, MF (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07PCP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-sulcus distance, DL (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07PCL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Right eye FGM-sulcus distance, MdL (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX07PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Maximum radius of curvature of left eye (inferior) \u2013 corneal curvature measurement"
+  },
+  {
+    "nhanes_var": "OHX07LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye \u2013 calculated from DF (distance from cornea to retina)"
+  },
+  {
+    "nhanes_var": "OHX07LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye \u2013 calculated from MdF (mid-fundus)"
+  },
+  {
+    "nhanes_var": "OHX07LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye \u2013 calculated from MF (mid-fundus)"
+  },
+  {
+    "nhanes_var": "OHX07LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye \u2013 calculated from DL (distance to lens)"
+  },
+  {
+    "nhanes_var": "OHX07LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye \u2013 calculated from MdL (mid-lens)"
+  },
+  {
+    "nhanes_var": "OHX07LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye \u2013 calculated from ML (mid-lens)"
+  },
+  {
+    "nhanes_var": "OHX08CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 DF (distance from cornea to fovea)"
+  },
+  {
+    "nhanes_var": "OHX08CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 MdF"
+  },
+  {
+    "nhanes_var": "OHX08CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 MF"
+  },
+  {
+    "nhanes_var": "OHX08CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 DL"
+  },
+  {
+    "nhanes_var": "OHX08CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 MdL"
+  },
+  {
+    "nhanes_var": "OHX08CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 ML"
+  },
+  {
+    "nhanes_var": "OHX08PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 DF (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX08PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Corneal curvature measurement at central incisor \u2013 MdF (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX08PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) MF FGM-sulcus(mm) \u2013 right eye, maximum measurement of the sulcus in the MF quadrant, stored as a continuous measurement value."
+  },
+  {
+    "nhanes_var": "OHX08PCP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) DL FGM-sulcus(mm) \u2013 right eye, maximum measurement of the sulcus in the DL quadrant."
+  },
+  {
+    "nhanes_var": "OHX08PCL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) MdL FGM-sulcus(mm) \u2013 right eye, maximum measurement of the sulcus in the MdL quadrant."
+  },
+  {
+    "nhanes_var": "OHX08PCA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) ML FGM-sulcus(mm) \u2013 right eye, maximum measurement of the sulcus in the ML quadrant."
+  },
+  {
+    "nhanes_var": "OHX08LAD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) DF calculated AL(mm) \u2013 right eye, axial length calculated for the DF quadrant."
+  },
+  {
+    "nhanes_var": "OHX08LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) MdF calculated AL(mm) \u2013 right eye, axial length calculated for the MdF quadrant."
+  },
+  {
+    "nhanes_var": "OHX08LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) MF calculated AL(mm) \u2013 right eye, axial length calculated for the MF quadrant."
+  },
+  {
+    "nhanes_var": "OHX08LAP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) DL calculated AL(mm) \u2013 right eye, axial length calculated for the DL quadrant."
+  },
+  {
+    "nhanes_var": "OHX08LAL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) MdL calculated AL(mm) \u2013 right eye, axial length calculated for the MdL quadrant."
+  },
+  {
+    "nhanes_var": "OHX08LAA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max R(CI) ML calculated AL(mm) \u2013 right eye, axial length calculated for the ML quadrant."
+  },
+  {
+    "nhanes_var": "OHX09CJD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max L(CI) DF FGM-CEJ(mm) \u2013 left eye, maximum measurement of the CEJ in the DF quadrant."
+  },
+  {
+    "nhanes_var": "OHX09CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max L(CI) MdF FGM-CEJ(mm) \u2013 left eye, maximum measurement of the CEJ in the MdF quadrant."
+  },
+  {
+    "nhanes_var": "OHX09CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max L(CI) MF FGM-CEJ(mm) \u2013 left eye, maximum measurement of the CEJ in the MF quadrant."
+  },
+  {
+    "nhanes_var": "OHX09CJP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max L(CI) DL FGM-CEJ(mm) \u2013 left eye, maximum measurement of the CEJ in the DL quadrant."
+  },
+  {
+    "nhanes_var": "OHX09CJL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max L(CI) MdL FGM-CEJ(mm) \u2013 left eye, maximum measurement of the CEJ in the MdL quadrant."
+  },
+  {
+    "nhanes_var": "OHX09CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve annulus (ML) \u2013 mapped to \"Left ventricular outflow tract diameter\""
+  },
+  {
+    "nhanes_var": "OHX09PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve sulcus (DF) \u2013 same concept as above"
+  },
+  {
+    "nhanes_var": "OHX09PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve sulcus (MdF) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve sulcus (MF) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve sulcus (DL) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve sulcus (MdL) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-systole, aortic valve sulcus (ML) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428001,
+    "notes": "Maximum LVOT length at end-systole, aortic valve annulus (DF) \u2013 mapped to \"Left ventricular outflow tract length\""
+  },
+  {
+    "nhanes_var": "OHX09LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428001,
+    "notes": "Maximum LVOT length at end-systole, aortic valve annulus (MdF) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428001,
+    "notes": "Maximum LVOT length at end-systole, aortic valve annulus (MF) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428001,
+    "notes": "Maximum LVOT length at end-systole, aortic valve annulus (DL) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428001,
+    "notes": "Maximum LVOT length at end-systole, aortic valve annulus (MdL) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX09LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428001,
+    "notes": "Maximum LVOT length at end-systole, aortic valve annulus (ML) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX10CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-diastole, aortic valve annulus (DF) \u2013 same concept as OHX09CJA"
+  },
+  {
+    "nhanes_var": "OHX10CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 428000,
+    "notes": "Maximum LVOT diameter at end-diastole, aortic valve annulus (MdF) \u2013 same concept"
+  },
+  {
+    "nhanes_var": "OHX10CJS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum (echocardiography) \u2013 measured at MF FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX10CJP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at DL FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX10CJL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at MdL FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX10CJA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at ML FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX10PCD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at DF FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX10PCM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at MdF FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX10PCS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at MF FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX10PCP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at DL FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX10PCL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at MdL FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX10PCA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 measured at ML FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX10LAD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 calculated AL at DF"
+  },
+  {
+    "nhanes_var": "OHX10LAM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 calculated AL at MdF"
+  },
+  {
+    "nhanes_var": "OHX10LAS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 calculated AL at MF"
+  },
+  {
+    "nhanes_var": "OHX10LAP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 calculated AL at DL"
+  },
+  {
+    "nhanes_var": "OHX10LAL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Left atrial dimension, maximum \u2013 calculated AL at MdL"
+  },
+  {
+    "nhanes_var": "OHX10LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (calculated AL) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (DF) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MdF) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MF) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (DL) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MdL) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (ML) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHX11PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (DF) \u2013 continuous measurement (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX11PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MdF) \u2013 continuous measurement (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX11PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MF) \u2013 continuous measurement (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX11PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (DL) \u2013 continuous measurement (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX11PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MdL) \u2013 continuous measurement (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX11PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (ML) \u2013 continuous measurement (sulcus)"
+  },
+  {
+    "nhanes_var": "OHX11LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (DF) \u2013 continuous measurement (calculated AL)"
+  },
+  {
+    "nhanes_var": "OHX11LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Axial length of left eye (MdF) \u2013 continuous measurement (calculated AL)"
+  },
+  {
+    "nhanes_var": "OHX11LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye (right eye) measured in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX11LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye (left eye) measured in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX11LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye (left eye) measured in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX11LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye (left eye) measured in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) DF FGM-CEJ distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) MdF FGM-CEJ distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) MF FGM-CEJ distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) DL FGM-CEJ distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) MdL FGM-CEJ distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) ML FGM-CEJ distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) DF FGM-sulcus distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) MdF FGM-sulcus distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) MF FGM-sulcus distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) DL FGM-sulcus distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum L(1B) MdL FGM-sulcus distance in mm, continuous"
+  },
+  {
+    "nhanes_var": "OHX12PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) ML FGM-sulcus(mm) \u2013 ocular measurement, no standard OMOP concept, store in Measurement table with value_as_number"
+  },
+  {
+    "nhanes_var": "OHX12LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) DF calculated AL(mm) \u2013 ocular axial length, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX12LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) MdF calculated AL(mm) \u2013 ocular axial length, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX12LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) MF calculated AL(mm) \u2013 ocular axial length, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX12LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) DL calculated AL(mm) \u2013 ocular axial length, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX12LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) MdL calculated AL(mm) \u2013 ocular axial length, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX12LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(1B) ML calculated AL(mm) \u2013 ocular axial length, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) DF FGM-CEJ(mm) \u2013 corneal measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) MdF FGM-CEJ(mm) \u2013 corneal measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) MF FGM-CEJ(mm) \u2013 corneal measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) DL FGM-CEJ(mm) \u2013 corneal measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) MdL FGM-CEJ(mm) \u2013 corneal measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) ML FGM-CEJ(mm) \u2013 corneal measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) DF FGM-sulcus(mm) \u2013 ocular sulcus measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Max L(2B) MdF FGM-sulcus(mm) \u2013 ocular sulcus measurement, no standard concept"
+  },
+  {
+    "nhanes_var": "OHX13PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Periodontal probing depth at max L(2B) MF site (Full Gingival Margin to sulcus) measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Periodontal probing depth at max L(2B) DL site (Full Gingival Margin to sulcus) measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Periodontal probing depth at max L(2B) MdL site (Full Gingival Margin to sulcus) measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Periodontal probing depth at max L(2B) ML site (Full Gingival Margin to sulcus) measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Calculated AL (alveolar level) at max L(2B) DF site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Calculated AL at max L(2B) MdF site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Calculated AL at max L(2B) MF site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Calculated AL at max L(2B) DL site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Calculated AL at max L(2B) MdL site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX13LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Calculated AL at max L(2B) ML site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX14CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Full Gingival Margin to CEJ distance at max L(1M) DF site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX14CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Full Gingival Margin to CEJ distance at max L(1M) MdF site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX14CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Full Gingival Margin to CEJ distance at max L(1M) MF site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX14CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Full Gingival Margin to CEJ distance at max L(1M) DL site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX14CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Full Gingival Margin to CEJ distance at max L(1M) MdL site measured in mm."
+  },
+  {
+    "nhanes_var": "OHX14CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) ML FGM-CEJ) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) DF FGM-sulcus) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) MdF FGM-sulcus) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) MF FGM-sulcus) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) DL FGM-sulcus) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) MdL FGM-sulcus) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) ML FGM-sulcus) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) DF calculated AL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) MdF calculated AL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) MF calculated AL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) DL calculated AL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) MdL calculated AL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX14LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(1M) ML calculated AL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX15CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(2M) DF FGM-CEJ) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX15CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of left eye (maximum L(2M) MdF FGM-CEJ) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX15CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) MF FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX15CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) DL FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX15CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) MdL FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX15CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) ML FGM-CEJ"
+  },
+  {
+    "nhanes_var": "OHX15PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) DF FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX15PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) MdF FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX15PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) MF FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX15PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) DL FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX15PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) MdL FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX15PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "Corneal curvature (mm) \u2013 Max L(2M) ML FGM-sulcus"
+  },
+  {
+    "nhanes_var": "OHX15LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800001,
+    "notes": "Axial length (mm) \u2013 Max L(2M) DF calculated AL"
+  },
+  {
+    "nhanes_var": "OHX15LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800001,
+    "notes": "Axial length (mm) \u2013 Max L(2M) MdF calculated AL"
+  },
+  {
+    "nhanes_var": "OHX15LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800001,
+    "notes": "Axial length (mm) \u2013 Max L(2M) MF calculated AL"
+  },
+  {
+    "nhanes_var": "OHX15LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800001,
+    "notes": "Axial length (mm) \u2013 Max L(2M) DL calculated AL"
+  },
+  {
+    "nhanes_var": "OHX15LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800001,
+    "notes": "Axial length (mm) \u2013 Max L(2M) MdL calculated AL"
+  },
+  {
+    "nhanes_var": "OHX15LAA",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Axial length (AL) of left eye, maximum, calculated, in mm"
+  },
+  {
+    "nhanes_var": "OHX18CJD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) DF FGM-CEJ measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18CJM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MdF FGM-CEJ measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18CJS",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MF FGM-CEJ measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18CJP",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) DL FGM-CEJ measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18CJL",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MdL FGM-CEJ measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18CJA",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) ML FGM-CEJ measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18PCD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) DF FGM-sulcus measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18PCM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MdF FGM-sulcus measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18PCS",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MF FGM-sulcus measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18PCP",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) DL FGM-sulcus measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18PCL",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MdL FGM-sulcus measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18PCA",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) ML FGM-sulcus measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18LAD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) DF calculated AL measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18LAM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mnd L(2M) MdF calculated AL measurement, in mm"
+  },
+  {
+    "nhanes_var": "OHX18LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye, right eye (continuous) mapped to OMOP measurement concept"
+  },
+  {
+    "nhanes_var": "OHX18LAP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye, left eye (continuous) mapped to OMOP measurement concept"
+  },
+  {
+    "nhanes_var": "OHX18LAL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye, right eye (continuous) mapped to OMOP measurement concept"
+  },
+  {
+    "nhanes_var": "OHX18LAA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Axial length of eye, left eye (continuous) mapped to OMOP measurement concept"
+  },
+  {
+    "nhanes_var": "OHX19CJD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) DF FGM-CEJ(mm) \u2013 no standard OMOP concept; stored as custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MdF FGM-CEJ(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MF FGM-CEJ(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19CJP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Max L(1M) DL FGM-CEJ(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19CJL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MdL FGM-CEJ(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19CJA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) ML FGM-CEJ(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19PCD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) DF FGM-sulcus(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MdF FGM-sulcus(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MF FGM-sulcus(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19PCP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) DL FGM-sulcus(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19PCL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MdL FGM-sulcus(mm) \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "OHX19PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) ML FGM-sulcus(mm) \u2013 ocular measurement of left eye sulcus depth"
+  },
+  {
+    "nhanes_var": "OHX19LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) DF calculated AL(mm) \u2013 axial length of left eye (anterior segment)"
+  },
+  {
+    "nhanes_var": "OHX19LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MdF calculated AL(mm) \u2013 axial length of left eye (middle segment)"
+  },
+  {
+    "nhanes_var": "OHX19LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MF calculated AL(mm) \u2013 axial length of left eye (posterior segment)"
+  },
+  {
+    "nhanes_var": "OHX19LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) DL calculated AL(mm) \u2013 axial length of left eye (lens)"
+  },
+  {
+    "nhanes_var": "OHX19LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) MdL calculated AL(mm) \u2013 axial length of left eye (middle lens)"
+  },
+  {
+    "nhanes_var": "OHX19LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1M) ML calculated AL(mm) \u2013 axial length of left eye (anterior lens)"
+  },
+  {
+    "nhanes_var": "OHX20CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) DF FGM-CEJ(mm) \u2013 corneal endothelium to corneal junction distance, left eye"
+  },
+  {
+    "nhanes_var": "OHX20CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MdF FGM-CEJ(mm) \u2013 corneal endothelium to corneal junction distance, left eye (middle segment)"
+  },
+  {
+    "nhanes_var": "OHX20CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MF FGM-CEJ(mm) \u2013 corneal endothelium to corneal junction distance, left eye (posterior segment)"
+  },
+  {
+    "nhanes_var": "OHX20CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) DL FGM-CEJ(mm) \u2013 corneal endothelium to corneal junction distance, left eye (lens)"
+  },
+  {
+    "nhanes_var": "OHX20CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MdL FGM-CEJ(mm) \u2013 corneal endothelium to corneal junction distance, left eye (middle lens)"
+  },
+  {
+    "nhanes_var": "OHX20CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) ML FGM-CEJ(mm) \u2013 corneal endothelium to corneal junction distance, left eye (anterior lens)"
+  },
+  {
+    "nhanes_var": "OHX20PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) DF FGM-sulcus(mm) \u2013 distance from corneal endothelium to sulcus, left eye"
+  },
+  {
+    "nhanes_var": "OHX20PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MdF FGM-sulcus(mm) \u2013 distance from corneal endothelium to sulcus, left eye (middle segment)"
+  },
+  {
+    "nhanes_var": "OHX20PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MF FGM-sulcus(mm) \u2013 tooth dimension measurement; map to OMOP measurement table with a custom concept if available."
+  },
+  {
+    "nhanes_var": "OHX20PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) DL FGM-sulcus(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX20PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MdL FGM-sulcus(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX20PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) ML FGM-sulcus(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX20LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) DF calculated AL(mm) \u2013 tooth length measurement."
+  },
+  {
+    "nhanes_var": "OHX20LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MdF calculated AL(mm) \u2013 tooth length measurement."
+  },
+  {
+    "nhanes_var": "OHX20LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MF calculated AL(mm) \u2013 tooth length measurement."
+  },
+  {
+    "nhanes_var": "OHX20LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) DL calculated AL(mm) \u2013 tooth length measurement."
+  },
+  {
+    "nhanes_var": "OHX20LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) MdL calculated AL(mm) \u2013 tooth length measurement."
+  },
+  {
+    "nhanes_var": "OHX20LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(2B) ML calculated AL(mm) \u2013 tooth length measurement."
+  },
+  {
+    "nhanes_var": "OHX21CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1B) DF FGM-CEJ(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX21CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1B) MdF FGM-CEJ(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX21CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1B) MF FGM-CEJ(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX21CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1B) DL FGM-CEJ(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX21CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd L(1B) MdL FGM-CEJ(mm) \u2013 tooth dimension measurement."
+  },
+  {
+    "nhanes_var": "OHX21CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, FGM-CEJ measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, DF FGM-sulcus measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MdF FGM-sulcus measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MF FGM-sulcus measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, DL FGM-sulcus measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MdL FGM-sulcus measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, ML FGM-sulcus measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, DF calculated AL (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MdF calculated AL (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MF calculated AL (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, DL calculated AL (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MdL calculated AL (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX21LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, ML calculated AL (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX22CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, DF FGM-CEJ measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX22CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye, middle left, MdF FGM-CEJ measurement (mm) \u2013 no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "OHX22CJS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-CEJ, middle L(C) MF) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22CJP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-CEJ, middle L(C) DL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22CJL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-CEJ, middle L(C) MdL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22CJA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-CEJ, middle L(C) ML) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22PCD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-sulcus, middle L(C) DF) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22PCM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-sulcus, middle L(C) MdF) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22PCS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-sulcus, middle L(C) MF) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22PCP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-sulcus, middle L(C) DL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22PCL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-sulcus, middle L(C) MdL) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22PCA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Axial length of left eye (FGM-sulcus, middle L(C) ML) measured in mm"
+  },
+  {
+    "nhanes_var": "OHX22LAD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Calculated axial length of left eye (DF) in mm"
+  },
+  {
+    "nhanes_var": "OHX22LAM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Calculated axial length of left eye (MdF) in mm"
+  },
+  {
+    "nhanes_var": "OHX22LAS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Calculated axial length of left eye (MF) in mm"
+  },
+  {
+    "nhanes_var": "OHX22LAP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Calculated axial length of left eye (DL) in mm"
+  },
+  {
+    "nhanes_var": "OHX22LAL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Calculated axial length of left eye (MdL) in mm"
+  },
+  {
+    "nhanes_var": "OHX22LAA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length (left eye) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23CJD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, fovea to internal limiting membrane) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23CJM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle fovea to internal limiting membrane) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23CJS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle fovea to internal limiting membrane) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23CJP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, deep fovea to internal limiting membrane) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23CJL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle deep fovea to internal limiting membrane) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23CJA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle deep fovea to internal limiting membrane) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23PCD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, fovea to sulcus) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23PCM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle fovea to sulcus) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23PCS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle fovea to sulcus) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23PCP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, deep fovea to sulcus) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23PCL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle deep fovea to sulcus) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23PCA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Anterior chamber depth (left eye, middle deep fovea to sulcus) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23LAD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length (left eye, calculated) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23LAM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length (left eye, calculated) \u2013 continuous measurement in mm"
+  },
+  {
+    "nhanes_var": "OHX23LAS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Axial length of left eye, mean value"
+  },
+  {
+    "nhanes_var": "OHX23LAP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Axial length of left eye, difference value"
+  },
+  {
+    "nhanes_var": "OHX23LAL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Axial length of left eye, median value"
+  },
+  {
+    "nhanes_var": "OHX23LAA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Axial length of left eye, maximum value"
+  },
+  {
+    "nhanes_var": "OHX24CJD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to CEJ, left eye, mean value"
+  },
+  {
+    "nhanes_var": "OHX24CJM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to CEJ, left eye, median value"
+  },
+  {
+    "nhanes_var": "OHX24CJS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to CEJ, left eye, maximum value"
+  },
+  {
+    "nhanes_var": "OHX24CJP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to CEJ, left eye, difference value"
+  },
+  {
+    "nhanes_var": "OHX24CJL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to CEJ, left eye, median value"
+  },
+  {
+    "nhanes_var": "OHX24CJA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to CEJ, left eye, maximum value"
+  },
+  {
+    "nhanes_var": "OHX24PCD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to sulcus, left eye, mean value"
+  },
+  {
+    "nhanes_var": "OHX24PCM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to sulcus, left eye, median value"
+  },
+  {
+    "nhanes_var": "OHX24PCS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to sulcus, left eye, maximum value"
+  },
+  {
+    "nhanes_var": "OHX24PCP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to sulcus, left eye, difference value"
+  },
+  {
+    "nhanes_var": "OHX24PCL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800015,
+    "notes": "Distance from fovea to sulcus, left eye, median value"
+  },
+  {
+    "nhanes_var": "OHX24PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 no exact standard concept in OMOP; store as custom measurement"
+  },
+  {
+    "nhanes_var": "OHX24LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 DF calculated AL; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX24LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 MdF calculated AL; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX24LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 MF calculated AL; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX24LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 DL calculated AL; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX24LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 MdL calculated AL; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX24LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (left eye) \u2013 ML calculated AL; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 DF FGM-CEJ; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 MdF FGM-CEJ; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 MF FGM-CEJ; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 DL FGM-CEJ; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 MdL FGM-CEJ; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 ML FGM-CEJ; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 DF FGM-sulcus; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 MdF FGM-sulcus; custom measurement"
+  },
+  {
+    "nhanes_var": "OHX25PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) MF FGM-sulcus(mm) \u2013 tooth sulcus depth measurement (right side, middle front)"
+  },
+  {
+    "nhanes_var": "OHX25PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) DL FGM-sulcus(mm) \u2013 tooth sulcus depth measurement (right side, lower front)"
+  },
+  {
+    "nhanes_var": "OHX25PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) MdL FGM-sulcus(mm) \u2013 tooth sulcus depth measurement (right side, middle lower)"
+  },
+  {
+    "nhanes_var": "OHX25PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) ML FGM-sulcus(mm) \u2013 tooth sulcus depth measurement (right side, middle lower)"
+  },
+  {
+    "nhanes_var": "OHX25LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) DF calculated AL(mm) \u2013 calculated alveolar length (right side, lower front)"
+  },
+  {
+    "nhanes_var": "OHX25LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) MdF calculated AL(mm) \u2013 calculated alveolar length (right side, middle front)"
+  },
+  {
+    "nhanes_var": "OHX25LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) MF calculated AL(mm) \u2013 calculated alveolar length (right side, middle front)"
+  },
+  {
+    "nhanes_var": "OHX25LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) DL calculated AL(mm) \u2013 calculated alveolar length (right side, lower front)"
+  },
+  {
+    "nhanes_var": "OHX25LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) MdL calculated AL(mm) \u2013 calculated alveolar length (right side, middle lower)"
+  },
+  {
+    "nhanes_var": "OHX25LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(CI) ML calculated AL(mm) \u2013 calculated alveolar length (right side, middle lower)"
+  },
+  {
+    "nhanes_var": "OHX26CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) DF FGM-CEJ(mm) \u2013 tooth CEJ to FGM distance (right side, lower front)"
+  },
+  {
+    "nhanes_var": "OHX26CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) MdF FGM-CEJ(mm) \u2013 tooth CEJ to FGM distance (right side, middle front)"
+  },
+  {
+    "nhanes_var": "OHX26CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) MF FGM-CEJ(mm) \u2013 tooth CEJ to FGM distance (right side, middle front)"
+  },
+  {
+    "nhanes_var": "OHX26CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) DL FGM-CEJ(mm) \u2013 tooth CEJ to FGM distance (right side, lower front)"
+  },
+  {
+    "nhanes_var": "OHX26CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) MdL FGM-CEJ(mm) \u2013 tooth CEJ to FGM distance (right side, middle lower)"
+  },
+  {
+    "nhanes_var": "OHX26CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800002,
+    "notes": "LOA: Mnd R(LI) ML FGM-CEJ(mm) \u2013 left eye, middle line, angle of anterior chamber"
+  },
+  {
+    "nhanes_var": "OHX26PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "LOA: Mnd R(LI) DF FGM-sulcus(mm) \u2013 left eye, deep front, anterior chamber depth"
+  },
+  {
+    "nhanes_var": "OHX26PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "LOA: Mnd R(LI) MdF FGM-sulcus(mm) \u2013 left eye, middle front, anterior chamber depth"
+  },
+  {
+    "nhanes_var": "OHX26PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "LOA: Mnd R(LI) MF FGM-sulcus(mm) \u2013 left eye, middle front, anterior chamber depth"
+  },
+  {
+    "nhanes_var": "OHX26PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "LOA: Mnd R(LI) DL FGM-sulcus(mm) \u2013 left eye, deep lateral, anterior chamber depth"
+  },
+  {
+    "nhanes_var": "OHX26PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "LOA: Mnd R(LI) MdL FGM-sulcus(mm) \u2013 left eye, middle lateral, anterior chamber depth"
+  },
+  {
+    "nhanes_var": "OHX26PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800000,
+    "notes": "LOA: Mnd R(LI) ML FGM-sulcus(mm) \u2013 left eye, middle lateral, anterior chamber depth"
+  },
+  {
+    "nhanes_var": "OHX26LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) DF calculated AL(mm) \u2013 left eye, deep front, calculated anterior chamber length (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX26LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) MdF calculated AL(mm) \u2013 left eye, middle front, calculated anterior chamber length (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX26LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) MF calculated AL(mm) \u2013 left eye, middle front, calculated anterior chamber length (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX26LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) DL calculated AL(mm) \u2013 left eye, deep lateral, calculated anterior chamber length (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX26LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) MdL calculated AL(mm) \u2013 left eye, middle lateral, calculated anterior chamber length (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX26LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: Mnd R(LI) ML calculated AL(mm) \u2013 left eye, middle lateral, calculated anterior chamber length (no standard concept)"
+  },
+  {
+    "nhanes_var": "OHX27CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800002,
+    "notes": "LOA: Mnd R(C) DF FGM-CEJ(mm) \u2013 right eye, deep front, angle of anterior chamber"
+  },
+  {
+    "nhanes_var": "OHX27CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800002,
+    "notes": "LOA: Mnd R(C) MdF FGM-CEJ(mm) \u2013 right eye, middle front, angle of anterior chamber"
+  },
+  {
+    "nhanes_var": "OHX27CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) MF FGM-CEJ(mm) \u2013 anterior chamber depth at mid\u2011fovea"
+  },
+  {
+    "nhanes_var": "OHX27CJP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) DL FGM-CEJ(mm) \u2013 anterior chamber depth at dorsolateral point"
+  },
+  {
+    "nhanes_var": "OHX27CJL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) MdL FGM-CEJ(mm) \u2013 anterior chamber depth at mid\u2011lateral point"
+  },
+  {
+    "nhanes_var": "OHX27CJA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) ML FGM-CEJ(mm) \u2013 anterior chamber depth at mid\u2011lateral point"
+  },
+  {
+    "nhanes_var": "OHX27PCD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) DF FGM-sulcus(mm) \u2013 anterior chamber depth at dorsal\u2011foveal sulcus"
+  },
+  {
+    "nhanes_var": "OHX27PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) MdF FGM-sulcus(mm) \u2013 anterior chamber depth at mid\u2011foveal sulcus"
+  },
+  {
+    "nhanes_var": "OHX27PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) MF FGM-sulcus(mm) \u2013 anterior chamber depth at mid\u2011foveal sulcus"
+  },
+  {
+    "nhanes_var": "OHX27PCP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) DL FGM-sulcus(mm) \u2013 anterior chamber depth at dorsolateral sulcus"
+  },
+  {
+    "nhanes_var": "OHX27PCL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) MdL FGM-sulcus(mm) \u2013 anterior chamber depth at mid\u2011lateral sulcus"
+  },
+  {
+    "nhanes_var": "OHX27PCA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "LOA: Mnd R(C) ML FGM-sulcus(mm) \u2013 anterior chamber depth at mid\u2011lateral sulcus"
+  },
+  {
+    "nhanes_var": "OHX27LAD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010001,
+    "notes": "LOA: Mnd R(C) DF calculated AL(mm) \u2013 axial length at dorsal\u2011foveal point"
+  },
+  {
+    "nhanes_var": "OHX27LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010001,
+    "notes": "LOA: Mnd R(C) MdF calculated AL(mm) \u2013 axial length at mid\u2011foveal point"
+  },
+  {
+    "nhanes_var": "OHX27LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010001,
+    "notes": "LOA: Mnd R(C) MF calculated AL(mm) \u2013 axial length at mid\u2011foveal point"
+  },
+  {
+    "nhanes_var": "OHX27LAP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010001,
+    "notes": "LOA: Mnd R(C) DL calculated AL(mm) \u2013 axial length at dorsolateral point"
+  },
+  {
+    "nhanes_var": "OHX27LAL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010001,
+    "notes": "LOA: Mnd R(C) MdL calculated AL(mm) \u2013 axial length at mid\u2011lateral point"
+  },
+  {
+    "nhanes_var": "OHX27LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length, right eye, calculated"
+  },
+  {
+    "nhanes_var": "OHX28CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 FGM-CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHX28CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHX28CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHX28CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHX28CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHX28CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHX28PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Anterior chamber depth (right eye) \u2013 FGM-sulcus measurement"
+  },
+  {
+    "nhanes_var": "OHX28PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-sulcus measurement"
+  },
+  {
+    "nhanes_var": "OHX28PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-sulcus measurement"
+  },
+  {
+    "nhanes_var": "OHX28PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-sulcus measurement"
+  },
+  {
+    "nhanes_var": "OHX28PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-sulcus measurement"
+  },
+  {
+    "nhanes_var": "OHX28PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lens thickness (right eye) \u2013 FGM-sulcus measurement"
+  },
+  {
+    "nhanes_var": "OHX28LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length, right eye, calculated"
+  },
+  {
+    "nhanes_var": "OHX28LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length, right eye, calculated"
+  },
+  {
+    "nhanes_var": "OHX28LAS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye, mean (mm)"
+  },
+  {
+    "nhanes_var": "OHX28LAP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye, difference (mm)"
+  },
+  {
+    "nhanes_var": "OHX28LAL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye, median (mm)"
+  },
+  {
+    "nhanes_var": "OHX28LAA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Axial length of right eye, minimum (mm)"
+  },
+  {
+    "nhanes_var": "OHX29CJD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea (DF) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29CJM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea (MdF) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29CJS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea (MF) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29CJP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea (DL) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29CJL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea (MdL) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29CJA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea (ML) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29PCD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea sulcus (DF) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29PCM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea sulcus (MdF) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29PCS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea sulcus (MF) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29PCP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea sulcus (DL) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29PCL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Distance from corneal apex to fovea sulcus (MdL) right eye (mm)"
+  },
+  {
+    "nhanes_var": "OHX29PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) mesio\u2011lingual FGM\u2011sulcus length (mm) \u2013 stored as a measurement concept in the Measurement table."
+  },
+  {
+    "nhanes_var": "OHX29LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) disto\u2011lingual calculated AL (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX29LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) mesio\u2011facial calculated AL (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX29LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) disto\u2011facial calculated AL (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX29LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) disto\u2011lingual calculated AL (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX29LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) mesio\u2011lingual calculated AL (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX29LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right second molar (2B) mesio\u2011facial calculated AL (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30CJD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) disto\u2011facial FGM\u2011CEJ length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) mesio\u2011facial FGM\u2011CEJ length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) disto\u2011facial FGM\u2011CEJ length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30CJP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) disto\u2011lingual FGM\u2011CEJ length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30CJL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) mesio\u2011lingual FGM\u2011CEJ length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) mesio\u2011facial FGM\u2011CEJ length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) disto\u2011facial FGM\u2011sulcus length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mandibular right first molar (1M) mesio\u2011facial FGM\u2011sulcus length (mm) \u2013 measurement concept."
+  },
+  {
+    "nhanes_var": "OHX30PCS",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) MF FGM-sulcus(mm) \u2013 Periodontal probing depth at mid-facial sulcus, mapped to Observation value_as_number with concept Periodontal probing depth."
+  },
+  {
+    "nhanes_var": "OHX30PCP",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) DL FGM-sulcus(mm) \u2013 Periodontal probing depth at mid-lingual sulcus."
+  },
+  {
+    "nhanes_var": "OHX30PCL",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) MdL FGM-sulcus(mm) \u2013 Periodontal probing depth at mid-dorsal lingual sulcus."
+  },
+  {
+    "nhanes_var": "OHX30PCA",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) ML FGM-sulcus(mm) \u2013 Periodontal probing depth at mid-oral sulcus."
+  },
+  {
+    "nhanes_var": "OHX30LAD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) DF calculated AL(mm) \u2013 Calculated alveolar length at mid-facial."
+  },
+  {
+    "nhanes_var": "OHX30LAM",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) MdF calculated AL(mm) \u2013 Calculated alveolar length at mid-dorsal facial."
+  },
+  {
+    "nhanes_var": "OHX30LAS",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) MF calculated AL(mm) \u2013 Calculated alveolar length at mid-facial."
+  },
+  {
+    "nhanes_var": "OHX30LAP",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) DL calculated AL(mm) \u2013 Calculated alveolar length at mid-lingual."
+  },
+  {
+    "nhanes_var": "OHX30LAL",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) MdL calculated AL(mm) \u2013 Calculated alveolar length at mid-dorsal lingual."
+  },
+  {
+    "nhanes_var": "OHX30LAA",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(1M) ML calculated AL(mm) \u2013 Calculated alveolar length at mid-oral."
+  },
+  {
+    "nhanes_var": "OHX31CJD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(2M) DF FGM-CEJ(mm) \u2013 Periodontal probing depth at mid-facial CEJ."
+  },
+  {
+    "nhanes_var": "OHX31CJM",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(2M) MdF FGM-CEJ(mm) \u2013 Periodontal probing depth at mid-dorsal facial CEJ."
+  },
+  {
+    "nhanes_var": "OHX31CJS",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(2M) MF FGM-CEJ(mm) \u2013 Periodontal probing depth at mid-facial CEJ."
+  },
+  {
+    "nhanes_var": "OHX31CJP",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(2M) DL FGM-CEJ(mm) \u2013 Periodontal probing depth at mid-lingual CEJ."
+  },
+  {
+    "nhanes_var": "OHX31CJL",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "LOA: Mnd R(2M) MdL FGM-CEJ(mm) \u2013 Periodontal probing depth at mid-dorsal lingual CEJ."
+  },
+  {
+    "nhanes_var": "OHX31CJA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle left segment) measured in mm; stored as measurement_concept_id 3010001"
+  },
+  {
+    "nhanes_var": "OHX31PCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle front segment) measured in mm; same concept as generic axial length"
+  },
+  {
+    "nhanes_var": "OHX31PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle front segment) measured in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle front segment) measured in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31PCP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle front segment) measured in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31PCL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle front segment) measured in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31PCA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Axial length of right eye (middle left segment) measured in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31LAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Calculated axial length of right eye (middle front segment) in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Calculated axial length of right eye (middle front segment) in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Calculated axial length of right eye (middle front segment) in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31LAP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Calculated axial length of right eye (middle front segment) in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31LAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Calculated axial length of right eye (middle front segment) in mm; generic axial length concept"
+  },
+  {
+    "nhanes_var": "OHX31LAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Calculated axial length of right eye (middle front segment) in mm; generic axial length concept"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier; maps to person_id as the primary key."
+  },
+  {
+    "nhanes_var": "SDDSRVYR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Data release version indicator; stored as an observation with value_as_string = 'NHANES 2001-2002 Public Release'."
+  },
+  {
+    "nhanes_var": "RIDSTATR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Interview/examination status; stored as observation. Can be used to filter cohorts (e.g., only MEC examined)."
+  },
+  {
+    "nhanes_var": "RIDEXMON",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Six-month exam period; stored as observation. May influence seasonality adjustments."
+  },
+  {
+    "nhanes_var": "RIAGENDR",
+    "omop_table": "person",
+    "omop_field": "gender_concept_id",
+    "concept_id": 8507,
+    "notes": "Male \u2192 8507, Female \u2192 8532. Direct mapping to OMOP gender concepts."
+  },
+  {
+    "nhanes_var": "RIDAGEYR",
+    "omop_table": "person",
+    "omop_field": "year_of_birth",
+    "concept_id": null,
+    "notes": "Age at screening; year_of_birth can be derived as (screening_year - RIDAGEYR). Topcoded at 85."
+  },
+  {
+    "nhanes_var": "RIDAGEMN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Age in months at screening; stored as observation for precision beyond year_of_birth."
+  },
+  {
+    "nhanes_var": "RIDAGEEX",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Age in months at exam; stored as observation. Useful for pediatric growth calculations."
+  },
+  {
+    "nhanes_var": "RIDRETH1",
+    "omop_table": "person",
+    "omop_field": "race_concept_id",
+    "concept_id": null,
+    "notes": "Combined race/ethnicity recode. Map to race_concept_id and ethnicity_concept_id using standard OMOP concepts (e.g., Mexican American \u2192 Hispanic ethnicity, specific race)."
+  },
+  {
+    "nhanes_var": "RIDRETH2",
+    "omop_table": "person",
+    "omop_field": "race_concept_id",
+    "concept_id": null,
+    "notes": "Alternative linked race/ethnicity recode. Use similarly to RIDRETH1; may provide finer granularity."
+  },
+  {
+    "nhanes_var": "DMQMILIT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4052017,
+    "notes": "Veteran status; concept 4052017 (Military service status). Values: Yes/No/Refused/Don't know."
+  },
+  {
+    "nhanes_var": "DMDBORN",
+    "omop_table": "person",
+    "omop_field": "birth_place_concept_id",
+    "concept_id": null,
+    "notes": "Country of birth; map to OMOP place concepts (e.g., USA, Mexico, Elsewhere)."
+  },
+  {
+    "nhanes_var": "DMDCITZN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4052020,
+    "notes": "US citizenship status; concept 4052020 (Citizenship status)."
+  },
+  {
+    "nhanes_var": "DMDYRSUS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Length of time in US; stored as observation with ordinal categories."
+  },
+  {
+    "nhanes_var": "DMDEDUC3",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 40767402,
+    "notes": "Education level for children 6-19; concept 40767402 (Educational attainment)."
+  },
+  {
+    "nhanes_var": "DMDEDUC2",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 40767402,
+    "notes": "Education level for adults 20+; same concept as DMDEDUC3."
+  },
+  {
+    "nhanes_var": "DMDEDUC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 40767402,
+    "notes": "Old education recode; stored as observation with collapsed categories."
+  },
+  {
+    "nhanes_var": "DMDSCHOL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Current school attendance; stored as observation."
+  },
+  {
+    "nhanes_var": "DMDMARTL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4052021,
+    "notes": "Marital status; concept 4052021 (Marital status)."
+  },
+  {
+    "nhanes_var": "DMDHHSIZ",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Household size; stored as observation."
+  },
+  {
+    "nhanes_var": "INDHHINC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 40769038,
+    "notes": "Annual household income (bracketed); concept 40769038 (Annual household income)."
+  },
+  {
+    "nhanes_var": "INDFMINC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 40769039,
+    "notes": "Annual family income (bracketed); concept 40769039 (Annual family income)."
+  },
+  {
+    "nhanes_var": "INDFMPIR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Poverty income ratio; stored as continuous observation (value_as_number)."
+  },
+  {
+    "nhanes_var": "RIDEXPRG",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4030943,
+    "notes": "Pregnancy status at exam; concept 4030943 (Pregnancy status)."
+  },
+  {
+    "nhanes_var": "RIDPREG",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4030943,
+    "notes": "Old pregnancy status recode; same concept as RIDEXPRG."
+  },
+  {
+    "nhanes_var": "DMDHRGND",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Household reference person gender; not directly mapped to participant's person record. Can be stored as observation if needed."
+  },
+  {
+    "nhanes_var": "DMDHRAGE",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Household reference person age; not a participant attribute. Skip or store as observation."
+  },
+  {
+    "nhanes_var": "DMDHRBRN",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Household reference person country of birth; skip or store as observation."
+  },
+  {
+    "nhanes_var": "DMDHREDU",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Household reference person education; skip or store as observation."
+  },
+  {
+    "nhanes_var": "DMDHRMAR",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Household reference person marital status; skip or store as observation."
+  },
+  {
+    "nhanes_var": "DMDHSEDU",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Spouse of household reference person education; skip or store as observation."
+  },
+  {
+    "nhanes_var": "WTINT2YR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Full sample 2-year interview weight; stored as observation with value_as_number. Used for survey-weighted analyses."
+  },
+  {
+    "nhanes_var": "WTINT4YR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Full sample 4-year interview weight (1999-2002); stored as observation."
+  },
+  {
+    "nhanes_var": "WTMEC2YR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Full sample 2-year MEC exam weight; stored as observation. Essential for MEC-based analyses."
+  },
+  {
+    "nhanes_var": "WTMEC4YR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Full sample 4-year MEC exam weight (1999-2002); stored as observation."
+  },
+  {
+    "nhanes_var": "SDMVPSU",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Masked variance pseudo-PSU; stored as observation for survey design specification."
+  },
+  {
+    "nhanes_var": "SDMVSTRA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Masked variance pseudo-stratum; stored as observation for survey design specification."
+  }
+]

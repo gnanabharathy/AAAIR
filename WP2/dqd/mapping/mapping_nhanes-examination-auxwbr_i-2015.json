@@ -1,0 +1,2158 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "WBXFEAR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Ear tested (categorical)"
+  },
+  {
+    "nhanes_var": "WBXF001",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 1"
+  },
+  {
+    "nhanes_var": "WBXF002",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 2"
+  },
+  {
+    "nhanes_var": "WBXF003",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 3"
+  },
+  {
+    "nhanes_var": "WBXF004",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 4"
+  },
+  {
+    "nhanes_var": "WBXF005",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 5"
+  },
+  {
+    "nhanes_var": "WBXF006",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 6"
+  },
+  {
+    "nhanes_var": "WBXF007",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 7"
+  },
+  {
+    "nhanes_var": "WBXF008",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 8"
+  },
+  {
+    "nhanes_var": "WBXF009",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 9"
+  },
+  {
+    "nhanes_var": "WBXF010",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 10"
+  },
+  {
+    "nhanes_var": "WBXF011",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 11"
+  },
+  {
+    "nhanes_var": "WBXF012",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 12"
+  },
+  {
+    "nhanes_var": "WBXF013",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Hearing test frequency data point 13"
+  },
+  {
+    "nhanes_var": "WBXF014",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 014, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF015",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 015, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF016",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 016, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF017",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 017, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF018",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 018, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF019",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 019, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 020, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF021",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 021, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF022",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 022, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF023",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 023, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF024",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 024, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF025",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 025, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF026",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 026, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF027",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 027, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF028",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 028, stored as measurement value"
+  },
+  {
+    "nhanes_var": "WBXF029",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 029, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF030",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 030, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF031",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 031, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF032",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 032, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF033",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 033, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF034",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 034, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF035",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 035, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF036",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 036, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF037",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 037, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF038",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 038, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF039",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 039, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 040, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF041",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 041, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF042",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 042, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF043",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency Array Data Point 043, continuous laboratory measurement, map to OMOP measurement table"
+  },
+  {
+    "nhanes_var": "WBXF044",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF045",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF046",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF047",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF048",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF049",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF050",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF051",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF052",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF053",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF054",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF055",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF056",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF057",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF058",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Generic continuous measurement; concept_id unknown"
+  },
+  {
+    "nhanes_var": "WBXF059",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF060",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF061",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF062",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF063",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF064",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF065",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF066",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF067",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF068",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF069",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF070",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF071",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF072",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF073",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXF074",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF075",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF076",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF077",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF078",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF079",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF080",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF081",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF082",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF083",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF084",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF085",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF086",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF087",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF088",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point; map to measurement table as numeric value."
+  },
+  {
+    "nhanes_var": "WBXF089",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 089, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF090",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 090, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF091",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 091, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF092",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 092, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF093",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 093, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF094",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 094, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF095",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 095, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF096",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 096, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF097",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 097, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF098",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 098, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF099",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 099, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF100",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 100, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF101",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 101, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF102",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 102, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF103",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous frequency array data point 103, mapped to OMOP measurement value"
+  },
+  {
+    "nhanes_var": "WBXF104",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Frequency array data point 104, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXF105",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Frequency array data point 105, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXF106",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Frequency array data point 106, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXF107",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Frequency array data point 107, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA001",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 001, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA002",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 002, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA003",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 003, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA004",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 004, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA005",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 005, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA006",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 006, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA007",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 007, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA008",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 008, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA009",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 009, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA010",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 010, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA011",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Absorbance array data point 011, lab measurement value"
+  },
+  {
+    "nhanes_var": "WBXA012",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 012, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA013",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 013, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA014",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 014, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA015",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 015, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA016",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 016, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA017",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 017, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA018",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 018, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA019",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 019, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 020, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA021",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 021, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA022",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 022, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA023",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 023, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA024",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 024, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA025",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 025, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA026",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Absorbance array data point 026, continuous numeric, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA027",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA028",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA029",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA030",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA031",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA032",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA033",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA034",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA035",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA036",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA037",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA038",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA039",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA040",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA041",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance array data point; no standard OMOP concept, map to custom measurement concept"
+  },
+  {
+    "nhanes_var": "WBXA042",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 042, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA043",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 043, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA044",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 044, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA045",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 045, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA046",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 046, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA047",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 047, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA048",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 048, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA049",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 049, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA050",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 050, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA051",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 051, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA052",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 052, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA053",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 053, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA054",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 054, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA055",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 055, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA056",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lab absorbance measurement at wavelength 056, not mapped to a standard OMOP concept"
+  },
+  {
+    "nhanes_var": "WBXA057",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA058",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA059",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA061",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA062",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA063",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA064",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA065",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA066",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA067",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA068",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA069",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA070",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA071",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Raw absorbance data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXA072",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 072; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA073",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 073; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA074",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 074; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA075",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 075; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA076",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 076; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA077",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 077; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA078",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 078; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA079",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 079; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 080; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA081",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 081; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA082",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 082; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA083",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 083; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA084",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 084; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA085",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 085; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA086",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance at data point 086; stored as a numeric measurement value."
+  },
+  {
+    "nhanes_var": "WBXA087",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 087, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA088",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 088, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA089",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 089, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA090",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 090, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA091",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 091, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA092",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 092, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA093",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 093, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA094",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 094, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA095",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 095, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA096",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 096, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA097",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 097, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA098",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 098, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA099",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 099, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA100",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 100, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA101",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Absorbance measurement for array point 101, stored as numeric value"
+  },
+  {
+    "nhanes_var": "WBXA102",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance array data point 102"
+  },
+  {
+    "nhanes_var": "WBXA103",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance array data point 103"
+  },
+  {
+    "nhanes_var": "WBXA104",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance array data point 104"
+  },
+  {
+    "nhanes_var": "WBXA105",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance array data point 105"
+  },
+  {
+    "nhanes_var": "WBXA106",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance array data point 106"
+  },
+  {
+    "nhanes_var": "WBXA107",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of absorbance array data point 107"
+  },
+  {
+    "nhanes_var": "WBXP001",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 001"
+  },
+  {
+    "nhanes_var": "WBXP002",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 002"
+  },
+  {
+    "nhanes_var": "WBXP003",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 003"
+  },
+  {
+    "nhanes_var": "WBXP004",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 004"
+  },
+  {
+    "nhanes_var": "WBXP005",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 005"
+  },
+  {
+    "nhanes_var": "WBXP006",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 006"
+  },
+  {
+    "nhanes_var": "WBXP007",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 007"
+  },
+  {
+    "nhanes_var": "WBXP008",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 008"
+  },
+  {
+    "nhanes_var": "WBXP009",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Lab measurement of phase array data point 009"
+  },
+  {
+    "nhanes_var": "WBXP010",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 010, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP011",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 011, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP012",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 012, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP013",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 013, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP014",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 014, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP015",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 015, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP016",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 016, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP017",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 017, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP018",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 018, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP019",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 019, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP020",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 020, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP021",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 021, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP022",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 022, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP023",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 023, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP024",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array Data Point 024, waveform data point stored as observation value"
+  },
+  {
+    "nhanes_var": "WBXP025",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 025; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP026",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 026; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP027",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 027; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP028",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 028; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP029",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 029; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP030",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 030; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP031",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 031; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP032",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 032; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP033",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 033; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP034",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 034; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP035",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 035; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP036",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 036; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP037",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 037; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP038",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 038; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP039",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement from Phase Array Data Point 039; no standard OMOP concept available."
+  },
+  {
+    "nhanes_var": "WBXP040",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP041",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP042",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP043",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP044",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP045",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP046",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP047",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP048",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP049",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP050",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP051",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP052",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP053",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP054",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous Phase Array data point, no standard concept"
+  },
+  {
+    "nhanes_var": "WBXP055",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 055 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP056",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 056 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP057",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 057 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP058",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 058 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP059",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 059 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP060",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 060 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP061",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 061 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP062",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 062 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP063",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 063 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP064",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 064 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP065",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 065 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP066",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 066 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP067",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 067 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP068",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 068 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP069",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Phase Array data point 069 from blood pressure waveform"
+  },
+  {
+    "nhanes_var": "WBXP070",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP071",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP072",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP073",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP074",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP075",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP076",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP077",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP078",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP079",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP080",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP081",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP082",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP083",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP084",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point, not mapped to a standard concept."
+  },
+  {
+    "nhanes_var": "WBXP100",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 100 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP101",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 101 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP102",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 102 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP103",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 103 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP104",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 104 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP105",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 105 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP106",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 106 from blood pressure waveform, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "WBXP107",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw phase array data point 107 from blood pressure waveform, stored as numeric measurement value"
+  }
+]

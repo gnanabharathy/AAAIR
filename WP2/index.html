@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dataset Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <div class="page-header">
+      <h1 class="page-title">Open Health Dataset Explorer & Quality Check</h1>
+      <p class="page-sub">Filter datasets by data type and task</p>
+    </div>
+
+    <!-- Filter Panel -->
+    <section class="filter-panel">
+      <div class="filter-grid">
+
+        <!-- Left: Data Type -->
+        <div>
+          <div class="filter-col-title">Data Type</div>
+          <div class="category-list" id="data-type-list">
+
+            <div class="category-item" data-type="tabular">
+              <div class="category-header">
+                <div class="category-name">
+                  <div class="cat-dot dot-blue"></div>Tabular
+                </div>
+                <div class="category-arrow">▶</div>
+              </div>
+              <div class="subcategory-list">
+                <div class="sub-item" data-value="demographics"><div class="sub-cb"></div>Demographics</div>
+                <div class="sub-item" data-value="dietary"><div class="sub-cb"></div>Dietary & Nutrition</div>
+                <div class="sub-item" data-value="laboratory"><div class="sub-cb"></div>Laboratory & Biochemistry</div>
+                <div class="sub-item" data-value="examination"><div class="sub-cb"></div>Examination & Vitals</div>
+                <div class="sub-item" data-value="questionnaire"><div class="sub-cb"></div>Questionnaire & Lifestyle</div>
+                <div class="sub-item" data-value="health-status"><div class="sub-cb"></div>Health Status</div>
+                <div class="sub-item" data-value="health-services"><div class="sub-cb"></div>Health Services</div>
+                <div class="sub-item" data-value="social-determinants"><div class="sub-cb"></div>Social Determinants</div>
+                <div class="sub-item" data-value="indigenous-health"><div class="sub-cb"></div>Indigenous Health</div>
+                <div class="sub-item" data-value="ehr"><div class="sub-cb"></div>EHR & Clinical Records</div>
+                <div class="sub-item" data-value="genomics"><div class="sub-cb"></div>Genomics & Omics</div>
+              </div>
+            </div>
+
+            <div class="category-item" data-type="image">
+              <div class="category-header">
+                <div class="category-name">
+                  <div class="cat-dot dot-teal"></div>Image
+                </div>
+                <div class="category-arrow">▶</div>
+              </div>
+              <div class="subcategory-list">
+                <div class="sub-item" data-value="chest-xray"><div class="sub-cb"></div>Chest X-ray</div>
+                <div class="sub-item" data-value="ct-scan"><div class="sub-cb"></div>CT Scan</div>
+                <div class="sub-item" data-value="mri"><div class="sub-cb"></div>MRI</div>
+                <div class="sub-item" data-value="pathology"><div class="sub-cb"></div>Pathology Slide</div>
+                <div class="sub-item" data-value="skin-imaging"><div class="sub-cb"></div>Skin Imaging</div>
+                <div class="sub-item" data-value="cardiac-imaging"><div class="sub-cb"></div>Cardiac Imaging</div>
+              </div>
+            </div>
+
+            <div class="category-item" data-type="text">
+              <div class="category-header">
+                <div class="category-name">
+                  <div class="cat-dot dot-purple"></div>Text
+                </div>
+                <div class="category-arrow">▶</div>
+              </div>
+              <div class="subcategory-list">
+                <div class="sub-item" data-value="clinical-notes"><div class="sub-cb"></div>Clinical Notes</div>
+                <div class="sub-item" data-value="radiology-reports"><div class="sub-cb"></div>Radiology Reports</div>
+                <div class="sub-item" data-value="dietary-interview"><div class="sub-cb"></div>Dietary Interview</div>
+              </div>
+            </div>
+
+            <div class="category-item" data-type="signal">
+              <div class="category-header">
+                <div class="category-name">
+                  <div class="cat-dot dot-amber"></div>Signal / Time-series
+                </div>
+                <div class="category-arrow">▶</div>
+              </div>
+              <div class="subcategory-list">
+                <div class="sub-item" data-value="ecg"><div class="sub-cb"></div>ECG</div>
+                <div class="sub-item" data-value="eeg"><div class="sub-cb"></div>EEG</div>
+                <div class="sub-item" data-value="icu-waveforms"><div class="sub-cb"></div>ICU Waveforms</div>
+                <div class="sub-item" data-value="vitals"><div class="sub-cb"></div>Continuous Vitals</div>
+              </div>
+            </div>
+
+            <div class="category-item" data-type="multimodal">
+              <div class="category-header">
+                <div class="category-name">
+                  <div class="cat-dot dot-coral"></div>Multi-modal
+                </div>
+                <div class="category-arrow">▶</div>
+              </div>
+              <div class="subcategory-list">
+                <div class="sub-item" data-value="image-text"><div class="sub-cb"></div>Image + Report</div>
+                <div class="sub-item" data-value="image-clinical"><div class="sub-cb"></div>Image + Clinical Data</div>
+                <div class="sub-item" data-value="signal-clinical"><div class="sub-cb"></div>Signal + Clinical Data</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Task Type -->
+        <div>
+          <div class="filter-col-title">Task Type</div>
+          <div class="task-list" id="task-list">
+            <div class="task-item" data-value="classification"><div class="task-cb"></div><div class="task-name">Classification</div></div>
+            <div class="task-item" data-value="regression"><div class="task-cb"></div><div class="task-name">Regression</div></div>
+            <div class="task-item" data-value="clustering"><div class="task-cb"></div><div class="task-name">Clustering</div></div>
+            <div class="task-item" data-value="nlp"><div class="task-cb"></div><div class="task-name">NLP / Text embedding</div></div>
+            <div class="task-item" data-value="multimodal-fusion"><div class="task-cb"></div><div class="task-name">Multi-modal Fusion</div></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="filter-footer">
+        <div class="filter-summary" id="filter-summary">No filters selected</div>
+        <button class="apply-btn" id="apply-btn">Apply filters</button>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="results-section" id="results-section" style="display:none">
+      <div class="results-header">
+        <div class="results-title">Results</div>
+        <div class="results-count" id="results-count"></div>
+      </div>
+      <div class="card-grid" id="card-grid"></div>
+    </section>
+
+    <!-- Schema Drawer -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <aside class="drawer" id="drawer">
+      <div class="drawer-header">
+        <div>
+          <div class="drawer-title" id="drawer-title"></div>
+          <div class="drawer-sub" id="drawer-sub"></div>
+        </div>
+        <button class="drawer-close" id="drawer-close">✕</button>
+      </div>
+      <div class="drawer-body" id="drawer-body"></div>
+    </aside>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

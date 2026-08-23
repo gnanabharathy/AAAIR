@@ -1,0 +1,268 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "BMAEXLEN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Duration of MEC exam in seconds"
+  },
+  {
+    "nhanes_var": "BMAEXSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Status of MEC exam"
+  },
+  {
+    "nhanes_var": "BMAEXCMT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for MEC exam"
+  },
+  {
+    "nhanes_var": "BMXWT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight in kilograms"
+  },
+  {
+    "nhanes_var": "BMIWT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Weight comment"
+  },
+  {
+    "nhanes_var": "BMXRECUM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035624,
+    "notes": "Recumbent length in centimeters"
+  },
+  {
+    "nhanes_var": "BMIRECUM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recumbent length comment"
+  },
+  {
+    "nhanes_var": "BMXHEAD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035626,
+    "notes": "Head circumference in centimeters"
+  },
+  {
+    "nhanes_var": "BMIHEAD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Head circumference comment"
+  },
+  {
+    "nhanes_var": "BMXHT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035624,
+    "notes": "Standing height in centimeters"
+  },
+  {
+    "nhanes_var": "BMIHT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Standing height comment"
+  },
+  {
+    "nhanes_var": "BMXBMI",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035627,
+    "notes": "Body mass index (kg/m^2)"
+  },
+  {
+    "nhanes_var": "BMXLEG",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035628,
+    "notes": "Upper leg length in centimeters"
+  },
+  {
+    "nhanes_var": "BMILEG",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Upper leg length comment"
+  },
+  {
+    "nhanes_var": "BMXCALF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximal calf circumference in cm; map to measurement table with unit concept for centimeters."
+  },
+  {
+    "nhanes_var": "BMICALF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on calf measurement; store as separate measurement with comment concept."
+  },
+  {
+    "nhanes_var": "BMXARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Upper arm length in cm; measurement table with unit concept centimeters."
+  },
+  {
+    "nhanes_var": "BMIARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on upper arm length; separate measurement record."
+  },
+  {
+    "nhanes_var": "BMXARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Arm circumference in cm; measurement table with unit concept centimeters."
+  },
+  {
+    "nhanes_var": "BMIARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on arm circumference; separate measurement record."
+  },
+  {
+    "nhanes_var": "BMXWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Waist circumference in cm; measurement table with unit concept centimeters."
+  },
+  {
+    "nhanes_var": "BMIWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on waist circumference; separate measurement record."
+  },
+  {
+    "nhanes_var": "BMXTHICR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thigh circumference in cm; measurement table with unit concept centimeters."
+  },
+  {
+    "nhanes_var": "BMITHICR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on thigh circumference; separate measurement record."
+  },
+  {
+    "nhanes_var": "BMXTRI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Triceps skinfold in mm; measurement table with unit concept millimeters."
+  },
+  {
+    "nhanes_var": "BMITRI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on triceps skinfold; separate measurement record."
+  },
+  {
+    "nhanes_var": "BMXSUB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Subscapular skinfold in mm; measurement table with unit concept millimeters."
+  },
+  {
+    "nhanes_var": "BMISUB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment on subscapular skinfold; separate measurement record."
+  },
+  {
+    "nhanes_var": "BMAAMP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Amputation status (binary); map to measurement table with unit concept 'yes/no' or use condition_occurrence if appropriate."
+  },
+  {
+    "nhanes_var": "BMAUREXT",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of right upper extremity; concept ID to be assigned from OMOP procedure concept set."
+  },
+  {
+    "nhanes_var": "BMAUPREL",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of right upper extremity above or below elbow; specific concept ID to be determined."
+  },
+  {
+    "nhanes_var": "BMAULEXT",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of left upper extremity; concept ID to be assigned."
+  },
+  {
+    "nhanes_var": "BMAUPLEL",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of left upper extremity above or below elbow; specific concept ID to be determined."
+  },
+  {
+    "nhanes_var": "BMALOREX",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of right lower extremity; concept ID to be assigned."
+  },
+  {
+    "nhanes_var": "BMALORKN",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of right lower extremity above or below knee; specific concept ID to be determined."
+  },
+  {
+    "nhanes_var": "BMALLEXT",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of left lower extremity; concept ID to be assigned."
+  },
+  {
+    "nhanes_var": "BMALLKNE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of left lower extremity above or below knee; specific concept ID to be determined."
+  }
+]

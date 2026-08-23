@@ -1,0 +1,156 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source identifier for person"
+  },
+  {
+    "nhanes_var": "ENXSTAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Status code for ENO exam; no standard concept, stored as measurement"
+  },
+  {
+    "nhanes_var": "ENXCMT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment for ENO exams not done; stored as measurement"
+  },
+  {
+    "nhanes_var": "ENQ010",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Breathing problem requiring oxygen (binary)"
+  },
+  {
+    "nhanes_var": "ENQ020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Problem taking deep breath (binary)"
+  },
+  {
+    "nhanes_var": "ENQ040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Smoked last hour (binary)"
+  },
+  {
+    "nhanes_var": "ENQ050",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Exercised strenuously last hour (binary)"
+  },
+  {
+    "nhanes_var": "ENQ060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ate or drank last hour (binary)"
+  },
+  {
+    "nhanes_var": "ENQ070",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ate NO-rich vegetables in last 3 hours (binary)"
+  },
+  {
+    "nhanes_var": "ENQ080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ate NO-rich meats in last 3 hours (binary)"
+  },
+  {
+    "nhanes_var": "ENQ090",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Used oral or inhaled steroids in last 2 days (binary)"
+  },
+  {
+    "nhanes_var": "ENQ100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cough, cold, or respiratory illness in last 7 days (binary)"
+  },
+  {
+    "nhanes_var": "ENAATMPT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total number of exhalation attempts (ordinal)"
+  },
+  {
+    "nhanes_var": "ENXTR1G",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trial 1 result status (categorical)"
+  },
+  {
+    "nhanes_var": "ENXTR1Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Trial 1 FENO measurement in ppb (continuous)"
+  },
+  {
+    "nhanes_var": "ENXTR2G",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Result status for FENO trial 2, stored as source value"
+  },
+  {
+    "nhanes_var": "ENXTR2Q",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "FENO measurement (ppb) for trial 2"
+  },
+  {
+    "nhanes_var": "ENXTR3G",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Result status for FENO trial 3, stored as source value"
+  },
+  {
+    "nhanes_var": "ENXTR3Q",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "FENO measurement (ppb) for trial 3"
+  },
+  {
+    "nhanes_var": "ENXTR4G",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Result status for FENO trial 4, stored as source value"
+  },
+  {
+    "nhanes_var": "ENXTR4Q",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "FENO measurement (ppb) for trial 4"
+  },
+  {
+    "nhanes_var": "ENXMEAN",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "Mean of 2 reproducible FENO measures (ppb)"
+  }
+]

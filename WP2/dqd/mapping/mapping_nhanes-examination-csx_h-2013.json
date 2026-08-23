@@ -1,0 +1,247 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source identifier for person"
+  },
+  {
+    "nhanes_var": "CSXEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Overall Taste & Smell Exam Status recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSXEXCMT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for exam status recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSQ245",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Ever had quinine allergy recorded as a condition"
+  },
+  {
+    "nhanes_var": "CSQ241",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Currently pregnant or breastfeeding recorded as a condition"
+  },
+  {
+    "nhanes_var": "CSQ270",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Type of nasal blockage recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSQ450",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Low intermediate light intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSQ460",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "High intermediate light intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSQ470",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Medium test light intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSQ480",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Low test light intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSQ490",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "High test light intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSXQUIPG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tongue tip 1mM quinine taste intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSXQUIPT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tongue tip 1mM quinine taste description recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSXNAPG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tongue tip 1M NaCl taste intensity recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSXNAPT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tongue tip 1M NaCl taste description recorded as a measurement"
+  },
+  {
+    "nhanes_var": "CSXQUISG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Whole mouth 1 mM Quinine intensity (gLMS) \u2013 continuous numeric value stored in measurement_value."
+  },
+  {
+    "nhanes_var": "CSXQUIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Taste identification for 1 mM Quinine \u2013 categorical; store concept ID of the identified taste in measurement_value_concept_id."
+  },
+  {
+    "nhanes_var": "CSXSLTSG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Whole mouth 1 M NaCl intensity (gLMS) \u2013 continuous numeric value."
+  },
+  {
+    "nhanes_var": "CSXSLTST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Taste identification for 1 M NaCl \u2013 categorical; store concept ID of the identified taste."
+  },
+  {
+    "nhanes_var": "CSXNASG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Whole mouth 0.32 M NaCl intensity (gLMS) \u2013 continuous numeric value."
+  },
+  {
+    "nhanes_var": "CSXNAST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Taste identification for 0.32 M NaCl \u2013 categorical; store concept ID of the identified taste."
+  },
+  {
+    "nhanes_var": "CSXTSEQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Sequence of taste tests \u2013 categorical; store concept ID indicating order or type of sequence."
+  },
+  {
+    "nhanes_var": "CSXCHOOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Chocolate scent identification; categorical; store concept ID of identified scent."
+  },
+  {
+    "nhanes_var": "CSXSBOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Strawberry scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXSMKOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Smoke scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXLEAOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Leather scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXSOAOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Soap scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXGRAOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Grape scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXONOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Onion scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXNGSOD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_concept_id",
+    "concept_id": null,
+    "notes": "Smell test \u2013 Natural gas scent identification; categorical."
+  },
+  {
+    "nhanes_var": "CSXSLTRT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Whole mouth repeat 1M NaCl concentration (gLMS). Mapped as a numeric observation of taste test concentration."
+  },
+  {
+    "nhanes_var": "CSXSLTRG",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380002,
+    "notes": "Categorical response to 1M NaCl taste test. Mapped as a concept-coded observation of taste test result."
+  },
+  {
+    "nhanes_var": "CSXNART",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380003,
+    "notes": "Whole mouth repeat 0.32M NaCl concentration (gLMS). Numeric observation of taste test concentration."
+  },
+  {
+    "nhanes_var": "CSXNARG",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380004,
+    "notes": "Categorical response to 0.32M NaCl taste test. Concept-coded observation of taste test result."
+  },
+  {
+    "nhanes_var": "CSAEFFRT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380005,
+    "notes": "Participant's understanding of the test (ordinal). Mapped as a concept-coded observation of test comprehension."
+  }
+]

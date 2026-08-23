@@ -1,0 +1,674 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to unique person identifier"
+  },
+  {
+    "nhanes_var": "OPASCST1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "FDT Exam Status recorded as observation concept"
+  },
+  {
+    "nhanes_var": "OPASCCT1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "FDT Exam Status Comment recorded as observation concept"
+  },
+  {
+    "nhanes_var": "VIQ110",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Severe eye infection binary response recorded as observation"
+  },
+  {
+    "nhanes_var": "VIQ130",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Eye patch usage binary response recorded as observation"
+  },
+  {
+    "nhanes_var": "VIQ141",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Eye selection categorical response recorded as observation"
+  },
+  {
+    "nhanes_var": "OPDODFDT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Final FDT Right Eye Status recorded as observation"
+  },
+  {
+    "nhanes_var": "OPDOSFDT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Final FDT Left Eye Status recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1ODBS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Response to BS stimulus (Right, Test 1) recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1ODFP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Response to FP stimulus (Right, Test 1) recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1ODTN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "No fixation per tech (Right, Test 1) binary response recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1OD02",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "CT result (Right, Test 1) recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1OD03",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T6 result (Right, Test 1) recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1OD04",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T2 result (Right, Test 1) recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1OD05",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T5 result (Right, Test 1) recorded as observation"
+  },
+  {
+    "nhanes_var": "OPX1OD06",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 1 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD07",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 2 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD08",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 3 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD09",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 4 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD10",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 5 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD11",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 6 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD12",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 7 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD13",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 8 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD14",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 9 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD15",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 10 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD16",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 11 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD17",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 12 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD18",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 13 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD19",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 14 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OD20",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ophthalmology test 15 result (Right eye) stored as observation concept"
+  },
+  {
+    "nhanes_var": "OPX1OSBS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "Response to BS stimulus - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OSFP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "Response to FP stimulus - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OSTN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "No fixation per Tech - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS00",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "NS result - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS01",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "NI results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS02",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "CT results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS03",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "N2 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS04",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "N6 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS05",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "N1 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS06",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "N5 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS07",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "T6 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS08",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "T2 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS09",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "T5 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS10",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "T1 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS11",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "T7 results - Left - Test 1, visual field test result"
+  },
+  {
+    "nhanes_var": "OPX1OS12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T3 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX1OS13",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T8 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX1OS14",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T4 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX1OS15",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "N3 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX1OS16",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "N7 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX1OS17",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "N4 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX1OS18",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "N8 left eye test 1 result, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2ODBS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Response to BS stimulus right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2ODFP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Response to FP stimulus right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2ODTN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "No fixation per tech right eye test 2, binary (0/1)"
+  },
+  {
+    "nhanes_var": "OPX2OD02",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "CT result right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2OD03",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T6 right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2OD04",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T2 right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2OD05",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T5 right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2OD06",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "T1 right eye test 2, ordinal numeric value"
+  },
+  {
+    "nhanes_var": "OPX2OD07",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N2 test (right eye, test 2) \u2013 maps to observation_concept_id for the N2 test"
+  },
+  {
+    "nhanes_var": "OPX2OD08",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N6 test (right eye, test 2) \u2013 maps to observation_concept_id for the N6 test"
+  },
+  {
+    "nhanes_var": "OPX2OD09",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N1 test (right eye, test 2) \u2013 maps to observation_concept_id for the N1 test"
+  },
+  {
+    "nhanes_var": "OPX2OD10",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N5 test (right eye, test 2) \u2013 maps to observation_concept_id for the N5 test"
+  },
+  {
+    "nhanes_var": "OPX2OD11",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N3 test (right eye, test 2) \u2013 maps to observation_concept_id for the N3 test"
+  },
+  {
+    "nhanes_var": "OPX2OD12",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N7 test (right eye, test 2) \u2013 maps to observation_concept_id for the N7 test"
+  },
+  {
+    "nhanes_var": "OPX2OD13",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N4 test (right eye, test 2) \u2013 maps to observation_concept_id for the N4 test"
+  },
+  {
+    "nhanes_var": "OPX2OD14",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of N8 test (right eye, test 2) \u2013 maps to observation_concept_id for the N8 test"
+  },
+  {
+    "nhanes_var": "OPX2OD15",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of T7 test (right eye, test 2) \u2013 maps to observation_concept_id for the T7 test"
+  },
+  {
+    "nhanes_var": "OPX2OD16",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of T3 test (right eye, test 2) \u2013 maps to observation_concept_id for the T3 test"
+  },
+  {
+    "nhanes_var": "OPX2OD17",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of T8 test (right eye, test 2) \u2013 maps to observation_concept_id for the T8 test"
+  },
+  {
+    "nhanes_var": "OPX2OD18",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of T4 test (right eye, test 2) \u2013 maps to observation_concept_id for the T4 test"
+  },
+  {
+    "nhanes_var": "OPX2OD19",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of NS test (right eye, test 2) \u2013 maps to observation_concept_id for the NS test"
+  },
+  {
+    "nhanes_var": "OPX2OD20",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal result of NI test (right eye, test 2) \u2013 maps to observation_concept_id for the NI test"
+  },
+  {
+    "nhanes_var": "OPX2OSBS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal response to BS stimulus (left eye, test 2) \u2013 maps to observation_concept_id for the BS stimulus response"
+  },
+  {
+    "nhanes_var": "OPX2OSFP",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "Response to FP stimulus \u2013 left eye, test 2; stored as a visual field test result concept"
+  },
+  {
+    "nhanes_var": "OPX2OSTN",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "No fixation per technician \u2013 left eye, test 2; binary result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS00",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "NS result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS01",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "NI result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS02",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "CT result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS03",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "N2 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS04",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "N6 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS05",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "N1 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS06",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "N5 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS07",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "T6 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS08",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "T2 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS09",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "T5 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS10",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "T1 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS11",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "T7 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS12",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "T3 result \u2013 left eye, test 2; ordinal result stored as concept"
+  },
+  {
+    "nhanes_var": "OPX2OS13",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T8 test result (left, test 2) mapped to lab test concept in Observation table"
+  },
+  {
+    "nhanes_var": "OPX2OS14",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T4 test result (left, test 2) mapped to lab test concept in Observation table"
+  },
+  {
+    "nhanes_var": "OPX2OS15",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "N3 test result (left, test 2) mapped to lab test concept in Observation table"
+  },
+  {
+    "nhanes_var": "OPX2OS16",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "N7 test result (left, test 2) mapped to lab test concept in Observation table"
+  },
+  {
+    "nhanes_var": "OPX2OS17",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "N4 test result (left, test 2) mapped to lab test concept in Observation table"
+  },
+  {
+    "nhanes_var": "OPX2OS18",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "N8 test result (left, test 2) mapped to lab test concept in Observation table"
+  }
+]

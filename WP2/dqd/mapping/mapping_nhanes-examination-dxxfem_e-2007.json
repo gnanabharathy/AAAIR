@@ -1,0 +1,142 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "DXAFMRST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010003,
+    "notes": "Femur scan status code"
+  },
+  {
+    "nhanes_var": "DXXFMBCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010004,
+    "notes": "Total femur BMD invalidity code"
+  },
+  {
+    "nhanes_var": "DXXOFBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Total femur bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXOFBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010001,
+    "notes": "Total femur bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXOFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Total femur area"
+  },
+  {
+    "nhanes_var": "DXXNKBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010005,
+    "notes": "Femoral neck bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXNKBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010006,
+    "notes": "Femoral neck bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXNKA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010007,
+    "notes": "Femoral neck area"
+  },
+  {
+    "nhanes_var": "DXXTRBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010008,
+    "notes": "Trochanter bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXTRBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010009,
+    "notes": "Trochanter bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXTRA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010010,
+    "notes": "Trochanter area"
+  },
+  {
+    "nhanes_var": "DXXINBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010011,
+    "notes": "Intertrochanter bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXINBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010012,
+    "notes": "Intertrochanter bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXINA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010013,
+    "notes": "Intertrochanter area"
+  },
+  {
+    "nhanes_var": "DXXWDBMD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ward's triangle bone mineral density (BMD) \u2013 no standard OMOP concept; stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXWDBMC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ward's triangle bone mineral content (BMC) \u2013 no standard OMOP concept; stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXWDA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ward's triangle area \u2013 no standard OMOP concept; stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXAFMRK",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated K for femur \u2013 no standard OMOP concept; stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXAFMRD0",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated DO for femur \u2013 no standard OMOP concept; stored as custom measurement"
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "SEQN is the NHANES participant identifier, mapped to person_source_value to retain the original sequence number."
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight is a survey design weight. Stored as a measurement value; a custom concept for the weight type would be needed in measurement_concept_id."
+  },
+  {
+    "nhanes_var": "WTDR2D",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary two-day sample weight is a survey design weight. Stored as a measurement value; a custom concept for the weight type would be needed in measurement_concept_id."
+  },
+  {
+    "nhanes_var": "DR2DRSTZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Dietary recall status is a categorical variable indicating the quality/completeness of the recall. Mapped to observation; the specific status codes would need mapping to standard concepts."
+  },
+  {
+    "nhanes_var": "DR2EXMER",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Interviewer ID code is an identifier for the interviewer. Stored as an observation string value; no standard concept exists."
+  },
+  {
+    "nhanes_var": "DRABF",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Breast-fed infant indicator (binary). Could map to a Yes/No concept (e.g., 4188539 for Yes, 4188540 for No) in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Number of days of intake is a categorical variable. Mapped to observation; values would need mapping to standard concepts for counts."
+  },
+  {
+    "nhanes_var": "DR2DAY",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Intake day of the week is categorical. Could map to standard day-of-week concepts if available, otherwise stored as source value."
+  },
+  {
+    "nhanes_var": "DR2LANG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language used in interview. Mapped to observation; language concepts exist in OMOP (e.g., English, Spanish)."
+  },
+  {
+    "nhanes_var": "DR2MNRSP",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Main respondent for interview. Categorical; could map to concepts like 'Self', 'Proxy' if standard concepts exist."
+  },
+  {
+    "nhanes_var": "DR2HELPD",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Helped in responding indicator. Binary/categorical; similar to DRABF mapping."
+  },
+  {
+    "nhanes_var": "DR2TNUMF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of foods reported is a continuous numeric measurement. Requires a custom measurement concept for 'Number of foods'."
+  },
+  {
+    "nhanes_var": "DR2TKCAL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4322388,
+    "notes": "Energy (kcal) maps to measurement with concept_id 4322388 (Energy, total). Unit concept for kcal would be needed."
+  },
+  {
+    "nhanes_var": "DR2TPROT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4075850,
+    "notes": "Protein (gm) maps to measurement with concept_id 4075850 (Protein intake). Unit concept for gram would be needed."
+  },
+  {
+    "nhanes_var": "DR2TCARB",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4075851,
+    "notes": "Carbohydrate (gm) maps to measurement with concept_id 4075851 (Carbohydrate intake). Unit concept for gram would be needed."
+  },
+  {
+    "nhanes_var": "DR2TSUGR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total sugars intake in grams. Map to measurement table with appropriate measurement_concept_id for 'Total sugars' (e.g., 3005772) and unit_concept_id for grams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TFIBE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary fiber intake in grams. Map to measurement table with measurement_concept_id for 'Fiber, total dietary' (e.g., 3018629) and unit_concept_id for grams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TTFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total fat intake in grams. Map to measurement table with measurement_concept_id for 'Total fat' (e.g., 3015632) and unit_concept_id for grams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TSFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total saturated fatty acids intake in grams. Map to measurement table with measurement_concept_id for 'Saturated fat' (e.g., 3015633) and unit_concept_id for grams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TMFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total monounsaturated fatty acids intake in grams. Map to measurement table with measurement_concept_id for 'Monounsaturated fat' (e.g., 3015634) and unit_concept_id for grams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TPFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total polyunsaturated fatty acids intake in grams. Map to measurement table with measurement_concept_id for 'Polyunsaturated fat' (e.g., 3015635) and unit_concept_id for grams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TCHOL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Cholesterol intake in milligrams. Map to measurement table with measurement_concept_id for 'Cholesterol' (e.g., 3015636) and unit_concept_id for milligrams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TATOC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Vitamin E as alpha-tocopherol intake in milligrams. Map to measurement table with measurement_concept_id for 'Vitamin E' (e.g., 3006923) and unit_concept_id for milligrams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TATOA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Added alpha-tocopherol (Vitamin E) intake in milligrams. Map to measurement table with measurement_concept_id for 'Vitamin E, added' (e.g., 3006923) and unit_concept_id for milligrams (8576)."
+  },
+  {
+    "nhanes_var": "DR2TRET",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Retinol intake in micrograms. Map to measurement table with measurement_concept_id for 'Retinol' (e.g., 3001122) and unit_concept_id for micrograms (8576)."
+  },
+  {
+    "nhanes_var": "DR2TVARA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Vitamin A, RAE intake in micrograms. Map to measurement table with measurement_concept_id for 'Vitamin A' (e.g., 3001122) and unit_concept_id for micrograms (8576)."
+  },
+  {
+    "nhanes_var": "DR2TACAR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Alpha-carotene intake in micrograms. Map to measurement table with measurement_concept_id for 'Alpha-carotene' (e.g., 3005773) and unit_concept_id for micrograms (8576)."
+  },
+  {
+    "nhanes_var": "DR2TBCAR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Beta-carotene intake in micrograms. Map to measurement table with measurement_concept_id for 'Beta-carotene' (e.g., 3005774) and unit_concept_id for micrograms (8576)."
+  },
+  {
+    "nhanes_var": "DR2TCRYP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Beta-cryptoxanthin intake in micrograms. Map to measurement table with measurement_concept_id for 'Beta-cryptoxanthin' (e.g., 3005775) and unit_concept_id for micrograms (8576)."
+  },
+  {
+    "nhanes_var": "DR2TLYCO",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lycopene intake in micrograms. Map to measurement table with measurement_concept_id for 'Lycopene' (e.g., 3005776) and unit_concept_id for micrograms (8576)."
+  },
+  {
+    "nhanes_var": "DR2TLZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3006315,
+    "notes": "Lutein and zeaxanthin intake measured in mcg. Maps to Measurement table with concept for Lutein+Zeaxanthin."
+  },
+  {
+    "nhanes_var": "DR2TVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018621,
+    "notes": "Thiamin (Vitamin B1) intake in mg. Maps to Measurement table with concept for Thiamin."
+  },
+  {
+    "nhanes_var": "DR2TVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018622,
+    "notes": "Riboflavin (Vitamin B2) intake in mg. Maps to Measurement table with concept for Riboflavin."
+  },
+  {
+    "nhanes_var": "DR2TNIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018623,
+    "notes": "Niacin intake in mg. Maps to Measurement table with concept for Niacin."
+  },
+  {
+    "nhanes_var": "DR2TVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018624,
+    "notes": "Vitamin B6 intake in mg. Maps to Measurement table with concept for Vitamin B6."
+  },
+  {
+    "nhanes_var": "DR2TFOLA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018625,
+    "notes": "Total folate intake in mcg. Maps to Measurement table with concept for Folate."
+  },
+  {
+    "nhanes_var": "DR2TFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018626,
+    "notes": "Folic acid intake in mcg. Maps to Measurement table with concept for Folic acid."
+  },
+  {
+    "nhanes_var": "DR2TFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018627,
+    "notes": "Food folate intake in mcg. Maps to Measurement table with concept for Food folate."
+  },
+  {
+    "nhanes_var": "DR2TFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018628,
+    "notes": "Folate, DFE intake in mcg. Maps to Measurement table with concept for Dietary Folate Equivalents."
+  },
+  {
+    "nhanes_var": "DR2TVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018629,
+    "notes": "Vitamin B12 intake in mcg. Maps to Measurement table with concept for Vitamin B12."
+  },
+  {
+    "nhanes_var": "DR2TB12A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018630,
+    "notes": "Added vitamin B12 intake in mcg. Maps to Measurement table with concept for Added Vitamin B12."
+  },
+  {
+    "nhanes_var": "DR2TVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018631,
+    "notes": "Vitamin C intake in mg. Maps to Measurement table with concept for Vitamin C."
+  },
+  {
+    "nhanes_var": "DR2TVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018632,
+    "notes": "Vitamin K intake in mcg. Maps to Measurement table with concept for Vitamin K."
+  },
+  {
+    "nhanes_var": "DR2TCALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018633,
+    "notes": "Calcium intake in mg. Maps to Measurement table with concept for Calcium."
+  },
+  {
+    "nhanes_var": "DR2TPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3018634,
+    "notes": "Phosphorus intake in mg. Maps to Measurement table with concept for Phosphorus."
+  },
+  {
+    "nhanes_var": "DR2TMAGN",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3016621,
+    "notes": "Magnesium intake from 24-hour dietary recall. Maps to OMOP measurement of Magnesium [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TIRON",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3009542,
+    "notes": "Iron intake from 24-hour dietary recall. Maps to OMOP measurement of Iron [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TZINC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3017042,
+    "notes": "Zinc intake from 24-hour dietary recall. Maps to OMOP measurement of Zinc [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TCOPP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3014130,
+    "notes": "Copper intake from 24-hour dietary recall. Maps to OMOP measurement of Copper [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TSODI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3015632,
+    "notes": "Sodium intake from 24-hour dietary recall. Maps to OMOP measurement of Sodium [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TPOTA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3016402,
+    "notes": "Potassium intake from 24-hour dietary recall. Maps to OMOP measurement of Potassium [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TSELE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3015732,
+    "notes": "Selenium intake from 24-hour dietary recall. Maps to OMOP measurement of Selenium [Mass] in 24 hour Diet. Value in mcg."
+  },
+  {
+    "nhanes_var": "DR2TCAFF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3013650,
+    "notes": "Caffeine intake from 24-hour dietary recall. Maps to OMOP measurement of Caffeine [Mass] in 24 hour Diet. Value in mg."
+  },
+  {
+    "nhanes_var": "DR2TTHEO",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Theobromine intake from 24-hour dietary recall. No standard OMOP concept exists for Theobromine in Diet; map to measurement table with value_as_number and local concept."
+  },
+  {
+    "nhanes_var": "DR2TALCO",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3013538,
+    "notes": "Alcohol intake from 24-hour dietary recall. Maps to OMOP measurement of Alcohol [Mass] in 24 hour Diet. Value in gm."
+  },
+  {
+    "nhanes_var": "DR2TMOIS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Moisture (water) intake from 24-hour dietary recall. No standard OMOP concept for dietary water; map to measurement table with value_as_number and local concept. Value in gm."
+  },
+  {
+    "nhanes_var": "DR2TS040",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3019700,
+    "notes": "Butanoic acid (SFA 4:0) intake from 24-hour dietary recall. Maps to OMOP measurement of Butyrate (C4:0) [Mass] in 24 hour Diet. Value in gm."
+  },
+  {
+    "nhanes_var": "DR2TS060",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3019710,
+    "notes": "Hexanoic acid (SFA 6:0) intake from 24-hour dietary recall. Maps to OMOP measurement of Caproate (C6:0) [Mass] in 24 hour Diet. Value in gm."
+  },
+  {
+    "nhanes_var": "DR2TS080",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3019720,
+    "notes": "Octanoic acid (SFA 8:0) intake from 24-hour dietary recall. Maps to OMOP measurement of Caprylate (C8:0) [Mass] in 24 hour Diet. Value in gm."
+  },
+  {
+    "nhanes_var": "DR2TS100",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3019730,
+    "notes": "Decanoic acid (SFA 10:0) intake from 24-hour dietary recall. Maps to OMOP measurement of Caprate (C10:0) [Mass] in 24 hour Diet. Value in gm."
+  },
+  {
+    "nhanes_var": "DR2TS120",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of dodecanoic acid intake in grams. Requires custom concept; no standard OMOP concept for specific fatty acid intake amount."
+  },
+  {
+    "nhanes_var": "DR2TS140",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of tetradecanoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TS160",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of hexadecanoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TS180",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of octadecanoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TM161",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of hexadecenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TM181",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of octadecenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TM201",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of eicosenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TM221",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of docosenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP182",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of octadecadienoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP183",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of octadecatrienoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP184",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of octadecatetraenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP204",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of eicosatetraenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP205",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of eicosapentaenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP225",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of docosapentaenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2TP226",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement of docosahexaenoic acid intake in grams. Requires custom concept."
+  },
+  {
+    "nhanes_var": "DR2_300",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal comparison of food consumed yesterday to usual intake. Maps to Observation table; value_as_concept_id would hold a concept representing the ordinal response (e.g., 'More than usual', 'Less than usual'). Specific concept_id depends on NHANES coding."
+  },
+  {
+    "nhanes_var": "DR2_320",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous variable for total plain water intake in grams. Maps to Measurement table with a concept for 'Plain water intake' (e.g., concept_id 4029498 for 'Water, tap' or similar). value_as_number holds the amount."
+  },
+  {
+    "nhanes_var": "DR2_330",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous variable for total tap water intake in grams. Maps to Measurement table with a concept for 'Tap water intake'. value_as_number holds the amount."
+  },
+  {
+    "nhanes_var": "DR2BWATR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous variable for total bottled water intake in grams. Maps to Measurement table with a concept for 'Bottled water intake'. value_as_number holds the amount."
+  },
+  {
+    "nhanes_var": "DR2CWATR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous variable for plain carbonated water intake in grams. Maps to Measurement table with a concept for 'Carbonated water intake'. value_as_number holds the amount."
+  },
+  {
+    "nhanes_var": "DR2TWS",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Categorical variable for tap water source. Maps to Observation table; value_as_concept_id would hold a concept representing the source (e.g., 'Private well', 'Public supply'). Specific concept_id depends on NHANES coding."
+  }
+]

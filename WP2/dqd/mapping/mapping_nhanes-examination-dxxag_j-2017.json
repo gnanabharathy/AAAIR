@@ -1,0 +1,163 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to internal OMOP person_id"
+  },
+  {
+    "nhanes_var": "DXXAGST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android/gynoid region status (categorical) \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXVATV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "VAT and SAT invalidity code \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXANTV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android region invalidity code \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXGYTV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid region invalidity code \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXANFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android fat mass \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXANLM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android lean mass \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXANTOM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android total mass \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXGYFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid fat mass \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXGYLM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid lean mass \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXGYTOM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid total mass \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXAGRAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android to Gynoid ratio \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXAPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Android percent fat \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXGPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gynoid percent fat \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXSATA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Subcutaneous fat area \u2013 no standard concept available"
+  },
+  {
+    "nhanes_var": "DXXSATM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Subcutaneous fat mass measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXSATV",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Subcutaneous fat volume measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXTATA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total abdominal fat area measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXTATM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total abdominal fat mass measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXTATV",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total abdominal fat volume measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXVFATA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Visceral adipose tissue area measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXVFATM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Visceral adipose tissue mass measured by DXA; no exact OMOP concept, store as source value"
+  },
+  {
+    "nhanes_var": "DXXVFATV",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Visceral adipose tissue volume measured by DXA; no exact OMOP concept, store as source value"
+  }
+]

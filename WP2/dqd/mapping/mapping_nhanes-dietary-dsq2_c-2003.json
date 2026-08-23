@@ -1,0 +1,72 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person_id"
+  },
+  {
+    "nhanes_var": "DSDSUPID",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "drug_exposure_id",
+    "concept_id": null,
+    "notes": "Unique supplement record identifier"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "drug_concept_id",
+    "concept_id": null,
+    "notes": "Supplement name mapped to drug concept"
+  },
+  {
+    "nhanes_var": "DSD070",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of container seen"
+  },
+  {
+    "nhanes_var": "DSDMTCH",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "drug_exposure_source_value",
+    "concept_id": null,
+    "notes": "Matching code for supplement"
+  },
+  {
+    "nhanes_var": "DSD090",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "duration",
+    "concept_id": null,
+    "notes": "Duration of supplement use in days"
+  },
+  {
+    "nhanes_var": "DSD103",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Days supplement taken in past 30 days"
+  },
+  {
+    "nhanes_var": "DSD122Q",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "quantity",
+    "concept_id": null,
+    "notes": "Daily quantity of supplement"
+  },
+  {
+    "nhanes_var": "DSD122U",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "dose_unit_concept_id",
+    "concept_id": null,
+    "notes": "Dosage form of supplement"
+  },
+  {
+    "nhanes_var": "DSDANTA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Antacid reported as dietary supplement"
+  }
+]

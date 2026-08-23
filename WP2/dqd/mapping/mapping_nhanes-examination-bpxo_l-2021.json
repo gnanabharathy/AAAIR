@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "External participant identifier"
+  },
+  {
+    "nhanes_var": "BPAOARM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Arm selected for oscillometric BP measurement"
+  },
+  {
+    "nhanes_var": "BPAOCSZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Cuff size used for oscillometric BP measurement"
+  },
+  {
+    "nhanes_var": "BPXOSY1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 1st oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXODI1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 1st oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOSY2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 2nd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXODI2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 2nd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOSY3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 3rd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXODI3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 3rd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOPLS1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pulse (heart rate) reading, 1st oscillometric measurement"
+  },
+  {
+    "nhanes_var": "BPXOPLS2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pulse (heart rate) reading, 2nd oscillometric measurement"
+  },
+  {
+    "nhanes_var": "BPXOPLS3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pulse (heart rate) reading, 3rd oscillometric measurement"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "nhanes_var": "DRXFDCD",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "USDA food code is a categorical identifier for the food item consumed. It can be stored as a string value in the observation table, with observation_concept_id representing the concept of 'USDA food code'."
+  },
+  {
+    "nhanes_var": "DRXFCSD",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Short description of the food code. Stored as a string value in the observation table, linked to the same observation_concept_id as DRXFDCD to maintain context."
+  },
+  {
+    "nhanes_var": "DRXFCLD",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Long description of the food code. Stored as a string value in the observation table, linked to the same observation_concept_id as DRXFDCD to maintain context."
+  }
+]

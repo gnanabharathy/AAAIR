@@ -1,0 +1,71 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: ERROR: relation "ptbxl_view.condition_era" does not exist
+  Position: 482
+
+SQL:
+/*********
+PLAUSIBLE_DURING_LIFE
+get number of events that occur after death event (PLAUSIBLE_DURING_LIFE == Yes)
+Parameters used in this template:
+schema = ptbxl_view
+cdmDatabaseSchema = ptbxl_view
+cdmTableName = CONDITION_ERA
+cdmFieldName = CONDITION_ERA_START_DATE
+**********/
+SELECT 
+    num_violated_rows, 
+    CASE 
+        WHEN denominator.num_rows = 0 THEN 0 
+        ELSE 1.0*num_violated_rows/denominator.num_rows 
+    END AS pct_violated_rows, 
+    denominator.num_rows AS num_denominator_rows
+FROM
+(
+    SELECT 
+        COUNT(violated_rows.violating_field) AS num_violated_rows
+    FROM
+    (
+        /*violatedRowsBegin*/
+        SELECT 
+            'CONDITION_ERA.CONDITION_ERA_START_DATE' AS violating_field, 
+            cdmTable.*
+        FROM ptbxl_view.CONDITION_ERA cdmTable
+        JOIN ptbxl_view.death de 
+            ON cdmTable.person_id = de.person_id
+        WHERE CAST(cdmTable.CONDITION_ERA_START_DATE AS DATE) > (CAST(de.death_date AS DATE) + 60*INTERVAL'1 day')
+        /*violatedRowsEnd*/
+    ) violated_rows
+) violated_row_count,
+(
+    SELECT 
+        COUNT(*) AS num_rows
+    FROM ptbxl_view.CONDITION_ERA cdmTable
+    WHERE person_id IN
+        (SELECT 
+            person_id 
+        FROM ptbxl_view.death)
+) denominator
+;
+
+
+R version:
+R version 4.5.3 (2026-03-11)
+
+Platform:
+aarch64-apple-darwin20
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
+- DataQualityDashboard (2.8.9)
+- DatabaseConnector (7.1.0)

@@ -1,0 +1,163 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "WTSBA4YR",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "4\u2011year MEC survey weight"
+  },
+  {
+    "nhanes_var": "BAAEXSTS",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380002,
+    "notes": "Status of a MEC exam"
+  },
+  {
+    "nhanes_var": "BAAEXCMT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380003,
+    "notes": "Comment code for an exam"
+  },
+  {
+    "nhanes_var": "BAQ110",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380004,
+    "notes": "Can you stand on your own?"
+  },
+  {
+    "nhanes_var": "BAQ120",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380005,
+    "notes": "Do you have a leg brace?"
+  },
+  {
+    "nhanes_var": "BAQ130",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380006,
+    "notes": "Feeling dizzy or lightheaded now?"
+  },
+  {
+    "nhanes_var": "BAXPFC11",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380007,
+    "notes": "Balance test: condition 1, trial 1, feet together, eyes open"
+  },
+  {
+    "nhanes_var": "BAXFTC11",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380008,
+    "notes": "Failure time (seconds) for condition 1, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPFC12",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380009,
+    "notes": "Balance test: condition 1, trial 2, feet together, eyes open"
+  },
+  {
+    "nhanes_var": "BAXFTC12",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380010,
+    "notes": "Failure time (seconds) for condition 1, trial 2"
+  },
+  {
+    "nhanes_var": "BAXPFC21",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380011,
+    "notes": "Balance test: condition 2, trial 1, feet together, eyes closed"
+  },
+  {
+    "nhanes_var": "BAXFTC21",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380012,
+    "notes": "Failure time (seconds) for condition 2, trial 1"
+  },
+  {
+    "nhanes_var": "BAXPFC22",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380013,
+    "notes": "Balance test: condition 2, trial 2, feet together, eyes closed"
+  },
+  {
+    "nhanes_var": "BAXFTC22",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380014,
+    "notes": "Failure time (seconds) for condition 2, trial 2"
+  },
+  {
+    "nhanes_var": "BAXPFC31",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Foam Pad test result, eyes open (categorical) mapped to measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "BAXFTC31",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Foam Pad test failure time in seconds (continuous) mapped to measurement_value_as_number"
+  },
+  {
+    "nhanes_var": "BAXPFC32",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Foam Pad test result, eyes open for trial 2 (categorical) mapped to measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "BAXFTC32",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Foam Pad test failure time in seconds for trial 2 (continuous) mapped to measurement_value_as_number"
+  },
+  {
+    "nhanes_var": "BAXPFC41",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Foam Pad test result, eyes closed for trial 1 (categorical) mapped to measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "BAXFTC41",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Foam Pad test failure time in seconds for trial 1 (continuous) mapped to measurement_value_as_number"
+  },
+  {
+    "nhanes_var": "BAXPFC42",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Foam Pad test result, eyes closed for trial 2 (categorical) mapped to measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "BAXFTC42",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Foam Pad test failure time in seconds for trial 2 (continuous) mapped to measurement_value_as_number"
+  }
+]

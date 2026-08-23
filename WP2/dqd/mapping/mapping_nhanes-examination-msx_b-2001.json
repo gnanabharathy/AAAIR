@@ -1,0 +1,135 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier."
+  },
+  {
+    "nhanes_var": "MSAEXLEN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380014,
+    "notes": "Timed walk & muscle strength time (sec)."
+  },
+  {
+    "nhanes_var": "MSAEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380015,
+    "notes": "Timed walk and muscle strength status."
+  },
+  {
+    "nhanes_var": "MSAEXCMT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380016,
+    "notes": "Timed walk and muscle strength comments."
+  },
+  {
+    "nhanes_var": "MSDEXCLU",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380017,
+    "notes": "Exclusion criteria for muscle strength."
+  },
+  {
+    "nhanes_var": "MSDCWUA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380018,
+    "notes": "Can walk unassisted? (binary)."
+  },
+  {
+    "nhanes_var": "MSXW20TM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380019,
+    "notes": "Time to complete 20 ft walk."
+  },
+  {
+    "nhanes_var": "MSXW08TM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380020,
+    "notes": "Time to complete 8 ft walk."
+  },
+  {
+    "nhanes_var": "MSXWPAIN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380021,
+    "notes": "Pain reported on walking (binary)."
+  },
+  {
+    "nhanes_var": "MSAWDEV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380022,
+    "notes": "Type of device used."
+  },
+  {
+    "nhanes_var": "MSDPTIME",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380023,
+    "notes": "Time to peak force in seconds."
+  },
+  {
+    "nhanes_var": "MSDPFANG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380024,
+    "notes": "Angle of peak force (degrees)."
+  },
+  {
+    "nhanes_var": "MSXARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380025,
+    "notes": "Arm length in cm."
+  },
+  {
+    "nhanes_var": "MSXGRAV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380026,
+    "notes": "Gravity correction in pounds."
+  },
+  {
+    "nhanes_var": "MSDPFVEL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380027,
+    "notes": "Peak force velocity (degree/second)."
+  },
+  {
+    "nhanes_var": "MSDPF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Peak force (Newtons) from muscle strength test"
+  },
+  {
+    "nhanes_var": "MSDNTR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Number of trials performed"
+  },
+  {
+    "nhanes_var": "MSDAPF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Average peak force (Newtons) across trials"
+  },
+  {
+    "nhanes_var": "MSDPFTR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Selected peak force trial number"
+  }
+]

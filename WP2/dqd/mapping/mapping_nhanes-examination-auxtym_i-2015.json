@@ -1,0 +1,3600 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "TYXPEAR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ear tested (left/right) recorded as observation"
+  },
+  {
+    "nhanes_var": "TYXP001",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 001 (e.g., hearing threshold at 250 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP002",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 002 (e.g., hearing threshold at 500 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP003",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 003 (e.g., hearing threshold at 1000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP004",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 004 (e.g., hearing threshold at 2000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP005",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 005 (e.g., hearing threshold at 4000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP006",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 006 (e.g., hearing threshold at 8000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP007",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 007 (e.g., hearing threshold at 1000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP008",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 008 (e.g., hearing threshold at 2000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP009",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 009 (e.g., hearing threshold at 4000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP010",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 010 (e.g., hearing threshold at 8000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP011",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 011 (e.g., hearing threshold at 1000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP012",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 012 (e.g., hearing threshold at 2000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP013",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 013 (e.g., hearing threshold at 4000 Hz) stored as observation"
+  },
+  {
+    "nhanes_var": "TYXP014",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP015",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP016",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP017",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP018",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP019",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP021",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP022",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP023",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP024",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP025",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP026",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP027",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP028",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Pressure array data point, map to Measurement table, measurement_value field."
+  },
+  {
+    "nhanes_var": "TYXP029",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP030",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP031",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP032",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP033",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP034",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP035",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP036",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP037",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP038",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP039",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP041",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP042",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP043",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading, map to Measurement table"
+  },
+  {
+    "nhanes_var": "TYXP044",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 044 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP045",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 045 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP046",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 046 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP047",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 047 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP048",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 048 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP049",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 049 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP050",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 050 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP051",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 051 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP052",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 052 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP053",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 053 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP054",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 054 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP055",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 055 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP056",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 056 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP057",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 057 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP058",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391669,
+    "notes": "Raw blood pressure data point 058 (continuous measurement)"
+  },
+  {
+    "nhanes_var": "TYXP059",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP061",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP062",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP063",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP064",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP065",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP066",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP067",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP068",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP069",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP070",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP071",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP072",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP073",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, stored as numeric measurement_value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXP074",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 074 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP075",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 075 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP076",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 076 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP077",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 077 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP078",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 078 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP079",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 079 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP080",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 080 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP081",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 081 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP082",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 082 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP083",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 083 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP084",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 084 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP085",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 085 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP086",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 086 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP087",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 087 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP088",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Raw pressure array data point 088 mapped to blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP089",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP090",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP091",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP092",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP093",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP094",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP095",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP096",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP097",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP098",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP099",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP100",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP101",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP102",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP103",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous pressure array data point, likely a blood pressure measurement"
+  },
+  {
+    "nhanes_var": "TYXP104",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 104 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP105",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 105 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP106",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 106 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP107",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 107 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP108",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 108 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP109",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 109 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP110",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 110 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP111",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 111 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP112",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 112 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP113",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 113 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP114",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 114 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP115",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 115 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP116",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 116 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP117",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 117 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP118",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory systolic blood pressure reading at time point 118 (mmHg)"
+  },
+  {
+    "nhanes_var": "TYXP119",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 119; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP120",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 120; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP121",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 121; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP122",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 122; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP123",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 123; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP124",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 124; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP125",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 125; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP126",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 126; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP127",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 127; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP128",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 128; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP129",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 129; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP130",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 130; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP131",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 131; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP132",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 132; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP133",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure array point 133; map to measurement table; concept_id TBD"
+  },
+  {
+    "nhanes_var": "TYXP134",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 134"
+  },
+  {
+    "nhanes_var": "TYXP135",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 135"
+  },
+  {
+    "nhanes_var": "TYXP136",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 136"
+  },
+  {
+    "nhanes_var": "TYXP137",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 137"
+  },
+  {
+    "nhanes_var": "TYXP138",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 138"
+  },
+  {
+    "nhanes_var": "TYXP139",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 139"
+  },
+  {
+    "nhanes_var": "TYXP140",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 140"
+  },
+  {
+    "nhanes_var": "TYXP141",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 141"
+  },
+  {
+    "nhanes_var": "TYXP142",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 142"
+  },
+  {
+    "nhanes_var": "TYXP143",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 143"
+  },
+  {
+    "nhanes_var": "TYXP144",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 144"
+  },
+  {
+    "nhanes_var": "TYXP145",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 145"
+  },
+  {
+    "nhanes_var": "TYXP146",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 146"
+  },
+  {
+    "nhanes_var": "TYXP147",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 147"
+  },
+  {
+    "nhanes_var": "TYXP148",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3916658,
+    "notes": "Ambulatory blood pressure measurement point 148"
+  },
+  {
+    "nhanes_var": "TYXP149",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP150",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP151",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP152",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP153",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP154",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP155",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP156",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP157",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP158",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP159",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP160",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP161",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP162",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP163",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Ambulatory blood pressure reading, likely systolic"
+  },
+  {
+    "nhanes_var": "TYXP164",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 164)"
+  },
+  {
+    "nhanes_var": "TYXP165",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 165)"
+  },
+  {
+    "nhanes_var": "TYXP166",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 166)"
+  },
+  {
+    "nhanes_var": "TYXP167",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 167)"
+  },
+  {
+    "nhanes_var": "TYXP168",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 168)"
+  },
+  {
+    "nhanes_var": "TYXP169",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 169)"
+  },
+  {
+    "nhanes_var": "TYXP170",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 170)"
+  },
+  {
+    "nhanes_var": "TYXP171",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 171)"
+  },
+  {
+    "nhanes_var": "TYXP172",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 172)"
+  },
+  {
+    "nhanes_var": "TYXP173",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 173)"
+  },
+  {
+    "nhanes_var": "TYXP174",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 174)"
+  },
+  {
+    "nhanes_var": "TYXP175",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 175)"
+  },
+  {
+    "nhanes_var": "TYXP176",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 176)"
+  },
+  {
+    "nhanes_var": "TYXP177",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 177)"
+  },
+  {
+    "nhanes_var": "TYXP178",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 391665,
+    "notes": "Ambulatory blood pressure reading (point 178)"
+  },
+  {
+    "nhanes_var": "TYXP179",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 179"
+  },
+  {
+    "nhanes_var": "TYXP180",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 180"
+  },
+  {
+    "nhanes_var": "TYXP181",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 181"
+  },
+  {
+    "nhanes_var": "TYXP182",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 182"
+  },
+  {
+    "nhanes_var": "TYXP183",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 183"
+  },
+  {
+    "nhanes_var": "TYXP184",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 184"
+  },
+  {
+    "nhanes_var": "TYXP185",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 185"
+  },
+  {
+    "nhanes_var": "TYXP186",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 186"
+  },
+  {
+    "nhanes_var": "TYXP187",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 187"
+  },
+  {
+    "nhanes_var": "TYXP188",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 188"
+  },
+  {
+    "nhanes_var": "TYXP189",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 189"
+  },
+  {
+    "nhanes_var": "TYXP190",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 190"
+  },
+  {
+    "nhanes_var": "TYXP191",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 191"
+  },
+  {
+    "nhanes_var": "TYXP192",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 192"
+  },
+  {
+    "nhanes_var": "TYXP193",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure reading at time point 193"
+  },
+  {
+    "nhanes_var": "TYXP194",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 194"
+  },
+  {
+    "nhanes_var": "TYXP195",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 195"
+  },
+  {
+    "nhanes_var": "TYXP196",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 196"
+  },
+  {
+    "nhanes_var": "TYXP197",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 197"
+  },
+  {
+    "nhanes_var": "TYXP198",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 198"
+  },
+  {
+    "nhanes_var": "TYXP199",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 199"
+  },
+  {
+    "nhanes_var": "TYXP200",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 200"
+  },
+  {
+    "nhanes_var": "TYXP201",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 201"
+  },
+  {
+    "nhanes_var": "TYXP202",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 202"
+  },
+  {
+    "nhanes_var": "TYXP203",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 203"
+  },
+  {
+    "nhanes_var": "TYXP204",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 204"
+  },
+  {
+    "nhanes_var": "TYXP205",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 205"
+  },
+  {
+    "nhanes_var": "TYXP206",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 206"
+  },
+  {
+    "nhanes_var": "TYXP207",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 207"
+  },
+  {
+    "nhanes_var": "TYXP208",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous blood pressure reading from device array point 208"
+  },
+  {
+    "nhanes_var": "TYXP209",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 209) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP210",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 210) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP211",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 211) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP212",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 212) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP213",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 213) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP214",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 214) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP215",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 215) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP216",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 216) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP217",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 217) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP218",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 218) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP219",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 219) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP220",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 220) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP221",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 221) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP222",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 222) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP223",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3916,
+    "notes": "Ambulatory systolic blood pressure reading (array point 223) mapped to MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXP224",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 1st measurement"
+  },
+  {
+    "nhanes_var": "TYXP225",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 1st measurement"
+  },
+  {
+    "nhanes_var": "TYXP226",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 2nd measurement"
+  },
+  {
+    "nhanes_var": "TYXP227",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 2nd measurement"
+  },
+  {
+    "nhanes_var": "TYXP228",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 3rd measurement"
+  },
+  {
+    "nhanes_var": "TYXP229",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 3rd measurement"
+  },
+  {
+    "nhanes_var": "TYXP230",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 4th measurement"
+  },
+  {
+    "nhanes_var": "TYXP231",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 4th measurement"
+  },
+  {
+    "nhanes_var": "TYXP232",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 5th measurement"
+  },
+  {
+    "nhanes_var": "TYXP233",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 5th measurement"
+  },
+  {
+    "nhanes_var": "TYXP234",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 6th measurement"
+  },
+  {
+    "nhanes_var": "TYXP235",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 6th measurement"
+  },
+  {
+    "nhanes_var": "TYXP236",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 7th measurement"
+  },
+  {
+    "nhanes_var": "TYXP237",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391666,
+    "notes": "Diastolic blood pressure, 7th measurement"
+  },
+  {
+    "nhanes_var": "TYXP238",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 391665,
+    "notes": "Systolic blood pressure, 8th measurement"
+  },
+  {
+    "nhanes_var": "TYXP239",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP240",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP241",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP242",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP243",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP244",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP245",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP246",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP247",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP248",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP249",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP250",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP251",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP252",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP253",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ordinal value from blood pressure array; no standard OMOP concept; stored as source value."
+  },
+  {
+    "nhanes_var": "TYXP254",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 254 \u2013 device\u2011derived pressure measurement; map to appropriate OMOP concept when available."
+  },
+  {
+    "nhanes_var": "TYXP255",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 255 \u2013 device\u2011derived pressure measurement."
+  },
+  {
+    "nhanes_var": "TYXP256",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pressure array data point 256 \u2013 device\u2011derived pressure measurement."
+  },
+  {
+    "nhanes_var": "TYXA001",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 001 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA002",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 002 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA003",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 003 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA004",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 004 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA005",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 005 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA006",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 006 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA007",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 007 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA008",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 008 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA009",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 009 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA010",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 010 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA011",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 011 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA012",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 012 \u2013 device\u2011derived admittance measurement."
+  },
+  {
+    "nhanes_var": "TYXA013",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 013) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA014",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 014) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA015",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 015) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA016",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 016) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA017",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 017) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA018",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 018) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA019",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 019) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 020) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA021",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 021) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA022",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 022) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA023",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 023) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA024",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 024) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA025",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 025) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA026",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 026) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA027",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Raw electrical admittance measurement (data point 027) from body composition analyzer; stored as numeric value in Measurement table."
+  },
+  {
+    "nhanes_var": "TYXA028",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 028, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA029",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 029, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA030",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 030, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA031",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 031, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA032",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 032, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA033",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 033, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA034",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 034, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA035",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 035, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA036",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 036, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA037",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 037, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA038",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 038, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA039",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 039, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA040",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 040, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA041",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 041, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA042",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 042, continuous numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA043",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 043; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA044",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 044; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA045",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 045; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA046",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 046; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA047",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 047; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA048",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 048; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA049",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 049; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA050",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 050; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA051",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 051; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA052",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 052; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA053",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 053; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA054",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 054; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA055",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 055; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA056",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 056; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA057",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Continuous numeric value for Admittance Array Data Point 057; stored as source value in measurement table."
+  },
+  {
+    "nhanes_var": "TYXA058",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 058 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA059",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 059 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA060",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 060 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA061",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 061 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA062",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 062 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA063",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 063 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA064",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 064 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA065",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 065 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA066",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 066 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA067",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 067 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA068",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 068 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA069",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 069 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA070",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 070 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA071",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 071 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA072",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 072 \u2013 body composition metric; store raw value in measurement_source_value."
+  },
+  {
+    "nhanes_var": "TYXA073",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 073"
+  },
+  {
+    "nhanes_var": "TYXA074",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 074"
+  },
+  {
+    "nhanes_var": "TYXA075",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 075"
+  },
+  {
+    "nhanes_var": "TYXA076",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 076"
+  },
+  {
+    "nhanes_var": "TYXA077",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 077"
+  },
+  {
+    "nhanes_var": "TYXA078",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 078"
+  },
+  {
+    "nhanes_var": "TYXA079",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 079"
+  },
+  {
+    "nhanes_var": "TYXA080",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 080"
+  },
+  {
+    "nhanes_var": "TYXA081",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 081"
+  },
+  {
+    "nhanes_var": "TYXA082",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 082"
+  },
+  {
+    "nhanes_var": "TYXA083",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 083"
+  },
+  {
+    "nhanes_var": "TYXA084",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 084"
+  },
+  {
+    "nhanes_var": "TYXA085",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 085"
+  },
+  {
+    "nhanes_var": "TYXA086",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 086"
+  },
+  {
+    "nhanes_var": "TYXA087",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Continuous measurement of admittance array data point 087"
+  },
+  {
+    "nhanes_var": "TYXA088",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA089",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA090",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA091",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA092",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA093",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA094",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA095",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA096",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA097",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA098",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA099",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA101",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA102",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous admittance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA103",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 103, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA104",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 104, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA105",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 105, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA106",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 106, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA107",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 107, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA108",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 108, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA109",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 109, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA110",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 110, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA111",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 111, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA112",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 112, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA113",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 113, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA114",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 114, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA115",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 115, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA116",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 116, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA117",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Raw admittance measurement at array point 117, stored as source value"
+  },
+  {
+    "nhanes_var": "TYXA118",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 118) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA119",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 119) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA120",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 120) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA121",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 121) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA122",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 122) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA123",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 123) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA124",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 124) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA125",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 125) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA126",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 126) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA127",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 127) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA128",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 128) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA129",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 129) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA130",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 130) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA131",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 131) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA132",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Body impedance measurement (admittance data point 132) stored in measurement table"
+  },
+  {
+    "nhanes_var": "TYXA133",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA134",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA135",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA136",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA137",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA138",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA139",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA140",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA141",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA142",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA143",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA144",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA145",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA146",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA147",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Impedance measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "TYXA148",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 148 from body composition analyzer; stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "TYXA149",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 149 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA150",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 150 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA151",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 151 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA152",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 152 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA153",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 153 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA154",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 154 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA155",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 155 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA156",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 156 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA157",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 157 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA158",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 158 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA159",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 159 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA160",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 160 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA161",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 161 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA162",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Raw impedance data point 162 from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA163",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 163; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA164",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 164; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA165",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 165; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA166",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 166; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA167",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 167; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA168",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 168; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA169",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 169; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA170",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 170; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA171",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 171; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA172",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 172; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA173",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 173; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA174",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 174; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA175",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 175; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA176",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 176; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA177",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 177; body impedance measurement; no standard OMOP concept; map to measurement table with custom concept."
+  },
+  {
+    "nhanes_var": "TYXA178",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 178; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA179",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 179; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA180",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 180; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA181",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 181; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA182",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 182; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA183",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 183; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA184",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 184; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA185",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 185; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA186",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 186; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA187",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 187; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA188",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 188; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA189",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 189; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA190",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 190; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA191",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 191; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA192",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Impedance measurement from Admittance Array Data Point 192; stored as numeric value"
+  },
+  {
+    "nhanes_var": "TYXA193",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 193 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA194",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 194 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA195",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 195 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA196",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 196 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA197",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 197 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA198",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 198 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA199",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 199 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA200",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 200 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA201",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 201 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA202",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 202 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA203",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 203 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA204",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 204 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA205",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 205 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA206",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 206 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA207",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Admittance array data point 207 from BIA device, stored as measurement_concept_id null"
+  },
+  {
+    "nhanes_var": "TYXA208",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 208 \u2013 continuous impedance measurement, no standard OMOP concept; stored as a numeric measurement."
+  },
+  {
+    "nhanes_var": "TYXA209",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 209 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA210",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 210 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA211",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 211 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA212",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 212 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA213",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 213 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA214",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 214 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA215",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 215 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA216",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 216 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA217",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 217 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA218",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 218 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA219",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 219 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA220",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 220 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA221",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 221 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA222",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 222 \u2013 continuous impedance measurement, no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "TYXA223",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA224",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA225",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA226",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA227",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA228",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA229",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA230",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA231",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA232",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA233",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA234",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA235",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA236",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA237",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Admittance measurement from body composition analyzer"
+  },
+  {
+    "nhanes_var": "TYXA238",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA239",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA240",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA241",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA242",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA243",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA244",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA245",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA246",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA247",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA248",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA249",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA250",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA251",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA252",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement value; specific concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "TYXA253",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 253 \u2013 continuous body impedance measurement; maps to measurement_value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXA254",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 254 \u2013 continuous body impedance measurement; maps to measurement_value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXA255",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 255 \u2013 continuous body impedance measurement; maps to measurement_value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "TYXA256",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Admittance Array Data Point 256 \u2013 continuous body impedance measurement; maps to measurement_value in MEASUREMENT table."
+  }
+]

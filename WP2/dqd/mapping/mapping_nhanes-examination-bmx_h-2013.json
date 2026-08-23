@@ -1,0 +1,184 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number maps to unique person identifier in OMOP"
+  },
+  {
+    "nhanes_var": "BMDSTATS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Body Measures Component Status Code \u2013 non\u2011standard flag, stored as measurement with null concept"
+  },
+  {
+    "nhanes_var": "BMXWT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Weight (kg) \u2013 OMOP concept 3035625 (Body weight)"
+  },
+  {
+    "nhanes_var": "BMIWT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Weight Comment \u2013 non\u2011standard, stored as measurement with null concept"
+  },
+  {
+    "nhanes_var": "BMXRECUM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035626,
+    "notes": "Recumbent Length (cm) \u2013 OMOP concept 3035626 (Recumbent length)"
+  },
+  {
+    "nhanes_var": "BMIRECUM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Recumbent Length Comment \u2013 non\u2011standard"
+  },
+  {
+    "nhanes_var": "BMXHEAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035627,
+    "notes": "Head Circumference (cm) \u2013 OMOP concept 3035627 (Head circumference)"
+  },
+  {
+    "nhanes_var": "BMIHEAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head Circumference Comment \u2013 non\u2011standard"
+  },
+  {
+    "nhanes_var": "BMXHT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035628,
+    "notes": "Standing Height (cm) \u2013 OMOP concept 3035628 (Standing height)"
+  },
+  {
+    "nhanes_var": "BMIHT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Standing Height Comment \u2013 non\u2011standard"
+  },
+  {
+    "nhanes_var": "BMXBMI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035629,
+    "notes": "Body Mass Index (kg/m^2) \u2013 OMOP concept 3035629 (Body mass index)"
+  },
+  {
+    "nhanes_var": "BMDBMIC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035630,
+    "notes": "BMI Category \u2013 Children/Youth \u2013 non\u2011standard, stored as measurement with null concept"
+  },
+  {
+    "nhanes_var": "BMXLEG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035631,
+    "notes": "Upper Leg Length (cm) \u2013 OMOP concept 3035631 (Upper leg length)"
+  },
+  {
+    "nhanes_var": "BMILEG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Upper Leg Length Comment \u2013 non\u2011standard"
+  },
+  {
+    "nhanes_var": "BMXARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035632,
+    "notes": "Upper Arm Length (cm) \u2013 OMOP concept 3035632 (Upper arm length)"
+  },
+  {
+    "nhanes_var": "BMIARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Upper arm length comment stored as source value"
+  },
+  {
+    "nhanes_var": "BMXARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Arm circumference (cm) mapped to OMOP concept 3010000"
+  },
+  {
+    "nhanes_var": "BMIARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Arm circumference comment stored as source value"
+  },
+  {
+    "nhanes_var": "BMXWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Waist circumference (cm) mapped to OMOP concept 3010001"
+  },
+  {
+    "nhanes_var": "BMIWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Waist circumference comment stored as source value"
+  },
+  {
+    "nhanes_var": "BMXSAD1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 1st (cm) mapped to OMOP concept 3010002"
+  },
+  {
+    "nhanes_var": "BMXSAD2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 2nd (cm) mapped to OMOP concept 3010002"
+  },
+  {
+    "nhanes_var": "BMXSAD3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 3rd (cm) mapped to OMOP concept 3010002"
+  },
+  {
+    "nhanes_var": "BMXSAD4",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 4th (cm) mapped to OMOP concept 3010002"
+  },
+  {
+    "nhanes_var": "BMDAVSAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Average sagittal abdominal diameter (cm) mapped to OMOP concept 3010002"
+  },
+  {
+    "nhanes_var": "BMDSADCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Sagittal abdominal diameter comment stored as source value"
+  }
+]

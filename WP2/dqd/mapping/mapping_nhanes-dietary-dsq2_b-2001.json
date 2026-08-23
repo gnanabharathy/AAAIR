@@ -1,0 +1,72 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Unique respondent identifier stored as source value in person table"
+  },
+  {
+    "nhanes_var": "DSDSUPID",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement ID stored as source value in drug_exposure"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement name stored as source value in drug_exposure"
+  },
+  {
+    "nhanes_var": "DSD070",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Binary indicator of container seen stored as source value in observation"
+  },
+  {
+    "nhanes_var": "DSDMTCH",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Matching code stored as source value in observation"
+  },
+  {
+    "nhanes_var": "DSD090",
+    "omop_table": "drug_exposure",
+    "omop_field": "duration",
+    "concept_id": null,
+    "notes": "Duration of supplement use in days mapped to drug_exposure.duration"
+  },
+  {
+    "nhanes_var": "DSD103",
+    "omop_table": "drug_exposure",
+    "omop_field": "days_supply",
+    "concept_id": null,
+    "notes": "Days supplement taken in past 30 days mapped to drug_exposure.days_supply"
+  },
+  {
+    "nhanes_var": "DSD122Q",
+    "omop_table": "drug_exposure",
+    "omop_field": "quantity",
+    "concept_id": null,
+    "notes": "Daily quantity of supplement taken mapped to drug_exposure.quantity"
+  },
+  {
+    "nhanes_var": "DSD122U",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_concept_id",
+    "concept_id": null,
+    "notes": "Dosage form concept ID (if available) or null"
+  },
+  {
+    "nhanes_var": "DSDANTA",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Antacid reported as dietary supplement indicator stored as source value in observation"
+  }
+]

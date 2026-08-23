@@ -1,0 +1,205 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as external identifier in person_source_value"
+  },
+  {
+    "nhanes_var": "FCX02DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 2; observation_source_value can store tooth number"
+  },
+  {
+    "nhanes_var": "FCX03DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 3"
+  },
+  {
+    "nhanes_var": "FCX04DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 4"
+  },
+  {
+    "nhanes_var": "FCX05DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 5"
+  },
+  {
+    "nhanes_var": "FCX06DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 6"
+  },
+  {
+    "nhanes_var": "FCX07DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 7"
+  },
+  {
+    "nhanes_var": "FCX08DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 8"
+  },
+  {
+    "nhanes_var": "FCX09DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 9"
+  },
+  {
+    "nhanes_var": "FCX10DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 10"
+  },
+  {
+    "nhanes_var": "FCX11DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 11"
+  },
+  {
+    "nhanes_var": "FCX12DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 12"
+  },
+  {
+    "nhanes_var": "FCX13DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 13"
+  },
+  {
+    "nhanes_var": "FCX14DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 14"
+  },
+  {
+    "nhanes_var": "FCX15DI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Dental fluorosis severity for tooth 15"
+  },
+  {
+    "nhanes_var": "FCX18DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #18 (first molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX19DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #19 (second molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX20DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #20 (third molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX21DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #21 (first molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX22DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #22 (second molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX23DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #23 (third molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX24DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #24 (first molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX25DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #25 (second molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX26DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #26 (third molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX27DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #27 (first molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX28DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #28 (second molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX29DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #29 (third molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX30DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #30 (first molar) mapped to Dental fluorosis concept"
+  },
+  {
+    "nhanes_var": "FCX31DI",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Fluorosis in tooth #31 (second molar) mapped to Dental fluorosis concept"
+  }
+]

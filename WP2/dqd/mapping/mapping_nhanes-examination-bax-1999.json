@@ -1,0 +1,534 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "WTSBA2YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Balance subsample 2\u2011year survey weight"
+  },
+  {
+    "nhanes_var": "WTSBA4YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Balance subsample 4\u2011year survey weight"
+  },
+  {
+    "nhanes_var": "WTSBA01",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 1 weight"
+  },
+  {
+    "nhanes_var": "WTSBA02",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 2 weight"
+  },
+  {
+    "nhanes_var": "WTSBA03",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 3 weight"
+  },
+  {
+    "nhanes_var": "WTSBA04",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 4 weight"
+  },
+  {
+    "nhanes_var": "WTSBA05",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 5 weight"
+  },
+  {
+    "nhanes_var": "WTSBA06",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 6 weight"
+  },
+  {
+    "nhanes_var": "WTSBA07",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 7 weight"
+  },
+  {
+    "nhanes_var": "WTSBA08",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 8 weight"
+  },
+  {
+    "nhanes_var": "WTSBA09",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 9 weight"
+  },
+  {
+    "nhanes_var": "WTSBA10",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 10 weight"
+  },
+  {
+    "nhanes_var": "WTSBA11",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 11 weight"
+  },
+  {
+    "nhanes_var": "WTSBA12",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Jack\u2011knife replicate 12 weight"
+  },
+  {
+    "nhanes_var": "WTSBA13",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 13) used for variance estimation."
+  },
+  {
+    "nhanes_var": "WTSBA14",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 14)."
+  },
+  {
+    "nhanes_var": "WTSBA15",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 15)."
+  },
+  {
+    "nhanes_var": "WTSBA16",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 16)."
+  },
+  {
+    "nhanes_var": "WTSBA17",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 17)."
+  },
+  {
+    "nhanes_var": "WTSBA18",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 18)."
+  },
+  {
+    "nhanes_var": "WTSBA19",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 19)."
+  },
+  {
+    "nhanes_var": "WTSBA20",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 20)."
+  },
+  {
+    "nhanes_var": "WTSBA21",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 21)."
+  },
+  {
+    "nhanes_var": "WTSBA22",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 22)."
+  },
+  {
+    "nhanes_var": "WTSBA23",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 23)."
+  },
+  {
+    "nhanes_var": "WTSBA24",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 24)."
+  },
+  {
+    "nhanes_var": "WTSBA25",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 25)."
+  },
+  {
+    "nhanes_var": "WTSBA26",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 26)."
+  },
+  {
+    "nhanes_var": "WTSBA27",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Replicate survey weight for body weight measurement (replicate 27)."
+  },
+  {
+    "nhanes_var": "WTSBA28",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 28"
+  },
+  {
+    "nhanes_var": "WTSBA29",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 29"
+  },
+  {
+    "nhanes_var": "WTSBA30",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 30"
+  },
+  {
+    "nhanes_var": "WTSBA31",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 31"
+  },
+  {
+    "nhanes_var": "WTSBA32",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 32"
+  },
+  {
+    "nhanes_var": "WTSBA33",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 33"
+  },
+  {
+    "nhanes_var": "WTSBA34",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 34"
+  },
+  {
+    "nhanes_var": "WTSBA35",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 35"
+  },
+  {
+    "nhanes_var": "WTSBA36",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 36"
+  },
+  {
+    "nhanes_var": "WTSBA37",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 37"
+  },
+  {
+    "nhanes_var": "WTSBA38",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 38"
+  },
+  {
+    "nhanes_var": "WTSBA39",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 39"
+  },
+  {
+    "nhanes_var": "WTSBA40",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 40"
+  },
+  {
+    "nhanes_var": "WTSBA41",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 41"
+  },
+  {
+    "nhanes_var": "WTSBA42",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3033615,
+    "notes": "Body weight measured by balance mechanical weight jack knife replicate 42"
+  },
+  {
+    "nhanes_var": "WTSBA43",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA44",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA45",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA46",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA47",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA48",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA49",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA50",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA51",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "WTSBA52",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight measured on balance, continuous value"
+  },
+  {
+    "nhanes_var": "BAAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Status of a MEC exam, categorical"
+  },
+  {
+    "nhanes_var": "BAAEXCMT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for an exam, categorical"
+  },
+  {
+    "nhanes_var": "BAQ110",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Can you stand on your own? (binary response)"
+  },
+  {
+    "nhanes_var": "BAQ120",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Do you have a leg brace? (binary response)"
+  },
+  {
+    "nhanes_var": "BAQ130",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Feeling dizzy or lightheaded now? (binary response)"
+  },
+  {
+    "nhanes_var": "BAXPFC11",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes open, trial 1, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC11",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes open, trial 1, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC12",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes open, trial 2, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC12",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes open, trial 2, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC21",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes closed, trial 1, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC21",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes closed, trial 1, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC22",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes closed, trial 2, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC22",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: feet together, eyes closed, trial 2, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC31",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes open, trial 1, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC31",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes open, trial 1, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC32",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes open, trial 2, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC32",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes open, trial 2, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC41",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes closed, trial 1, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC41",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes closed, trial 1, failure time (seconds)"
+  },
+  {
+    "nhanes_var": "BAXPFC42",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Balance test: foam pad, eyes closed, trial 2, pass/fail"
+  },
+  {
+    "nhanes_var": "BAXFTC42",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": 3800015,
+    "notes": "Continuous failure time in seconds; stored as numeric observation."
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "nhanes_var": "DSDPID",
+    "omop_table": "DrugExposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement ID from NHANES, stored as source value"
+  },
+  {
+    "nhanes_var": "DSDPRDT",
+    "omop_table": "DrugExposure",
+    "omop_field": "drug_type_concept_id",
+    "concept_id": null,
+    "notes": "Product type category (e.g., vitamin, mineral, herbal)"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "DrugExposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement name"
+  },
+  {
+    "nhanes_var": "DSDSRCE",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Source of supplement information"
+  },
+  {
+    "nhanes_var": "DSDTYPE",
+    "omop_table": "DrugExposure",
+    "omop_field": "drug_type_concept_id",
+    "concept_id": null,
+    "notes": "Supplement type"
+  },
+  {
+    "nhanes_var": "DSDSERVQ",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Serving size quantity"
+  },
+  {
+    "nhanes_var": "DSDSERVU",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Serving size unit (unit concept)"
+  },
+  {
+    "nhanes_var": "DSDPREID",
+    "omop_table": "DrugExposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Previous product ID"
+  },
+  {
+    "nhanes_var": "DSDORGID",
+    "omop_table": "DrugExposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Original product ID"
+  },
+  {
+    "nhanes_var": "DSDSGPF",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Sequential group formulation"
+  },
+  {
+    "nhanes_var": "DSDSEQF",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Sequential formulation"
+  },
+  {
+    "nhanes_var": "DSDLINRF",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Linear formulation"
+  },
+  {
+    "nhanes_var": "DSDCNTV",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Count of vitamins in the supplement"
+  },
+  {
+    "nhanes_var": "DSDCNTM",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Count of minerals in the supplement"
+  },
+  {
+    "nhanes_var": "DSDCNTA",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Count of amino acids in the supplement"
+  },
+  {
+    "nhanes_var": "DSDCNTB",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Count of botanicals in supplement; stored as observation source value; no standard concept"
+  },
+  {
+    "nhanes_var": "DSDCNTO",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Count of other ingredients in supplement; stored as observation source value; no standard concept"
+  },
+  {
+    "nhanes_var": "DSDSUPID",
+    "omop_table": "Drug_Exposure",
+    "omop_field": "drug_concept_id",
+    "concept_id": null,
+    "notes": "Supplement ID number (old version); no standard concept; stored as drug concept id"
+  }
+]

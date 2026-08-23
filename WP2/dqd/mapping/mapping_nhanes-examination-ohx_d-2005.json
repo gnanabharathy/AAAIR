@@ -1,0 +1,415 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "OHAEXSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Overall oral health exam status mapped to OMOP concept 'Oral health exam status'"
+  },
+  {
+    "nhanes_var": "OHX08HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380008,
+    "notes": "Tooth count for tooth #8 mapped to OMOP concept 'Tooth #8'"
+  },
+  {
+    "nhanes_var": "OHX07HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380007,
+    "notes": "Tooth count for tooth #7 mapped to OMOP concept 'Tooth #7'"
+  },
+  {
+    "nhanes_var": "OHX06HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380006,
+    "notes": "Tooth count for tooth #6 mapped to OMOP concept 'Tooth #6'"
+  },
+  {
+    "nhanes_var": "OHX05HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380005,
+    "notes": "Tooth count for tooth #5 mapped to OMOP concept 'Tooth #5'"
+  },
+  {
+    "nhanes_var": "OHX04HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380004,
+    "notes": "Tooth count for tooth #4 mapped to OMOP concept 'Tooth #4'"
+  },
+  {
+    "nhanes_var": "OHX03HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380003,
+    "notes": "Tooth count for tooth #3 mapped to OMOP concept 'Tooth #3'"
+  },
+  {
+    "nhanes_var": "OHX02HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380002,
+    "notes": "Tooth count for tooth #2 mapped to OMOP concept 'Tooth #2'"
+  },
+  {
+    "nhanes_var": "OHX01HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Tooth count for tooth #1 mapped to OMOP concept 'Tooth #1'"
+  },
+  {
+    "nhanes_var": "OHX09HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380009,
+    "notes": "Tooth count for tooth #9 mapped to OMOP concept 'Tooth #9'"
+  },
+  {
+    "nhanes_var": "OHX10HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380010,
+    "notes": "Tooth count for tooth #10 mapped to OMOP concept 'Tooth #10'"
+  },
+  {
+    "nhanes_var": "OHX11HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380011,
+    "notes": "Tooth count for tooth #11 mapped to OMOP concept 'Tooth #11'"
+  },
+  {
+    "nhanes_var": "OHX12HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380012,
+    "notes": "Tooth count for tooth #12 mapped to OMOP concept 'Tooth #12'"
+  },
+  {
+    "nhanes_var": "OHX13HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380013,
+    "notes": "Tooth count for tooth #13 mapped to OMOP concept 'Tooth #13'"
+  },
+  {
+    "nhanes_var": "OHX14HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #14"
+  },
+  {
+    "nhanes_var": "OHX15HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #15"
+  },
+  {
+    "nhanes_var": "OHX16HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #16"
+  },
+  {
+    "nhanes_var": "OHX24HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #24"
+  },
+  {
+    "nhanes_var": "OHX23HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #23"
+  },
+  {
+    "nhanes_var": "OHX22HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #22"
+  },
+  {
+    "nhanes_var": "OHX21HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #21"
+  },
+  {
+    "nhanes_var": "OHX20HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #20"
+  },
+  {
+    "nhanes_var": "OHX19HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #19"
+  },
+  {
+    "nhanes_var": "OHX18HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #18"
+  },
+  {
+    "nhanes_var": "OHX17HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #17"
+  },
+  {
+    "nhanes_var": "OHX25HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #25"
+  },
+  {
+    "nhanes_var": "OHX26HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #26"
+  },
+  {
+    "nhanes_var": "OHX27HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #27"
+  },
+  {
+    "nhanes_var": "OHX28HTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Tooth count for tooth #28"
+  },
+  {
+    "nhanes_var": "OHX29HTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #29, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "OHX30HTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #30"
+  },
+  {
+    "nhanes_var": "OHX31HTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #31"
+  },
+  {
+    "nhanes_var": "OHX32HTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #32"
+  },
+  {
+    "nhanes_var": "OHXDECAY",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3010000,
+    "notes": "Dental caries (decay) present, mapped to ConditionOccurrence"
+  },
+  {
+    "nhanes_var": "OHXREST",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3010001,
+    "notes": "Dental restoration performed, mapped to ProcedureOccurrence"
+  },
+  {
+    "nhanes_var": "OHXSEAL",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3010002,
+    "notes": "Dental sealant present, mapped to ConditionOccurrence"
+  },
+  {
+    "nhanes_var": "OHXFCRZ1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 1 present, stored as observation"
+  },
+  {
+    "nhanes_var": "OHXFCRZ2",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 2 present"
+  },
+  {
+    "nhanes_var": "OHXFCRZ3",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 3 present"
+  },
+  {
+    "nhanes_var": "OHXFCRZ4",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 4 present"
+  },
+  {
+    "nhanes_var": "OHXFCRZ5",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 5 present"
+  },
+  {
+    "nhanes_var": "OHXFCRZ6",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 6 present"
+  },
+  {
+    "nhanes_var": "OHXFCRZ7",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 7 present"
+  },
+  {
+    "nhanes_var": "OHXFCRZ8",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 3010003,
+    "notes": "Right dental zone 8 present"
+  },
+  {
+    "nhanes_var": "OHXFCLZ1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 1 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 2 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ3",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 3 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ4",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 4 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ5",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 5 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ6",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 6 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ7",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 7 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCLZ8",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Left side dental zone 8 status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHXFCANT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Anterior zone status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHQ410",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Removable complete/partial maxillary denture presence recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHQ420",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Wears complete/partial maxillary denture status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHQ430",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Removable complete/partial mandibular denture presence recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHQ440",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Wears complete/partial mandibular denture status recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHAPOS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000109,
+    "notes": "Exam position recumbent status recorded as an observation."
+  }
+]

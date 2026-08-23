@@ -1,0 +1,72 @@
+[
+  {
+    "nhanes_var": "DSDPID",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Unique identifier for the supplement; stored as source value in drug_exposure"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement name; used as source value when no standard concept exists"
+  },
+  {
+    "nhanes_var": "DSDIID",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_source_value",
+    "concept_id": null,
+    "notes": "Unique ingredient identifier; stored as source value in ingredient table"
+  },
+  {
+    "nhanes_var": "DSDINGR",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_source_value",
+    "concept_id": null,
+    "notes": "Ingredient name; stored as source value in ingredient table"
+  },
+  {
+    "nhanes_var": "DSDOPER",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_source_value",
+    "concept_id": null,
+    "notes": "Operator used in formulation (e.g., +, -); no dedicated field, stored as source value"
+  },
+  {
+    "nhanes_var": "DSDQTY",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_amount",
+    "concept_id": null,
+    "notes": "Quantity of the ingredient in the supplement"
+  },
+  {
+    "nhanes_var": "DSDUNIT",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_unit_concept_id",
+    "concept_id": null,
+    "notes": "Unit of measurement for ingredient quantity; map to standard unit concept if available"
+  },
+  {
+    "nhanes_var": "DSDCAT",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_category_concept_id",
+    "concept_id": null,
+    "notes": "Category of the ingredient; map to standard category concept if available"
+  },
+  {
+    "nhanes_var": "DSDBLFLG",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_source_value",
+    "concept_id": null,
+    "notes": "Blend flag indicating if ingredient is blended; no dedicated field, stored as source value"
+  },
+  {
+    "nhanes_var": "DSDINGID",
+    "omop_table": "ingredient",
+    "omop_field": "ingredient_source_value",
+    "concept_id": null,
+    "notes": "Legacy ingredient identifier; stored as source value in ingredient table"
+  }
+]

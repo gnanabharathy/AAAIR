@@ -1,0 +1,93 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to person_id"
+  },
+  {
+    "nhanes_var": "BPAOARM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "Arm selected for oscillometric BP measurement"
+  },
+  {
+    "nhanes_var": "BPAOCSZ",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": 380002,
+    "notes": "Coded cuff size for oscillometric BP"
+  },
+  {
+    "nhanes_var": "BPAOMNTS",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380003,
+    "notes": "Minutes between mercury and oscillometric BP measurement"
+  },
+  {
+    "nhanes_var": "BPXOSY1",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149675,
+    "notes": "Systolic BP, 1st oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXODI1",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149676,
+    "notes": "Diastolic BP, 1st oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOSY2",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149675,
+    "notes": "Systolic BP, 2nd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXODI2",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149676,
+    "notes": "Diastolic BP, 2nd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOSY3",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149675,
+    "notes": "Systolic BP, 3rd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXODI3",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149676,
+    "notes": "Diastolic BP, 3rd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOPLS1",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149677,
+    "notes": "Pulse (heart rate), 1st oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOPLS2",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149677,
+    "notes": "Pulse (heart rate), 2nd oscillometric reading"
+  },
+  {
+    "nhanes_var": "BPXOPLS3",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3149677,
+    "notes": "Pulse (heart rate), 3rd oscillometric reading"
+  }
+]

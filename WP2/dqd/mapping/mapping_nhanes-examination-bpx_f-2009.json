@@ -1,0 +1,191 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "PEASCST1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Blood pressure status (categorical) \u2013 no standard concept; stored as measurement"
+  },
+  {
+    "nhanes_var": "PEASCTM1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Blood pressure measurement time in seconds \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "PEASCCT1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Blood pressure comment \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPXCHR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3015625,
+    "notes": "Heart rate (continuous) \u2013 concept ID 3015625"
+  },
+  {
+    "nhanes_var": "BPQ150A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Food intake in past 30 minutes (binary) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPQ150B",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Alcohol intake in past 30 minutes (binary) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPQ150C",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Coffee intake in past 30 minutes (binary) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPQ150D",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cigarette use in past 30 minutes (binary) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPAARM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Arm selected for BP measurement \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPACSZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Coded cuff size \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPXPLS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3015626,
+    "notes": "Pulse rate (continuous) \u2013 concept ID 3015626"
+  },
+  {
+    "nhanes_var": "BPXPULS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pulse regularity (binary) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPXPTY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pulse type (categorical) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPXML1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Maximum inflation level (mm Hg) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BPXSY1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure first reading, mapped to OMOP concept 82810 (Systolic blood pressure) in Observation table."
+  },
+  {
+    "nhanes_var": "BPXDI1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82811,
+    "notes": "Diastolic blood pressure first reading, mapped to OMOP concept 82811 (Diastolic blood pressure)."
+  },
+  {
+    "nhanes_var": "BPAEN1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary flag indicating whether an enhancement (e.g., cuff) was used for the first reading; no standard OMOP concept, stored as a custom concept or null."
+  },
+  {
+    "nhanes_var": "BPXSY2",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure second reading."
+  },
+  {
+    "nhanes_var": "BPXDI2",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82811,
+    "notes": "Diastolic blood pressure second reading."
+  },
+  {
+    "nhanes_var": "BPAEN2",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Enhancement used for second reading; no standard concept."
+  },
+  {
+    "nhanes_var": "BPXSY3",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure third reading."
+  },
+  {
+    "nhanes_var": "BPXDI3",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82811,
+    "notes": "Diastolic blood pressure third reading."
+  },
+  {
+    "nhanes_var": "BPAEN3",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Enhancement used for third reading; no standard concept."
+  },
+  {
+    "nhanes_var": "BPXSY4",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82810,
+    "notes": "Systolic blood pressure fourth reading."
+  },
+  {
+    "nhanes_var": "BPXDI4",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 82811,
+    "notes": "Diastolic blood pressure fourth reading."
+  },
+  {
+    "nhanes_var": "BPAEN4",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Enhancement used for fourth reading; no standard concept."
+  }
+]

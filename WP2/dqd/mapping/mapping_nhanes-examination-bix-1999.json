@@ -1,0 +1,807 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source identifier for the person"
+  },
+  {
+    "nhanes_var": "BIAEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "BIA status (e.g., available/not available) mapped to a measurement concept"
+  },
+  {
+    "nhanes_var": "BIDFIT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Quality of fit to Cole model, stored as a measurement"
+  },
+  {
+    "nhanes_var": "BIDRECF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Resistance (ohms) of extracellular fluid, measurement"
+  },
+  {
+    "nhanes_var": "BIDRICF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Resistance (ohms) of intracellular fluid, measurement"
+  },
+  {
+    "nhanes_var": "BIDCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cell membrane capacitance (nF), measurement"
+  },
+  {
+    "nhanes_var": "BIDTD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Time delay (ns), measurement"
+  },
+  {
+    "nhanes_var": "BIDALPHA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Exponent alpha, measurement"
+  },
+  {
+    "nhanes_var": "BIDFC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Characteristic frequency (KHz), measurement"
+  },
+  {
+    "nhanes_var": "BIDECF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Estimated extracellular fluid volume (L), measurement"
+  },
+  {
+    "nhanes_var": "BIDTBW",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Estimated total body water volume (L), measurement"
+  },
+  {
+    "nhanes_var": "BIDICF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Estimated intracellular fluid volume (L), measurement"
+  },
+  {
+    "nhanes_var": "BIDFFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Estimated fat\u2011free mass (kg), measurement"
+  },
+  {
+    "nhanes_var": "BIDFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Estimated fat mass (kg), measurement"
+  },
+  {
+    "nhanes_var": "BIDPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Estimated percent body fat, measurement"
+  },
+  {
+    "nhanes_var": "BIXS005K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 5 kHz, stored as continuous value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "BIXS006K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 6 kHz."
+  },
+  {
+    "nhanes_var": "BIXS007K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 7 kHz."
+  },
+  {
+    "nhanes_var": "BIXS008K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 8 kHz."
+  },
+  {
+    "nhanes_var": "BIXS009K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 9 kHz."
+  },
+  {
+    "nhanes_var": "BIXS010K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 10 kHz."
+  },
+  {
+    "nhanes_var": "BIXS011K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 11 kHz."
+  },
+  {
+    "nhanes_var": "BIXS012K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 12 kHz."
+  },
+  {
+    "nhanes_var": "BIXS013K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 13 kHz."
+  },
+  {
+    "nhanes_var": "BIXS014K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 14 kHz."
+  },
+  {
+    "nhanes_var": "BIXS015K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 15 kHz."
+  },
+  {
+    "nhanes_var": "BIXS016K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 16 kHz."
+  },
+  {
+    "nhanes_var": "BIXS018K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 18 kHz."
+  },
+  {
+    "nhanes_var": "BIXS020K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 20 kHz."
+  },
+  {
+    "nhanes_var": "BIXS023K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 380001,
+    "notes": "Electrical impedance measurement at 23 kHz."
+  },
+  {
+    "nhanes_var": "BIXS025K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 25 kHz"
+  },
+  {
+    "nhanes_var": "BIXS028K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 28 kHz"
+  },
+  {
+    "nhanes_var": "BIXS031K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 31 kHz"
+  },
+  {
+    "nhanes_var": "BIXS035K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 35 kHz"
+  },
+  {
+    "nhanes_var": "BIXS039K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 39 kHz"
+  },
+  {
+    "nhanes_var": "BIXS043K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 43 kHz"
+  },
+  {
+    "nhanes_var": "BIXS050K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 50 kHz"
+  },
+  {
+    "nhanes_var": "BIXS054K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 54 kHz"
+  },
+  {
+    "nhanes_var": "BIXS060K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 60 kHz"
+  },
+  {
+    "nhanes_var": "BIXS067K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 67 kHz"
+  },
+  {
+    "nhanes_var": "BIXS075K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 75 kHz"
+  },
+  {
+    "nhanes_var": "BIXS083K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 83 kHz"
+  },
+  {
+    "nhanes_var": "BIXS093K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 93 kHz"
+  },
+  {
+    "nhanes_var": "BIXS100K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 100 kHz"
+  },
+  {
+    "nhanes_var": "BIXS115K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance measurement at 115 kHz"
+  },
+  {
+    "nhanes_var": "BIXS128K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 128 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS143K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 143 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS159K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 159 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS177K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 177 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS200K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 200 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS220K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 220 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS245K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 245 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS273K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 273 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS304K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 304 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS339K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 339 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS378K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 378 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS421K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 421 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS469K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 469 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS500K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 500 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS582K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Electrical resistance at 582 kHz, stored as a numeric measurement value"
+  },
+  {
+    "nhanes_var": "BIXS649K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Resistance measurement at 649 kHz"
+  },
+  {
+    "nhanes_var": "BIXS723K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Resistance measurement at 723 kHz"
+  },
+  {
+    "nhanes_var": "BIXS806K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Resistance measurement at 806 kHz"
+  },
+  {
+    "nhanes_var": "BIXS898K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Resistance measurement at 898 kHz"
+  },
+  {
+    "nhanes_var": "BIXS1M",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Resistance measurement at 1 MHz"
+  },
+  {
+    "nhanes_var": "BIXC005K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 5 kHz"
+  },
+  {
+    "nhanes_var": "BIXC006K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 6 kHz"
+  },
+  {
+    "nhanes_var": "BIXC007K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 7 kHz"
+  },
+  {
+    "nhanes_var": "BIXC008K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 8 kHz"
+  },
+  {
+    "nhanes_var": "BIXC009K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 9 kHz"
+  },
+  {
+    "nhanes_var": "BIXC010K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 10 kHz"
+  },
+  {
+    "nhanes_var": "BIXC011K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 11 kHz"
+  },
+  {
+    "nhanes_var": "BIXC012K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 12 kHz"
+  },
+  {
+    "nhanes_var": "BIXC013K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 13 kHz"
+  },
+  {
+    "nhanes_var": "BIXC014K",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 3800010,
+    "notes": "Reactance measurement at 14 kHz"
+  },
+  {
+    "nhanes_var": "BIXC015K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 15 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC016K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 16 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC018K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 18 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC020K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 20 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC023K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 23 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC025K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 25 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC028K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 28 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC031K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 31 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC035K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 35 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC039K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 39 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC043K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 43 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC050K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 50 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC054K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 54 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC060K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 60 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC067K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 67 KHz; stored as a continuous measurement value; no standard OMOP concept exists for this specific frequency."
+  },
+  {
+    "nhanes_var": "BIXC075K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 75 KHz \u2013 no standard OMOP concept, store as custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC083K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 83 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC093K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 93 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC100K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 100 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC115K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 115 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC128K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 128 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC143K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 143 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC159K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 159 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC177K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 177 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC200K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 200 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC220K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 220 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC245K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 245 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC273K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 273 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC304K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 304 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC339K",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) @ 339 KHz \u2013 custom measurement"
+  },
+  {
+    "nhanes_var": "BIXC378K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 378 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC421K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 421 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC469K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 469 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC500K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 500 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC582K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 582 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC649K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 649 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC723K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 723 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC806K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 806 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC898K",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 898 kHz, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "BIXC1M",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reactance (Ohms) at 1 MHz, stored as numeric measurement"
+  }
+]

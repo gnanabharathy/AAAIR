@@ -1,0 +1,331 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier; maps to person_id as the primary key."
+  },
+  {
+    "nhanes_var": "SDDSRVYR",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Data release cycle (survey metadata). Store as observation with custom concept for survey period."
+  },
+  {
+    "nhanes_var": "RIDSTATR",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Interview/examination status. Can be mapped to observation with custom concepts (e.g., 1=Interviewed only, 2=Both)."
+  },
+  {
+    "nhanes_var": "RIAGENDR",
+    "omop_table": "person",
+    "omop_field": "gender_concept_id",
+    "concept_id": null,
+    "notes": "Gender: 1=Male (8507), 2=Female (8532). Map directly to gender_concept_id."
+  },
+  {
+    "nhanes_var": "RIDAGEYR",
+    "omop_table": "person",
+    "omop_field": "year_of_birth",
+    "concept_id": null,
+    "notes": "Age in years at screening. Calculate year_of_birth from survey year minus age. Topcoded at 80."
+  },
+  {
+    "nhanes_var": "RIDAGEMN",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Age in months for 0-24 months. Store as observation with concept for age in months."
+  },
+  {
+    "nhanes_var": "RIDRETH1",
+    "omop_table": "person",
+    "omop_field": "ethnicity_concept_id",
+    "concept_id": null,
+    "notes": "Race/Hispanic origin recode. Use to derive ethnicity (Hispanic vs Non-Hispanic) and race. Hispanic: 1,2; Non-Hispanic: 3,4,5."
+  },
+  {
+    "nhanes_var": "RIDRETH3",
+    "omop_table": "person",
+    "omop_field": "race_concept_id",
+    "concept_id": null,
+    "notes": "Race/Hispanic origin with Asian detail. Use for race mapping (e.g., White=8527, Black=8516, Asian=8515)."
+  },
+  {
+    "nhanes_var": "RIDEXMON",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Six-month exam period. Store as observation with custom concept for seasonality."
+  },
+  {
+    "nhanes_var": "RIDEXAGM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Age in months at exam for 0-19 years. Store as observation."
+  },
+  {
+    "nhanes_var": "DMQMILIZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Served in US Armed Forces. Map to observation with standard concept for military service (e.g., 4181912)."
+  },
+  {
+    "nhanes_var": "DMQADFC",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Served in foreign country during conflict. Map to observation with custom concept."
+  },
+  {
+    "nhanes_var": "DMDBORN4",
+    "omop_table": "person",
+    "omop_field": "place_of_birth_concept_id",
+    "concept_id": null,
+    "notes": "Country of birth (US vs Others). Map to place_of_birth_concept_id (e.g., US=4337543)."
+  },
+  {
+    "nhanes_var": "DMDCITZN",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "US citizenship status. Map to observation with standard concept for citizenship."
+  },
+  {
+    "nhanes_var": "DMDYRSUS",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Length of time in US. Map to observation with ordinal categories."
+  },
+  {
+    "nhanes_var": "DMDEDUC3",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Education level for children 6-19. Map to observation with education concepts."
+  },
+  {
+    "nhanes_var": "DMDEDUC2",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Education level for adults 20+. Map to observation with standard education concepts (e.g., 4071070 for high school)."
+  },
+  {
+    "nhanes_var": "DMDMARTL",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Marital status. Map to observation with standard concepts (e.g., Married=4053842)."
+  },
+  {
+    "nhanes_var": "RIDEXPRG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Pregnancy status at exam. Map to observation with pregnancy status concept."
+  },
+  {
+    "nhanes_var": "SIALANG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language of SP interview. Map to observation with language concepts (e.g., English=4180185)."
+  },
+  {
+    "nhanes_var": "SIAPROXY",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Proxy used in SP interview. Map to observation with Yes/No concept."
+  },
+  {
+    "nhanes_var": "SIAINTRP",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Interpreter used in SP interview. Map to observation."
+  },
+  {
+    "nhanes_var": "FIALANG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language of Family interview. Map to observation."
+  },
+  {
+    "nhanes_var": "FIAPROXY",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Proxy used in Family interview. Map to observation."
+  },
+  {
+    "nhanes_var": "FIAINTRP",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Interpreter used in Family interview. Map to observation."
+  },
+  {
+    "nhanes_var": "MIALANG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language of MEC interview. Map to observation."
+  },
+  {
+    "nhanes_var": "MIAPROXY",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Proxy used in MEC interview. Map to observation."
+  },
+  {
+    "nhanes_var": "MIAINTRP",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Interpreter used in MEC interview. Map to observation."
+  },
+  {
+    "nhanes_var": "AIALANGA",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language of ACASI interview. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHHSIZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total number in household. Map to observation as numeric value."
+  },
+  {
+    "nhanes_var": "DMDFMSIZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total number in family. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHHSZA",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of children \u22645 in HH. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHHSZB",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of children 6-17 in HH. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHHSZE",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of adults \u226560 in HH. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHRGND",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's gender. Map to observation (not person table, as it's about the reference person)."
+  },
+  {
+    "nhanes_var": "DMDHRAGE",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "HH reference person's age. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHRBR4",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's country of birth. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHREDU",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's education. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHRMAR",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's marital status. Map to observation."
+  },
+  {
+    "nhanes_var": "DMDHSEDU",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "HH reference person's spouse's education. Map to observation."
+  },
+  {
+    "nhanes_var": "WTINT2YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Full sample 2-year interview weight. Store as observation with concept for survey weight."
+  },
+  {
+    "nhanes_var": "WTMEC2YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Full sample 2-year MEC exam weight. Store as observation."
+  },
+  {
+    "nhanes_var": "SDMVPSU",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Masked variance pseudo-PSU. Survey design variable; not mapped to clinical data tables."
+  },
+  {
+    "nhanes_var": "SDMVSTRA",
+    "omop_table": "skip",
+    "omop_field": null,
+    "concept_id": null,
+    "notes": "Masked variance pseudo-stratum. Survey design variable; not mapped."
+  },
+  {
+    "nhanes_var": "INDHHIN2",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Annual household income (range). Map to observation with income category concepts."
+  },
+  {
+    "nhanes_var": "INDFMIN2",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Annual family income (range). Map to observation."
+  },
+  {
+    "nhanes_var": "INDFMPIR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Ratio of family income to poverty. Map to observation as continuous numeric value."
+  }
+]

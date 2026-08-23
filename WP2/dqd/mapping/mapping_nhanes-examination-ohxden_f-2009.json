@@ -1,0 +1,275 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHDDESTS",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dentition status code (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX01TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #1 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX02TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #2 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX03TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #3 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX04TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #4 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX05TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #5 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX06TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #6 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX07TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #7 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX08TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #8 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX09TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #9 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX10TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #10 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX11TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #11 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX12TC",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth #12 (categorical) mapped to observation"
+  },
+  {
+    "nhanes_var": "OHX13TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #13 (maxillary right second molar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX14TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #14 (maxillary right second premolar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX15TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #15 (maxillary right first premolar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX16TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #16 (maxillary right canine) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX17TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #17 (maxillary right lateral incisor) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX18TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #18 (maxillary right central incisor) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX19TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #19 (maxillary left central incisor) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX20TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #20 (maxillary left lateral incisor) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX21TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #21 (maxillary left canine) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX22TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #22 (maxillary left first premolar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX23TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #23 (maxillary left second premolar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX24TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #24 (maxillary left second molar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX25TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #25 (maxillary left third molar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX26TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #26 (maxillary right third molar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX27TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth presence for tooth #27 (maxillary left third molar) \u2013 recorded as categorical presence/absence"
+  },
+  {
+    "nhanes_var": "OHX28TC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #28 presence/absence; map to a tooth-specific measurement concept if available"
+  },
+  {
+    "nhanes_var": "OHX29TC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #29 presence/absence; map to a tooth-specific measurement concept if available"
+  },
+  {
+    "nhanes_var": "OHX30TC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #30 presence/absence; map to a tooth-specific measurement concept if available"
+  },
+  {
+    "nhanes_var": "OHX31TC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #31 presence/absence; map to a tooth-specific measurement concept if available"
+  },
+  {
+    "nhanes_var": "OHX32TC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #32 presence/absence; map to a tooth-specific measurement concept if available"
+  },
+  {
+    "nhanes_var": "OHXIMP",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Dental implant present; map to a dental implant condition concept if available"
+  },
+  {
+    "nhanes_var": "OHXDECAY",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Dental decay (caries) present; map to a dental caries condition concept if available"
+  },
+  {
+    "nhanes_var": "OHXREST",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration present; map to a dental restoration procedure concept if available"
+  },
+  {
+    "nhanes_var": "OHXSEAL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dental sealant present; map to a dental sealant observation concept if available"
+  }
+]

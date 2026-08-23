@@ -1,0 +1,23 @@
+[
+  {
+    "nhanes_var": "DRXFDCD",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Food code from NHANES dietary intake"
+  },
+  {
+    "nhanes_var": "DRXFCSD",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Short description of the food code"
+  },
+  {
+    "nhanes_var": "DRXFCLD",
+    "omop_table": "Observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Long description of the food code"
+  }
+]

@@ -1,0 +1,1199 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as person identifier"
+  },
+  {
+    "nhanes_var": "WTSAU2YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight for 2\u2011year audiometry subsample"
+  },
+  {
+    "nhanes_var": "WTSAU4YR",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight for 4\u2011year audiometry subsample"
+  },
+  {
+    "nhanes_var": "AUDTYR01",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 1 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR02",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 2 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR03",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 3 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR04",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 4 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR05",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 5 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR06",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 6 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR07",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 7 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR08",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 8 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR09",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 9 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR10",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 10 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR11",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 11 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR12",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 12 for right ear"
+  },
+  {
+    "nhanes_var": "AUDTYR13",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR14",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR15",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR16",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR17",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR18",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR19",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR20",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR21",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR22",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR23",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR24",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR25",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR26",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR27",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 38000107,
+    "notes": "Tympanometry measurement for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR28",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 28 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR29",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 29 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR30",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 30 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR31",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 31 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR32",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 32 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR33",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 33 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR34",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 34 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR35",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 35 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR36",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 36 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR37",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 37 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR38",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 38 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR39",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 39 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR40",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 40 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR41",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 41 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR42",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 42 for right ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYR43",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 43"
+  },
+  {
+    "nhanes_var": "AUDTYR44",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 44"
+  },
+  {
+    "nhanes_var": "AUDTYR45",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 45"
+  },
+  {
+    "nhanes_var": "AUDTYR46",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 46"
+  },
+  {
+    "nhanes_var": "AUDTYR47",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 47"
+  },
+  {
+    "nhanes_var": "AUDTYR48",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 48"
+  },
+  {
+    "nhanes_var": "AUDTYR49",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 49"
+  },
+  {
+    "nhanes_var": "AUDTYR50",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 50"
+  },
+  {
+    "nhanes_var": "AUDTYR51",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 51"
+  },
+  {
+    "nhanes_var": "AUDTYR52",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 52"
+  },
+  {
+    "nhanes_var": "AUDTYR53",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 53"
+  },
+  {
+    "nhanes_var": "AUDTYR54",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 54"
+  },
+  {
+    "nhanes_var": "AUDTYR55",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 55"
+  },
+  {
+    "nhanes_var": "AUDTYR56",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 56"
+  },
+  {
+    "nhanes_var": "AUDTYR57",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for right ear, measurement 57"
+  },
+  {
+    "nhanes_var": "AUDTYR58",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 58"
+  },
+  {
+    "nhanes_var": "AUDTYR59",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 59"
+  },
+  {
+    "nhanes_var": "AUDTYR60",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 60"
+  },
+  {
+    "nhanes_var": "AUDTYR61",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 61"
+  },
+  {
+    "nhanes_var": "AUDTYR62",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 62"
+  },
+  {
+    "nhanes_var": "AUDTYR63",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 63"
+  },
+  {
+    "nhanes_var": "AUDTYR64",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 64"
+  },
+  {
+    "nhanes_var": "AUDTYR65",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 65"
+  },
+  {
+    "nhanes_var": "AUDTYR66",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 66"
+  },
+  {
+    "nhanes_var": "AUDTYR67",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 67"
+  },
+  {
+    "nhanes_var": "AUDTYR68",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 68"
+  },
+  {
+    "nhanes_var": "AUDTYR69",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 69"
+  },
+  {
+    "nhanes_var": "AUDTYR70",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 70"
+  },
+  {
+    "nhanes_var": "AUDTYR71",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 71"
+  },
+  {
+    "nhanes_var": "AUDTYR72",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement right ear, variable 72"
+  },
+  {
+    "nhanes_var": "AUDTYR73",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 73; store as measurement with appropriate concept if available."
+  },
+  {
+    "nhanes_var": "AUDTYR74",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 74; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR75",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 75; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR76",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 76; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR77",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 77; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR78",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 78; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR79",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 79; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR80",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 80; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR81",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 81; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR82",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 82; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR83",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 83; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYR84",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry right ear measurement 84; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYL01",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 1; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYL02",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 2; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYL03",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 3; store as measurement."
+  },
+  {
+    "nhanes_var": "AUDTYL04",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 4 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL05",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 5 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL06",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 6 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL07",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 7 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL08",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 8 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL09",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 9 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL10",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 10 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL11",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 11 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 12 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL13",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 13 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL14",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 14 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL15",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 15 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL16",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 16 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL17",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 17 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL18",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement 18 for left ear"
+  },
+  {
+    "nhanes_var": "AUDTYL19",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 19"
+  },
+  {
+    "nhanes_var": "AUDTYL20",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 20"
+  },
+  {
+    "nhanes_var": "AUDTYL21",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 21"
+  },
+  {
+    "nhanes_var": "AUDTYL22",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 22"
+  },
+  {
+    "nhanes_var": "AUDTYL23",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 23"
+  },
+  {
+    "nhanes_var": "AUDTYL24",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 24"
+  },
+  {
+    "nhanes_var": "AUDTYL25",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 25"
+  },
+  {
+    "nhanes_var": "AUDTYL26",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 26"
+  },
+  {
+    "nhanes_var": "AUDTYL27",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 27"
+  },
+  {
+    "nhanes_var": "AUDTYL28",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 28"
+  },
+  {
+    "nhanes_var": "AUDTYL29",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 29"
+  },
+  {
+    "nhanes_var": "AUDTYL30",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 30"
+  },
+  {
+    "nhanes_var": "AUDTYL31",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 31"
+  },
+  {
+    "nhanes_var": "AUDTYL32",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 32"
+  },
+  {
+    "nhanes_var": "AUDTYL33",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry left ear measurement 33"
+  },
+  {
+    "nhanes_var": "AUDTYL34",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL35",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL36",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL37",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL38",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL39",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL40",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL41",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL42",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL43",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL44",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL45",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL46",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL47",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL48",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Tympanometry measurement for left ear, continuous value"
+  },
+  {
+    "nhanes_var": "AUDTYL49",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 49"
+  },
+  {
+    "nhanes_var": "AUDTYL50",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 50"
+  },
+  {
+    "nhanes_var": "AUDTYL51",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 51"
+  },
+  {
+    "nhanes_var": "AUDTYL52",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 52"
+  },
+  {
+    "nhanes_var": "AUDTYL53",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 53"
+  },
+  {
+    "nhanes_var": "AUDTYL54",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 54"
+  },
+  {
+    "nhanes_var": "AUDTYL55",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 55"
+  },
+  {
+    "nhanes_var": "AUDTYL56",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 56"
+  },
+  {
+    "nhanes_var": "AUDTYL57",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 57"
+  },
+  {
+    "nhanes_var": "AUDTYL58",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 58"
+  },
+  {
+    "nhanes_var": "AUDTYL59",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 59"
+  },
+  {
+    "nhanes_var": "AUDTYL60",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 60"
+  },
+  {
+    "nhanes_var": "AUDTYL61",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 61"
+  },
+  {
+    "nhanes_var": "AUDTYL62",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 62"
+  },
+  {
+    "nhanes_var": "AUDTYL63",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 380001,
+    "notes": "Tympanometry measurement for left ear, value 63"
+  },
+  {
+    "nhanes_var": "AUDTYL64",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 64 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL65",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 65 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL66",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 66 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL67",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 67 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL68",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 68 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL69",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 69 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL70",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 70 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL71",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 71 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL72",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 72 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL73",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 73 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL74",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 74 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL75",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 75 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL76",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 76 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL77",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 77 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL78",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 78 for left ear; stored as source value in MEASUREMENT table."
+  },
+  {
+    "nhanes_var": "AUDTYL79",
+    "omop_table": "observation",
+    "omop_field": "observation_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 79 for left ear; numeric value stored in observation_value."
+  },
+  {
+    "nhanes_var": "AUDTYL80",
+    "omop_table": "observation",
+    "omop_field": "observation_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 80 for left ear; numeric value stored in observation_value."
+  },
+  {
+    "nhanes_var": "AUDTYL81",
+    "omop_table": "observation",
+    "omop_field": "observation_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 81 for left ear; numeric value stored in observation_value."
+  },
+  {
+    "nhanes_var": "AUDTYL82",
+    "omop_table": "observation",
+    "omop_field": "observation_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 82 for left ear; numeric value stored in observation_value."
+  },
+  {
+    "nhanes_var": "AUDTYL83",
+    "omop_table": "observation",
+    "omop_field": "observation_value",
+    "concept_id": null,
+    "notes": "Tympanometry measurement 83 for left ear; numeric value stored in observation_value."
+  },
+  {
+    "nhanes_var": "AUDTYL84",
+    "omop_table": "observation",
+    "omop_field": "observation_value",
+    "concept_id": null,
+    "notes": "Tympanometry binary result for left ear; 0/1 stored in observation_value."
+  }
+]

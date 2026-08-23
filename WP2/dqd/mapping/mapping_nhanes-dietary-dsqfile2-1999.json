@@ -1,0 +1,79 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "DSDSUPID",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_concept_id",
+    "concept_id": null,
+    "notes": "Supplement ID number stored as source concept id"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_value",
+    "concept_id": null,
+    "notes": "Supplement name stored as source value"
+  },
+  {
+    "nhanes_var": "DSD070",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Binary indicator of whether supplement container was seen"
+  },
+  {
+    "nhanes_var": "DSDMTCH",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_source_concept_id",
+    "concept_id": null,
+    "notes": "Matching code linking to supplement source concept"
+  },
+  {
+    "nhanes_var": "DSD090",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_exposure_duration",
+    "concept_id": null,
+    "notes": "Duration of supplement use in days"
+  },
+  {
+    "nhanes_var": "DSD100Q",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Frequency quantity of supplement taken in last month"
+  },
+  {
+    "nhanes_var": "DSD100U",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Unit of frequency (e.g., times per day) for last month"
+  },
+  {
+    "nhanes_var": "DSD120Q",
+    "omop_table": "drug_exposure",
+    "omop_field": "dose_value",
+    "concept_id": null,
+    "notes": "Quantity of supplement taken per dose"
+  },
+  {
+    "nhanes_var": "DSD120U",
+    "omop_table": "drug_exposure",
+    "omop_field": "dose_unit_source_value",
+    "concept_id": null,
+    "notes": "Dosage form or unit of the supplement"
+  },
+  {
+    "nhanes_var": "DSDANTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Indicator if antacid was reported as a dietary supplement"
+  }
+]

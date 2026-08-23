@@ -1,0 +1,44 @@
+[
+  {
+    "nhanes_var": "DSDIID",
+    "omop_table": "drug_ingredient",
+    "omop_field": "ingredient_concept_id",
+    "concept_id": null,
+    "notes": "Ingredient ID number"
+  },
+  {
+    "nhanes_var": "DSDINGR",
+    "omop_table": "drug_ingredient",
+    "omop_field": "ingredient_concept_id",
+    "concept_id": null,
+    "notes": "Ingredient name"
+  },
+  {
+    "nhanes_var": "DSDBID",
+    "omop_table": "drug_concept",
+    "omop_field": "drug_concept_id",
+    "concept_id": null,
+    "notes": "Blend component ID"
+  },
+  {
+    "nhanes_var": "DSDBCNAM",
+    "omop_table": "drug_concept",
+    "omop_field": "drug_concept_name",
+    "concept_id": null,
+    "notes": "Blend component name"
+  },
+  {
+    "nhanes_var": "DSDBCCAT",
+    "omop_table": "drug_concept",
+    "omop_field": "drug_concept_class_id",
+    "concept_id": null,
+    "notes": "Blend component category"
+  },
+  {
+    "nhanes_var": "DSDBCID",
+    "omop_table": "drug_concept",
+    "omop_field": "drug_concept_id",
+    "concept_id": null,
+    "notes": "Old version blend component ID"
+  }
+]

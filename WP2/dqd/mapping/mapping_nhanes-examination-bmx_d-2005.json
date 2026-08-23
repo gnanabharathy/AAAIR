@@ -1,0 +1,191 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number maps to person_id"
+  },
+  {
+    "nhanes_var": "BMDSTATS",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Body Measures Component Status Code, categorical status"
+  },
+  {
+    "nhanes_var": "BMXWT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035625,
+    "notes": "Body weight in kilograms"
+  },
+  {
+    "nhanes_var": "BMIWT",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on weight measurement"
+  },
+  {
+    "nhanes_var": "BMXRECUM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035628,
+    "notes": "Recumbent length in centimeters"
+  },
+  {
+    "nhanes_var": "BMIRECUM",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on recumbent length"
+  },
+  {
+    "nhanes_var": "BMXHEAD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035629,
+    "notes": "Head circumference in centimeters"
+  },
+  {
+    "nhanes_var": "BMIHEAD",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on head circumference"
+  },
+  {
+    "nhanes_var": "BMXHT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035626,
+    "notes": "Standing height in centimeters"
+  },
+  {
+    "nhanes_var": "BMIHT",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on standing height"
+  },
+  {
+    "nhanes_var": "BMXBMI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035627,
+    "notes": "Body mass index (kg/m^2)"
+  },
+  {
+    "nhanes_var": "BMXLEG",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035630,
+    "notes": "Upper leg length in centimeters"
+  },
+  {
+    "nhanes_var": "BMILEG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on upper leg length"
+  },
+  {
+    "nhanes_var": "BMXCALF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3035631,
+    "notes": "Maximal calf circumference in centimeters"
+  },
+  {
+    "nhanes_var": "BMICALF",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment on maximal calf circumference"
+  },
+  {
+    "nhanes_var": "BMXARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Upper arm length (cm) measurement"
+  },
+  {
+    "nhanes_var": "BMIARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Upper arm length comment (categorical) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BMXARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Arm circumference (cm) measurement"
+  },
+  {
+    "nhanes_var": "BMIARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Arm circumference comment (categorical) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BMXWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Waist circumference (cm) measurement"
+  },
+  {
+    "nhanes_var": "BMIWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Waist circumference comment (categorical) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BMXTHICR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Thigh circumference (cm) measurement"
+  },
+  {
+    "nhanes_var": "BMITHICR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thigh circumference comment (categorical) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BMXTRI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Triceps skinfold (mm) measurement"
+  },
+  {
+    "nhanes_var": "BMITRI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Triceps skinfold comment (categorical) \u2013 no standard concept"
+  },
+  {
+    "nhanes_var": "BMXSUB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Subscapular skinfold (mm) measurement"
+  },
+  {
+    "nhanes_var": "BMISUB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Subscapular skinfold comment (categorical) \u2013 no standard concept"
+  }
+]

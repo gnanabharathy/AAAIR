@@ -1,0 +1,23 @@
+[
+  {
+    "nhanes_var": "DRXFDCD",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Food Code is a USDA-specific categorical identifier for foods. It should be stored as a concept in the observation table, but requires mapping to a Standard Concept (e.g., SNOMED or a custom vocabulary) as no direct OMOP standard concept_id exists for USDA food codes."
+  },
+  {
+    "nhanes_var": "DRXFCSD",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Short Food Code Description is a text label for the food code. It is stored as a string in the observation table, as it provides contextual information not captured by a standard concept_id."
+  },
+  {
+    "nhanes_var": "DRXFCLD",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Long Food Code Description is a detailed text label for the food code. It is stored as a string in the observation table, providing additional descriptive context for the dietary observation."
+  }
+]

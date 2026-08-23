@@ -1,0 +1,2410 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique identifier for person"
+  },
+  {
+    "nhanes_var": "RFXSEAR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ear tested (left/right/both) mapped to measurement of ear side"
+  },
+  {
+    "nhanes_var": "RFXLEVEL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Sound stimulus level during reflex test"
+  },
+  {
+    "nhanes_var": "RFXRFXDC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex detected flag (binary) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT001",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 001 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT002",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 002 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT003",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 003 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT004",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 004 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT005",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 005 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT006",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 006 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT007",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 007 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT008",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 008 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT009",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 009 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT010",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 010 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT011",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time data point 011 (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "RFXT012",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT013",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT014",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT015",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT016",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT017",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT018",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT019",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT021",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT022",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT023",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT024",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT025",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT026",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement"
+  },
+  {
+    "nhanes_var": "RFXT027",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 027"
+  },
+  {
+    "nhanes_var": "RFXT028",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 028"
+  },
+  {
+    "nhanes_var": "RFXT029",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 029"
+  },
+  {
+    "nhanes_var": "RFXT030",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 030"
+  },
+  {
+    "nhanes_var": "RFXT031",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 031"
+  },
+  {
+    "nhanes_var": "RFXT032",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 032"
+  },
+  {
+    "nhanes_var": "RFXT033",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 033"
+  },
+  {
+    "nhanes_var": "RFXT034",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 034"
+  },
+  {
+    "nhanes_var": "RFXT035",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 035"
+  },
+  {
+    "nhanes_var": "RFXT036",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 036"
+  },
+  {
+    "nhanes_var": "RFXT037",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 037"
+  },
+  {
+    "nhanes_var": "RFXT038",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 038"
+  },
+  {
+    "nhanes_var": "RFXT039",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 039"
+  },
+  {
+    "nhanes_var": "RFXT040",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 040"
+  },
+  {
+    "nhanes_var": "RFXT041",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Reflex latency measurement (seconds) for data point 041"
+  },
+  {
+    "nhanes_var": "RFXT042",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 042, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT043",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 043, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT044",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 044, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT045",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 045, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT046",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 046, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT047",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 047, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT048",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 048, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT049",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 049, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT050",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 050, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT051",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 051, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT052",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 052, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT053",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 053, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT054",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 054, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT055",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 055, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT056",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time measurement for data point 056, stored as an Observation concept."
+  },
+  {
+    "nhanes_var": "RFXT057",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 057"
+  },
+  {
+    "nhanes_var": "RFXT058",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 058"
+  },
+  {
+    "nhanes_var": "RFXT059",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 059"
+  },
+  {
+    "nhanes_var": "RFXT060",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 060"
+  },
+  {
+    "nhanes_var": "RFXT061",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 061"
+  },
+  {
+    "nhanes_var": "RFXT062",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 062"
+  },
+  {
+    "nhanes_var": "RFXT063",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 063"
+  },
+  {
+    "nhanes_var": "RFXT064",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 064"
+  },
+  {
+    "nhanes_var": "RFXT065",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 065"
+  },
+  {
+    "nhanes_var": "RFXT066",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 066"
+  },
+  {
+    "nhanes_var": "RFXT067",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 067"
+  },
+  {
+    "nhanes_var": "RFXT068",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 068"
+  },
+  {
+    "nhanes_var": "RFXT069",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 069"
+  },
+  {
+    "nhanes_var": "RFXT070",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 070"
+  },
+  {
+    "nhanes_var": "RFXT071",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Reflex time measurement (ordinal) for data point 071"
+  },
+  {
+    "nhanes_var": "RFXT072",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., biceps) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT073",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., triceps) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT074",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., patellar) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT075",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., Achilles) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT076",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., plantar) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT077",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., knee jerk) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT078",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., ankle jerk) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT079",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., hand reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT080",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., facial reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT081",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., auditory reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT082",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., vestibular reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT083",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., ocular reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT084",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., gag reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT085",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., cough reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT086",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reflex time for a specific reflex (e.g., startle reflex) \u2013 stored as an Observation record"
+  },
+  {
+    "nhanes_var": "RFXT087",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 087"
+  },
+  {
+    "nhanes_var": "RFXT088",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 088"
+  },
+  {
+    "nhanes_var": "RFXT089",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 089"
+  },
+  {
+    "nhanes_var": "RFXT090",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 090"
+  },
+  {
+    "nhanes_var": "RFXT091",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 091"
+  },
+  {
+    "nhanes_var": "RFXT092",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 092"
+  },
+  {
+    "nhanes_var": "RFXT093",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 093"
+  },
+  {
+    "nhanes_var": "RFXT094",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 094"
+  },
+  {
+    "nhanes_var": "RFXT095",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 095"
+  },
+  {
+    "nhanes_var": "RFXT096",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 096"
+  },
+  {
+    "nhanes_var": "RFXT097",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 097"
+  },
+  {
+    "nhanes_var": "RFXT098",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 098"
+  },
+  {
+    "nhanes_var": "RFXT099",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 099"
+  },
+  {
+    "nhanes_var": "RFXT100",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 100"
+  },
+  {
+    "nhanes_var": "RFXT101",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Ordinal reflex time measurement for data point 101"
+  },
+  {
+    "nhanes_var": "RFXT102",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT103",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT104",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT105",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT106",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT107",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT108",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT109",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT110",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT111",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT112",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT113",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT114",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT115",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT116",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal reflex time measurement; map to Observation table with concept for specific reflex if available."
+  },
+  {
+    "nhanes_var": "RFXT117",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT118",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT119",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT120",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT121",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT122",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT123",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT124",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT125",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT126",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT127",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT128",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT129",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT130",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT131",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex time measurement (continuous). Value stored in MEASUREMENT.measurement_value; source variable name in measurement_source_value."
+  },
+  {
+    "nhanes_var": "RFXT132",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 132 (e.g., knee jerk) stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT133",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 133 (e.g., ankle jerk) stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT134",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 134 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT135",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 135 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT136",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 136 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT137",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 137 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT138",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 138 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT139",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 139 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT140",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 140 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT141",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 141 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT142",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 142 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT143",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 143 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT144",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 144 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT145",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 145 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT146",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time for reflex 146 stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXT147",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 147; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT148",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 148; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT149",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 149; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT150",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 150; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT151",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 151; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT152",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 152; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT153",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 153; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT154",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 154; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT155",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 155; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT156",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 156; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT157",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 157; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT158",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 158; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT159",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 159; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT160",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 160; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT161",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex time measurement for reflex 161; store as numeric observation"
+  },
+  {
+    "nhanes_var": "RFXT162",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 162; use standard concept for reflex latency if available."
+  },
+  {
+    "nhanes_var": "RFXT163",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 163."
+  },
+  {
+    "nhanes_var": "RFXT164",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 164."
+  },
+  {
+    "nhanes_var": "RFXT165",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 165."
+  },
+  {
+    "nhanes_var": "RFXT166",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 166."
+  },
+  {
+    "nhanes_var": "RFXT167",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 167."
+  },
+  {
+    "nhanes_var": "RFXT168",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 168."
+  },
+  {
+    "nhanes_var": "RFXT169",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 169."
+  },
+  {
+    "nhanes_var": "RFXT170",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Reflex latency measurement for data point 170."
+  },
+  {
+    "nhanes_var": "RFXC001",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 234567,
+    "notes": "Reflex compliance measurement for data point 001; use standard concept for reflex compliance if available."
+  },
+  {
+    "nhanes_var": "RFXC002",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 234567,
+    "notes": "Reflex compliance measurement for data point 002."
+  },
+  {
+    "nhanes_var": "RFXC003",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 234567,
+    "notes": "Reflex compliance measurement for data point 003."
+  },
+  {
+    "nhanes_var": "RFXC004",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 234567,
+    "notes": "Reflex compliance measurement for data point 004."
+  },
+  {
+    "nhanes_var": "RFXC005",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 234567,
+    "notes": "Reflex compliance measurement for data point 005."
+  },
+  {
+    "nhanes_var": "RFXC006",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 234567,
+    "notes": "Reflex compliance measurement for data point 006."
+  },
+  {
+    "nhanes_var": "RFXC007",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 007; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC008",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 008; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC009",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 009; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC010",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 010; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC011",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 011; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC012",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 012; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC013",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 013; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC014",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 014; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC015",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 015; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC016",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 016; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC017",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 017; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC018",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 018; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC019",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 019; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC020",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 020; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC021",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement for point 021; continuous numeric value stored in Observation.value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC022",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 022"
+  },
+  {
+    "nhanes_var": "RFXC023",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 023"
+  },
+  {
+    "nhanes_var": "RFXC024",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 024"
+  },
+  {
+    "nhanes_var": "RFXC025",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 025"
+  },
+  {
+    "nhanes_var": "RFXC026",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 026"
+  },
+  {
+    "nhanes_var": "RFXC027",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 027"
+  },
+  {
+    "nhanes_var": "RFXC028",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 028"
+  },
+  {
+    "nhanes_var": "RFXC029",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 029"
+  },
+  {
+    "nhanes_var": "RFXC030",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 030"
+  },
+  {
+    "nhanes_var": "RFXC031",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 031"
+  },
+  {
+    "nhanes_var": "RFXC032",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 032"
+  },
+  {
+    "nhanes_var": "RFXC033",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 033"
+  },
+  {
+    "nhanes_var": "RFXC034",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 034"
+  },
+  {
+    "nhanes_var": "RFXC035",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 035"
+  },
+  {
+    "nhanes_var": "RFXC036",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 036"
+  },
+  {
+    "nhanes_var": "RFXC037",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC038",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC039",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC041",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC042",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC043",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC044",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC045",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC046",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC047",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC048",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC049",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC050",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC051",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Continuous measurement of reflex compliance, stored in Measurement table"
+  },
+  {
+    "nhanes_var": "RFXC052",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 052, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC053",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 053, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC054",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 054, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC055",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 055, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC056",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 056, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC057",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 057, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC058",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 058, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC059",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 059, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC060",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 060, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC061",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 061, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC062",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 062, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC063",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 063, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC064",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 064, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC065",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 065, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC066",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 066, continuous numeric value"
+  },
+  {
+    "nhanes_var": "RFXC067",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC068",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC069",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC070",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC071",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC072",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC073",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC074",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC075",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC076",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC077",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC078",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC079",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC081",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC082",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 082; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC083",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 083; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC084",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 084; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC085",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 085; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC086",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 086; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC087",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 087; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC088",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 088; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC089",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 089; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC090",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 090; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC091",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 091; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC092",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 092; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC093",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 093; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC094",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 094; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC095",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 095; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC096",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 096; stored as numeric value"
+  },
+  {
+    "nhanes_var": "RFXC097",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 097; stored as numeric value in measurement table."
+  },
+  {
+    "nhanes_var": "RFXC098",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 098; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC099",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 099; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC100",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 100; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC101",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 101; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC102",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 102; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC103",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 103; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC104",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 104; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC105",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 105; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC106",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 106; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC107",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 107; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC108",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 108; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC109",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 109; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC110",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 110; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC111",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement point 111; numeric value."
+  },
+  {
+    "nhanes_var": "RFXC112",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC113",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC114",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC115",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC116",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC117",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC118",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC119",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC120",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC121",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC122",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC123",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC124",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC125",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC126",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement, continuous value"
+  },
+  {
+    "nhanes_var": "RFXC127",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC128",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC129",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC130",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC131",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC132",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC133",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC134",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC135",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC136",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC137",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC138",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC139",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC140",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC141",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement; no standard OMOP concept, stored as measurement_concept_id with null concept_id; numeric value goes in value_as_number."
+  },
+  {
+    "nhanes_var": "RFXC142",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC143",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC144",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC145",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC146",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC147",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC148",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC149",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC150",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC151",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC152",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC153",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC154",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC155",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC156",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Reflex compliance measurement (continuous numeric)"
+  },
+  {
+    "nhanes_var": "RFXC157",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 157"
+  },
+  {
+    "nhanes_var": "RFXC158",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 158"
+  },
+  {
+    "nhanes_var": "RFXC159",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 159"
+  },
+  {
+    "nhanes_var": "RFXC160",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 160"
+  },
+  {
+    "nhanes_var": "RFXC161",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 161"
+  },
+  {
+    "nhanes_var": "RFXC162",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 162"
+  },
+  {
+    "nhanes_var": "RFXC163",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 163"
+  },
+  {
+    "nhanes_var": "RFXC164",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 164"
+  },
+  {
+    "nhanes_var": "RFXC165",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 165"
+  },
+  {
+    "nhanes_var": "RFXC166",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 166"
+  },
+  {
+    "nhanes_var": "RFXC167",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 167"
+  },
+  {
+    "nhanes_var": "RFXC168",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 168"
+  },
+  {
+    "nhanes_var": "RFXC169",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 169"
+  },
+  {
+    "nhanes_var": "RFXC170",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Continuous reflex compliance measurement point 170"
+  }
+]

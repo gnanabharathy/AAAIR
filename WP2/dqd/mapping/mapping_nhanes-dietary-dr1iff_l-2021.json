@@ -1,0 +1,590 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "SEQN is the unique respondent identifier. It maps to person_source_value to link all records to the same individual."
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight is a survey design weight. It can be stored as an Observation with a custom concept for the weight type, or in a custom table. No standard OMOP concept exists for NHANES dietary weights."
+  },
+  {
+    "nhanes_var": "WTDR2D",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary two-day sample weight is a survey design weight. Similar to WTDRD1, stored as an Observation with a custom concept."
+  },
+  {
+    "nhanes_var": "DR1ILINE",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Food/Individual component number is an ordinal identifier for food items within a recall. Maps to value_as_number in Observation, with a custom concept for the variable."
+  },
+  {
+    "nhanes_var": "DR1DRSTZ",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Dietary recall status is a categorical variable indicating completeness/reliability. Requires a custom concept; no standard OMOP concept exists."
+  },
+  {
+    "nhanes_var": "DR1EXMER",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Interviewer ID code is an identifier for the interviewer. Stored as a string in Observation, as it does not fit standard provider tables without additional context."
+  },
+  {
+    "nhanes_var": "DRABF",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Breast-fed infant indicator. Could map to concept_id 40762366 (Breastfeeding) or similar, but exact mapping depends on value encoding. Stored as Observation."
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Number of days of intake is a categorical variable (e.g., 1 or 2 days). Requires a custom concept; no standard OMOP concept."
+  },
+  {
+    "nhanes_var": "DR1DBIH",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of days between intake and household interview is a continuous variable. Stored as value_as_number in Observation."
+  },
+  {
+    "nhanes_var": "DR1DAY",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Intake day of the week. Could potentially map to standard day-of-week concepts, but typically stored as a custom concept in Observation."
+  },
+  {
+    "nhanes_var": "DR1LANG",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language respondent used mostly. Could map to ISO language concepts if available, otherwise custom concept."
+  },
+  {
+    "nhanes_var": "DR1CCMNM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Combination food number is an ordinal identifier. Stored as value_as_number in Observation."
+  },
+  {
+    "nhanes_var": "DR1CCMTX",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Combination food type is a categorical/text description. Stored as value_as_string in Observation."
+  },
+  {
+    "nhanes_var": "DR1_020",
+    "omop_table": "observation",
+    "omop_field": "value_as_datetime",
+    "concept_id": null,
+    "notes": "Time of eating occasion (HH:MM). Can be stored as a time or datetime in Observation. Requires a custom concept for 'eating occasion time'."
+  },
+  {
+    "nhanes_var": "DR1_030Z",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Name of eating occasion (e.g., breakfast, lunch). Could map to meal type concepts if available, otherwise custom concept."
+  },
+  {
+    "nhanes_var": "DR1FS",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Source of food is a categorical variable describing where food was obtained. It can be mapped to observation with a custom concept for the source category, or stored as value_as_string if no standard concept exists."
+  },
+  {
+    "nhanes_var": "DR1_040Z",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator for whether meal was eaten at home. Could use standard Yes/No concepts (e.g., 4188539 'Yes', 4188540 'No') or a custom concept."
+  },
+  {
+    "nhanes_var": "DR1IFDCD",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "USDA food code is an identifier for the food item. It can be stored as a string in observation or mapped to a standard food concept if available in the vocabulary."
+  },
+  {
+    "nhanes_var": "DR1IGRMS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Grams of food consumed. Map to measurement with a concept for food weight (e.g., 0 for 'Gram' unit). Unit concept_id would be 8587 'gram'."
+  },
+  {
+    "nhanes_var": "DR1IKCAL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4267697,
+    "notes": "Energy in kcal. Standard concept for 'Energy' (kcal) is 4267697. Unit concept_id for kilocalorie is 9557."
+  },
+  {
+    "nhanes_var": "DR1IPROT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3025315,
+    "notes": "Protein in grams. Standard concept for 'Protein intake' is 3025315. Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1ICARB",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3025315,
+    "notes": "Carbohydrate in grams. Standard concept for 'Carbohydrate intake' is 3025315 (or more specific child concept). Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1ISUGR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total sugars in grams. Could map to a standard concept for sugar intake if available, or use a custom measurement concept. Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1IFIBE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Dietary fiber in grams. Map to a standard concept for fiber intake if available. Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1ITFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3025315,
+    "notes": "Total fat in grams. Standard concept for 'Total fat intake' is 3025315 (or child concept). Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1ISFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Saturated fatty acids in grams. Map to a standard concept for saturated fat intake if available. Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1IMFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Monounsaturated fatty acids in grams. Map to a standard concept if available. Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1IPFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Polyunsaturated fatty acids in grams. Map to a standard concept if available. Unit concept_id for gram is 8587."
+  },
+  {
+    "nhanes_var": "DR1ICHOL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3025315,
+    "notes": "Cholesterol in mg. Standard concept for 'Cholesterol intake' is 3025315 (or child concept). Unit concept_id for milligram is 9655."
+  },
+  {
+    "nhanes_var": "DR1IATOC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Vitamin E as alpha-tocopherol in mg. Map to a standard concept for vitamin E intake if available. Unit concept_id for milligram is 9655."
+  },
+  {
+    "nhanes_var": "DR1IATOA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 40762436,
+    "notes": "Added alpha-tocopherol (Vitamin E) intake in mg. Maps to measurement of nutrient intake. Concept ID for Vitamin E."
+  },
+  {
+    "nhanes_var": "DR1IRET",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004501,
+    "notes": "Retinol intake in mcg. Maps to measurement of nutrient intake. Concept ID for Retinol."
+  },
+  {
+    "nhanes_var": "DR1IVARA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4012475,
+    "notes": "Vitamin A, RAE intake in mcg. Maps to measurement of nutrient intake. Concept ID for Vitamin A."
+  },
+  {
+    "nhanes_var": "DR1IACAR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4009739,
+    "notes": "Alpha-carotene intake in mcg. Maps to measurement of nutrient intake. Concept ID for Alpha-carotene."
+  },
+  {
+    "nhanes_var": "DR1IBCAR",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4014162,
+    "notes": "Beta-carotene intake in mcg. Maps to measurement of nutrient intake. Concept ID for Beta-carotene."
+  },
+  {
+    "nhanes_var": "DR1ICRYP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4029475,
+    "notes": "Beta-cryptoxanthin intake in mcg. Maps to measurement of nutrient intake. Concept ID for Beta-cryptoxanthin."
+  },
+  {
+    "nhanes_var": "DR1ILYCO",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4029476,
+    "notes": "Lycopene intake in mcg. Maps to measurement of nutrient intake. Concept ID for Lycopene."
+  },
+  {
+    "nhanes_var": "DR1ILZ",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 4029477,
+    "notes": "Lutein + zeaxanthin intake in mcg. Maps to measurement of nutrient intake. Concept ID for Lutein and Zeaxanthin."
+  },
+  {
+    "nhanes_var": "DR1IVB1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3006923,
+    "notes": "Thiamin (Vitamin B1) intake in mg. Maps to measurement of nutrient intake. Concept ID for Thiamin."
+  },
+  {
+    "nhanes_var": "DR1IVB2",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3009131,
+    "notes": "Riboflavin (Vitamin B2) intake in mg. Maps to measurement of nutrient intake. Concept ID for Riboflavin."
+  },
+  {
+    "nhanes_var": "DR1INIAC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004503,
+    "notes": "Niacin intake in mg. Maps to measurement of nutrient intake. Concept ID for Niacin."
+  },
+  {
+    "nhanes_var": "DR1IVB6",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004504,
+    "notes": "Vitamin B6 intake in mg. Maps to measurement of nutrient intake. Concept ID for Vitamin B6."
+  },
+  {
+    "nhanes_var": "DR1IFOLA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004505,
+    "notes": "Total folate intake in mcg. Maps to measurement of nutrient intake. Concept ID for Folate."
+  },
+  {
+    "nhanes_var": "DR1IFA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004505,
+    "notes": "Folic acid intake in mcg. Maps to measurement of nutrient intake. Concept ID for Folate (folic acid is a form of folate)."
+  },
+  {
+    "nhanes_var": "DR1IFF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004505,
+    "notes": "Food folate intake in mcg. Maps to measurement of nutrient intake. Concept ID for Folate."
+  },
+  {
+    "nhanes_var": "DR1IFDFE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3007220,
+    "notes": "Folate, DFE (mcg) maps to measurement of folate intake. Concept 3007220 is 'Folate, dietary folate equivalents'."
+  },
+  {
+    "nhanes_var": "DR1ICHL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3018621,
+    "notes": "Total choline (mg) maps to measurement of choline intake. Concept 3018621 is 'Choline, total'."
+  },
+  {
+    "nhanes_var": "DR1IVB12",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3005456,
+    "notes": "Vitamin B12 (mcg) maps to measurement of vitamin B12 intake. Concept 3005456 is 'Vitamin B12'."
+  },
+  {
+    "nhanes_var": "DR1IB12A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Added vitamin B12 (mcg) is a specific sub-component of total B12. No standard concept exists for 'added' B12; map to measurement with null concept_id or use a custom concept."
+  },
+  {
+    "nhanes_var": "DR1IVC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3000713,
+    "notes": "Vitamin C (mg) maps to measurement of vitamin C intake. Concept 3000713 is 'Vitamin C'."
+  },
+  {
+    "nhanes_var": "DR1IVD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004409,
+    "notes": "Vitamin D (D2 + D3) (mcg) maps to measurement of total vitamin D intake. Concept 3004409 is 'Vitamin D'."
+  },
+  {
+    "nhanes_var": "DR1IVK",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004737,
+    "notes": "Vitamin K (mcg) maps to measurement of vitamin K intake. Concept 3004737 is 'Vitamin K'."
+  },
+  {
+    "nhanes_var": "DR1ICALC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3001222,
+    "notes": "Calcium (mg) maps to measurement of calcium intake. Concept 3001222 is 'Calcium'."
+  },
+  {
+    "nhanes_var": "DR1IPHOS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3006923,
+    "notes": "Phosphorus (mg) maps to measurement of phosphorus intake. Concept 3006923 is 'Phosphorus'."
+  },
+  {
+    "nhanes_var": "DR1IMAGN",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3006377,
+    "notes": "Magnesium (mg) maps to measurement of magnesium intake. Concept 3006377 is 'Magnesium'."
+  },
+  {
+    "nhanes_var": "DR1IIRON",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3004470,
+    "notes": "Iron (mg) maps to measurement of iron intake. Concept 3004470 is 'Iron'."
+  },
+  {
+    "nhanes_var": "DR1IZINC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3009131,
+    "notes": "Zinc (mg) maps to measurement of zinc intake. Concept 3009131 is 'Zinc'."
+  },
+  {
+    "nhanes_var": "DR1ICOPP",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3001816,
+    "notes": "Copper (mg) maps to measurement of copper intake. Concept 3001816 is 'Copper'."
+  },
+  {
+    "nhanes_var": "DR1ISODI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3008102,
+    "notes": "Sodium (mg) maps to measurement of sodium intake. Concept 3008102 is 'Sodium'."
+  },
+  {
+    "nhanes_var": "DR1IPOTA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3007277,
+    "notes": "Potassium (mg) maps to measurement of potassium intake. Concept 3007277 is 'Potassium'."
+  },
+  {
+    "nhanes_var": "DR1ISELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3016600,
+    "notes": "Selenium intake from Day 1 dietary recall. Maps to 'Selenium, dietary [Mass]' concept."
+  },
+  {
+    "nhanes_var": "DR1ICAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3009403,
+    "notes": "Caffeine intake from Day 1 dietary recall. Maps to 'Caffeine [Mass]' concept."
+  },
+  {
+    "nhanes_var": "DR1ITHEO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Theobromine intake from Day 1 dietary recall. No standard OMOP concept exists; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IALCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 40762430,
+    "notes": "Alcohol intake from Day 1 dietary recall. Maps to 'Alcohol intake in grams per day' concept."
+  },
+  {
+    "nhanes_var": "DR1IMOIS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Moisture (water) intake from Day 1 dietary recall. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 4:0 intake. No standard OMOP concept for individual fatty acid intake; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 6:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 8:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 10:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS120",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 12:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS140",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 14:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS160",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 16:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IS180",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Saturated fatty acid 18:0 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IM161",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Monounsaturated fatty acid 16:1 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IM181",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Monounsaturated fatty acid 18:1 intake. No standard OMOP concept; map to measurement table with value_as_number."
+  },
+  {
+    "nhanes_var": "DR1IM201",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. The specific fatty acid (Eicosenoic acid) would be captured in measurement_concept_id, but no standard OMOP concept exists for this specific nutrient; value_as_number holds the gram amount."
+  },
+  {
+    "nhanes_var": "DR1IM221",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Docosenoic acid intake in grams; measurement_concept_id would need a custom or non-standard concept."
+  },
+  {
+    "nhanes_var": "DR1IP182",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Octadecadienoic acid (linoleic acid) intake in grams; no direct standard concept_id available."
+  },
+  {
+    "nhanes_var": "DR1IP183",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Octadecatrienoic acid (alpha-linolenic acid) intake in grams; no direct standard concept_id available."
+  },
+  {
+    "nhanes_var": "DR1IP184",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Octadecatetraenoic acid intake in grams; no direct standard concept_id available."
+  },
+  {
+    "nhanes_var": "DR1IP204",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Eicosatetraenoic acid (arachidonic acid) intake in grams; no direct standard concept_id available."
+  },
+  {
+    "nhanes_var": "DR1IP205",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Eicosapentaenoic acid (EPA) intake in grams; no direct standard concept_id available."
+  },
+  {
+    "nhanes_var": "DR1IP225",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Docosapentaenoic acid (DPA) intake in grams; no direct standard concept_id available."
+  },
+  {
+    "nhanes_var": "DR1IP226",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Maps to measurement table as a nutrient intake value. Docosahexaenoic acid (DHA) intake in grams; no direct standard concept_id available."
+  }
+]

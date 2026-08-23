@@ -1,0 +1,716 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number maps to unique person identifier"
+  },
+  {
+    "nhanes_var": "MXAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Status of MEC Exam stored as observation"
+  },
+  {
+    "nhanes_var": "DEABACK",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Back with elbows image captured flag"
+  },
+  {
+    "nhanes_var": "DEAINARM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Inner arm image captured flag"
+  },
+  {
+    "nhanes_var": "DEAFRLEG",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Front of legs with hands image captured flag"
+  },
+  {
+    "nhanes_var": "DEALOLEG",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Back of leg with palms image captured flag"
+  },
+  {
+    "nhanes_var": "DEABKRSN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason back image not captured"
+  },
+  {
+    "nhanes_var": "DEAIARSN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason inner arm image not captured"
+  },
+  {
+    "nhanes_var": "DEAFLRSN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason front leg image not captured"
+  },
+  {
+    "nhanes_var": "DEALLRSN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason lower leg image not captured"
+  },
+  {
+    "nhanes_var": "DEX1FITZ",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reader 1 Fitzpatrick skin type"
+  },
+  {
+    "nhanes_var": "DED1HDDX",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reader 1 hand dermatitis presence"
+  },
+  {
+    "nhanes_var": "DEX1HDCF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reader 1 hand dermatitis confidence"
+  },
+  {
+    "nhanes_var": "DEX1HDFH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reader 1 hand dermatitis forearm/hands"
+  },
+  {
+    "nhanes_var": "DEX1HDPM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reader 1 hand dermatitis present palms"
+  },
+  {
+    "nhanes_var": "DED1PSDX",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380001,
+    "notes": "Psoriasis diagnosis by Reader 1"
+  },
+  {
+    "nhanes_var": "DEX1PSCF",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Confidence level of psoriasis diagnosis (ordinal)"
+  },
+  {
+    "nhanes_var": "DEX1PSFH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of psoriasis on forearm/hands (binary)"
+  },
+  {
+    "nhanes_var": "DEX1PSPM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of psoriasis on palms (binary)"
+  },
+  {
+    "nhanes_var": "DEX1PSBK",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of psoriasis on back (binary)"
+  },
+  {
+    "nhanes_var": "DEX1PSPL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of psoriasis on posterior leg (binary)"
+  },
+  {
+    "nhanes_var": "DEX1PSAL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of psoriasis on anterior leg (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1ELFO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Psoriasis focus on elbows (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1ELSH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Psoriasis shadow on elbows (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1ELPO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Psoriasis position on elbows (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1ELOT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other psoriasis findings on elbows (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1BPFO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Psoriasis focus on back of legs (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1BPSH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Psoriasis shadow on back of legs (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1BPPO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Psoriasis position on back of legs (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1BPOT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other psoriasis findings on back of legs (binary)"
+  },
+  {
+    "nhanes_var": "DEQ1FHFO",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of psoriasis focus on front of legs; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1FHSH",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of psoriasis shadow on front of legs; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1FHPO",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of psoriasis position on front of legs; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1FHOT",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of other psoriasis findings on front of legs; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1IAFO",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of psoriasis focus on inner arm; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1IASH",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of psoriasis shadow on inner arm; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1IAPO",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of psoriasis position on inner arm; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEQ1IAOT",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 132500,
+    "notes": "Binary flag indicating presence of other psoriasis findings on inner arm; concept_id 132500 represents Psoriasis"
+  },
+  {
+    "nhanes_var": "DEX1CRFU",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary flag indicating that the condition requires follow\u2011up"
+  },
+  {
+    "nhanes_var": "DEX1COMM",
+    "omop_table": "observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Free\u2011text comment from Reader 1"
+  },
+  {
+    "nhanes_var": "DEX2FITZ",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Ordinal Fitzpatrick skin type (1\u20136) reported by Reader 2"
+  },
+  {
+    "nhanes_var": "DED2HDDX",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary flag indicating presence of hand dermatitis"
+  },
+  {
+    "nhanes_var": "DEX2HDCF",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Ordinal confidence in hand dermatitis diagnosis (1\u20135)"
+  },
+  {
+    "nhanes_var": "DEX2HDFH",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary flag indicating hand dermatitis on forearm/hands"
+  },
+  {
+    "nhanes_var": "DEX2HDPM",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Binary flag indicating hand dermatitis on palms"
+  },
+  {
+    "nhanes_var": "DED2PSDX",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis presence flag; maps to a psoriasis condition occurrence with source value indicating presence."
+  },
+  {
+    "nhanes_var": "DEX2PSCF",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis confidence ordinal; stored as source value to capture confidence level."
+  },
+  {
+    "nhanes_var": "DEX2PSFH",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis present forearm/hands; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEX2PSPM",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis present palms; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEX2PSBK",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis present back; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEX2PSPL",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis present posterior leg; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEX2PSAL",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis present anterior legs; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2ELFO",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis elbows focus; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2ELSH",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis elbows shadow; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2ELPO",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis elbows position; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2ELOT",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis elbows other; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2BPFO",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis back of legs focus; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2BPSH",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis back of legs shadow; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2BPPO",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis back of legs position; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2BPOT",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Reader 2 psoriasis back of legs other; separate condition occurrence with source value indicating location."
+  },
+  {
+    "nhanes_var": "DEQ2FHFO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Psoriasis lesion on front of legs \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2FHSH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Psoriasis shadow on front of legs \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2FHPO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Psoriasis position on front of legs \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2FHOT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Other psoriasis findings on front of legs \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2IAFO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Psoriasis focus on inner arm \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2IASH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Psoriasis shadow on inner arm \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2IAPO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Psoriasis position on inner arm \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEQ2IAOT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Other psoriasis findings on inner arm \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEX2CRFU",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Condition requiring follow\u2011up \u2013 presence (binary)."
+  },
+  {
+    "nhanes_var": "DEX2COMM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 1900000000,
+    "notes": "Reader 2 comment \u2013 free text stored as observation."
+  },
+  {
+    "nhanes_var": "DEA6RTYP",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 37213007,
+    "notes": "Reader 6 diagnostic code \u2013 mapped to psoriasis diagnosis."
+  },
+  {
+    "nhanes_var": "DEX6FITZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 1900000000,
+    "notes": "Fitzpatrick skin type \u2013 ordinal measurement."
+  },
+  {
+    "nhanes_var": "DED6HDDX",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Hand dermatitis \u2013 categorical presence."
+  },
+  {
+    "nhanes_var": "DEX6HDCF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 1900000000,
+    "notes": "Hand dermatitis confidence \u2013 ordinal observation."
+  },
+  {
+    "nhanes_var": "DEX6HDFH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 37213007,
+    "notes": "Hand dermatitis on forearms/hands \u2013 binary presence."
+  },
+  {
+    "nhanes_var": "DEX6HDPM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of hand dermatitis present on palms; mapped as an observation of skin condition."
+  },
+  {
+    "nhanes_var": "DED6PSDX",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 373873,
+    "notes": "Reader 6 psoriasis diagnosis; mapped to OMOP concept Psoriasis (373873)."
+  },
+  {
+    "nhanes_var": "DEX6PSCF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal confidence level for psoriasis diagnosis; stored as an observation with a custom concept."
+  },
+  {
+    "nhanes_var": "DEX6PSFH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis present on forearm/hands; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEX6PSPM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis present on palms; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEX6PSBK",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis present on back; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEX6PSPL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis on posterior legs; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEX6PSAL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis on anterior legs; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6ELFO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis focus on elbows; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6ELSH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis shadow on elbows; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6ELPO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis position on elbows; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6ELOT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of other psoriasis manifestations on elbows; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6BPFO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis focus on back of legs; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6BPSH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis shadow on back of legs; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6BPPO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis position on back of legs; observation of skin distribution."
+  },
+  {
+    "nhanes_var": "DEQ6BPOT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on back of legs (other). Stored as an observation with source value."
+  },
+  {
+    "nhanes_var": "DEQ6FHFO",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on front of legs (focus)."
+  },
+  {
+    "nhanes_var": "DEQ6FHSH",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on front of legs (shadow)."
+  },
+  {
+    "nhanes_var": "DEQ6FHPO",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on front of legs (position)."
+  },
+  {
+    "nhanes_var": "DEQ6FHOT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on front of legs (other)."
+  },
+  {
+    "nhanes_var": "DEQ6IAFO",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on inner arm (focus)."
+  },
+  {
+    "nhanes_var": "DEQ6IASH",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on inner arm (shadow)."
+  },
+  {
+    "nhanes_var": "DEQ6IAPO",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on inner arm (position)."
+  },
+  {
+    "nhanes_var": "DEQ6IAOT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of psoriasis lesion on inner arm (other)."
+  },
+  {
+    "nhanes_var": "DEX6CRFU",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator that the condition requires follow\u2011up."
+  },
+  {
+    "nhanes_var": "DEX6COMM",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_source_value",
+    "concept_id": null,
+    "notes": "Categorical comment from Reader 6."
+  },
+  {
+    "nhanes_var": "DEXFCOMM",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_value_source_value",
+    "concept_id": null,
+    "notes": "Categorical comment from the report of findings."
+  }
+]

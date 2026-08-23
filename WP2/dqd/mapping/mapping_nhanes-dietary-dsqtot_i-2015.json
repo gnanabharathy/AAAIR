@@ -1,0 +1,275 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source value for person."
+  },
+  {
+    "nhanes_var": "DSDCOUNT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total number of dietary supplements taken; no standard concept."
+  },
+  {
+    "nhanes_var": "DSDANCNT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total number of antacids taken; no standard concept."
+  },
+  {
+    "nhanes_var": "DSD010",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Any dietary supplements taken (binary)."
+  },
+  {
+    "nhanes_var": "DSD010AN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Any antacids taken (binary)."
+  },
+  {
+    "nhanes_var": "DSQTKCAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "Energy intake in kcal."
+  },
+  {
+    "nhanes_var": "DSQTPROT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Protein intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTCARB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000109,
+    "notes": "Carbohydrate intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTSUGR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000110,
+    "notes": "Total sugars intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTFIBE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000111,
+    "notes": "Dietary fiber intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTTFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000112,
+    "notes": "Total fat intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTSFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000113,
+    "notes": "Total saturated fatty acids intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTMFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000114,
+    "notes": "Total monounsaturated fatty acids intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000115,
+    "notes": "Total polyunsaturated fatty acids intake in grams."
+  },
+  {
+    "nhanes_var": "DSQTCHOL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000116,
+    "notes": "Cholesterol intake in mg."
+  },
+  {
+    "nhanes_var": "DSQTLYCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lycopene intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTLZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTNIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Niacin intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B6 intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Folic acid intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Folate, DFE intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTCHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total choline intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B12 intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin C intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin K intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTVD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin D (D2 + D3) intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTCALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calcium intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Phosphorus intake mapped to measurement table; assign appropriate OMOP nutrient concept ID."
+  },
+  {
+    "nhanes_var": "DSQTMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Magnesium intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Iron intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Zinc intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTCOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Copper intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTSODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Sodium intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Potassium intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTSELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Selenium intake (mcg)"
+  },
+  {
+    "nhanes_var": "DSQTCAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Caffeine intake (mg)"
+  },
+  {
+    "nhanes_var": "DSQTIODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Iodine intake (mcg)"
+  }
+]

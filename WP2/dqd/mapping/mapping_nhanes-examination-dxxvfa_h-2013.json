@@ -1,0 +1,205 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source identifier for person"
+  },
+  {
+    "nhanes_var": "DXDLSPST",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Indicates whether a lateral spine scan was performed; map to observation of type \"Lateral spine scan performed\""
+  },
+  {
+    "nhanes_var": "DXXT4CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T4 vertebra; map to condition \"Fracture of T4 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT5CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T5 vertebra; map to condition \"Fracture of T5 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT6CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T6 vertebra; map to condition \"Fracture of T6 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT7CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T7 vertebra; map to condition \"Fracture of T7 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT8CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T8 vertebra; map to condition \"Fracture of T8 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT9CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T9 vertebra; map to condition \"Fracture of T9 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT10CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T10 vertebra; map to condition \"Fracture of T10 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT11CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T11 vertebra; map to condition \"Fracture of T11 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXT12CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for T12 vertebra; map to condition \"Fracture of T12 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXL1CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for L1 vertebra; map to condition \"Fracture of L1 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXL2CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for L2 vertebra; map to condition \"Fracture of L2 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXL3CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for L3 vertebra; map to condition \"Fracture of L3 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXL4CC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Fracture status for L4 vertebra; map to condition \"Fracture of L4 vertebra\""
+  },
+  {
+    "nhanes_var": "DXXVFAST",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Vertebral fracture status summary mapped to condition concept for vertebral fracture"
+  },
+  {
+    "nhanes_var": "DXXT4FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T4 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT5FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T5 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT6FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T6 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT7FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T7 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT8FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T8 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT9FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T9 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT10FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T10 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT11FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T11 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXT12FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "T12 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXL1FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L1 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXL2FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L2 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXL3FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L3 fracture score stored as observation; source_value holds ordinal score"
+  },
+  {
+    "nhanes_var": "DXXL4FX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L4 fracture score stored as observation; source_value holds ordinal score"
+  }
+]

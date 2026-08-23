@@ -1,0 +1,121 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as the source ID for the person."
+  },
+  {
+    "nhanes_var": "MSAEXLEN",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Length of a MEC exam in seconds; stored as a numeric observation."
+  },
+  {
+    "nhanes_var": "MSAEXSTS",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Status of a MEC exam; coded as a concept ID."
+  },
+  {
+    "nhanes_var": "MSAEXCMT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for an exam; stored as a concept ID."
+  },
+  {
+    "nhanes_var": "MSDEXCLU",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Exclusion criteria for muscle strength; coded as a concept ID."
+  },
+  {
+    "nhanes_var": "MSXWTIME",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Time to complete 20\u2011ft walk (seconds); mapped to the OMOP concept for 20\u2011ft walk test."
+  },
+  {
+    "nhanes_var": "MSXWPAIN",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 380001,
+    "notes": "Pain reported on walking; mapped to the OMOP concept for pain."
+  },
+  {
+    "nhanes_var": "MSAWDEV",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Type of device used; stored as a concept ID."
+  },
+  {
+    "nhanes_var": "MSDPTIME",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Time to peak force in seconds; numeric observation."
+  },
+  {
+    "nhanes_var": "MSDPFANG",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Angle of peak force (degrees); numeric observation."
+  },
+  {
+    "nhanes_var": "MSXARML",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Arm length in centimeters; numeric observation."
+  },
+  {
+    "nhanes_var": "MSXGRAV",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Gravity correction in pounds; numeric observation."
+  },
+  {
+    "nhanes_var": "MSDPFVEL",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Peak force velocity in degrees/second; numeric observation."
+  },
+  {
+    "nhanes_var": "MSDPF",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Peak force in Newtons; numeric observation."
+  },
+  {
+    "nhanes_var": "MSDNTR",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Number of trials; numeric observation."
+  },
+  {
+    "nhanes_var": "MSDAPF",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Average peak force (Newtons) \u2013 a quantitative physical performance metric; map to Measurement table with appropriate concept if available."
+  },
+  {
+    "nhanes_var": "MSDPFTR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Selected peak force trial \u2013 categorical ordinal variable; map to Observation table with concept for 'Peak force trial' if available."
+  }
+]

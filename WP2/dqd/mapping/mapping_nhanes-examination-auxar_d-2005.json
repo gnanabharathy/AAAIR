@@ -1,0 +1,2361 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique identifier for respondent, maps to OMOP Person.person_id"
+  },
+  {
+    "nhanes_var": "AUXRR101",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 1"
+  },
+  {
+    "nhanes_var": "AUXRR102",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 2"
+  },
+  {
+    "nhanes_var": "AUXRR103",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 3"
+  },
+  {
+    "nhanes_var": "AUXRR104",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 4"
+  },
+  {
+    "nhanes_var": "AUXRR105",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 5"
+  },
+  {
+    "nhanes_var": "AUXRR106",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 6"
+  },
+  {
+    "nhanes_var": "AUXRR107",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 7"
+  },
+  {
+    "nhanes_var": "AUXRR108",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 8"
+  },
+  {
+    "nhanes_var": "AUXRR109",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 9"
+  },
+  {
+    "nhanes_var": "AUXRR110",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 10"
+  },
+  {
+    "nhanes_var": "AUXRR111",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 11"
+  },
+  {
+    "nhanes_var": "AUXRR112",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 12"
+  },
+  {
+    "nhanes_var": "AUXRR113",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 13"
+  },
+  {
+    "nhanes_var": "AUXRR114",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 1kHz, measurement 14"
+  },
+  {
+    "nhanes_var": "AUXRR115",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 15"
+  },
+  {
+    "nhanes_var": "AUXRR116",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 16"
+  },
+  {
+    "nhanes_var": "AUXRR117",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 17"
+  },
+  {
+    "nhanes_var": "AUXRR118",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 18"
+  },
+  {
+    "nhanes_var": "AUXRR119",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 19"
+  },
+  {
+    "nhanes_var": "AUXRR120",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 20"
+  },
+  {
+    "nhanes_var": "AUXRR121",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 21"
+  },
+  {
+    "nhanes_var": "AUXRR122",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 22"
+  },
+  {
+    "nhanes_var": "AUXRR123",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 23"
+  },
+  {
+    "nhanes_var": "AUXRR124",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 24"
+  },
+  {
+    "nhanes_var": "AUXRR125",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 25"
+  },
+  {
+    "nhanes_var": "AUXRR126",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 26"
+  },
+  {
+    "nhanes_var": "AUXRR127",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 27"
+  },
+  {
+    "nhanes_var": "AUXRR128",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 28"
+  },
+  {
+    "nhanes_var": "AUXRR129",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex measurement for right ear at 1kHz, frequency 29"
+  },
+  {
+    "nhanes_var": "AUXRR130",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 30 dB"
+  },
+  {
+    "nhanes_var": "AUXRR131",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 31 dB"
+  },
+  {
+    "nhanes_var": "AUXRR132",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 32 dB"
+  },
+  {
+    "nhanes_var": "AUXRR133",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 33 dB"
+  },
+  {
+    "nhanes_var": "AUXRR134",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 34 dB"
+  },
+  {
+    "nhanes_var": "AUXRR135",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 35 dB"
+  },
+  {
+    "nhanes_var": "AUXRR136",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 36 dB"
+  },
+  {
+    "nhanes_var": "AUXRR137",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 37 dB"
+  },
+  {
+    "nhanes_var": "AUXRR138",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 38 dB"
+  },
+  {
+    "nhanes_var": "AUXRR139",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 39 dB"
+  },
+  {
+    "nhanes_var": "AUXRR140",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 40 dB"
+  },
+  {
+    "nhanes_var": "AUXRR141",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 41 dB"
+  },
+  {
+    "nhanes_var": "AUXRR142",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 42 dB"
+  },
+  {
+    "nhanes_var": "AUXRR143",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 43 dB"
+  },
+  {
+    "nhanes_var": "AUXRR144",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold at 1kHz right ear, 44 dB"
+  },
+  {
+    "nhanes_var": "AUXRR145",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 45 dB"
+  },
+  {
+    "nhanes_var": "AUXRR146",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 46 dB"
+  },
+  {
+    "nhanes_var": "AUXRR147",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 47 dB"
+  },
+  {
+    "nhanes_var": "AUXRR148",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 48 dB"
+  },
+  {
+    "nhanes_var": "AUXRR149",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 49 dB"
+  },
+  {
+    "nhanes_var": "AUXRR150",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 50 dB"
+  },
+  {
+    "nhanes_var": "AUXRR151",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 51 dB"
+  },
+  {
+    "nhanes_var": "AUXRR152",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 52 dB"
+  },
+  {
+    "nhanes_var": "AUXRR153",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 53 dB"
+  },
+  {
+    "nhanes_var": "AUXRR154",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 54 dB"
+  },
+  {
+    "nhanes_var": "AUXRR155",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 55 dB"
+  },
+  {
+    "nhanes_var": "AUXRR156",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 56 dB"
+  },
+  {
+    "nhanes_var": "AUXRR157",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 57 dB"
+  },
+  {
+    "nhanes_var": "AUXRR158",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 58 dB"
+  },
+  {
+    "nhanes_var": "AUXRR159",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold for right ear at 1kHz, 59 dB"
+  },
+  {
+    "nhanes_var": "AUXRR160",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 60 dB"
+  },
+  {
+    "nhanes_var": "AUXRR161",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 61 dB"
+  },
+  {
+    "nhanes_var": "AUXRR162",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 62 dB"
+  },
+  {
+    "nhanes_var": "AUXRR163",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 63 dB"
+  },
+  {
+    "nhanes_var": "AUXRR164",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 64 dB"
+  },
+  {
+    "nhanes_var": "AUXRR165",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 65 dB"
+  },
+  {
+    "nhanes_var": "AUXRR166",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 66 dB"
+  },
+  {
+    "nhanes_var": "AUXRR167",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 67 dB"
+  },
+  {
+    "nhanes_var": "AUXRR168",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 68 dB"
+  },
+  {
+    "nhanes_var": "AUXRR169",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 69 dB"
+  },
+  {
+    "nhanes_var": "AUXRR170",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 70 dB"
+  },
+  {
+    "nhanes_var": "AUXRR171",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 71 dB"
+  },
+  {
+    "nhanes_var": "AUXRR172",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 72 dB"
+  },
+  {
+    "nhanes_var": "AUXRR173",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 73 dB"
+  },
+  {
+    "nhanes_var": "AUXRR174",
+    "omop_table": "OBSERVATION",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold at 1kHz, right ear, 74 dB"
+  },
+  {
+    "nhanes_var": "AUXRR175",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 75 dB; mapped to Measurement table as a numeric value"
+  },
+  {
+    "nhanes_var": "AUXRR176",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 76 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR177",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 77 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR178",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 78 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR179",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 79 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR180",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 80 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR181",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 81 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR182",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 82 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR183",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 83 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR184",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Right Ear, 1KHz, 84 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXLR101",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Left Ear, 1KHz, 01 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXLR102",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Left Ear, 1KHz, 02 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXLR103",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Left Ear, 1KHz, 03 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXLR104",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Left Ear, 1KHz, 04 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXLR105",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic Reflex Left Ear, 1KHz, 05 dB; numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXLR106",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 06 dB stimulus intensity; stored as a measurement"
+  },
+  {
+    "nhanes_var": "AUXLR107",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 07 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR108",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 08 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR109",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 09 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR110",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 10 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR111",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 11 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR112",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 12 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR113",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 13 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR114",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 14 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR115",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 15 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR116",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 16 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR117",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 17 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR118",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 18 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR119",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 19 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR120",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, 20 dB stimulus intensity"
+  },
+  {
+    "nhanes_var": "AUXLR121",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 21"
+  },
+  {
+    "nhanes_var": "AUXLR122",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 22"
+  },
+  {
+    "nhanes_var": "AUXLR123",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 23"
+  },
+  {
+    "nhanes_var": "AUXLR124",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 24"
+  },
+  {
+    "nhanes_var": "AUXLR125",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 25"
+  },
+  {
+    "nhanes_var": "AUXLR126",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 26"
+  },
+  {
+    "nhanes_var": "AUXLR127",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 27"
+  },
+  {
+    "nhanes_var": "AUXLR128",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 28"
+  },
+  {
+    "nhanes_var": "AUXLR129",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 29"
+  },
+  {
+    "nhanes_var": "AUXLR130",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 30"
+  },
+  {
+    "nhanes_var": "AUXLR131",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 31"
+  },
+  {
+    "nhanes_var": "AUXLR132",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 32"
+  },
+  {
+    "nhanes_var": "AUXLR133",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 33"
+  },
+  {
+    "nhanes_var": "AUXLR134",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 34"
+  },
+  {
+    "nhanes_var": "AUXLR135",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, frequency 35"
+  },
+  {
+    "nhanes_var": "AUXLR136",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 36 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR137",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 37 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR138",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 38 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR139",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 39 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR140",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 40 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR141",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 41 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR142",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 42 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR143",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 43 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR144",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 44 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR145",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 45 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR146",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 46 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR147",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 47 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR148",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 48 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR149",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 49 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR150",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, 50 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR151",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 51"
+  },
+  {
+    "nhanes_var": "AUXLR152",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 52"
+  },
+  {
+    "nhanes_var": "AUXLR153",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 53"
+  },
+  {
+    "nhanes_var": "AUXLR154",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 54"
+  },
+  {
+    "nhanes_var": "AUXLR155",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 55"
+  },
+  {
+    "nhanes_var": "AUXLR156",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 56"
+  },
+  {
+    "nhanes_var": "AUXLR157",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 57"
+  },
+  {
+    "nhanes_var": "AUXLR158",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 58"
+  },
+  {
+    "nhanes_var": "AUXLR159",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 59"
+  },
+  {
+    "nhanes_var": "AUXLR160",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 60"
+  },
+  {
+    "nhanes_var": "AUXLR161",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 61"
+  },
+  {
+    "nhanes_var": "AUXLR162",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 62"
+  },
+  {
+    "nhanes_var": "AUXLR163",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 63"
+  },
+  {
+    "nhanes_var": "AUXLR164",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 64"
+  },
+  {
+    "nhanes_var": "AUXLR165",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold, left ear, 1kHz, value 65"
+  },
+  {
+    "nhanes_var": "AUXLR166",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 66"
+  },
+  {
+    "nhanes_var": "AUXLR167",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 67"
+  },
+  {
+    "nhanes_var": "AUXLR168",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 68"
+  },
+  {
+    "nhanes_var": "AUXLR169",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 69"
+  },
+  {
+    "nhanes_var": "AUXLR170",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 70"
+  },
+  {
+    "nhanes_var": "AUXLR171",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 71"
+  },
+  {
+    "nhanes_var": "AUXLR172",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 72"
+  },
+  {
+    "nhanes_var": "AUXLR173",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 73"
+  },
+  {
+    "nhanes_var": "AUXLR174",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 74"
+  },
+  {
+    "nhanes_var": "AUXLR175",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 75"
+  },
+  {
+    "nhanes_var": "AUXLR176",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 76"
+  },
+  {
+    "nhanes_var": "AUXLR177",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 77"
+  },
+  {
+    "nhanes_var": "AUXLR178",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 78"
+  },
+  {
+    "nhanes_var": "AUXLR179",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 79"
+  },
+  {
+    "nhanes_var": "AUXLR180",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (left ear) at 1kHz, value 80"
+  },
+  {
+    "nhanes_var": "AUXLR181",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold left ear 1kHz, 81 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR182",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold left ear 1kHz, 82 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR183",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold left ear 1kHz, 83 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR184",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold left ear 1kHz, 84 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR201",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 01 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR202",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 02 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR203",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 03 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR204",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 04 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR205",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 05 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR206",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 06 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR207",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 07 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR208",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 08 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR209",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 09 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR210",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 10 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR211",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 123456,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 11 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXRR212",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 12) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR213",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 13) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR214",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 14) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR215",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 15) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR216",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 16) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR217",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 17) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR218",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 18) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR219",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 19) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR220",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 20) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR221",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 21) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR222",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 22) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR223",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 23) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR224",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 24) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR225",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 25) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR226",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold (right ear, 2kHz, threshold 26) \u2013 stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "AUXRR227",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 27 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR228",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 28 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR229",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 29 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR230",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 30 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR231",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 31 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR232",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 32 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR233",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 33 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR234",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 34 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR235",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 35 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR236",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 36 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR237",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 37 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR238",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 38 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR239",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 39 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR240",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 40 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR241",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 41 dB; map to standard concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXRR242",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 42"
+  },
+  {
+    "nhanes_var": "AUXRR243",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 43"
+  },
+  {
+    "nhanes_var": "AUXRR244",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 44"
+  },
+  {
+    "nhanes_var": "AUXRR245",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 45"
+  },
+  {
+    "nhanes_var": "AUXRR246",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 46"
+  },
+  {
+    "nhanes_var": "AUXRR247",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 47"
+  },
+  {
+    "nhanes_var": "AUXRR248",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 48"
+  },
+  {
+    "nhanes_var": "AUXRR249",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 49"
+  },
+  {
+    "nhanes_var": "AUXRR250",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 50"
+  },
+  {
+    "nhanes_var": "AUXRR251",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 51"
+  },
+  {
+    "nhanes_var": "AUXRR252",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 52"
+  },
+  {
+    "nhanes_var": "AUXRR253",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 53"
+  },
+  {
+    "nhanes_var": "AUXRR254",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 54"
+  },
+  {
+    "nhanes_var": "AUXRR255",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 55"
+  },
+  {
+    "nhanes_var": "AUXRR256",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 56"
+  },
+  {
+    "nhanes_var": "AUXRR257",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 57 dB"
+  },
+  {
+    "nhanes_var": "AUXRR258",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 58 dB"
+  },
+  {
+    "nhanes_var": "AUXRR259",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 59 dB"
+  },
+  {
+    "nhanes_var": "AUXRR260",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 60 dB"
+  },
+  {
+    "nhanes_var": "AUXRR261",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 61 dB"
+  },
+  {
+    "nhanes_var": "AUXRR262",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 62 dB"
+  },
+  {
+    "nhanes_var": "AUXRR263",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 63 dB"
+  },
+  {
+    "nhanes_var": "AUXRR264",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 64 dB"
+  },
+  {
+    "nhanes_var": "AUXRR265",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 65 dB"
+  },
+  {
+    "nhanes_var": "AUXRR266",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 66 dB"
+  },
+  {
+    "nhanes_var": "AUXRR267",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 67 dB"
+  },
+  {
+    "nhanes_var": "AUXRR268",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 68 dB"
+  },
+  {
+    "nhanes_var": "AUXRR269",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 69 dB"
+  },
+  {
+    "nhanes_var": "AUXRR270",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 70 dB"
+  },
+  {
+    "nhanes_var": "AUXRR271",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 71 dB"
+  },
+  {
+    "nhanes_var": "AUXRR272",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 72 dB"
+  },
+  {
+    "nhanes_var": "AUXRR273",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 73 dB"
+  },
+  {
+    "nhanes_var": "AUXRR274",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 74 dB"
+  },
+  {
+    "nhanes_var": "AUXRR275",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 75 dB"
+  },
+  {
+    "nhanes_var": "AUXRR276",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 76 dB"
+  },
+  {
+    "nhanes_var": "AUXRR277",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 77 dB"
+  },
+  {
+    "nhanes_var": "AUXRR278",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 78 dB"
+  },
+  {
+    "nhanes_var": "AUXRR279",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 79 dB"
+  },
+  {
+    "nhanes_var": "AUXRR280",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 80 dB"
+  },
+  {
+    "nhanes_var": "AUXRR281",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 81 dB"
+  },
+  {
+    "nhanes_var": "AUXRR282",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 82 dB"
+  },
+  {
+    "nhanes_var": "AUXRR283",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 83 dB"
+  },
+  {
+    "nhanes_var": "AUXRR284",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold right ear 2kHz, 84 dB"
+  },
+  {
+    "nhanes_var": "AUXLR201",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 01 dB"
+  },
+  {
+    "nhanes_var": "AUXLR202",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 02 dB"
+  },
+  {
+    "nhanes_var": "AUXLR203",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR204",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR205",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR206",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR207",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR208",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR209",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR210",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR211",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR212",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR213",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR214",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR215",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR216",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR217",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, value in dB"
+  },
+  {
+    "nhanes_var": "AUXLR218",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 18"
+  },
+  {
+    "nhanes_var": "AUXLR219",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 19"
+  },
+  {
+    "nhanes_var": "AUXLR220",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 20"
+  },
+  {
+    "nhanes_var": "AUXLR221",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 21"
+  },
+  {
+    "nhanes_var": "AUXLR222",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 22"
+  },
+  {
+    "nhanes_var": "AUXLR223",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 23"
+  },
+  {
+    "nhanes_var": "AUXLR224",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 24"
+  },
+  {
+    "nhanes_var": "AUXLR225",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 25"
+  },
+  {
+    "nhanes_var": "AUXLR226",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 26"
+  },
+  {
+    "nhanes_var": "AUXLR227",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 27"
+  },
+  {
+    "nhanes_var": "AUXLR228",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 28"
+  },
+  {
+    "nhanes_var": "AUXLR229",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 29"
+  },
+  {
+    "nhanes_var": "AUXLR230",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 30"
+  },
+  {
+    "nhanes_var": "AUXLR231",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 31"
+  },
+  {
+    "nhanes_var": "AUXLR232",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold, left ear, 2kHz, frequency 32"
+  },
+  {
+    "nhanes_var": "AUXLR233",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 33 dB; stored as a measurement concept"
+  },
+  {
+    "nhanes_var": "AUXLR234",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 34 dB"
+  },
+  {
+    "nhanes_var": "AUXLR235",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 35 dB"
+  },
+  {
+    "nhanes_var": "AUXLR236",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 36 dB"
+  },
+  {
+    "nhanes_var": "AUXLR237",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 37 dB"
+  },
+  {
+    "nhanes_var": "AUXLR238",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 38 dB"
+  },
+  {
+    "nhanes_var": "AUXLR239",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 39 dB"
+  },
+  {
+    "nhanes_var": "AUXLR240",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 40 dB"
+  },
+  {
+    "nhanes_var": "AUXLR241",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 41 dB"
+  },
+  {
+    "nhanes_var": "AUXLR242",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 42 dB"
+  },
+  {
+    "nhanes_var": "AUXLR243",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 43 dB"
+  },
+  {
+    "nhanes_var": "AUXLR244",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 44 dB"
+  },
+  {
+    "nhanes_var": "AUXLR245",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 45 dB"
+  },
+  {
+    "nhanes_var": "AUXLR246",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 46 dB"
+  },
+  {
+    "nhanes_var": "AUXLR247",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear at 2kHz, 47 dB"
+  },
+  {
+    "nhanes_var": "AUXLR248",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 48 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR249",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 49 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR250",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 50 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR251",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 51 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR252",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 52 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR253",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 53 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR254",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 54 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR255",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 55 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR256",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 56 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR257",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 57 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR258",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 58 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR259",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 59 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR260",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 60 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR261",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 61 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR262",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 62 dB SPL"
+  },
+  {
+    "nhanes_var": "AUXLR263",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 63 dB"
+  },
+  {
+    "nhanes_var": "AUXLR264",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 64 dB"
+  },
+  {
+    "nhanes_var": "AUXLR265",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 65 dB"
+  },
+  {
+    "nhanes_var": "AUXLR266",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 66 dB"
+  },
+  {
+    "nhanes_var": "AUXLR267",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 67 dB"
+  },
+  {
+    "nhanes_var": "AUXLR268",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 68 dB"
+  },
+  {
+    "nhanes_var": "AUXLR269",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 69 dB"
+  },
+  {
+    "nhanes_var": "AUXLR270",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 70 dB"
+  },
+  {
+    "nhanes_var": "AUXLR271",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 71 dB"
+  },
+  {
+    "nhanes_var": "AUXLR272",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 72 dB"
+  },
+  {
+    "nhanes_var": "AUXLR273",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 73 dB"
+  },
+  {
+    "nhanes_var": "AUXLR274",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 74 dB"
+  },
+  {
+    "nhanes_var": "AUXLR275",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 75 dB"
+  },
+  {
+    "nhanes_var": "AUXLR276",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 76 dB"
+  },
+  {
+    "nhanes_var": "AUXLR277",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz at 77 dB"
+  },
+  {
+    "nhanes_var": "AUXLR278",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 78 dB; map to Measurement table with concept for acoustic reflex threshold if available."
+  },
+  {
+    "nhanes_var": "AUXLR279",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 79 dB; map to Measurement table."
+  },
+  {
+    "nhanes_var": "AUXLR280",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 80 dB; map to Measurement table."
+  },
+  {
+    "nhanes_var": "AUXLR281",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 81 dB; map to Measurement table."
+  },
+  {
+    "nhanes_var": "AUXLR282",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 82 dB; map to Measurement table."
+  },
+  {
+    "nhanes_var": "AUXLR283",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 83 dB; map to Measurement table."
+  },
+  {
+    "nhanes_var": "AUXLR284",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Acoustic reflex threshold left ear 2kHz, 84 dB; map to Measurement table."
+  }
+]

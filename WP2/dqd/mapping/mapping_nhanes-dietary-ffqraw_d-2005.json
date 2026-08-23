@@ -1,0 +1,1472 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person.person_id"
+  },
+  {
+    "nhanes_var": "WTS_FFQ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "FFQ sample weight stored as measurement source value (no standard concept)"
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Number of completed dietary recalls (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ_MISS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Number of missing raw frequency responses (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0001",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of tomato juice consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0002",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of orange juice consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0003",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of apple juice consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0004",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of grape juice consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0005",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of 100% fruit juice consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0006",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of other fruit drinks consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0006A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of diet or sugar\u2011free fruit drinks consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0007",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of milk as beverage consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0007A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Type of milk consumed (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0008",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of meal replacement consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0009",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of soft drink consumption (no standard concept)"
+  },
+  {
+    "nhanes_var": "FFQ0009A",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000102,
+    "notes": "Frequency of alcohol consumption in summer; observation concept for alcohol consumption"
+  },
+  {
+    "nhanes_var": "FFQ0009B",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000102,
+    "notes": "Frequency of alcohol consumption rest of year"
+  },
+  {
+    "nhanes_var": "FFQ0009C",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000105,
+    "notes": "Frequency of soft drink consumption"
+  },
+  {
+    "nhanes_var": "FFQ0009D",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000106,
+    "notes": "Frequency of caffeine\u2011free soft drink consumption"
+  },
+  {
+    "nhanes_var": "FFQ0010",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000102,
+    "notes": "Binary indicator of beer consumption (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0010A",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000102,
+    "notes": "Frequency of beer consumption in summer"
+  },
+  {
+    "nhanes_var": "FFQ0010B",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000102,
+    "notes": "Frequency of beer consumption rest of year"
+  },
+  {
+    "nhanes_var": "FFQ0011",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000103,
+    "notes": "Frequency of wine consumption"
+  },
+  {
+    "nhanes_var": "FFQ0012",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000104,
+    "notes": "Frequency of liquor consumption"
+  },
+  {
+    "nhanes_var": "FFQ0013",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000107,
+    "notes": "Binary indicator of cooked cereal consumption"
+  },
+  {
+    "nhanes_var": "FFQ0013A",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of oatmeal consumption in winter"
+  },
+  {
+    "nhanes_var": "FFQ0013B",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of oatmeal consumption rest of year"
+  },
+  {
+    "nhanes_var": "FFQ0013C",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000107,
+    "notes": "Frequency of oatmeal portion (how often was it oatmeal)"
+  },
+  {
+    "nhanes_var": "FFQ0014",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000108,
+    "notes": "Frequency of cold cereal consumption"
+  },
+  {
+    "nhanes_var": "FFQ0014A",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": 38000109,
+    "notes": "Frequency of whole grain cereal consumption"
+  },
+  {
+    "nhanes_var": "FFQ0024",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh strawberries eaten? Response stored in value_as_concept_id (Yes/No)."
+  },
+  {
+    "nhanes_var": "FFQ0024A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh strawberries eaten in season? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0024B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Strawberries eaten other times? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0025",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Oranges eaten? Response stored in value_as_concept_id (Yes/No)."
+  },
+  {
+    "nhanes_var": "FFQ0025A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh oranges eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0025B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Oranges eaten rest of year? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0026",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Grapefruit eaten? Response stored in value_as_concept_id (Yes/No)."
+  },
+  {
+    "nhanes_var": "FFQ0026A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh grapefruit eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0026B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Grapefruit eaten rest of year? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0027",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other kinds of fruit eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0028",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Cooked greens eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0029",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Raw greens eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0030",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Coleslaw eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0031",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Sauerkraut eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0032",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Carrots eaten? Response stored in value_as_concept_id (frequency)."
+  },
+  {
+    "nhanes_var": "FFQ0033",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "String beans consumption (yes/no/ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0034",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Peas consumption mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0035",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Corn consumption (binary) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0035A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Corn consumption in season (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0035B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Corn consumption rest of year (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0036",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Broccoli consumption (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0037",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Cauliflower consumption (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0038",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Mixed vegetables consumption (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0039",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Onion consumption (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0040",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Pepper consumption (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0041",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Cucumber consumption (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0042",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh tomato consumption (binary) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0042A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh tomato consumption in season (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0042B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Fresh tomato consumption other times (ordinal) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0043",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Summer squash consumption (binary) mapped as an observation of vegetable intake."
+  },
+  {
+    "nhanes_var": "FFQ0043A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating squash during season; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0043B",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating squash outside of season; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0044",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating lettuce salads; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0044A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating dark green leafy vegetables; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0045",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating salad dressing; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0046",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating sweet potatoes; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0047",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating french fries; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0048",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating potato salad; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0049",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating baked potatoes; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0050",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating salsa; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0051",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating ketchup (catsup); ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0052",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating pickles; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0053",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating stuffing; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0054",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating chili; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0055",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of eating tortillas; ordinal response"
+  },
+  {
+    "nhanes_var": "FFQ0055A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: corn tortillas; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0056",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: cooked dried beans; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0057",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: other vegetables; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0058",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: rice; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0058A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: grain rice; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0059",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: pancakes; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0059A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: syrup added; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0060",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: lasagna; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0061",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: macaroni and cheese; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0062",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: pasta salad; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0063",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: other pasta; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0063A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: spaghetti sauce; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0063B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: meatless sauce; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0063C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: pasta with margarine; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0064",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: bagels; frequency stored in value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0065",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Bread sandwich consumption; use measurement_value_as_concept_id for yes/no"
+  },
+  {
+    "nhanes_var": "FFQ0065A",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "White bread in sandwiches; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0066",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Bread not in sandwiches; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0066A",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Other white breads or rolls; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0067",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Jam consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0068",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Peanut butter consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0069",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Roast beef sandwich consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0070",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cold cuts consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0071",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Luncheon ham consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0071A",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Light ham consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0072",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Other cold cuts consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0072A",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Light meats consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0073",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Canned tuna consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0074",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ground chicken consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0075",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Beef hamburger consumption; yes/no via measurement_value_as_concept_id"
+  },
+  {
+    "nhanes_var": "FFQ0075A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Lean ground beef consumption (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0076",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010001,
+    "notes": "Ground beef mixtures eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0077",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010002,
+    "notes": "Hot dogs eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0077A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010003,
+    "notes": "Light hot dogs eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0078",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010004,
+    "notes": "Other beef mixtures eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0079",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010005,
+    "notes": "Roast beef eaten at other times (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0080",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010006,
+    "notes": "Steak eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0080A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010007,
+    "notes": "Lean steak eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0081",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010008,
+    "notes": "Spareribs eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0082",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010009,
+    "notes": "Roast turkey eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0083",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010010,
+    "notes": "Chicken in mixtures eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0084",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010011,
+    "notes": "Baked chicken eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0084A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010012,
+    "notes": "Fried chicken eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0084B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010013,
+    "notes": "White meat eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0084C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010014,
+    "notes": "Chicken skin eaten (yes/no)"
+  },
+  {
+    "nhanes_var": "FFQ0085",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: baked ham; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0086",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: pork; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0087",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: gravy; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0088",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: liver; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0089",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: bacon; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0089A",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: lean bacon; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0090",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: sausage; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0090A",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: lean sausage; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0091",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: smoked fish; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0092",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: sushi; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0092A",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: raw fish in sushi; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0093",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: raw oysters; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0094",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: fried fish; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0095",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: all other fish; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0096",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Food item: tofu; record as observation of dietary intake"
+  },
+  {
+    "nhanes_var": "FFQ0097",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Binary yes/no for eating soups; use observation_type_concept_id 38000164 (Yes/No) and observation_value_as_concept_id 38000164"
+  },
+  {
+    "nhanes_var": "FFQ0097A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Ordinal frequency of soup consumption in winter; use observation_type_concept_id 38000165 (Frequency of consumption) and store ordinal in observation_value_as_number"
+  },
+  {
+    "nhanes_var": "FFQ0097B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Ordinal frequency of soup consumption rest of year; same as above"
+  },
+  {
+    "nhanes_var": "FFQ0097C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Ordinal frequency of bean soups; same concept_id as general soup"
+  },
+  {
+    "nhanes_var": "FFQ0097D",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Ordinal frequency of cream soups; same concept_id as general soup"
+  },
+  {
+    "nhanes_var": "FFQ0097E",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Ordinal frequency of tomato soups; same concept_id as general soup"
+  },
+  {
+    "nhanes_var": "FFQ0097F",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Ordinal frequency of broth soups; same concept_id as general soup"
+  },
+  {
+    "nhanes_var": "FFQ0098",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000171,
+    "notes": "Ordinal frequency of pizza consumption; use observation_type_concept_id 38000165"
+  },
+  {
+    "nhanes_var": "FFQ0098A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000171,
+    "notes": "Ordinal frequency of pizza with meat; same concept_id as pizza"
+  },
+  {
+    "nhanes_var": "FFQ0099",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000172,
+    "notes": "Ordinal frequency of crackers consumption; use observation_type_concept_id 38000165"
+  },
+  {
+    "nhanes_var": "FFQ0100",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000173,
+    "notes": "Ordinal frequency of corn bread consumption; use observation_type_concept_id 38000165"
+  },
+  {
+    "nhanes_var": "FFQ0101",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000174,
+    "notes": "Ordinal frequency of biscuits consumption; use observation_type_concept_id 38000165"
+  },
+  {
+    "nhanes_var": "FFQ0102",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000175,
+    "notes": "Ordinal frequency of potato chips consumption; use observation_type_concept_id 38000165"
+  },
+  {
+    "nhanes_var": "FFQ0102A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000175,
+    "notes": "Ordinal frequency of low\u2011fat potato chips; same concept_id as potato chips"
+  },
+  {
+    "nhanes_var": "FFQ0103",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000176,
+    "notes": "Ordinal frequency of tortilla chips consumption; use observation_type_concept_id 38000165"
+  },
+  {
+    "nhanes_var": "FFQ0103A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of low\u2011fat tortilla chips; map to Observation with food concept if available."
+  },
+  {
+    "nhanes_var": "FFQ0104",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of popcorn consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0105",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of pretzels consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0106",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of peanuts consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0107",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of granola bars consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0108",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of yogurt consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0109",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of cottage cheese consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0110",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of cheese consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0110A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of light cheese consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0111",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of frozen yogurt consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0112",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of ice cream consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0112A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of light ice cream consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0113",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of pudding consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0114",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of cake consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0115",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Frequency of cookies consumption; Observation record."
+  },
+  {
+    "nhanes_var": "FFQ0116",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Doughnut consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0117",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Sweet muffin consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0118",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000109,
+    "notes": "Fruit crisp consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0119",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000110,
+    "notes": "Pie consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0119A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000111,
+    "notes": "Fruit pie consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0120",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000112,
+    "notes": "Chocolate candy consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0121",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000113,
+    "notes": "Other candy consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0122",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000114,
+    "notes": "Egg consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0122A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000115,
+    "notes": "Egg substitute consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0122B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000116,
+    "notes": "Egg white consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0122C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000117,
+    "notes": "Whole egg consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0122D",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000118,
+    "notes": "Egg salad consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0123",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000119,
+    "notes": "Coffee consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0123A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000120,
+    "notes": "Decaffeinated coffee consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0124",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000121,
+    "notes": "Iced tea consumption frequency mapped to Observation table; ordinal response stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "FFQ0124A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280000,
+    "notes": "Iced herbal tea consumption"
+  },
+  {
+    "nhanes_var": "FFQ0125",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280001,
+    "notes": "Hot tea consumption"
+  },
+  {
+    "nhanes_var": "FFQ0125A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280002,
+    "notes": "Hot decaffeinated tea consumption"
+  },
+  {
+    "nhanes_var": "FFQ0126",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280003,
+    "notes": "Sugar or honey added to tea"
+  },
+  {
+    "nhanes_var": "FFQ0127",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280004,
+    "notes": "Artificial sweetener added to tea"
+  },
+  {
+    "nhanes_var": "FFQ0128",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280005,
+    "notes": "Non\u2011dairy creamer added to tea"
+  },
+  {
+    "nhanes_var": "FFQ0128A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280006,
+    "notes": "Type of non\u2011dairy creamer"
+  },
+  {
+    "nhanes_var": "FFQ0129",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280007,
+    "notes": "Cream or half\u2011and\u2011half added to tea"
+  },
+  {
+    "nhanes_var": "FFQ0130",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280008,
+    "notes": "Milk added to coffee"
+  },
+  {
+    "nhanes_var": "FFQ0130A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280009,
+    "notes": "Type of milk added to coffee"
+  },
+  {
+    "nhanes_var": "FFQ0131",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280010,
+    "notes": "Sugar or honey added to coffee"
+  },
+  {
+    "nhanes_var": "FFQ0132",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280011,
+    "notes": "Margarine consumption"
+  },
+  {
+    "nhanes_var": "FFQ0132A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280012,
+    "notes": "Low\u2011fat margarine consumption"
+  },
+  {
+    "nhanes_var": "FFQ0133",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280013,
+    "notes": "Butter on bread consumption"
+  },
+  {
+    "nhanes_var": "FFQ0133A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 4280014,
+    "notes": "Low\u2011fat butter on bread consumption"
+  },
+  {
+    "nhanes_var": "FFQ0134",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Question about eating margarine on potatoes; map to Observation with concept for the question, answer stored as value_as_concept_id (Yes/No)."
+  },
+  {
+    "nhanes_var": "FFQ0134A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Follow-up on low\u2011fat margarine; same mapping as above."
+  },
+  {
+    "nhanes_var": "FFQ0135",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Question about eating butter on potatoes; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0135A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Low\u2011fat butter follow\u2011up; same mapping."
+  },
+  {
+    "nhanes_var": "FFQ0136",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Question about eating mayonnaise; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0136A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Low\u2011fat mayonnaise follow\u2011up; same mapping."
+  },
+  {
+    "nhanes_var": "FFQ0137",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Question about eating cream cheese; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0137A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Low\u2011fat cream cheese follow\u2011up; same mapping."
+  },
+  {
+    "nhanes_var": "FFQ0138",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Question about eating sour cream; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0138A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Low\u2011fat sour cream follow\u2011up; same mapping."
+  },
+  {
+    "nhanes_var": "FFQ0139",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Question about eating foods with oils; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0139A",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Olive oil consumption; map to Observation, answer as Yes/No."
+  },
+  {
+    "nhanes_var": "FFQ0139B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Corn oil consumption; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0139C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Canola/rapeseed oil consumption; map to Observation."
+  },
+  {
+    "nhanes_var": "FFQ0139D",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other oil types consumption; map to Observation."
+  }
+]

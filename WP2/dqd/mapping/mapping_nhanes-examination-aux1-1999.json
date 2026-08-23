@@ -1,0 +1,772 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier, maps to OMOP person_id"
+  },
+  {
+    "nhanes_var": "WTSAU2YR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry subsample 2\u2011year survey weight"
+  },
+  {
+    "nhanes_var": "WTSAU4YR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry subsample 4\u2011year survey weight"
+  },
+  {
+    "nhanes_var": "WTSAU01",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 1 weight"
+  },
+  {
+    "nhanes_var": "WTSAU02",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 2 weight"
+  },
+  {
+    "nhanes_var": "WTSAU03",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 3 weight"
+  },
+  {
+    "nhanes_var": "WTSAU04",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 4 weight"
+  },
+  {
+    "nhanes_var": "WTSAU05",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 5 weight"
+  },
+  {
+    "nhanes_var": "WTSAU06",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 6 weight"
+  },
+  {
+    "nhanes_var": "WTSAU07",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 7 weight"
+  },
+  {
+    "nhanes_var": "WTSAU08",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 8 weight"
+  },
+  {
+    "nhanes_var": "WTSAU09",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 9 weight"
+  },
+  {
+    "nhanes_var": "WTSAU10",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 10 weight"
+  },
+  {
+    "nhanes_var": "WTSAU11",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 11 weight"
+  },
+  {
+    "nhanes_var": "WTSAU12",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Audiometry jackknife replicate 12 weight"
+  },
+  {
+    "nhanes_var": "WTSAU13",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 13"
+  },
+  {
+    "nhanes_var": "WTSAU14",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 14"
+  },
+  {
+    "nhanes_var": "WTSAU15",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 15"
+  },
+  {
+    "nhanes_var": "WTSAU16",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 16"
+  },
+  {
+    "nhanes_var": "WTSAU17",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 17"
+  },
+  {
+    "nhanes_var": "WTSAU18",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 18"
+  },
+  {
+    "nhanes_var": "WTSAU19",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 19"
+  },
+  {
+    "nhanes_var": "WTSAU20",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 20"
+  },
+  {
+    "nhanes_var": "WTSAU21",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 21"
+  },
+  {
+    "nhanes_var": "WTSAU22",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 22"
+  },
+  {
+    "nhanes_var": "WTSAU23",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 23"
+  },
+  {
+    "nhanes_var": "WTSAU24",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 24"
+  },
+  {
+    "nhanes_var": "WTSAU25",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 25"
+  },
+  {
+    "nhanes_var": "WTSAU26",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 26"
+  },
+  {
+    "nhanes_var": "WTSAU27",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Weight of audiometry mechanical weight jack knife replicate 27"
+  },
+  {
+    "nhanes_var": "WTSAU28",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 28"
+  },
+  {
+    "nhanes_var": "WTSAU29",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 29"
+  },
+  {
+    "nhanes_var": "WTSAU30",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 30"
+  },
+  {
+    "nhanes_var": "WTSAU31",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 31"
+  },
+  {
+    "nhanes_var": "WTSAU32",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 32"
+  },
+  {
+    "nhanes_var": "WTSAU33",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 33"
+  },
+  {
+    "nhanes_var": "WTSAU34",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 34"
+  },
+  {
+    "nhanes_var": "WTSAU35",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 35"
+  },
+  {
+    "nhanes_var": "WTSAU36",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 36"
+  },
+  {
+    "nhanes_var": "WTSAU37",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 37"
+  },
+  {
+    "nhanes_var": "WTSAU38",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 38"
+  },
+  {
+    "nhanes_var": "WTSAU39",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 39"
+  },
+  {
+    "nhanes_var": "WTSAU40",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 40"
+  },
+  {
+    "nhanes_var": "WTSAU41",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 41"
+  },
+  {
+    "nhanes_var": "WTSAU42",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Weight of audiometry jack knife replicate 42"
+  },
+  {
+    "nhanes_var": "WTSAU43",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 43 \u2013 equipment weight, not a standard health concept"
+  },
+  {
+    "nhanes_var": "WTSAU44",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 44 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU45",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 45 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU46",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 46 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU47",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 47 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU48",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 48 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU49",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 49 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU50",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 50 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU51",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 51 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "WTSAU52",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Weight of Audiometry Mec Jack Knife Rep 52 \u2013 equipment weight"
+  },
+  {
+    "nhanes_var": "AUAEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Status of an Audio Exam \u2013 categorical status, no standard concept"
+  },
+  {
+    "nhanes_var": "AUAEXCMT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Comment code for an Audio Exam \u2013 categorical comment, no standard concept"
+  },
+  {
+    "nhanes_var": "AUQ010",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 38000107,
+    "notes": "Presence of ear tube \u2013 mapped to Ear tube insertion procedure"
+  },
+  {
+    "nhanes_var": "AUQ020",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Had cold, sinus or earache in last 24 hrs \u2013 mapped to Acute upper respiratory infection"
+  },
+  {
+    "nhanes_var": "AUQ020A",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Had cold in last 24 hrs \u2013 mapped to Acute upper respiratory infection"
+  },
+  {
+    "nhanes_var": "AUXROIMC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Binary indicator of impacted cerumen in the right ear"
+  },
+  {
+    "nhanes_var": "AUXROCOL",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380002,
+    "notes": "Binary indicator of collapsing ear canals in the right ear"
+  },
+  {
+    "nhanes_var": "AUXROABN",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380003,
+    "notes": "Binary indicator of other exam abnormalities in the right ear"
+  },
+  {
+    "nhanes_var": "AUDROABC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380004,
+    "notes": "Text comment on other ear exam abnormalities in the right ear"
+  },
+  {
+    "nhanes_var": "AUXTMEPR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380005,
+    "notes": "Middle ear pressure (tympanometry) right ear in daPa"
+  },
+  {
+    "nhanes_var": "AUXTPVR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380006,
+    "notes": "Physical volume (tympanometry) right ear in cc"
+  },
+  {
+    "nhanes_var": "AUXTWIDR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380007,
+    "notes": "Tympanometric width right ear"
+  },
+  {
+    "nhanes_var": "AUXTCOMR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380008,
+    "notes": "Compliance (tympanometry) right ear"
+  },
+  {
+    "nhanes_var": "AUXTMEPL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380009,
+    "notes": "Middle ear pressure (tympanometry) left ear in daPa"
+  },
+  {
+    "nhanes_var": "AUXTPVL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380010,
+    "notes": "Physical volume (tympanometry) left ear in cc"
+  },
+  {
+    "nhanes_var": "AUXTWIDL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380011,
+    "notes": "Tympanometric width left ear"
+  },
+  {
+    "nhanes_var": "AUXTCOML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380012,
+    "notes": "Compliance (tympanometry) left ear"
+  },
+  {
+    "nhanes_var": "AUAEAR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380013,
+    "notes": "Which ear was tested first (categorical)"
+  },
+  {
+    "nhanes_var": "AUAMODE",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380014,
+    "notes": "Audio test mode: manual/automatic/mixed"
+  },
+  {
+    "nhanes_var": "AUAFMANL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380015,
+    "notes": "Frequency at which switch to manual mode for left ear (Hz)"
+  },
+  {
+    "nhanes_var": "AUAFMANR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Frequency-switch to manual mode, right side"
+  },
+  {
+    "nhanes_var": "AUXU1K1R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 1000Hz"
+  },
+  {
+    "nhanes_var": "AUXU500R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 500Hz"
+  },
+  {
+    "nhanes_var": "AUXU1K2R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 1000Hz (second read)"
+  },
+  {
+    "nhanes_var": "AUXU2KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 2000Hz"
+  },
+  {
+    "nhanes_var": "AUXU3KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 3000Hz"
+  },
+  {
+    "nhanes_var": "AUXU4KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 4000Hz"
+  },
+  {
+    "nhanes_var": "AUXU6KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 6000Hz"
+  },
+  {
+    "nhanes_var": "AUXU8KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Right ear hearing threshold at 8000Hz"
+  },
+  {
+    "nhanes_var": "AUXU1K1L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 1000Hz"
+  },
+  {
+    "nhanes_var": "AUXU500L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 500Hz"
+  },
+  {
+    "nhanes_var": "AUXU1K2L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 1000Hz (second read)"
+  },
+  {
+    "nhanes_var": "AUXU2KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 2000Hz"
+  },
+  {
+    "nhanes_var": "AUXU3KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 3000Hz"
+  },
+  {
+    "nhanes_var": "AUXU4KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 4000Hz"
+  },
+  {
+    "nhanes_var": "AUXU6KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30110,
+    "notes": "Left ear hearing threshold at 6000 Hz"
+  },
+  {
+    "nhanes_var": "AUXU8KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30112,
+    "notes": "Left ear hearing threshold at 8000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR1K1R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30103,
+    "notes": "Right ear retest hearing threshold at 1000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR5CR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30101,
+    "notes": "Right ear retest hearing threshold at 500 Hz"
+  },
+  {
+    "nhanes_var": "AUXR1K2R",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30103,
+    "notes": "Right ear retest hearing threshold at 1000 Hz (second read)"
+  },
+  {
+    "nhanes_var": "AUXR2KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30105,
+    "notes": "Right ear retest hearing threshold at 2000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR3KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30107,
+    "notes": "Right ear retest hearing threshold at 3000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR4KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30109,
+    "notes": "Right ear retest hearing threshold at 4000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR6KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30110,
+    "notes": "Right ear retest hearing threshold at 6000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR8KR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30113,
+    "notes": "Right ear retest hearing threshold at 8000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR1K1L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30102,
+    "notes": "Left ear retest hearing threshold at 1000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR5CL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30100,
+    "notes": "Left ear retest hearing threshold at 500 Hz"
+  },
+  {
+    "nhanes_var": "AUXR1K2L",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30102,
+    "notes": "Left ear retest hearing threshold at 1000 Hz (second read)"
+  },
+  {
+    "nhanes_var": "AUXR2KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30104,
+    "notes": "Left ear retest hearing threshold at 2000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR3KL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 30106,
+    "notes": "Left ear retest hearing threshold at 3000 Hz"
+  },
+  {
+    "nhanes_var": "AUXR4KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 4000Hz, stored as numeric measurement."
+  },
+  {
+    "nhanes_var": "AUXR6KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 6000Hz."
+  },
+  {
+    "nhanes_var": "AUXR8KL",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Left ear hearing threshold at 8000Hz."
+  },
+  {
+    "nhanes_var": "AUAREQC",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Right ear audiogram quality code, categorical."
+  },
+  {
+    "nhanes_var": "AUALEQC",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Left ear audiogram quality code."
+  }
+]

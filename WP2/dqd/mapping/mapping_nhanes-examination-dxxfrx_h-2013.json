@@ -1,0 +1,44 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "DXXPRVFX",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Self-reported fracture at age 20+ (condition concept: Fracture, unspecified)"
+  },
+  {
+    "nhanes_var": "DXXFRAX1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Hip FRAX risk score (previous fracture) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXFRAX2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Major FRAX risk score (previous fracture) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXFRAX3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Hip FRAX risk score (no previous fracture) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXFRAX4",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Major FRAX risk score (no previous fracture) \u2013 continuous measurement"
+  }
+]

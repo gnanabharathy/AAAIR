@@ -1,0 +1,64 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: ERROR: relation "ptbxl_view.condition_era" does not exist
+  Position: 413
+
+SQL:
+/*********
+MEASURE_VALUE_COMPLETENESS
+Computing number of null values and the proportion to total records per field
+Parameters used in this template:
+schema = ptbxl_view
+cdmTableName = CONDITION_ERA
+cdmFieldName = CONDITION_OCCURRENCE_COUNT
+**********/
+SELECT 
+	num_violated_rows, 
+	CASE 
+		WHEN denominator.num_rows = 0 THEN 0 
+		ELSE 1.0*num_violated_rows/denominator.num_rows 
+	END AS pct_violated_rows, 
+    denominator.num_rows AS num_denominator_rows
+FROM
+(
+	SELECT 
+		COUNT(violated_rows.violating_field) AS num_violated_rows
+	FROM
+	(
+		/*violatedRowsBegin*/
+		SELECT 
+			'CONDITION_ERA.CONDITION_OCCURRENCE_COUNT' AS violating_field, 
+			cdmTable.* 
+		FROM ptbxl_view.CONDITION_ERA cdmTable
+		WHERE cdmTable.CONDITION_OCCURRENCE_COUNT IS NULL
+		/*violatedRowsEnd*/
+	) violated_rows
+) violated_row_count,
+( 
+	SELECT 
+		COUNT(*) AS num_rows
+	FROM ptbxl_view.CONDITION_ERA cdmTable
+) denominator
+;
+
+
+R version:
+R version 4.5.3 (2026-03-11)
+
+Platform:
+aarch64-apple-darwin20
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
+- DataQualityDashboard (2.8.9)
+- DatabaseConnector (7.1.0)

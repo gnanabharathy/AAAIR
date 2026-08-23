@@ -1,0 +1,114 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique identifier for each NHANES participant, mapped to OMOP PERSON.person_id."
+  },
+  {
+    "nhanes_var": "LEAARM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Arm used for blood pressure measurement (left/right). Stored as a measurement with value_as_concept_id indicating arm."
+  },
+  {
+    "nhanes_var": "LEDARMCF",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Brachial cuff size used for blood pressure measurement. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEAANKL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ankle used for blood pressure measurement (left/right). Stored as a measurement with value_as_concept_id indicating ankle."
+  },
+  {
+    "nhanes_var": "LEDANKCF",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ankle cuff size used for blood pressure measurement. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXBRP1",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "First brachial systolic blood pressure reading. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXBRP2",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Second brachial systolic blood pressure reading. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXBRPM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Mean brachial systolic blood pressure. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXLPTS1",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left posterior tibial systolic blood pressure reading 1. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXLPTS2",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left posterior tibial systolic blood pressure reading 2. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXLPTSM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left posterior tibial mean arterial pressure. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXLABPI",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ankle-brachial index. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXRPTS1",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right posterior tibial systolic blood pressure reading 1. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXRPTS2",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right posterior tibial systolic blood pressure reading 2. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXRPTSM",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right posterior tibial mean arterial pressure. Stored as a measurement with numeric value."
+  },
+  {
+    "nhanes_var": "LEXRABPI",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ankle\u2011brachial index measurement"
+  }
+]

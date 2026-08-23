@@ -1,0 +1,527 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to Person.person_id"
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "2\u2011Year dietary day one sample weight stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTDR4YR",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "4\u2011Year dietary day one sample weight stored as numeric observation"
+  },
+  {
+    "nhanes_var": "DRXILINE",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Food/individual component number (ordinal) stored as numeric observation"
+  },
+  {
+    "nhanes_var": "DRDDRSTZ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Dietary recall status stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRDDAY",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Intake day of week stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRALANG",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Language used for interview stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRXCCMNM",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Combination food number stored as numeric observation"
+  },
+  {
+    "nhanes_var": "DRDCCMTZ",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Combination food type stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRD020",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Time of eating occasion (HH:MM) stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRD030Z",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Name of eating occasion stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRD040Z",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Whether food was eaten at home (binary) stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRDIFDCD",
+    "omop_table": "Observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "USDA food code stored as concept observation"
+  },
+  {
+    "nhanes_var": "DRXIGRMS",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Grams of food intake stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DRXIKCAL",
+    "omop_table": "Measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Energy intake in kcal stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DRXIPROT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Protein intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXICARB",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Carbohydrate intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXISUGR",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total sugars intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXIFIBE",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Dietary fiber intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXITFAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total fat intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXISFAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total saturated fatty acids intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXIMFAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total monounsaturated fatty acids intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXIPFAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total polyunsaturated fatty acids intake (grams) per day"
+  },
+  {
+    "nhanes_var": "DRXICHOL",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cholesterol intake (mg) per day"
+  },
+  {
+    "nhanes_var": "DRXIATOC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin E (alpha-tocopherol) intake (mg) per day"
+  },
+  {
+    "nhanes_var": "DRXIRET",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Retinol intake (mcg) per day"
+  },
+  {
+    "nhanes_var": "DRXIVARA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin A, RAE intake (mcg) per day"
+  },
+  {
+    "nhanes_var": "DRXIACAR",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Alpha-carotene intake (mcg) per day"
+  },
+  {
+    "nhanes_var": "DRXIBCAR",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Beta-carotene intake (mcg) per day"
+  },
+  {
+    "nhanes_var": "DRXICRYP",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Beta-cryptoxanthin intake (mcg) per day"
+  },
+  {
+    "nhanes_var": "DRXILYCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lycopene intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXILZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXINIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Niacin intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B6 intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIFOLA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total Folate intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Folic acid intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Food folate intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Folate, DFE intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B12 intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin C intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin K intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXICALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calcium intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Phosphorus intake; no standard OMOP concept ID available"
+  },
+  {
+    "nhanes_var": "DRXIMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Magnesium intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Iron intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Zinc intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXICOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Copper intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRDISODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Sodium intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Potassium intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXISELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Selenium intake (mcg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXICAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Caffeine intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXITHEO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Theobromine intake (mg) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIALCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Alcohol intake (gm) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIMOIS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Moisture content (gm) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIS040",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 4:0 (Butanoic) intake (gm) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIS060",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 6:0 (Hexanoic) intake (gm) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIS080",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 8:0 (Octanoic) intake (gm) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIS100",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "SFA 10:0 (Decanoic) intake (gm) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DRXIS120",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "SFA 12:0 (Dodecanoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIS140",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "SFA 14:0 (Tetradecanoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIS160",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "SFA 16:0 (Hexadecanoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIS180",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "SFA 18:0 (Octadecanoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIM161",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MFA 16:1 (Hexadecenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIM181",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MFA 18:1 (Octadecenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIM201",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MFA 20:1 (Eicosenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIM221",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MFA 22:1 (Docosenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP182",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 18:2 (Octadecadienoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP183",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 18:3 (Octadecatrienoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP184",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 18:4 (Octadecatetraenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP204",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 20:4 (Eicosatetraenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP205",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 20:5 (Eicosapentaenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP225",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 22:5 (Docosapentaenoic acid) measurement in grams"
+  },
+  {
+    "nhanes_var": "DRXIP226",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "PFA 22:6 (Docosahexaenoic acid) measurement in grams"
+  }
+]

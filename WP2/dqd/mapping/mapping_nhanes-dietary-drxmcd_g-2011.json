@@ -1,0 +1,16 @@
+[
+  {
+    "nhanes_var": "DRXMC",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_exposure_source_value",
+    "concept_id": null,
+    "notes": "Source value for the prescription medication modification code"
+  },
+  {
+    "nhanes_var": "DRXMCD",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_exposure_source_concept_id",
+    "concept_id": null,
+    "notes": "Source concept ID for the description of the modification code (non\u2011standard, so null)"
+  }
+]

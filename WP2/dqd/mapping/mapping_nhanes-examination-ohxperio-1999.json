@@ -1,0 +1,1227 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "OHAEXSTS",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status"
+  },
+  {
+    "nhanes_var": "OHASCST4",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Periodontal status code"
+  },
+  {
+    "nhanes_var": "OHXURGIN",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Gingival bleeding URQ"
+  },
+  {
+    "nhanes_var": "OHXULGIN",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Gingival bleeding ULQ"
+  },
+  {
+    "nhanes_var": "OHXLLGIN",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Gingival bleeding LLQ"
+  },
+  {
+    "nhanes_var": "OHXLRGIN",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Gingival bleeding LRQ"
+  },
+  {
+    "nhanes_var": "OHD02CJM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mid-facial #2 FGM/CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHD02PCM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mid-facial #2 PD measurement"
+  },
+  {
+    "nhanes_var": "OHD02LAM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mid-facial #2 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD02CJS",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mesial #2 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD02PCS",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mesial #2 PD"
+  },
+  {
+    "nhanes_var": "OHD02LAS",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mesial #2 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD03CJM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mid-facial #3 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD03PCM",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA mid-facial #3 PD"
+  },
+  {
+    "nhanes_var": "OHD03LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800011,
+    "notes": "Periodontal attachment loss (mid\u2011facial #3)"
+  },
+  {
+    "nhanes_var": "OHD03CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mesial #3)"
+  },
+  {
+    "nhanes_var": "OHD03PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mesial #3)"
+  },
+  {
+    "nhanes_var": "OHD03LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800011,
+    "notes": "Periodontal attachment loss (mesial #3)"
+  },
+  {
+    "nhanes_var": "OHD04CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mid\u2011facial #4)"
+  },
+  {
+    "nhanes_var": "OHD04PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mid\u2011facial #4)"
+  },
+  {
+    "nhanes_var": "OHD04LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800011,
+    "notes": "Periodontal attachment loss (mid\u2011facial #4)"
+  },
+  {
+    "nhanes_var": "OHD04CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mesial #4)"
+  },
+  {
+    "nhanes_var": "OHD04PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mesial #4)"
+  },
+  {
+    "nhanes_var": "OHD04LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800011,
+    "notes": "Periodontal attachment loss (mesial #4)"
+  },
+  {
+    "nhanes_var": "OHD05CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mid\u2011facial #5)"
+  },
+  {
+    "nhanes_var": "OHD05PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mid\u2011facial #5)"
+  },
+  {
+    "nhanes_var": "OHD05LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800011,
+    "notes": "Periodontal attachment loss (mid\u2011facial #5)"
+  },
+  {
+    "nhanes_var": "OHD05CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mesial #5)"
+  },
+  {
+    "nhanes_var": "OHD05PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Periodontal probing depth (mesial #5)"
+  },
+  {
+    "nhanes_var": "OHD05LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Loss of attachment (mesial #5) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD06CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial #6 FGM/CEJ \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD06PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial #6 probing depth \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD06LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Loss of attachment (mesial #6) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD06CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial #6 FGM/CEJ \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD06PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial #6 probing depth \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD06LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Loss of attachment (mesial #6) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD07CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial #7 FGM/CEJ \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD07PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial #7 probing depth \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD07LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Loss of attachment (mesial #7) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD07CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial #7 FGM/CEJ \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD07PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial #7 probing depth \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD07LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Loss of attachment (mesial #7) \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD08CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial #8 FGM/CEJ \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD08PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial #8 probing depth \u2013 continuous measurement"
+  },
+  {
+    "nhanes_var": "OHD08LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lateral alveolar bone height, mid\u2011facial for tooth 8"
+  },
+  {
+    "nhanes_var": "OHD08CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ, mid\u2011facial for tooth 8"
+  },
+  {
+    "nhanes_var": "OHD08PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Periodontal pocket depth for tooth 8"
+  },
+  {
+    "nhanes_var": "OHD08LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lateral alveolar bone height, mesial for tooth 8"
+  },
+  {
+    "nhanes_var": "OHD15CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ, mid\u2011facial for tooth 15"
+  },
+  {
+    "nhanes_var": "OHD15PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Periodontal pocket depth for tooth 15"
+  },
+  {
+    "nhanes_var": "OHD15LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lateral alveolar bone height, mid\u2011facial for tooth 15"
+  },
+  {
+    "nhanes_var": "OHD15CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ, mesial for tooth 15"
+  },
+  {
+    "nhanes_var": "OHD15PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Periodontal pocket depth for tooth 15"
+  },
+  {
+    "nhanes_var": "OHD15LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lateral alveolar bone height, mesial for tooth 15"
+  },
+  {
+    "nhanes_var": "OHD14CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ, mid\u2011facial for tooth 14"
+  },
+  {
+    "nhanes_var": "OHD14PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Periodontal pocket depth for tooth 14"
+  },
+  {
+    "nhanes_var": "OHD14LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lateral alveolar bone height, mid\u2011facial for tooth 14"
+  },
+  {
+    "nhanes_var": "OHD14CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ, mesial for tooth 14"
+  },
+  {
+    "nhanes_var": "OHD14PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010000,
+    "notes": "Periodontal pocket depth for tooth 14"
+  },
+  {
+    "nhanes_var": "OHD14LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Calculated lesion area (LA) for mesial side of tooth #14"
+  },
+  {
+    "nhanes_var": "OHD13CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "FGM/CEJ measurement (mid-facial) for tooth #13"
+  },
+  {
+    "nhanes_var": "OHD13PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Probing depth (PD) measurement (mid-facial) for tooth #13"
+  },
+  {
+    "nhanes_var": "OHD13LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Calculated lesion area (LA) for mid-facial side of tooth #13"
+  },
+  {
+    "nhanes_var": "OHD13CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "FGM/CEJ measurement (mesial) for tooth #13"
+  },
+  {
+    "nhanes_var": "OHD13PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Probing depth (PD) measurement (mesial) for tooth #13"
+  },
+  {
+    "nhanes_var": "OHD13LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Calculated lesion area (LA) for mesial side of tooth #13"
+  },
+  {
+    "nhanes_var": "OHD12CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "FGM/CEJ measurement (mid-facial) for tooth #12"
+  },
+  {
+    "nhanes_var": "OHD12PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Probing depth (PD) measurement (mid-facial) for tooth #12"
+  },
+  {
+    "nhanes_var": "OHD12LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Calculated lesion area (LA) for mid-facial side of tooth #12"
+  },
+  {
+    "nhanes_var": "OHD12CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "FGM/CEJ measurement (mesial) for tooth #12"
+  },
+  {
+    "nhanes_var": "OHD12PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Probing depth (PD) measurement (mesial) for tooth #12"
+  },
+  {
+    "nhanes_var": "OHD12LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Calculated lesion area (LA) for mesial side of tooth #12"
+  },
+  {
+    "nhanes_var": "OHD11CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "FGM/CEJ measurement (mid-facial) for tooth #11"
+  },
+  {
+    "nhanes_var": "OHD11PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Probing depth (PD) measurement (mid-facial) for tooth #11"
+  },
+  {
+    "nhanes_var": "OHD11LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #11 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD11CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #11 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD11PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #11 PD"
+  },
+  {
+    "nhanes_var": "OHD11LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #11 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD10CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #10 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD10PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #10 PD"
+  },
+  {
+    "nhanes_var": "OHD10LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #10 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD10CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #10 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD10PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #10 PD"
+  },
+  {
+    "nhanes_var": "OHD10LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #10 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD09CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #9 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD09PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #9 PD"
+  },
+  {
+    "nhanes_var": "OHD09LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #9 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD09CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #9 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD09PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #9 PD"
+  },
+  {
+    "nhanes_var": "OHD09LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #9 calculated LA measurement"
+  },
+  {
+    "nhanes_var": "OHD18CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #18 FGM/CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHD18PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #18 PD measurement"
+  },
+  {
+    "nhanes_var": "OHD18LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #18 calculated LA measurement"
+  },
+  {
+    "nhanes_var": "OHD18CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #18 FGM/CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHD18PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #18 PD measurement"
+  },
+  {
+    "nhanes_var": "OHD18LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #18 calculated LA measurement"
+  },
+  {
+    "nhanes_var": "OHD19CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #19 FGM/CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHD19PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #19 PD measurement"
+  },
+  {
+    "nhanes_var": "OHD19LAM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #19 calculated LA measurement"
+  },
+  {
+    "nhanes_var": "OHD19CJS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #19 FGM/CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHD19PCS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #19 PD measurement"
+  },
+  {
+    "nhanes_var": "OHD19LAS",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #19 calculated LA measurement"
+  },
+  {
+    "nhanes_var": "OHD20CJM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #20 FGM/CEJ measurement"
+  },
+  {
+    "nhanes_var": "OHD20PCM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #20 PD measurement"
+  },
+  {
+    "nhanes_var": "OHD20LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated lingual alveolar (LA) measurement for tooth #20 (mid-facial) \u2013 numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "OHD20CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial cemento-enamel junction (CEJ) measurement for tooth #20 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD20PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial probing depth (PD) for tooth #20 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD20LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated lingual alveolar (LA) measurement for tooth #20 (mesial) \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD21CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial CEJ measurement for tooth #21 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD21PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial probing depth (PD) for tooth #21 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD21LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated lingual alveolar (LA) measurement for tooth #21 (mid-facial) \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD21CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial CEJ measurement for tooth #21 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD21PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial probing depth (PD) for tooth #21 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD21LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated lingual alveolar (LA) measurement for tooth #21 (mesial) \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD22CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial CEJ measurement for tooth #22 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD22PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial probing depth (PD) for tooth #22 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD22LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated lingual alveolar (LA) measurement for tooth #22 (mid-facial) \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD22CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial CEJ measurement for tooth #22 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD22PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial probing depth (PD) for tooth #22 \u2013 numeric value."
+  },
+  {
+    "nhanes_var": "OHD22LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #22 calculated LA \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD23CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #23 FGM/CEJ \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD23PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #23 PD \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD23LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #23 calculated LA \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD23CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #23 FGM/CEJ \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD23PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #23 PD \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD23LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #23 calculated LA \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD24CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #24 FGM/CEJ \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD24PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #24 PD \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD24LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #24 calculated LA \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD24CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #24 FGM/CEJ \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD24PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #24 PD \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD24LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mesial #24 calculated LA \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD31CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #31 FGM/CEJ \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD31PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #31 PD \u2013 dental measurement, no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OHD31LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #31 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD31CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #31 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD31PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #31 PD"
+  },
+  {
+    "nhanes_var": "OHD31LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #31 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD30CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #30 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD30PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #30 PD"
+  },
+  {
+    "nhanes_var": "OHD30LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #30 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD30CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #30 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD30PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #30 PD"
+  },
+  {
+    "nhanes_var": "OHD30LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #30 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD29CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #29 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD29PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #29 PD"
+  },
+  {
+    "nhanes_var": "OHD29LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mid-facial #29 calculated LA"
+  },
+  {
+    "nhanes_var": "OHD29CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #29 FGM/CEJ"
+  },
+  {
+    "nhanes_var": "OHD29PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "LOA: mesial #29 PD"
+  },
+  {
+    "nhanes_var": "OHD29LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Loss of Attachment (LA) measured at mesial surface of tooth #29; stored as numeric value in measurement table."
+  },
+  {
+    "nhanes_var": "OHD28CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial (central) measurement of tooth #28 at FGM/CEJ; likely a periodontal depth measurement."
+  },
+  {
+    "nhanes_var": "OHD28PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial periodontal probing depth (PD) for tooth #28."
+  },
+  {
+    "nhanes_var": "OHD28LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated Loss of Attachment (LA) at mid-facial of tooth #28."
+  },
+  {
+    "nhanes_var": "OHD28CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial surface measurement of tooth #28 at FGM/CEJ."
+  },
+  {
+    "nhanes_var": "OHD28PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial periodontal probing depth (PD) for tooth #28."
+  },
+  {
+    "nhanes_var": "OHD28LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated Loss of Attachment (LA) at mesial of tooth #28."
+  },
+  {
+    "nhanes_var": "OHD27CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial measurement of tooth #27 at FGM/CEJ."
+  },
+  {
+    "nhanes_var": "OHD27PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial periodontal probing depth (PD) for tooth #27."
+  },
+  {
+    "nhanes_var": "OHD27LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated Loss of Attachment (LA) at mid-facial of tooth #27."
+  },
+  {
+    "nhanes_var": "OHD27CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial surface measurement of tooth #27 at FGM/CEJ."
+  },
+  {
+    "nhanes_var": "OHD27PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mesial periodontal probing depth (PD) for tooth #27."
+  },
+  {
+    "nhanes_var": "OHD27LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated Loss of Attachment (LA) at mesial of tooth #27."
+  },
+  {
+    "nhanes_var": "OHD26CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial measurement of tooth #26 at FGM/CEJ."
+  },
+  {
+    "nhanes_var": "OHD26PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Mid-facial periodontal probing depth (PD) for tooth #26."
+  },
+  {
+    "nhanes_var": "OHD26LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated LA for tooth #26, mid-facial"
+  },
+  {
+    "nhanes_var": "OHD26CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ measurement for tooth #26, mesial"
+  },
+  {
+    "nhanes_var": "OHD26PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Probing depth for tooth #26, mesial"
+  },
+  {
+    "nhanes_var": "OHD26LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated LA for tooth #26, mesial"
+  },
+  {
+    "nhanes_var": "OHD25CJM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ for tooth #25, mid-facial"
+  },
+  {
+    "nhanes_var": "OHD25PCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Probing depth for tooth #25, mid-facial"
+  },
+  {
+    "nhanes_var": "OHD25LAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated LA for tooth #25, mid-facial"
+  },
+  {
+    "nhanes_var": "OHD25CJS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "FGM/CEJ for tooth #25, mesial"
+  },
+  {
+    "nhanes_var": "OHD25PCS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Probing depth for tooth #25, mesial"
+  },
+  {
+    "nhanes_var": "OHD25LAS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Calculated LA for tooth #25, mesial"
+  }
+]

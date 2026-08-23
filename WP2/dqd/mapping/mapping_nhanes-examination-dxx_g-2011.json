@@ -1,0 +1,548 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as external person identifier."
+  },
+  {
+    "nhanes_var": "DXAEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "DXA exam status; stored as a measurement concept."
+  },
+  {
+    "nhanes_var": "DXAHEBV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head bone invalidity code; stored as a measurement concept."
+  },
+  {
+    "nhanes_var": "DXXHEA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head area (cm^2); stored as a measurement concept with unit cm^2."
+  },
+  {
+    "nhanes_var": "DXXHEBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head bone mineral content (g); stored as a measurement concept with unit g."
+  },
+  {
+    "nhanes_var": "DXXHEBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head bone mineral density (g/cm^2); stored as a measurement concept with unit g/cm^2."
+  },
+  {
+    "nhanes_var": "DXAHETV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head tissue invalidity code; stored as a measurement concept."
+  },
+  {
+    "nhanes_var": "DXXHEFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head fat (g); stored as a measurement concept with unit g."
+  },
+  {
+    "nhanes_var": "DXDHELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head lean excluding BMC (g); stored as a measurement concept with unit g."
+  },
+  {
+    "nhanes_var": "DXXHELI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head lean including BMC (g); stored as a measurement concept with unit g."
+  },
+  {
+    "nhanes_var": "DXDHETOT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head total (g); stored as a measurement concept with unit g."
+  },
+  {
+    "nhanes_var": "DXDHEPF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Head percent fat; stored as a measurement concept."
+  },
+  {
+    "nhanes_var": "DXALABV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left arm bone invalidity code; stored as a measurement concept."
+  },
+  {
+    "nhanes_var": "DXXLAA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left arm area (cm^2); stored as a measurement concept with unit cm^2."
+  },
+  {
+    "nhanes_var": "DXXLABMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left arm bone mineral content (g); stored as a measurement concept with unit g."
+  },
+  {
+    "nhanes_var": "DXXLABMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Left arm bone mineral density (g/cm^2) mapped to OMOP concept for BMD"
+  },
+  {
+    "nhanes_var": "DXALATV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Left arm tissue invalidity code; generic invalidity code concept"
+  },
+  {
+    "nhanes_var": "DXXLAFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Left arm fat mass (g) mapped to OMOP concept for fat mass"
+  },
+  {
+    "nhanes_var": "DXDLALE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Left arm lean mass excluding BMC (g) mapped to OMOP concept for lean mass"
+  },
+  {
+    "nhanes_var": "DXXLALI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Left arm lean mass including BMC (g) mapped to OMOP concept for lean mass"
+  },
+  {
+    "nhanes_var": "DXDLATOT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Left arm total mass (g) mapped to OMOP concept for total body mass"
+  },
+  {
+    "nhanes_var": "DXDLAPF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010006,
+    "notes": "Left arm percent fat; no direct concept, use generic percent body fat concept"
+  },
+  {
+    "nhanes_var": "DXALLBV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Left leg bone invalidity code; generic invalidity code concept"
+  },
+  {
+    "nhanes_var": "DXXLLA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010004,
+    "notes": "Left leg area (cm^2) mapped to OMOP concept for body area"
+  },
+  {
+    "nhanes_var": "DXXLLBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010007,
+    "notes": "Left leg bone mineral content (g) mapped to OMOP concept for bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXLLBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Left leg bone mineral density (g/cm^2) mapped to OMOP concept for BMD"
+  },
+  {
+    "nhanes_var": "DXALLTV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Left leg tissue invalidity code; generic invalidity code concept"
+  },
+  {
+    "nhanes_var": "DXXLLFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Left leg fat mass (g) mapped to OMOP concept for fat mass"
+  },
+  {
+    "nhanes_var": "DXDLLLE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Left leg lean mass excluding BMC (g) mapped to OMOP concept for lean mass"
+  },
+  {
+    "nhanes_var": "DXXLLLI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Left leg lean mass including BMC (g) mapped to OMOP concept for lean mass"
+  },
+  {
+    "nhanes_var": "DXXRLBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg bone mineral density (BMD) \u2013 stored as a measurement with concept ID for BMD of right leg if available."
+  },
+  {
+    "nhanes_var": "DXARLTV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg tissue invalidity code \u2013 recorded as a measurement with a concept for tissue validity status."
+  },
+  {
+    "nhanes_var": "DXXRLFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg fat mass \u2013 measurement of body composition; concept ID for fat mass of right leg if defined."
+  },
+  {
+    "nhanes_var": "DXDRLLE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg lean mass excluding bone mineral content \u2013 body composition measurement."
+  },
+  {
+    "nhanes_var": "DXXRLLI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg lean mass including bone mineral content \u2013 body composition measurement."
+  },
+  {
+    "nhanes_var": "DXDRLTOT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg total mass \u2013 body composition measurement."
+  },
+  {
+    "nhanes_var": "DXDRLPF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right leg percent fat \u2013 body composition measurement."
+  },
+  {
+    "nhanes_var": "DXXLRA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ribs area \u2013 measurement of bone area; concept ID for left ribs area if defined."
+  },
+  {
+    "nhanes_var": "DXXLRBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ribs bone mineral content \u2013 measurement of BMC."
+  },
+  {
+    "nhanes_var": "DXXLRBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Left ribs bone mineral density \u2013 measurement of BMD."
+  },
+  {
+    "nhanes_var": "DXXRRA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ribs area \u2013 measurement of bone area."
+  },
+  {
+    "nhanes_var": "DXXRRBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ribs bone mineral content \u2013 measurement of BMC."
+  },
+  {
+    "nhanes_var": "DXXRRBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Right ribs bone mineral density \u2013 measurement of BMD."
+  },
+  {
+    "nhanes_var": "DXXTSA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thoracic spine area \u2013 measurement of bone area."
+  },
+  {
+    "nhanes_var": "DXXTSBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thoracic spine bone mineral content \u2013 measurement of BMC."
+  },
+  {
+    "nhanes_var": "DXXTSBMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Thoracic spine bone mineral density (g/cm^2) mapped to OMOP concept 3800010 (Bone mineral density)"
+  },
+  {
+    "nhanes_var": "DXXLSA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800012,
+    "notes": "Lumbar spine area (cm^2) mapped to OMOP concept 3800012 (Bone area)"
+  },
+  {
+    "nhanes_var": "DXXLSBMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800011,
+    "notes": "Lumbar spine bone mineral content (g) mapped to OMOP concept 3800011 (Bone mineral content)"
+  },
+  {
+    "nhanes_var": "DXXLSBMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Lumbar spine bone mineral density (g/cm^2) mapped to OMOP concept 3800010 (Bone mineral density)"
+  },
+  {
+    "nhanes_var": "DXXPEA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800012,
+    "notes": "Pelvis area (cm^2) mapped to OMOP concept 3800012 (Bone area)"
+  },
+  {
+    "nhanes_var": "DXXPEBMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800011,
+    "notes": "Pelvis bone mineral content (g) mapped to OMOP concept 3800011 (Bone mineral content)"
+  },
+  {
+    "nhanes_var": "DXXPEBMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Pelvis bone mineral density (g/cm^2) mapped to OMOP concept 3800010 (Bone mineral density)"
+  },
+  {
+    "nhanes_var": "DXATRBV",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Trunk bone invalidity code (categorical) \u2013 no standard OMOP concept, stored as concept ID"
+  },
+  {
+    "nhanes_var": "DXDTRA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800012,
+    "notes": "Trunk bone area (cm^2) mapped to OMOP concept 3800012 (Bone area)"
+  },
+  {
+    "nhanes_var": "DXDTRBMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800011,
+    "notes": "Trunk bone mineral content (g) mapped to OMOP concept 3800011 (Bone mineral content)"
+  },
+  {
+    "nhanes_var": "DXDTRBMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800010,
+    "notes": "Trunk bone mineral density (g/cm^2) mapped to OMOP concept 3800010 (Bone mineral density)"
+  },
+  {
+    "nhanes_var": "DXATRTV",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Trunk tissue invalidity code (categorical) \u2013 no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "DXXTRFAT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800014,
+    "notes": "Trunk fat mass (g) mapped to OMOP concept 3800014 (Fat mass)"
+  },
+  {
+    "nhanes_var": "DXDTRLE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800015,
+    "notes": "Trunk lean mass excluding BMC (g) mapped to OMOP concept 3800015 (Lean mass)"
+  },
+  {
+    "nhanes_var": "DXXTRLI",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800015,
+    "notes": "Trunk lean mass including BMC (g) mapped to OMOP concept 3800015 (Lean mass)"
+  },
+  {
+    "nhanes_var": "DXDTRTOT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Trunk total mass (g) mapped to Body mass"
+  },
+  {
+    "nhanes_var": "DXDTRPF",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010008,
+    "notes": "Trunk percent fat mapped to Body fat percentage"
+  },
+  {
+    "nhanes_var": "DXDSTA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Subtotal area (cm^2) \u2013 no direct OMOP concept; use custom concept if needed"
+  },
+  {
+    "nhanes_var": "DXDSTBMC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010006,
+    "notes": "Subtotal bone mineral content mapped to Body bone mineral content"
+  },
+  {
+    "nhanes_var": "DXDSTBMD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010007,
+    "notes": "Subtotal bone mineral density mapped to Body bone mineral density"
+  },
+  {
+    "nhanes_var": "DXDSTFAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010004,
+    "notes": "Subtotal fat mass mapped to Body fat mass"
+  },
+  {
+    "nhanes_var": "DXDSTLE",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Subtotal lean mass (excl BMC) mapped to Body lean mass"
+  },
+  {
+    "nhanes_var": "DXDSTLI",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Subtotal lean mass (incl BMC) mapped to Body lean mass"
+  },
+  {
+    "nhanes_var": "DXDSTTOT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Subtotal total mass (excl head) mapped to Body mass"
+  },
+  {
+    "nhanes_var": "DXDSTPF",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010008,
+    "notes": "Subtotal percent fat mapped to Body fat percentage"
+  },
+  {
+    "nhanes_var": "DXDTOA",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total area (cm^2) \u2013 no direct OMOP concept; use custom concept if needed"
+  },
+  {
+    "nhanes_var": "DXDTOBMC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010006,
+    "notes": "Total bone mineral content mapped to Body bone mineral content"
+  },
+  {
+    "nhanes_var": "DXDTOBMD",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010007,
+    "notes": "Total bone mineral density mapped to Body bone mineral density"
+  },
+  {
+    "nhanes_var": "DXDTOFAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010004,
+    "notes": "Total fat mass mapped to Body fat mass"
+  },
+  {
+    "nhanes_var": "DXDTOLE",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010005,
+    "notes": "Total lean mass (excl BMC) mapped to Body lean mass"
+  },
+  {
+    "nhanes_var": "DXDTOLI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Total lean mass including bone mineral content measured by DXA"
+  },
+  {
+    "nhanes_var": "DXDTOTOT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Total body mass (lean + fat) measured by DXA"
+  },
+  {
+    "nhanes_var": "DXDTOPF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Total percent body fat measured by DXA"
+  }
+]

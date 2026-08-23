@@ -1,0 +1,611 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as the unique person identifier."
+  },
+  {
+    "nhanes_var": "DSDPID",
+    "omop_table": "observation",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Supplement ID number stored as the source value of the observation."
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Supplement name represented by the standard concept for \"Dietary supplement\"."
+  },
+  {
+    "nhanes_var": "DSDANTA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator that an antacid was reported as a dietary supplement."
+  },
+  {
+    "nhanes_var": "DSD070",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of whether the supplement container was seen."
+  },
+  {
+    "nhanes_var": "DSDMTCH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal matching code for the supplement."
+  },
+  {
+    "nhanes_var": "DSD090",
+    "omop_table": "drug_exposure",
+    "omop_field": "days_supply",
+    "concept_id": null,
+    "notes": "Number of days the supplement was taken."
+  },
+  {
+    "nhanes_var": "DSD103",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Days the supplement was taken in the past 30 days."
+  },
+  {
+    "nhanes_var": "DSD122Q",
+    "omop_table": "drug_exposure",
+    "omop_field": "dose_value",
+    "concept_id": null,
+    "notes": "Quantity of supplement taken daily."
+  },
+  {
+    "nhanes_var": "DSD122U",
+    "omop_table": "drug_exposure",
+    "omop_field": "drug_form_concept_id",
+    "concept_id": null,
+    "notes": "Dosage form of the supplement (e.g., tablet, capsule)."
+  },
+  {
+    "nhanes_var": "DSDACTSS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reported serving size or label serving size."
+  },
+  {
+    "nhanes_var": "DSDDAY1",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator that the product was reported on Day 1."
+  },
+  {
+    "nhanes_var": "DSDDAY2",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator that the product was reported on Day 2."
+  },
+  {
+    "nhanes_var": "DSQ124",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Whether the product was taken on one's own or advised by a doctor."
+  },
+  {
+    "nhanes_var": "DSQ128A",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Indication that the supplement was taken for good bowel/colon health."
+  },
+  {
+    "nhanes_var": "DSQ128B",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: prostate health"
+  },
+  {
+    "nhanes_var": "DSQ128C",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: mental health"
+  },
+  {
+    "nhanes_var": "DSQ128D",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: prevent health problems"
+  },
+  {
+    "nhanes_var": "DSQ128E",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: improve overall health"
+  },
+  {
+    "nhanes_var": "DSQ128F",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: teeth, prevent cavities"
+  },
+  {
+    "nhanes_var": "DSQ128G",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: supplement diet, food not enough"
+  },
+  {
+    "nhanes_var": "DSQ128H",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: maintain health (stay healthy)"
+  },
+  {
+    "nhanes_var": "DSQ128I",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: prevent colds, boost immune system"
+  },
+  {
+    "nhanes_var": "DSQ128J",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: heart health, cholesterol"
+  },
+  {
+    "nhanes_var": "DSQ128K",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: eye health"
+  },
+  {
+    "nhanes_var": "DSQ128L",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: healthy joints, arthritis"
+  },
+  {
+    "nhanes_var": "DSQ128M",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: healthy skin, hair and nails"
+  },
+  {
+    "nhanes_var": "DSQ128N",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: weight loss"
+  },
+  {
+    "nhanes_var": "DSQ128O",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: bone health"
+  },
+  {
+    "nhanes_var": "DSQ128P",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Reason for supplement use: get more energy"
+  },
+  {
+    "nhanes_var": "DSQ128Q",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for pregnancy/breastfeeding"
+  },
+  {
+    "nhanes_var": "DSQ128R",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for anemia (e.g., low iron)"
+  },
+  {
+    "nhanes_var": "DSD128T",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use to maintain blood sugar (diabetes)"
+  },
+  {
+    "nhanes_var": "DSD128V",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for kidney and bladder health"
+  },
+  {
+    "nhanes_var": "DSD128W",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for respiratory health (asthma)"
+  },
+  {
+    "nhanes_var": "DSD128X",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for allergies"
+  },
+  {
+    "nhanes_var": "DSD128Z",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use to improve digestion"
+  },
+  {
+    "nhanes_var": "DSD128AA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for menopause (hot flashes)"
+  },
+  {
+    "nhanes_var": "DSD128BB",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for muscle-related issues (muscle cramps)"
+  },
+  {
+    "nhanes_var": "DSD128DD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for relaxation, stress, sleep"
+  },
+  {
+    "nhanes_var": "DSD128EE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for nervous system health"
+  },
+  {
+    "nhanes_var": "DSD128FF",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for liver health (detoxification)"
+  },
+  {
+    "nhanes_var": "DSD128GG",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for antioxidants"
+  },
+  {
+    "nhanes_var": "DSD128HH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use influenced by word of mouth or advertisement"
+  },
+  {
+    "nhanes_var": "DSD128II",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000182,
+    "notes": "Dietary supplement use for thyroid health or gout"
+  },
+  {
+    "nhanes_var": "DSD128JJ",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: weight gain."
+  },
+  {
+    "nhanes_var": "DSD128KK",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: low blood levels."
+  },
+  {
+    "nhanes_var": "DSD128LL",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: support after surgery."
+  },
+  {
+    "nhanes_var": "DSD128MM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: headaches and dizziness."
+  },
+  {
+    "nhanes_var": "DSQ128NN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: to build muscle."
+  },
+  {
+    "nhanes_var": "DSD128OO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: inflammation."
+  },
+  {
+    "nhanes_var": "DSD128PP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: fluid/water balance."
+  },
+  {
+    "nhanes_var": "DSQ128S",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Self\u2011reported reason for supplement use: other."
+  },
+  {
+    "nhanes_var": "DSQIKCAL",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Dietary energy intake (kcal)."
+  },
+  {
+    "nhanes_var": "DSQIPROT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380002,
+    "notes": "Protein intake (grams)."
+  },
+  {
+    "nhanes_var": "DSQICARB",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380003,
+    "notes": "Carbohydrate intake (grams)."
+  },
+  {
+    "nhanes_var": "DSQISUGR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380004,
+    "notes": "Total sugars intake (grams)."
+  },
+  {
+    "nhanes_var": "DSQIFIBE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380005,
+    "notes": "Dietary fiber intake (grams)."
+  },
+  {
+    "nhanes_var": "DSQITFAT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380006,
+    "notes": "Total fat intake (grams)."
+  },
+  {
+    "nhanes_var": "DSQISFAT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380007,
+    "notes": "Total saturated fatty acids intake (grams)."
+  },
+  {
+    "nhanes_var": "DSQIMFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total monounsaturated fatty acids intake (grams) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total polyunsaturated fatty acids intake (grams) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQICHOL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cholesterol intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQILYCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lycopene intake (mcg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQILZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake (mcg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQINIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Niacin intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B6 intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Folic acid intake (mcg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Folate, DFE intake (mcg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQICHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total choline intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin B12 intake (mcg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin C intake (mg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin K intake (mcg) mapped to OMOP Measurement table"
+  },
+  {
+    "nhanes_var": "DSQIVD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vitamin D (D2 + D3) intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQICALC",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calcium intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQIPHOS",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Phosphorus intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQIMAGN",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Magnesium intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQIIRON",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Iron intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQIZINC",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Zinc intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQICOPP",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Copper intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQISODI",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Sodium intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQIPOTA",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Potassium intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQISELE",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Selenium intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQICAFF",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Caffeine intake; map to OMOP nutrient concept"
+  },
+  {
+    "nhanes_var": "DSQIIODI",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Iodine intake; map to OMOP nutrient concept"
+  }
+]

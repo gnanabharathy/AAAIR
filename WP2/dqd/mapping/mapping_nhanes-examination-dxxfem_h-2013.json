@@ -1,0 +1,142 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "DXAFMRST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Femur scan status (categorical) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXFMBCC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total femur BMD invalidity code (categorical) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXOFBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Total femur bone mineral density (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXOFBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Total femur bone mineral content (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXOFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Total femur area (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXNKBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Femoral neck bone mineral density (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXNKBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Femoral neck bone mineral content (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXNKA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Femoral neck area (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXTRBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Trochanter bone mineral density (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXTRBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Trochanter bone mineral content (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXTRA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Trochanter area (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXINBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Intertrochanter bone mineral density (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXINBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Intertrochanter bone mineral content (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXINA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Intertrochanter area (continuous) mapped to measurement"
+  },
+  {
+    "nhanes_var": "DXXWDBMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "Wards triangle bone mineral density (BMD) mapped to OMOP concept \"Bone mineral density\""
+  },
+  {
+    "nhanes_var": "DXXWDBMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Wards triangle bone mineral content (BMC) mapped to OMOP concept \"Bone mineral content\""
+  },
+  {
+    "nhanes_var": "DXXWDA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Wards triangle area mapped to OMOP concept \"Bone area\""
+  },
+  {
+    "nhanes_var": "DXAFMRK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Calculated K value for femur mapped to OMOP concept \"K value\""
+  },
+  {
+    "nhanes_var": "DXAFMRD0",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010004,
+    "notes": "Calculated DO value for femur mapped to OMOP concept \"DO value\""
+  }
+]

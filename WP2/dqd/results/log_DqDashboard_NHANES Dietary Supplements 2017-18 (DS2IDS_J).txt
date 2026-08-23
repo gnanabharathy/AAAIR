@@ -1,0 +1,40 @@
+2026-07-23 21:47:39	[Main thread]	INFO	readr	cli_block	 ── Column specification ──────────────────────────────────────────────────────── cols(   checkLevel = col_character(),   checkName = col_character(),   checkDescription = col_character(),   kahnContext = col_character(),   kahnCategory = col_character(),   kahnSubcategory = col_character(),   sqlFile = col_character(),   evaluationFilter = col_character(),   severity = col_character() ) 
+2026-07-23 21:47:39	[Main thread]	INFO	DataQualityDashboard	executeDqChecks	CDM Tables skipped: CONCEPT, VOCABULARY, CONCEPT_ANCESTOR, CONCEPT_RELATIONSHIP, CONCEPT_CLASS, CONCEPT_SYNONYM, RELATIONSHIP, DOMAIN
+2026-07-23 21:47:39	[Main thread]	WARN	DataQualityDashboard	executeDqChecks	DEPRECATION WARNING - The plausibleDuringLife check has been reimplemented with the plausibleBeforeDeath check.
+2026-07-23 21:47:39	[Main thread]	WARN	DataQualityDashboard	executeDqChecks	DEPRECATION WARNING - The plausibleTemporalAfter check has been reimplemented with the plausibleAfterBirth and plausibleStartBeforeEnd checks.
+2026-07-23 21:47:39	[Main thread]	WARN	DataQualityDashboard	executeDqChecks	DEPRECATION WARNING - The plausibleGender check has been reimplemented with the plausibleGenderUseDescendants check.
+2026-07-23 21:47:39	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
+2026-07-23 21:47:39	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmTable
+2026-07-23 21:47:41	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measurePersonCompleteness
+2026-07-23 21:47:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureConditionEraCompleteness
+2026-07-23 21:47:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureObservationPeriodOverlap
+2026-07-23 21:47:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmField
+2026-07-23 21:48:04	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isRequired
+2026-07-23 21:48:10	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmDatatype
+2026-07-23 21:48:56	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isPrimaryKey
+2026-07-23 21:48:58	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isForeignKey
+2026-07-23 21:49:15	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkDomain
+2026-07-23 21:49:17	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkClass
+2026-07-23 21:49:17	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isStandardValidConcept
+2026-07-23 21:49:21	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureValueCompleteness
+2026-07-23 21:49:52	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: standardConceptRecordCompleteness
+2026-07-23 21:49:58	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceConceptRecordCompleteness
+2026-07-23 21:50:01	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceValueCompleteness
+2026-07-23 21:50:16	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueLow
+2026-07-23 21:50:20	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueHigh
+2026-07-23 21:50:25	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleTemporalAfter
+2026-07-23 21:50:25	[Main thread]	ERROR	DataQualityDashboard	3	[Level: FIELD] [Check: plausibleTemporalAfter] [CDM Table: MEASUREMENT] [CDM Field: MEASUREMENT_DATE] Error executing SQL: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: "00601" An error report has been created at  dqd/raw/errors/FIELD_plausibleTemporalAfter_MEASUREMENT_MEASUREMENT_DATE.txt
+2026-07-23 21:50:25	[Main thread]	ERROR	DataQualityDashboard	3	[Level: FIELD] [Check: plausibleTemporalAfter] [CDM Table: OBSERVATION] [CDM Field: OBSERVATION_DATE] Error executing SQL: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: "00601" An error report has been created at  dqd/raw/errors/FIELD_plausibleTemporalAfter_OBSERVATION_OBSERVATION_DATE.txt
+2026-07-23 21:50:25	[Main thread]	ERROR	DataQualityDashboard	3	[Level: FIELD] [Check: plausibleTemporalAfter] [CDM Table: OBSERVATION] [CDM Field: OBSERVATION_DATETIME] Error executing SQL: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: "00601" An error report has been created at  dqd/raw/errors/FIELD_plausibleTemporalAfter_OBSERVATION_OBSERVATION_DATETIME.txt
+2026-07-23 21:50:26	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleDuringLife
+2026-07-23 21:50:26	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: withinVisitDates
+2026-07-23 21:50:27	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleAfterBirth
+2026-07-23 21:50:27	[Main thread]	ERROR	DataQualityDashboard	3	[Level: FIELD] [Check: plausibleAfterBirth] [CDM Table: MEASUREMENT] [CDM Field: MEASUREMENT_DATE] Error executing SQL: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: "00101" An error report has been created at  dqd/raw/errors/FIELD_plausibleAfterBirth_MEASUREMENT_MEASUREMENT_DATE.txt
+2026-07-23 21:50:28	[Main thread]	ERROR	DataQualityDashboard	3	[Level: FIELD] [Check: plausibleAfterBirth] [CDM Table: OBSERVATION] [CDM Field: OBSERVATION_DATE] Error executing SQL: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: "00101" An error report has been created at  dqd/raw/errors/FIELD_plausibleAfterBirth_OBSERVATION_OBSERVATION_DATE.txt
+2026-07-23 21:50:29	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleBeforeDeath
+2026-07-23 21:50:31	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleStartBeforeEnd
+2026-07-23 21:50:31	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGender
+2026-07-23 21:50:36	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGenderUseDescendants
+2026-07-23 21:50:37	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleUnitConceptIds
+2026-07-23 21:52:51	[Main thread]	INFO	DataQualityDashboard	.writeResultsToJson	Writing results to file: dqd/raw/nhanes-dietary-ds2ids_j-2017.json
+2026-07-23 21:52:51	[Main thread]	INFO	DataQualityDashboard	executeDqChecks	Execution Complete

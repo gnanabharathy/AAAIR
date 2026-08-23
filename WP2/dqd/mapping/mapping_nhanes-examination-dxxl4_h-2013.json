@@ -1,0 +1,1535 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Unique participant identifier mapped to person source value"
+  },
+  {
+    "nhanes_var": "DXDLSPST",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "IVA lateral spine scan status stored as categorical observation"
+  },
+  {
+    "nhanes_var": "DXXL4CC",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "L4 fracture invalidity code as categorical observation"
+  },
+  {
+    "nhanes_var": "DXXINITX",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "X\u2011coordinate of vertebral center point as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXINITY",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Y\u2011coordinate of vertebral center point as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXANIDX",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Number of vertebrae (ordinal) as categorical observation"
+  },
+  {
+    "nhanes_var": "DXXLABEL",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Vertebra label (T4\u2011L4) as categorical observation"
+  },
+  {
+    "nhanes_var": "DXXSQSCR",
+    "omop_table": "observation",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Genant SQ score (ordinal) as categorical observation"
+  },
+  {
+    "nhanes_var": "DXXPOSTH",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Posterior vertebral height as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXANTEH",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Anterior vertebral height as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXMIDH",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Middle vertebral height as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXWDGRT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Amount of wedge deformity as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXBICRT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Amount of biconcave deformity as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXCRURT",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Amount of UCSF crush deformity as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXWDGDE",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Percentage of wedge deformity as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXBICDE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Percentage of biconcave deformity \u2013 continuous measurement stored as numeric value"
+  },
+  {
+    "nhanes_var": "DXXCRUDE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Percentage of UCSF crush deformity \u2013 continuous measurement stored as numeric value"
+  },
+  {
+    "nhanes_var": "DXXSPX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of superior posterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXSPY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y\u2011coordinate of superior posterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXSMX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of superior mid point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXSMY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y\u2011coordinate of superior mid point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXSAX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of superior anterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXSAY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y\u2011coordinate of superior anterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXIAX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of inferior anterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXIAY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y\u2011coordinate of inferior anterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXIMX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of inferior mid point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXIMY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y\u2011coordinate of inferior mid point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXIPX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of inferior posterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXIPY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y\u2011coordinate of inferior posterior point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXPT0X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x\u2011coordinate of first outline point \u2013 continuous coordinate measurement"
+  },
+  {
+    "nhanes_var": "DXXPT0Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of first outline point, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT1X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 2, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT1Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 2, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT2X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 3, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT2Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 3, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT3X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 4, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT3Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 4, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT4X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 5, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT4Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 5, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT5X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 6, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT5Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 6, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT6X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 7, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT6Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 7, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT7X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 8, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT7Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 8, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT8X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 9"
+  },
+  {
+    "nhanes_var": "DXXPT8Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 9"
+  },
+  {
+    "nhanes_var": "DXXPT9X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 10"
+  },
+  {
+    "nhanes_var": "DXXPT9Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 10"
+  },
+  {
+    "nhanes_var": "DXXPT10X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 11"
+  },
+  {
+    "nhanes_var": "DXXPT10Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 11"
+  },
+  {
+    "nhanes_var": "DXXPT11X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 12"
+  },
+  {
+    "nhanes_var": "DXXPT11Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 12"
+  },
+  {
+    "nhanes_var": "DXXPT12X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 13"
+  },
+  {
+    "nhanes_var": "DXXPT12Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 13"
+  },
+  {
+    "nhanes_var": "DXXPT13X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 14"
+  },
+  {
+    "nhanes_var": "DXXPT13Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 14"
+  },
+  {
+    "nhanes_var": "DXXPT14X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 15"
+  },
+  {
+    "nhanes_var": "DXXPT14Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 15"
+  },
+  {
+    "nhanes_var": "DXXPT15X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 16"
+  },
+  {
+    "nhanes_var": "DXXPT15Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 16, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT16X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 17, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT16Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 17, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT17X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 18, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT17Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 18, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT18X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 19, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT18Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 19, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT19X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 20, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT19Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 20, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT20X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 21, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT20Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 21, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT21X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 22, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT21Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 22, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT22X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 23, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT22Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 23, numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT23X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 24; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT23Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 24; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT24X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 25; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT24Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 25; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT25X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 26; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT25Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 26; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT26X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 27; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT26Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 27; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT27X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 28; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT27Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 28; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT28X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 29; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT28Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 29; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT29X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 30; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT29Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 30; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT30X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 31; stored as a numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT30Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 31"
+  },
+  {
+    "nhanes_var": "DXXPT31X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 32"
+  },
+  {
+    "nhanes_var": "DXXPT31Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 32"
+  },
+  {
+    "nhanes_var": "DXXPT32X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 33"
+  },
+  {
+    "nhanes_var": "DXXPT32Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 33"
+  },
+  {
+    "nhanes_var": "DXXPT33X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 34"
+  },
+  {
+    "nhanes_var": "DXXPT33Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 34"
+  },
+  {
+    "nhanes_var": "DXXPT34X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 35"
+  },
+  {
+    "nhanes_var": "DXXPT34Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 35"
+  },
+  {
+    "nhanes_var": "DXXPT35X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 36"
+  },
+  {
+    "nhanes_var": "DXXPT35Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 36"
+  },
+  {
+    "nhanes_var": "DXXPT36X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 37"
+  },
+  {
+    "nhanes_var": "DXXPT36Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 37"
+  },
+  {
+    "nhanes_var": "DXXPT37X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 38"
+  },
+  {
+    "nhanes_var": "DXXPT37Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 38"
+  },
+  {
+    "nhanes_var": "DXXPT38X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 39; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT38Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 39; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT39X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 40; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT39Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 40; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT40X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 41; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT40Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 41; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT41X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 42; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT41Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 42; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT42X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 43; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT42Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 43; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT43X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 44; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT43Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 44; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT44X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 45; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT44Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 45; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT45X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 46; stored as a measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT45Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 46, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT46X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 47, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT46Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 47, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT47X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 48, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT47Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 48, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT48X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 49, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT48Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 49, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT49X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 50, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT49Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 50, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT50X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 51, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT50Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 51, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT51X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 52, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT51Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 52, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT52X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 53, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT52Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 53, stored as numeric measurement value"
+  },
+  {
+    "nhanes_var": "DXXPT53X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 54, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT53Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 54, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT54X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 55, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT54Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 55, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT55X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 56, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT55Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 56, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT56X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 57, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT56Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 57, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT57X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 58, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT57Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 58, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT58X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 59, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT58Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 59, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT59X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 60, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT59Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 60, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT60X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 61, stored as a continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT60Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 61, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT61X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 62, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT61Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 62, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT62X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 63, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT62Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 63, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT63X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 64, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT63Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 64, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT64X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 65, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT64Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 65, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT65X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 66, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT65Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 66, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT66X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 67, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT66Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 67, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT67X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 68, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT67Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 68, continuous measurement"
+  },
+  {
+    "nhanes_var": "DXXPT68X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 69"
+  },
+  {
+    "nhanes_var": "DXXPT68Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 69"
+  },
+  {
+    "nhanes_var": "DXXPT69X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 70"
+  },
+  {
+    "nhanes_var": "DXXPT69Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 70"
+  },
+  {
+    "nhanes_var": "DXXPT70X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 71"
+  },
+  {
+    "nhanes_var": "DXXPT70Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 71"
+  },
+  {
+    "nhanes_var": "DXXPT71X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 72"
+  },
+  {
+    "nhanes_var": "DXXPT71Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 72"
+  },
+  {
+    "nhanes_var": "DXXPT72X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 73"
+  },
+  {
+    "nhanes_var": "DXXPT72Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 73"
+  },
+  {
+    "nhanes_var": "DXXPT73X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 74"
+  },
+  {
+    "nhanes_var": "DXXPT73Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 74"
+  },
+  {
+    "nhanes_var": "DXXPT74X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 75"
+  },
+  {
+    "nhanes_var": "DXXPT74Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 75"
+  },
+  {
+    "nhanes_var": "DXXPT75X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 76"
+  },
+  {
+    "nhanes_var": "DXXPT75Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 76"
+  },
+  {
+    "nhanes_var": "DXXPT76X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 77"
+  },
+  {
+    "nhanes_var": "DXXPT76Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 77"
+  },
+  {
+    "nhanes_var": "DXXPT77X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 78"
+  },
+  {
+    "nhanes_var": "DXXPT77Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 78"
+  },
+  {
+    "nhanes_var": "DXXPT78X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 79"
+  },
+  {
+    "nhanes_var": "DXXPT78Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 79"
+  },
+  {
+    "nhanes_var": "DXXPT79X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 80"
+  },
+  {
+    "nhanes_var": "DXXPT79Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 80"
+  },
+  {
+    "nhanes_var": "DXXPT80X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 81"
+  },
+  {
+    "nhanes_var": "DXXPT80Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 81"
+  },
+  {
+    "nhanes_var": "DXXPT81X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 82"
+  },
+  {
+    "nhanes_var": "DXXPT81Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 82"
+  },
+  {
+    "nhanes_var": "DXXPT82X",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 83"
+  },
+  {
+    "nhanes_var": "DXXPT82Y",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 83"
+  },
+  {
+    "nhanes_var": "DXXPT83X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 84"
+  },
+  {
+    "nhanes_var": "DXXPT83Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 84"
+  },
+  {
+    "nhanes_var": "DXXPT84X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 85"
+  },
+  {
+    "nhanes_var": "DXXPT84Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 85"
+  },
+  {
+    "nhanes_var": "DXXPT85X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 86"
+  },
+  {
+    "nhanes_var": "DXXPT85Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 86"
+  },
+  {
+    "nhanes_var": "DXXPT86X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 87"
+  },
+  {
+    "nhanes_var": "DXXPT86Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 87"
+  },
+  {
+    "nhanes_var": "DXXPT87X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 88"
+  },
+  {
+    "nhanes_var": "DXXPT87Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 88"
+  },
+  {
+    "nhanes_var": "DXXPT88X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 89"
+  },
+  {
+    "nhanes_var": "DXXPT88Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 89"
+  },
+  {
+    "nhanes_var": "DXXPT89X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 90"
+  },
+  {
+    "nhanes_var": "DXXPT89Y",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 90"
+  },
+  {
+    "nhanes_var": "DXXPT90X",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 91"
+  },
+  {
+    "nhanes_var": "DXXPT90Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 91, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT91X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 92, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT91Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 92, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT92X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 93, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT92Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 93, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT93X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 94, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT93Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 94, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT94X",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "x-coordinate of outline point 95, stored as numeric measurement"
+  },
+  {
+    "nhanes_var": "DXXPT94Y",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "y-coordinate of outline point 95, stored as numeric measurement"
+  }
+]

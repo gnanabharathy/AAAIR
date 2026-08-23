@@ -1,0 +1,23 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique participant identifier"
+  },
+  {
+    "nhanes_var": "DSD010",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "drug_concept_id",
+    "concept_id": 380001,
+    "notes": "Any dietary supplement taken; represented as drug exposure with concept 'Dietary supplement'"
+  },
+  {
+    "nhanes_var": "DSDCOUNT",
+    "omop_table": "DRUG_EXPOSURE",
+    "omop_field": "quantity",
+    "concept_id": null,
+    "notes": "Total number of dietary supplements taken; stored as quantity in drug_exposure"
+  }
+]

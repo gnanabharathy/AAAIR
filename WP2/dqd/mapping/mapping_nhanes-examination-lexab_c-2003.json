@@ -1,0 +1,170 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "LEDSCCT2",
+    "omop_table": "note",
+    "omop_field": "note_text",
+    "concept_id": null,
+    "notes": "ABPI section comment stored as free text note"
+  },
+  {
+    "nhanes_var": "LEAARM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Arm tested (categorical) stored as source value"
+  },
+  {
+    "nhanes_var": "LEAARMC",
+    "omop_table": "note",
+    "omop_field": "note_text",
+    "concept_id": null,
+    "notes": "Arm comment stored as free text note"
+  },
+  {
+    "nhanes_var": "LEDARMCF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Brachial cuff size used stored as source value"
+  },
+  {
+    "nhanes_var": "LEQ020",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Large adult used, poor thigh cuff fit (binary) stored as source value"
+  },
+  {
+    "nhanes_var": "LEAANKL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ankle(s) tested (categorical) stored as source value"
+  },
+  {
+    "nhanes_var": "LEAANKLC",
+    "omop_table": "note",
+    "omop_field": "note_text",
+    "concept_id": null,
+    "notes": "Ankle comment stored as free text note"
+  },
+  {
+    "nhanes_var": "LEDANKCF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Ankle cuff size used stored as source value"
+  },
+  {
+    "nhanes_var": "LEXBRP1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 828100,
+    "notes": "Brachial SBP 1 (mm Hg) mapped to Systolic blood pressure concept"
+  },
+  {
+    "nhanes_var": "LEXBRP2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 828100,
+    "notes": "Brachial SBP 2 (mm Hg) mapped to Systolic blood pressure concept"
+  },
+  {
+    "nhanes_var": "LEXBRPM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 828100,
+    "notes": "Mean Brachial SBP (mm Hg) mapped to Systolic blood pressure concept"
+  },
+  {
+    "nhanes_var": "LEXLPTS1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 828100,
+    "notes": "Left Posterior Tibial SBP 1 (mm Hg) mapped to Systolic blood pressure concept"
+  },
+  {
+    "nhanes_var": "LEXLPTS2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 828100,
+    "notes": "Left Posterior Tibial SBP 2 (mm Hg) mapped to Systolic blood pressure concept"
+  },
+  {
+    "nhanes_var": "LEXLPTSM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 828100,
+    "notes": "Left Mean Posterior Tibial SBP (mm Hg) mapped to Systolic blood pressure concept"
+  },
+  {
+    "nhanes_var": "LEXLABPI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280000,
+    "notes": "Left ankle\u2011brachial index measurement"
+  },
+  {
+    "nhanes_var": "LEXRABPI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 4280000,
+    "notes": "Right ankle\u2011brachial index measurement"
+  },
+  {
+    "nhanes_var": "LEXRPTS1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 8280,
+    "notes": "Right posterior tibial systolic BP (first reading)"
+  },
+  {
+    "nhanes_var": "LEXRPTS2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 8280,
+    "notes": "Right posterior tibial systolic BP (second reading)"
+  },
+  {
+    "nhanes_var": "LEXRPTSM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 8280,
+    "notes": "Right posterior tibial mean systolic BP"
+  },
+  {
+    "nhanes_var": "LEALPTPD",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left posterior tibial pulse detected flag"
+  },
+  {
+    "nhanes_var": "LEARPTPD",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right posterior tibial pulse detected flag"
+  },
+  {
+    "nhanes_var": "LEALAPNC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Left ankle SBP > 255 mmHg flag"
+  },
+  {
+    "nhanes_var": "LEARAPNC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Right ankle SBP > 255 mmHg flag"
+  }
+]

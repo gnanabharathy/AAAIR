@@ -1,0 +1,825 @@
+{
+  "PTBXL_ecg_records": {
+    "name": "PTB-XL: Large Publicly Available Electrocardiography Dataset",
+    "desc": "21799 clinical 12-lead ECG records (10s each) from 18869 patients, ages 2-89 (293 records de-identified as age >89, encoded in the ~300 range per HIPAA convention -- excluded from this range). Annotated with up to two cardiologists' SCP-ECG statements (71 distinct statements) covering diagnostic, form, and rhythm categories. Waveforms at 500Hz (records500/) and downsampled 100Hz (records100/), WFDB format. Metadata (ptbxl_database.csv) is ETL-eligible; waveform files are catalog-only.",
+    "source": "PTB-XL",
+    "subtypes": [
+      "ecg"
+    ],
+    "tasks": [],
+    "last_updated": "2026-08-16",
+    "url": "https://physionet.org/content/ptb-xl/1.0.3/",
+    "etl_status": "etl_eligible",
+    "record_count": 21799,
+    "patient_count": 18869,
+    "age_obfuscated_gt_89_count": 293,
+    "diagnostic_superclasses": [
+      "NORM",
+      "MI",
+      "STTC",
+      "CD",
+      "HYP"
+    ],
+    "raw_data_format": "WFDB (.dat/.hea), catalog-only",
+    "metadata_format": "CSV, ETL-eligible",
+    "variable_count": 28,
+    "variables": [
+      {
+        "name": "ecg_id",
+        "label": "Record ID",
+        "english_text": "Unique identifier for each ECG record.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Identifier",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "patient_id",
+        "label": "Patient ID",
+        "english_text": "Unique identifier for the patient; a patient may have multiple ECG records.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Identifier",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "age",
+        "label": "Age",
+        "english_text": "Age of the patient at time of recording. Ages >89 are encoded in the ~300 range for HIPAA de-identification.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Continuous",
+        "unit": "years",
+        "notes": null
+      },
+      {
+        "name": "sex",
+        "label": "Sex",
+        "english_text": "Patient sex.",
+        "target": null,
+        "count": 21799,
+        "values": [
+          {
+            "code": "0",
+            "desc": "0",
+            "count": 11354
+          },
+          {
+            "code": "1",
+            "desc": "1",
+            "count": 10445
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "height",
+        "label": "Height",
+        "english_text": "Patient height, if recorded.",
+        "target": null,
+        "count": 6974,
+        "values": [],
+        "data_type": "Continuous",
+        "unit": "cm",
+        "notes": null
+      },
+      {
+        "name": "weight",
+        "label": "Weight",
+        "english_text": "Patient weight, if recorded.",
+        "target": null,
+        "count": 9421,
+        "values": [],
+        "data_type": "Continuous",
+        "unit": "kg",
+        "notes": null
+      },
+      {
+        "name": "nurse",
+        "label": "Recording Nurse (pseudonymized)",
+        "english_text": "Pseudonymized identifier of the nurse who performed the recording.",
+        "target": null,
+        "count": 20326,
+        "values": [
+          {
+            "code": "0.0",
+            "desc": "0.0",
+            "count": 8295
+          },
+          {
+            "code": "1.0",
+            "desc": "1.0",
+            "count": 5709
+          },
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 1473
+          },
+          {
+            "code": "5.0",
+            "desc": "5.0",
+            "count": 648
+          },
+          {
+            "code": "3.0",
+            "desc": "3.0",
+            "count": 642
+          },
+          {
+            "code": "2.0",
+            "desc": "2.0",
+            "count": 639
+          },
+          {
+            "code": "7.0",
+            "desc": "7.0",
+            "count": 639
+          },
+          {
+            "code": "4.0",
+            "desc": "4.0",
+            "count": 635
+          },
+          {
+            "code": "6.0",
+            "desc": "6.0",
+            "count": 631
+          },
+          {
+            "code": "8.0",
+            "desc": "8.0",
+            "count": 626
+          },
+          {
+            "code": "10.0",
+            "desc": "10.0",
+            "count": 626
+          },
+          {
+            "code": "11.0",
+            "desc": "11.0",
+            "count": 619
+          },
+          {
+            "code": "9.0",
+            "desc": "9.0",
+            "count": 617
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "site",
+        "label": "Recording Site (pseudonymized)",
+        "english_text": "Pseudonymized identifier of the recording site/hospital.",
+        "target": null,
+        "count": 21782,
+        "values": [],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "device",
+        "label": "ECG Device",
+        "english_text": "Recording device model used.",
+        "target": null,
+        "count": 21799,
+        "values": [
+          {
+            "code": "CS100    3",
+            "desc": "CS100    3",
+            "count": 6140
+          },
+          {
+            "code": "CS-12",
+            "desc": "CS-12",
+            "count": 4048
+          },
+          {
+            "code": "AT-6 C 5.5",
+            "desc": "AT-6 C 5.5",
+            "count": 3950
+          },
+          {
+            "code": "CS-12   E",
+            "desc": "CS-12   E",
+            "count": 2878
+          },
+          {
+            "code": "AT-6     6",
+            "desc": "AT-6     6",
+            "count": 2273
+          },
+          {
+            "code": "AT-60    3",
+            "desc": "AT-60    3",
+            "count": 966
+          },
+          {
+            "code": "AT-6 C 5.8",
+            "desc": "AT-6 C 5.8",
+            "count": 824
+          },
+          {
+            "code": "AT-6 C",
+            "desc": "AT-6 C",
+            "count": 514
+          },
+          {
+            "code": "AT-6 C 5.0",
+            "desc": "AT-6 C 5.0",
+            "count": 80
+          },
+          {
+            "code": "AT-6 C 5.3",
+            "desc": "AT-6 C 5.3",
+            "count": 67
+          },
+          {
+            "code": "AT-6 C 5.6",
+            "desc": "AT-6 C 5.6",
+            "count": 59
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "recording_date",
+        "label": "Recording Date",
+        "english_text": "Date of the ECG recording, shifted by a random per-patient offset for de-identification.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Text",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "report",
+        "label": "Report String",
+        "english_text": "Free-text report generated by cardiologist or automatic ECG-device interpretation.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Text",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "scp_codes",
+        "label": "SCP-ECG Statements",
+        "english_text": "Dictionary of SCP-ECG diagnostic statements with likelihoods (0 = unknown likelihood).",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Text",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "heart_axis",
+        "label": "Heart Axis",
+        "english_text": "Extracted cardiac electrical axis, where available.",
+        "target": null,
+        "count": 13331,
+        "values": [
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 8468
+          },
+          {
+            "code": "MID",
+            "desc": "MID",
+            "count": 7687
+          },
+          {
+            "code": "LAD",
+            "desc": "LAD",
+            "count": 3764
+          },
+          {
+            "code": "ALAD",
+            "desc": "ALAD",
+            "count": 1382
+          },
+          {
+            "code": "RAD",
+            "desc": "RAD",
+            "count": 221
+          },
+          {
+            "code": "ARAD",
+            "desc": "ARAD",
+            "count": 122
+          },
+          {
+            "code": "AXL",
+            "desc": "AXL",
+            "count": 101
+          },
+          {
+            "code": "AXR",
+            "desc": "AXR",
+            "count": 51
+          },
+          {
+            "code": "SAG",
+            "desc": "SAG",
+            "count": 3
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "infarction_stadium1",
+        "label": "Infarction Stadium (primary)",
+        "english_text": "Infarction staging, if applicable.",
+        "target": null,
+        "count": 5612,
+        "values": [
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 16187
+          },
+          {
+            "code": "unknown",
+            "desc": "unknown",
+            "count": 3430
+          },
+          {
+            "code": "Stadium III",
+            "desc": "Stadium III",
+            "count": 980
+          },
+          {
+            "code": "Stadium II-III",
+            "desc": "Stadium II-III",
+            "count": 943
+          },
+          {
+            "code": "Stadium I",
+            "desc": "Stadium I",
+            "count": 166
+          },
+          {
+            "code": "Stadium II",
+            "desc": "Stadium II",
+            "count": 88
+          },
+          {
+            "code": "Stadium I-II",
+            "desc": "Stadium I-II",
+            "count": 5
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "infarction_stadium2",
+        "label": "Infarction Stadium (secondary)",
+        "english_text": "Secondary infarction staging, if applicable.",
+        "target": null,
+        "count": 103,
+        "values": [
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 21696
+          },
+          {
+            "code": "Stadium III",
+            "desc": "Stadium III",
+            "count": 65
+          },
+          {
+            "code": "Stadium I",
+            "desc": "Stadium I",
+            "count": 19
+          },
+          {
+            "code": "Stadium II",
+            "desc": "Stadium II",
+            "count": 19
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "validated_by",
+        "label": "Validating Cardiologist (pseudonymized)",
+        "english_text": "Pseudonymized identifier of the validating cardiologist.",
+        "target": null,
+        "count": 12421,
+        "values": [
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 9378
+          },
+          {
+            "code": "0.0",
+            "desc": "0.0",
+            "count": 6120
+          },
+          {
+            "code": "1.0",
+            "desc": "1.0",
+            "count": 5127
+          },
+          {
+            "code": "2.0",
+            "desc": "2.0",
+            "count": 566
+          },
+          {
+            "code": "3.0",
+            "desc": "3.0",
+            "count": 175
+          },
+          {
+            "code": "4.0",
+            "desc": "4.0",
+            "count": 115
+          },
+          {
+            "code": "6.0",
+            "desc": "6.0",
+            "count": 100
+          },
+          {
+            "code": "5.0",
+            "desc": "5.0",
+            "count": 90
+          },
+          {
+            "code": "7.0",
+            "desc": "7.0",
+            "count": 75
+          },
+          {
+            "code": "8.0",
+            "desc": "8.0",
+            "count": 37
+          },
+          {
+            "code": "9.0",
+            "desc": "9.0",
+            "count": 9
+          },
+          {
+            "code": "10.0",
+            "desc": "10.0",
+            "count": 6
+          },
+          {
+            "code": "11.0",
+            "desc": "11.0",
+            "count": 1
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "second_opinion",
+        "label": "Second Opinion Given",
+        "english_text": "Whether a second cardiologist reviewed the record.",
+        "target": null,
+        "count": 21799,
+        "values": [
+          {
+            "code": "False",
+            "desc": "False",
+            "count": 21244
+          },
+          {
+            "code": "True",
+            "desc": "True",
+            "count": 555
+          }
+        ],
+        "data_type": "Binary",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "initial_autogenerated_report",
+        "label": "Auto-generated Report Flag",
+        "english_text": "Whether the initial report was auto-generated by the ECG device.",
+        "target": null,
+        "count": 21799,
+        "values": [
+          {
+            "code": "False",
+            "desc": "False",
+            "count": 14986
+          },
+          {
+            "code": "True",
+            "desc": "True",
+            "count": 6813
+          }
+        ],
+        "data_type": "Binary",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "validated_by_human",
+        "label": "Human-Validated Flag",
+        "english_text": "Whether the record was validated by a human cardiologist.",
+        "target": null,
+        "count": 21799,
+        "values": [
+          {
+            "code": "True",
+            "desc": "True",
+            "count": 16056
+          },
+          {
+            "code": "False",
+            "desc": "False",
+            "count": 5743
+          }
+        ],
+        "data_type": "Binary",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "baseline_drift",
+        "label": "Baseline Drift",
+        "english_text": "Signal quality flag for baseline drift artifacts.",
+        "target": null,
+        "count": 1598,
+        "values": [],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "static_noise",
+        "label": "Static Noise",
+        "english_text": "Signal quality flag for static noise artifacts.",
+        "target": null,
+        "count": 3260,
+        "values": [],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "burst_noise",
+        "label": "Burst Noise",
+        "english_text": "Signal quality flag for burst noise artifacts.",
+        "target": null,
+        "count": 613,
+        "values": [],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "electrodes_problems",
+        "label": "Electrode Problems",
+        "english_text": "Signal quality flag for electrode placement/contact issues.",
+        "target": null,
+        "count": 30,
+        "values": [
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 21769
+          },
+          {
+            "code": "V6",
+            "desc": "V6",
+            "count": 8
+          },
+          {
+            "code": "V4",
+            "desc": "V4",
+            "count": 5
+          },
+          {
+            "code": "V1",
+            "desc": "V1",
+            "count": 4
+          },
+          {
+            "code": "V1???",
+            "desc": "V1???",
+            "count": 2
+          },
+          {
+            "code": "V5",
+            "desc": "V5",
+            "count": 2
+          },
+          {
+            "code": "V3",
+            "desc": "V3",
+            "count": 1
+          },
+          {
+            "code": "V5,V6",
+            "desc": "V5,V6",
+            "count": 1
+          },
+          {
+            "code": "Kontaktprobleme aVL ???",
+            "desc": "Kontaktprobleme aVL ???",
+            "count": 1
+          },
+          {
+            "code": "I???",
+            "desc": "I???",
+            "count": 1
+          },
+          {
+            "code": "aVL???",
+            "desc": "aVL???",
+            "count": 1
+          },
+          {
+            "code": "v6????",
+            "desc": "v6????",
+            "count": 1
+          },
+          {
+            "code": "Elektroden vertauscht???",
+            "desc": "Elektroden vertauscht???",
+            "count": 1
+          },
+          {
+            "code": "v4, v5",
+            "desc": "v4, v5",
+            "count": 1
+          },
+          {
+            "code": "V3,V4-V6",
+            "desc": "V3,V4-V6",
+            "count": 1
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "extra_beats",
+        "label": "Extra Beats Count",
+        "english_text": "Count of extra systoles (ectopic beats) detected, if any.",
+        "target": null,
+        "count": 1949,
+        "values": [],
+        "data_type": "Continuous",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "pacemaker",
+        "label": "Pacemaker Signal Pattern",
+        "english_text": "Flag for signal patterns indicating an active pacemaker.",
+        "target": null,
+        "count": 291,
+        "values": [
+          {
+            "code": ".",
+            "desc": "Missing",
+            "count": 21508
+          },
+          {
+            "code": "ja, pacemaker",
+            "desc": "ja, pacemaker",
+            "count": 285
+          },
+          {
+            "code": "ja, nan",
+            "desc": "ja, nan",
+            "count": 3
+          },
+          {
+            "code": "PACE????, nan",
+            "desc": "PACE????, nan",
+            "count": 2
+          },
+          {
+            "code": "?, nan",
+            "desc": "?, nan",
+            "count": 1
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "strat_fold",
+        "label": "Stratified CV Fold",
+        "english_text": "Recommended 10-fold train/test split (1-8 train, 9 validation, 10 test), stratified so all records of a patient share a fold.",
+        "target": null,
+        "count": 21799,
+        "values": [
+          {
+            "code": "10",
+            "desc": "10",
+            "count": 2198
+          },
+          {
+            "code": "3",
+            "desc": "3",
+            "count": 2192
+          },
+          {
+            "code": "9",
+            "desc": "9",
+            "count": 2183
+          },
+          {
+            "code": "2",
+            "desc": "2",
+            "count": 2181
+          },
+          {
+            "code": "7",
+            "desc": "7",
+            "count": 2176
+          },
+          {
+            "code": "1",
+            "desc": "1",
+            "count": 2175
+          },
+          {
+            "code": "5",
+            "desc": "5",
+            "count": 2174
+          },
+          {
+            "code": "4",
+            "desc": "4",
+            "count": 2174
+          },
+          {
+            "code": "8",
+            "desc": "8",
+            "count": 2173
+          },
+          {
+            "code": "6",
+            "desc": "6",
+            "count": 2173
+          }
+        ],
+        "data_type": "Categorical",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "filename_lr",
+        "label": "Waveform Path (100Hz)",
+        "english_text": "Relative path to the downsampled 100Hz waveform file.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Identifier",
+        "unit": null,
+        "notes": null
+      },
+      {
+        "name": "filename_hr",
+        "label": "Waveform Path (500Hz)",
+        "english_text": "Relative path to the original 500Hz waveform file.",
+        "target": null,
+        "count": 21799,
+        "values": [],
+        "data_type": "Identifier",
+        "unit": null,
+        "notes": null
+      }
+    ]
+  }
+}

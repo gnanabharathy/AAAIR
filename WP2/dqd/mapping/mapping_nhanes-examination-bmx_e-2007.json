@@ -1,0 +1,163 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as person_source_value"
+  },
+  {
+    "nhanes_var": "BMDSTATS",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033622,
+    "notes": "Body measures component status code"
+  },
+  {
+    "nhanes_var": "BMXWT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033615,
+    "notes": "Body weight (kg)"
+  },
+  {
+    "nhanes_var": "BMIWT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_qualifier_concept_id",
+    "concept_id": null,
+    "notes": "Weight comment"
+  },
+  {
+    "nhanes_var": "BMXRECUM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033616,
+    "notes": "Recumbent length (cm)"
+  },
+  {
+    "nhanes_var": "BMIRECUM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_qualifier_concept_id",
+    "concept_id": null,
+    "notes": "Recumbent length comment"
+  },
+  {
+    "nhanes_var": "BMXHEAD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033617,
+    "notes": "Head circumference (cm)"
+  },
+  {
+    "nhanes_var": "BMIHEAD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_qualifier_concept_id",
+    "concept_id": null,
+    "notes": "Head circumference comment"
+  },
+  {
+    "nhanes_var": "BMXHT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033618,
+    "notes": "Standing height (cm)"
+  },
+  {
+    "nhanes_var": "BMIHT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_qualifier_concept_id",
+    "concept_id": null,
+    "notes": "Standing height comment"
+  },
+  {
+    "nhanes_var": "BMXBMI",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033619,
+    "notes": "Body mass index (kg/m^2)"
+  },
+  {
+    "nhanes_var": "BMXLEG",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033620,
+    "notes": "Upper leg length (cm)"
+  },
+  {
+    "nhanes_var": "BMILEG",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_qualifier_concept_id",
+    "concept_id": null,
+    "notes": "Upper leg length comment"
+  },
+  {
+    "nhanes_var": "BMXARML",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033621,
+    "notes": "Upper arm length (cm)"
+  },
+  {
+    "nhanes_var": "BMIARML",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_qualifier_concept_id",
+    "concept_id": null,
+    "notes": "Upper arm length comment"
+  },
+  {
+    "nhanes_var": "BMXARMC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 123456,
+    "notes": "Arm circumference measurement in cm"
+  },
+  {
+    "nhanes_var": "BMIARMC",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Comment or qualifier for arm circumference"
+  },
+  {
+    "nhanes_var": "BMXWAIST",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 123457,
+    "notes": "Waist circumference measurement in cm"
+  },
+  {
+    "nhanes_var": "BMIWAIST",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Comment or qualifier for waist circumference"
+  },
+  {
+    "nhanes_var": "BMXTRI",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 123458,
+    "notes": "Triceps skinfold thickness in mm"
+  },
+  {
+    "nhanes_var": "BMITRI",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Comment or qualifier for triceps skinfold"
+  },
+  {
+    "nhanes_var": "BMXSUB",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": 123459,
+    "notes": "Subscapular skinfold thickness in mm"
+  },
+  {
+    "nhanes_var": "BMISUB",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Comment or qualifier for subscapular skinfold"
+  }
+]

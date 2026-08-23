@@ -1,0 +1,93 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "ARDEXSTS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Arthritis exam status (categorical) stored as measurement value"
+  },
+  {
+    "nhanes_var": "ARXO2WD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Occiput-to-wall distance in centimeters"
+  },
+  {
+    "nhanes_var": "ARIO2WD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Comment for occiput-to-wall distance"
+  },
+  {
+    "nhanes_var": "ARXCCIN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Chest circumference during inspiration (cm)"
+  },
+  {
+    "nhanes_var": "ARIOCIN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Comment for chest circumference during inspiration"
+  },
+  {
+    "nhanes_var": "ARXCCEX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Chest circumference during exhalation (cm)"
+  },
+  {
+    "nhanes_var": "ARICCEX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Comment for chest circumference during exhalation"
+  },
+  {
+    "nhanes_var": "ARDDINEX",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Difference between inspiration and exhalation (cm)"
+  },
+  {
+    "nhanes_var": "ARXXDIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Xiphoid notch distance (cm)"
+  },
+  {
+    "nhanes_var": "ARIXDIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Comment for xiphoid notch distance"
+  },
+  {
+    "nhanes_var": "ARDLFTL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lumbar flexion test length (cm)"
+  },
+  {
+    "nhanes_var": "ARILFTL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Comment for lumbar flexion test length"
+  }
+]

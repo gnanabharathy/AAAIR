@@ -1,0 +1,240 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number stored as source value in Person table"
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Dietary day one sample weight recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "WTDR2D",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Dietary two-day sample weight recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DR1DRSTZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Dietary recall status recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DR1EXMER",
+    "omop_table": "provider",
+    "omop_field": "provider_source_value",
+    "concept_id": null,
+    "notes": "Interviewer ID code stored as provider source value"
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Number of days of intake recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DR1DBIH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Days between intake and household interview recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DR1DAY",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Intake day of the week recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DR1LANG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Language used by respondent recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DS1LOC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Location supplement originally recorded stored as a measurement source value"
+  },
+  {
+    "nhanes_var": "DSDSUPID",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "NCHS Supplement ID recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DSDSUPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Supplement Name recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DS1MTCH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Matching code recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DS1ANTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Antacid containing calcium/magnesium recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DS1ACTSS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Reported serving size/label serving size recorded as a measurement source value"
+  },
+  {
+    "nhanes_var": "DS1IKCAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Energy intake in kcal, mapped to measurement table as a continuous value"
+  },
+  {
+    "nhanes_var": "DS1IPROT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Protein intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ICARB",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Carbohydrate intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ISUGR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total sugars intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1IFIBE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Dietary fiber intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ITFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total fat intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ISFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total saturated fatty acids intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1IMFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total monounsaturated fatty acids intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1IPFAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Total polyunsaturated fatty acids intake in grams, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ICHOL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Cholesterol intake in mg, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ILYCO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lycopene intake in mcg, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1ILZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Lutein + zeaxanthin intake in mcg, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1IVB1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Thiamin (Vitamin B1) intake in mg, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1IVB2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Riboflavin (Vitamin B2) intake in mg, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1INIAC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Niacin intake in mg, continuous measurement"
+  },
+  {
+    "nhanes_var": "DS1IPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010000,
+    "notes": "Potassium (mg) measurement"
+  },
+  {
+    "nhanes_var": "DS1ISELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010001,
+    "notes": "Selenium (mcg) measurement"
+  },
+  {
+    "nhanes_var": "DS1ICAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010002,
+    "notes": "Caffeine (mg) measurement"
+  },
+  {
+    "nhanes_var": "DS1IIODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": 3010003,
+    "notes": "Iodine (mcg) measurement"
+  }
+]

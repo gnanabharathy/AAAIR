@@ -1,0 +1,170 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "DXASPNST",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Spine scan status recorded as an observation; concept not defined in OMOP"
+  },
+  {
+    "nhanes_var": "DXXOSBCC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Total spine BMD invalidity code stored as an observation"
+  },
+  {
+    "nhanes_var": "DXXL1BCC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L1 BMD invalidity code stored as an observation"
+  },
+  {
+    "nhanes_var": "DXXL2BCC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L2 BMD invalidity code stored as an observation"
+  },
+  {
+    "nhanes_var": "DXXL3BCC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L3 BMD invalidity code stored as an observation"
+  },
+  {
+    "nhanes_var": "DXXL4BCC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "L4 BMD invalidity code stored as an observation"
+  },
+  {
+    "nhanes_var": "DXXOSBMD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Total spine bone mineral density mapped to OMOP concept 380001 (Bone mineral density)"
+  },
+  {
+    "nhanes_var": "DXXOSBMC",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total spine bone mineral content; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXOSA",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total spine area; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXL1BMD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L1 bone mineral density; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXL1BMC",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L1 bone mineral content; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXL1A",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L1 area; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXL2BMD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L2 bone mineral density; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXL2BMC",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L2 bone mineral content; no standard OMOP concept, stored as custom measurement"
+  },
+  {
+    "nhanes_var": "DXXL2A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L2 area \u2013 continuous bone area measurement; no specific OMOP concept, use generic \"Bone area\" if available."
+  },
+  {
+    "nhanes_var": "DXXL3BMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "L3 bone mineral density \u2013 continuous measurement; mapped to OMOP concept \"Bone mineral density\"."
+  },
+  {
+    "nhanes_var": "DXXL3BMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "L3 bone mineral content \u2013 continuous measurement; mapped to OMOP concept \"Bone mineral content\"."
+  },
+  {
+    "nhanes_var": "DXXL3A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L3 area \u2013 continuous bone area measurement; no specific OMOP concept, use generic \"Bone area\" if available."
+  },
+  {
+    "nhanes_var": "DXXL4BMD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010000,
+    "notes": "L4 bone mineral density \u2013 continuous measurement; mapped to OMOP concept \"Bone mineral density\"."
+  },
+  {
+    "nhanes_var": "DXXL4BMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "L4 bone mineral content \u2013 continuous measurement; mapped to OMOP concept \"Bone mineral content\"."
+  },
+  {
+    "nhanes_var": "DXXL4A",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "L4 area \u2013 continuous bone area measurement; no specific OMOP concept, use generic \"Bone area\" if available."
+  },
+  {
+    "nhanes_var": "DXASPNK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated K for spine \u2013 continuous derived value; no standard OMOP concept, store as custom measurement."
+  },
+  {
+    "nhanes_var": "DXASPND0",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Calculated DO for spine \u2013 continuous derived value; no standard OMOP concept, store as custom measurement."
+  }
+]

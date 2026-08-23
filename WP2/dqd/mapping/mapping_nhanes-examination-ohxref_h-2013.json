@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP Person.person_id"
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall Oral Health Exam Status recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHDRCSTS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recommendation Care Status Code recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAREC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall recommendation for care recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROCDT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Binary indicator of decayed teeth mapped to OMOP concept \"Decayed tooth\""
+  },
+  {
+    "nhanes_var": "OHAROCGP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of gum disease/problem recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROCOH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of oral hygiene status recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROCCI",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of soft tissue condition impression recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROCDE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of denture/partial denture/plates presence recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHARNF",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of no significant findings recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAROTH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of other findings recorded as an Observation"
+  },
+  {
+    "nhanes_var": "OHAPOS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of recumbent exam position recorded as an Observation"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id."
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status; stored as an observation concept."
+  },
+  {
+    "nhanes_var": "OHDRCSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recommendation care status code; recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHAREC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall recommendation for care; stored as an observation."
+  },
+  {
+    "nhanes_var": "OHAROCDT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "Presence of decayed teeth; binary value 1=Yes, 0=No."
+  },
+  {
+    "nhanes_var": "OHAROCGP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "Gum disease/problem; binary value 1=Yes, 0=No."
+  },
+  {
+    "nhanes_var": "OHAROCOH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000109,
+    "notes": "Oral hygiene status; binary value 1=Yes, 0=No."
+  },
+  {
+    "nhanes_var": "OHAROCCI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000110,
+    "notes": "Impression of soft tissue condition; binary value 1=Yes, 0=No."
+  },
+  {
+    "nhanes_var": "OHAROCDE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000111,
+    "notes": "Denture/partial denture/plates presence; binary value 1=Yes, 0=No."
+  },
+  {
+    "nhanes_var": "OHARNF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000112,
+    "notes": "No significant findings; recorded as an observation."
+  },
+  {
+    "nhanes_var": "OHAROTH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000113,
+    "notes": "Other finding (specify with referral); stored as an observation."
+  },
+  {
+    "nhanes_var": "OHAPOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000114,
+    "notes": "Exam position recumbent; binary value 1=Yes, 0=No."
+  }
+]

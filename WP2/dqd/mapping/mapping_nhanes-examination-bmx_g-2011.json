@@ -1,0 +1,184 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "BMDSTATS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Body Measures Component Status Code; stored as observation"
+  },
+  {
+    "nhanes_var": "BMXWT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035625,
+    "notes": "Body weight in kilograms"
+  },
+  {
+    "nhanes_var": "BMIWT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on weight measurement"
+  },
+  {
+    "nhanes_var": "BMXRECUM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035628,
+    "notes": "Recumbent length in centimeters"
+  },
+  {
+    "nhanes_var": "BMIRECUM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on recumbent length"
+  },
+  {
+    "nhanes_var": "BMXHEAD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035629,
+    "notes": "Head circumference in centimeters"
+  },
+  {
+    "nhanes_var": "BMIHEAD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on head circumference"
+  },
+  {
+    "nhanes_var": "BMXHT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035626,
+    "notes": "Standing height in centimeters"
+  },
+  {
+    "nhanes_var": "BMIHT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on standing height"
+  },
+  {
+    "nhanes_var": "BMXBMI",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035627,
+    "notes": "Body mass index in kg/m^2"
+  },
+  {
+    "nhanes_var": "BMDBMIC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "BMI category for children/adolescents"
+  },
+  {
+    "nhanes_var": "BMXLEG",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035631,
+    "notes": "Upper leg length in centimeters"
+  },
+  {
+    "nhanes_var": "BMILEG",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment on upper leg length"
+  },
+  {
+    "nhanes_var": "BMXARML",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3035632,
+    "notes": "Upper arm length in centimeters"
+  },
+  {
+    "nhanes_var": "BMIARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_flag",
+    "concept_id": null,
+    "notes": "Comment on upper arm length"
+  },
+  {
+    "nhanes_var": "BMXARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Arm circumference in centimeters"
+  },
+  {
+    "nhanes_var": "BMIARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_flag",
+    "concept_id": null,
+    "notes": "Comment on arm circumference"
+  },
+  {
+    "nhanes_var": "BMXWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010001,
+    "notes": "Waist circumference in centimeters"
+  },
+  {
+    "nhanes_var": "BMIWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_flag",
+    "concept_id": null,
+    "notes": "Comment on waist circumference"
+  },
+  {
+    "nhanes_var": "BMXSAD1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 1st measurement in centimeters"
+  },
+  {
+    "nhanes_var": "BMXSAD2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 2nd measurement in centimeters"
+  },
+  {
+    "nhanes_var": "BMXSAD3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 3rd measurement in centimeters"
+  },
+  {
+    "nhanes_var": "BMXSAD4",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Sagittal abdominal diameter 4th measurement in centimeters"
+  },
+  {
+    "nhanes_var": "BMDAVSAD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Average sagittal abdominal diameter in centimeters"
+  },
+  {
+    "nhanes_var": "BMDSADCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_flag",
+    "concept_id": null,
+    "notes": "Comment on sagittal abdominal diameter"
+  }
+]

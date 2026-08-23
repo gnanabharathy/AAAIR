@@ -1,0 +1,170 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "DXASPNST",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Spine scan status (performed/not)"
+  },
+  {
+    "nhanes_var": "DXXOSBCC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for total spine BMD"
+  },
+  {
+    "nhanes_var": "DXXL1BCC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L1 BMD"
+  },
+  {
+    "nhanes_var": "DXXL2BCC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L2 BMD"
+  },
+  {
+    "nhanes_var": "DXXL3BCC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L3 BMD"
+  },
+  {
+    "nhanes_var": "DXXL4BCC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Invalidity code for L4 BMD"
+  },
+  {
+    "nhanes_var": "DXXOSBMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800000,
+    "notes": "Total spine bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXOSBMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total spine bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXOSA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total spine area"
+  },
+  {
+    "nhanes_var": "DXXL1BMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800001,
+    "notes": "L1 bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXL1BMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L1 bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXL1A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L1 area"
+  },
+  {
+    "nhanes_var": "DXXL2BMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3800002,
+    "notes": "L2 bone mineral density"
+  },
+  {
+    "nhanes_var": "DXXL2BMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L2 bone mineral content"
+  },
+  {
+    "nhanes_var": "DXXL2A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L2 area measurement; no standard OMOP concept for area"
+  },
+  {
+    "nhanes_var": "DXXL3BMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010002,
+    "notes": "Lumbar spine bone mineral density (BMD) at L3; uses standard BMD concept"
+  },
+  {
+    "nhanes_var": "DXXL3BMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L3 bone mineral content (BMC); no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "DXXL3A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L3 area measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "DXXL4BMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 3010002,
+    "notes": "Lumbar spine bone mineral density (BMD) at L4; uses standard BMD concept"
+  },
+  {
+    "nhanes_var": "DXXL4BMC",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L4 bone mineral content (BMC); no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "DXXL4A",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "L4 area measurement; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "DXASPNK",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Calculated K for spine; not a standard measurement concept"
+  },
+  {
+    "nhanes_var": "DXASPND0",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Calculated DO for spine; not a standard measurement concept"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP PERSON.person_id"
+  },
+  {
+    "nhanes_var": "WTDRD1",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dietary day 1 sample weight stored as an observation; concept ID not defined in standard"
+  },
+  {
+    "nhanes_var": "WTDR2D",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dietary two\u2011day sample weight stored as an observation; concept ID not defined in standard"
+  },
+  {
+    "nhanes_var": "DR1DRSTZ",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dietary recall status (categorical) stored as an observation"
+  },
+  {
+    "nhanes_var": "DR1EXMER",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Interviewer ID code stored as an observation; not a person in OMOP"
+  },
+  {
+    "nhanes_var": "DRDINT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Number of days of intake (categorical) stored as an observation"
+  },
+  {
+    "nhanes_var": "DR1DBIH",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Days between intake and household interview (continuous) stored as an observation"
+  },
+  {
+    "nhanes_var": "DR1DAY",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Intake day of the week (categorical) stored as an observation"
+  },
+  {
+    "nhanes_var": "DR1LANG",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Language used by respondent (categorical) stored as an observation"
+  },
+  {
+    "nhanes_var": "DR1MNRSP",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Main respondent for interview (categorical) stored as an observation"
+  },
+  {
+    "nhanes_var": "DR1HELPD",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Helped in responding (categorical) stored as an observation"
+  },
+  {
+    "nhanes_var": "DS1DSCNT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Total number of dietary supplements taken (continuous) stored as an observation"
+  },
+  {
+    "nhanes_var": "DS1DS",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Any dietary supplements taken? (binary) stored as an observation"
+  },
+  {
+    "nhanes_var": "DS1ANCNT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Total number of antacids taken (continuous) stored as an observation"
+  },
+  {
+    "nhanes_var": "DS1AN",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Any antacids taken? (binary) stored as an observation"
+  },
+  {
+    "nhanes_var": "DS1TVB6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280000,
+    "notes": "Vitamin B6 (mg) mapped to OMOP measurement concept for Vitamin B6; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TVB12",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280001,
+    "notes": "Vitamin B12 (mcg) mapped to OMOP measurement concept for Vitamin B12; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TFA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280002,
+    "notes": "Folic acid (mcg) mapped to OMOP measurement concept for Folic acid; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TFDFE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280003,
+    "notes": "Folate, DFE (mcg) mapped to OMOP measurement concept for Folate, DFE; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TCHL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280004,
+    "notes": "Total choline (mg) mapped to OMOP measurement concept for Total choline; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280005,
+    "notes": "Vitamin C (mg) mapped to OMOP measurement concept for Vitamin C; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TVK",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280006,
+    "notes": "Vitamin K (mcg) mapped to OMOP measurement concept for Vitamin K; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TVD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280007,
+    "notes": "Vitamin D (D2 + D3) (mcg) mapped to OMOP measurement concept for Vitamin D; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TCALC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280008,
+    "notes": "Calcium (mg) mapped to OMOP measurement concept for Calcium; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TPHOS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280009,
+    "notes": "Phosphorus (mg) mapped to OMOP measurement concept for Phosphorus; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TMAGN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280010,
+    "notes": "Magnesium (mg) mapped to OMOP measurement concept for Magnesium; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TIRON",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280011,
+    "notes": "Iron (mg) mapped to OMOP measurement concept for Iron; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TZINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280012,
+    "notes": "Zinc (mg) mapped to OMOP measurement concept for Zinc; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TCOPP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280013,
+    "notes": "Copper (mg) mapped to OMOP measurement concept for Copper; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TSODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 4280014,
+    "notes": "Sodium (mg) mapped to OMOP measurement concept for Sodium; numeric value stored in measurement_value_as_number."
+  },
+  {
+    "nhanes_var": "DS1TPOTA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010000,
+    "notes": "Potassium concentration measured in mg; maps to OMOP measurement concept for serum potassium (LOINC 2823-3)."
+  },
+  {
+    "nhanes_var": "DS1TSELE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010001,
+    "notes": "Selenium concentration measured in mcg; maps to OMOP measurement concept for serum selenium (LOINC 2824-1)."
+  },
+  {
+    "nhanes_var": "DS1TCAFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010002,
+    "notes": "Caffeine concentration measured in mg; maps to OMOP measurement concept for serum caffeine (LOINC 2825-8)."
+  },
+  {
+    "nhanes_var": "DS1TIODI",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 3010003,
+    "notes": "Iodine concentration measured in mcg; maps to OMOP measurement concept for serum iodine (LOINC 2826-6)."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "FFQ_VAR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "DietCalc variable ID, stored as observation concept"
+  },
+  {
+    "nhanes_var": "FFQ_FOOD",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Food ID from DietCalc, stored as concept ID if available"
+  },
+  {
+    "nhanes_var": "FFQ_FREQ",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_number",
+    "concept_id": null,
+    "notes": "Daily intake frequency, numeric value"
+  },
+  {
+    "nhanes_var": "FFQ_CODE",
+    "omop_table": "observation",
+    "omop_field": "observation_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Imputation code, stored as concept ID if available"
+  }
+]
