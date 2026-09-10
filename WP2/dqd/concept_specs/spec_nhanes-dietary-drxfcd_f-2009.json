@@ -1,0 +1,14 @@
+{
+  "concept_name_column": "DRXFCLD",
+  "concept_code_column": "DRXFDCD",
+  "domain_id": "Observation",
+  "vocabulary_id": "NHANES_Food_Code",
+  "concept_class_id": "Food",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [
+    "DRXFCSD"
+  ],
+  "notes": "Each row in the NHANES food code file represents a distinct food item. The numeric value in DRXFDCD is used as the unique concept_code. The long description in DRXFCLD is chosen as the preferred concept_name because it is more descriptive. The short description in DRXFCSD is stored as a synonym to preserve the concise label. The domain is set to \"Food\" (a custom domain for food items) and the vocabulary is named \"NHANES_Food\" to isolate these concepts from other vocabularies. No additional relationships are required; each row maps to a single concept.",
+  "harmonization_reasoning": "All files represent USDA food items and already use the Food domain. The majority use the vocabulary name NHANES_Food_Code; only one file used NHANES_Food, which is a variant of the same local vocabulary. Harmonizing to NHANES_Food_Code ensures all concepts map to a single vocabulary. For concept_class_id, the most common value is \"Food\" (used in 8 of 10 files). The occasional \"Food Code\" or \"Food_Code\" variants are treated as synonyms and can be mapped to the standard \"Food\" class. This choice maximizes consistency and minimizes fragmentation across years.",
+  "domain_id_correction_note": "Changed from 'Food' to 'Observation' -- 'Food' is not a real OMOP CDM 5.3 domain (verified against official OHDSI CommonDataModel docs); the LLM's earlier claim that it was a built-in domain was incorrect."
+}

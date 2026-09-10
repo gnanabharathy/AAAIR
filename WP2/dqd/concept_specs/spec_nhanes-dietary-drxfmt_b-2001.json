@@ -1,0 +1,10 @@
+{
+  "concept_name_column": "LABEL",
+  "concept_code_column": "START",
+  "domain_id": "Food",
+  "vocabulary_id": "NHANES_USDA_FOOD",
+  "concept_class_id": "USDA Food Code",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Each row represents a distinct USDA food code. The numeric code in START is used as the unique concept_code. The descriptive text in LABEL becomes the concept_name. The FMTNAME column indicates the format used in the NHANES dataset and is not needed for the concept definition, so it is omitted. The vocabulary is a new local vocabulary named NHANES_USDA_FOOD, and the concept_class_id is set to \"USDA Food Code\" to reflect the source. Domain is set to \"Food\" to match OMOP domain for food items."
+}

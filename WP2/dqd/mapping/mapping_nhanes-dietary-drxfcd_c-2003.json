@@ -1,23 +1,23 @@
 [
   {
     "nhanes_var": "DRXFDCD",
-    "omop_table": "observation",
-    "omop_field": "value_as_string",
+    "omop_table": "concept",
+    "omop_field": "concept_id",
     "concept_id": null,
-    "notes": "USDA food code is a categorical identifier for the food item consumed. It can be stored as a string value in the observation table, with observation_concept_id representing the concept of 'USDA food code'."
+    "notes": "USDA food code is a reference code; best stored as a concept in the OMOP vocabulary. A new concept would need to be created with this code as concept_code and appropriate domain (e.g., Observation) and vocabulary (e.g., USDA_FOOD)."
   },
   {
     "nhanes_var": "DRXFCSD",
-    "omop_table": "observation",
-    "omop_field": "value_as_string",
+    "omop_table": "concept",
+    "omop_field": "concept_name",
     "concept_id": null,
-    "notes": "Short description of the food code. Stored as a string value in the observation table, linked to the same observation_concept_id as DRXFDCD to maintain context."
+    "notes": "Food Code Short Description is the human\u2011readable name for the USDA food code. It maps to the concept_name field of the same concept created for DRXFDCD."
   },
   {
     "nhanes_var": "DRXFCLD",
-    "omop_table": "observation",
-    "omop_field": "value_as_string",
+    "omop_table": "concept",
+    "omop_field": "concept_name",
     "concept_id": null,
-    "notes": "Long description of the food code. Stored as a string value in the observation table, linked to the same observation_concept_id as DRXFDCD to maintain context."
+    "notes": "Food Code Long Description provides a more detailed description of the USDA food code. It can be stored as an alternate concept_name or as a separate concept with a longer name, linked to the same concept_id as DRXFDCD."
   }
 ]

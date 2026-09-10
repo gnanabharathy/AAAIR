@@ -1,1 +1,1010 @@
-[]
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Source identifier for respondent"
+  },
+  {
+    "nhanes_var": "SDDSRVYR",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Data release number"
+  },
+  {
+    "nhanes_var": "RIDSTATR",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Interview/Examination status"
+  },
+  {
+    "nhanes_var": "RIDEXMON",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Six\u2011month time period"
+  },
+  {
+    "nhanes_var": "RIAGENDR",
+    "omop_table": "PERSON",
+    "omop_field": "gender_concept_id",
+    "concept_id": null,
+    "notes": "Gender (male/female)"
+  },
+  {
+    "nhanes_var": "RIDAGEYR",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Age at screening (years)"
+  },
+  {
+    "nhanes_var": "RIDAGEMN",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Age in months"
+  },
+  {
+    "nhanes_var": "RIDAGEEX",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Exam age in months"
+  },
+  {
+    "nhanes_var": "RIDRETH1",
+    "omop_table": "PERSON",
+    "omop_field": "race_concept_id",
+    "concept_id": null,
+    "notes": "Race/ethnicity (primary)"
+  },
+  {
+    "nhanes_var": "RIDRETH2",
+    "omop_table": "PERSON",
+    "omop_field": "race_concept_id",
+    "concept_id": null,
+    "notes": "Race/ethnicity (linked)"
+  },
+  {
+    "nhanes_var": "DMQMILIT",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Veteran/military status"
+  },
+  {
+    "nhanes_var": "DMDBORN",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Country of birth"
+  },
+  {
+    "nhanes_var": "DMDCITZN",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Citizenship status"
+  },
+  {
+    "nhanes_var": "DMDYRSUS",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Length of time in US"
+  },
+  {
+    "nhanes_var": "DMDEDUC3",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Education level for children/youth 6\u201119"
+  },
+  {
+    "nhanes_var": "DMDEDUC2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Education level of adult participant (20+ years)."
+  },
+  {
+    "nhanes_var": "DMDEDUC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Recode of education level for older NHANES version."
+  },
+  {
+    "nhanes_var": "DMDSCHOL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Whether the respondent is currently attending school."
+  },
+  {
+    "nhanes_var": "DMDMARTL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Marital status of the respondent."
+  },
+  {
+    "nhanes_var": "DMDHHSIZ",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Total number of people in the household."
+  },
+  {
+    "nhanes_var": "INDHHINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Annual household income."
+  },
+  {
+    "nhanes_var": "INDFMINC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Annual family income."
+  },
+  {
+    "nhanes_var": "INDFMPIR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Family poverty income ratio (PIR)."
+  },
+  {
+    "nhanes_var": "RIDEXPRG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pregnancy status at exam (recode)."
+  },
+  {
+    "nhanes_var": "RIDPREG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pregnancy status (old recode)."
+  },
+  {
+    "nhanes_var": "DMDHRGND",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gender of the household reference person."
+  },
+  {
+    "nhanes_var": "DMDHRAGE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Age of the household reference person."
+  },
+  {
+    "nhanes_var": "DMDHRBRN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Country of birth of the household reference person."
+  },
+  {
+    "nhanes_var": "DMDHREDU",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Education level of the household reference person."
+  },
+  {
+    "nhanes_var": "DMDHRMAR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Marital status of the household reference person."
+  },
+  {
+    "nhanes_var": "DMDHSEDU",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Spouse education level stored as an observation with concept ID for education"
+  },
+  {
+    "nhanes_var": "WTINT2YR",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000166,
+    "notes": "Full sample 2\u2011year interview weight"
+  },
+  {
+    "nhanes_var": "WTINT4YR",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000166,
+    "notes": "Full sample 4\u2011year interview weight"
+  },
+  {
+    "nhanes_var": "WTMEC2YR",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000166,
+    "notes": "Full sample 2\u2011year MEC exam weight"
+  },
+  {
+    "nhanes_var": "WTMEC4YR",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000166,
+    "notes": "Full sample 4\u2011year MEC exam weight"
+  },
+  {
+    "nhanes_var": "SDMVPSU",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000167,
+    "notes": "Masked variance pseudo\u2011PSU"
+  },
+  {
+    "nhanes_var": "SDMVSTRA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000168,
+    "notes": "Masked variance pseudo\u2011stratum"
+  },
+  {
+    "nhanes_var": "SDJ1REPN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000169,
+    "notes": "Jackknife replicate number"
+  },
+  {
+    "nhanes_var": "DMAETHN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000170,
+    "notes": "Logical imputation flag for ethnicity"
+  },
+  {
+    "nhanes_var": "DMARACE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000171,
+    "notes": "Logical imputation flag for race"
+  },
+  {
+    "nhanes_var": "WTMREP01",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000172,
+    "notes": "MEC exam weight Jackknife replicate 01"
+  },
+  {
+    "nhanes_var": "WTMREP02",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000172,
+    "notes": "MEC exam weight Jackknife replicate 02"
+  },
+  {
+    "nhanes_var": "WTMREP03",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000172,
+    "notes": "MEC exam weight Jackknife replicate 03"
+  },
+  {
+    "nhanes_var": "WTMREP04",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000172,
+    "notes": "MEC exam weight Jackknife replicate 04"
+  },
+  {
+    "nhanes_var": "WTMREP05",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000172,
+    "notes": "MEC exam weight Jackknife replicate 05"
+  },
+  {
+    "nhanes_var": "WTMREP06",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP07",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP08",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP09",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP10",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP11",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP12",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP13",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP14",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP15",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP16",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP17",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP18",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP19",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP20",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": 38000107,
+    "notes": "Replicate weight for MEC exam, stored as measurement with concept Survey weight"
+  },
+  {
+    "nhanes_var": "WTMREP21",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 21 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP22",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 22 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP23",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 23 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP24",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 24 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP25",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 25 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP26",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 26 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP27",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 27 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP28",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 28 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP29",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 29 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP30",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 30 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP31",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 31 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP32",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 32 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP33",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 33 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP34",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 34 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP35",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "MEC Exam Weight Jack Knife Replicate 35 \u2013 stored as survey replicate weight"
+  },
+  {
+    "nhanes_var": "WTMREP36",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP37",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP38",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP39",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP40",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP41",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP42",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP43",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP44",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP45",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP46",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP47",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP48",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP49",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP50",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380001,
+    "notes": "Replicate survey weight for MEC exam"
+  },
+  {
+    "nhanes_var": "WTMREP51",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MEC Exam Weight Jack Knife Replicate 51 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTMREP52",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MEC Exam Weight Jack Knife Replicate 52 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP01",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 01 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP02",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 02 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP03",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 03 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP04",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 04 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP05",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 05 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP06",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 06 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP07",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 07 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP08",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 08 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP09",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 09 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP10",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 10 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP11",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 11 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP12",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 12 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP13",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview Weight Jack Knife Replicate 13 stored as observation value"
+  },
+  {
+    "nhanes_var": "WTIREP14",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 14"
+  },
+  {
+    "nhanes_var": "WTIREP15",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 15"
+  },
+  {
+    "nhanes_var": "WTIREP16",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 16"
+  },
+  {
+    "nhanes_var": "WTIREP17",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 17"
+  },
+  {
+    "nhanes_var": "WTIREP18",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 18"
+  },
+  {
+    "nhanes_var": "WTIREP19",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 19"
+  },
+  {
+    "nhanes_var": "WTIREP20",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 20"
+  },
+  {
+    "nhanes_var": "WTIREP21",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 21"
+  },
+  {
+    "nhanes_var": "WTIREP22",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 22"
+  },
+  {
+    "nhanes_var": "WTIREP23",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 23"
+  },
+  {
+    "nhanes_var": "WTIREP24",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 24"
+  },
+  {
+    "nhanes_var": "WTIREP25",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 25"
+  },
+  {
+    "nhanes_var": "WTIREP26",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 26"
+  },
+  {
+    "nhanes_var": "WTIREP27",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 27"
+  },
+  {
+    "nhanes_var": "WTIREP28",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 28"
+  },
+  {
+    "nhanes_var": "WTIREP29",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 29"
+  },
+  {
+    "nhanes_var": "WTIREP30",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 30"
+  },
+  {
+    "nhanes_var": "WTIREP31",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 31"
+  },
+  {
+    "nhanes_var": "WTIREP32",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 32"
+  },
+  {
+    "nhanes_var": "WTIREP33",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 33"
+  },
+  {
+    "nhanes_var": "WTIREP34",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 34"
+  },
+  {
+    "nhanes_var": "WTIREP35",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 35"
+  },
+  {
+    "nhanes_var": "WTIREP36",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 36"
+  },
+  {
+    "nhanes_var": "WTIREP37",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 37"
+  },
+  {
+    "nhanes_var": "WTIREP38",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 38"
+  },
+  {
+    "nhanes_var": "WTIREP39",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 39"
+  },
+  {
+    "nhanes_var": "WTIREP40",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 40"
+  },
+  {
+    "nhanes_var": "WTIREP41",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 41"
+  },
+  {
+    "nhanes_var": "WTIREP42",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 42"
+  },
+  {
+    "nhanes_var": "WTIREP43",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Interview weight jackknife replicate weight 43"
+  },
+  {
+    "nhanes_var": "WTIREP44",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 44, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP45",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 45, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP46",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 46, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP47",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 47, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP48",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 48, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP49",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 49, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP50",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 50, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP51",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 51, stored as numeric observation"
+  },
+  {
+    "nhanes_var": "WTIREP52",
+    "omop_table": "observation",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Interview weight jackknife replicate 52, stored as numeric observation"
+  }
+]

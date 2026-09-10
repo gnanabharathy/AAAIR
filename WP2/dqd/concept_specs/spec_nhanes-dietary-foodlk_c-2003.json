@@ -1,0 +1,12 @@
+{
+  "concept_name_column": "VALUE",
+  "concept_code_column": "FFQ_FOOD",
+  "domain_id": "Observation",
+  "vocabulary_id": "NHANES_FOOD",
+  "concept_class_id": "Food",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Each row represents a distinct food item as consumed in a cereal context. The numeric FFQ_FOOD value is used as a unique concept_code, while the descriptive VALUE string becomes the concept_name. The concepts belong to the Dietary_Food domain and are stored in a local NHANES_FOOD vocabulary. No additional columns are present to be treated as synonyms.",
+  "harmonization_reasoning": "Both datasets represent food items and are already assigned to the Dietary_Food domain and the Food concept class. To avoid fragmentation, we consolidate them into a single, generic NHANES_FOOD vocabulary, which is the broader of the two vocabularies and can accommodate all food concepts from both years.",
+  "domain_id_correction_note": "Changed from 'Dietary_Food' to 'Observation' -- 'Food' is not a real OMOP CDM 5.3 domain (verified against official OHDSI CommonDataModel docs); the LLM's earlier claim that it was a built-in domain was incorrect."
+}

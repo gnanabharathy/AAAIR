@@ -1,0 +1,10 @@
+{
+  "concept_name_column": "LABEL",
+  "concept_code_column": "START",
+  "domain_id": "Food",
+  "vocabulary_id": "NHANES_USDA_Food_Code",
+  "concept_class_id": "Food",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Each row in the NHANES reference file represents a distinct USDA food item. The numeric USDA food code in the START column is used as the unique concept_code (converted to a string). The descriptive text in LABEL becomes the concept_name. All concepts belong to the Food domain and are stored in a new local vocabulary named NHANES_USDA_Food_Code. The concept_class_id is set to Food to reflect the nature of the items. No additional columns are used as synonyms because FMTNAME is constant across rows and does not provide unique descriptive information."
+}

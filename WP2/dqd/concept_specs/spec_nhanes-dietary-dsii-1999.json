@@ -1,0 +1,12 @@
+{
+  "concept_name_column": "DSDINGR",
+  "concept_code_column": "DSDINGID",
+  "domain_id": "Drug",
+  "vocabulary_id": "NHANES_DSBI",
+  "concept_class_id": "Ingredient",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Each row represents a single ingredient in a supplement. The ingredient name (DSDINGR) becomes the concept_name and the unique NHANES ingredient identifier (DSDINGID) becomes the concept_code. A new local vocabulary \"NHANES_DSBI\" is created to house these concepts, and a new domain \"SupplementIngredient\" is used to distinguish them from standard OMOP domains. No other columns are treated as synonyms because they are either numeric qualifiers or identifiers for the supplement itself, not alternative names for the ingredient.",
+  "harmonization_reasoning": "All three files represent elements of dietary supplements \u2013 either individual ingredients or the supplement products themselves. Using the standard OMOP domain \"Ingredient\" provides a common, generic category that can encompass both component ingredients and supplement products without misclassifying them as drugs. The vocabulary \"NHANES_DSBI\" is already used across all files, so it remains the single local vocabulary. The concept class \"Ingredient\" is the most neutral and descriptive of the three options, allowing all concepts to be treated uniformly while preserving the ability to add more specific subclasses if needed.",
+  "domain_id_correction_note": "Changed domain_id from 'Ingredient' to 'Drug', and concept_class_id from 'Ingredient' to 'Ingredient' -- verified against official OHDSI docs that 'Ingredient' is a concept_class_id value within the Drug domain (e.g. RxNorm's 'Ingredient' class), not a domain itself."
+}

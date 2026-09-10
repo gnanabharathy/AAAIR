@@ -1,0 +1,401 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number maps to internal OMOP person identifier."
+  },
+  {
+    "nhanes_var": "VIQ110",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Severe eye infection status; maps to a condition concept."
+  },
+  {
+    "nhanes_var": "VIQ121",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Which eye(s) infected; stored as source value."
+  },
+  {
+    "nhanes_var": "VIQ130",
+    "omop_table": "device_exposure",
+    "omop_field": "device_concept_id",
+    "concept_id": null,
+    "notes": "Wearing an eye patch; maps to a device concept."
+  },
+  {
+    "nhanes_var": "VIQ141",
+    "omop_table": "device_exposure",
+    "omop_field": "device_source_value",
+    "concept_id": null,
+    "notes": "Which eye has eye patch; stored as source value."
+  },
+  {
+    "nhanes_var": "VIQ150",
+    "omop_table": "device_exposure",
+    "omop_field": "device_concept_id",
+    "concept_id": null,
+    "notes": "Glasses/contact lenses for near work; maps to a device concept."
+  },
+  {
+    "nhanes_var": "VIQ160",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Glasses/contact lenses available; stored as an observation."
+  },
+  {
+    "nhanes_var": "VIQ170",
+    "omop_table": "device_exposure",
+    "omop_field": "device_concept_id",
+    "concept_id": null,
+    "notes": "Glasses or contacts worn for near test; maps to a device concept."
+  },
+  {
+    "nhanes_var": "VIXNC1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Line read on near card; near visual acuity measurement."
+  },
+  {
+    "nhanes_var": "VIXNC2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Testing distance of near card; near visual acuity measurement."
+  },
+  {
+    "nhanes_var": "VIQ180",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Eye surgery for near sightedness; maps to a condition concept."
+  },
+  {
+    "nhanes_var": "VIQ191",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Which eye(s) surgery for near-sightedness; stored as source value."
+  },
+  {
+    "nhanes_var": "VIQ200",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Eye surgery for cataracts; maps to a condition concept."
+  },
+  {
+    "nhanes_var": "VIQ211",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_source_value",
+    "concept_id": null,
+    "notes": "Which eye(s) cataract surgery; stored as source value."
+  },
+  {
+    "nhanes_var": "VIQ220",
+    "omop_table": "device_exposure",
+    "omop_field": "device_concept_id",
+    "concept_id": null,
+    "notes": "Glasses/contact lenses worn for distance; maps to a device concept."
+  },
+  {
+    "nhanes_var": "VIQ230",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of whether distance correction is available"
+  },
+  {
+    "nhanes_var": "VIQ240",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Categorical: type of correction (glasses or contacts)"
+  },
+  {
+    "nhanes_var": "VIQ250",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of whether a prescription was obtained"
+  },
+  {
+    "nhanes_var": "VIXPRS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of right eye sphere (prescription)"
+  },
+  {
+    "nhanes_var": "VIXPRC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of right eye cylinder (prescription)"
+  },
+  {
+    "nhanes_var": "VIXPRA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of right eye axis (prescription)"
+  },
+  {
+    "nhanes_var": "VIXPLS",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of left eye sphere (prescription)"
+  },
+  {
+    "nhanes_var": "VIXPLC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of left eye cylinder (prescription)"
+  },
+  {
+    "nhanes_var": "VIXPLA",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of left eye axis (prescription)"
+  },
+  {
+    "nhanes_var": "VIXOCMT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Categorical comments on visual acuity"
+  },
+  {
+    "nhanes_var": "VIXORSM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of right eye sphere (average)"
+  },
+  {
+    "nhanes_var": "VIXORCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of right eye cylinder (average)"
+  },
+  {
+    "nhanes_var": "VIXORAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of right eye axis (average)"
+  },
+  {
+    "nhanes_var": "VIDORFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal value of right eye confidence level reading"
+  },
+  {
+    "nhanes_var": "VIXOLSM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous value of left eye sphere (average)"
+  },
+  {
+    "nhanes_var": "VIXOLCM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Average left eye cylinder (optical power) measured in diopters"
+  },
+  {
+    "nhanes_var": "VIXOLAM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Average left eye axis (optical axis) measured in degrees"
+  },
+  {
+    "nhanes_var": "VIDOLFM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left eye confidence level reading (ordinal scale)"
+  },
+  {
+    "nhanes_var": "VIXKRM1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry radius flat curve (mm) \u2013 radius of curvature of the flat meridian"
+  },
+  {
+    "nhanes_var": "VIXKRD1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry power flat curve (D) \u2013 refractive power of the flat meridian"
+  },
+  {
+    "nhanes_var": "VIXKRG1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry axis flat curve (deg) \u2013 axis of the flat meridian"
+  },
+  {
+    "nhanes_var": "VIXKRM2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry radius steep curve (mm) \u2013 radius of curvature of the steep meridian"
+  },
+  {
+    "nhanes_var": "VIXKRD2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry power steep curve (D) \u2013 refractive power of the steep meridian"
+  },
+  {
+    "nhanes_var": "VIXKRG2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry axis steep curve (deg) \u2013 axis of the steep meridian"
+  },
+  {
+    "nhanes_var": "VIXKRMM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry radius average (mm) \u2013 mean radius of curvature"
+  },
+  {
+    "nhanes_var": "VIXKRDM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry power average (D) \u2013 mean refractive power"
+  },
+  {
+    "nhanes_var": "VIXKRCD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry cylinder (D) \u2013 difference between steep and flat meridian powers"
+  },
+  {
+    "nhanes_var": "VIXKRCG",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Right keratometry axis average (deg) \u2013 mean axis of curvature"
+  },
+  {
+    "nhanes_var": "VIXKLM1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry radius flat curve (mm) \u2013 radius of curvature of the flat meridian"
+  },
+  {
+    "nhanes_var": "VIXKLD1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry power flat curve (D) \u2013 refractive power of the flat meridian"
+  },
+  {
+    "nhanes_var": "VIXKLG1",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry axis flat curve (deg) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLM2",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry radius steep curve (mm) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLD2",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry power steep curve (D) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLG2",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry axis steep curve (deg) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLMM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry radius average (mm) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLDM",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry power average (D) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLCD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry cylinder \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIXKLCG",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Left keratometry axis average (deg) \u2013 numeric measurement"
+  },
+  {
+    "nhanes_var": "VIDRVA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Right visual acuity, presenting \u2013 ordinal value stored as concept"
+  },
+  {
+    "nhanes_var": "VIDLVA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Left visual acuity, presenting \u2013 ordinal value stored as concept"
+  },
+  {
+    "nhanes_var": "VIDROVA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Right visual acuity, w/ objective refraction \u2013 ordinal value stored as concept"
+  },
+  {
+    "nhanes_var": "VIDLOVA",
+    "omop_table": "measurement",
+    "omop_field": "value_as_concept_id",
+    "concept_id": null,
+    "notes": "Left visual acuity, w/ objective refraction \u2013 ordinal value stored as concept"
+  }
+]

@@ -1,0 +1,2919 @@
+[
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_c-2003",
+    "ds_id_b": "nhanes-dietary-dr1tot_c-2003",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9033
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_c-2003",
+    "ds_id_b": "nhanes-dietary-dr2tot_c-2003",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9033
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_c-2003",
+    "ds_id_b": "nhanes-dietary-ffqraw_c-2003",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 6471
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_d-2005",
+    "ds_id_b": "nhanes-dietary-dr1tot_d-2005",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9349
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_d-2005",
+    "ds_id_b": "nhanes-dietary-dr2iff_d-2005",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8429
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_d-2005",
+    "ds_id_b": "nhanes-dietary-dr2tot_d-2005",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9349
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_d-2005",
+    "ds_id_b": "nhanes-dietary-ffqraw_d-2005",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 6013
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-dr1tot_e-2007",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9254
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-dr2iff_e-2007",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7836
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-dr2tot_e-2007",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9254
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1ids_e-2007",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2769
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1tot_e-2007",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9254
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2ids_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2662
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9254
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-dr1tot_f-2009",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9754
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-dr2iff_f-2009",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8405
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-dr2tot_f-2009",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9754
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1ids_f-2009",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2971
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1tot_f-2009",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9754
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2ids_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2849
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9754
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-dr1tot_g-2011",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8519
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-dr2iff_g-2011",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7605
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-dr2tot_g-2011",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8519
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1ids_g-2011",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1tot_g-2011",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8519
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2ids_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2636
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8519
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-dr1tot_h-2013",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8661
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-dr2iff_h-2013",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7573
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-dr2tot_h-2013",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8661
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1ids_h-2013",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2785
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1tot_h-2013",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8661
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2ids_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2685
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8661
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-dr1tot_i-2015",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-dr2iff_i-2015",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7027
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-dr2tot_i-2015",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1ids_i-2015",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2768
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1tot_i-2015",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2ids_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2551
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-dr1tot_j-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7640
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-dr2iff_j-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6638
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-dr2tot_j-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7640
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1ids_j-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2656
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1tot_j-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7640
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2ids_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2504
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7640
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dr1tot_l-2021",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6751
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dr2iff_l-2021",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 5878
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dr2tot_l-2021",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6751
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqids_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 4013
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqtot_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6751
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_c-2003",
+    "ds_id_b": "nhanes-dietary-dr2tot_c-2003",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9643
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_c-2003",
+    "ds_id_b": "nhanes-dietary-ffqraw_c-2003",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 6472
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_d-2005",
+    "ds_id_b": "nhanes-dietary-dr2iff_d-2005",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8429
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_d-2005",
+    "ds_id_b": "nhanes-dietary-dr2tot_d-2005",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9950
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_d-2005",
+    "ds_id_b": "nhanes-dietary-ffqraw_d-2005",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 6013
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-dr2iff_e-2007",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7837
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-dr2tot_e-2007",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9762
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1ids_e-2007",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2769
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1tot_e-2007",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELPD",
+      "DR1LANG",
+      "DR1MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9762
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2ids_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2662
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9762
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-dr2iff_f-2009",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8405
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-dr2tot_f-2009",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 10253
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1ids_f-2009",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2971
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1tot_f-2009",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELPD",
+      "DR1LANG",
+      "DR1MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 10253
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2ids_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2849
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 10253
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-dr2iff_g-2011",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7605
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-dr2tot_g-2011",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9338
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1ids_g-2011",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1tot_g-2011",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELPD",
+      "DR1LANG",
+      "DR1MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9338
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2ids_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2636
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9338
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-dr2iff_h-2013",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7573
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-dr2tot_h-2013",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9813
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1ids_h-2013",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2785
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1tot_h-2013",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELPD",
+      "DR1LANG",
+      "DR1MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9813
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2ids_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2685
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9813
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-dr2iff_i-2015",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7027
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-dr2tot_i-2015",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9544
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1ids_i-2015",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2768
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1tot_i-2015",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELP",
+      "DR1LANG",
+      "DR1MRESP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9544
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2ids_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2551
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9544
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-dr2iff_j-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6639
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-dr2tot_j-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8704
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1ids_j-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2656
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1tot_j-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELP",
+      "DR1LANG",
+      "DR1MRESP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8704
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2ids_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8704
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_l-2021",
+    "ds_id_b": "nhanes-dietary-dr2iff_l-2021",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 5879
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_l-2021",
+    "ds_id_b": "nhanes-dietary-dr2tot_l-2021",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8860
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqids_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 4017
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr1tot_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqtot_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8860
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_d-2005",
+    "ds_id_b": "nhanes-dietary-dr2tot_d-2005",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8429
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_d-2005",
+    "ds_id_b": "nhanes-dietary-ffqraw_d-2005",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 5691
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_e-2007",
+    "ds_id_b": "nhanes-dietary-dr2tot_e-2007",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7837
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1ids_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2457
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1tot_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7837
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2ids_e-2007",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2662
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7837
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_f-2009",
+    "ds_id_b": "nhanes-dietary-dr2tot_f-2009",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8405
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1ids_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2642
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1tot_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8405
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2ids_f-2009",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2849
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8405
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_g-2011",
+    "ds_id_b": "nhanes-dietary-dr2tot_g-2011",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7605
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1ids_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2433
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1tot_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7605
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2ids_g-2011",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2636
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7605
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_h-2013",
+    "ds_id_b": "nhanes-dietary-dr2tot_h-2013",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7573
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1ids_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2538
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1tot_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7573
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2ids_h-2013",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2685
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7573
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_i-2015",
+    "ds_id_b": "nhanes-dietary-dr2tot_i-2015",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7027
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1ids_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2386
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1tot_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7027
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2ids_i-2015",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2551
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 7027
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_j-2017",
+    "ds_id_b": "nhanes-dietary-dr2tot_j-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6639
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1ids_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2342
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1tot_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6639
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2ids_j-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 6639
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dr2tot_l-2021",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 5879
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqids_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 3591
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2iff_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqtot_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 5879
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_c-2003",
+    "ds_id_b": "nhanes-dietary-ffqraw_c-2003",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 6472
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_d-2005",
+    "ds_id_b": "nhanes-dietary-ffqraw_d-2005",
+    "overlap_variables": [
+      "DRDINT"
+    ],
+    "overlap_seqn_count": 6013
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1ids_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2769
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1tot_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9762
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2ids_e-2007",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2662
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELPD",
+      "DR2LANG",
+      "DR2MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9762
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1ids_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2971
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1tot_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 10253
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2ids_f-2009",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2849
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELPD",
+      "DR2LANG",
+      "DR2MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 10253
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1ids_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1tot_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9338
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2ids_g-2011",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2636
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELPD",
+      "DR2LANG",
+      "DR2MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9338
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1ids_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2785
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1tot_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9813
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2ids_h-2013",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2685
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELPD",
+      "DR2LANG",
+      "DR2MNRSP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9813
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1ids_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2768
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1tot_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9544
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2ids_i-2015",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2551
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELP",
+      "DR2LANG",
+      "DR2MRESP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9544
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1ids_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2656
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1tot_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8704
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2ids_j-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELP",
+      "DR2LANG",
+      "DR2MRESP",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8704
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqids_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 4017
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dr2tot_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqtot_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8860
+  },
+  {
+    "ds_id_a": "nhanes-dietary-drxiff-1999",
+    "ds_id_b": "nhanes-dietary-drxtot-1999",
+    "overlap_variables": [
+      "DRALANG",
+      "DRDDAY",
+      "DRDDRSTS",
+      "DRDINTMD",
+      "WTDR4YR",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8843
+  },
+  {
+    "ds_id_a": "nhanes-dietary-drxiff_b-2001",
+    "ds_id_b": "nhanes-dietary-drxtot_b-2001",
+    "overlap_variables": [
+      "DRALANG",
+      "DRDDAY",
+      "DRDDRSTZ",
+      "WTDR4YR",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9882
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_e-2007",
+    "ds_id_b": "nhanes-dietary-ds1tot_e-2007",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2769
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2ids_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDSUPID",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2112
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2769
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_e-2007",
+    "ds_id_b": "nhanes-dietary-dsqids_e-2007",
+    "overlap_variables": [
+      "DSDSUPID"
+    ],
+    "overlap_seqn_count": 2411
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_f-2009",
+    "ds_id_b": "nhanes-dietary-ds1tot_f-2009",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2971
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2ids_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDSUPID",
+      "DSDSUPP",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2252
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2971
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_f-2009",
+    "ds_id_b": "nhanes-dietary-dsqids_f-2009",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2613
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_g-2011",
+    "ds_id_b": "nhanes-dietary-ds1tot_g-2011",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2ids_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDSUPID",
+      "DSDSUPP",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2066
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_g-2011",
+    "ds_id_b": "nhanes-dietary-dsqids_g-2011",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2301
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_h-2013",
+    "ds_id_b": "nhanes-dietary-ds1tot_h-2013",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2785
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2ids_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDSUPID",
+      "DSDSUPP",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2172
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2785
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_h-2013",
+    "ds_id_b": "nhanes-dietary-dsqids_h-2013",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2441
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_i-2015",
+    "ds_id_b": "nhanes-dietary-ds1tot_i-2015",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2768
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2ids_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDSUPID",
+      "DSDSUPP",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2082
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2768
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_i-2015",
+    "ds_id_b": "nhanes-dietary-dsqids_i-2015",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2538
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_j-2017",
+    "ds_id_b": "nhanes-dietary-ds1tot_j-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2656
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2ids_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDPID",
+      "DSDSUPP",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2027
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2656
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1ids_j-2017",
+    "ds_id_b": "nhanes-dietary-dsqids_j-2017",
+    "overlap_variables": [
+      "DSDPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2469
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2ids_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2662
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9762
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2ids_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2849
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 10253
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2ids_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2636
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9338
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2ids_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2685
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9813
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2ids_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2551
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 9544
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2ids_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds1tot_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 8704
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_e-2007",
+    "ds_id_b": "nhanes-dietary-ds2tot_e-2007",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2662
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_e-2007",
+    "ds_id_b": "nhanes-dietary-dsqids_e-2007",
+    "overlap_variables": [
+      "DSDSUPID"
+    ],
+    "overlap_seqn_count": 2295
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_f-2009",
+    "ds_id_b": "nhanes-dietary-ds2tot_f-2009",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2849
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_f-2009",
+    "ds_id_b": "nhanes-dietary-dsqids_f-2009",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2506
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_g-2011",
+    "ds_id_b": "nhanes-dietary-ds2tot_g-2011",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2636
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_g-2011",
+    "ds_id_b": "nhanes-dietary-dsqids_g-2011",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2301
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_h-2013",
+    "ds_id_b": "nhanes-dietary-ds2tot_h-2013",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2685
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_h-2013",
+    "ds_id_b": "nhanes-dietary-dsqids_h-2013",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2344
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_i-2015",
+    "ds_id_b": "nhanes-dietary-ds2tot_i-2015",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2551
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_i-2015",
+    "ds_id_b": "nhanes-dietary-dsqids_i-2015",
+    "overlap_variables": [
+      "DSDSUPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2327
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_j-2017",
+    "ds_id_b": "nhanes-dietary-ds2tot_j-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2D",
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 2505
+  },
+  {
+    "ds_id_a": "nhanes-dietary-ds2ids_j-2017",
+    "ds_id_b": "nhanes-dietary-dsqids_j-2017",
+    "overlap_variables": [
+      "DSDPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 2328
+  },
+  {
+    "ds_id_a": "nhanes-dietary-dsqids_l-2021",
+    "ds_id_b": "nhanes-dietary-dsqtot_l-2021",
+    "overlap_variables": [
+      "WTDRD1"
+    ],
+    "overlap_seqn_count": 4017
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_dr1tot-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 12632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_dr2iff-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 10828
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_dr2tot-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 12632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1ids-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4289
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1tot-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 12632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2ids-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4037
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 12632
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_dr2iff-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 10830
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_dr2tot-2017",
+    "overlap_variables": [
+      "DRABF",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 14300
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1ids-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4289
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1tot-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1HELP",
+      "DR1LANG",
+      "DR1MRESP",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 14300
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2ids-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4038
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 14300
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2iff-2017",
+    "ds_id_b": "nhanes-dietary-p_dr2tot-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRABF",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 10830
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1ids-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 3739
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1tot-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 10830
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2ids-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4038
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2iff-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 10830
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1ids-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4289
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1tot-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 14300
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2ids-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4038
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_dr2tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2HELP",
+      "DR2LANG",
+      "DR2MRESP",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 14300
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds1ids-2017",
+    "ds_id_b": "nhanes-dietary-p_ds1tot-2017",
+    "overlap_variables": [
+      "DR1DAY",
+      "DR1DBIH",
+      "DR1DRSTZ",
+      "DR1EXMER",
+      "DR1LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4289
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds1ids-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2ids-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "DSDPID",
+      "DSDSUPP",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 3247
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds1ids-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4289
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds1ids-2017",
+    "ds_id_b": "nhanes-dietary-p_dsqids-2017",
+    "overlap_variables": [
+      "DSDPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 3993
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2ids-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4038
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds1tot-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 14300
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds2ids-2017",
+    "ds_id_b": "nhanes-dietary-p_ds2tot-2017",
+    "overlap_variables": [
+      "DR2DAY",
+      "DR2DBIH",
+      "DR2DRSTZ",
+      "DR2EXMER",
+      "DR2LANG",
+      "DRDINT",
+      "WTDR2DPP",
+      "WTDRD1PP"
+    ],
+    "overlap_seqn_count": 4038
+  },
+  {
+    "ds_id_a": "nhanes-dietary-p_ds2ids-2017",
+    "ds_id_b": "nhanes-dietary-p_dsqids-2017",
+    "overlap_variables": [
+      "DSDPID",
+      "DSDSUPP"
+    ],
+    "overlap_seqn_count": 3749
+  }
+]

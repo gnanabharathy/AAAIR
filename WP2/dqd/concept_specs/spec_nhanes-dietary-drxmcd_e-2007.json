@@ -1,0 +1,12 @@
+{
+  "concept_name_column": "DRXMCD",
+  "concept_code_column": "DRXMC",
+  "domain_id": "Observation",
+  "vocabulary_id": "NHANES_DRXMC",
+  "concept_class_id": "NHANES Food",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Generated via simplified fallback prompt (generate_simple_column_roles.py) after the full spec prompt triggered a runaway reasoning loop twice. domain_id/vocabulary_id/concept_class_id intentionally left null -- fill in via harmonize_concept_specs.py against sibling files in the same family.",
+  "harmonization_reasoning": "All files describe food modification codes, so the domain \"Food\" is the most appropriate and consistent choice. The vocabulary \"NHANES_DRXMC\" is already used in every non\u2011null specification, making it the natural single vocabulary. For the concept class, \"NHANES Food\" appears in two of the five files and aligns with the domain, while \"Food\" is a generic alternative; \"NHANES Modification Code\" is only used in one file and is less descriptive of the content. Thus \"NHANES Food\" provides the best harmonized concept class.",
+  "domain_id_correction_note": "Changed from 'Food' to 'Observation' -- 'Food' is not a real OMOP CDM 5.3 domain (verified against official OHDSI CommonDataModel docs); the LLM's earlier claim that it was a built-in domain was incorrect."
+}

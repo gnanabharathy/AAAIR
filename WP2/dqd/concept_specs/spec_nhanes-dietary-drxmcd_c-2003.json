@@ -1,0 +1,12 @@
+{
+  "concept_name_column": "DRXMCD",
+  "concept_code_column": "DRXMC",
+  "domain_id": "Observation",
+  "vocabulary_id": "NHANES_DRXMC",
+  "concept_class_id": "NHANES Food",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Each row represents a unique food modification code and its description. The numeric code (DRXMC) is used as the concept_code, and the description (DRXMCD) is the concept_name. The domain is set to \"Dietary Component\" because these are food items, not supplements. A new local vocabulary \"NHANES_DRXMC\" is created to house these codes. No other columns are present, so no synonyms are added.",
+  "harmonization_reasoning": "All files describe food modification codes, so the domain \"Food\" is the most appropriate and consistent choice. The vocabulary \"NHANES_DRXMC\" is already used in every non\u2011null specification, making it the natural single vocabulary. For the concept class, \"NHANES Food\" appears in two of the five files and aligns with the domain, while \"Food\" is a generic alternative; \"NHANES Modification Code\" is only used in one file and is less descriptive of the content. Thus \"NHANES Food\" provides the best harmonized concept class.",
+  "domain_id_correction_note": "Changed from 'Food' to 'Observation' -- 'Food' is not a real OMOP CDM 5.3 domain (verified against official OHDSI CommonDataModel docs); the LLM's earlier claim that it was a built-in domain was incorrect."
+}

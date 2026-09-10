@@ -1,0 +1,12 @@
+{
+  "concept_name_column": "VALUE",
+  "concept_code_column": "FFQ_VAR",
+  "domain_id": "Observation",
+  "vocabulary_id": "NHANES_Food",
+  "concept_class_id": "NHANES Food",
+  "one_row_per_concept": true,
+  "additional_columns_as_synonyms": [],
+  "notes": "Each row represents a distinct food/drink item reported in the NHANES Food Frequency Questionnaire. The numeric FFQ_VAR serves as a unique identifier for the concept, while the VALUE string is the human\u2011readable name. No additional columns exist to be stored as synonyms.",
+  "harmonization_reasoning": "The OMOP Food domain is the appropriate standard domain for beverage and food items, so all files should use it.  The broader NHANES_Food vocabulary encompasses both beverage and food concepts, making it a natural common vocabulary.  The concept class NHANES Food is more descriptive than the generic NHANES Concept and matches the second file\u2019s class, providing a consistent, meaningful classification across years.",
+  "domain_id_correction_note": "Changed from 'Food' to 'Observation' -- 'Food' is not a real OMOP CDM 5.3 domain (verified against official OHDSI CommonDataModel docs); the LLM's earlier claim that it was a built-in domain was incorrect."
+}

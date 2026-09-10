@@ -1,44 +1,44 @@
 [
   {
     "nhanes_var": "DSDIID",
-    "omop_table": "drug_ingredient",
-    "omop_field": "ingredient_concept_id",
+    "omop_table": "concept",
+    "omop_field": "concept_id",
     "concept_id": null,
-    "notes": "Ingredient ID number"
+    "notes": "Ingredient ID corresponds to a concept in the NHANES Ingredient vocabulary; would be stored as concept_id in the concept table."
   },
   {
     "nhanes_var": "DSDINGR",
-    "omop_table": "drug_ingredient",
-    "omop_field": "ingredient_concept_id",
+    "omop_table": "concept",
+    "omop_field": "concept_name",
     "concept_id": null,
-    "notes": "Ingredient name"
+    "notes": "Ingredient name stored as concept_name in the concept table."
   },
   {
     "nhanes_var": "DSDBID",
-    "omop_table": "drug_concept",
-    "omop_field": "drug_concept_id",
+    "omop_table": "concept",
+    "omop_field": "concept_id",
     "concept_id": null,
-    "notes": "Blend component ID"
+    "notes": "Blend component ID corresponds to a concept; would be stored as concept_id in the concept table."
   },
   {
     "nhanes_var": "DSDBCNAM",
-    "omop_table": "drug_concept",
-    "omop_field": "drug_concept_name",
+    "omop_table": "concept",
+    "omop_field": "concept_name",
     "concept_id": null,
-    "notes": "Blend component name"
+    "notes": "Blend component name stored as concept_name in the concept table."
   },
   {
     "nhanes_var": "DSDBCCAT",
-    "omop_table": "drug_concept",
-    "omop_field": "drug_concept_class_id",
+    "omop_table": "concept",
+    "omop_field": "concept_class_id",
     "concept_id": null,
-    "notes": "Blend component category"
+    "notes": "Blend component category stored as concept_class_id in the concept table."
   },
   {
     "nhanes_var": "DSDBCID",
-    "omop_table": "drug_concept",
-    "omop_field": "drug_concept_id",
+    "omop_table": "concept",
+    "omop_field": "concept_id",
     "concept_id": null,
-    "notes": "Old version blend component ID"
+    "notes": "Old blend component ID corresponds to a concept; would be stored as concept_id in the concept table."
   }
 ]

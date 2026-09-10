@@ -34,11 +34,61 @@ def get_schema(ds_id):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+STRUCTURAL_NOT_APPLICABLE = {
+    "nhanes-dietary-drxfcd_c-2003", "nhanes-dietary-drxfcd_d-2005",
+    "nhanes-dietary-drxfcd_e-2007", "nhanes-dietary-drxfcd_f-2009",
+    "nhanes-dietary-drxfcd_g-2011", "nhanes-dietary-drxfcd_h-2013",
+    "nhanes-dietary-drxfcd_i-2015", "nhanes-dietary-drxfcd_j-2017",
+    "nhanes-dietary-drxfcd_l-2021", "nhanes-dietary-drxfmt-1999",
+    "nhanes-dietary-drxfmt_b-2001", "nhanes-dietary-drxmcd_c-2003",
+    "nhanes-dietary-drxmcd_d-2005", "nhanes-dietary-drxmcd_e-2007",
+    "nhanes-dietary-drxmcd_f-2009", "nhanes-dietary-drxmcd_g-2011",
+    "nhanes-dietary-dsbi-1999", "nhanes-dietary-dsii-1999",
+    "nhanes-dietary-dspi-1999", "nhanes-dietary-foodlk_c-2003",
+    "nhanes-dietary-foodlk_d-2005", "nhanes-dietary-p_drxfcd-2017",
+    "nhanes-dietary-varlk_c-2003", "nhanes-dietary-varlk_d-2005",
+}
+
+STRUCTURAL_MESSAGE = (
+    "DQD is not applicable to this dataset. It's a reference/lookup "
+    "table (e.g. a food code or supplement-ingredient list), not "
+    "person-level survey data -- it has no participant identifier "
+    "(SEQN) linking rows to individual people, so it doesn't fit the "
+    "OMOP CDM's person-centric tables that DQD checks. This dataset's "
+    "content is loaded into the CDM's concept table (vocabulary) "
+    "instead."
+)
+
+PHIDU_MESSAGE = (
+    "DQD is not applicable to this dataset. PHIDU data reports "
+    "region-level population health statistics (e.g. rates and counts "
+    "for a state or health area), not individual-person records -- it "
+    "has no participant-level rows to map into the OMOP CDM's "
+    "person-centric tables, so it isn't loaded into the CDM at all."
+)
+
 @app.route('/api/dqd/result', methods=['GET'])
 def get_dqd_result():
     ds_id = request.args.get('ds_id', '').strip()
     if not ds_id:
         return jsonify({'ok': False, 'error': 'Missing ds_id'}), 400
+
+    if ds_id in STRUCTURAL_NOT_APPLICABLE:
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'panel',
+            'message': STRUCTURAL_MESSAGE,
+        })
+
+    entry = SCHEMA_DATA.get(ds_id)
+    if entry and entry.get('source') == 'PHIDU':
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'modal',
+            'message': PHIDU_MESSAGE,
+        })
 
     result_path = os.path.join(BASE_DIR, 'dqd/raw', f'{ds_id}.json')
     if not os.path.exists(result_path):
