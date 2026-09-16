@@ -1,0 +1,480 @@
+---
+title: "Work Package 3.2/4.2: Assessment and Prioritization of Tools and Platforms"
+#subtitle: "Criteria and protocol"
+output: 
+  officedown::rdocx_document:
+    toc: false
+    number_sections: false
+    reference_docx: "word_template.docx"
+    base_format: "bookdown::word_document2" # for equation numbering
+    plots:
+      #style: Captioned Figure
+      align: left
+      topcaption: true
+      caption:
+       style: Image Caption
+       pre: "Figure "
+       sep: ": "
+    tables:
+      style: Table
+      layout: autofit
+      topcaption: false
+      width: 1.0
+      caption:
+       style: Table Caption
+       pre: "Table "
+       sep: ": "
+    page_size:
+      width: 8.3
+      height: 11.7
+      orient: "portrait"
+    page_margins:
+      bottom: 1
+      top: 1
+      right: 0.5
+      left: 0.5
+      header: 0.5
+      footer: 0.5
+      gutter: 0.5
+params:
+ rendering: "word"
+csl: qje.csl
+bibliography: for3_4_point_2.bib
+#date: "2026-04-21"
+---
+
+
+```{r setup1, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning=FALSE, include=T, tidy.opts=list(width.cutoff=60), message=FALSE, eval=T, fig.path = "graphs/", cache=F, out.width = "90%", fig.width=7.5)
+packinst <- installed.packages()[,1]
+if(length(grep("Hmisc",packinst))==0) install.packages("Hmisc")
+library(Hmisc)
+if("knitr" %nin% packinst) install.packages("knitr")
+if("kableExtra" %nin% packinst) install.packages("kableExtra")
+if("tidyverse" %nin% packinst) install.packages("tidyverse")
+if("UpSetR" %nin% packinst) install.packages("UpSetR")
+if("officedown" %nin% packinst) install.packages("officedown")
+if("flextable" %nin% packinst) install.packages("flextable")
+if("officer" %nin% packinst) install.packages("officer")
+if("knitr" %nin% packinst) install.packages("knitr")
+if("modelsummary" %nin% packinst) install.packages("modelsummary")
+if("bookdown" %nin% packinst) install.packages("bookdown")
+
+
+if(!is.loaded("tidyverse")) library(tidyverse)
+if(!is.loaded("UpSetR")) library(UpSetR)
+if(!is.loaded("knitr")) library(knitr)
+if(!is.loaded("kableExtra")) library(kableExtra)
+
+if(!is.loaded("officedown"))  library(officedown)
+if(!is.loaded("flextable"))  library(flextable)
+if(!is.loaded("officer"))  library(officer)
+if(!is.loaded("knitr"))  library(knitr)
+if(!is.loaded("modelsummary"))  library(modelsummary)
+if(!is.loaded("bookdown"))  library(bookdown)
+
+
+```
+
+Work packages 3.2 and 4.2  objective is to *Assess and prioritize tools and platforms for procurement, customization or development.*   
+
+Deliverable:  
+
+* Curated list of tools and platforms with installation requirements, budget estimates, and usage considerations.
+
+
+
+In this document I outline the steps followed for the curation list for WPs3.2 and 4.2
+
+# Executive summary
+
+This work assessed a broad range of analytics, statistical, database, and generative AI tools against a structured  criteria covering installation requirements, scalability, cost, maintenance, usability, training, documentation, containerization, and suitability for integration within a Virtual Research Environment (VRE). The assessment was informed by survey results (Packages 3.1 and 4.1), stakeholder workshops, literature review, and technical evaluation of more than 50 identified tools.
+
+
+# Tools and platforms investigated
+
+## Inclusion Protocol 
+
+1. Collate list of tools and platforms based on top results from survey
+   *	Q24  - Programming languages, programming environments, commercial platforms, reproducible workflow & version control tools.
+   *	Q30 – domain specific tools 
+   *	Q33 – GenAI & LLM tools  
+2. Add any form workshop and Padlet info
+3. Add some tools recommended through the `other` options in survey
+    + base inclusion on number of mentions and on experience, also based on open web search.
+4. Review all tools for items in criteria.
+5. Bounce back tools with ADSN WP leads
+
+### Add some tools recommended through the `other` options in survey
+
+
+For other tools included, the open search will check, via manual web search, for:  
+
+* Is the tool a niche use tool or more general use
+* "Trusted" source
+  + Open source tool with transparency
+  + Commercial entity known
+
+### Review all tools for items in criteria.
+
+The criteria for extraction of information has a set of fields for data extraction to populate flat database, plus written information for report.
+
+### Fields to be extracted:
+
+The following fields are what the criteria for curation consists of.
+
+**Installation requirements:**  
+
+* Linux/Unix compatibility
+* Memory needed
+* Processor needed
+* Hard disk/storage space needed
+* Other software required
+
+**Scalability**:  
+
+* Stand alone tool vs. server version
+* Ability to have multiple versions coexisting 
+**Cost:**  
+
+* Licensing Models
+* Maintenance:
+  + Version update
+  + Self updating or not
+  + Customer support needed for updates and maintenance?
+  <!-- + Extra Infrastructure needed for use -->
+  
+
+ <!-- Think of ranges based on info for interpretation for ARDC -->
+
+**Usage Consideration:**  
+
+* User interfaces (GUI, notebooks, low/no code options)
+* Internet dependent/local offline/Hybrid
+* Support (for maintenance, updates etc.)
+* Training available
+* Maintenance (self, customer support needed)
+<!-- * Github connectivity -->
+* Package maintenance
+* Version updates 
+   + Multiple version co-existing at same time possible?
+   + Frequency of updates
+   <!-- + Older version compatibility  -->
+<!-- Notes for updating: don’t necessarily update until fully compatible, -->
+* Containerisation.
+* Learning Curve
+* Documentation and manuals
+<!-- , videos (share with P6 to see if it calls for more) -->
+
+<!-- Include knime, rapidminer,   -->
+<!-- Padlet inclusive  -->
+
+### Literature search 
+
+A quick search for bibliometric analyses of software used in health, yielded some papers which are included in the bibliography, from which some insights on use of statistical software and AI in healthcare were gained.
+
+# Results
+
+## Curated list
+
+From package 3.1 & 4.1 survey and other elicitation, it was made clear that although most people use stand alone and network connected computers, there is a demand for access to  HPCs (National and institutional) and commercial cloud services. VRE's would then definitely fill in the gap found.
+
+The list was curated from all 50+ tools mentioned and asked about in the survey, informed by the workshop had at ADSN, review of some literature and consideration of the criteria above.
+
+
+Although the ultimate use of this list is for consideration of integration/hosting in the VRE, it was expressed that it could be good to have a list to present to potential users, even if these tools are not to be "hosted" in the VRE. Here I present the list of tools that could be presented to users.
+
+ 
+**Analytics tools**
+
+Regarding non computational facility tools, in the software arena, Excel came out as one that is most used in the survey, but this is not a Linux compatible software and would need installation of emulators. As highly used as it seemed to be, it does not seem to be a tool that enable high level analytics anyway. It is worth mentioning that some programs/software mentioned din the workshop are already part or are easily implemented with some of the tools in the list, for example: *Shiny R*,  *Quarto*, connection to storage, and *RStudio* remote access are all implementable in RStudio, Positron and Jupyter books/hub.
+
+Of note, all the tools in the list have been curated to be trustworthy and of certain utility, an range en flexibility of coding level and types of analysis. The list as is, is a shorter list than all tools elicited, and a list that could be shared with users. But, it is not the shortest list of recommended tools to consider for VRE integration. The recommended ones are in bold text, the ones in italics are potential considerations, though they have downsides like: Fewer packages for analytics available, carry a monetary cost, or could be redundant given the easy access to the already existing hosted versions elsewhere.
+
+* **R**
+* **Python**
+* **RStudio/Posit (free version)**
+* **Positron**
+* **Jupyter Notebooks or Hub**
+* *Julia*
+* *Weka Workbench*
+* Mplus
+* *SAS (Analytics pro and Viya)*
+* *Stata*
+* **Knime**
+* *Rapidminer*
+* GitHub (free)
+* Gitlab
+* **Postgresql**
+* Mysql
+* *Galaxy*
+* VS code
+* Power BI  
+
+**GenAI LLM tools**
+
+The list is provided as the tools are popular and not only are they advancing daily, but several have older versions that allow use of their weights (model) to be used and implemented by others and hence potentially useful to keep "in house"
+
+None of the tools are actually recommended or suggested as *Analytical tools* per se, but only in their capacity as AI assistance in summarising, or helping with coding. There are still shortcomings in promoting these tools as tools to *"Do the analysis"*. In short, GenAI (LLMs) can play  important potential roles in usual tasks for Analytics (Statistical analysis or ML) in health, namely on tasks that are more mechanic such as summarising  literature, extracting information, and assisting with programming code for explicit tasks, However, there are still limitations and challenges: hallucinations, data security, reproducibility, and the lack of inclusion or integration of context into statistical/analytical planning.
+[@ReasonTim2025UGAI]
+ Some authors discuss the difference between "GenAI as a reasoning scaffold and as an analysis engine" [@CurrieGeoffreyM2026Fdte]. We need to keep in mind that there is no real "reasoning" yet behind LLMs, and hence passing on the responsibility to analyse and interpret is still a dangerous issue.
+Analytics for health requires not only data acquisition but data understanding, code generation, and strategic planning  [@ZhuYuqi2026WDOL], and the first two are more of a reasoning task.
+
+Based on some searches, the use of Gen AI has been mainly done as the focus of the research being used as an interaction tool, or as a tool for diagnosis, fewer papers have used it as the analytics tool per se [@EvolAIinHC]. [@NjeiBasile2026Aiai] mention, of AI use "...with few clinical pilots or real-world deployments. Primary reported outcomes focused on process measures (efficiency) and diagnostic accuracy; clinical outcomes and safety endpoints were rarely addressed."
+It is important to also note that researchers in health , as do the general public, sometimes refer to "AI", regarding AI as analytics, to the use of ML techniques [@YuFei2021CoAS; @WalayatHussain2024Rhwa; @fi16070221; @useofMLrealworld]
+
+Hence, I reiterate, it is not recommended to use these tools as standalone Analytics tools, but to consider as Assistants available for specific tasks.
+
+* Google Gemini (cli)
+* ChatGPT (free)
+* ChatGPT (paid)
+* Claude (free)
+* Claude (paid)
+* Mistral
+
+
+
+## Key Findings and recommendations
+
+Below  the focus centres on the recommended tools for consideration of inclusion on VRE. Table \@ref(tab:toolsrequire) has a "quick view" table of the fields set out in the criteria for the curation. Table \@ref(tab:toolscrit) shows a similar table with more details.  
+
+### Software/program IDEs recommended
+
+Based on the linux implementation of the VRE in containers like Kubernetes, the tools to use should be compatible and avoid high dependencies on commercial vendors. Sustainability is also considered as mentioned above. In my mind we need to think of tools that allow users a somewhat seamless transition from local use  to VRE use, so that, what works on their computer, works on the VREs.
+
+#### Open source
+
+Based on the search and compilation of criteria for each of the tools considered, the main recommendations centres on IDEs that are flexible in many ways, flexible in the analytics programs they can handle, in the versatility of the programs in handling many/most of the top advanced analytic needs, amenability for  installation, sustainable maintenance and cost, on top of the ability to be put in containers.
+
+The main recommendations are **Rstudio**, **Positron**, **Jupyter notebooks** (or jupyter server) and **VS Code**. These have the ability to use several different *kernels* (*Julia*, *Matlab*, *R*, *Python*, *Stata*, etc.), of which *R* and  *Python* came on top from elicitation and consultation phase. And also integrate use of *Shiny* and *Quarto* which came up on the workshop.  
+
+Within these kernels one can also make use of  SQL-like connections to database management tools (mySQL/postgreSQL) and run queries directly from them. Modern tools like *PyTorch* and *Tensorflow* are easily implemented through packages or modules that exist in both *R* and *Python*. **Rstudio/Positron** and **Jupyter** (notebooks or lab) are also Git-amicable and they both support reproducible and collaborative research opportunities. Both allow for integration of API requests and sharing. And these tools also align with the potential of per‑project isolation allowing different and multiple language versions coexisting side‑by‑side, hence avoiding forced upgrades mid‑project.
+
+Both are open source and  free to start, there are server versions and workbench (paid) options with support and AI assistant subscriptions and both  can be implemented in Kubernets making the "bring the compute to the data" idea feasible.
+
+On top of this, both **RStudio/Positron** and **Jupyter** have possibilities for AI coding agent assistant (some free, some with subscription). e.g. **RStudio**'s [*Posit assitant*](https://posit.co/blog/introducing-ai-in-rstudio) and **Jupyter**'s [*Jupyter AI*](https://jupyter-ai.readthedocs.io/en/v3/)
+
+**PostgreSQL** is considered better option to commercial SQL and to MySQL, among other characteristics, its architecture supports custom functions in other programming languages, like Python, Ruby, C/C++, Java,  Perl,  etc. making it flexible for use across data processing needs. Also it has extensions that let one add geospatial, time-series, and AI vector search without the need for  more infrastructure [see](https://www.kunalganglani.com/blog/postgresql-vs-mysql-2026).
+
+*Mistral* Although other open LLM models may beat in memory use and response time [see](https://computingforgeeks.com/open-source-llm-comparison/), its open source nature allows to have more control over implementations and customisation. None of the other open source models were mentioned in the elicitation. In general Mistral is known for being concise and accurate.
+
+#### Low code/no code AI capable options  
+
+It is important to note that low code/no code analytics vary in their implementations. From visual interactive "coding" and workflow creation with defaults and little other input, to visual coding with access to tuning parameters, to being implemented through LLMs interpreting prompts from user for analysis. The recommendation to consider, if looking at low/no code options, is **Knime**. **Knime** is open source suite of visual workflow "coding" that allows some flexibility within its nodes which implement tasks. The workflow can be saved and hence research reproducible. It also counts with the possibility of executing R and Python scripts if wanted. It has free version and subscriptions for automation of workflows and team collaboration.
+
+
+#### Commercial (**SAS** and **Stata**)
+
+**SAS** was one of the top 10 in survey and ranked high in literature, **Stata** came up several times as another tool in the survey (volunteered by respondents) and also cited in literature  [@MasuadiEmad2021TitU, @DembeAllardE2011Ssau]. 
+
+Comparing these two, **SAS**  would be the one more recommended as its base and extensions align more with the top techniques and analyses types sought out. Fulfilling the needs of researchers may need to cover more than core SAS, namely  SAS/STAT, SAS/ETS, SAS ML, SAS Visual Data Mining & Machine Learning, or SAS Viya to accomplish all that **R** and **Python** can. 
+
+**SAS** is great for classical statistical modelling and survival analysis but is limited for modern machine learning, deep learning, graph‑based methods, and adaptive or federated AI. **R** and **Python** together have these very well covered (both classical statistical inference and more modern ML/AI methods).
+
+**SAS** seems limited regarding containerisation, but has server style services like SAS Studio and for more advanced AI aided, SAS Viya, and different costing plans for enterprise and academic depending on Studio or Viya versions.
+
+**Stata**, on the other hand, as commercial package, is not as strong in all the techniques desired, it is containerisable and  has a very straightforward licensing structure (easier than SAS's). **Stata** excels at Classical statistics, Causal inference (especially policy & epidemiology workflows), Survival analysis, panel data/longitudinal data analysis. It has both a GUI and coding/scripting syntax and is amenable to  reproducible analysis and it's still one used by many in Epidemiology, Health services research, Economics/policy evaluation and Demography. Regarding ML functionality, it comes from user‑written packages, which are not necessarily standardised or optimised for scale and hence lag  behind R/Python and has limited capacity for federated learning.
+
+**SPSS** is cited in some of the literature [@MasuadiEmad2021TitU; @DembeAllardE2011Ssau], this is not recommended given cost, click for analysis and hence lower reproducibility of research, and low integration for reproducible literate coding and research. Although SPSS allows scripts, most people use it as clicking software.
+ 
+Although just one  part of the criteria  for considering tools, Table \@ref(tab:comptech) in the appendix shows a comparison of **R**, **Python** , **SAS**, **Julia** and **Stata** regarding their capabilities regarding the analytic techniques most cited from survey and workshop.
+
+#### Excel and Power BI
+These tools get specially mentioned as both of these ranked high in use in our elicitation phase, but are Microsoft Windows based and they do not run natively on linux, though they could run on emulators or virtual machines within linux. Given their non -linux compatibility, and their lack of true advanced analytics, no more specifications are given.
+
+#### Git (lab, hub, hub desktop)
+
+Git and its variant implementations featured highly in the elicitation phase; however, these are more of an infrastructure and version control and collaboration tool, rather than an actual analysis tool.
+In any case, Git is part of most Linux installations and github/lab like behaviours and implementations can be achieved from the command line implementation.
+
+Of note, **Rstudio/Positron** and **Jupyterlab** can include Git plugins that allow them to use Git.
+
+<!-- Table \@ref(tab:toolsrequire) in the appendix attempts to summarise in a quick view table what is detailed in this document. -->
+
+#### Non AI analytics recommendation conclusion
+
+Form the above descriptions, the most recommended tools "package" for the VRE is:
+Given the linux set-up, containerised *R* and *Python*, accessed via *Jupyter Notebooks/lab* or *RStudio/Positron*, backed by *SQL type databases* (PostgreSQL), with version‑control features with *CLI Git*.
+
+*Excel* and *Power BI* are not  recommended for "hosting" as they are not really advanced analytical computational tools and are usually used more for reporting.
+
+*SAS* and *Stata* are options supported  but incur in extra expenses, unless the VRE architecture will allow people to also "bring in their license" as discussed for use of LLM access. Not sure if such possibility could exist with *SAS Viya* or *SAS Studio*
+
+Advantages of recommended package:
+
+* Reproducibility
+* Parallelisable, containerisable and scalable computing 
+* Production and teaching–research alignment
+* Vendor independence
+* Basis tools for much of development of applied AI, ML, and data science.
+
+## Other tools  
+
+From the survey, the workshop and some desktop searches, other tools came up and where mentioned but are not recommended although they are mentioned here.
+
+* Mysql, database management, PotsgreSQL preferred and usually default in many applications as it also has more flexibility and features.
+* Bioconductor, not a standalone tool, a suite of packages for use within R and hence part of customisation of R installs.
+* Mplus, commercial, offers a suite of longitudinal data analysis, but has no ML capabilities.
+* Weka, Open Source ML software,  mostly centred around ML
+* Wgcna, not a tool itself, an R package to be considered in customising installation of R
+* Episurv,  a NZ government Public Health Data repository, not an analytics tool (hence, not shown on table)
+* Tableau, commercial, dashboard creation with some "predictive" modelling (namely canned regressions)
+* Snakemake workflow management, not really analytics
+* Rapidminer, commercial, potentially expensive, KNIME a very good free substitute.
+* Nexa.ai (Now Qualcomm A) To run AI models locally, hence not directly analytics tools, more of an agent creation tool, plus several different "Nexa ai" appear to exist. (not shown on list hence)
+* Vertex ai (now Gemini Enterprise Agent Platform), agent platform, agent creation.
+* Github co-pilot, not recommended separately as other AI assistants are better and in due case could be added to Github.
+* Google antigravity, agentic development platform, not direct analytics
+* Grok, AI agent, catching up with Claude and CHatGPT but main issue is that data handling practices are subject to xAI's privacy policies, cost and owner. Just lately coming to use of images where others have more experience in the field.
+* Notebooklm, AI summarising text sources, not  quantitative analytics or general GenAI.
+* Opendatafit, niche web based bio-nano science, upload excel get results.
+* Llama (meta) LLM model open weights
+* Ollama  Platform to implement LLM models, not an analytics tool per se and hence the IT VRE people at ARDC would know better which platform to use to implement any application.
+* Singularity/apptainer Also not an analytics per se but a container  of sorts where, again the expert team in VRE would know if they want Kubernetes, or apptainers etc.
+* Perplexity
+
+## Tool table and criteria fields.
+
+Table \@ref(tab:toolscrit) in the appendix shows the fields for the criteria for curation of tools, tools in italic are top recommended. The following [link](Toolscriteriatable.html) gives access to an html version that is more easily scrollable (opens in a separate browser window)
+
+
+
+
+# Other details to consider on some chosen tools
+
+## R
+
+*R* is an advanced open source statistical and ML analysis tool that also covers Bayesian statistics and inclusion of domain specific analysis techniques like Bioconductor for genomic data. As Mentioned before, it allows the inclusion of other high ranking tools from the survey such as the use of *PyTorch* and *Tensorflow*. It is linux compatible as linux is the main platform for its development, it is applicable to x64, intel and silicon processors, basic memory requirements are minimal and really depend on amount of data. It is free GNU licensed and updated often (~4 times a year), but manually and hence allows for keeping several versions installed. It can be installed and ran as stand alone or with IDEs like *RStudio* or *Jupyter* it can be implemented in parallel and containerisable. It has many packages available from developers and community, internet is only needed to install packages from mirrors (unless they are held in the  hosting environment) and for downloading updates.  There are many training opportunities from free to short courses, and it is well documented.
+
+**Minor downsides:**
+ Heavy coding, medium learning curve, only few implementations for clicking and still seeing the commands (Rcmdr, Rattle packages). Other potential front ends like Jamovi, Bluesky or Jasp among others but these click and go front ends then lose some reproducibility ability. For full containerisation without having to access outside network for installing packages, then the repository of the packages would have to be held in the container.
+
+# Python 
+
+*Python* has many similarities to *R* regarding Linux compatibility, reproducibility, scalability, containerisation, amongst other, but one key characteristic is that it seems to be the tool of choice for advanced ML and Data science. Both *PyTorch* and *Tesnorflow* are easily included and implemented through *Python*.  Also the existence of IDEs like *Positron* and *VS Code*, or implementations through *Jupyter* books make python easy to include in reproducible research endeavours. Being open source and free programming language makes this tool a desirable one. Updates and maintenance comes from core programmers and community. Training exists from many sources and Python is well documented. 
+
+**Minor downsides:**
+ Just like *R*,  coding can be seen as a down side, medium learning curve, very few implementations for clicking and still seeing the commands or potential front ends, way less than in R (PandaGUI has implementations of *Python*'s Panda package only). For full containerisation without having to access outside network for installing packages, then the repository of the packages would have to be held in the container just like for R.
+
+## RStudio/Positron
+
+*Rstudio* is one of the preferred IDEs for *R* that also includes markdown and reproducible  research capabilities, through use of Rmarkdown coding one can produce HTML, Word, Powerpoint, and PF documents. It also counts with code suggestions for auto completion and a friendly interface for installing packages and keeping projects separate. There are free versions and server versions too.
+
+*Positron* is the newer IDE from Posit, this IDE allows coders to use *R* and *Python* within same analysis by varying code cells and other useful IDE amenities.
+
+Both *Positron* and *Rstudio* now have access to a *Posit Assistant* for (at the time of writing this) $20 a [month](https://posit.co/blog/posit-ai-priced-long-run), which is stated as covering most coders' needs, but can be recharged if credits exceeded. There are Academic prices too.
+
+## KNIME
+
+KNIME (Konstanz Information Miner) is a visual, open-source,  workflow-based "programming" analytics tool. One of the upsides is that its visual "coding" approach makes it have a low learning curve, yet it can also be a downside as people may then use nodes as they are and not necessarily change defaults or tune parameters, making it a bit of a "click and go" type of use, though workflows can be saved and retrieved for reuse and reproducibility, alleging the concentration of everything in one workflow instead of many separate scripts. Another upside is that KNIME, "seamlessly" provides connectors for importing/using data from many sources (EHRs, Lab data, Redcap, etc). It can still make use of *R* and *Python* if desired.
+
+Some downsides, version control is harder to follow, code and text changes can easily be tracked in git-friendly  tools, workflows per se not so much. Many basic analysis are ok, but more complex (e.g. GLMMs, Bayesian, Causal inference) techniques end up relying on *R* or *Python*. A somewhat counter-intuitive issue for a visual coding tool is that the visualisations are good but do not really compete with *R*'s. Also complex data wrangling, data engineering and merging etc can end up in highly complex workflows, nested workflows and many nodes, where a well structured code may be easier to follow.
+
+
+## SQL like database management
+
+SQL is a Microsoft product that now allows Linux installation, and can be used in [containers](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver17&viewFallbackFrom=sql-server-ver17%2Chttps%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fsql%2Fbig-data-cluster%2Fdeploy-get-started%3Fview%3Dsql-server-ver17&pivots=cs1-bash) and [Kubernetes](https://learn.microsoft.com/en-us/sql/big-data-cluster/deploy-get-started?view=sql-server-ver17),licensing is commercial and [pricing](https://www.microsoft.com/licensing/guidance/sql) varies from subscription to pay as you go, regularly updates available. It supports panellising, and is accessible through both GUI and command line.
+
+The suggested SQL-like **PostgreSQL** is used  as the open source resource for many applications.
+
+
+
+
+
+<!-- ### Consider for Workshop  -->
+<!-- 1.	Discuss who is the real **end** user -->
+<!-- 2.	What are tools used for? In house research, publications, etc.? -->
+<!-- 3.	What are people looking for in the future? -->
+<!-- 4.  Are we pitching things at the right level? (Consider user: epidemiologists, analysts, clinicians, etc.)  -->
+<!-- 5. Think of who to invite, "avoid" survey respondents, think of agencies, MOH, NSW health, etc. -->
+
+
+
+
+# References
+
+::: {#refs}
+:::
+
+
+
+
+\pagebreak
+
+# Appendix
+
+
+## Python, R, SAS, Stata comparison  
+
+```{r comptech, tab.cap="Quick view comparison of R, Python, SAS and Stata wrt  specific techniques" }
+latab <- read.delim("sasrpystattab.tsv")
+latab |> as_flextable(hide_grouplabel = TRUE, show_coltype = F) |> 
+  fontsize(size=8) |> fontsize(size=8, part = "header") |> 
+    width(j=1:4, width=c(2.5,rep(1,3))) |> theme_zebra() |> bold(j=1)
+```
+\pagebreak
+
+<!---BLOCK_LANDSCAPE_START--->
+
+# Overall Tool requirements quick view
+
+Table \@ref(tab:toolsrequire) shows the quick view fields for specific parts of criteria for curation of tools.
+
+```{r toolsrequire, tab.cap="Tool requirements quick view" }
+latabc <- readxl::read_excel("Condensed_Tools.xlsx")
+
+latabc |> filter(Tool %nin% c("Episurv", "Nexa.ai (Now Qualcomm A)")) |>  arrange(ARDCcat,Tool) |> as_grouped_data(groups="ARDCcat") |> as_flextable(hide_grouplabel = TRUE, show_coltype = F) |> 
+theme_zebra() |>  bold(j=1) |>
+  width(width=.7) |> 
+  fontsize(size=8) |> fontsize(size=8, part="header") |>  
+  border_inner_v() 
+```  
+
+
+
+
+# Tool table and criteria fields.
+
+Table \@ref(tab:toolscrit) shows the fields for the criteria for curation of tools, tools in italic are top recommended. 
+
+```{r toolscrit, tab.cap="Tool criteria and characteristics" }
+##no nexa, no episurv as rows, no code of conduct?, category or type oft tool? no selfcontained nor us ein cloud
+##nor done 
+
+latab1 <- readxl::read_excel("Alltogethertoolsnoborrar.xlsx")
+parownames <- str_squish(gsub("."," ",row.names(latab1), fixed=T))
+parownames[which(parownames=="RStudio Posit free")] <- "RStudio/Posit (free)"
+parownames[which(parownames=="Jupyter Jupyterhub")] <- "Jupyter/Jupyterlab(hub)"
+parownames[which(parownames=="Docker containers")] <- "Docker/containers"
+
+#pacolnames[which(pacolnames=="Maintenance Updates")] <- "Maintenance/Updates"
+
+latab1 <- latab1 |> filter(tool %nin% c("Episurv", "Nexa.ai (Now Qualcomm A)")) |> arrange(ARDCcat,tool) 
+lostop <- which(latab1$top=="y")
+latab1 <- latab1 |> 
+select(!c(self.contained, category, tool.type, use.in.cloud, done, top )) 
+pacolnames <- str_squish(gsub("."," ",names(latab1 |> select(!ARDCcat)), fixed=T))
+
+latab1 |> as_grouped_data(groups="ARDCcat") |> as_flextable(hide_grouplabel = TRUE, show_coltype = F) |> 
+  set_header_labels(values=pacolnames) |> 
+theme_zebra() |>  bold(j=1) |> italic(j=1,i=lostop) |>  width(width=.45) |> fontsize(size=7) |> fontsize(size=8, part="header") |>   border_inner_v() #|> 
+  #fit_to_width(max_width = 17) 
+```
+
+<!---BLOCK_LANDSCAPE_STOP--->
+
+
+
+```{r eval=F,include=F}
+### run this to save teh HTML table, but do not include inthe knittingas then teh table that prints is awful in tehdoc
+# 
+# latab1 |> as_grouped_data(groups="ARDCcat") |> as_flextable(hide_grouplabel = TRUE, show_coltype = F) |> 
+#   set_header_labels(values=pacolnames) |> 
+# theme_zebra() |>  bold(j=1) |> italic(j=1,i=lostop) |>
+#   #fontsize(size=7) |>
+#   #fontsize(size=8, part="header") |>
+#   border_inner_v() |> 
+# save_as_html(path="Toolscriteriatable.html")
+#   
+```
+

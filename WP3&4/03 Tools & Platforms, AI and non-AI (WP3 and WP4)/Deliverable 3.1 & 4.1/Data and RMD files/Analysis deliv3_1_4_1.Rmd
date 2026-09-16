@@ -1,0 +1,973 @@
+---
+title: "ADSN-ARDC Deliverables 3.1 and 4.1"
+subtitle: "30 April update"
+author: "Alberto Nettel-Aguirre"
+output: 
+#   bookdown::pdf_document2:
+#     fig_caption: yes
+#     extra_dependencies: ["flafter"]
+#     toc: yes
+#     toc_depth: 5
+# header-includes: #allows you to add in your own Latex packages
+# - \usepackage{float} #use the 'float' package
+# - \floatplacement{figure}{H} #make
+# params:
+#   rendering: "pdf"
+  officedown::rdocx_document:
+    toc: false
+    number_sections: true
+    reference_docx: "word_template.docx"
+    #reference_docx: "sample_to_word copy 2.docx"
+    base_format: "bookdown::word_document2" # for equation numbering
+    plots:
+      #style: Captioned Figure
+      align: left
+      topcaption: true
+      caption:
+       style: Image Caption
+       pre: "Figure "
+       sep: ": "
+    tables:
+      style: Table
+      layout: autofit
+      topcaption: false
+      width: 1.0
+      caption:
+       style: Table Caption
+       pre: "Table "
+       sep: ": "
+    page_size:
+      width: 8.3
+      height: 11.7
+      orient: "portrait"
+    page_margins:
+      bottom: 1
+      top: 1
+      right: 0.5
+      left: 0.5
+      header: 0.5
+      footer: 0.5
+      gutter: 0.5
+params:
+ rendering: "word"
+csl: qje.csl
+  # bookdown::html_document2:
+  #   number_sections: false
+  #   # fig_width: 10
+  #   # fig_height: 8
+  #   toc: yes
+  #   toc_depth: 5
+  #   toc_float:
+  #     collapsed: true
+  #     smooth_scroll: false
+  # bookdown::word_document2: default  
+always_allow_html: true    
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+```{r notesfrorunning, eval=T ,include=F, echo=F}
+##This section is to comment things needed. Instead of copying here  the full code of cleaning and wrangling,
+## the "Analysis.rmd" file has teh full survey cleaning and EDA from which this file gets the data, and some chuncks for graphs
+## the instruction for knit_child generates all that's needed but does not populate into the document.
+## ALternatively one coudl run Analysis.Rmd and save teh image, then load teh .Rdata here, but that woudl not allow us to get the chunks of graphs etc. already created.
+
+knitr::knit_child("Analysis.Rmd")
+```
+
+
+
+
+\pagebreak
+
+
+```{r setup1, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning=FALSE, include=T, tidy.opts=list(width.cutoff=60), message=FALSE, eval=T, fig.path = "graphs/", cache=F, out.width = "90%", fig.width=7.5)
+packinst <- installed.packages()[,1]
+if(length(grep("Hmisc",packinst))==0) install.packages("Hmisc")
+library(Hmisc)
+if("knitr" %nin% packinst) install.packages("knitr")
+if("kableExtra" %nin% packinst) install.packages("kableExtra")
+if("tidyverse" %nin% packinst) install.packages("tidyverse")
+if("UpSetR" %nin% packinst) install.packages("UpSetR")
+if("officedown" %nin% packinst) install.packages("officedown")
+if("flextable" %nin% packinst) install.packages("flextable")
+if("officer" %nin% packinst) install.packages("officer")
+if("knitr" %nin% packinst) install.packages("knitr")
+if("modelsummary" %nin% packinst) install.packages("modelsummary")
+#if("cvms" %nin% packinst) install.packages("cvms")
+
+
+if(!is.loaded("tidyverse")) library(tidyverse)
+if(!is.loaded("UpSetR")) library(UpSetR)
+if(!is.loaded("knitr")) library(knitr)
+if(!is.loaded("kableExtra")) library(kableExtra)
+
+if(!is.loaded("officedown"))  library(officedown)
+if(!is.loaded("flextable"))  library(flextable)
+if(!is.loaded("officer"))  library(officer)
+if(!is.loaded("knitr"))  library(knitr)
+if(!is.loaded("modelsummary"))  library(modelsummary)
+
+
+```
+
+
+
+```{r toc1, echo=F}
+officer::block_toc()
+```
+
+# WP Tools and Platforms Analytics (AI and non-AI) 3.1 & 4.1 by Demand, Importance and Impact
+
+## Executive Summary
+
+Work projects 3 and 4 had as deliverables 3.1 and 4.1, after elicitation, a list of Analytics platforms and tools to be classified based on 3 characteristics: Demand, importance and potential impact. The measure of such characteristics is based on the information gathered from the survey. The context of these lists and findings is to help inform the consideration of tools and platforms by the ARDC for the implementation and inclusion of these in the proposed analytics hub and VREs.
+
+
+Based on the `r nrow(survdata)` survey responses (`r beforefilt` responses, of which `r consented` consented, and of which, `r nrow(survdata)` took at least one minute to complete it), the platforms and tools assessed included: Computing facilities, programming and data science tools, statistical and machine learning methods, domain-specific health analytics tools, and AI/LLM platforms.
+
+For each tool we asked whether they `Currently use`, `Want or need to use` or whether they `Don't use nor want/need to use` and  if they had heard of it or knew enough about it to answer. Additional tools not mentioned could be given in open text fields.
+
+Measures of demand, importance and impact are derived from these and other questions asked.
+
+```{r learnyesno1, include=F}
+survdata |> select(q45) |> table(exclude=NULL)
+
+
+## just checking that only those who said yes really answered the rest
+tirar <- survdata |>  select(q45,q46.1_1:q50.2_6 ) |> filter(is.na(q45) | q45=="No - Skip to the next section") 
+all(apply(tirar[,-1], 1, function(x) all(is.na(x))))
+
+palearn <- survdata |>  select(responseid, q23_1_text, q23_2_text, q45,q46.1_1:q50.2_6 ) |> filter(q45=="Yes")
+
+```
+
+```{r complearn1}
+
+complearn <- palearn |> select(responseid,q46.1_1:q46.1_5 ) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:6 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=gsub("additional to my daily","additional to your primary", variable, fixed=T),
+         variable=factor(variable, levels=c("Stand alone computer (additional to your primary computer)", "Network connected computer", "National High Performing Computer facilities (e.g. NCI Gadi, Pawsey, ARDC Nectar, etc.)", "Institutional High Performing Computer Facilities", "Commercial Cloud (e.g., AWS, Azure, Google, etc.)") )) |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2)) 
+
+complearno  <- palearn |> select(responseid,q46.1_1:q46.1_5 ) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:6 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),variable=gsub("additional to my daily","additional to your primary", variable, fixed=T),
+         variable=factor(variable, levels=c("Stand alone computer (additional to your primary computer)", "Network connected computer", "National High Performing Computer facilities (e.g. NCI Gadi, Pawsey, ARDC Nectar, etc.)", "Institutional High Performing Computer Facilities", "Commercial Cloud (e.g., AWS, Azure, Google, etc.)") )) |> 
+  na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt)) 
+
+
+proglearn <- palearn |> select(responseid, q47.1_1:q47.1_19) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:20 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=factor(variable, levels=c('R', 'Julia', 'Python', 'SQL & Database management', 'RStudio/Posit (free version)', 'RStudio Pro (paid version)', 'Jupyter Notebooks or Hub', 'VS Code', 'SAS', 'MatLab', 'Docker or containers', 'GitLab', 'GitHub (free)', 'GitHub (paid)', 'TensorFlow', 'Pytorch', 'Nextflow', 'Snakemake', 'singularity') )) |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2)) 
+
+proglearnno <- palearn |> select(responseid, q47.1_1:q47.1_19) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:20 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=factor(variable, levels=c('R', 'Julia', 'Python', 'SQL & Database management', 'RStudio/Posit (free version)', 'RStudio Pro (paid version)', 'Jupyter Notebooks or Hub', 'VS Code', 'SAS', 'MatLab', 'Docker or containers', 'GitLab', 'GitHub (free)', 'GitHub (paid)', 'TensorFlow', 'Pytorch', 'Nextflow', 'Snakemake', 'singularity') )) |>  na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt)) 
+
+
+techlearn <- palearn |> select(responseid, q48.1_1:q48.1_19) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:18) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable), 
+         variable=gsub("(linear, logistic, etc.) ","",variable,fixed=T),
+         variable= gsub("Bayesian statistics","",variable, fixed=T),
+         variable= gsub("Regression Statistical models","Regression",variable, fixed=T)) |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2)) 
+
+techlearnno <- palearn |> select(responseid, q48.1_1:q48.1_19) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:18) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )),variable = trimws(variable),variable=gsub("(linear, logistic, etc.) ","",variable,fixed=T),
+         variable= gsub("Regression Statistical models","Regression",variable, fixed=T),
+         variable= gsub("Bayesian methods","Bayesian statistics",variable, fixed=T)
+         )  |>
+  na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt)) 
+
+domlearn <- palearn |> select(responseid, q49.1_1:q49.1_9) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:10) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=factor(variable, levels=c('Omics integration methods', 'Electronic Health Records (EHR) analytics', 'Clinical trial design and analysis', 'Computer Vision & Medical Imaging Analysis', 'Community engagement methods', 'Galaxy', 'BioConductor', 'WGCNA', 'Neurodesk') )) |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2)) 
+
+domlearnno <- palearn |> select(responseid, q49.1_1:q49.1_9) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:10) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=factor(variable, levels=c('Omics integration methods', 'Electronic Health Records (EHR) analytics', 'Clinical trial design and analysis', 'Computer Vision & Medical Imaging Analysis', 'Community engagement methods', 'Galaxy', 'BioConductor', 'WGCNA', 'Neurodesk') )) |> 
+ na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt)) 
+
+genailearn <- palearn |> select(responseid, q50.1_1:q50.1_4) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:5) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=factor(variable, levels=c('ChatGPT', 'Claude', 'Microsoft Copilot', 'GitHub Copilot') )) |>   group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2)) 
+
+
+genailearnno <- palearn |> select(responseid, q50.1_1:q50.1_4) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:5) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("none", "beginner", "intermediate","advanced" )), variable = trimws(variable),
+         variable=factor(variable, levels=c('ChatGPT', 'Claude', 'Microsoft Copilot', 'GitHub Copilot') )) |> na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt)) 
+
+
+```
+
+```{r demcomp1}
+seracomp <- compdata |> select(responseid,computing.facilities_1:computing.facilities_5) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:6 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("Unsure what this is", "Neither use nor want to use", "Would like to use","Currently use" )), variable = trimws(variable),
+         variable=factor(variable, levels=c("Stand alone computer (additional to your primary computer)", "Network connected computer", "National High Performing Computer (HPC) facilities (e.g. NCI Gadi, Pawsey, ARDC Nectar, etc.)", "Institutional High Performing Computer (HPC) Facilities", "Commercial Cloud (e.g., AWS, Azure, Google, etc.)") )) |> na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2),tot=sum(cnt)) 
+
+seraprog <- compdata |> select(responseid,q24_1:q24_22) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:23 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("Unsure what this is", "Neither want nor need to use", "Would like to use","Currently use" )),variable = trimws(variable), variable=factor(variable, levels=c("R", "Python", "Julia", "SQL & Database management", "RStudio/Posit (free version)", "Jupyter Notebooks or Hub", "VS Code", "SAS", "MatLab", "RStudio Pro (paid version)", "Power BI", "Tableau", "Excel", "Docker or containers", "GitLab", "GitHub (free)", "GitHub (paid)", "TensorFlow", "Pytorch", "Nextflow", "Snakemake", "singularity")))  |> na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2),tot=sum(cnt)) 
+
+seratech <- compdata |> select(responseid,q27_1:q27_19) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:20 ) |> 
+  mutate(variable= pinlab(variable ), value= factor(value, levels=c("Don't know enough about it", "Neither use nor want to use", "Would like to use","Currently use" )), variable=trimws(variable), variable= factor(variable, levels=c("Regression", "Causal analysis", "Survival analysis/ time to event modelling", "Bayesian statistics", "Decision trees/ Random forests", "Machine Learning (unsupervised/supervised)", "Gradient boosted (XGBoost, LightGBM)", "Deep Learning (CNN, RNN)", "AutoML & Hyperparameter optimisation", "Model interpretability/ explainability", "Natural language processing models ", "Clustering or pattern recognition models", "Federated learning models or distributed AI frameworks", "Graph neural networks and knowledge graphs", "Network analysis", "Preserving ML", "Reinforcement Learning & Adaptive Interventions", "Low Code No Code Tools in ML ")))  |> na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2),tot=sum(cnt))
+
+seradom <- compdata |> select(responseid,q30_1:q30_9) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:10 ) |> 
+  mutate(variable= pinlab(variable ),value= factor(value, levels=c("Don't know enough about it", "Neither need nor want to use", "Would like to use","Currently use" )), variable=trimws(variable), variable=factor(variable, levels=c(
+ "Omics integration methods", "Electronic Health Records (EHR) analytics", "Clinical trial design and analysis", "Computer Vision & Medical Imaging Analysis", "Community engagement methods", "Galaxy", "BioConductor", "WGCNA", "Neurodesk")))  |> na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2),tot=sum(cnt))  
+
+
+
+seragenai <- compdata |> select(responseid,q33_1:q33_7) |> 
+  reshape2::melt(id.vars="responseid", measure.vars=2:8 ) |> 
+  mutate(variable= pinlab(variable ),value= factor(value, levels=c("Don't know enough about it", "Neither want nor need to use", "Would like to use","Currently use" )), variable=trimws(variable), variable=factor(variable, levels=c("Claude (paid)", "Claude (free)", "ChatGPT (paid)", "ChatGPT (free)", "Sandbox instances of LLMs", "Microsoft Copilot", "pilot")))  |> na.omit() |> 
+  group_by(variable, value) %>%
+  summarise(cnt = n()) %>%
+  mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt)) 
+
+
+##on march 25 decide with NA and Dyvia that comp should  have the same as the others
+# serafreq <-survdata |> select(responseid,q37_7:q37_11) |> 
+#   reshape2::melt(id.vars="responseid", measure.vars=2:6 ) |> 
+#   mutate(variable= pinlab(variable ), value=factor(value, levels=c("Don't know", "Rarely", "For specific projects only",  "Weekly", "Daily")))  |> 
+#   na.exclude() |> 
+#   group_by(variable, value) %>%
+#   summarise(cnt = n()) %>%
+#   mutate(perc = round(cnt/sum(cnt), 2), tot=sum(cnt), 
+#          elwei= case_when(value== "Daily" ~ 7,
+#                           value== "Weekly" ~ 3,
+#                           value== "Rarely" ~ 1,
+#                           value== "For specific projects only" ~ 1,
+#                           value== "Don't know" ~ 0
+#                           ),
+#          prodwei = perc*elwei,
+#          variable=trimws(variable))
+
+# ##separate since comp facilities importance different to the rest
+# pacompimp <- seracomp |> filter(value=="Currently use") #get %use
+# compimp <- serafreq |> group_by(variable) |>  summarise(sumprowei=sum(prodwei)) |> #get the weighted frequency of us by the % it is used
+#   left_join(pacompimp) |> #put together with % use
+#   mutate(importance=round(sumprowei*perc, 2))
+# componlyimp <- compimp |>  select(variable, importance) ## keep only importance to then put together
+
+
+seratodos <- rbind(seracomp, seraprog, seratech, seradom, seragenai) #to get at the end a df with all tools and their demands impo and impa
+
+demands <- seratodos |> filter(value %in% c("Currently use", "Would like to use")) |> group_by(variable) |> summarise(demand=sum(perc))
+
+importances <- rbind(seracomp, seraprog, seratech, seradom, seragenai) |>  filter(value %in% c("Neither use nor want to use", "Neither want nor need to use", "Neither need nor want to use")) |>  
+  select(variable, perc) |> rename(percnon=perc) |> left_join(demands) |> mutate(importance=round(demand/percnon, 2), variable=as.character(variable)) |> 
+  select(variable,importance)
+
+
+
+allmeas <- demands |> left_join(importances) 
+
+
+###impacts
+###need to multiply by skills put all skills together
+ 
+prepard <- rbind(complearno, proglearnno, techlearnno, domlearnno, genailearnno) |> 
+  mutate(weight= case_when(value=="advanced" ~2, 
+                           value=="intermediate" ~1,
+                           value=="beginner"~ 0.5,
+                           TRUE~0), 
+         preparedness= perc*weight) |> 
+   select(variable, preparedness) |> 
+  group_by(variable) |>  summarise(totprep=sum(preparedness))
+
+papegar <- data.frame(variable= c("ChatGPT (paid)", "ChatGPT (free)", "Claude (paid)", "Claude (free)"),
+ totprep=c(prepard$totprep[prepard$variable=="ChatGPT"],prepard$totprep[prepard$variable=="ChatGPT"], prepard$totprep[prepard$variable=="Claude"],prepard$totprep[prepard$variable=="Claude"]))
+
+
+prepard <-   rbind(prepard, papegar) |> filter(variable %nin% c("ChatGPT", "Claude")) |> mutate(variable=as.character(variable))
+
+allmeas <- allmeas |> mutate(variable=gsub("Causal analysis", "Causal inference", variable, fixed=T),
+                             variable=gsub("(HPC) ", "", variable, fixed=T))
+ 
+
+
+#checknames <- as.data.frame(cbind(allmeas$variable[order(allmeas$variable)], prepard$variable[order(prepard$variable)]))
+#checknames <- checknames |> mutate(same= V1==V2)
+#setdiff(allmeas$variable, prepard$variable)                            
+
+allmeas1 <- allmeas |> left_join(prepard, join_by(variable)) |> 
+  mutate(impact= round(demand*totprep,2),impact_add=demand+totprep) |> select(!totprep)
+
+
+## Excel, Federated learning models or distributed AI frameworks,  Graph neural networks and knowledge graphs, , pilot, powerbi, Sandbox instances of LLMs, Survival analysis/ time to event modelling, not in skills
+
+
+```
+
+```{r separatebytype1}
+palindex <- c(length(unique(seracomp$variable)), length(unique(seraprog$variable)), length(unique(seratech$variable)), length(unique(seradom$variable)), length(unique(seragenai$variable)))
+names(palindex) <- c("Computing facilities", "Programs, IDEs and DS Platforms", "Advanced analytics (AI and non-AI)", "Domain specific analytics", "GenAi and LLMs")
+
+endsat <- cumsum(palindex)
+startsat <- c(1,endsat[-length(endsat)]+1 )
+
+comptab <- allmeas1[startsat[1]:endsat[1],] |> arrange(desc(demand),desc(importance),desc(impact)) |> rename("Computing facilities"=variable)
+progtab <- allmeas1[startsat[2]:endsat[2],]  |> arrange(desc(demand),desc(importance),desc(impact)) |> rename("Programs, IDES and DS Platforms"=variable)
+advantab <- allmeas1[startsat[3]:endsat[3],] |> arrange(desc(demand),desc(importance),desc(impact)) |> rename("Advanced analytics"=variable)
+domspectab <- allmeas1[startsat[4]:endsat[4],] |> arrange(desc(demand),desc(importance),desc(impact))  |> rename("Domain Specific analytics"=variable)
+genaiptab <- allmeas1[startsat[5]:endsat[5],] |> arrange(desc(demand),desc(importance),desc(impact)) |> rename("GenAI and LLMs"=variable)
+
+
+```
+
+## Key Findings
+
+```{r togetpercsforfind1}
+vals1 <- palplotanask  |>  filter(variable %in% c(" Artificial Intelligence (AI) and Machine Learning (ML)", " Cloud Computing/HPC environments" ), value %in% c("None", "Some")) |> summarise(newperc=sum(perc)) |> as.data.frame() |>   select(newperc) 
+valsanaskAIclo <- paste(vals1$newperc*100, "\\%", sep="",collapse=", ") 
+
+rm(vals1)
+vals1 <- palplotanask  |>  filter(variable %in% c(" R/Python programming" ), value %in% c("None", "Some")) |> summarise(newperc=sum(perc)) |> as.data.frame() |>   select(newperc) 
+valsanaskRpy <- paste(vals1$newperc*100, "\\%", sep="",collapse=", ") 
+
+rm(vals1)
+vals1 <- palplotanask  |>  filter(variable %in% c(" Applied statistics/mathematics" ), value %in% c("None", "Some")) |> summarise(newperc=sum(perc)) |> as.data.frame() |>   select(newperc) 
+valsanaskappma <- paste(vals1$newperc*100, "\\%", sep="",collapse=", ") 
+
+rm(vals1)
+vals1 <- palplotcompdata  |> as.data.frame() |> filter(variable %in% c("Stand alone computer (additional to your primary computer)", "Network connected computer" ), value=="Currently use")|> select(perc) 
+valscompfstannet <- paste(vals1$perc*100, "\\%", sep="", collapse=", ") 
+
+rm(vals1)
+vals1 <- palplotcompdata  |> as.data.frame() |> filter(variable %in% c("National High Performing Computer (HPC) facilities (e.g. NCI Gadi, Pawsey, ARDC Nectar, etc.)",
+"Institutional High Performing Computer (HPC) Facilities",  "Commercial Cloud (e.g., AWS, Azure, Google, etc.)" ), value=="Would like to use")|> select(perc) 
+valscompfhpcsclo <- paste(vals1$perc*100, "\\%", sep="", collapse=", ") 
+
+rm(vals1)
+vals1 <- palplotcompdata  |> as.data.frame() |> filter( value=="Unsure what this is")|> select(perc) |> max()
+valscompfunsure <- paste(vals1*100, "\\%", sep="", collapse=", ") 
+
+rm(vals1)
+vals1 <- allmeas1  |>  filter(variable %in% c("R","RStudio/Posit (free version)" ,"Python"))|> select(demand)
+valsprogrpy <- paste(vals1$demand, collapse=", ") 
+
+
+
+```
+
+Key findings:  
+
+
+* As context, for the Analytic skills ratings, of those who responded,  `some` and `none` categories  occupied  `r valsanaskAIclo` in *Artificial intelligence and Machine Learning* and *Cloud Computing HPC environments*, while  `r valsanaskRpy` for *R/Python programming*. However, general *Applied Statistics Mathematics* had the lowest percentage of `some` and `none` with  `r valsanaskappma`
+* Computing facilities *stand alone computer* and *network connected computer* had the highest `current use`  `r valscompfstannet` respectively, while the thirst (`would like to use`) for *HPCs* (National and institutional) and *commercial cloud* was highest with  `r valscompfhpcsclo` respectively and very low percentages for all regarding `Unsure what this is` (`r valscompfunsure`).
+* *Excel* rose up with the highest **demand** by being the most used and high **importance** by being the one with the lowest `Don't want to use` percentages. Followed closely by  *R* (*Rstudio/posit*) and *Python* with `r valsprogrpy` respectively.  
+  + This emphasises the interest in open source evolving tools.
+* Reproducible research/version control *Github(free)* had also high demand and overall impact and importance.
+* Worth noting that *Tensorflow* and *PyTorch* although not top 10, these are easily accessible and implementable from *R* and *Python*. 
+
+```{r checkorder1, include=F}
+bydemand <- progtab |> arrange(desc(demand)) |> select(`Programs, IDES and DS Platforms`) |> slice(1:10)
+byimportance <- progtab |> arrange(desc(importance)) |> select(`Programs, IDES and DS Platforms`) |> slice(1:10)
+byimpact <- progtab |> arrange(desc(impact)) |> select(`Programs, IDES and DS Platforms`) |> slice(1:10)
+byimpactad <- progtab |> arrange(desc(impact_add)) |> select(`Programs, IDES and DS Platforms`) |> slice(1:10)
+
+intersect(bydemand,byimportance)
+intersect(bydemand,byimpact)
+intersect(bydemand,byimpactad)
+intersect(byimportance,byimpact)
+allinter <- (intersect(intersect(bydemand,byimportance),byimpact))
+whointer <- paste(allinter$`Programs, IDES and DS Platforms`, collapse=", ")
+
+
+
+```   
+* Statistical/ML programming methods and their IDEs dominate overall 3 scores with the following  `r nrow(allinter)`  on the top 10 list in all scores: *`r whointer`*.
+
+```{r analytranktop1, include=F}
+bydemand <- advantab |> arrange(desc(demand)) |> select(`Advanced analytics`) |> slice(1:10)
+byimportance <- advantab |> arrange(desc(importance)) |> select(`Advanced analytics`) |> slice(1:10)
+byimpact <- advantab |> arrange(desc(impact)) |> select(`Advanced analytics`) |> slice(1:10)
+byimpactad <- advantab |> arrange(desc(impact_add)) |> select(`Advanced analytics`) |> slice(1:10)
+
+intersect(bydemand,byimportance)
+intersect(bydemand,byimpact)
+intersect(bydemand,byimpactad)
+intersect(byimportance,byimpact)
+allinterad <- intersect(intersect(bydemand,byimportance),byimpact)
+whointerad <- paste(allinterad$`Advanced analytics`, collapse=", ")
+
+
+```
+
+* Regarding the `r nrow(advantab)` Advanced Analytical methods asked about, *"usual"* statistical and ML compose part of the top 10 on all scores. There were `r nrow(allinterad)` analytics methods that ranked on the top 3 on all scores: *`r whointerad`*.
+  + Worth noticing that regarding *importance*, after Regression and ML, clustering and deep learning had highest *importance*.
+
+```{r domranktop1, include=F}
+bydemand <- domspectab |> arrange(desc(demand)) |> select(`Domain Specific analytics`) |> slice(1:5)
+byimportance <- domspectab |> arrange(desc(importance)) |> select(`Domain Specific analytics`) |> slice(1:5)
+byimpact <- domspectab |> arrange(desc(impact)) |> select(`Domain Specific analytics`) |> slice(1:5)
+byimpactad <- domspectab |> arrange(desc(impact_add)) |> select(`Domain Specific analytics`) |> slice(1:5)
+
+intersect(bydemand,byimportance)
+intersect(bydemand,byimpact)
+intersect(bydemand,byimpactad)
+intersect(byimportance,byimpact)
+allinterdom <- intersect(intersect(bydemand,byimportance),byimpact)
+whointerdom <- paste(allinterdom$`Domain Specific analytics`, collapse=", ")
+
+
+```
+
+* Of the `r nrow(domspectab)` Domain specific Analytics asked, `r nrow(allinterdom)` made it to the top 5  on all scores: *`r whointerdom`*.  
+  + This re-emphasises the use and need for objective data recording and tracking (EHRs) and the focus on advancing treatments and diagnoses (CRTs and Imaging)
+
+```{r genairanktop1, include=F}
+bydemand <- genaiptab |> arrange(desc(demand)) |> select(`GenAI and LLMs`) |> slice(1:4)
+byimportance <- genaiptab |> arrange(desc(importance)) |> select(`GenAI and LLMs`) |> slice(1:4)
+byimpact <- genaiptab |> arrange(desc(impact)) |> select(`GenAI and LLMs`) |> slice(1:4)
+byimpactad <- genaiptab |> arrange(desc(impact_add)) |> select(`GenAI and LLMs`) |> slice(1:4)
+
+intersect(bydemand,byimportance)
+intersect(bydemand,byimpact)
+intersect(bydemand,byimpactad)
+intersect(byimportance,byimpact)
+allintergen <- intersect(intersect(bydemand,byimportance),byimpact)
+whointergen <- paste(allintergen$`GenAI and LLMs`, collapse=", ")
+
+```
+* There were only 7 GenAi & LLMs asked about, of which these `r nrow(allintergen)` made it to the top 4 on all scores: *`r whointergen`*.  
+  + Worth to note that *Sandbox instances of LLMs* was top 4 in demand and importance, but given that  skills on these were not asked, we could not get an impact score.
+
+The results of these Work Packages (3.1 \& 4.1) objectively shine slight on further considerations for Platforms and tools to be considered for VREs and their inclusion in WP 3.2 and 4.2 for prioritising  resources to be considered. 
+
+
+## The Survey
+
+The survey was distributed electronically from December 2025 to March 2026. The results presented here are based on `r nrow(survdata)` respondents. The data had a total of `r beforefilt` responses, of which `r consented` consented, and of which, `r nrow(survdata)` took at least one minute to complete it. The base of the analysis are the `r nrow(survdata)` respondents that consented and took at least one minute to complete.
+
+The EDA for demographics and all questions (except the training section) is done separately in another document.
+
+This section reports on the WP3.1 and 4.1 deliverables: a list of analytics tools and platforms by demand, importance, and potential impact.
+
+## Methods
+
+### What did we ask
+
+Across the domains of analytics platforms and tools, respondents were asked to respond whether they either: `Currently used`, `Would like to use`, `Neither use nor want/need to use`, `Don't know enough about it` for each of the items.
+
+For computing facilities, specifically, they were also asked what the frequency of their use was, to share any technical difficulties resulting in them using less of the tools, a list of specific technical challenges and reasons for wanting to use some tools.
+
+### Demand, Importance and Impact measures
+
+These measures of utility are to be derived from the information in the survey. It is important to consider the context in which these measures are to be taken.
+
+-   **Demand** We need to consider that when we talk of *demand* it would be the demand these tools would have and how ARDC would use this measure to know whether to host/have any of these. In this sense *demand* is taken to be the sum of both `Current use` and `Would like to use` percentage of respondents. Since the purpose of the ARDC Analytics hub is to serve health researchers in having a place where better analytics can be done, it makes sense to look at how much it is used and how much it could be used (`would like to`). Hence define **Demand** as
+
+$$Demand = \% \mbox{Current use} + \% \mbox{Would like to use}$$
+
+- **Importance** [To check with Dyvia, Dmitri and Nicola].
+<!-- For **computing facilities and tools** specifically, given we asked how often they use them, we could get a score by multiplying current use weighted by how frequently it is used. -->
+<!-- Hence $$importance = \% \mbox{Current use} \times \sum \% \mbox{frequency of use} \times\mbox{weight for frequency of use}$$ -->
+<!-- where *weight for frequency of use* could be: -->
+
+<!-- $$ -->
+<!-- \begin{aligned} -->
+<!-- \mbox{weight for frequency of use } =   & \mbox{ if } Daily \mbox{ then}  & 7\\ -->
+<!-- & \mbox{ if } Weekly \mbox{ then} & 3\\ -->
+<!-- & \mbox{ if } Rarely \mbox{ then} & 1\\ -->
+<!-- & \mbox{ if } For \, specific \, tasks \mbox{ then} & 1\\ -->
+<!-- & \mbox{ if } Don't \, know \mbox{ then} & 0\\ -->
+<!-- \end{aligned} -->
+<!-- $$ -->
+
+<!-- For the rest of the tools/software etc.:   -->
+
+   * As a measure of importance for most of the tools we asked I proposed looking at the ratio of demand to `Neither use nor want/need to use`. The logic being that even if a tool has a good percentage of demand, if it has equal percentage of people not wanting to use it, then the more people don't want it, the smaller the importance it would be. Hence: 
+$$ Importance = \frac{\mbox{Demand Score}} {\% \mbox{Don't use nor want/need to use}}$$.  
+
+With this measure, if two tools have the same demand, say 30%, but one of them is also "disliked" (people don't want to use) 40% and 30% `Don't know  about it`, versus the other that has 60% "dislike" and only 10% don't know about it, then , ARDC "hosting" such tool would be more important for the one that has a lower level of "dislike" and the ratio would give that one a higher score.
+   <!-- * proposal b) Think of importance over the other tools in the category. Hence do a pair-wise comparison of tool a to tool b by looking at the ratio of their demand score to the sum of their demand scores, look at all pair-wise ratios (a to b and b to a), build a matrix with these and extract the Eigenvector associated with the highest positive eigenvalue (Based on the Perron Frobenius Theorem (ref, ref)) to get a ranking of the importance of them.   -->
+   <!--  Hence create first ratio $r_{ij}$ comparing tools $i$ to tool $j$ as -->
+   <!--  $$r_{ij}=\frac{Demand_i}{Demand_i+Demand_j}$$ -->
+   <!--  Fill out matrix $R$ with entries $r_{ij}$, as this is a matrix of positive entries we can calculate its major eigen value and associated eigen vector.   -->
+
+\vskip10pt    
+      
+- **Impact**. For impact of tools, one needs to think what is the impact of the tools itself and/or the impact of ARDC making it available for users.  
+    + proposal a) Based solely on survey, If we think of the tools to be made available, we can think of the skills people have on them and how much demand there is for each. A tool with high demand and high percentage of skilled respondents would be a tool to have in the hub that could have high impact if available. 
+    Hence $$Impact = Demand \times \mbox{Preparedness for use}$$
+    where Preparedness for use is:
+    
+    $$\mbox{Preparedness for use} = 2\times \%\mbox{Advanced}  + \%\mbox{Intermediate} + 0.5\times \%\mbox{Beginner}$$
+
+<!--     + proposal b) Given the demand for each of the techniques asked about (Regression, survival, etc.), check each of the tools to see if they allow for implementing the techniques and add the percentages of the demand of the techniques as the impact they could have. Let $Demand_{tech}$ be the demand for a specific technique, where $tech=\{ \mbox{Regression}, {Survival}, \mbox{etc}\}$ and let $I_{tool,tech}= 1$ if $tool$ can do $tech$, $0$ otherwise. -->
+<!-- Hence $$Impact_{tool} = \sum_{tech}. Demand_{tech}\times I_{tool,tech}$$ -->
+
+## Usage Results
+
+### Self assessed broad skills 
+
+Respondents self-assessed their skills in five broad technical areas. This serves as context for the overall preparedness of respondents.
+    
+```{r showana1, ref.label= "anaskils", fig.cap="Self assessment of broad skills"}
+```
+
+
+```{r showanano1, ref.label= "anaskillsnona"}
+```
+
+\pagebreak
+   
+### Use of  Computing tools
+ 
+Respondents indicated their usage for the computing facilities by answering either of ` `r paste(levels(compdata$computing.facilities_1),collapse=", ")` `.
+
+```{r lascomp1, ref.label="comptoget", fig.cap="Use of computing facilities"}
+```
+
+
+```{r lascompnona1, ref.label="comptogetnona", fig.cap="Use of computing facilities (no missing)"}
+```
+
+
+\pagebreak
+
+### Programming Languages, IDEs and Data Science Platforms
+
+Respondents indicated their usage for programming languages, IDEs and Data Science platforms by answering either of ` `r paste(levels( compdata$q24_1 ),collapse=", ")` `.
+
+```{r progagain1, ref.label="progtogether", fig.cap="Usage of programming languages, IDEs and Data Science platforms"}
+```
+
+```{r progagainnona1, ref.label="progtogethernona", fig.cap="Usage of programming languages, IDEs and Data Science platforms (no missing)"}
+```
+
+\pagebreak
+
+### Advanced analytics (AI and non-AI)
+
+```{r aianonaiagain1, ref.label="techtogether", fig.cap="Usage of advanced analytics (AI and non-AI)"}
+```
+
+
+```{r ainonainona1, ref.label="techtogethernona", fig.cap="Usage of advanced analytics (AI and non-AI) without missing"}
+```
+
+\pagebreak
+
+###  Domain-Specific Health Analytics Tools
+
+```{r domspecaiagain1, ref.label="domspecogether", fig.cap="Usage of domain specific analytics"}
+```
+
+
+```{r domspecnona1, ref.label="domspecogethernona", fig.cap="Usage of domain specific analytics without missing"}
+```
+
+\pagebreak
+
+###  GenAI and LLM Tools
+
+```{r genailmagain1, ref.label="genaillmeogether", fig.cap="Usage of GenAI and LLM tools"}
+```
+
+
+```{r dgenailmagainnona1, ref.label="genaillmeogethernona", fig.cap="Usage of GenAI and LLM tools without missing"}
+```
+
+\pagebreak
+
+
+
+## Skills Results
+
+To implement the impact score *option a)* we need the percentages of levels of skills
+
+### Computer facilities skills
+
+```{r complearng1}
+complearn |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Computing facilities Skills", subtitle=paste("n=",nrow(palearn)))
+
+```
+
+### Computer facilities Skills (no missing)
+
+```{r  complearnona1}
+complearno |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Computing facilities Skills", subtitle="no missing") +
+  geom_text(aes(1.05,variable,  label = paste("n=",tot,sep=""), fill = NULL), size=3)
+  
+
+```
+\pagebreak
+
+### Programming Languages, IDEs and Data Science Platforms Skills
+
+```{r proglearn1}
+
+proglearn |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Programming Languages, IDEs and Data Science Platforms Skills", subtitle=paste("n=",nrow(palearn)))
+
+```
+
+### Programming Languages, IDEs and Data Science Platforms Skills (no missing)
+
+```{r  proglearnona}
+proglearnno |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Programming Languages, IDEs and Data Science Platforms Skills", subtitle="no missing") +
+  geom_text(aes(1.05,variable,  label = paste("n=",tot,sep=""), fill = NULL), size=3)
+  
+
+```
+
+\pagebreak
+
+
+### Advanced Analytics AI and non-Ai Skills
+
+```{r techlearn}
+techlearn |> mutate(variable= gsub("(unsupervised/supervised)","(unsup./sup.)",variable, fixed=T),
+         variable= gsub("(BERT, bioBERT, ClinicalBERT)","",variable, fixed=T),
+         variable= gsub("Reinforcement Learning & Adaptive Interventions","Reinf. Learning & Adaptive Int.",variable, fixed=T),
+          variable= gsub("(e.g. Dataiku, KNIME, RapidMiner)","",variable, fixed=T),
+          variable= gsub("(e.g. AnyLogic), Systems Dynamics Models (e.g. Vensim, Stella, iThink etc), Discrete Event Simulation Models","",variable, fixed=T),
+         variable=factor(variable, levels=c('Decision trees/ Random forests', 'Machine Learning (unsup./sup.)', 'Gradient boosted (XGBoost, LightGBM)', 'Deep Learning (CNN, RNN)', 'AutoML & Hyperparameter optimisation', 'Model interpretability/ explainability', 'Natural language processing models ', 'Clustering or pattern recognition models', 'Network analysis', 'Preserving ML', 'Reinf. Learning & Adaptive Int.', 'Regression', 'Bayesian statistics', 'event modelling', 'Causal inference', 'Low Code No Code Tools in ML ', 'Simulation Models: Agent Based Models ') )) |>
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Advanced Analytics AI and non-Ai Skills", subtitle=paste("n=",nrow(palearn)))
+
+```
+
+### Advanced Analytics AI and non-Ai  Skills (no missing)
+
+```{r  techlearnona}
+techlearnno |> mutate(
+         variable= gsub("(unsupervised/supervised)","(unsup./sup.)",variable, fixed=T),
+         variable= gsub("(BERT, bioBERT, ClinicalBERT)","",variable, fixed=T),
+         variable= gsub("Reinforcement Learning & Adaptive Interventions","Reinf. Learning & Adaptive Int.",variable, fixed=T),
+          variable= gsub("(e.g. Dataiku, KNIME, RapidMiner)","",variable, fixed=T),
+          variable= gsub("(e.g. AnyLogic), Systems Dynamics Models (e.g. Vensim, Stella, iThink etc), Discrete Event Simulation Models","",variable, fixed=T),
+         variable=factor(variable, levels=c('Decision trees/ Random forests', 'Machine Learning (unsup./sup.)', 'Gradient boosted (XGBoost, LightGBM)', 'Deep Learning (CNN, RNN)', 'AutoML & Hyperparameter optimisation', 'Model interpretability/ explainability', 'Natural language processing models ', 'Clustering or pattern recognition models', 'Network analysis', 'Preserving ML', 'Reinf. Learning & Adaptive Int.', 'Regression', 'Bayesian statistics', 'event modelling', 'Causal inference', 'Low Code No Code Tools in ML ', 'Simulation Models: Agent Based Models ') )) |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Advanced Analytics AI and non-Ai Skills", subtitle="no missing") +
+  geom_text(aes(1.05,variable,  label = paste("n=",tot,sep=""), fill = NULL), size=3)
+  
+
+```
+
+\pagebreak
+
+### Domain Specific Analytic Skills
+
+```{r domlearn}
+
+domlearn |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Domain Specific Analytic Skills", subtitle=paste("n=",nrow(palearn)))
+
+```
+
+### Domain Specific Analytic Skills (no missing)
+
+```{r  domlearnona}
+domlearnno |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Domain Specific Analytic Skills", subtitle="no missing") +
+  geom_text(aes(1.05,variable,  label = paste("n=",tot,sep=""), fill = NULL), size=3)
+  
+
+```
+\pagebreak
+
+### Gen-Ai and LLM Skills
+
+```{r genaillearn}
+
+genailearn |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Gen-Ai and LLM Skills", subtitle=paste("n=",nrow(palearn)))
+
+```
+
+### Gen-Ai and LLM Skills (no missing)
+
+```{r  genaillearnona}
+genailearnno |> 
+  ggplot(aes(fill=value,y=variable, x=perc)) +
+  geom_bar(position="fill",width=.85, stat="identity") +
+  scale_y_discrete(limits=rev,labels = function(x) stringr::str_wrap(x, width = 40)) + 
+ theme(legend.position="bottom", legend.title = element_blank(),axis.title.y = element_blank(), axis.title.x = element_blank(), panel.background = element_rect(fill = "transparent",colour = NA))+
+  scale_x_continuous(labels = scales::percent)+
+   scale_fill_discrete(guide = guide_legend(reverse = TRUE, byrow=T),labels = ~ str_wrap(.x, width = 15))+
+      geom_text(aes(label = scales::percent(perc, accuracy = .1)), position = position_fill(vjust = .5),size=3)+
+  labs(title="Gen-Ai and LLM Skills", subtitle="no missing") +
+  geom_text(aes(1.05,variable,  label = paste("n=",tot,sep=""), fill = NULL), size=3)
+  
+
+```
+\pagebreak
+
+
+## Demand, importance and impact
+
+
+
+
+Table \@ref(tab:demanda) shows the demand, importance and impact for the different computing facilities, programs and tools, Advanced analytics, Domain specific analytics, GenAi and LLMs asked about in the survey.
+
+
+
+
+**NOTE** ChatGPT and Claude  were asked as free and Paid for usage, regarding skills only as `Claude` and `ChatGPT`, hence used the skills percentages for both paid and free versions. `Excel`, `Federated learning models or distributed AI frameworks`, `Graph neural networks and knowledge graphs`, `Pilot`, `Power BI`, `Sandbox instances of LLMs`, and `Survival analysis/ time to event modelling`, did **NOT** get any answers in skills part of the survey, hence impact could not be calculated with proposal a.
+
+
+### Checking some adaptations of scores
+
+As per discussion with Dyvia and Nicola, I will look at the impact score as additive rather than multiplicative. As defined right now, *Impact* is bounded to be between 0 and 2 as demand itself is the sum of the percentages of 2 levels of a variable, hence *Demand* is between 0 and 1, and then *Preparedness for use* is built as a weighted combination of percentages of  3 levels of skill; the highest weight is 2 and hence the maximum the *Preparedness for use* score can be is 2 (if 100% of respondents said *Advanced*). Hence multiplying *Demand* and *Preparedness* is bounded by 2.
+
+Creating then $Impact_{add}$ as the additive impact will be between 0 and 3 and defined by:
+$$ Impact_{add}= \mbox{Demand} + \mbox{Preparedness index}$$
+the tools get ranked both ways.
+
+Table \@ref(tab:demanda) shows the tools with the scores as asked in survey.
+
+```{r label='demanda', tab.id='demanda', tab.cap='Demand, importance and impact scores'}
+palindex <- c(length(unique(seracomp$variable)), length(unique(seraprog$variable)), length(unique(seratech$variable)), length(unique(seradom$variable)), length(unique(seragenai$variable)))
+names(palindex) <- c("Computing facilities", "Programs, IDEs and DS Platforms", "Advanced analytics (AI and non-AI)", "Domain specific analytics", "GenAi and LLMs")
+if(params$rendering=="pdf"){
+allmeas1 |> kable(booktabs=T, longtable=T, caption = "Measures of demand , importance and impact for tools") |> kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), latex_options = c("striped","condensed","repeat_header")) |> pack_rows(index=palindex) |> column_spec(1, width="10cm")
+}
+if(params$rendering=="word"){allmeas1  |> mutate(type=rep(names(palindex), palindex)) |> as_grouped_data(groups="type") |> 
+    as_flextable(include.row_percent = F,include.table_percent=F, include.column_percent=F,hide_grouplabel = TRUE) |> bold(i = ~ !is.na(type)) |> 
+    width(j=1:4, width=c(2.5,rep(1,3))) 
+  #FitFlextableToPage()
+    
+}
+
+```
+
+ Tables \@ref(tab:demacomp), \@ref(tab:demprog), \@ref(tab:demadva), \@ref(tab:demspec) and \@ref(tab:demgenai) show the tables for each group separately and ordered in descending order by **demand**, then by **importance** and then **impact** for *Computing facilities*, *Programs, IDEs and DS Platforms*, *Advanced analytics (AI and non-AI)*, *Domain specific analytics* and *GenAi and LLMs*
+
+
+
+
+#### Computing Facilities
+
+```{r label='demacomp', tab.id='demacomp', tab.cap='Demand, importance and impact scores for Computing facilities' }
+if(params$rendering=="pdf"){
+comptab |> kable(booktabs=T, longtable=T, ) |> kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), latex_options = c("striped","condensed","repeat_header"))  |> 
+    column_spec(1, width="10cm")
+}
+if(params$rendering=="word"){comptab |> 
+    as_flextable(include.row_percent = F,include.table_percent=F, include.column_percent=F, show_coltype = F,max_row = 40) |> colformat_double(digits=2) |> 
+    width(j=1:4, width=c(2.5,rep(1,3))) 
+  #FitFlextableToPage()
+}
+
+```
+
+#### Programs, IDEs and DS platforms
+
+```{r label='demprog', tab.id='demprog', tab.cap='Demand, importance and impact scores for Programs, IDEs and DS platforms' }
+if(params$rendering=="pdf"){
+progtab |> kable(booktabs=T, longtable=T, ) |> kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), latex_options = c("striped","condensed","repeat_header")) |> 
+    column_spec(1, width="10cm")
+}
+if(params$rendering=="word"){progtab |> 
+    as_flextable(include.row_percent = F,include.table_percent=F, include.column_percent=F, show_coltype = F, max_row = 40) |> colformat_double(digits=2) |> 
+    width(j=1:4, width=c(2.5,rep(1,3))) 
+  #FitFlextableToPage()
+}
+#\ref(tab:demadva), \ref(tab:demspec) and \ref(tab:demgenai)
+```
+
+
+#### Advanced Analytics
+
+```{r label='demadva', tab.id='demadva', tab.cap='Demand, importance and impact scores for Advanced Analytics' }
+if(params$rendering=="pdf"){
+advantab |> kable(booktabs=T, longtable=T, ) |> kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), latex_options = c("striped","condensed","repeat_header")) |> 
+    column_spec(1, width="10cm")
+}
+if(params$rendering=="word"){advantab |> 
+    as_flextable(include.row_percent = F,include.table_percent=F, include.column_percent=F, show_coltype = F, max_row = 40) |> colformat_double(digits=2)  |> 
+    width(j=1:4, width=c(2.5,rep(1,3))) 
+  #FitFlextableToPage()
+}
+
+```
+
+
+
+#### Domain specific analytics
+
+```{r label='demspec', tab.id='demspec', tab.cap='Demand, importance and impact scores for Domain specific analytics' }
+if(params$rendering=="pdf"){
+domspectab |> kable(booktabs=T, longtable=T, ) |> kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), latex_options = c("striped","condensed","repeat_header")) |> 
+    column_spec(1, width="10cm")
+}
+if(params$rendering=="word"){domspectab |> 
+    as_flextable(include.row_percent = F,include.table_percent=F, include.column_percent=F, show_coltype = F, max_row = 40) |> colformat_double(digits=2) |>  
+    width(j=1:4, width=c(2.5,rep(1,3))) 
+  #FitFlextableToPage()
+}
+
+```
+
+
+#### GenAI and LLMs
+
+```{r label='demgenai', tab.id='demgenai', tab.cap='Demand, importance and impact scores for GenAI and LLMs' }
+if(params$rendering=="pdf"){
+genaiptab |> kable(booktabs=T, longtable=T, ) |> kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), latex_options = c("striped","condensed","repeat_header")) |> 
+    column_spec(1, width="10cm")
+}
+if(params$rendering=="word"){genaiptab |> 
+    as_flextable(include.row_percent = F,include.table_percent=F, include.column_percent=F, show_coltype = F, max_row = 40) |> colformat_double(digits=2)  |> 
+    width(j=1:4, width=c(2.5,rep(1,3))) 
+  #FitFlextableToPage()
+}
+
+```
+
+## Appendix to WP deliverables
+For completeness, the tables of `Other` tools, platforms, programs etc. mentioned are included here.
+
+#### `Other` computer facilities mentioned were
+
+```{r  ref.label="tabother"}
+```  
+
+#### `Other` language programs and environments cited by respondents.
+
+```{r ref.label="tabotherlanf"}
+```  
+
+####  `Other` AI & Non-AI techniques mentioned by respondents.
+```{r  ref.label="tabotherainonai"}
+```  
+
+#### `Other` Health domain-specific analytics mentioned by respondents.
+
+```{r ref.label="tabotherhealthdom"}
+```  
+
+
+#### `Other` GenAi  & LLM mentioned by respondents.
+
+```{r ref.label="tabothegenailmm"}
+```
+
+<!-- # Refs (still to be completed and cited)    -->
+
+<!-- * J. P. Keener, The PerronâFrobenius theorem and the ranking of football teams, SIAM -->
+<!-- Review, Vol. 35, No. 1, 1993. -->
+
+<!-- *  PageRank Algorithm - The Mathematics of Google Search (lecture 3 cornell) -->
+<!--     https://pi.math.cornell.edu/~mec/Winter2009/RalucaRemus/Lecture3/lecture3.html -->
