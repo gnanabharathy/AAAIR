@@ -1,0 +1,86 @@
+domain,tool,source
+Analysis Methods,Bayesian Statistics,Survey question (structured)
+Analysis Methods,Causal Analysis,Survey question (structured)
+Analysis Methods,Clustering & Pattern Recognition,Survey question (structured)
+Analysis Methods,Decision Trees/Random Forests,Survey question (structured)
+Analysis Methods,"Gradient Boosted Models (XGBoost, LightGBM)",Survey question (structured)
+Analysis Methods,Machine Learning (Supervised & Unsupervised),Survey question (structured)
+Analysis Methods,Model Interpretability & Explainability,Survey question (structured)
+Analysis Methods,Network Analysis,Survey question (structured)
+Analysis Methods,Regression,Survey question (structured)
+Analysis Methods,Reinforcement Learning & Adaptive Interventions,Survey question (structured)
+Analysis Methods,Simulation Models (Agent-Based Models etc.),Survey question (structured)
+Analysis Methods,Survival Analysis/Time to Event Analysis,Survey question (structured)
+Conversational AI & Coding Co-pilots,AI Ethics & Governance,"identified during course searches (KaggleLearn March 30th, 2026)"
+Conversational AI & Coding Co-pilots,ChatGPT,Survey question (structured)
+Conversational AI & Coding Co-pilots,Claude,Survey question (structured)
+Conversational AI & Coding Co-pilots,Cursor,workshops
+Conversational AI & Coding Co-pilots,GitHub Copilot,Survey question (structured)
+Conversational AI & Coding Co-pilots,Google Gemini,Survey Free-text response
+Conversational AI & Coding Co-pilots,Grok,Survey Free-text response
+Conversational AI & Coding Co-pilots,Microsoft Copilot,Survey question (structured)
+Conversational AI & Coding Co-pilots,Mistral,Survey Free-text response
+Conversational AI & Coding Co-pilots,NotebookLM,Survey Free-text response
+Conversational AI & Coding Co-pilots,Ollama,Survey Free-text response
+Domain-Specific Tools,Prism,identified by project team
+Conversational AI & Coding Co-pilots,Research Rabbit,Survey Free-text response
+Conversational AI & Coding Co-pilots,Sandbox instances of LLMs,Survey question (structured)
+Domain-Specific Tools,AFNI,identified in 6.2 searches.
+Domain-Specific Tools,Alphagenome,Survey Free-text response
+Domain-Specific Tools,BioConductor,Survey question (structured)
+Domain-Specific Tools,Clinical trial design and analysis,Survey question (structured)
+Domain-Specific Tools,Computer Vision & Medical Imaging Analysis,Survey question (structured)
+Domain-Specific Tools,Docker or Containers,Survey question (structured)
+Domain-Specific Tools,Electronic Health Records (EHR) analytics,Survey question (structured)
+Domain-Specific Tools,Enformer,Survey Free-text response
+Domain-Specific Tools,FSL,identified in 6.2 searches.
+Domain-Specific Tools,FieldTrip,identified in 6.2 searches.
+Domain-Specific Tools,FreeSurfer,identified in 6.2 searches.
+Domain-Specific Tools,Galaxy,Survey question (structured)
+Domain-Specific Tools,MNE-Python,identified in 6.2 searches.
+Domain-Specific Tools,Mrtrix,identified in 6.2 searches.
+Domain-Specific Tools,Neurodesk,Survey question (structured)
+Domain-Specific Tools,Nextflow,Survey question (structured)
+Domain-Specific Tools,Omics integration methods,Survey question (structured)
+Domain-Specific Tools,REDCap,identified in 6.2 searches.
+Domain-Specific Tools,SPM,identified in 6.2 searches.
+Domain-Specific Tools,Seurat,identified in 6.2 searches.
+Domain-Specific Tools,Singularity,Survey question (structured)
+Domain-Specific Tools,Snakemake,Survey question (structured)
+Domain-Specific Tools,WGCNA,Survey question (structured)
+Domain-Specific Tools,fMRIprep,identified in 6.2 searches.
+ML Frameworks & Methods,AutoML & Hyperparameter Optimisation,Survey question (structured)
+ML Frameworks & Methods,"Deep Learning (CNN, RNN)",Survey question (structured)
+ML Frameworks & Methods,Federated Learning & Distributed AI Frameworks,Survey question (structured)
+ML Frameworks & Methods,H2O,identified in 6.2 searches. 25.03.26 (futurelearn)
+ML Frameworks & Methods,Hugging Face,identified in 6.2 searches. 25.03.26 (futurelearn)
+ML Frameworks & Methods,"NLP Models (BERT, bioBERT, etc.)",Survey question (structured)
+ML Frameworks & Methods,OpenCV,identified in 6.2 searches. 25.03.26 (futurelearn)
+ML Frameworks & Methods,PyTorch,Survey question (structured)
+ML Frameworks & Methods,Synthetic Data & Privacy-Preserving ML,Survey question (structured)
+ML Frameworks & Methods,TensorFlow,Survey question (structured)
+ML Frameworks & Methods,WEKA,identified in 6.2 searches. 25.03.26 (futurelearn)
+No Code / Low Code,Dataiku,Added by project team
+No Code / Low Code,KNIME,Added by project team
+No Code / Low Code,Low Code No Code Tools in ML,Survey question (structured)
+No Code / Low Code,Power BI,Survey question (structured)
+No Code / Low Code,RapidMiner,Added by project team
+No Code / Low Code,SPSS,identified in 6.2 searches.
+No Code / Low Code,Tableau,Survey question (structured)
+Programming & Environments,CUDA,Survey Free-text response
+Programming & Environments,Fortran,Survey Free-text response
+Programming & Environments,GitHub,Survey question (structured)
+Programming & Environments,GitLab,Survey question (structured)
+Programming & Environments,Julia,Survey question (structured)
+Programming & Environments,Jupyter Notebooks or Hub,Survey question (structured)
+Programming & Environments,Linux Command Line,Survey Free-text response
+Programming & Environments,MatLab,Survey question (structured)
+Programming & Environments,Mplus,Survey Free-text response
+Programming & Environments,Python,Survey question (structured)
+Programming & Environments,R,Survey question (structured)
+Programming & Environments,R Shiny,identified in 6.2 searches.
+Programming & Environments,RStudio/Posit,Survey question (structured)
+Programming & Environments,SAS,Survey question (structured)
+Programming & Environments,SQL & Database management,Survey question (structured)
+Programming & Environments,Stata,Survey Free-text response
+Programming & Environments,VS Code,Survey question (structured)
