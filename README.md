@@ -3,7 +3,7 @@ ARDC-ADSN Advanced Analytics and AI Resource Hub
 
 ## About This Project
 
-This repository supports the AAIR project, which operationalises the nationally validated frameworks and reference architecture from Stage 1 into a curated, deployable set of advanced analytics, AI, data, and socio-technical resources for the People RDC Stack. Rather than building new tools from scratch, the project prioritised integrating and curating existing platforms, following a **curation-first, customisation-as-needed, development-last** approach — with strong attention to FAIR principles and interoperability. Close collaboration with ARDC and the VRE Cloud Service team ensures curated resources are deployment-ready within NeCTAR-backed environments and aligned with national research infrastructure strategy.
+This repository supports the AAAIR project, which operationalises the nationally validated frameworks and reference architecture from Stage 1 into a curated, deployable set of advanced analytics, AI, data, and socio-technical resources for the People RDC Stack. Rather than building new tools from scratch, the project prioritised integrating and curating existing platforms, following a **curation-first, customisation-as-needed, development-last** approach — with strong attention to FAIR principles and interoperability. Close collaboration with ARDC and the VRE Cloud Service team ensures curated resources are deployment-ready within NeCTAR-backed environments and aligned with national research infrastructure strategy.
 
 ## Work Packages
 
