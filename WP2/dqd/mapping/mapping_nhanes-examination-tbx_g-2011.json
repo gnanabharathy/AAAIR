@@ -1,0 +1,37 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person_id"
+  },
+  {
+    "nhanes_var": "TBQ070",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Binary indicator of reaction to TB skin test (Observation: Tuberculin skin test reaction)"
+  },
+  {
+    "nhanes_var": "TBDRUIND",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 380002,
+    "notes": "Continuous measurement of induration in mm (Measurement: Tuberculin skin test induration)"
+  },
+  {
+    "nhanes_var": "TBXRUVES",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380003,
+    "notes": "Binary indicator of vesiculation after PPDS (Observation: PPDS vesiculation)"
+  },
+  {
+    "nhanes_var": "TBXRUULC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380004,
+    "notes": "Binary indicator of ulceration after PPDS (Observation: PPDS ulceration)"
+  }
+]

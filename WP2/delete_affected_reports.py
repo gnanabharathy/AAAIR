@@ -11,7 +11,7 @@ Usage: python3 delete_affected_reports.py
 
 import os
 
-ids = open("remaining_19_ids.txt").read().splitlines()
+ids = open("examination_affected_ids.txt").read().splitlines()
 
 deleted = 0
 for ds_id in ids:

@@ -1,0 +1,72 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "SEQ010",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380001,
+    "notes": "Hemophilia presence"
+  },
+  {
+    "nhanes_var": "SEQ020",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Cancer chemotherapy in past or future 4 weeks"
+  },
+  {
+    "nhanes_var": "SEQ030",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Pacemaker or automatic defibrillator implantation"
+  },
+  {
+    "nhanes_var": "SEQ040",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Amputation of legs/feet other than toes"
+  },
+  {
+    "nhanes_var": "SEQ050",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Location of amputation"
+  },
+  {
+    "nhanes_var": "SEQ060",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Current pregnancy status"
+  },
+  {
+    "nhanes_var": "SEQ070",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gestational weeks"
+  },
+  {
+    "nhanes_var": "WHQ020L",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Body weight without clothes or shoes"
+  },
+  {
+    "nhanes_var": "SEQ080",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Cardiovascular exclusion and physician medical review"
+  }
+]

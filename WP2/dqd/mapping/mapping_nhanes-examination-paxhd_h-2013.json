@@ -1,0 +1,65 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP person_id"
+  },
+  {
+    "nhanes_var": "PAXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Physical activity monitor data status; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXSENID",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "PAM device ID; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXFDAY",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Day of week measurement started; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXLDAY",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Last day when measurements were taken; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXFTIME",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "First data timestamp in GT3X; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXETLDY",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Timestamp at end of last day; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXHAND",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "PAM worn on non-dominant hand; stored as observation"
+  },
+  {
+    "nhanes_var": "PAXORENT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Wrist PAM orientation; stored as observation"
+  }
+]

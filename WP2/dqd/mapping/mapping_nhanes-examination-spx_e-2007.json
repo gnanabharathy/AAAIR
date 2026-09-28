@@ -1,0 +1,331 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person source value"
+  },
+  {
+    "nhanes_var": "ENQ010",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Binary indicator of oxygen requirement mapped to Oxygen therapy"
+  },
+  {
+    "nhanes_var": "ENQ020",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000108,
+    "notes": "Binary indicator of difficulty taking deep breath mapped to Dyspnea"
+  },
+  {
+    "nhanes_var": "SPQ010",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000109,
+    "notes": "Binary indicator of painful ear infection mapped to Otitis media"
+  },
+  {
+    "nhanes_var": "SPQ020",
+    "omop_table": "PROCEDURE_OCCURRENCE",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 38000110,
+    "notes": "Binary indicator of ever having eye surgery mapped to Eye surgery"
+  },
+  {
+    "nhanes_var": "SPQ030",
+    "omop_table": "PROCEDURE_OCCURRENCE",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 38000110,
+    "notes": "Binary indicator of eye surgery in last 3 months mapped to Eye surgery"
+  },
+  {
+    "nhanes_var": "SPQ040",
+    "omop_table": "PROCEDURE_OCCURRENCE",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 38000111,
+    "notes": "Binary indicator of ever having open chest/abdominal surgery mapped to Open chest surgery"
+  },
+  {
+    "nhanes_var": "SPQ050",
+    "omop_table": "PROCEDURE_OCCURRENCE",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 38000111,
+    "notes": "Binary indicator of chest/abdominal surgery in last 3 months mapped to Open chest surgery"
+  },
+  {
+    "nhanes_var": "SPQ060",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000112,
+    "notes": "Binary indicator of tuberculosis in last year mapped to Tuberculosis"
+  },
+  {
+    "nhanes_var": "SPQ080",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000113,
+    "notes": "Binary indicator of stroke in last 3 months mapped to Stroke"
+  },
+  {
+    "nhanes_var": "SPQ090",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000114,
+    "notes": "Binary indicator of heart attack in last 3 months mapped to Myocardial infarction"
+  },
+  {
+    "nhanes_var": "SPQ100",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000115,
+    "notes": "Binary indicator of coughing up blood mapped to Hemoptysis"
+  },
+  {
+    "nhanes_var": "SPAENA",
+    "omop_table": "OBSERVATION",
+    "omop_field": "observation_source_value",
+    "concept_id": null,
+    "notes": "Identifier for check item stored as source value"
+  },
+  {
+    "nhanes_var": "ENQ100",
+    "omop_table": "CONDITION_OCCURRENCE",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000116,
+    "notes": "Binary indicator of respiratory illness mapped to Respiratory illness"
+  },
+  {
+    "nhanes_var": "SPXNSTAT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000117,
+    "notes": "Ordinal spirometry test status mapped to Spirometry test"
+  },
+  {
+    "nhanes_var": "SPXNCMT",
+    "omop_table": "Observation",
+    "omop_field": "value_as_string",
+    "concept_id": null,
+    "notes": "Spirometry first test comment, stored as a string in Observation"
+  },
+  {
+    "nhanes_var": "SPXNFVC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380001,
+    "notes": "Baseline forced vital capacity (FVC) in mL"
+  },
+  {
+    "nhanes_var": "SPXNEV",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380010,
+    "notes": "Baseline extrapolated volume in mL"
+  },
+  {
+    "nhanes_var": "SPXNFEV5",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380003,
+    "notes": "Baseline forced expiratory volume at 0.5 s (FEV0.5) in mL"
+  },
+  {
+    "nhanes_var": "SPXNFEV7",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380004,
+    "notes": "Baseline forced expiratory volume at 0.75 s (FEV0.75) in mL"
+  },
+  {
+    "nhanes_var": "SPXNFEV1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380002,
+    "notes": "Baseline forced expiratory volume in 1 s (FEV1) in mL"
+  },
+  {
+    "nhanes_var": "SPXNFEV3",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380005,
+    "notes": "Baseline forced expiratory volume in 3 s (FEV3) in mL"
+  },
+  {
+    "nhanes_var": "SPXNFEV6",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380006,
+    "notes": "Baseline forced expiratory volume in 6 s (FEV6) in mL"
+  },
+  {
+    "nhanes_var": "SPXNPEF",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380007,
+    "notes": "Baseline peak expiratory flow (PEF) in mL/s"
+  },
+  {
+    "nhanes_var": "SPXNF257",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380008,
+    "notes": "Baseline forced expiratory flow 25-75% (FEF25-75) in mL/s"
+  },
+  {
+    "nhanes_var": "SPXNFET",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380009,
+    "notes": "Baseline forced expiratory time in seconds"
+  },
+  {
+    "nhanes_var": "SPXNQFVC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380011,
+    "notes": "Quality attribute for baseline FVC (ordinal) stored as numeric code"
+  },
+  {
+    "nhanes_var": "SPXNQFV1",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380012,
+    "notes": "Quality attribute for baseline FEV1 (ordinal) stored as numeric code"
+  },
+  {
+    "nhanes_var": "SPDNACC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380013,
+    "notes": "Number of acceptable curves in baseline spirometry"
+  },
+  {
+    "nhanes_var": "SPXNQEFF",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 380014,
+    "notes": "Effort quality attribute for baseline spirometry (ordinal)"
+  },
+  {
+    "nhanes_var": "SPDBRONC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000114,
+    "notes": "Binary flag indicating subject selected for bronchodilator; mapped to observation concept 'Bronchodilator test performed'."
+  },
+  {
+    "nhanes_var": "SPXBSTAT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000115,
+    "notes": "Ordinal status of second spirometry test; mapped to observation concept 'Spirometry test status'."
+  },
+  {
+    "nhanes_var": "SPXBCMT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000116,
+    "notes": "Categorical comment about second spirometry test; mapped to observation concept 'Spirometry test comment'."
+  },
+  {
+    "nhanes_var": "SPXBFVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000107,
+    "notes": "2nd Test FVC (mL); mapped to measurement concept 'Forced vital capacity (FVC)'."
+  },
+  {
+    "nhanes_var": "SPXBEV",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "2nd Test Extrapolated Volume (mL); no standard concept, use custom concept."
+  },
+  {
+    "nhanes_var": "SPXBFEV5",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "2nd Test FEV 0.5 (mL); no standard concept, use custom concept."
+  },
+  {
+    "nhanes_var": "SPXBFEV7",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "2nd Test FEV 0.75 (mL); no standard concept, use custom concept."
+  },
+  {
+    "nhanes_var": "SPXBFEV1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000108,
+    "notes": "2nd Test FEV 1 (mL); mapped to measurement concept 'Forced expiratory volume in 1 second (FEV1)'."
+  },
+  {
+    "nhanes_var": "SPXBFEV3",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "2nd Test FEV 3 (mL); no standard concept, use custom concept."
+  },
+  {
+    "nhanes_var": "SPXBFEV6",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "2nd Test FEV 6 (mL); no standard concept, use custom concept."
+  },
+  {
+    "nhanes_var": "SPXBPEF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000109,
+    "notes": "2nd Test PEF (mL/s); mapped to measurement concept 'Peak expiratory flow (PEF)'."
+  },
+  {
+    "nhanes_var": "SPXBF257",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000110,
+    "notes": "2nd Test FEF 25-75% (mL/s); mapped to measurement concept 'Forced expiratory flow 25-75%'."
+  },
+  {
+    "nhanes_var": "SPXBFET",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000111,
+    "notes": "2nd Test Forced Expiratory Time (s); mapped to measurement concept 'Forced expiratory time'."
+  },
+  {
+    "nhanes_var": "SPXBQFVC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000112,
+    "notes": "2nd Test FVC Quality Attribute; mapped to measurement concept 'FVC quality attribute'."
+  },
+  {
+    "nhanes_var": "SPXBQFV1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000113,
+    "notes": "2nd Test FEV1 Quality Attribute; mapped to measurement concept 'FEV1 quality attribute'."
+  },
+  {
+    "nhanes_var": "SPDBACC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Number of acceptable spirometry curves; continuous measurement"
+  },
+  {
+    "nhanes_var": "SPXBQEFF",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value",
+    "concept_id": null,
+    "notes": "Effort quality attribute; ordinal measurement"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "PAXDAYH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_date",
+    "concept_id": null,
+    "notes": "Day of PAM measurements for this hour (date)"
+  },
+  {
+    "nhanes_var": "PAXDAYWH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Day of the week for this hour (categorical)"
+  },
+  {
+    "nhanes_var": "PAXSSNHP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Starting sample number for the hour (continuous)"
+  },
+  {
+    "nhanes_var": "PAXTMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Total minutes with data for this hour (continuous)"
+  },
+  {
+    "nhanes_var": "PAXAISMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour count: 80Hz data in idle sleep mode (continuous)"
+  },
+  {
+    "nhanes_var": "PAXVMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour count: minutes valid data, no QC flag (continuous)"
+  },
+  {
+    "nhanes_var": "PAXMTSH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: MIMS triaxial value (continuous)"
+  },
+  {
+    "nhanes_var": "PAXWWMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: valid wake wear minutes (continuous)"
+  },
+  {
+    "nhanes_var": "PAXSWMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: valid sleep wear minutes (continuous)"
+  },
+  {
+    "nhanes_var": "PAXNWMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: valid non-wear minutes (continuous)"
+  },
+  {
+    "nhanes_var": "PAXUMH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: valid unknown minutes (continuous)"
+  },
+  {
+    "nhanes_var": "PAXLXSH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: lux values for valid minutes (continuous)"
+  },
+  {
+    "nhanes_var": "PAXQFH",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Hour sum: data quality flag count (continuous)"
+  }
+]

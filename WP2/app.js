@@ -274,6 +274,7 @@ function renderCards(datasets) {
             <div class="ds-arrow">View schema →</div>
           </div>
           <div class="ds-meta" style="text-align:left;width:100%">Last Updated: ${ds.last_updated || 'not available'}</div>
+          ${ds.linkage ? `<div class="ds-meta" style="text-align:left;width:100%">Data linkage: ${ds.linkage}</div>` : ''}
         </div>
       </div>
     `;

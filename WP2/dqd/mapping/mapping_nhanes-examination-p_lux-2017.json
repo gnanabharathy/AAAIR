@@ -1,0 +1,93 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as source identifier for the person"
+  },
+  {
+    "nhanes_var": "LUAXSTAT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Elastography exam status (categorical) stored as concept ID value"
+  },
+  {
+    "nhanes_var": "LUARXNC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason for partial exam (categorical) stored as concept ID value"
+  },
+  {
+    "nhanes_var": "LUARXND",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason exam not done (categorical) stored as concept ID value"
+  },
+  {
+    "nhanes_var": "LUARXIN",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Reason ineligible (categorical) stored as concept ID value"
+  },
+  {
+    "nhanes_var": "LUAPNME",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_concept_id",
+    "concept_id": null,
+    "notes": "Exam wand type (categorical) stored as concept ID value"
+  },
+  {
+    "nhanes_var": "LUANMVGP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of complete measures from final wand (numeric count) stored as measurement value"
+  },
+  {
+    "nhanes_var": "LUANMTGP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Count of measures attempted with final wand (numeric count) stored as measurement value"
+  },
+  {
+    "nhanes_var": "LUXSMED",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Median stiffness (E) in kilopascals (kPa) stored as measurement value"
+  },
+  {
+    "nhanes_var": "LUXSIQR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Stiffness E interquartile range (IQRe) stored as measurement value"
+  },
+  {
+    "nhanes_var": "LUXSIQRM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Ratio of Stiffness IQRe to median E stored as measurement value"
+  },
+  {
+    "nhanes_var": "LUXCAPM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "Median CAP in decibels per meter (dB/m) stored as measurement value"
+  },
+  {
+    "nhanes_var": "LUXCPIQR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": null,
+    "notes": "CAP interquartile range stored as measurement value"
+  }
+]

@@ -12,7 +12,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm",
+    "linkage": "Core linking file for the NHANES 2005-06 cycle -- all other NHANES 2005-06 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_e-2007",
@@ -27,7 +28,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+    "linkage": "Core linking file for the NHANES 2007-08 cycle -- all other NHANES 2007-08 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_c-2003",
@@ -42,7 +44,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.htm",
+    "linkage": "Core linking file for the NHANES 2003-04 cycle -- all other NHANES 2003-04 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_b-2001",
@@ -57,7 +60,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.htm",
+    "linkage": "Core linking file for the NHANES 2001-02 cycle -- all other NHANES 2001-02 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo-1999",
@@ -72,7 +76,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEMO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEMO.htm",
+    "linkage": "Core linking file for the NHANES 1999-00 cycle -- all other NHANES 1999-00 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_f-2009",
@@ -87,7 +92,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+    "linkage": "Core linking file for the NHANES 2009-10 cycle -- all other NHANES 2009-10 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_g-2011",
@@ -102,7 +108,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+    "linkage": "Core linking file for the NHANES 2011-12 cycle -- all other NHANES 2011-12 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_h-2013",
@@ -118,7 +125,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+    "linkage": "Core linking file for the NHANES 2013-14 cycle -- all other NHANES 2013-14 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_i-2015",
@@ -134,7 +142,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm",
+    "linkage": "Core linking file for the NHANES 2015-16 cycle -- all other NHANES 2015-16 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_j-2017",
@@ -150,7 +159,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-demographics-p_demo-2017",
@@ -165,7 +175,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.htm",
+    "linkage": "Core linking file for the NHANES 2017-18 cycle -- all other NHANES 2017-18 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-demographics-demo_l-2021",
@@ -180,7 +191,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEMO_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEMO_L.htm",
+    "linkage": "Core linking file for the NHANES 2021-22 cycle -- all other NHANES 2021-22 datasets link to this file via SEQN."
   },
   {
     "id": "nhanes-dietary-drxiff_b-2001",
@@ -196,7 +208,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DRXIFF_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DRXIFF_B.htm",
+    "linkage": "Links to DEMO_B (2001-02 demographics) and other NHANES 2001-02 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_e-2007",
@@ -212,7 +225,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR1IFF_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR1IFF_E.htm",
+    "linkage": "Links to DEMO_E (2007-08 demographics) and other NHANES 2007-08 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_g-2011",
@@ -227,7 +241,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1IFF_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1IFF_G.htm",
+    "linkage": "Links to DEMO_G (2011-12 demographics) and other NHANES 2011-12 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_d-2005",
@@ -243,7 +258,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR1IFF_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR1IFF_D.htm",
+    "linkage": "Links to DEMO_D (2005-06 demographics) and other NHANES 2005-06 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_h-2013",
@@ -259,7 +275,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1IFF_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1IFF_H.htm",
+    "linkage": "Links to DEMO_H (2013-14 demographics) and other NHANES 2013-14 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_i-2015",
@@ -275,7 +292,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1IFF_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1IFF_I.htm",
+    "linkage": "Links to DEMO_I (2015-16 demographics) and other NHANES 2015-16 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_j-2017",
@@ -291,7 +309,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1IFF_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1IFF_J.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_l-2021",
@@ -307,7 +326,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1IFF_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1IFF_L.htm",
+    "linkage": "Links to DEMO_L (2021-22 demographics) and other NHANES 2021-22 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_c-2003",
@@ -323,7 +343,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR2IFF_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR2IFF_C.htm",
+    "linkage": "Links to DEMO_C (2003-04 demographics) and other NHANES 2003-04 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_f-2009",
@@ -338,7 +359,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR2IFF_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR2IFF_F.htm",
+    "linkage": "Links to DEMO_F (2009-10 demographics) and other NHANES 2009-10 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_e-2007",
@@ -353,7 +375,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR2IFF_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR2IFF_E.htm",
+    "linkage": "Links to DEMO_E (2007-08 demographics) and other NHANES 2007-08 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_g-2011",
@@ -368,7 +391,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2IFF_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2IFF_G.htm",
+    "linkage": "Links to DEMO_G (2011-12 demographics) and other NHANES 2011-12 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_d-2005",
@@ -383,7 +407,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR2IFF_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR2IFF_D.htm",
+    "linkage": "Links to DEMO_D (2005-06 demographics) and other NHANES 2005-06 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_h-2013",
@@ -399,7 +424,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2IFF_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2IFF_H.htm",
+    "linkage": "Links to DEMO_H (2013-14 demographics) and other NHANES 2013-14 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_j-2017",
@@ -414,7 +440,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2IFF_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2IFF_J.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-drxtot_b-2001",
@@ -429,7 +456,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DRXTOT_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DRXTOT_B.htm",
+    "linkage": "Links to DEMO_B (2001-02 demographics) and other NHANES 2001-02 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_f-2009",
@@ -444,7 +472,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR1TOT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR1TOT_F.htm",
+    "linkage": "Links to DEMO_F (2009-10 demographics) and other NHANES 2009-10 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_e-2007",
@@ -459,7 +488,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR1TOT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR1TOT_E.htm",
+    "linkage": "Links to DEMO_E (2007-08 demographics) and other NHANES 2007-08 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_g-2011",
@@ -474,7 +504,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1TOT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1TOT_G.htm",
+    "linkage": "Links to DEMO_G (2011-12 demographics) and other NHANES 2011-12 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_d-2005",
@@ -490,7 +521,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR1TOT_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR1TOT_D.htm",
+    "linkage": "Links to DEMO_D (2005-06 demographics) and other NHANES 2005-06 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_h-2013",
@@ -505,7 +537,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1TOT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1TOT_H.htm",
+    "linkage": "Links to DEMO_H (2013-14 demographics) and other NHANES 2013-14 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_i-2015",
@@ -520,7 +553,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1TOT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1TOT_I.htm",
+    "linkage": "Links to DEMO_I (2015-16 demographics) and other NHANES 2015-16 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_j-2017",
@@ -535,7 +569,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1TOT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1TOT_J.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_dr1tot-2017",
@@ -550,7 +585,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1TOT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1TOT.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_c-2003",
@@ -565,7 +601,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR2TOT_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR2TOT_C.htm",
+    "linkage": "Links to DEMO_C (2003-04 demographics) and other NHANES 2003-04 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_f-2009",
@@ -580,7 +617,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR2TOT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR2TOT_F.htm",
+    "linkage": "Links to DEMO_F (2009-10 demographics) and other NHANES 2009-10 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_e-2007",
@@ -595,7 +633,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR2TOT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DR2TOT_E.htm",
+    "linkage": "Links to DEMO_E (2007-08 demographics) and other NHANES 2007-08 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_d-2005",
@@ -610,7 +649,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR2TOT_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DR2TOT_D.htm",
+    "linkage": "Links to DEMO_D (2005-06 demographics) and other NHANES 2005-06 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_h-2013",
@@ -625,7 +665,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2TOT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2TOT_H.htm",
+    "linkage": "Links to DEMO_H (2013-14 demographics) and other NHANES 2013-14 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-drxiff-1999",
@@ -641,7 +682,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DRXIFF.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DRXIFF.htm",
+    "linkage": "Links to DEMO (1999-00 demographics) and other NHANES 1999-00 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_c-2003",
@@ -656,7 +698,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR1IFF_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR1IFF_C.htm",
+    "linkage": "Links to DEMO_C (2003-04 demographics) and other NHANES 2003-04 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1iff_f-2009",
@@ -671,7 +714,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR1IFF_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DR1IFF_F.htm",
+    "linkage": "Links to DEMO_F (2009-10 demographics) and other NHANES 2009-10 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_dr1iff-2017",
@@ -686,7 +730,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1IFF.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1IFF.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_i-2015",
@@ -701,7 +746,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2IFF_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2IFF_I.htm",
+    "linkage": "Links to DEMO_I (2015-16 demographics) and other NHANES 2015-16 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_dr2iff-2017",
@@ -716,7 +762,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2IFF.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2IFF.htm",
+    "linkage": "Links to P_DEMO (2017-18 demographics) and other NHANES 2017-18 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2iff_l-2021",
@@ -731,7 +778,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2IFF_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2IFF_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-drxtot-1999",
@@ -746,7 +794,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DRXTOT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DRXTOT.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_c-2003",
@@ -761,7 +810,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR1TOT_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DR1TOT_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr1tot_l-2021",
@@ -777,7 +827,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1TOT_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1TOT_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_g-2011",
@@ -792,7 +843,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2TOT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2TOT_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_i-2015",
@@ -807,7 +859,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2TOT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2TOT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_j-2017",
@@ -822,7 +875,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2TOT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2TOT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_dr2tot-2017",
@@ -837,7 +891,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2TOT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2TOT.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dr2tot_l-2021",
@@ -852,7 +907,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2TOT_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2TOT_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-drxfmt-1999",
@@ -866,7 +922,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DRXFMT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DRXFMT.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfmt_b-2001",
@@ -880,7 +937,8 @@ const DATASETS = [
       "nlp"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DRXFMT_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DRXFMT_B.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_c-2003",
@@ -895,7 +953,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DRXFCD_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DRXFCD_C.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_f-2009",
@@ -910,7 +969,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DRXFCD_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DRXFCD_F.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_e-2007",
@@ -926,7 +986,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "August 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DRXFCD_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DRXFCD_E.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_g-2011",
@@ -942,7 +1003,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DRXFCD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DRXFCD_G.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_d-2005",
@@ -958,7 +1020,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DRXFCD_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DRXFCD_D.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_h-2013",
@@ -974,7 +1037,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DRXFCD_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DRXFCD_H.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_i-2015",
@@ -989,7 +1053,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DRXFCD_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DRXFCD_I.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_j-2017",
@@ -1004,7 +1069,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DRXFCD_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DRXFCD_J.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-p_drxfcd-2017",
@@ -1019,7 +1085,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DRXFCD.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DRXFCD.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxfcd_l-2021",
@@ -1035,7 +1102,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DRXFCD_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DRXFCD_L.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxmcd_f-2009",
@@ -1050,7 +1118,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DRXMCD_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DRXMCD_F.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxmcd_e-2007",
@@ -1066,7 +1135,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "August 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DRXMCD_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DRXMCD_E.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxmcd_g-2011",
@@ -1082,7 +1152,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DRXMCD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DRXMCD_G.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxmcd_d-2005",
@@ -1098,7 +1169,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DRXMCD_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DRXMCD_D.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-drxmcd_c-2003",
@@ -1112,7 +1184,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DRXMCD_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DRXMCD_C.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-dtq_f-2009",
@@ -1128,7 +1201,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DTQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DTQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsbi-1999",
@@ -1143,7 +1217,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSBI.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSBI.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-dsii-1999",
@@ -1158,7 +1233,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSII.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSII.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-dspi-1999",
@@ -1173,7 +1249,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSPI.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSPI.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-ds1ids_f-2009",
@@ -1189,7 +1266,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS1IDS_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS1IDS_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1ids_e-2007",
@@ -1204,7 +1282,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS1IDS_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS1IDS_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1ids_g-2011",
@@ -1220,7 +1299,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS1IDS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS1IDS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1ids_h-2013",
@@ -1236,7 +1316,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS1IDS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS1IDS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1ids_j-2017",
@@ -1252,7 +1333,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS1IDS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS1IDS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_ds1ids-2017",
@@ -1268,7 +1350,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS1IDS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS1IDS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2ids_f-2009",
@@ -1284,7 +1367,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS2IDS_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS2IDS_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2ids_e-2007",
@@ -1300,7 +1384,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS2IDS_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS2IDS_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2ids_g-2011",
@@ -1316,7 +1401,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS2IDS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS2IDS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2ids_h-2013",
@@ -1332,7 +1418,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS2IDS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS2IDS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2ids_i-2015",
@@ -1348,7 +1435,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS2IDS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS2IDS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2ids_j-2017",
@@ -1364,7 +1452,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS2IDS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS2IDS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1tot_f-2009",
@@ -1380,7 +1469,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS1TOT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS1TOT_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1tot_e-2007",
@@ -1396,7 +1486,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS1TOT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS1TOT_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1tot_h-2013",
@@ -1412,7 +1503,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS1TOT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS1TOT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1tot_i-2015",
@@ -1428,7 +1520,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS1TOT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS1TOT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1tot_j-2017",
@@ -1444,7 +1537,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS1TOT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS1TOT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_ds1tot-2017",
@@ -1460,7 +1554,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS1TOT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS1TOT.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2tot_f-2009",
@@ -1476,7 +1571,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS2TOT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DS2TOT_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2tot_g-2011",
@@ -1492,7 +1588,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS2TOT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS2TOT_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2tot_h-2013",
@@ -1508,7 +1605,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS2TOT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DS2TOT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2tot_i-2015",
@@ -1523,7 +1621,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS2TOT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS2TOT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2tot_j-2017",
@@ -1539,7 +1638,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS2TOT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DS2TOT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_f-2009",
@@ -1555,7 +1655,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DSQIDS_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DSQIDS_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_e-2007",
@@ -1571,7 +1672,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DSQIDS_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DSQIDS_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_g-2011",
@@ -1587,7 +1689,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DSQIDS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DSQIDS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqfile1-1999",
@@ -1603,7 +1706,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSQFILE1.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSQFILE1.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsq1_b-2001",
@@ -1619,7 +1723,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "October 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DSQ1_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DSQ1_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsq1_c-2003",
@@ -1635,7 +1740,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "March 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DSQ1_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DSQ1_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsq1_d-2005",
@@ -1650,7 +1756,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DSQ1_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DSQ1_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqfile2-1999",
@@ -1665,7 +1772,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSQFILE2.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DSQFILE2.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsq2_b-2001",
@@ -1680,7 +1788,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DSQ2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DSQ2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsq2_c-2003",
@@ -1696,7 +1805,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "March 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DSQ2_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DSQ2_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsq2_d-2005",
@@ -1711,7 +1821,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DSQ2_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DSQ2_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_h-2013",
@@ -1727,7 +1838,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DSQIDS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DSQIDS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_i-2015",
@@ -1742,7 +1854,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DSQIDS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DSQIDS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_j-2017",
@@ -1758,7 +1871,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DSQIDS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DSQIDS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_dsqids-2017",
@@ -1774,7 +1888,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DSQIDS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DSQIDS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqids_l-2021",
@@ -1790,7 +1905,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DSQIDS_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DSQIDS_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_f-2009",
@@ -1805,7 +1921,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DSQTOT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DSQTOT_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_e-2007",
@@ -1821,7 +1938,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DSQTOT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DSQTOT_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_g-2011",
@@ -1836,7 +1954,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DSQTOT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DSQTOT_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_h-2013",
@@ -1852,7 +1971,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DSQTOT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DSQTOT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_i-2015",
@@ -1868,7 +1988,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DSQTOT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DSQTOT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_j-2017",
@@ -1884,7 +2005,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DSQTOT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DSQTOT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_dsqtot-2017",
@@ -1900,7 +2022,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DSQTOT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DSQTOT.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-dsqtot_l-2021",
@@ -1916,7 +2039,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DSQTOT_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DSQTOT_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-foodlk_c-2003",
@@ -1932,7 +2056,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FOODLK_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FOODLK_C.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-foodlk_d-2005",
@@ -1948,7 +2073,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FOODLK_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FOODLK_D.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-varlk_c-2003",
@@ -1963,7 +2089,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VARLK_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VARLK_C.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-varlk_d-2005",
@@ -1979,7 +2106,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VARLK_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VARLK_D.htm",
+    "linkage": "No SEQN column -- not person-linkable. Referenced by food/ingredient code values from the dietary interview and supplement files for the same cycle."
   },
   {
     "id": "nhanes-dietary-ffqdc_d-2005",
@@ -1994,7 +2122,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FFQDC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FFQDC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ffqdc_c-2003",
@@ -2010,7 +2139,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FFQDC_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FFQDC_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1ids_i-2015",
@@ -2026,7 +2156,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS1IDS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DS1IDS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_ds2ids-2017",
@@ -2042,7 +2173,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS2IDS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS2IDS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds1tot_g-2011",
@@ -2058,7 +2190,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS1TOT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DS1TOT_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ds2tot_e-2007",
@@ -2073,7 +2206,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS2TOT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DS2TOT_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-p_ds2tot-2017",
@@ -2089,7 +2223,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS2TOT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DS2TOT.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ffqraw_d-2005",
@@ -2105,7 +2240,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FFQRAW_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FFQRAW_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-dietary-ffqraw_c-2003",
@@ -2121,7 +2257,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FFQRAW_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FFQRAW_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-arx_f-2009",
@@ -2136,7 +2273,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ARX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ARX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux1-1999",
@@ -2151,7 +2289,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "February 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUX1.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUX1.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_e-2007",
@@ -2166,7 +2305,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_d-2005",
@@ -2181,7 +2321,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_c-2003",
@@ -2196,7 +2337,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "December 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_b-2001",
@@ -2211,7 +2353,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_f-2009",
@@ -2226,7 +2369,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_i-2015",
@@ -2241,7 +2385,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_j-2017",
@@ -2256,7 +2401,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_aux-2017",
@@ -2271,7 +2417,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUX.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_f-2009",
@@ -2286,7 +2433,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUXAR_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUXAR_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_e-2007",
@@ -2301,7 +2449,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUXAR_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUXAR_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_d-2005",
@@ -2316,7 +2465,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUXAR_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUXAR_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_b-2001",
@@ -2331,7 +2481,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUXAR_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUXAR_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_c-2003",
@@ -2346,7 +2497,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUXAR_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUXAR_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_g-2011",
@@ -2361,7 +2513,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUXAR_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUXAR_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_i-2015",
@@ -2376,7 +2529,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXAR_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXAR_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar_j-2017",
@@ -2391,7 +2545,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUXAR_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUXAR_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_auxar-2017",
@@ -2406,7 +2561,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUXAR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUXAR.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym-1999",
@@ -2421,7 +2577,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUXTYM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUXTYM.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_e-2007",
@@ -2436,7 +2593,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUXTYM_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUXTYM_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_d-2005",
@@ -2451,7 +2609,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUXTYM_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUXTYM_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_b-2001",
@@ -2466,7 +2625,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUXTYM_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUXTYM_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_f-2009",
@@ -2481,7 +2641,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUXTYM_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUXTYM_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_g-2011",
@@ -2496,7 +2657,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUXTYM_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUXTYM_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_i-2015",
@@ -2511,7 +2673,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXTYM_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXTYM_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_j-2017",
@@ -2526,7 +2689,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUXTYM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUXTYM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_auxtym-2017",
@@ -2541,7 +2705,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUXTYM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUXTYM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxwbr_j-2017",
@@ -2556,7 +2721,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUXWBR_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUXWBR_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_auxwbr-2017",
@@ -2571,7 +2737,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUXWBR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUXWBR.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxwbr_i-2015",
@@ -2586,7 +2753,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXWBR_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXWBR_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bax-1999",
@@ -2601,7 +2769,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BAX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BAX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bax_c-2003",
@@ -2616,7 +2785,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bax_b-2001",
@@ -2631,7 +2801,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bax_l-2021",
@@ -2646,7 +2817,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BAX_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BAX_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bix-1999",
@@ -2661,7 +2833,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BIX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BIX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bix_c-2003",
@@ -2676,7 +2849,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BIX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BIX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bix_b-2001",
@@ -2691,7 +2865,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BIX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BIX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_d-2005",
@@ -2706,7 +2881,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_e-2007",
@@ -2721,7 +2897,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-aux_g-2011",
@@ -2736,7 +2913,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxtym_c-2003",
@@ -2751,7 +2929,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUXTYM_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUXTYM_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx-1999",
@@ -2766,7 +2945,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BPX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BPX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_c-2003",
@@ -2781,7 +2961,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BPX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BPX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_b-2001",
@@ -2796,7 +2977,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BPX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BPX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_f-2009",
@@ -2811,7 +2993,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_g-2011",
@@ -2826,7 +3009,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_h-2013",
@@ -2841,7 +3025,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_i-2015",
@@ -2856,7 +3041,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpx_j-2017",
@@ -2871,7 +3057,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_bpxo-2017",
@@ -2886,7 +3073,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BPXO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BPXO.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpxo_j-2017",
@@ -2901,7 +3089,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPXO_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPXO_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bpxo_l-2021",
@@ -2916,7 +3105,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BPXO_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BPXO_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_d-2005",
@@ -2931,7 +3121,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx-1999",
@@ -2946,7 +3137,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BMX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BMX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_e-2007",
@@ -2961,7 +3153,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_c-2003",
@@ -2976,7 +3169,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_b-2001",
@@ -2991,7 +3185,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BMX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BMX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_f-2009",
@@ -3006,7 +3201,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_h-2013",
@@ -3021,7 +3217,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_g-2011",
@@ -3036,7 +3233,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_i-2015",
@@ -3051,7 +3249,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_j-2017",
@@ -3067,7 +3266,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_bmx-2017",
@@ -3083,7 +3283,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BMX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BMX.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-bmx_l-2021",
@@ -3099,7 +3300,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BMX_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BMX_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-cvx-1999",
@@ -3115,7 +3317,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CVX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CVX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-cvx_c-2003",
@@ -3131,7 +3334,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CVX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CVX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-cvx_b-2001",
@@ -3147,7 +3351,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CVX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CVX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dex_c-2003",
@@ -3162,7 +3367,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxag_c-2003",
@@ -3177,7 +3383,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DXXAG_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DXXAG_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxag_d-2005",
@@ -3193,7 +3400,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXAG_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXAG_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxfem_e-2007",
@@ -3209,7 +3417,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DXXFEM_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DXXFEM_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxfem_d-2005",
@@ -3225,7 +3434,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXFEM_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXFEM_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxfem_f-2009",
@@ -3240,7 +3450,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DXXFEM_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DXXFEM_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxspn_f-2009",
@@ -3255,7 +3466,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DXXSPN_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DXXSPN_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxspn_d-2005",
@@ -3271,7 +3483,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXSPN_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXSPN_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxspn_e-2007",
@@ -3286,7 +3499,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "May 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DXXSPN_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DXXSPN_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxaac_h-2013",
@@ -3302,7 +3516,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXAAC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXAAC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxag_g-2011",
@@ -3318,7 +3533,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DXXAG_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DXXAG_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxag_h-2013",
@@ -3333,7 +3549,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXAG_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXAG_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxag_i-2015",
@@ -3349,7 +3566,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DXXAG_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DXXAG_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxag_j-2017",
@@ -3365,7 +3583,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXXAG_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXXAG_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxfem_h-2013",
@@ -3380,7 +3599,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXFEM_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXFEM_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxfem_j-2017",
@@ -3395,7 +3615,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXXFEM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXXFEM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_dxxfem-2017",
@@ -3411,7 +3632,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DXXFEM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DXXFEM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxfrx_h-2013",
@@ -3426,7 +3648,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "January 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXFRX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXFRX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxl1_h-2013",
@@ -3441,7 +3664,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL1_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL1_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxl2_h-2013",
@@ -3456,7 +3680,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL2_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL2_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxl3_h-2013",
@@ -3471,7 +3696,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL3_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL3_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxl4_h-2013",
@@ -3486,7 +3712,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL4_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXL4_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxspn_h-2013",
@@ -3501,7 +3728,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXSPN_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXSPN_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxspn_j-2017",
@@ -3516,7 +3744,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXXSPN_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXXSPN_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_dxxspn-2017",
@@ -3531,7 +3760,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DXXSPN.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DXXSPN.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt10_h-2013",
@@ -3546,7 +3776,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT10_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT10_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt11_h-2013",
@@ -3561,7 +3792,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT11_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT11_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt12_h-2013",
@@ -3576,7 +3808,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT12_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT12_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt5_h-2013",
@@ -3591,7 +3824,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT5_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT5_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt6_h-2013",
@@ -3607,7 +3841,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT6_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT6_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt7_h-2013",
@@ -3622,7 +3857,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT7_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT7_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt8_h-2013",
@@ -3637,7 +3873,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT8_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT8_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt9_h-2013",
@@ -3652,7 +3889,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT9_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT9_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxvfa_h-2013",
@@ -3668,7 +3906,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXVFA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXVFA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxx_i-2015",
@@ -3684,7 +3923,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DXX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DXX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxx_h-2013",
@@ -3699,7 +3939,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxx_j-2017",
@@ -3714,7 +3955,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxx_2_b-2001",
@@ -3730,7 +3972,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DXX_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DXX_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-enx_e-2007",
@@ -3745,7 +3988,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-enx_f-2009",
@@ -3760,7 +4004,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-enx_g-2011",
@@ -3776,7 +4021,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ENX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ENX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-flxcln_g-2011",
@@ -3792,7 +4038,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FLXCLN_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FLXCLN_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-flxcln_h-2013",
@@ -3807,7 +4054,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FLXCLN_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FLXCLN_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-flxcln_i-2015",
@@ -3822,7 +4070,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FLXCLN_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FLXCLN_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-flxcln_f-2009",
@@ -3837,7 +4086,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FLXCLN_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FLXCLN_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lux_j-2017",
@@ -3853,7 +4103,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/LUX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/LUX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_lux-2017",
@@ -3869,7 +4120,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_LUX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_LUX.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lux_l-2021",
@@ -3885,7 +4137,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/LUX_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/LUX_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lexabpi-1999",
@@ -3901,7 +4154,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LEXABPI.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LEXABPI.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lexab_c-2003",
@@ -3917,7 +4171,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/LEXAB_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/LEXAB_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lexab_b-2001",
@@ -3933,7 +4188,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/LEXAB_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/LEXAB_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lexpn-1999",
@@ -3948,7 +4204,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LEXPN.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LEXPN.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lexpn_c-2003",
@@ -3963,7 +4220,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/LEXPN_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/LEXPN_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-auxar-1999",
@@ -3978,7 +4236,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUXAR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUXAR.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxxt4_h-2013",
@@ -3994,7 +4253,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT4_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DXXT4_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-lexpn_b-2001",
@@ -4008,7 +4268,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/LEXPN_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/LEXPN_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-msx-1999",
@@ -4023,7 +4284,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MSX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MSX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-msx_b-2001",
@@ -4038,7 +4300,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MSX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MSX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-mgx_g-2011",
@@ -4053,7 +4316,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-mgx_h-2013",
@@ -4068,7 +4332,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-opxfdt_e-2007",
@@ -4083,7 +4348,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPXFDT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPXFDT_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-opxfdt_d-2005",
@@ -4098,7 +4364,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXFDT_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXFDT_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-opxret_d-2005",
@@ -4113,7 +4380,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "June 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-opxret_e-2007",
@@ -4128,7 +4396,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "June 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPXRET_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPXRET_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxadd_c-2003",
@@ -4142,7 +4411,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXADD_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXADD_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxdent-1999",
@@ -4157,7 +4427,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXDENT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXDENT.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_c-2003",
@@ -4172,7 +4443,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXDEN_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXDEN_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_b-2001",
@@ -4187,7 +4459,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXDEN_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXDEN_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_f-2009",
@@ -4201,7 +4474,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXDEN_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXDEN_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_h-2013",
@@ -4216,7 +4490,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXDEN_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXDEN_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_i-2015",
@@ -4231,7 +4506,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OHXDEN_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OHXDEN_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_g-2011",
@@ -4246,7 +4522,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXDEN_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXDEN_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxperio-1999",
@@ -4261,7 +4538,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXPERIO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXPERIO.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxper_f-2009",
@@ -4276,7 +4554,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXPER_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXPER_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxper_h-2013",
@@ -4291,7 +4570,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXPER_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXPER_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxprl_c-2003",
@@ -4306,7 +4586,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXPRL_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXPRL_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxprl_b-2001",
@@ -4321,7 +4602,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXPRL_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXPRL_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxpru_c-2003",
@@ -4336,7 +4618,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXPRU_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXPRU_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxpru_b-2001",
@@ -4351,7 +4634,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXPRU_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXPRU_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref-1999",
@@ -4365,7 +4649,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXREF.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHXREF.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_c-2003",
@@ -4379,7 +4664,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXREF_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHXREF_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_b-2001",
@@ -4393,7 +4679,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXREF_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHXREF_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxraw_c-2003",
@@ -4409,7 +4696,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "December 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAXRAW_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAXRAW_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxlux_g-2011",
@@ -4424,7 +4712,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXLUX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXLUX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxlux_h-2013",
@@ -4439,7 +4728,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXLUX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXLUX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxday_g-2011",
@@ -4455,7 +4745,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXDAY_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXDAY_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxday_h-2013",
@@ -4471,7 +4762,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXDAY_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXDAY_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxmin_h-2013",
@@ -4486,7 +4778,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXMIN_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXMIN_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-pax80_g-2011",
@@ -4503,7 +4796,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "October 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAX80_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAX80_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-pax80_h-2013",
@@ -4519,7 +4813,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "October 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAX80_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAX80_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-seq-1999",
@@ -4533,7 +4828,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SEQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SEQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-spx_e-2007",
@@ -4548,7 +4844,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-spx_f-2009",
@@ -4563,7 +4860,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-spx_g-2011",
@@ -4578,7 +4876,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-spxraw_e-2007",
@@ -4593,7 +4892,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPXRAW_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPXRAW_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-spxraw_f-2009",
@@ -4608,7 +4908,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPXRAW_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPXRAW_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-spxraw_g-2011",
@@ -4623,7 +4924,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPXRAW_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPXRAW_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-csx_h-2013",
@@ -4638,7 +4940,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CSX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CSX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-tb-1999",
@@ -4653,7 +4956,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TB.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TB.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-tbx_g-2011",
@@ -4668,7 +4972,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TBX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TBX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06age_c-2003",
@@ -4683,7 +4988,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06AGE_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06AGE_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-amdgyd_d-2005",
@@ -4698,7 +5004,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AMDGYD_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AMDGYD_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-amdgyd_h-2013",
@@ -4713,7 +5020,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AMDGYD_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AMDGYD_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-amdgyd_i-2015",
@@ -4729,7 +5037,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AMDGYD_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AMDGYD_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-amdgds_h-2013",
@@ -4744,7 +5053,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AMDGDS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AMDGDS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssafb_a-1999",
@@ -4759,7 +5069,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSAFB_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSAFB_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_e-2007",
@@ -4774,7 +5085,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab16-1999",
@@ -4789,7 +5101,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB16.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB16.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_d-2005",
@@ -4804,7 +5117,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALB_CR_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALB_CR_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l16_c-2003",
@@ -4819,7 +5133,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L16_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L16_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l16_b-2001",
@@ -4835,7 +5150,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "May 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L16_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L16_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_f-2009",
@@ -4850,7 +5166,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_g-2011",
@@ -4865,7 +5182,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_h-2013",
@@ -4881,7 +5199,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "September 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-al_ige_d-2005",
@@ -4896,7 +5215,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "February 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AL_IGE_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AL_IGE_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-aldust_d-2005",
@@ -4911,7 +5231,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "February 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALDUST_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALDUST_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-agp_l-2021",
@@ -4927,7 +5248,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/AGP_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/AGP_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssagp_i-2015",
@@ -4943,7 +5265,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSAGP_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSAGP_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssagp_j-2017",
@@ -4958,7 +5281,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSAGP_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSAGP_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ssagp-2017",
@@ -4973,7 +5297,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSAGP.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSAGP.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstoca_g-2011",
@@ -4987,7 +5312,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSTOCA_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSTOCA_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstoca_h-2013",
@@ -5001,7 +5327,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSTOCA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSTOCA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssamh_a-1999",
@@ -5016,7 +5343,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSAMH_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSAMH_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssamh_b-2001",
@@ -5031,7 +5359,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSAMH_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSAMH_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssamh_c-2003",
@@ -5046,7 +5375,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSAMH_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSAMH_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-apob_e-2007",
@@ -5061,7 +5391,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/APOB_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/APOB_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-apob_f-2009",
@@ -5076,7 +5407,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/APOB_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/APOB_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-apob_g-2011",
@@ -5091,7 +5423,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/APOB_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/APOB_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-utas_h-2013",
@@ -5106,7 +5439,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UTAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UTAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-utas_i-2015",
@@ -5122,7 +5456,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "February 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UTAS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UTAS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-utas_j-2017",
@@ -5137,7 +5472,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UTAS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UTAS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_utas-2017",
@@ -5152,7 +5488,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UTAS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UTAS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-utass_h-2013",
@@ -5167,7 +5504,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UTASS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UTASS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-utass_i-2015",
@@ -5182,7 +5520,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UTASS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UTASS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_h-2013",
@@ -5197,7 +5536,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_j-2017",
@@ -5213,7 +5553,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UAS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UAS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_uas-2017",
@@ -5228,7 +5569,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UAS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UAS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uass_h-2013",
@@ -5243,7 +5585,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UASS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UASS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_e-2007",
@@ -5258,7 +5601,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UAS_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UAS_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_d-2005",
@@ -5273,7 +5617,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UAS_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UAS_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06uas_c-2003",
@@ -5288,7 +5633,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06UAS_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06UAS_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_f-2009",
@@ -5303,7 +5649,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UAS_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UAS_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_g-2011",
@@ -5318,7 +5665,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UAS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UAS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssana_a-1999",
@@ -5333,7 +5681,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSANA_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSANA_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssana2_g-2011",
@@ -5348,7 +5697,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSANA2_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSANA2_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l34_b-2001",
@@ -5362,7 +5712,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L34_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L34_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l34_c-2003",
@@ -5376,7 +5727,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L34_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L34_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l28pbe_c-2003",
@@ -5391,7 +5743,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28PBE_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28PBE_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-bfrpol_d-2005",
@@ -5406,7 +5759,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BFRPOL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BFRPOL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-bfrpol_e-2007",
@@ -5421,7 +5775,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BFRPOL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BFRPOL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-bfrpol_f-2009",
@@ -5437,7 +5792,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BFRPOL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BFRPOL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-bfrpol_g-2011",
@@ -5452,7 +5808,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BFRPOL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BFRPOL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-bfrpol_h-2013",
@@ -5467,7 +5824,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BFRPOL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BFRPOL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssbfr_b-2001",
@@ -5482,7 +5840,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSBFR_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSBFR_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_d-2005",
@@ -5497,7 +5856,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PBCD_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PBCD_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_e-2007",
@@ -5512,7 +5872,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PBCD_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PBCD_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06bmt_c-2003",
@@ -5527,7 +5888,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06BMT_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06BMT_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_f-2009",
@@ -5542,7 +5904,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PBCD_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PBCD_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab06-1999",
@@ -5557,7 +5920,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB06.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB06.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06_b-2001",
@@ -5572,7 +5936,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06_2_b-2001",
@@ -5587,7 +5952,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l13am_b-2001",
@@ -5602,7 +5968,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L13AM_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L13AM_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_f-2009",
@@ -5617,7 +5984,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TRIGLY_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TRIGLY_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_g-2011",
@@ -5632,7 +6000,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TRIGLY_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TRIGLY_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_h-2013",
@@ -5647,7 +6016,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TRIGLY_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TRIGLY_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_d-2005",
@@ -5662,7 +6032,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TRIGLY_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TRIGLY_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_i-2015",
@@ -5677,7 +6048,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TRIGLY_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TRIGLY_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_j-2017",
@@ -5692,7 +6064,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TRIGLY_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TRIGLY_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_trigly-2017",
@@ -5708,7 +6081,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TRIGLY.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TRIGLY.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_l-2021",
@@ -5723,7 +6097,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TRIGLY_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TRIGLY_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_e-2007",
@@ -5738,7 +6113,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TCHOL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TCHOL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_d-2005",
@@ -5753,7 +6129,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TCHOL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TCHOL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_f-2009",
@@ -5768,7 +6145,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TCHOL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TCHOL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_g-2011",
@@ -5783,7 +6161,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TCHOL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TCHOL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_h-2013",
@@ -5798,7 +6177,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TCHOL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TCHOL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_i-2015",
@@ -5814,7 +6194,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TCHOL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TCHOL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohx_e-2007",
@@ -5829,7 +6210,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OHX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OHX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxden_j-2017",
@@ -5844,7 +6226,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OHXDEN_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OHXDEN_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_ohxden-2017",
@@ -5859,7 +6242,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OHXDEN.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OHXDEN.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxper_g-2011",
@@ -5875,7 +6259,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXPER_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXPER_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_f-2009",
@@ -5889,7 +6274,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXREF_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXREF_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_g-2011",
@@ -5903,7 +6289,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXREF_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXREF_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_h-2013",
@@ -5917,7 +6304,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXREF_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXREF_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_i-2015",
@@ -5931,7 +6319,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OHXREF_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OHXREF_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohxref_j-2017",
@@ -5945,7 +6334,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OHXREF_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OHXREF_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-p_ohxref-2017",
@@ -5959,7 +6349,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OHXREF.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OHXREF.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxraw_d-2005",
@@ -5975,7 +6366,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAXRAW_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAXRAW_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxhd_g-2011",
@@ -5989,7 +6381,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXHD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXHD_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxhd_h-2013",
@@ -6003,7 +6396,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXHD_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXHD_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-dxx_g-2011",
@@ -6018,7 +6412,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DXX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DXX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-ohx_d-2005",
@@ -6033,7 +6428,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OHX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OHX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxhr_g-2011",
@@ -6049,7 +6445,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXHR_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXHR_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxhr_h-2013",
@@ -6065,7 +6462,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXHR_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAXHR_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-paxmin_g-2011",
@@ -6080,7 +6478,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXMIN_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAXMIN_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-vix_e-2007",
@@ -6095,7 +6494,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VIX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VIX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-vix-1999",
@@ -6110,7 +6510,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "February 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/VIX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/VIX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-vix_d-2005",
@@ -6125,7 +6526,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-vix_c-2003",
@@ -6140,7 +6542,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VIX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VIX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-examination-vix_b-2001",
@@ -6155,7 +6558,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/VIX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/VIX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_i-2015",
@@ -6171,7 +6575,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "June 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_j-2017",
@@ -6187,7 +6592,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_alb_cr-2017",
@@ -6203,7 +6609,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ALB_CR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ALB_CR.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alb_cr_l-2021",
@@ -6219,7 +6626,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ALB_CR_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ALB_CR_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ald_h-2013",
@@ -6235,7 +6643,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "October 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALD_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALD_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-alds_h-2013",
@@ -6250,7 +6659,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALDS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALDS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-apob_h-2013",
@@ -6266,7 +6676,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/APOB_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/APOB_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-apob_i-2015",
@@ -6281,7 +6692,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/APOB_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/APOB_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-aa_h-2013",
@@ -6296,7 +6708,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-aas_h-2013",
@@ -6311,7 +6724,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/AAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uadm_i-2015",
@@ -6326,7 +6740,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UADM_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UADM_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uass_g-2011",
@@ -6341,7 +6756,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UASS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UASS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uam_e-2007",
@@ -6356,7 +6772,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UAM_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UAM_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssdfs_a-1999",
@@ -6370,7 +6787,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSDFS_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSDFS_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssdfs_g-2011",
@@ -6384,7 +6802,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSDFS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSDFS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cafe_g-2011",
@@ -6400,7 +6819,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CAFE_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CAFE_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cafe_h-2013",
@@ -6416,7 +6836,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CAFE_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CAFE_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscafe_a-1999",
@@ -6432,7 +6853,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCAFE_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCAFE_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscafe_b-2001",
@@ -6447,7 +6869,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCAFE_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCAFE_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssca_b-2001",
@@ -6462,7 +6885,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCA_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCA_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscga_b-2001",
@@ -6477,7 +6901,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCGA_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCGA_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-chlmda_f-2009",
@@ -6491,7 +6916,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CHLMDA_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CHLMDA_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-chlmda_g-2011",
@@ -6505,7 +6931,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CHLMDA_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CHLMDA_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-chlmda_h-2013",
@@ -6519,7 +6946,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CHLMDA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CHLMDA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-chlmda_i-2015",
@@ -6533,7 +6961,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CHLMDA_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CHLMDA_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab05-1999",
@@ -6547,7 +6976,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB05.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB05.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-chlmda_d-2005",
@@ -6561,7 +6991,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CHLMDA_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CHLMDA_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l05_c-2003",
@@ -6575,7 +7006,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L05_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L05_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l05_b-2001",
@@ -6589,7 +7021,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L05_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L05_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-chlmda_e-2007",
@@ -6603,7 +7036,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CHLMDA_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CHLMDA_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_g-2011",
@@ -6618,7 +7052,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HDL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HDL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_h-2013",
@@ -6633,7 +7068,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HDL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HDL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_j-2017",
@@ -6649,7 +7085,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hdl-2017",
@@ -6665,7 +7102,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HDL.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HDL.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_l-2021",
@@ -6680,7 +7118,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HDL_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HDL_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_i-2015",
@@ -6695,7 +7134,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HDL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HDL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trigly_e-2007",
@@ -6711,7 +7151,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "September 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TRIGLY_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TRIGLY_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab13am-1999",
@@ -6726,7 +7167,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB13AM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB13AM.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l13am_c-2003",
@@ -6741,7 +7183,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L13AM_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L13AM_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_j-2017",
@@ -6756,7 +7199,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TCHOL_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TCHOL_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_tchol-2017",
@@ -6772,7 +7216,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TCHOL.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TCHOL.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tchol_l-2021",
@@ -6788,7 +7233,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TCHOL_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TCHOL_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab13-1999",
@@ -6803,7 +7249,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB13.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB13.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l13_b-2001",
@@ -6818,7 +7265,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L13_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L13_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l13_c-2003",
@@ -6834,7 +7282,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L13_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L13_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_e-2007",
@@ -6849,7 +7298,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab25-1999",
@@ -6864,7 +7314,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB25.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB25.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_d-2005",
@@ -6879,7 +7330,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l25_c-2003",
@@ -6894,7 +7346,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssana2_a-1999",
@@ -6909,7 +7362,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSANA2_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSANA2_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-bfrpol_i-2015",
@@ -6924,7 +7378,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BFRPOL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BFRPOL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_g-2011",
@@ -6940,7 +7395,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PBCD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PBCD_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cafe_f-2009",
@@ -6956,7 +7412,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CAFE_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CAFE_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssct_h-2013",
@@ -6970,7 +7427,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSCT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSCT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssct_i-2015",
@@ -6984,7 +7442,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSCT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSCT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssclty_i-2015",
@@ -6999,7 +7458,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSCLTY_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSCLTY_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_e-2007",
@@ -7014,7 +7474,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HDL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HDL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_d-2005",
@@ -7029,7 +7490,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HDL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HDL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hdl_f-2009",
@@ -7044,7 +7506,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HDL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HDL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l13_2_b-2001",
@@ -7059,7 +7522,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L13_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L13_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucm_j-2017",
@@ -7075,7 +7539,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ucm-2017",
@@ -7090,7 +7555,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UCM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UCM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-crco_i-2015",
@@ -7105,7 +7571,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CRCO_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CRCO_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-crco_j-2017",
@@ -7120,7 +7587,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CRCO_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CRCO_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_crco-2017",
@@ -7135,7 +7603,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CRCO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CRCO.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_j-2017",
@@ -7150,7 +7619,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l25_b-2001",
@@ -7165,7 +7635,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_f-2009",
@@ -7180,7 +7651,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_g-2011",
@@ -7195,7 +7667,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_h-2013",
@@ -7211,7 +7684,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_i-2015",
@@ -7226,7 +7700,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l25_2_b-2001",
@@ -7241,7 +7716,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_cbc-2017",
@@ -7256,7 +7732,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CBC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CBC.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cbc_l-2021",
@@ -7272,7 +7749,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/CBC_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/CBC_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cusezn_g-2011",
@@ -7288,7 +7766,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CUSEZN_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CUSEZN_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cusezn_h-2013",
@@ -7304,7 +7783,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CUSEZN_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CUSEZN_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cusezn_i-2015",
@@ -7320,7 +7800,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CUSEZN_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CUSEZN_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cot_d-2005",
@@ -7335,7 +7816,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/COT_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/COT_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cot_j-2017",
@@ -7350,7 +7832,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/COT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/COT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_cot-2017",
@@ -7365,7 +7848,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_COT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_COT.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucot_h-2013",
@@ -7380,7 +7864,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCOT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCOT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucot_i-2015",
@@ -7395,7 +7880,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCOT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCOT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucot_j-2017",
@@ -7410,7 +7896,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCOT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCOT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucots_h-2013",
@@ -7425,7 +7912,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCOTS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCOTS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucots_i-2015",
@@ -7440,7 +7928,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCOTS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCOTS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssqfev_c-2003",
@@ -7454,7 +7943,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSQFEV_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSQFEV_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l11_2_b-2001",
@@ -7469,7 +7959,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-crp_e-2007",
@@ -7485,7 +7976,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab11-1999",
@@ -7500,7 +7992,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB11.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB11.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-crp_d-2005",
@@ -7515,7 +8008,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-crp_f-2009",
@@ -7530,7 +8024,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l11_c-2003",
@@ -7545,7 +8040,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l11_b-2001",
@@ -7561,7 +8057,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "June 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscmv_b-2001",
@@ -7576,7 +8073,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCMV_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCMV_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscmv_c-2003",
@@ -7590,7 +8088,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSCMV_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSCMV_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscmvg_a-1999",
@@ -7604,7 +8103,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCMVG_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCMVG_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cmv_g-2011",
@@ -7618,7 +8118,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CMV_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CMV_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cmv_j-2017",
@@ -7632,7 +8133,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CMV_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CMV_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_cmv-2017",
@@ -7646,7 +8148,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CMV.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CMV.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssucsh_a-1999",
@@ -7661,7 +8164,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSUCSH_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSUCSH_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-deet_e-2007",
@@ -7676,7 +8180,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEET_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEET_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-deet_f-2009",
@@ -7691,7 +8196,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEET_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEET_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-deet_g-2011",
@@ -7706,7 +8212,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEET_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEET_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-deet_h-2013",
@@ -7721,7 +8228,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEET_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEET_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-deet_i-2015",
@@ -7736,7 +8244,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEET_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEET_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssdeet_i-2015",
@@ -7751,7 +8260,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSDEET_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSDEET_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l28poc_b-2001",
@@ -7767,7 +8277,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L28POC_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L28POC_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-eph_e-2007",
@@ -7782,7 +8293,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/EPH_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/EPH_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l24eph_c-2003",
@@ -7797,7 +8309,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24EPH_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24EPH_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-eph_f-2009",
@@ -7813,7 +8326,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/EPH_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/EPH_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-eph_d-2005",
@@ -7829,7 +8343,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/EPH_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/EPH_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-eph_g-2011",
@@ -7845,7 +8360,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/EPH_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/EPH_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssebv_c-2003",
@@ -7859,7 +8375,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSEBV_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSEBV_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssebv_d-2005",
@@ -7873,7 +8390,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSEBV_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSEBV_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssebv_e-2007",
@@ -7887,7 +8405,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSEBV_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSEBV_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssebv_f-2009",
@@ -7901,7 +8420,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSEBV_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSEBV_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l39_2_b-2001",
@@ -7916,7 +8436,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L39_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L39_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-epp_d-2005",
@@ -7931,7 +8452,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/EPP_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/EPP_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l39_b-2001",
@@ -7946,7 +8468,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L39_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L39_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ethoxs_h-2013",
@@ -7961,7 +8484,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ETHOXS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ETHOXS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_e-2007",
@@ -7976,7 +8500,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FASTQX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FASTQX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ph-1999",
@@ -7990,7 +8515,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PH.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PH.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_d-2005",
@@ -8004,7 +8530,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FASTQX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FASTQX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ph_c-2003",
@@ -8018,7 +8545,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PH_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PH_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ph_b-2001",
@@ -8032,7 +8560,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PH_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PH_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_f-2009",
@@ -8047,7 +8576,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FASTQX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FASTQX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_g-2011",
@@ -8062,7 +8592,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FASTQX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FASTQX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_h-2013",
@@ -8076,7 +8607,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FASTQX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FASTQX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_i-2015",
@@ -8090,7 +8622,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FASTQX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FASTQX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_j-2017",
@@ -8104,7 +8637,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FASTQX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FASTQX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_fastqx-2017",
@@ -8118,7 +8652,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FASTQX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FASTQX.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fastqx_l-2021",
@@ -8133,7 +8668,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FASTQX_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FASTQX_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssfa_c-2003",
@@ -8149,7 +8685,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSFA_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSFA_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fertin_d-2005",
@@ -8164,7 +8701,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fertin_f-2009",
@@ -8179,7 +8717,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FERTIN_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FERTIN_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fertin_i-2015",
@@ -8194,7 +8733,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FERTIN_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FERTIN_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fertin_j-2017",
@@ -8209,7 +8749,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FERTIN_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FERTIN_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_fertin-2017",
@@ -8224,7 +8765,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FERTIN.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FERTIN.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fertin_l-2021",
@@ -8239,7 +8781,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FERTIN_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FERTIN_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06tfr_c-2003",
@@ -8254,7 +8797,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssflrt_h-2013",
@@ -8269,7 +8813,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSFLRT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSFLRT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fr_j-2017",
@@ -8285,7 +8830,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FR_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FR_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_fr-2017",
@@ -8300,7 +8846,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FR.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssfr_g-2011",
@@ -8315,7 +8862,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSFR_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSFR_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssfr_i-2015",
@@ -8330,7 +8878,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSFR_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSFR_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssfr_j-2017",
@@ -8345,7 +8894,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSFR_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSFR_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ssfr-2017",
@@ -8360,7 +8910,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSFR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSFR.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fldep_h-2013",
@@ -8375,7 +8926,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FLDEP_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FLDEP_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06cot_c-2003",
@@ -8390,7 +8942,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06COT_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06COT_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cotnal_e-2007",
@@ -8405,7 +8958,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/COTNAL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/COTNAL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cotnal_f-2009",
@@ -8420,7 +8974,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/COTNAL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/COTNAL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cotnal_g-2011",
@@ -8435,7 +8990,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/COTNAL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/COTNAL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cot_h-2013",
@@ -8450,7 +9006,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/COT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/COT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-cot_i-2015",
@@ -8465,7 +9022,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/COT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/COT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l16_2_b-2001",
@@ -8480,7 +9038,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L16_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L16_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab17-1999",
@@ -8494,7 +9053,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB17.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB17.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscyst_a-1999",
@@ -8509,7 +9069,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCYST_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCYST_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscyst_b-2001",
@@ -8525,7 +9086,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCYST_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCYST_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscmv_a-1999",
@@ -8539,7 +9101,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCMV_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCMV_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab28poc-1999",
@@ -8555,7 +9118,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "January 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB28POC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB28POC.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fas_g-2011",
@@ -8570,7 +9134,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FAS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FAS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fas_h-2013",
@@ -8585,7 +9150,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-far_l-2021",
@@ -8601,7 +9167,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FAR_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FAR_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fertin_e-2007",
@@ -8616,7 +9183,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FERTIN_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FERTIN_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fldep_i-2015",
@@ -8631,7 +9199,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FLDEP_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FLDEP_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uflde_i-2015",
@@ -8646,7 +9215,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UFLDE_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UFLDE_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fldew_h-2013",
@@ -8661,7 +9231,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FLDEW_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FLDEW_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fldew_i-2015",
@@ -8676,7 +9247,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FLDEW_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FLDEW_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_g-2011",
@@ -8691,7 +9263,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FOLATE_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FOLATE_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_h-2013",
@@ -8706,7 +9279,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FOLATE_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FOLATE_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_i-2015",
@@ -8721,7 +9295,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FOLATE_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FOLATE_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_j-2017",
@@ -8736,7 +9311,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FOLATE_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FOLATE_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_folate-2017",
@@ -8751,7 +9327,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FOLATE.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FOLATE.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folfms_h-2013",
@@ -8766,7 +9343,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FOLFMS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FOLFMS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folfms_g-2011",
@@ -8781,7 +9359,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FOLFMS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FOLFMS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folfms_i-2015",
@@ -8796,7 +9375,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FOLFMS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FOLFMS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folfms_j-2017",
@@ -8812,7 +9392,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FOLFMS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FOLFMS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_folfms-2017",
@@ -8827,7 +9408,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FOLFMS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FOLFMS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ffmr_l-2021",
@@ -8842,7 +9424,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FFMR_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FFMR_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssfol_a-1999",
@@ -8857,7 +9440,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSFOL_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSFOL_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-formal_i-2015",
@@ -8872,7 +9456,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FORMAL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FORMAL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-formal_h-2013",
@@ -8887,7 +9472,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FORMAL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FORMAL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-formas_h-2013",
@@ -8902,7 +9488,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FORMAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FORMAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sscard_a-1999",
@@ -8918,7 +9505,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCARD_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCARD_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_e-2007",
@@ -8933,7 +9521,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab10-1999",
@@ -8948,7 +9537,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_d-2005",
@@ -8963,7 +9553,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GHB_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GHB_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l10_c-2003",
@@ -8979,7 +9570,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "March 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l10_b-2001",
@@ -8994,7 +9586,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_f-2009",
@@ -9009,7 +9602,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_g-2011",
@@ -9024,7 +9618,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_h-2013",
@@ -9039,7 +9634,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_i-2015",
@@ -9054,7 +9650,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_j-2017",
@@ -9069,7 +9666,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ghb-2017",
@@ -9084,7 +9682,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_GHB.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_GHB.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ghb_l-2021",
@@ -9099,7 +9698,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GHB_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GHB_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l10_2_b-2001",
@@ -9115,7 +9715,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssglyp_h-2013",
@@ -9130,7 +9731,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSGLYP_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSGLYP_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssglyp_i-2015",
@@ -9146,7 +9748,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSGLYP_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSGLYP_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssglyp_j-2017",
@@ -9161,7 +9764,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSGLYP_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSGLYP_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02hpa_a-1999",
@@ -9175,7 +9779,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/L02HPA_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/L02HPA_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_d-2005",
@@ -9189,7 +9794,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPA_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPA_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02hpa_c-2003",
@@ -9203,7 +9809,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L02HPA_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L02HPA_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02hpa_b-2001",
@@ -9217,7 +9824,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L02HPA_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L02HPA_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_f-2009",
@@ -9231,7 +9839,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPA_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPA_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_g-2011",
@@ -9245,7 +9854,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPA_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPA_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_e-2007",
@@ -9260,7 +9870,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPB_S_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPB_S_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02hbs-1999",
@@ -9274,7 +9885,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/L02HBS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/L02HBS.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_d-2005",
@@ -9289,7 +9901,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPB_S_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPB_S_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02hbs_c-2003",
@@ -9304,7 +9917,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L02HBS_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L02HBS_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02hbs_b-2001",
@@ -9318,7 +9932,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L02HBS_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L02HBS_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_f-2009",
@@ -9332,7 +9947,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPB_S_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPB_S_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_g-2011",
@@ -9347,7 +9963,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPB_S_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPB_S_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hepb_s-2017",
@@ -9362,7 +9979,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPB_S.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPB_S.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_l-2021",
@@ -9377,7 +9995,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPB_S_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPB_S_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_i-2015",
@@ -9391,7 +10010,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPBD_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPBD_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_j-2017",
@@ -9405,7 +10025,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPBD_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPBD_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hepbd-2017",
@@ -9419,7 +10040,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPBD.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPBD.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_l-2021",
@@ -9433,7 +10055,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPBD_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPBD_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_e-2007",
@@ -9447,7 +10070,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPBD_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPBD_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_h-2013",
@@ -9461,7 +10085,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPB_S_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPB_S_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_i-2015",
@@ -9475,7 +10100,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPB_S_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPB_S_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepb_s_j-2017",
@@ -9489,7 +10115,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPB_S_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPB_S_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshcv_e-2007",
@@ -9503,7 +10130,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSHCV_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSHCV_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshcvr_c-2003",
@@ -9517,7 +10145,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSHCVR_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSHCVR_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshepc_h-2013",
@@ -9531,7 +10160,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSHEPC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSHEPC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_e-2007",
@@ -9545,7 +10175,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_d-2005",
@@ -9559,7 +10190,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_f-2009",
@@ -9573,7 +10205,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_g-2011",
@@ -9587,7 +10220,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPC_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPC_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l28dfp_c-2003",
@@ -9602,7 +10236,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28DFP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28DFP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l39epp_c-2003",
@@ -9617,7 +10252,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L39EPP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L39EPP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ethox_h-2013",
@@ -9632,7 +10268,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ETHOX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ETHOX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ethox_i-2015",
@@ -9647,7 +10284,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ETHOX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ETHOX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ethox_j-2017",
@@ -9662,7 +10300,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ETHOX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ETHOX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ethox-2017",
@@ -9677,7 +10316,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ETHOX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ETHOX.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_l-2021",
@@ -9692,7 +10332,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FOLATE_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FOLATE_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_d-2005",
@@ -9707,7 +10348,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FOLATE_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FOLATE_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_e-2007",
@@ -9722,7 +10364,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FOLATE_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FOLATE_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folate_f-2009",
@@ -9737,7 +10380,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FOLATE_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FOLATE_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06nb_c-2003",
@@ -9753,7 +10397,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06NB_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06NB_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folfms_e-2007",
@@ -9768,7 +10413,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FOLFMS_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FOLFMS_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_h-2013",
@@ -9782,7 +10428,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_i-2015",
@@ -9796,7 +10443,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPA_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPA_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_d-2005",
@@ -9810,7 +10458,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPBD_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HEPBD_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_f-2009",
@@ -9824,7 +10473,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPBD_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPBD_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_g-2011",
@@ -9838,7 +10488,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPBD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPBD_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepbd_h-2013",
@@ -9852,7 +10503,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPBD_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPBD_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_h-2013",
@@ -9866,7 +10518,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_i-2015",
@@ -9880,7 +10533,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPC_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPC_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_j-2017",
@@ -9894,7 +10548,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hepc-2017",
@@ -9908,7 +10563,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPC.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepc_l-2021",
@@ -9922,7 +10578,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPC_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPC_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepe_f-2009",
@@ -9936,7 +10593,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPE_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HEPE_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepe_g-2011",
@@ -9950,7 +10608,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPE_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HEPE_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepe_h-2013",
@@ -9964,7 +10623,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPE_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEPE_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepe_i-2015",
@@ -9978,7 +10638,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPE_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEPE_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepe_j-2017",
@@ -9992,7 +10653,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPE_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPE_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hepe-2017",
@@ -10006,7 +10668,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPE.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPE.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hsv_g-2011",
@@ -10020,7 +10683,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HSV_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HSV_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hsv_h-2013",
@@ -10034,7 +10698,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HSV_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HSV_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hsv_i-2015",
@@ -10048,7 +10713,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSV_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSV_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshsv1_b-2001",
@@ -10062,7 +10728,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSHSV1_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSHSV1_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshsv1_a-1999",
@@ -10076,7 +10743,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSHSV1_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSHSV1_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hcaa_h-2013",
@@ -10091,7 +10759,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HCAA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HCAA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hcaas_h-2013",
@@ -10106,7 +10775,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HCAAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HCAAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstrop_a-1999",
@@ -10122,7 +10792,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSTROP_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSTROP_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hscrp_j-2017",
@@ -10137,7 +10808,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hscrp-2017",
@@ -10153,7 +10825,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HSCRP.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HSCRP.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hscrp_l-2021",
@@ -10170,7 +10843,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSCRP_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSCRP_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hscrp_i-2015",
@@ -10186,7 +10860,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_e-2007",
@@ -10200,7 +10875,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HIV_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HIV_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_f-2009",
@@ -10214,7 +10890,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HIV_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HIV_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_g-2011",
@@ -10228,7 +10905,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HIV_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HIV_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_j-2017",
@@ -10243,7 +10921,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "May 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPA_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEPA_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_hepa-2017",
@@ -10257,7 +10936,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPA.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEPA.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_l-2021",
@@ -10273,7 +10953,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPA_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPA_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepa_e-2007",
@@ -10288,7 +10969,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "September 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPA_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HEPA_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02_b-2001",
@@ -10302,7 +10984,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L02_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L02_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab02-1999",
@@ -10316,7 +10999,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB02.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB02.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l02_c-2003",
@@ -10330,7 +11014,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L02_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L02_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hepe_l-2021",
@@ -10344,7 +11029,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPE_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEPE_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab09-1999",
@@ -10358,7 +11044,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB09.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB09.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l09_b-2001",
@@ -10372,7 +11059,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L09_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L09_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l09_c-2003",
@@ -10386,7 +11074,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L09_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L09_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hsv_d-2005",
@@ -10400,7 +11089,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HSV_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HSV_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hsv_e-2007",
@@ -10414,7 +11104,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HSV_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HSV_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hsv_f-2009",
@@ -10428,7 +11119,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HSV_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HSV_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_h-2013",
@@ -10442,7 +11134,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HIV_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HIV_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_i-2015",
@@ -10456,7 +11149,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HIV_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HIV_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_j-2017",
@@ -10470,7 +11164,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HIV_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HIV_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab03-1999",
@@ -10485,7 +11180,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB03.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB03.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hiv_d-2005",
@@ -10500,7 +11196,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HIV_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HIV_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l03_c-2003",
@@ -10515,7 +11212,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L03_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L03_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l03_b-2001",
@@ -10530,7 +11228,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L03_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L03_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssholo_g-2011",
@@ -10545,7 +11244,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSHOLO_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSHOLO_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hcy_d-2005",
@@ -10560,7 +11260,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HCY_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HCY_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshe4_b-2001",
@@ -10575,7 +11276,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSHE4_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSHE4_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvser_f-2009",
@@ -10589,7 +11291,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HPVSER_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HPVSER_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l52ser_c-2003",
@@ -10603,7 +11306,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L52SER_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L52SER_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvser_e-2007",
@@ -10617,7 +11321,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HPVSER_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HPVSER_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvser_d-2005",
@@ -10631,7 +11336,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSER_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSER_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvsrm_d-2005",
@@ -10645,7 +11351,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSRM_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSRM_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-orhpv_f-2009",
@@ -10659,7 +11366,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ORHPV_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ORHPV_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-orhpv_g-2011",
@@ -10673,7 +11381,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ORHPV_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ORHPV_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-orhpv_h-2013",
@@ -10687,7 +11396,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ORHPV_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ORHPV_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-orhpv_i-2015",
@@ -10701,7 +11411,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ORHPV_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ORHPV_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvp_i-2015",
@@ -10715,7 +11426,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVP_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVP_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l37swa_c-2003",
@@ -10729,7 +11441,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L37SWA_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L37SWA_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswr_e-2007",
@@ -10743,7 +11456,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HPVSWR_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HPVSWR_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswr_f-2009",
@@ -10757,7 +11471,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HPVSWR_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HPVSWR_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswr_g-2011",
@@ -10772,7 +11487,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HPVSWR_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HPVSWR_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswr_d-2005",
@@ -10786,7 +11502,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2018",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSWR_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSWR_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswr_h-2013",
@@ -10800,7 +11517,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HPVSWR_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HPVSWR_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswc_i-2015",
@@ -10814,7 +11532,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVSWC_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVSWC_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l37swr_c-2003",
@@ -10828,7 +11547,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L37SWR_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L37SWR_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvswr_i-2015",
@@ -10842,7 +11562,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVSWR_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVSWR_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-hpvp_h-2013",
@@ -10856,7 +11577,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HPVP_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HPVP_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sshpv_f-2009",
@@ -10871,7 +11593,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSHPV_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSHPV_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ihgem-2017",
@@ -10886,7 +11609,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_IHGEM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_IHGEM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ins_h-2013",
@@ -10902,7 +11626,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ins_i-2015",
@@ -10918,7 +11643,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ins_j-2017",
@@ -10933,7 +11659,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ins-2017",
@@ -10949,7 +11676,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_INS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_INS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ins_l-2021",
@@ -10965,7 +11693,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/INS_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/INS_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_e-2007",
@@ -10980,7 +11709,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UIO_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UIO_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_d-2005",
@@ -10995,7 +11725,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UIO_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UIO_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06uio_c-2003",
@@ -11010,7 +11741,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06UIO_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06UIO_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06uio_b-2001",
@@ -11025,7 +11757,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06UIO_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06UIO_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_f-2009",
@@ -11040,7 +11773,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UIO_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UIO_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_g-2011",
@@ -11055,7 +11789,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UIO_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UIO_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_h-2013",
@@ -11070,7 +11805,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UIO_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UIO_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_i-2015",
@@ -11085,7 +11821,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UIO_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UIO_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uio_j-2017",
@@ -11100,7 +11837,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UIO_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UIO_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_uio-2017",
@@ -11115,7 +11853,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UIO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UIO.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fetib_j-2017",
@@ -11131,7 +11870,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FETIB_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FETIB_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_fetib-2017",
@@ -11147,7 +11887,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FETIB.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FETIB.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-fetib_d-2005",
@@ -11162,7 +11903,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FETIB_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FETIB_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l40fe_c-2003",
@@ -11177,7 +11919,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40FE_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40FE_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l40fe_b-2001",
@@ -11192,7 +11935,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40FE_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40FE_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sskl_e-2007",
@@ -11208,7 +11952,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSKL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSKL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sskl_f-2009",
@@ -11224,7 +11969,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSKL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSKL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sskl_g-2011",
@@ -11239,7 +11985,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSKL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSKL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sskl_h-2013",
@@ -11254,7 +12001,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSKL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSKL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sskl_i-2015",
@@ -11270,7 +12018,8 @@ const DATASETS = [
       "survival"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSKL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSKL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab07-1999",
@@ -11285,7 +12034,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB07.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB07.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab20-1999",
@@ -11300,7 +12050,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB20.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB20.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l20_c-2003",
@@ -11315,7 +12066,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L20_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L20_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l20_b-2001",
@@ -11330,7 +12082,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L20_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L20_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_i-2015",
@@ -11345,7 +12098,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PBCD_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PBCD_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_j-2017",
@@ -11361,7 +12115,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PBCD_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PBCD_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_pbcd-2017",
@@ -11376,7 +12131,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PBCD.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PBCD.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_l-2021",
@@ -11391,7 +12147,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PBCD_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PBCD_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pbcd_h-2013",
@@ -11406,7 +12163,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PBCD_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PBCD_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-mmrv_f-2009",
@@ -11420,7 +12178,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MMRV_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MMRV_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ssmmrv-2017",
@@ -11434,7 +12193,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSMMRV.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSMMRV.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab19-1999",
@@ -11448,7 +12208,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB19.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB19.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l19_c-2003",
@@ -11462,7 +12223,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L19_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L19_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l19_b-2001",
@@ -11476,7 +12238,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L19_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L19_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l19_2_b-2001",
@@ -11490,7 +12253,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L19_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L19_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssmel_c-2003",
@@ -11505,7 +12269,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSMEL_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSMEL_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab22-1999",
@@ -11520,7 +12285,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2005",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB22.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB22.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihgem_l-2021",
@@ -11535,7 +12301,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/IHGEM_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/IHGEM_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihg_d-2005",
@@ -11550,7 +12317,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/IHG_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/IHG_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihg_f-2009",
@@ -11565,7 +12333,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/IHG_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/IHG_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihg_e-2007",
@@ -11580,7 +12349,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/IHG_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/IHG_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_e-2007",
@@ -11595,7 +12365,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UHG_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UHG_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_d-2005",
@@ -11610,7 +12381,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UHG_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UHG_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06uhg_c-2003",
@@ -11625,7 +12397,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06UHG_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06UHG_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_f-2009",
@@ -11640,7 +12413,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UHG_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UHG_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_g-2011",
@@ -11655,7 +12429,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UHG_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UHG_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_h-2013",
@@ -11670,7 +12445,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UHG_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UHG_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_i-2015",
@@ -11685,7 +12461,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UHG_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UHG_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhg_j-2017",
@@ -11700,7 +12477,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UHG_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UHG_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_uhg-2017",
@@ -11716,7 +12494,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UHG.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UHG.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihgem_g-2011",
@@ -11731,7 +12510,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/IHGEM_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/IHGEM_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihgem_h-2013",
@@ -11746,7 +12526,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/IHGEM_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/IHGEM_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihgem_i-2015",
@@ -11761,7 +12542,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/IHGEM_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/IHGEM_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ihgem_j-2017",
@@ -11776,7 +12558,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/IHGEM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/IHGEM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhm_e-2007",
@@ -11792,7 +12575,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "September 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UHM_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UHM_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab06hm-1999",
@@ -11808,7 +12592,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "September 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB06HM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB06HM.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhm_d-2005",
@@ -11824,7 +12609,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UHM_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UHM_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06hm_c-2003",
@@ -11840,7 +12626,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06HM_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06HM_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06hm_b-2001",
@@ -11855,7 +12642,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06HM_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06HM_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhm_f-2009",
@@ -11871,7 +12659,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UHM_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UHM_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhm_g-2011",
@@ -11887,7 +12676,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UHM_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UHM_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-um_h-2013",
@@ -11903,7 +12693,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UM_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UM_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-um_i-2015",
@@ -11919,7 +12710,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UM_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UM_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-um_j-2017",
@@ -11935,7 +12727,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_um-2017",
@@ -11951,7 +12744,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uhms_g-2011",
@@ -11967,7 +12761,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UHMS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UHMS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ums_h-2013",
@@ -11983,7 +12778,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UMS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UMS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ums_i-2015",
@@ -11999,7 +12795,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UMS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UMS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l35_c-2003",
@@ -12014,7 +12811,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L35_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L35_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l35_b-2001",
@@ -12029,7 +12827,8 @@ const DATASETS = [
       "detection"
     ],
     "last_updated": "September 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L35_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L35_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-mma_g-2011",
@@ -12044,7 +12843,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MMA_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MMA_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-mma_h-2013",
@@ -12059,7 +12859,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MMA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MMA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06mh_c-2003",
@@ -12074,7 +12875,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06MH_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06MH_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssmhht_i-2015",
@@ -12089,7 +12891,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSMHHT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSMHHT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssol_a-1999",
@@ -12104,7 +12907,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSOL_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSOL_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssol_c-2003",
@@ -12119,7 +12923,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSOL_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSOL_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssol_b-2001",
@@ -12134,7 +12939,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSOL_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSOL_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssmump_c-2003",
@@ -12148,7 +12954,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSMUMP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSMUMP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssmump_b-2001",
@@ -12162,7 +12969,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSMUMP_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSMUMP_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssmump_a-1999",
@@ -12176,7 +12984,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSMUMP_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSMUMP_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssneon_i-2015",
@@ -12191,7 +13000,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSNEON_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSNEON_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssneon_j-2017",
@@ -12206,7 +13016,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSNEON_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSNEON_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uni_j-2017",
@@ -12221,7 +13032,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UNI_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UNI_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_uni-2017",
@@ -12237,7 +13049,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UNI.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UNI.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l28npb_c-2003",
@@ -12252,7 +13065,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28NPB_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28NPB_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspcb_b-2001",
@@ -12267,7 +13081,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSPCB_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSPCB_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pcbpol_d-2005",
@@ -12283,7 +13098,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PCBPOL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PCBPOL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pcbpol_e-2007",
@@ -12299,7 +13115,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PCBPOL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PCBPOL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pcbpol_f-2009",
@@ -12315,7 +13132,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PCBPOL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PCBPOL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pcbpol_g-2011",
@@ -12331,7 +13149,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PCBPOL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PCBPOL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pcbpol_i-2015",
@@ -12346,7 +13165,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PCBPOL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PCBPOL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pcbpol_h-2013",
@@ -12361,7 +13181,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PCBPOL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PCBPOL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssnoro_a-1999",
@@ -12376,7 +13197,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSNORO_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSNORO_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssnoro_c-2003",
@@ -12391,7 +13213,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSNORO_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSNORO_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssbnp_a-1999",
@@ -12408,7 +13231,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSBNP_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSBNP_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ogtt_e-2007",
@@ -12423,7 +13247,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OGTT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OGTT_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ogtt_d-2005",
@@ -12438,7 +13263,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OGTT_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OGTT_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ogtt_f-2009",
@@ -12454,7 +13280,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OGTT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OGTT_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ogtt_g-2011",
@@ -12469,7 +13296,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OGTT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OGTT_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ogtt_h-2013",
@@ -12484,7 +13312,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OGTT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OGTT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ogtt_i-2015",
@@ -12499,7 +13328,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OGTT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OGTT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-opd_d-2005",
@@ -12514,7 +13344,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPD_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPD_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l26opd_c-2003",
@@ -12529,7 +13360,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L26OPD_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L26OPD_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-opd_e-2007",
@@ -12544,7 +13376,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPD_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPD_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-opd_g-2011",
@@ -12559,7 +13392,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OPD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OPD_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-opd_i-2015",
@@ -12574,7 +13408,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OPD_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OPD_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-opd_j-2017",
@@ -12589,7 +13424,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OPD_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OPD_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_opd-2017",
@@ -12604,7 +13440,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OPD.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OPD.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucosmo_f-2009",
@@ -12619,7 +13456,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucosmo_g-2011",
@@ -12634,7 +13472,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pth_d-2005",
@@ -12649,7 +13488,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l04per_c-2003",
@@ -12664,7 +13504,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L04PER_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L04PER_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-wpin_d-2005",
@@ -12679,7 +13520,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/WPIN_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/WPIN_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_d-2005",
@@ -12694,7 +13536,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PERNT_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PERNT_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_e-2007",
@@ -12709,7 +13552,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PERNT_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PERNT_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_g-2011",
@@ -12724,7 +13568,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PERNT_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PERNT_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_f-2009",
@@ -12739,7 +13584,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PERNT_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PERNT_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_h-2013",
@@ -12754,7 +13600,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PERNT_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PERNT_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_i-2015",
@@ -12769,7 +13616,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PERNT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PERNT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernt_j-2017",
@@ -12784,7 +13632,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PERNT_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PERNT_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_pernt-2017",
@@ -12799,7 +13648,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PERNT.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PERNT.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernts_g-2011",
@@ -12814,7 +13664,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PERNTS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PERNTS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernts_h-2013",
@@ -12829,7 +13680,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PERNTS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PERNTS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pernts_i-2015",
@@ -12844,7 +13696,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PERNTS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PERNTS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssno3p_b-2001",
@@ -12859,7 +13712,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSNO3P_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSNO3P_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfas_i-2015",
@@ -12875,7 +13729,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PFAS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PFAS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspfsu_h-2013",
@@ -12891,7 +13746,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPFSU_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPFSU_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfas_j-2017",
@@ -12907,7 +13763,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PFAS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PFAS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_pfas-2017",
@@ -12922,7 +13779,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PFAS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PFAS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspfas_h-2013",
@@ -12937,7 +13795,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPFAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPFAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfas_h-2013",
@@ -12953,7 +13812,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspfas_j-2017",
@@ -12968,7 +13828,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSPFAS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSPFAS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspfac_h-2013",
@@ -12983,7 +13844,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPFAC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPFAC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspfc_a-1999",
@@ -12998,7 +13860,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSPFC_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSPFC_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ephpp_h-2013",
@@ -13014,7 +13877,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "September 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/EPHPP_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/EPHPP_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ephpp_i-2015",
@@ -13029,7 +13893,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/EPHPP_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/EPHPP_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ephpp_j-2017",
@@ -13044,7 +13909,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/EPHPP_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/EPHPP_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspt_i-2015",
@@ -13059,7 +13925,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSPT_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SSPT_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-carb_d-2005",
@@ -13074,7 +13941,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CARB_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CARB_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-carb_e-2007",
@@ -13089,7 +13957,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CARB_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CARB_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l26upp_c-2003",
@@ -13104,7 +13973,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L26UPP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L26UPP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-upp_d-2005",
@@ -13119,7 +13989,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UPP_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UPP_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l26pp_b-2001",
@@ -13134,7 +14005,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L26PP_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L26PP_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-upp_e-2007",
@@ -13149,7 +14021,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UPP_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UPP_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab26pp-1999",
@@ -13164,7 +14037,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB26PP.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB26PP.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pp_d-2005",
@@ -13180,7 +14054,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PP_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PP_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l24pp_c-2003",
@@ -13195,7 +14070,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24PP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24PP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pp_e-2007",
@@ -13210,7 +14086,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PP_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PP_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pp_f-2009",
@@ -13225,7 +14102,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PP_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PP_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pp_g-2011",
@@ -13240,7 +14118,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PP_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PP_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspst_b-2001",
@@ -13255,7 +14134,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSPST_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSPST_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l28ocp_c-2003",
@@ -13270,7 +14150,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28OCP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L28OCP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pstpol_d-2005",
@@ -13285,7 +14166,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PSTPOL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PSTPOL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pstpol_e-2007",
@@ -13300,7 +14182,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PSTPOL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PSTPOL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pstpol_f-2009",
@@ -13315,7 +14198,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PSTPOL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PSTPOL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pstpol_g-2011",
@@ -13330,7 +14214,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PSTPOL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PSTPOL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pstpol_h-2013",
@@ -13345,7 +14230,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PSTPOL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PSTPOL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pstpol_i-2015",
@@ -13361,7 +14247,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PSTPOL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PSTPOL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_d-2005",
@@ -13376,7 +14263,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PHTHTE_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PHTHTE_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_e-2007",
@@ -13391,7 +14279,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PHTHTE_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PHTHTE_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l24ph_c-2003",
@@ -13406,7 +14295,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24PH_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24PH_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_f-2009",
@@ -13422,7 +14312,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PHTHTE_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PHTHTE_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_g-2011",
@@ -13437,7 +14328,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PHTHTE_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PHTHTE_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_h-2013",
@@ -13453,7 +14345,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PHTHTE_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PHTHTE_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_i-2015",
@@ -13469,7 +14362,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PHTHTE_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PHTHTE_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phthte_j-2017",
@@ -13485,7 +14379,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PHTHTE_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PHTHTE_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssphte_h-2013",
@@ -13500,7 +14395,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPHTE_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSPHTE_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phpypa_b-2001",
@@ -13515,7 +14411,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PHPYPA_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PHPYPA_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phpypa-1999",
@@ -13531,7 +14428,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "January 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PHPYPA.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PHPYPA.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06phy_c-2003",
@@ -13546,7 +14444,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06PHY_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06PHY_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phyto_d-2005",
@@ -13561,7 +14460,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PHYTO_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PHYTO_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phyto_e-2007",
@@ -13576,7 +14476,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PHYTO_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PHYTO_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-phyto_f-2009",
@@ -13591,7 +14492,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PHYTO_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PHYTO_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_h-2013",
@@ -13606,7 +14508,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GLU_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GLU_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_i-2015",
@@ -13622,7 +14525,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "August 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_j-2017",
@@ -13638,7 +14542,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_glu-2017",
@@ -13654,7 +14559,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_GLU.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_GLU.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_l-2021",
@@ -13670,7 +14576,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GLU_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GLU_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_e-2007",
@@ -13685,7 +14592,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GLU_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GLU_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_d-2005",
@@ -13701,7 +14609,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "August 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GLU_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GLU_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_f-2009",
@@ -13716,7 +14625,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GLU_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GLU_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-glu_g-2011",
@@ -13731,7 +14641,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab10am-1999",
@@ -13746,7 +14657,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10AM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10AM.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l10am_c-2003",
@@ -13761,7 +14673,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10AM_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10AM_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l10am_b-2001",
@@ -13776,7 +14689,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10AM_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10AM_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sspoli_f-2009",
@@ -13791,7 +14705,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSPOLI_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSPOLI_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "phidu-pha-aust-age-distribution-males",
@@ -29030,7 +29945,8 @@ const DATASETS = [
     ],
     "tasks": [],
     "last_updated": "July 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L31PAH_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L31PAH_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_e-2007",
@@ -29042,7 +29958,8 @@ const DATASETS = [
     ],
     "tasks": [],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PAH_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PAH_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_d-2005",
@@ -29056,7 +29973,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAH_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAH_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_g-2011",
@@ -29070,7 +29988,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAH_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAH_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pahs_g-2011",
@@ -29084,7 +30003,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAHS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAHS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_f-2009",
@@ -29099,7 +30019,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAH_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAH_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-doxpol_d-2005",
@@ -29113,7 +30034,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DOXPOL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DOXPOL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-doxpol_e-2007",
@@ -29127,7 +30049,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DOXPOL_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DOXPOL_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-doxpol_f-2009",
@@ -29141,7 +30064,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2020",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DOXPOL_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DOXPOL_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-doxpol_g-2011",
@@ -29155,7 +30079,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DOXPOL_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DOXPOL_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-doxpol_i-2015",
@@ -29169,7 +30094,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DOXPOL_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DOXPOL_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-doxpol_h-2013",
@@ -29184,7 +30110,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DOXPOL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DOXPOL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_h-2013",
@@ -29198,7 +30125,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAH_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAH_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_i-2015",
@@ -29212,7 +30140,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAH_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAH_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pah_j-2017",
@@ -29227,7 +30156,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAH_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAH_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfc_e-2007",
@@ -29241,7 +30171,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PFC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PFC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfc_d-2005",
@@ -29255,7 +30186,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2012",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PFC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PFC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l24pfc_c-2003",
@@ -29269,7 +30201,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "December 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24PFC_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L24PFC_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfc_f-2009",
@@ -29284,7 +30217,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PFC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PFC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfc_pool-2001",
@@ -29298,7 +30232,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PFC_POOL.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PFC_POOL.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pooltf_f-2009",
@@ -29312,7 +30247,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/POOLTF_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/POOLTF_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pooltf_h-2013",
@@ -29326,7 +30262,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/POOLTF_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/POOLTF_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pooltf_e-2007",
@@ -29340,7 +30277,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/POOLTF_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/POOLTF_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pooltf_i-2015",
@@ -29354,7 +30292,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/POOLTF_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/POOLTF_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_e-2007",
@@ -29368,7 +30307,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UCPREG_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UCPREG_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uc-1999",
@@ -29382,7 +30322,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "January 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/UC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/UC.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_d-2005",
@@ -29396,7 +30337,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UCPREG_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/UCPREG_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uc_c-2003",
@@ -29410,7 +30352,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/UC_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/UC_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uc_b-2001",
@@ -29424,7 +30367,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/UC_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/UC_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_f-2009",
@@ -29438,7 +30382,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCPREG_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCPREG_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_g-2011",
@@ -29452,7 +30397,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCPREG_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCPREG_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_h-2013",
@@ -29466,7 +30412,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCPREG_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCPREG_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_i-2015",
@@ -29480,7 +30427,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCPREG_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCPREG_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-psa_d-2005",
@@ -29495,7 +30443,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PSA_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PSA_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l11psa_c-2003",
@@ -29510,7 +30459,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11PSA_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11PSA_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l11psa_b-2001",
@@ -29525,7 +30475,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11PSA_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11PSA_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-psa_f-2009",
@@ -29541,7 +30492,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PSA_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PSA_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l11p_2_b-2001",
@@ -29555,7 +30507,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11P_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11P_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uphopm_e-2007",
@@ -29569,7 +30522,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UPHOPM_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/UPHOPM_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uphopm_f-2009",
@@ -29583,7 +30537,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UPHOPM_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UPHOPM_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uphopm_g-2011",
@@ -29598,7 +30553,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UPHOPM_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UPHOPM_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uphopm_h-2013",
@@ -29613,7 +30569,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UPHOPM_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UPHOPM_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uphopm_i-2015",
@@ -29627,7 +30584,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UPHOPM_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UPHOPM_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uphopm_j-2017",
@@ -29641,7 +30599,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UPHOPM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UPHOPM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sssal_d-2005",
@@ -29655,7 +30614,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSSAL_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSSAL_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-folfms_l-2021",
@@ -29670,7 +30630,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FOLFMS_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FOLFMS_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sssnfl_h-2013",
@@ -29684,7 +30645,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSSNFL_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSSNFL_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sschl_a-1999",
@@ -29698,7 +30660,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCHL_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSCHL_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sschl_b-2001",
@@ -29712,7 +30675,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCHL_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCHL_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sschl_c-2003",
@@ -29726,7 +30690,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSCHL_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSCHL_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tst_h-2013",
@@ -29740,7 +30705,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TST_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TST_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tst_i-2015",
@@ -29754,7 +30720,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TST_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TST_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tst_l-2021",
@@ -29769,7 +30736,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TST_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TST_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_tst-2017",
@@ -29783,7 +30751,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TST.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TST.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstst_j-2017",
@@ -29798,7 +30767,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSTST_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSTST_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uas_i-2015",
@@ -29813,7 +30783,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UAS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UAS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uass_i-2015",
@@ -29827,7 +30798,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UASS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UASS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_e-2007",
@@ -29841,7 +30813,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2010",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_d-2005",
@@ -29856,7 +30829,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l40_c-2003",
@@ -29870,7 +30844,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_f-2009",
@@ -29885,7 +30860,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_g-2011",
@@ -29900,7 +30876,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "February 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_h-2013",
@@ -29916,7 +30893,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_i-2015",
@@ -29930,7 +30908,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_j-2017",
@@ -29945,7 +30924,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_biopro-2017",
@@ -29960,7 +30940,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BIOPRO.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BIOPRO.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-biopro_l-2021",
@@ -29975,7 +30956,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BIOPRO_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BIOPRO_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab18-1999",
@@ -29989,7 +30971,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB18.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB18.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l40_2_b-2001",
@@ -30004,7 +30987,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l36_c-2003",
@@ -30018,7 +31002,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L36_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L36_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l36_b-2001",
@@ -30032,7 +31017,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L36_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L36_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-telo_b-2001",
@@ -30047,7 +31033,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "February 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/TELO_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/TELO_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssterp_h-2013",
@@ -30061,7 +31048,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSTERP_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSTERP_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l40t4_b-2001",
@@ -30075,7 +31063,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40T4_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40T4_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-thyrod_e-2007",
@@ -30090,7 +31079,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "October 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-thyrod_f-2009",
@@ -30104,7 +31094,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/THYROD_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/THYROD_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-thyrod_g-2011",
@@ -30118,7 +31109,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/THYROD_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/THYROD_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssnh4thy-2001",
@@ -30132,7 +31124,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSNH4THY.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSNH4THY.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tgema_f-2009",
@@ -30146,7 +31139,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TGEMA_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TGEMA_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tgema_g-2011",
@@ -30160,7 +31154,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TGEMA_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TGEMA_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tgema_h-2013",
@@ -30174,7 +31169,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TGEMA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TGEMA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tsna_h-2013",
@@ -30188,7 +31184,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TSNA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TSNA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tst_g-2011",
@@ -30202,7 +31199,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TST_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TST_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l17_c-2003",
@@ -30216,7 +31214,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L17_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L17_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l17_b-2001",
@@ -30230,7 +31229,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L17_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L17_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstoxo_f-2009",
@@ -30244,7 +31244,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSTOXO_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SSTOXO_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstoxo_g-2011",
@@ -30259,7 +31260,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSTOXO_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SSTOXO_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstoxo_h-2013",
@@ -30273,7 +31275,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSTOXO_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SSTOXO_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfa_f-2009",
@@ -30287,7 +31290,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TFA_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TFA_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfa_a-1999",
@@ -30301,7 +31305,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TFA_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TFA_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfr_e-2007",
@@ -30315,7 +31320,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TFR_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TFR_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfr_d-2005",
@@ -30329,7 +31335,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TFR_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TFR_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfr_f-2009",
@@ -30343,7 +31350,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TFR_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TFR_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfr_i-2015",
@@ -30357,7 +31365,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TFR_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TFR_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfr_j-2017",
@@ -30372,7 +31381,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TFR_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TFR_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_tfr-2017",
@@ -30386,7 +31396,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TFR.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_TFR.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tfr_l-2021",
@@ -30400,7 +31411,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TFR_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TFR_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstfr_b-2001",
@@ -30414,7 +31426,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSTFR_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSTFR_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-sstfr_a-1999",
@@ -30428,7 +31441,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSTFR_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSTFR_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trich_h-2013",
@@ -30442,7 +31456,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TRICH_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TRICH_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-trich_i-2015",
@@ -30456,7 +31471,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TRICH_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TRICH_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-tb_g-2011",
@@ -30470,7 +31486,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TB_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TB_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucflow_f-2009",
@@ -30484,7 +31501,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2018",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCFLOW_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCFLOW_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucflow_g-2011",
@@ -30498,7 +31516,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2018",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCFLOW_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCFLOW_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucflow_h-2013",
@@ -30512,7 +31531,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2018",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCFLOW_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCFLOW_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucflow_i-2015",
@@ -30526,7 +31546,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCFLOW_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UCFLOW_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucflow_j-2017",
@@ -30540,7 +31561,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCFLOW_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCFLOW_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ucflow-2017",
@@ -30554,7 +31576,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UCFLOW.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UCFLOW.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_j-2017",
@@ -30568,7 +31591,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCPREG_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UCPREG_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ucpreg-2017",
@@ -30582,7 +31606,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UCPREG.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UCPREG.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssusg_e-2007",
@@ -30596,7 +31621,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSUSG_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSUSG_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssvari_c-2003",
@@ -30610,7 +31636,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSVARI_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSVARI_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssvari_b-2001",
@@ -30624,7 +31651,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSVARI_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSVARI_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vitaec_d-2005",
@@ -30638,7 +31666,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VITAEC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VITAEC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l45vit_c-2003",
@@ -30652,7 +31681,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L45VIT_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L45VIT_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06vit_b-2001",
@@ -30666,7 +31696,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06VIT_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L06VIT_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vitaec_j-2017",
@@ -30681,7 +31712,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VITAEC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VITAEC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vit_2_b-2001",
@@ -30695,7 +31727,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/VIT_2_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/VIT_2_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-b12_d-2005",
@@ -30709,7 +31742,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/B12_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/B12_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vitb12_g-2011",
@@ -30723,7 +31757,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VITB12_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VITB12_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vit_b6_d-2005",
@@ -30737,7 +31772,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIT_B6_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIT_B6_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l43_c-2003",
@@ -30751,7 +31787,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L43_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L43_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vit_b6_e-2007",
@@ -30766,7 +31803,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VIT_B6_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VIT_B6_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l06vit_c-2003",
@@ -30780,7 +31818,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06VIT_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06VIT_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vic_d-2005",
@@ -30794,7 +31833,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vic_j-2017",
@@ -30808,7 +31848,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VIC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VIC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vid_g-2011",
@@ -30822,7 +31863,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VID_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VID_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vid_h-2013",
@@ -30836,7 +31878,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VID_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VID_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vid_i-2015",
@@ -30850,7 +31893,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VID_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VID_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vid_j-2017",
@@ -30864,7 +31908,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VID_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VID_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vid_l-2021",
@@ -30878,7 +31923,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/VID_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/VID_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vna_h-2013",
@@ -30893,7 +31939,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VNA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VNA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vnas_h-2013",
@@ -30907,7 +31954,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VNAS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VNAS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvoc_g-2011",
@@ -30921,7 +31969,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UVOC_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UVOC_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvoc_h-2013",
@@ -30935,7 +31984,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UVOC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UVOC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvoc_i-2015",
@@ -30949,7 +31999,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UVOC_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UVOC_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvoc_j-2017",
@@ -30963,7 +32014,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UVOC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/UVOC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_uvoc-2017",
@@ -30977,7 +32029,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UVOC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UVOC.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvocs_g-2011",
@@ -30992,7 +32045,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UVOCS_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UVOCS_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvocs_h-2013",
@@ -31006,7 +32060,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UVOCS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UVOCS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-uvocs_i-2015",
@@ -31020,7 +32075,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UVOCS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/UVOCS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_uvoc2-2017",
@@ -31034,7 +32090,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UVOC2.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_UVOC2.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssuvoc_j-2017",
@@ -31048,7 +32105,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSUVOC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSUVOC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_ssuvcm-2017",
@@ -31062,7 +32120,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSUVCM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SSUVCM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssuvcm_j-2017",
@@ -31076,7 +32135,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "January 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSUVCM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSUVCM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_d-2005",
@@ -31090,7 +32150,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "February 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VOCWB_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VOCWB_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_e-2007",
@@ -31105,7 +32166,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VOCWB_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VOCWB_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab04-1999",
@@ -31119,7 +32181,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB04.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB04.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l04voc_b-2001",
@@ -31133,7 +32196,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "February 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L04VOC_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L04VOC_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l04voc_c-2003",
@@ -31149,7 +32213,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "February 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L04VOC_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L04VOC_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocmwb_e-2007",
@@ -31164,7 +32229,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VOCMWB_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VOCMWB_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-voc_d-2005",
@@ -31179,7 +32245,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VOC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VOC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-voc_e-2007",
@@ -31195,7 +32262,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VOC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VOC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab21-1999",
@@ -31211,7 +32279,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB21.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB21.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_g-2011",
@@ -31225,7 +32294,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VOCWB_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VOCWB_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_f-2009",
@@ -31239,7 +32309,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VOCWB_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VOCWB_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocmwb_f-2009",
@@ -31254,7 +32325,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VOCMWB_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VOCMWB_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocmwb_g-2011",
@@ -31268,7 +32340,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VOCMWB_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VOCMWB_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-voc_f-2009",
@@ -31282,7 +32355,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VOC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VOC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwbs_h-2013",
@@ -31296,7 +32370,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "December 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VOCWBS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VOCWBS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_h-2013",
@@ -31311,7 +32386,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "February 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VOCWB_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VOCWB_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_i-2015",
@@ -31325,7 +32401,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VOCWB_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VOCWB_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_j-2017",
@@ -31339,7 +32416,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VOCWB_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VOCWB_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwb_l-2021",
@@ -31353,7 +32431,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "April 2026",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/VOCWB_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/VOCWB_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vocwbs_i-2015",
@@ -31367,7 +32446,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VOCWBS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VOCWBS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_l-2021",
@@ -31381,7 +32461,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/AUQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/AUQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_d-2005",
@@ -31395,7 +32476,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ACQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ACQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_e-2007",
@@ -31409,7 +32491,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ACQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ACQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq-1999",
@@ -31423,7 +32506,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/ACQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/ACQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_c-2003",
@@ -31437,7 +32521,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ACQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ACQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_f-2009",
@@ -31451,7 +32536,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ACQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ACQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_g-2011",
@@ -31465,7 +32551,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ACQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ACQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_h-2013",
@@ -31479,7 +32566,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ACQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ACQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_i-2015",
@@ -31493,7 +32581,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ACQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ACQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_j-2017",
@@ -31507,7 +32596,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ACQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ACQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_acq-2017",
@@ -31521,7 +32611,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ACQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ACQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_l-2021",
@@ -31535,7 +32626,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ACQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ACQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-aqq_e-2007",
@@ -31549,7 +32641,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AQQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AQQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-aqq_f-2009",
@@ -31563,7 +32656,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AQQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AQQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_e-2007",
@@ -31577,7 +32671,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq-1999",
@@ -31591,7 +32686,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/ALQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/ALQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_b-2001",
@@ -31605,7 +32701,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/ALQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/ALQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_f-2009",
@@ -31620,7 +32717,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_g-2011",
@@ -31634,7 +32732,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_h-2013",
@@ -31648,7 +32747,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_i-2015",
@@ -31662,7 +32762,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_j-2017",
@@ -31677,7 +32778,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_alq-2017",
@@ -31692,7 +32794,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ALQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ALQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_l-2021",
@@ -31707,7 +32810,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ALQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ALQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alqy_f-2009",
@@ -31721,7 +32825,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALQY_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALQY_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-agq_d-2005",
@@ -31735,7 +32840,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AGQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AGQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_ana-1999",
@@ -31749,7 +32855,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RXQ_ANA.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RXQ_ANA.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqana_c-2003",
@@ -31763,7 +32870,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RXQANA_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RXQANA_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqana_b-2001",
@@ -31777,7 +32885,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RXQANA_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RXQANA_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-arq_f-2009",
@@ -31791,7 +32900,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ARQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ARQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq-1999",
@@ -31805,7 +32915,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_d-2005",
@@ -31819,7 +32930,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/AUQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_c-2003",
@@ -31833,7 +32945,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_b-2001",
@@ -31847,7 +32960,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_f-2009",
@@ -31861,7 +32975,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/AUQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_g-2011",
@@ -31875,7 +32990,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_i-2015",
@@ -31889,7 +33005,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_j-2017",
@@ -31903,7 +33020,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/AUQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_auq-2017",
@@ -31919,7 +33037,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_AUQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-baq-1999",
@@ -31933,7 +33052,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BAQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BAQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-baq_c-2003",
@@ -31947,7 +33067,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-baq_b-2001",
@@ -31961,7 +33082,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-baq_l-2021",
@@ -31976,7 +33098,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BAQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BAQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_d-2005",
@@ -31990,7 +33113,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_e-2007",
@@ -32004,7 +33128,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq-1999",
@@ -32018,7 +33143,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BPQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BPQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_c-2003",
@@ -32032,7 +33158,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BPQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BPQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_b-2001",
@@ -32046,7 +33173,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BPQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BPQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_f-2009",
@@ -32060,7 +33188,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_g-2011",
@@ -32074,7 +33203,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_h-2013",
@@ -32088,7 +33218,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_i-2015",
@@ -32102,7 +33233,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_j-2017",
@@ -32116,7 +33248,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_bpq-2017",
@@ -32130,7 +33263,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BPQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_BPQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bpq_l-2021",
@@ -32144,7 +33278,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BPQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BPQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bhq_d-2005",
@@ -32158,7 +33293,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BHQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BHQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bhq_e-2007",
@@ -32173,7 +33309,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BHQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BHQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-bhq_f-2009",
@@ -32187,7 +33324,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BHQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BHQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_d-2005",
@@ -32201,7 +33339,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CDQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CDQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_e-2007",
@@ -32215,7 +33354,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CDQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CDQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq-1999",
@@ -32229,7 +33369,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CDQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CDQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_c-2003",
@@ -32243,7 +33384,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CDQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CDQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_b-2001",
@@ -32257,7 +33399,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CDQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CDQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_f-2009",
@@ -32271,7 +33414,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CDQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CDQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_g-2011",
@@ -32285,7 +33429,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CDQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CDQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_h-2013",
@@ -32299,7 +33444,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CDQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CDQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_i-2015",
@@ -32313,7 +33459,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CDQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CDQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cdq_j-2017",
@@ -32327,7 +33474,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CDQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CDQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_cdq-2017",
@@ -32341,7 +33489,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CDQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CDQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cfq-1999",
@@ -32355,7 +33504,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CFQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CFQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cfq_b-2001",
@@ -32369,7 +33519,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CFQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CFQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cfq_g-2011",
@@ -32384,7 +33535,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cfq_h-2013",
@@ -32399,7 +33551,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbq_e-2007",
@@ -32413,7 +33566,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbq_f-2009",
@@ -32427,7 +33581,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbq_g-2011",
@@ -32441,7 +33596,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbq_h-2013",
@@ -32456,7 +33612,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbq_i-2015",
@@ -32470,7 +33627,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbq_j-2017",
@@ -32485,7 +33643,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbqpfa_e-2007",
@@ -32499,7 +33658,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBQPFA_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBQPFA_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbqpfa_f-2009",
@@ -32513,7 +33673,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBQPFA_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBQPFA_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbqpfa_j-2017",
@@ -32527,7 +33688,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBQPFA_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBQPFA_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_cbqpfa-2017",
@@ -32541,7 +33703,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CBQPFA.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CBQPFA.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbqpfc_e-2007",
@@ -32555,7 +33718,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBQPFC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBQPFC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbqpfc_j-2017",
@@ -32569,7 +33733,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBQPFC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBQPFC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_cbqpfc-2017",
@@ -32583,7 +33748,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CBQPFC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_CBQPFC.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ckq_g-2011",
@@ -32597,7 +33763,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CKQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CKQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_d-2005",
@@ -32611,7 +33778,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HSQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HSQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_e-2007",
@@ -32626,7 +33794,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HSQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HSQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_c-2003",
@@ -32640,7 +33809,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HSQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HSQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_b-2001",
@@ -32654,7 +33824,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HSQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HSQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_f-2009",
@@ -32668,7 +33839,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HSQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HSQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_g-2011",
@@ -32683,7 +33855,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HSQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HSQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_h-2013",
@@ -32697,7 +33870,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HSQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HSQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_i-2015",
@@ -32711,7 +33885,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_j-2017",
@@ -32725,7 +33900,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_hsq-2017",
@@ -32739,7 +33915,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HSQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq_l-2021",
@@ -32753,7 +33930,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_d-2005",
@@ -32767,7 +33945,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq-1999",
@@ -32781,7 +33960,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_c-2003",
@@ -32795,7 +33975,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_b-2001",
@@ -32809,7 +33990,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_f-2009",
@@ -32824,7 +34006,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_h-2013",
@@ -32839,7 +34022,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_g-2011",
@@ -32853,7 +34037,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_i-2015",
@@ -32867,7 +34052,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_j-2017",
@@ -32882,7 +34068,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_deq-2017",
@@ -32896,7 +34083,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-deq_l-2021",
@@ -32910,7 +34098,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_e-2007",
@@ -32925,7 +34114,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DIQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DIQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq-1999",
@@ -32939,7 +34129,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DIQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DIQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_d-2005",
@@ -32953,7 +34144,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2011",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DIQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DIQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_c-2003",
@@ -32968,7 +34160,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DIQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DIQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_b-2001",
@@ -32982,7 +34175,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DIQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DIQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_f-2009",
@@ -32996,7 +34190,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_g-2011",
@@ -33011,7 +34206,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DIQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DIQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_h-2013",
@@ -33025,7 +34221,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DIQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DIQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_i-2015",
@@ -33040,7 +34237,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_diq-2017",
@@ -33054,7 +34252,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DIQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DIQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_l-2021",
@@ -33068,7 +34267,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DIQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DIQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_d-2005",
@@ -33083,7 +34283,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DBQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DBQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq-1999",
@@ -33097,7 +34298,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DBQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DBQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_e-2007",
@@ -33111,7 +34313,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DBQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DBQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_c-2003",
@@ -33126,7 +34329,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DBQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DBQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_b-2001",
@@ -33140,7 +34344,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DBQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DBQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_f-2009",
@@ -33154,7 +34359,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DBQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DBQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_g-2011",
@@ -33168,7 +34374,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DBQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DBQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_h-2013",
@@ -33183,7 +34390,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DBQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DBQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_i-2015",
@@ -33197,7 +34405,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DBQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DBQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_j-2017",
@@ -33211,7 +34420,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DBQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DBQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dbq_l-2021",
@@ -33226,7 +34436,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DBQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DBQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dlq_h-2013",
@@ -33240,7 +34451,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DLQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DLQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dlq_i-2015",
@@ -33254,7 +34466,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DLQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DLQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dlq_j-2017",
@@ -33268,7 +34481,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DLQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DLQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_e-2007",
@@ -33282,7 +34496,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DUQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DUQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq-1999",
@@ -33296,7 +34511,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DUQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DUQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_d-2005",
@@ -33310,7 +34526,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DUQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DUQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_c-2003",
@@ -33324,7 +34541,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DUQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DUQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_b-2001",
@@ -33339,7 +34557,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DUQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DUQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_g-2011",
@@ -33353,7 +34572,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DUQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DUQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_h-2013",
@@ -33367,7 +34587,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DUQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DUQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_i-2015",
@@ -33381,7 +34602,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DUQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DUQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_j-2017",
@@ -33395,7 +34617,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DUQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DUQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_e-2007",
@@ -33409,7 +34632,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ECQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ECQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq-1999",
@@ -33424,7 +34648,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/ECQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/ECQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_d-2005",
@@ -33439,7 +34664,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ECQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ECQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_c-2003",
@@ -33451,7 +34677,8 @@ const DATASETS = [
     ],
     "tasks": [],
     "last_updated": "October 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ECQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ECQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_b-2001",
@@ -33465,7 +34692,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/ECQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/ECQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_f-2009",
@@ -33479,7 +34707,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ECQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ECQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_g-2011",
@@ -33494,7 +34723,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ECQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ECQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_h-2013",
@@ -33508,7 +34738,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ECQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ECQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_i-2015",
@@ -33522,7 +34753,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ECQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ECQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_j-2017",
@@ -33536,7 +34768,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ECQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ECQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_ecq-2017",
@@ -33551,7 +34784,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ECQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_ECQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ecq_l-2021",
@@ -33565,7 +34799,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ECQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/ECQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq-1999",
@@ -33579,7 +34814,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/FSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/FSQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_e-2007",
@@ -33593,7 +34829,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FSQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FSQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_d-2005",
@@ -33607,7 +34844,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FSQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FSQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_c-2003",
@@ -33621,7 +34859,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FSQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/FSQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_b-2001",
@@ -33635,7 +34874,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/FSQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/FSQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_f-2009",
@@ -33649,7 +34889,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FSQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FSQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_g-2011",
@@ -33663,7 +34904,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FSQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FSQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_h-2013",
@@ -33677,7 +34919,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FSQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FSQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_j-2017",
@@ -33691,7 +34934,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FSQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FSQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_fsq-2017",
@@ -33705,7 +34949,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_FSQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_l-2021",
@@ -33719,7 +34964,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FSQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FSQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fnq_l-2021",
@@ -33733,7 +34979,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FNQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FNQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_e-2007",
@@ -33747,7 +34994,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HIQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HIQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq-1999",
@@ -33761,7 +35009,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HIQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HIQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_d-2005",
@@ -33775,7 +35024,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HIQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HIQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_c-2003",
@@ -33789,7 +35039,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HIQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HIQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_b-2001",
@@ -33803,7 +35054,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HIQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HIQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_f-2009",
@@ -33817,7 +35069,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HIQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HIQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_g-2011",
@@ -33831,7 +35084,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HIQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HIQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_h-2013",
@@ -33845,7 +35099,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HIQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HIQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_i-2015",
@@ -33859,7 +35114,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HIQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HIQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_hiq-2017",
@@ -33873,7 +35129,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HIQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HIQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-heq_h-2013",
@@ -33887,7 +35144,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HEQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-heq_i-2015",
@@ -33901,7 +35159,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HEQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_heq-2017",
@@ -33915,7 +35174,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HEQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-heq_l-2021",
@@ -33929,7 +35189,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HEQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hcq_e-2007",
@@ -33943,7 +35204,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HCQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HCQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hcq_d-2005",
@@ -33957,7 +35219,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HCQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HCQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hcq_c-2003",
@@ -33971,7 +35234,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HCQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HCQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hcq_b-2001",
@@ -33985,7 +35249,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "April 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HCQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HCQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hcq_f-2009",
@@ -33999,7 +35264,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HCQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HCQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hcq_g-2011",
@@ -34013,7 +35279,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HCQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HCQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_e-2007",
@@ -34027,7 +35294,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HUQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HUQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq-1999",
@@ -34041,7 +35309,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HUQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HUQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_d-2005",
@@ -34055,7 +35324,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HUQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HUQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_c-2003",
@@ -34070,7 +35340,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HUQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HUQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_b-2001",
@@ -34084,7 +35355,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HUQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HUQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_f-2009",
@@ -34098,7 +35370,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HUQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HUQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_g-2011",
@@ -34112,7 +35385,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HUQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HUQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_h-2013",
@@ -34126,7 +35400,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HUQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HUQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_i-2015",
@@ -34141,7 +35416,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HUQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HUQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_j-2017",
@@ -34155,7 +35431,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HUQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HUQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_huq-2017",
@@ -34170,7 +35447,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HUQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HUQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-huq_l-2021",
@@ -34184,7 +35462,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HUQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HUQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_e-2007",
@@ -34198,7 +35477,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HOQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HOQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq-1999",
@@ -34213,7 +35493,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HOQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HOQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_d-2005",
@@ -34227,7 +35508,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HOQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HOQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_c-2003",
@@ -34241,7 +35523,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2007",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HOQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/HOQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_b-2001",
@@ -34255,7 +35538,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HOQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/HOQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_f-2009",
@@ -34270,7 +35554,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HOQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HOQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_g-2011",
@@ -34284,7 +35569,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HOQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HOQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_h-2013",
@@ -34298,7 +35584,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HOQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HOQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_i-2015",
@@ -34312,7 +35599,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HOQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HOQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_j-2017",
@@ -34326,7 +35614,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HOQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HOQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hoq_l-2021",
@@ -34340,7 +35629,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HOQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HOQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_e-2007",
@@ -34354,7 +35644,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/IMQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/IMQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq-1999",
@@ -34368,7 +35659,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/IMQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/IMQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_d-2005",
@@ -34382,7 +35674,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/IMQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/IMQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_c-2003",
@@ -34396,7 +35689,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/IMQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/IMQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_b-2001",
@@ -34410,7 +35704,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/IMQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/IMQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_f-2009",
@@ -34424,7 +35719,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/IMQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/IMQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_g-2011",
@@ -34438,7 +35734,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/IMQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/IMQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_h-2013",
@@ -34452,7 +35749,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/IMQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/IMQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_j-2017",
@@ -34466,7 +35764,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/IMQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/IMQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_imq-2017",
@@ -34480,7 +35779,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_IMQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_IMQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_l-2021",
@@ -34494,7 +35794,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/IMQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/IMQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_e-2007",
@@ -34509,7 +35810,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/INQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/INQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_f-2009",
@@ -34524,7 +35826,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/INQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/INQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_h-2013",
@@ -34538,7 +35841,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_i-2015",
@@ -34552,7 +35856,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_j-2017",
@@ -34567,7 +35872,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_inq-2017",
@@ -34582,7 +35888,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_INQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_INQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_l-2021",
@@ -34597,7 +35904,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/INQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/INQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq-1999",
@@ -34611,7 +35919,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/KIQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/KIQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_e-2007",
@@ -34625,7 +35934,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/KIQ_U_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/KIQ_U_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_d-2005",
@@ -34639,7 +35949,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/KIQ_U_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/KIQ_U_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_c-2003",
@@ -34653,7 +35964,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/KIQ_U_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/KIQ_U_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_b-2001",
@@ -34667,7 +35979,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/KIQ_U_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/KIQ_U_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_f-2009",
@@ -34681,7 +35994,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/KIQ_U_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/KIQ_U_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_g-2011",
@@ -34695,7 +36009,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/KIQ_U_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/KIQ_U_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_h-2013",
@@ -34709,7 +36024,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/KIQ_U_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/KIQ_U_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_i-2015",
@@ -34723,7 +36039,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/KIQ_U_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/KIQ_U_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_j-2017",
@@ -34737,7 +36054,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/KIQ_U_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/KIQ_U_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_kiq_u-2017",
@@ -34751,7 +36069,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_KIQ_U.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_KIQ_U.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_u_l-2021",
@@ -34765,7 +36084,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/KIQ_U_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/KIQ_U_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_e-2007",
@@ -34779,7 +36099,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq-1999",
@@ -34793,7 +36114,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MCQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MCQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_d-2005",
@@ -34807,7 +36129,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/MCQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/MCQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_c-2003",
@@ -34821,7 +36144,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/MCQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/MCQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_b-2001",
@@ -34836,7 +36160,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MCQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MCQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_f-2009",
@@ -34850,7 +36175,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_g-2011",
@@ -34864,7 +36190,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MCQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MCQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_h-2013",
@@ -34878,7 +36205,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MCQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MCQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_i-2015",
@@ -34892,7 +36220,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/MCQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/MCQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_j-2017",
@@ -34906,7 +36235,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/MCQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/MCQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_mcq-2017",
@@ -34920,7 +36250,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_MCQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_MCQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mcq_l-2021",
@@ -34934,7 +36265,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/MCQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/MCQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqmdep-1999",
@@ -34948,7 +36280,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQMDEP.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQMDEP.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqdep_b-2001",
@@ -34962,7 +36295,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQDEP_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQDEP_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_d-2005",
@@ -34977,7 +36311,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DPQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DPQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_e-2007",
@@ -34992,7 +36327,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DPQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DPQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_f-2009",
@@ -35007,7 +36343,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DPQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DPQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_g-2011",
@@ -35022,7 +36359,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DPQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DPQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_h-2013",
@@ -35037,7 +36375,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DPQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DPQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_i-2015",
@@ -35052,7 +36391,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DPQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DPQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_j-2017",
@@ -35066,7 +36406,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DPQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DPQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_dpq-2017",
@@ -35081,7 +36422,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DPQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DPQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-dpq_l-2021",
@@ -35096,7 +36438,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DPQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DPQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqgad-1999",
@@ -35110,7 +36453,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQGAD.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQGAD.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqgad_c-2003",
@@ -35124,7 +36468,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQGAD_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQGAD_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqgad_b-2001",
@@ -35138,7 +36483,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQGAD_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQGAD_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqpan_c-2003",
@@ -35152,7 +36498,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQPAN_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQPAN_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqpan_b-2001",
@@ -35166,7 +36513,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQPAN_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CIQPAN_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mpq_b-2001",
@@ -35181,7 +36529,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MPQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MPQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq-1999",
@@ -35195,7 +36544,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OCQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OCQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_c-2003",
@@ -35209,7 +36559,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OCQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OCQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_b-2001",
@@ -35224,7 +36575,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OCQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OCQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_d-2005",
@@ -35239,7 +36591,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OCQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OCQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_e-2007",
@@ -35255,7 +36608,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "August 2013",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OCQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OCQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_f-2009",
@@ -35269,7 +36623,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "August 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OCQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OCQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_g-2011",
@@ -35284,7 +36639,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "September 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OCQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OCQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_h-2013",
@@ -35298,7 +36654,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2019",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OCQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OCQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_i-2015",
@@ -35313,7 +36670,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OCQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OCQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_j-2017",
@@ -35328,7 +36686,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OCQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OCQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_ocq-2017",
@@ -35342,7 +36701,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OCQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OCQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ocq_l-2021",
@@ -35357,7 +36717,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/OCQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/OCQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_e-2007",
@@ -35371,7 +36732,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OHQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OHQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq-1999",
@@ -35386,7 +36748,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OHQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_d-2005",
@@ -35400,7 +36763,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OHQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OHQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_c-2003",
@@ -35414,7 +36778,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OHQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_b-2001",
@@ -35428,7 +36793,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OHQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_f-2009",
@@ -35442,7 +36808,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_g-2011",
@@ -35456,7 +36823,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_h-2013",
@@ -35471,7 +36839,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_i-2015",
@@ -35485,7 +36854,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OHQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/OHQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_j-2017",
@@ -35499,7 +36869,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OHQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OHQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_ohq-2017",
@@ -35513,7 +36884,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OHQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OHQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ohq_l-2021",
@@ -35525,7 +36897,8 @@ const DATASETS = [
     ],
     "tasks": [],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/OHQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/OHQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_e-2007",
@@ -35540,7 +36913,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OSQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OSQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq-1999",
@@ -35555,7 +36929,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/OSQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_d-2005",
@@ -35569,7 +36944,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OSQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OSQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_c-2003",
@@ -35584,7 +36960,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OSQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/OSQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_b-2001",
@@ -35598,7 +36975,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OSQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/OSQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_f-2009",
@@ -35612,7 +36990,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OSQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OSQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_h-2013",
@@ -35626,7 +37005,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OSQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OSQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-osq_j-2017",
@@ -35640,7 +37020,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OSQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OSQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_osq-2017",
@@ -35654,7 +37035,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_OSQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_e-2007",
@@ -35668,7 +37050,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PUQMEC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PUQMEC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puq-1999",
@@ -35682,7 +37065,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PUQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PUQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_d-2005",
@@ -35696,7 +37080,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PUQMEC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PUQMEC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puq_c-2003",
@@ -35710,7 +37095,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PUQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PUQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puq_b-2001",
@@ -35725,7 +37111,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PUQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PUQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_f-2009",
@@ -35739,7 +37126,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PUQMEC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PUQMEC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_g-2011",
@@ -35753,7 +37141,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PUQMEC_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PUQMEC_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_h-2013",
@@ -35767,7 +37156,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PUQMEC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PUQMEC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_i-2015",
@@ -35781,7 +37171,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PUQMEC_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PUQMEC_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_j-2017",
@@ -35795,7 +37186,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PUQMEC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PUQMEC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_puqmec-2017",
@@ -35809,7 +37201,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PUQMEC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PUQMEC.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-puqmec_l-2021",
@@ -35823,7 +37216,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PUQMEC_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PUQMEC_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_e-2007",
@@ -35838,7 +37232,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PAQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PAQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq-1999",
@@ -35854,7 +37249,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "September 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PAQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PAQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_d-2005",
@@ -35868,7 +37264,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_c-2003",
@@ -35883,7 +37280,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_b-2001",
@@ -35898,7 +37296,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PAQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PAQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_f-2009",
@@ -35913,7 +37312,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_g-2011",
@@ -35928,7 +37328,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_h-2013",
@@ -35943,7 +37344,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "March 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_i-2015",
@@ -35958,7 +37360,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_j-2017",
@@ -35973,7 +37376,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_paq-2017",
@@ -35988,7 +37392,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PAQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PAQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paq_l-2021",
@@ -36003,7 +37408,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PAQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PAQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paqiaf-1999",
@@ -36018,7 +37424,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PAQIAF.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PAQIAF.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paqiaf_d-2005",
@@ -36034,7 +37441,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAQIAF_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAQIAF_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paqiaf_c-2003",
@@ -36049,7 +37457,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAQIAF_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAQIAF_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paqiaf_b-2001",
@@ -36063,7 +37472,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PAQIAF_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PAQIAF_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paqy_j-2017",
@@ -36078,7 +37488,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQY_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQY_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_paqy-2017",
@@ -36092,7 +37503,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PAQY.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PAQY.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-paqy_l-2021",
@@ -36107,7 +37519,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PAQY_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PAQY_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_e-2007",
@@ -36121,7 +37534,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PFQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PFQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq-1999",
@@ -36135,7 +37549,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PFQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/PFQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_d-2005",
@@ -36149,7 +37564,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PFQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PFQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_c-2003",
@@ -36163,7 +37579,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PFQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PFQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_b-2001",
@@ -36177,7 +37594,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PFQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/PFQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_f-2009",
@@ -36191,7 +37609,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PFQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PFQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_g-2011",
@@ -36205,7 +37624,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_h-2013",
@@ -36219,7 +37639,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_j-2017",
@@ -36233,7 +37654,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PFQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PFQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_e-2007",
@@ -36248,7 +37670,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RXQ_RX_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RXQ_RX_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_d-2005",
@@ -36262,7 +37685,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RXQ_RX_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RXQ_RX_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_c-2003",
@@ -36277,7 +37701,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "June 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RXQ_RX_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RXQ_RX_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_b-2001",
@@ -36291,7 +37716,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "June 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RXQ_RX_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RXQ_RX_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_f-2009",
@@ -36305,7 +37731,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RXQ_RX_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RXQ_RX_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_g-2011",
@@ -36319,7 +37746,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RXQ_RX_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RXQ_RX_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_h-2013",
@@ -36333,7 +37761,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RXQ_RX_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RXQ_RX_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_i-2015",
@@ -36347,7 +37776,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RXQ_RX_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RXQ_RX_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_j-2017",
@@ -36362,7 +37792,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RXQ_RX_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RXQ_RX_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_rxq_rx-2017",
@@ -36376,7 +37807,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_RXQ_RX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_RXQ_RX.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx_l-2021",
@@ -36391,7 +37823,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/RXQ_RX_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/RXQ_RX_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqasa_g-2011",
@@ -36405,7 +37838,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RXQASA_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RXQASA_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pahs_i-2015",
@@ -36419,7 +37853,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAHS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAHS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pfc_g-2011",
@@ -36433,7 +37868,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "October 2014",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFC_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFC_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pooltf_g-2011",
@@ -36447,7 +37883,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/POOLTF_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/POOLTF_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-pooltf_d-2005",
@@ -36461,7 +37898,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/POOLTF_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/POOLTF_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-psa_e-2007",
@@ -36476,7 +37914,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PSA_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PSA_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-l40_b-2001",
@@ -36491,7 +37930,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-telo_a-1999",
@@ -36506,7 +37946,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "February 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TELO_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TELO_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-lab18t4-1999",
@@ -36521,7 +37962,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "October 2023",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB18T4.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB18T4.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ucpreg_l-2021",
@@ -36535,7 +37977,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/UCPREG_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/UCPREG_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssvari_a-1999",
@@ -36549,7 +37992,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSVARI_A.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSVARI_A.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vitb12_h-2013",
@@ -36563,7 +38007,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "August 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VITB12_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VITB12_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-vit_b6_f-2009",
@@ -36577,7 +38022,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VIT_B6_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VIT_B6_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-ssuvoc_d-2005",
@@ -36592,7 +38038,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "April 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSUVOC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSUVOC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-laboratory-p_vocwb-2017",
@@ -36606,7 +38053,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_VOCWB.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_VOCWB.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-acq_b-2001",
@@ -36620,7 +38068,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/ACQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/ACQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_d-2005",
@@ -36634,7 +38083,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-alq_c-2003",
@@ -36649,7 +38099,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ALQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ALQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-auq_e-2007",
@@ -36663,7 +38114,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/AUQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-cbqpfc_f-2009",
@@ -36677,7 +38129,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBQPFC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBQPFC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ckq_h-2013",
@@ -36691,7 +38144,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CKQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CKQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hsq-1999",
@@ -36705,7 +38159,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/HSQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-diq_j-2017",
@@ -36721,7 +38176,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_dbq-2017",
@@ -36735,7 +38191,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DBQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DBQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-duq_f-2009",
@@ -36749,7 +38206,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DUQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DUQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-fsq_i-2015",
@@ -36763,7 +38221,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2022",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FSQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FSQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_j-2017",
@@ -36777,7 +38236,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HIQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HIQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-hiq_l-2021",
@@ -36791,7 +38251,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HIQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HIQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-heq_j-2017",
@@ -36805,7 +38266,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HEQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-imq_i-2015",
@@ -36819,7 +38281,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/IMQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/IMQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-inq_g-2011",
@@ -36833,7 +38296,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/INQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/INQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqdep_c-2003",
@@ -36847,7 +38311,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQDEP_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/CIQDEP_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ciqpanic-1999",
@@ -36861,7 +38326,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2006",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQPANIC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CIQPANIC.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mpq-1999",
@@ -36875,7 +38341,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MPQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MPQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-mpq_c-2003",
@@ -36889,7 +38356,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/MPQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/MPQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-pfq_i-2015",
@@ -36903,7 +38371,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PFQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PFQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_rx-1999",
@@ -36918,7 +38387,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "June 2009",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RXQ_RX.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RXQ_RX.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxq_drug-1988",
@@ -36932,7 +38402,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2021",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1988/DataFiles/RXQ_DRUG.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1988/DataFiles/RXQ_DRUG.htm",
+    "linkage": "Reference drug code dictionary shared across all NHANES cycles -- not tied to a single survey year. Referenced by each cycle's RXQ_RX (prescription medication use) file via drug code, not SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqasa_h-2013",
@@ -36946,7 +38417,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RXQASA_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RXQASA_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqasa_i-2015",
@@ -36960,7 +38432,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RXQASA_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RXQASA_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqasa_j-2017",
@@ -36974,7 +38447,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RXQASA_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RXQASA_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rxqasa_l-2021",
@@ -36988,7 +38462,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/RXQASA_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/RXQASA_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_p_e-2007",
@@ -37002,7 +38477,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/KIQ_P_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/KIQ_P_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_p_d-2005",
@@ -37016,7 +38492,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/KIQ_P_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/KIQ_P_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_p_c-2003",
@@ -37030,7 +38507,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/KIQ_P_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/KIQ_P_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-kiq_p_b-2001",
@@ -37044,7 +38522,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/KIQ_P_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/KIQ_P_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-psq_d-2005",
@@ -37058,7 +38537,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PSQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PSQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-psq_c-2003",
@@ -37073,7 +38553,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PSQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PSQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_e-2007",
@@ -37087,7 +38568,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RHQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RHQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq-1999",
@@ -37102,7 +38584,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "September 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RHQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RHQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_d-2005",
@@ -37119,7 +38602,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RHQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RHQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_c-2003",
@@ -37134,7 +38618,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RHQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RHQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_b-2001",
@@ -37148,7 +38633,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RHQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RHQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_f-2009",
@@ -37163,7 +38649,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "December 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RHQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RHQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_g-2011",
@@ -37177,7 +38664,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RHQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RHQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_h-2013",
@@ -37191,7 +38679,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2017",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RHQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RHQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_i-2015",
@@ -37206,7 +38695,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RHQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RHQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_j-2017",
@@ -37221,7 +38711,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RHQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RHQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_rhq-2017",
@@ -37236,7 +38727,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_RHQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_RHQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rhq_l-2021",
@@ -37250,7 +38742,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/RHQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/RHQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq_e-2007",
@@ -37264,7 +38757,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq-1999",
@@ -37278,7 +38772,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RDQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/RDQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq_d-2005",
@@ -37293,7 +38788,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RDQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RDQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq_c-2003",
@@ -37308,7 +38804,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RDQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RDQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq_b-2001",
@@ -37322,7 +38819,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RDQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/RDQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq_f-2009",
@@ -37336,7 +38834,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RDQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RDQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_e-2007",
@@ -37351,7 +38850,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SXQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SXQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq-1999",
@@ -37366,7 +38866,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SXQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SXQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_d-2005",
@@ -37381,7 +38882,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SXQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SXQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_c-2003",
@@ -37396,7 +38898,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SXQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SXQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_b-2001",
@@ -37411,7 +38914,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SXQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SXQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_f-2009",
@@ -37425,7 +38929,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SXQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SXQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_g-2011",
@@ -37441,7 +38946,8 @@ const DATASETS = [
       "clustering"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SXQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SXQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_h-2013",
@@ -37456,7 +38962,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SXQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SXQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-sxq_i-2015",
@@ -37470,7 +38977,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SXQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SXQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_e-2007",
@@ -37484,7 +38992,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SLQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SLQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_d-2005",
@@ -37498,7 +39007,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SLQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SLQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_f-2009",
@@ -37512,7 +39022,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SLQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SLQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_g-2011",
@@ -37526,7 +39037,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SLQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SLQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_h-2013",
@@ -37540,7 +39052,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SLQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SLQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_i-2015",
@@ -37554,7 +39067,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SLQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SLQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_j-2017",
@@ -37569,7 +39083,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SLQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SLQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_slq-2017",
@@ -37583,7 +39098,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SLQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SLQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-slq_l-2021",
@@ -37598,7 +39114,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SLQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SLQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqmec_c-2003",
@@ -37612,7 +39129,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQMEC_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQMEC_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqmec_b-2001",
@@ -37626,7 +39144,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SMQMEC_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SMQMEC_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_e-2007",
@@ -37640,7 +39159,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_d-2005",
@@ -37655,7 +39175,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "June 2008",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_f-2009",
@@ -37670,7 +39191,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "May 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_g-2011",
@@ -37684,7 +39206,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "May 2015",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_h-2013",
@@ -37698,7 +39221,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "September 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_i-2015",
@@ -37712,7 +39236,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_j-2017",
@@ -37726,7 +39251,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_smq-2017",
@@ -37740,7 +39266,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_l-2021",
@@ -37754,7 +39281,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SMQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SMQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq-1999",
@@ -37768,7 +39296,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2003",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SMQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SMQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_c-2003",
@@ -37783,7 +39312,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smq_b-2001",
@@ -37799,7 +39329,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SMQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SMQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_e-2007",
@@ -37814,7 +39345,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQFAM_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQFAM_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_d-2005",
@@ -37828,7 +39360,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQFAM_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQFAM_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_c-2003",
@@ -37842,7 +39375,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQFAM_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQFAM_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam-1999",
@@ -37856,7 +39390,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2004",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SMQFAM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SMQFAM.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_f-2009",
@@ -37871,7 +39406,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQFAM_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQFAM_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_g-2011",
@@ -37885,7 +39421,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQFAM_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQFAM_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_h-2013",
@@ -37899,7 +39436,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQFAM_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQFAM_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_i-2015",
@@ -37913,7 +39451,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQFAM_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQFAM_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_j-2017",
@@ -37928,7 +39467,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQFAM_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQFAM_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_smqfam-2017",
@@ -37942,7 +39482,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQFAM.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQFAM.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_l-2021",
@@ -37956,7 +39497,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SMQFAM_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SMQFAM_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_e-2007",
@@ -37970,7 +39512,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQRTU_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQRTU_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_d-2005",
@@ -37984,7 +39527,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQRTU_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQRTU_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_f-2009",
@@ -37998,7 +39542,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQRTU_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQRTU_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_g-2011",
@@ -38012,7 +39557,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQRTU_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQRTU_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_h-2013",
@@ -38026,7 +39572,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "February 2018",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQRTU_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQRTU_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_i-2015",
@@ -38041,7 +39588,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQRTU_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQRTU_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_j-2017",
@@ -38055,7 +39603,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQRTU_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQRTU_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_smqrtu-2017",
@@ -38069,7 +39618,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQRTU.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQRTU.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqrtu_l-2021",
@@ -38083,7 +39633,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SMQRTU_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/SMQRTU_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqshs_h-2013",
@@ -38097,7 +39648,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQSHS_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQSHS_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqshs_i-2015",
@@ -38111,7 +39663,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQSHS_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQSHS_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqshs_j-2017",
@@ -38125,7 +39678,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQSHS_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQSHS_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_smqshs-2017",
@@ -38139,7 +39693,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQSHS.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_SMQSHS.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ssq_e-2007",
@@ -38153,7 +39708,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SSQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ssq-1999",
@@ -38167,7 +39723,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SSQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ssq_d-2005",
@@ -38181,7 +39738,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SSQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ssq_c-2003",
@@ -38195,7 +39753,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-ssq_b-2001",
@@ -38209,7 +39768,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-csq_g-2011",
@@ -38224,7 +39784,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CSQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CSQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-csq_h-2013",
@@ -38238,7 +39799,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "March 2016",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CSQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CSQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-tbq-1999",
@@ -38252,7 +39814,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TBQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/TBQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-tbq_g-2011",
@@ -38266,7 +39829,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TBQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/TBQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-viq_e-2007",
@@ -38280,7 +39844,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VIQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/VIQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-viq-1999",
@@ -38294,7 +39859,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/VIQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/VIQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-viq_d-2005",
@@ -38308,7 +39874,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-viq_c-2003",
@@ -38322,7 +39889,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VIQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VIQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-viq_b-2001",
@@ -38336,7 +39904,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/VIQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/VIQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-vtq_h-2013",
@@ -38350,7 +39919,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VTQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VTQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-vtq_g-2011",
@@ -38364,7 +39934,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VTQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VTQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-vtq_f-2009",
@@ -38378,7 +39949,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VTQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/VTQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-vtq_i-2015",
@@ -38392,7 +39964,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VTQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/VTQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-vtq_j-2017",
@@ -38407,7 +39980,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VTQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/VTQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_vtq-2017",
@@ -38421,7 +39995,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_VTQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_VTQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-vtq_l-2021",
@@ -38435,7 +40010,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "December 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/VTQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/VTQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_e-2007",
@@ -38450,7 +40026,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/WHQ_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/WHQ_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq-1999",
@@ -38466,7 +40043,8 @@ const DATASETS = [
       "prediction"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/WHQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/WHQ.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_b-2001",
@@ -38481,7 +40059,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/WHQ_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/WHQ_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_d-2005",
@@ -38496,7 +40075,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/WHQ_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/WHQ_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_c-2003",
@@ -38510,7 +40090,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/WHQ_C.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/WHQ_C.htm",
+    "linkage": "Links to DEMO_C (2003 demographics) and other NHANES 2003 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_f-2009",
@@ -38525,7 +40106,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/WHQ_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/WHQ_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_g-2011",
@@ -38540,7 +40122,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/WHQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/WHQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_h-2013",
@@ -38555,7 +40138,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/WHQ_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/WHQ_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_i-2015",
@@ -38570,7 +40154,8 @@ const DATASETS = [
       "regression"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/WHQ_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/WHQ_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_j-2017",
@@ -38584,7 +40169,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/WHQ_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/WHQ_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_whq-2017",
@@ -38599,7 +40185,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_WHQ.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_WHQ.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whq_l-2021",
@@ -38613,7 +40200,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/WHQ_L.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/WHQ_L.htm",
+    "linkage": "Links to DEMO_L (2021 demographics) and other NHANES 2021 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_e-2007",
@@ -38627,7 +40215,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/WHQMEC_E.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/WHQMEC_E.htm",
+    "linkage": "Links to DEMO_E (2007 demographics) and other NHANES 2007 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_d-2005",
@@ -38641,7 +40230,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/WHQMEC_D.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/WHQMEC_D.htm",
+    "linkage": "Links to DEMO_D (2005 demographics) and other NHANES 2005 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_f-2009",
@@ -38655,7 +40245,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/WHQMEC_F.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/WHQMEC_F.htm",
+    "linkage": "Links to DEMO_F (2009 demographics) and other NHANES 2009 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_g-2011",
@@ -38669,7 +40260,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/WHQMEC_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/WHQMEC_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_h-2013",
@@ -38683,7 +40275,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/WHQMEC_H.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/WHQMEC_H.htm",
+    "linkage": "Links to DEMO_H (2013 demographics) and other NHANES 2013 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_i-2015",
@@ -38697,7 +40290,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/WHQMEC_I.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/WHQMEC_I.htm",
+    "linkage": "Links to DEMO_I (2015 demographics) and other NHANES 2015 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-whqmec_j-2017",
@@ -38711,7 +40305,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/WHQMEC_J.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/WHQMEC_J.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_whqmec-2017",
@@ -38725,7 +40320,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_WHQMEC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_WHQMEC.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-p_rxqasa-2017",
@@ -38739,7 +40335,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_RXQASA.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_RXQASA.htm",
+    "linkage": "Links to P_DEMO (2017 demographics) and other NHANES 2017 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-rdq_g-2011",
@@ -38753,7 +40350,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm",
+    "linkage": "Links to DEMO_G (2011 demographics) and other NHANES 2011 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqmec-1999",
@@ -38767,7 +40365,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "November 2024",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SMQMEC.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/SMQMEC.htm",
+    "linkage": "Links to DEMO (1999 demographics) and other NHANES 1999 datasets via SEQN."
   },
   {
     "id": "nhanes-questionnaire-smqfam_b-2001",
@@ -38781,7 +40380,8 @@ const DATASETS = [
       "classification"
     ],
     "last_updated": "July 2025",
-    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SMQFAM_B.htm"
+    "docUrl": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SMQFAM_B.htm",
+    "linkage": "Links to DEMO_B (2001 demographics) and other NHANES 2001 datasets via SEQN."
   },
   {
     "id": "PTBXL_ecg_records",
@@ -38794,6 +40394,500 @@ const DATASETS = [
     "tasks": [],
     "last_updated": "2026-08-16",
     "docUrl": "https://physionet.org/content/ptb-xl/1.0.3/"
+  },
+  {
+    "id": "mimic-iv-hosp-patients",
+    "name": "MIMIC-IV — patients (Hospital (hosp))",
+    "desc": "Patient demographics: subject_id, gender, anchor age/year for de-identified date alignment, and date of death.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to admissions, transfers, and all hosp/icu event tables via subject_id."
+  },
+  {
+    "id": "mimic-iv-hosp-admissions",
+    "name": "MIMIC-IV — admissions (Hospital (hosp))",
+    "desc": "Hospital admission and discharge records, including admission type, insurance, language, and admitting/discharge providers.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id; links to transfers, diagnoses_icd, procedures_icd, drgcodes, hcpcsevents, poe, prescriptions, pharmacy, emar via hadm_id."
+  },
+  {
+    "id": "mimic-iv-hosp-transfers",
+    "name": "MIMIC-IV — transfers (Hospital (hosp))",
+    "desc": "Intra-hospital ward/unit transfer records for each patient stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id; links to admissions and icu.icustays via hadm_id."
+  },
+  {
+    "id": "mimic-iv-hosp-labevents",
+    "name": "MIMIC-IV — labevents (Hospital (hosp))",
+    "desc": "Laboratory measurements for a patient, including tests from outpatient and emergency department visits.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, and d_labitems via itemid."
+  },
+  {
+    "id": "mimic-iv-hosp-d_labitems",
+    "name": "MIMIC-IV — d_labitems (Hospital (hosp))",
+    "desc": "Dictionary of laboratory test items referenced by labevents (itemid, label, fluid, category).",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by labevents via itemid (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-hosp-microbiologyevents",
+    "name": "MIMIC-IV — microbiologyevents (Hospital (hosp))",
+    "desc": "Microbiology culture results, organisms identified, and antibiotic sensitivity testing.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, and d_micro via test/organism/antibiotic codes."
+  },
+  {
+    "id": "mimic-iv-hosp-d_micro",
+    "name": "MIMIC-IV — d_micro (Hospital (hosp))",
+    "desc": "Dictionary of microbiology test, organism, and antibiotic codes referenced by microbiologyevents.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by microbiologyevents via microbiology test/organism/antibiotic codes (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-hosp-poe",
+    "name": "MIMIC-IV — poe (Hospital (hosp))",
+    "desc": "Provider order entry records -- orders placed for medications, labs, imaging, and other care.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, provider via order_provider_id; links to poe_detail via poe_id."
+  },
+  {
+    "id": "mimic-iv-hosp-poe_detail",
+    "name": "MIMIC-IV — poe_detail (Hospital (hosp))",
+    "desc": "Additional key-value detail fields associated with provider order entries in poe.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to poe via poe_id."
+  },
+  {
+    "id": "mimic-iv-hosp-emar",
+    "name": "MIMIC-IV — emar (Hospital (hosp))",
+    "desc": "Electronic medication administration record -- when medications were actually given to a patient.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, poe via poe_id, pharmacy via pharmacy_id; links to emar_detail via emar_id."
+  },
+  {
+    "id": "mimic-iv-hosp-emar_detail",
+    "name": "MIMIC-IV — emar_detail (Hospital (hosp))",
+    "desc": "Additional detail fields (dose, route, site) associated with medication administration events in emar.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to emar via emar_id."
+  },
+  {
+    "id": "mimic-iv-hosp-prescriptions",
+    "name": "MIMIC-IV — prescriptions (Hospital (hosp))",
+    "desc": "Medication orders prescribed to a patient, including dose, route, and frequency.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, pharmacy via pharmacy_id."
+  },
+  {
+    "id": "mimic-iv-hosp-pharmacy",
+    "name": "MIMIC-IV — pharmacy (Hospital (hosp))",
+    "desc": "Detailed pharmacy-dispensed prescription information: formulary dose, route, frequency, and duration.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id; links to prescriptions and emar via pharmacy_id."
+  },
+  {
+    "id": "mimic-iv-hosp-diagnoses_icd",
+    "name": "MIMIC-IV — diagnoses_icd (Hospital (hosp))",
+    "desc": "Billed ICD-9/ICD-10 diagnosis codes assigned to each hospitalization.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, and d_icd_diagnoses via icd_code/icd_version."
+  },
+  {
+    "id": "mimic-iv-hosp-d_icd_diagnoses",
+    "name": "MIMIC-IV — d_icd_diagnoses (Hospital (hosp))",
+    "desc": "Dictionary of ICD diagnosis codes and their text descriptions, referenced by diagnoses_icd.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by diagnoses_icd via icd_code/icd_version (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-hosp-procedures_icd",
+    "name": "MIMIC-IV — procedures_icd (Hospital (hosp))",
+    "desc": "Billed ICD-9/ICD-10 procedure codes assigned to each hospitalization.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, and d_icd_procedures via icd_code/icd_version."
+  },
+  {
+    "id": "mimic-iv-hosp-d_icd_procedures",
+    "name": "MIMIC-IV — d_icd_procedures (Hospital (hosp))",
+    "desc": "Dictionary of ICD procedure codes and their text descriptions, referenced by procedures_icd.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by procedures_icd via icd_code/icd_version (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-hosp-hcpcsevents",
+    "name": "MIMIC-IV — hcpcsevents (Hospital (hosp))",
+    "desc": "Billed HCPCS procedure/service codes for a hospitalization.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions via hadm_id, and d_hcpcs via hcpcs_cd."
+  },
+  {
+    "id": "mimic-iv-hosp-d_hcpcs",
+    "name": "MIMIC-IV — d_hcpcs (Hospital (hosp))",
+    "desc": "Dictionary of HCPCS codes and their descriptions, referenced by hcpcsevents.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by hcpcsevents via hcpcs_cd (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-hosp-drgcodes",
+    "name": "MIMIC-IV — drgcodes (Hospital (hosp))",
+    "desc": "Diagnosis-related group (DRG) codes used for hospital billing and case-mix classification.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id and admissions via hadm_id."
+  },
+  {
+    "id": "mimic-iv-hosp-omr",
+    "name": "MIMIC-IV — omr (Hospital (hosp))",
+    "desc": "Online Medical Record data: blood pressure, height, weight, BMI, and eGFR from inpatient and outpatient visits.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id."
+  },
+  {
+    "id": "mimic-iv-hosp-services",
+    "name": "MIMIC-IV — services (Hospital (hosp))",
+    "desc": "Clinical service (e.g. medicine, surgery, cardiology) a patient was assigned to during their hospitalization.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id and admissions via hadm_id."
+  },
+  {
+    "id": "mimic-iv-hosp-provider",
+    "name": "MIMIC-IV — provider (Hospital (hosp))",
+    "desc": "De-identified provider/caregiver identifiers referenced across hosp module tables.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by admissions, poe, labevents, prescriptions, and other hosp tables via provider_id columns."
+  },
+  {
+    "id": "mimic-iv-icu-icustays",
+    "name": "MIMIC-IV — icustays (ICU)",
+    "desc": "ICU stay records, derived from transfers -- each stay's ICU unit, admit/discharge time, and length of stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to patients via subject_id, admissions and transfers via hadm_id; links to all icu event tables via stay_id."
+  },
+  {
+    "id": "mimic-iv-icu-d_items",
+    "name": "MIMIC-IV — d_items (ICU)",
+    "desc": "Dictionary of MetaVision item identifiers referenced across all icu module event tables.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by all icu event tables (chartevents, inputevents, outputevents, etc.) via itemid (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-icu-chartevents",
+    "name": "MIMIC-IV — chartevents (ICU)",
+    "desc": "Charted vital signs and other bedside-documented observations during an ICU stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to icustays via stay_id, d_items via itemid, caregiver via caregiver_id."
+  },
+  {
+    "id": "mimic-iv-icu-inputevents",
+    "name": "MIMIC-IV — inputevents (ICU)",
+    "desc": "Intravenous and fluid inputs administered during an ICU stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to icustays via stay_id, d_items via itemid, caregiver via caregiver_id; links to ingredientevents via orderid."
+  },
+  {
+    "id": "mimic-iv-icu-ingredientevents",
+    "name": "MIMIC-IV — ingredientevents (ICU)",
+    "desc": "Ingredient-level breakdown (e.g. water content, calories) of the inputs recorded in inputevents.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to inputevents via orderid; links to icustays via stay_id."
+  },
+  {
+    "id": "mimic-iv-icu-outputevents",
+    "name": "MIMIC-IV — outputevents (ICU)",
+    "desc": "Patient outputs (e.g. urine output) recorded during an ICU stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to icustays via stay_id, d_items via itemid, caregiver via caregiver_id."
+  },
+  {
+    "id": "mimic-iv-icu-procedureevents",
+    "name": "MIMIC-IV — procedureevents (ICU)",
+    "desc": "Procedures performed and documented during an ICU stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to icustays via stay_id, d_items via itemid, caregiver via caregiver_id."
+  },
+  {
+    "id": "mimic-iv-icu-datetimeevents",
+    "name": "MIMIC-IV — datetimeevents (ICU)",
+    "desc": "Observations documented as a date or time value during an ICU stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Links to icustays via stay_id, d_items via itemid, caregiver via caregiver_id."
+  },
+  {
+    "id": "mimic-iv-icu-caregiver",
+    "name": "MIMIC-IV — caregiver (ICU)",
+    "desc": "De-identified caregiver identifiers referenced across icu module event tables.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "October 2024",
+    "docUrl": "https://physionet.org/content/mimiciv/3.1/",
+    "linkage": "Referenced by chartevents, datetimeevents, ingredientevents, inputevents, outputevents, procedureevents via caregiver_id (lookup table only)."
+  },
+  {
+    "id": "mimic-iv-ed-edstays",
+    "name": "MIMIC-IV — edstays (Emergency Department (ED))",
+    "desc": "Patient tracking table for the emergency department: admit/discharge time, demographics, and disposition for each ED stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "January 2023",
+    "docUrl": "https://physionet.org/content/mimic-iv-ed/2.2/",
+    "linkage": "Links to MIMIC-IV's hosp.patients via subject_id and hosp.transfers via stay_id/hadm_id; links to diagnosis, medrecon, pyxis, triage, vitalsign via stay_id."
+  },
+  {
+    "id": "mimic-iv-ed-diagnosis",
+    "name": "MIMIC-IV — diagnosis (Emergency Department (ED))",
+    "desc": "Billed diagnoses (ICD codes) assigned during an emergency department stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "January 2023",
+    "docUrl": "https://physionet.org/content/mimic-iv-ed/2.2/",
+    "linkage": "Links to edstays via stay_id and subject_id."
+  },
+  {
+    "id": "mimic-iv-ed-medrecon",
+    "name": "MIMIC-IV — medrecon (Emergency Department (ED))",
+    "desc": "Medication reconciliation: medications a patient was taking at the time of ED admission.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "January 2023",
+    "docUrl": "https://physionet.org/content/mimic-iv-ed/2.2/",
+    "linkage": "Links to edstays via stay_id and subject_id."
+  },
+  {
+    "id": "mimic-iv-ed-pyxis",
+    "name": "MIMIC-IV — pyxis (Emergency Department (ED))",
+    "desc": "Medications dispensed via automated dispensing (Pyxis) machines during an ED stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "January 2023",
+    "docUrl": "https://physionet.org/content/mimic-iv-ed/2.2/",
+    "linkage": "Links to edstays via stay_id and subject_id."
+  },
+  {
+    "id": "mimic-iv-ed-triage",
+    "name": "MIMIC-IV — triage (Emergency Department (ED))",
+    "desc": "Initial triage assessment on arrival: vital signs, chief complaint, and acuity score.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "January 2023",
+    "docUrl": "https://physionet.org/content/mimic-iv-ed/2.2/",
+    "linkage": "Links to edstays via stay_id."
+  },
+  {
+    "id": "mimic-iv-ed-vitalsign",
+    "name": "MIMIC-IV — vitalsign (Emergency Department (ED))",
+    "desc": "Routine vital signs recorded every 1-4 hours during an emergency department stay.",
+    "source": "MIMIC-IV",
+    "subtypes": [
+        "ehr"
+    ],
+    "tasks": [],
+    "last_updated": "January 2023",
+    "docUrl": "https://physionet.org/content/mimic-iv-ed/2.2/",
+    "linkage": "Links to edstays via stay_id."
   }
 ];
 

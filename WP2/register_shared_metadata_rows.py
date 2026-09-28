@@ -7,13 +7,16 @@ DRDINT/WTDRD1/DR1LANG etc.), this:
 
   1. Finds the overlapping variable names between the two datasets'
      schema.json variable lists.
-  2. Finds the observation rows matching those overlapping variables
-     (for this pair's shared SEQN pool).
+  2. Finds the rows matching those overlapping variables (for this
+     pair's shared SEQN pool) in BOTH the measurement and observation
+     tables -- a shared variable can live in either table depending
+     on how each dataset's own LLM mapping classified it.
   3. Registers those rows in shared_row_registry under BOTH ds_ids
      (does NOT touch dataset_row_registry -- ownership for safe-DELETE
      purposes stays with whichever one already has it, if any).
   4. Separately backfills dataset_row_registry for each dataset's
-     EXCLUSIVE (non-overlapping) variables, if not already done.
+     EXCLUSIVE (non-overlapping) variables, if not already done, also
+     checking both tables.
 
 Use this when two datasets have ALREADY been ETL'd (their rows exist
 in measurement/observation) and only need their shared-variable rows
@@ -62,6 +65,32 @@ def get_seqns(ds_id, entry):
     return set(int(s) for s in df["SEQN"].dropna().unique())
 
 
+def register_shared_for_table(cur, table_name, source_col, ds_id, seqns, var_names):
+    """Registers rows from ONE table (measurement or observation) as
+    shared for ds_id. Returns the number of rows registered."""
+    id_col = f"{table_name}_id"
+    cur.execute(
+        f"INSERT INTO shared_row_registry (ds_id, table_name, row_id) "
+        f"SELECT %s, %s, {id_col} FROM public.{table_name} "
+        f"WHERE person_id = ANY(%s) AND {source_col} = ANY(%s) "
+        f"ON CONFLICT (ds_id, table_name, row_id) DO NOTHING",
+        (ds_id, table_name, list(seqns), list(var_names)),
+    )
+    return cur.rowcount
+
+
+def backfill_exclusive_for_table(cur, table_name, source_col, ds_id, seqns, var_names):
+    id_col = f"{table_name}_id"
+    cur.execute(
+        f"INSERT INTO dataset_row_registry (ds_id, table_name, row_id) "
+        f"SELECT %s, %s, {id_col} FROM public.{table_name} "
+        f"WHERE person_id = ANY(%s) AND {source_col} = ANY(%s) "
+        f"ON CONFLICT (table_name, row_id) DO NOTHING",
+        (ds_id, table_name, list(seqns), list(var_names)),
+    )
+    return cur.rowcount
+
+
 def main():
     if len(sys.argv) < 3:
         print("Usage: python3 register_shared_metadata_rows.py <ds_id_a> <ds_id_b>")
@@ -90,41 +119,30 @@ def main():
     conn.autocommit = False
     cur = conn.cursor()
 
-    # Step 1: register overlapping-variable rows as SHARED (both ds_ids)
     if overlap:
         for ds_id in (ds_id_a, ds_id_b):
-            cur.execute(
-                "INSERT INTO shared_row_registry (ds_id, table_name, row_id) "
-                "SELECT %s, 'observation', observation_id FROM public.observation "
-                "WHERE person_id = ANY(%s) AND observation_source_value = ANY(%s) "
-                "ON CONFLICT (ds_id, table_name, row_id) DO NOTHING",
-                (ds_id, list(shared_seqns), list(overlap)),
+            n_obs = register_shared_for_table(
+                cur, "observation", "observation_source_value", ds_id, shared_seqns, overlap
             )
-            print(f"  Registered {cur.rowcount} shared rows for {ds_id}")
+            n_meas = register_shared_for_table(
+                cur, "measurement", "measurement_source_value", ds_id, shared_seqns, overlap
+            )
+            print(f"  Registered {n_obs} shared observation rows, "
+                  f"{n_meas} shared measurement rows for {ds_id}")
 
-    # Step 2: backfill dataset_row_registry for each dataset's EXCLUSIVE variables
     for ds_id, exclusive_vars, seqns in (
         (ds_id_a, only_a, seqns_a), (ds_id_b, only_b, seqns_b)
     ):
         if not exclusive_vars:
             continue
-        cur.execute(
-            "INSERT INTO dataset_row_registry (ds_id, table_name, row_id) "
-            "SELECT %s, 'observation', observation_id FROM public.observation "
-            "WHERE person_id = ANY(%s) AND observation_source_value = ANY(%s) "
-            "ON CONFLICT (table_name, row_id) DO NOTHING",
-            (ds_id, list(seqns), list(exclusive_vars)),
+        n_obs = backfill_exclusive_for_table(
+            cur, "observation", "observation_source_value", ds_id, seqns, exclusive_vars
         )
-        print(f"  Registered {cur.rowcount} exclusive-owned rows for {ds_id}")
-
-        cur.execute(
-            "INSERT INTO dataset_row_registry (ds_id, table_name, row_id) "
-            "SELECT %s, 'measurement', measurement_id FROM public.measurement "
-            "WHERE person_id = ANY(%s) AND measurement_source_value = ANY(%s) "
-            "ON CONFLICT (table_name, row_id) DO NOTHING",
-            (ds_id, list(seqns), list(exclusive_vars)),
+        n_meas = backfill_exclusive_for_table(
+            cur, "measurement", "measurement_source_value", ds_id, seqns, exclusive_vars
         )
-        print(f"  Registered {cur.rowcount} exclusive-owned measurement rows for {ds_id}")
+        print(f"  Registered {n_obs} exclusive observation rows, "
+              f"{n_meas} exclusive measurement rows for {ds_id}")
 
     conn.commit()
     cur.close()

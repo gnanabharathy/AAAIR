@@ -67,6 +67,47 @@ PHIDU_MESSAGE = (
     "person-centric tables, so it isn't loaded into the CDM at all."
 )
 
+# NHANES accelerometer/spirometer files where the raw data was never
+# published as a single per-person .xpt table -- each participant's
+# data is a separate archive on CDC's FTP server (PAX80/PAXLUX/PAXMIN,
+# 2011-2014 cycle, ~1TB total compressed). Not recoverable with this
+# project's current single-file ETL approach.
+DATA_NOT_TABULAR = {
+    "nhanes-examination-pax80_g-2011", "nhanes-examination-pax80_h-2013",
+    "nhanes-examination-paxlux_g-2011", "nhanes-examination-paxlux_h-2013",
+    "nhanes-examination-paxmin_g-2011", "nhanes-examination-paxmin_h-2013",
+}
+
+DATA_NOT_TABULAR_MESSAGE = (
+    "DQD is not applicable to this dataset. Unlike most NHANES files, "
+    "this data was never published as a single per-person table -- CDC "
+    "distributes it as one archive per participant on their FTP server "
+    "(the full release is roughly 1 TB compressed). This project's ETL "
+    "pipeline processes single tabular files and cannot currently ingest "
+    "this per-participant archive format."
+)
+
+# NHANES accelerometer/spirometer files that DO have a real, standard
+# SEQN-linked table (confirmed via their documentation's codebook), but
+# are packaged as a large .ZIP archive rather than a bare .xpt at the
+# URL this project's extractor expects. Recoverable in principle --
+# needs the download step taught to fetch and unzip these instead of
+# assuming a direct .xpt. Not yet implemented.
+DATA_ZIPPED_NOT_YET_SUPPORTED = {
+    "nhanes-examination-paxraw_c-2003", "nhanes-examination-paxraw_d-2005",
+    "nhanes-examination-spxraw_e-2007", "nhanes-examination-spxraw_f-2009",
+    "nhanes-examination-spxraw_g-2011",
+}
+
+DATA_ZIPPED_MESSAGE = (
+    "DQD is not applicable to this dataset yet. It has a normal, "
+    "SEQN-linked table structure, but CDC distributes it as a large "
+    ".ZIP archive rather than the plain .xpt file this project's ETL "
+    "currently expects. The underlying data hasn't changed -- this is "
+    "a pipeline limitation, not a data availability issue -- and "
+    "support for zipped downloads is a planned improvement."
+)
+
 @app.route('/api/dqd/result', methods=['GET'])
 def get_dqd_result():
     ds_id = request.args.get('ds_id', '').strip()
@@ -79,6 +120,22 @@ def get_dqd_result():
             'structural': True,
             'display': 'panel',
             'message': STRUCTURAL_MESSAGE,
+        })
+
+    if ds_id in DATA_NOT_TABULAR:
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'panel',
+            'message': DATA_NOT_TABULAR_MESSAGE,
+        })
+
+    if ds_id in DATA_ZIPPED_NOT_YET_SUPPORTED:
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'panel',
+            'message': DATA_ZIPPED_MESSAGE,
         })
 
     entry = SCHEMA_DATA.get(ds_id)

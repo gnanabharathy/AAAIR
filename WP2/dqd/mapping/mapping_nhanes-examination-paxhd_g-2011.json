@@ -1,0 +1,65 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "PERSON",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique identifier for each NHANES respondent, mapped to OMOP person_id."
+  },
+  {
+    "nhanes_var": "PAXSTS",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Binary status of physical activity monitor data availability; stored as a measurement."
+  },
+  {
+    "nhanes_var": "PAXSENID",
+    "omop_table": "DEVICE_EXPOSURE",
+    "omop_field": "device_exposure_id",
+    "concept_id": null,
+    "notes": "Identifier for the PAM device; mapped to device_exposure_id."
+  },
+  {
+    "nhanes_var": "PAXFDAY",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Day of week when measurement started; stored as a categorical measurement."
+  },
+  {
+    "nhanes_var": "PAXLDAY",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Last day when measurements were taken; stored as a categorical measurement."
+  },
+  {
+    "nhanes_var": "PAXFTIME",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "First data timestamp in GT3X; stored as a time measurement."
+  },
+  {
+    "nhanes_var": "PAXETLDY",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Timestamp at end of last day; stored as a time measurement."
+  },
+  {
+    "nhanes_var": "PAXHAND",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Indicates if PAM worn on non-dominant hand; stored as a categorical measurement."
+  },
+  {
+    "nhanes_var": "PAXORENT",
+    "omop_table": "MEASUREMENT",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Wrist PAM orientation; stored as a binary measurement."
+  }
+]

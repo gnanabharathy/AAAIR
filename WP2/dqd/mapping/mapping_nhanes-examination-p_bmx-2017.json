@@ -1,0 +1,156 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_source_value",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as person source value"
+  },
+  {
+    "nhanes_var": "BMDSTATS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Status code for body measures component"
+  },
+  {
+    "nhanes_var": "BMXWT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033615,
+    "notes": "Body weight measurement"
+  },
+  {
+    "nhanes_var": "BMIWT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment about weight measurement"
+  },
+  {
+    "nhanes_var": "BMXRECUM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033617,
+    "notes": "Recumbent length measurement"
+  },
+  {
+    "nhanes_var": "BMIRECUM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment about recumbent length"
+  },
+  {
+    "nhanes_var": "BMXHEAD",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033618,
+    "notes": "Head circumference measurement"
+  },
+  {
+    "nhanes_var": "BMIHEAD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment about head circumference"
+  },
+  {
+    "nhanes_var": "BMXHT",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033614,
+    "notes": "Standing height measurement"
+  },
+  {
+    "nhanes_var": "BMIHT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment about standing height"
+  },
+  {
+    "nhanes_var": "BMXBMI",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033616,
+    "notes": "Body mass index measurement"
+  },
+  {
+    "nhanes_var": "BMDBMIC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "BMI category for children/youth"
+  },
+  {
+    "nhanes_var": "BMXLEG",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033619,
+    "notes": "Upper leg length measurement"
+  },
+  {
+    "nhanes_var": "BMILEG",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Comment about upper leg length"
+  },
+  {
+    "nhanes_var": "BMXARML",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3033620,
+    "notes": "Upper arm length measurement"
+  },
+  {
+    "nhanes_var": "BMIARML",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Upper arm length comment stored as source value"
+  },
+  {
+    "nhanes_var": "BMXARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010001,
+    "notes": "Arm circumference measurement (cm) mapped to OMOP concept 3010001"
+  },
+  {
+    "nhanes_var": "BMIARMC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Arm circumference comment stored as source value"
+  },
+  {
+    "nhanes_var": "BMXWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010002,
+    "notes": "Waist circumference measurement (cm) mapped to OMOP concept 3010002"
+  },
+  {
+    "nhanes_var": "BMIWAIST",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Waist circumference comment stored as source value"
+  },
+  {
+    "nhanes_var": "BMXHIP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3010003,
+    "notes": "Hip circumference measurement (cm) mapped to OMOP concept 3010003"
+  },
+  {
+    "nhanes_var": "BMIHIP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_source_value",
+    "concept_id": null,
+    "notes": "Hip circumference comment stored as source value"
+  }
+]

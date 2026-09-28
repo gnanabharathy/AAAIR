@@ -52,8 +52,21 @@ REFERENCE_TABLES = [
 
 def sanitize_schema_name(ds_id):
     """Turn a ds_id like 'nhanes-examination-vix-1999' into a valid
-    Postgres schema identifier."""
-    name = re.sub(r"[^a-zA-Z0-9_]", "_", ds_id)
+    Postgres schema identifier.
+
+    Always lowercased: Postgres silently folds any UNQUOTED identifier
+    to lowercase, but this script creates the schema via a quoted
+    sql.Identifier() (which preserves case exactly as given). If ds_id
+    has mixed case (e.g. 'PTBXL_ecg_records'), the two would disagree
+    -- this script's own CREATE SCHEMA would produce a mixed-case name,
+    while dqd.R passing that name unquoted to DatabaseConnector gets
+    lowercase-folded by Postgres, and the two no longer match ("relation
+    ...cdm_source does not exist" even though the schema is right
+    there, just under a different-cased name). Lowercasing here keeps
+    this script's output and Postgres's unquoted-identifier behavior
+    in agreement no matter what case the ds_id itself uses.
+    """
+    name = re.sub(r"[^a-zA-Z0-9_]", "_", ds_id).lower()
     if name[0].isdigit():
         name = "_" + name
     return f"dqd_view_{name}"

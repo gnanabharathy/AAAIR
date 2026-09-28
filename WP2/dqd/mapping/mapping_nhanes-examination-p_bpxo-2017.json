@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to person_id"
+  },
+  {
+    "nhanes_var": "BPAOARM",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_value",
+    "concept_id": null,
+    "notes": "Arm selected for oscillometric measurement; stored as source value"
+  },
+  {
+    "nhanes_var": "BPAOCSZ",
+    "omop_table": "Observation",
+    "omop_field": "observation_value_source_value",
+    "concept_id": null,
+    "notes": "Coded cuff size for oscillometric measurement; stored as source value"
+  },
+  {
+    "nhanes_var": "BPXOSY1",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8480,
+    "notes": "First systolic oscillometric reading; concept 8480 = Systolic blood pressure"
+  },
+  {
+    "nhanes_var": "BPXODI1",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8481,
+    "notes": "First diastolic oscillometric reading; concept 8481 = Diastolic blood pressure"
+  },
+  {
+    "nhanes_var": "BPXOSY2",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8480,
+    "notes": "Second systolic oscillometric reading; same concept as first"
+  },
+  {
+    "nhanes_var": "BPXODI2",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8481,
+    "notes": "Second diastolic oscillometric reading; same concept as first"
+  },
+  {
+    "nhanes_var": "BPXOSY3",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8480,
+    "notes": "Third systolic oscillometric reading; same concept as first"
+  },
+  {
+    "nhanes_var": "BPXODI3",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8481,
+    "notes": "Third diastolic oscillometric reading; same concept as first"
+  },
+  {
+    "nhanes_var": "BPXOPLS1",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8482,
+    "notes": "First pulse (heart rate) oscillometric reading; concept 8482 = Heart rate"
+  },
+  {
+    "nhanes_var": "BPXOPLS2",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8482,
+    "notes": "Second pulse (heart rate) oscillometric reading; same concept"
+  },
+  {
+    "nhanes_var": "BPXOPLS3",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_value_as_number",
+    "concept_id": 8482,
+    "notes": "Third pulse (heart rate) oscillometric reading; same concept"
+  }
+]

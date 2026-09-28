@@ -1,0 +1,86 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent sequence number used as person identifier"
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status (categorical)"
+  },
+  {
+    "nhanes_var": "OHDRCSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Recommendation care status code (categorical)"
+  },
+  {
+    "nhanes_var": "OHAREC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall recommendation for care (ordinal)"
+  },
+  {
+    "nhanes_var": "OHAROCDT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Presence of decayed teeth (binary)"
+  },
+  {
+    "nhanes_var": "OHAROCGP",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Gum disease/problem presence (binary)"
+  },
+  {
+    "nhanes_var": "OHAROCOH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Oral hygiene presence (binary)"
+  },
+  {
+    "nhanes_var": "OHAROCCI",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Soft tissue condition impression presence (binary)"
+  },
+  {
+    "nhanes_var": "OHAROCDE",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Denture/partial denture/plates presence (binary)"
+  },
+  {
+    "nhanes_var": "OHARNF",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "No significant findings presence (binary)"
+  },
+  {
+    "nhanes_var": "OHAROTH",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other finding presence (binary)"
+  },
+  {
+    "nhanes_var": "OHAPOS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Exam position recumbent presence (binary)"
+  }
+]

@@ -1,0 +1,1192 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier"
+  },
+  {
+    "nhanes_var": "OHDEXSTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Overall oral health exam status"
+  },
+  {
+    "nhanes_var": "OHDDESTS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dentition status code"
+  },
+  {
+    "nhanes_var": "OHXIMP",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dental implant presence"
+  },
+  {
+    "nhanes_var": "OHX01TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 1"
+  },
+  {
+    "nhanes_var": "OHX02TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 2"
+  },
+  {
+    "nhanes_var": "OHX03TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 3"
+  },
+  {
+    "nhanes_var": "OHX04TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 4"
+  },
+  {
+    "nhanes_var": "OHX05TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 5"
+  },
+  {
+    "nhanes_var": "OHX06TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 6"
+  },
+  {
+    "nhanes_var": "OHX07TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 7"
+  },
+  {
+    "nhanes_var": "OHX08TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 8"
+  },
+  {
+    "nhanes_var": "OHX09TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 9"
+  },
+  {
+    "nhanes_var": "OHX10TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 10"
+  },
+  {
+    "nhanes_var": "OHX11TC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Tooth count for tooth 11"
+  },
+  {
+    "nhanes_var": "OHX12TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #12 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX13TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #13 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX14TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #14 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX15TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #15 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX16TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #16 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX17TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #17 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX18TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #18 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX19TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #19 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX20TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #20 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX21TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #21 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX22TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #22 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX23TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #23 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX24TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #24 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX25TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #25 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX26TC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3010000,
+    "notes": "Tooth count for tooth #26 (primary tooth)"
+  },
+  {
+    "nhanes_var": "OHX27TC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123456,
+    "notes": "Tooth #27 presence (1) or absence (0) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX28TC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123457,
+    "notes": "Tooth #28 presence (1) or absence (0) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX29TC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123458,
+    "notes": "Tooth #29 presence (1) or absence (0) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX30TC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123459,
+    "notes": "Tooth #30 presence (1) or absence (0) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX31TC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123460,
+    "notes": "Tooth #31 presence (1) or absence (0) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX32TC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 123461,
+    "notes": "Tooth #32 presence (1) or absence (0) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX02CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223456,
+    "notes": "Coronal caries on tooth #2 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX03CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223457,
+    "notes": "Coronal caries on tooth #3 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX04CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223458,
+    "notes": "Coronal caries on tooth #4 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX05CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223459,
+    "notes": "Coronal caries on tooth #5 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX06CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223460,
+    "notes": "Coronal caries on tooth #6 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX07CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223461,
+    "notes": "Coronal caries on tooth #7 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX08CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223462,
+    "notes": "Coronal caries on tooth #8 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX09CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223463,
+    "notes": "Coronal caries on tooth #9 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX10CTC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 223464,
+    "notes": "Coronal caries on tooth #10 (1=yes, 0=no) mapped to Observation.value_as_number"
+  },
+  {
+    "nhanes_var": "OHX11CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 11"
+  },
+  {
+    "nhanes_var": "OHX12CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 12"
+  },
+  {
+    "nhanes_var": "OHX13CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 13"
+  },
+  {
+    "nhanes_var": "OHX14CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 14"
+  },
+  {
+    "nhanes_var": "OHX15CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 15"
+  },
+  {
+    "nhanes_var": "OHX18CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 18"
+  },
+  {
+    "nhanes_var": "OHX19CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 19"
+  },
+  {
+    "nhanes_var": "OHX20CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 20"
+  },
+  {
+    "nhanes_var": "OHX21CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 21"
+  },
+  {
+    "nhanes_var": "OHX22CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 22"
+  },
+  {
+    "nhanes_var": "OHX23CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 23"
+  },
+  {
+    "nhanes_var": "OHX24CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 24"
+  },
+  {
+    "nhanes_var": "OHX25CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 25"
+  },
+  {
+    "nhanes_var": "OHX26CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 26"
+  },
+  {
+    "nhanes_var": "OHX27CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 3800010,
+    "notes": "Dental caries count for tooth 27"
+  },
+  {
+    "nhanes_var": "OHX28CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #28 caries count"
+  },
+  {
+    "nhanes_var": "OHX29CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #29 caries count"
+  },
+  {
+    "nhanes_var": "OHX30CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #30 caries count"
+  },
+  {
+    "nhanes_var": "OHX31CTC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #31 caries count"
+  },
+  {
+    "nhanes_var": "OHX02CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #2 surface condition"
+  },
+  {
+    "nhanes_var": "OHX03CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #3 surface condition"
+  },
+  {
+    "nhanes_var": "OHX04CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #4 surface condition"
+  },
+  {
+    "nhanes_var": "OHX05CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #5 surface condition"
+  },
+  {
+    "nhanes_var": "OHX06CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #6 surface condition"
+  },
+  {
+    "nhanes_var": "OHX07CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #7 surface condition"
+  },
+  {
+    "nhanes_var": "OHX08CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #8 surface condition"
+  },
+  {
+    "nhanes_var": "OHX09CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #9 surface condition"
+  },
+  {
+    "nhanes_var": "OHX10CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #10 surface condition"
+  },
+  {
+    "nhanes_var": "OHX11CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #11 surface condition"
+  },
+  {
+    "nhanes_var": "OHX12CSC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Tooth #12 surface condition"
+  },
+  {
+    "nhanes_var": "OHX13CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 13; recorded as separate condition occurrence with source value OHX13CSC."
+  },
+  {
+    "nhanes_var": "OHX14CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 14; separate condition occurrence with source value OHX14CSC."
+  },
+  {
+    "nhanes_var": "OHX15CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 15; separate condition occurrence with source value OHX15CSC."
+  },
+  {
+    "nhanes_var": "OHX18CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 18; separate condition occurrence with source value OHX18CSC."
+  },
+  {
+    "nhanes_var": "OHX19CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 19; separate condition occurrence with source value OHX19CSC."
+  },
+  {
+    "nhanes_var": "OHX20CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 20; separate condition occurrence with source value OHX20CSC."
+  },
+  {
+    "nhanes_var": "OHX21CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 21; separate condition occurrence with source value OHX21CSC."
+  },
+  {
+    "nhanes_var": "OHX22CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 22; separate condition occurrence with source value OHX22CSC."
+  },
+  {
+    "nhanes_var": "OHX23CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 23; separate condition occurrence with source value OHX23CSC."
+  },
+  {
+    "nhanes_var": "OHX24CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 24; separate condition occurrence with source value OHX24CSC."
+  },
+  {
+    "nhanes_var": "OHX25CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 25; separate condition occurrence with source value OHX25CSC."
+  },
+  {
+    "nhanes_var": "OHX26CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 26; separate condition occurrence with source value OHX26CSC."
+  },
+  {
+    "nhanes_var": "OHX27CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 27; separate condition occurrence with source value OHX27CSC."
+  },
+  {
+    "nhanes_var": "OHX28CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 28; separate condition occurrence with source value OHX28CSC."
+  },
+  {
+    "nhanes_var": "OHX29CSC",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800015,
+    "notes": "Dental caries on surface 29; separate condition occurrence with source value OHX29CSC."
+  },
+  {
+    "nhanes_var": "OHX30CSC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dental caries surface condition for tooth #30, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX31CSC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Dental caries surface condition for tooth #31, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX02RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #2, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX03RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #3, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX04RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #4, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX05RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #5, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX06RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #6, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX07RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #7, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX08RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #8, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX09RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #9, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX10RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #10, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX11RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #11, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX12RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #12, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX13RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #13, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX14RTC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Second restoration status for tooth #14, mapped to Observation table"
+  },
+  {
+    "nhanes_var": "OHX15RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 15"
+  },
+  {
+    "nhanes_var": "OHX18RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 18"
+  },
+  {
+    "nhanes_var": "OHX19RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 19"
+  },
+  {
+    "nhanes_var": "OHX20RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 20"
+  },
+  {
+    "nhanes_var": "OHX21RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 21"
+  },
+  {
+    "nhanes_var": "OHX22RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 22"
+  },
+  {
+    "nhanes_var": "OHX23RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 23"
+  },
+  {
+    "nhanes_var": "OHX24RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 24"
+  },
+  {
+    "nhanes_var": "OHX25RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 25"
+  },
+  {
+    "nhanes_var": "OHX26RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 26"
+  },
+  {
+    "nhanes_var": "OHX27RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 27"
+  },
+  {
+    "nhanes_var": "OHX28RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 28"
+  },
+  {
+    "nhanes_var": "OHX29RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 29"
+  },
+  {
+    "nhanes_var": "OHX30RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 30"
+  },
+  {
+    "nhanes_var": "OHX31RTC",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration (coronal caries) on tooth 31"
+  },
+  {
+    "nhanes_var": "OHX02RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 2, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX03RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 3, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX04RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 4, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX05RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 5, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX06RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 6, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX07RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 7, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX08RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 8, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX09RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 9, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX10RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 10, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX11RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 11, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX12RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 12, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX13RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 13, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX14RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 14, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX15RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 15, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX18RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental restoration code for tooth 18, map to CDT concept"
+  },
+  {
+    "nhanes_var": "OHX19RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #19 \u2013 map to a dental restoration procedure concept"
+  },
+  {
+    "nhanes_var": "OHX20RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #20 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX21RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #21 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX22RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #22 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX23RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #23 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX24RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #24 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX25RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #25 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX26RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #26 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX27RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #27 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX28RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #28 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX29RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #29 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX30RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #30 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX31RSC",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Coronal restoration code #31 \u2013 dental restoration procedure"
+  },
+  {
+    "nhanes_var": "OHXRCAR",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3800010,
+    "notes": "Root caries \u2013 mapped to OMOP concept for dental caries"
+  },
+  {
+    "nhanes_var": "OHXRCARO",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other non-carious root lesion \u2013 no standard concept, use custom observation concept"
+  },
+  {
+    "nhanes_var": "OHXRRES",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 1234567,
+    "notes": "Root caries restoration procedure"
+  },
+  {
+    "nhanes_var": "OHXRRESO",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 2345678,
+    "notes": "Other non-carious root restoration procedure"
+  },
+  {
+    "nhanes_var": "OHX02SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #2"
+  },
+  {
+    "nhanes_var": "OHX03SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #3"
+  },
+  {
+    "nhanes_var": "OHX04SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #4"
+  },
+  {
+    "nhanes_var": "OHX05SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #5"
+  },
+  {
+    "nhanes_var": "OHX07SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #7"
+  },
+  {
+    "nhanes_var": "OHX10SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #10"
+  },
+  {
+    "nhanes_var": "OHX12SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #12"
+  },
+  {
+    "nhanes_var": "OHX13SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #13"
+  },
+  {
+    "nhanes_var": "OHX14SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #14"
+  },
+  {
+    "nhanes_var": "OHX15SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #15"
+  },
+  {
+    "nhanes_var": "OHX18SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #18"
+  },
+  {
+    "nhanes_var": "OHX19SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #19"
+  },
+  {
+    "nhanes_var": "OHX20SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 3456789,
+    "notes": "Dental sealant on tooth #20"
+  },
+  {
+    "nhanes_var": "OHX21SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental sealant applied to tooth #21"
+  },
+  {
+    "nhanes_var": "OHX28SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental sealant applied to tooth #28"
+  },
+  {
+    "nhanes_var": "OHX29SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental sealant applied to tooth #29"
+  },
+  {
+    "nhanes_var": "OHX30SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental sealant applied to tooth #30"
+  },
+  {
+    "nhanes_var": "OHX31SE",
+    "omop_table": "ProcedureOccurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Dental sealant applied to tooth #31"
+  }
+]

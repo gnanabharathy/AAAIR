@@ -1,0 +1,1556 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number used as unique person identifier"
+  },
+  {
+    "nhanes_var": "OPASCST2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000165,
+    "notes": "Exam status for eye exam; maps to OMOP concept 'Eye exam'"
+  },
+  {
+    "nhanes_var": "OPASCCT2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Reason for not done/partial; no standard concept, stored as free text"
+  },
+  {
+    "nhanes_var": "VIQ110",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Severe eye infection binary; no standard concept, stored as observation"
+  },
+  {
+    "nhanes_var": "VIQ130",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Wearing eye patch binary; stored as observation"
+  },
+  {
+    "nhanes_var": "VIQ141",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Which eye; categorical, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDCOMP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Field 1 & 2 present, right eye; ordinal, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDF1",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Field 1 present, right eye; binary, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDF1FO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Field 1 focus, right eye; ordinal, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDF2",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Field 2 present, right eye; binary, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDF2FO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Field 2 focus, right eye; ordinal, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDGRBL",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Gradability of images, right eye; categorical, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDPMM",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pupil size, right eye; continuous measurement"
+  },
+  {
+    "nhanes_var": "OPXDPHPR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Photo problems, right eye; binary, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDPHIL",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Photo problem - illumination, right eye; binary, stored as observation"
+  },
+  {
+    "nhanes_var": "OPXDPHFD",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000120,
+    "notes": "Photo probability \u2013 field definition, right eye"
+  },
+  {
+    "nhanes_var": "OPXDPHHZ",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000121,
+    "notes": "Photo probability \u2013 haze, right eye"
+  },
+  {
+    "nhanes_var": "OPXDPHDD",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000122,
+    "notes": "Photo probability \u2013 dust/dirt, right eye"
+  },
+  {
+    "nhanes_var": "OPXDPHLA",
+    "omop_table": "obission",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000123,
+    "notes": "Photo probability \u2013 lashes, right eye"
+  },
+  {
+    "nhanes_var": "OPXDPHAR",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000124,
+    "notes": "Photo probability \u2013 arc, right eye"
+  },
+  {
+    "nhanes_var": "OPXDPHRC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000125,
+    "notes": "Photo probability \u2013 red channel, right eye"
+  },
+  {
+    "nhanes_var": "OPXDPHOT",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000126,
+    "notes": "Photo probability \u2013 other, right eye"
+  },
+  {
+    "nhanes_var": "OPDURET",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000127,
+    "notes": "Retinopathy level (ordinal) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDURL4",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000128,
+    "notes": "4\u2011level retinopathy severity (ordinal) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUARMA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000129,
+    "notes": "Any retinopathy (binary) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUHMA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000130,
+    "notes": "MAS/HEM type (categorical) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUMA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000131,
+    "notes": "Retinal microaneurysms (binary) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUHEM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000132,
+    "notes": "Retinal blot hemorrhages (binary) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUHE",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000133,
+    "notes": "Retinal hard exudate (ordinal) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUSE",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000134,
+    "notes": "Retinal soft exudate (ordinal) \u2013 worse eye"
+  },
+  {
+    "nhanes_var": "OPDUIRMA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Intraretinal microvascular abnormalities severity in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUVB",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Retinal venous beading severity in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUNVO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "New vessels on disc severity in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUNVE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "New vessels elsewhere severity in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDURFP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Retinal fibrous proliferation severity in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUPHVH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Pre-retinal/vitreous hemorrhage severity in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUME",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Macular edema presence in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUMEC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Central macular edema in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUPPS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Panretinal photocoagulation scar in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUFOC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Focal photocoagulation scars for macular edema in diabetic retinopathy"
+  },
+  {
+    "nhanes_var": "OPDUARM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Age\u2011related macular degeneration severity"
+  },
+  {
+    "nhanes_var": "OPDUPIGA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Retinal pigmentary abnormalities"
+  },
+  {
+    "nhanes_var": "OPDULARM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Late age\u2011related macular degeneration"
+  },
+  {
+    "nhanes_var": "OPDUGA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Geographic atrophy in age\u2011related macular degeneration"
+  },
+  {
+    "nhanes_var": "OPDUEXU",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Exudative age\u2011related macular degeneration"
+  },
+  {
+    "nhanes_var": "OPDUHD",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864000,
+    "notes": "Hard distinct drusen in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUD125",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864001,
+    "notes": "Drusen \u2265125\u202f\u00b5m in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUD500",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864001,
+    "notes": "Drusen \u2265500\u202f\u00b5m in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUASD",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864001,
+    "notes": "Any soft drusen in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUSDD",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864001,
+    "notes": "Soft distinct drusen in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUSID",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864001,
+    "notes": "Soft indistinct drusen in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUIRP",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864003,
+    "notes": "Increased retinal pigment in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDURPE",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864003,
+    "notes": "RPE depigmentation in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUAGA",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864002,
+    "notes": "Any geographic atrophy in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUPED",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864004,
+    "notes": "RPE/sensory retinal detachment in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUSNV",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864005,
+    "notes": "Subretinal new vessels in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUSUBH",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864006,
+    "notes": "Subretinal hemorrhage in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUSFS",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864007,
+    "notes": "Subretinal fibrous scar in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUARMX",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864008,
+    "notes": "Treatment for age\u2011related macular degeneration in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUBCO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 3864009,
+    "notes": "Retinal artery occlusion in the worse eye"
+  },
+  {
+    "nhanes_var": "OPDUBVO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380001,
+    "notes": "Retinal branch vein occlusion (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUCVO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380002,
+    "notes": "Retinal central vein occlusion (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUAVN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380003,
+    "notes": "Retinal arteriovenous nicking (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUFAN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380004,
+    "notes": "Focal arteriolar narrowing (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUHOLL",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380005,
+    "notes": "Hollenhorst plaque (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUPPA",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380006,
+    "notes": "Peripapillary atrophy (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUASHY",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380007,
+    "notes": "Asteroid hyalosis (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUCHRA",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380008,
+    "notes": "Chorioretinal abnormality (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUMACH",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380009,
+    "notes": "Macular hole (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUCHN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380010,
+    "notes": "Choroidal nevus (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUOTRX",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": null,
+    "notes": "Any other eye treatment (worse eye) \u2013 no standard OMOP concept; placeholder for procedure."
+  },
+  {
+    "nhanes_var": "OPDUPOHS",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380011,
+    "notes": "Histoplasmosis syndrome affecting eye (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDURDET",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380012,
+    "notes": "Retinal detachment (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUSWR",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380013,
+    "notes": "Cellophane (swelling) changes (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUSWRT",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380014,
+    "notes": "Traction changes (swelling) (worse eye) mapped to OMOP condition concept."
+  },
+  {
+    "nhanes_var": "OPDUOTHC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Other ocular conditions in the worse eye; stored as an observation with a condition concept."
+  },
+  {
+    "nhanes_var": "OPDDRET",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Retinopathy level for the right eye; severity level stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDRL4",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Four\u2011level retinopathy severity for the right eye; severity level stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDARMA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of any retinopathy in the right eye; value_as_concept_id = 3800355 (yes) or 3800356 (no)."
+  },
+  {
+    "nhanes_var": "OPDDHMA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of macular edema/hemorrhage severity in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDMA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of retinal microaneurysms in the right eye; value_as_concept_id = 3800355/3800356."
+  },
+  {
+    "nhanes_var": "OPDDHEM",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of retinal blot hemorrhages in the right eye; value_as_concept_id = 3800355/3800356."
+  },
+  {
+    "nhanes_var": "OPDDHE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of retinal hard exudate severity in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDSE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of retinal soft exudate severity in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDIRMA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of intraretinal microvascular abnormalities (IRMA) in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDVB",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of retinal venous beading in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDNVO",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of new vessels on the optic disc in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDNVE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of new vessels elsewhere in the retina in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDRFP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Categorical indicator of retinal fibrous proliferation in the right eye; category stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDPHVH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Ordinal measure of pre\u2011retinal or vitreous hemorrhage severity in the right eye; severity stored in value_as_concept_id."
+  },
+  {
+    "nhanes_var": "OPDDME",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Macular edema in right eye; recorded as an observation with concept \"Macular edema\"."
+  },
+  {
+    "nhanes_var": "OPDDMEC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000109,
+    "notes": "Central macular edema in right eye; observation concept \"Central macular edema\"."
+  },
+  {
+    "nhanes_var": "OPDDPPS",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000110,
+    "notes": "Panretinal photocoagulation scar in right eye; observation concept \"Panretinal photocoagulation scar\"."
+  },
+  {
+    "nhanes_var": "OPDDFOC",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000111,
+    "notes": "Focal photocoagulation scars for macular edema in right eye; observation concept \"Focal photocoagulation scar\"."
+  },
+  {
+    "nhanes_var": "OPDDARM",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000112,
+    "notes": "Age\u2011related macular degeneration (ARM) severity; condition_occurrence with concept \"Age\u2011related macular degeneration\"."
+  },
+  {
+    "nhanes_var": "OPDDPIGA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000114,
+    "notes": "Retinal pigmentary abnormalities in right eye; observation concept \"Retinal pigmentary abnormality\"."
+  },
+  {
+    "nhanes_var": "OPDDLARM",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000115,
+    "notes": "Late age\u2011related macular degeneration in right eye; observation concept \"Late age\u2011related macular degeneration\"."
+  },
+  {
+    "nhanes_var": "OPDDGA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000116,
+    "notes": "Geographic atrophy in right eye; observation concept \"Geographic atrophy\"."
+  },
+  {
+    "nhanes_var": "OPDDEXU",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000117,
+    "notes": "Exudative age\u2011related macular degeneration in right eye; observation concept \"Exudative age\u2011related macular degeneration\"."
+  },
+  {
+    "nhanes_var": "OPDDDAREX",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000118,
+    "notes": "Excluded for age\u2011related macular degeneration in right eye; observation concept \"Excluded for age\u2011related macular degeneration\"."
+  },
+  {
+    "nhanes_var": "OPDDREA",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000119,
+    "notes": "Reason for ARM exclusion in right eye; observation concept \"Reason for ARM exclusion\"."
+  },
+  {
+    "nhanes_var": "OPDDHD",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000120,
+    "notes": "Hard distinct drusen in right eye; observation concept \"Hard distinct drusen\"."
+  },
+  {
+    "nhanes_var": "OPDDD125",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000121,
+    "notes": "Drusen \u2265125 microns in right eye; observation concept \"Drusen \u2265125 microns\"."
+  },
+  {
+    "nhanes_var": "OPDDD500",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000122,
+    "notes": "Drusen \u2265500 microns in right eye; observation concept \"Drusen \u2265500 microns\"."
+  },
+  {
+    "nhanes_var": "OPDDASD",
+    "omop_table": "observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000123,
+    "notes": "Any soft drusen in right eye; observation concept \"Soft drusen\"."
+  },
+  {
+    "nhanes_var": "OPDDSDD",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Soft distinct drusen, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDSID",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Soft indistinct drusen, same concept as drusen"
+  },
+  {
+    "nhanes_var": "OPDDIRP",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000120,
+    "notes": "Increased retinal pigment, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDRPE",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000121,
+    "notes": "RPE depigmentation, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDAGA",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000109,
+    "notes": "Any geographic atrophy, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDPED",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000110,
+    "notes": "RPE/sensory retinal detachment, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDSNV",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000111,
+    "notes": "Subretinal new vessels, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDSUBH",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000112,
+    "notes": "Subretinal hemorrhage, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDSFS",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000113,
+    "notes": "Subretinal fibrous scar, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDARMX",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000114,
+    "notes": "Treatment for age-related macular degeneration, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDBCO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000115,
+    "notes": "Retinal artery occlusion, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDBVO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000116,
+    "notes": "Retinal branch vein occlusion, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDCVO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000117,
+    "notes": "Retinal central vein occlusion, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDAVN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000118,
+    "notes": "Retinal AV nicking, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDFAN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000119,
+    "notes": "Focal arteriolar narrowing, eye condition"
+  },
+  {
+    "nhanes_var": "OPDDHOLL",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Presence of Hollenhorst plaque in right eye"
+  },
+  {
+    "nhanes_var": "OPDDPPA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Peripapillary atrophy in right eye"
+  },
+  {
+    "nhanes_var": "OPDDASHY",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000109,
+    "notes": "Asteroid hyalosis in right eye"
+  },
+  {
+    "nhanes_var": "OPDDCHRA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000110,
+    "notes": "Chorioretinal abnormality in right eye"
+  },
+  {
+    "nhanes_var": "OPDDMACH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000111,
+    "notes": "Macular hole in right eye"
+  },
+  {
+    "nhanes_var": "OPDDCHN",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000112,
+    "notes": "Choroidal nevus in right eye"
+  },
+  {
+    "nhanes_var": "OPDDOTRX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000113,
+    "notes": "Any other ocular treatment in right eye"
+  },
+  {
+    "nhanes_var": "OPDDPOHS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000114,
+    "notes": "Histoplasmosis syndrome in right eye"
+  },
+  {
+    "nhanes_var": "OPDDRDET",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000115,
+    "notes": "Retinal detachment in right eye"
+  },
+  {
+    "nhanes_var": "OPDDSWR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000116,
+    "notes": "SW cellophane changes in right eye"
+  },
+  {
+    "nhanes_var": "OPDDSWRT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000117,
+    "notes": "SW traction changes in right eye"
+  },
+  {
+    "nhanes_var": "OPDDOTHC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000118,
+    "notes": "Other ocular conditions in right eye"
+  },
+  {
+    "nhanes_var": "OPDDVCDR",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000119,
+    "notes": "Vertical cup disc ratio (continuous) in right eye"
+  },
+  {
+    "nhanes_var": "OPXDQUAL",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000120,
+    "notes": "Quality of right eye exam (ordinal)"
+  },
+  {
+    "nhanes_var": "OPXDRCDR",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": 38000121,
+    "notes": "Vertical CDR re-read images (continuous)"
+  },
+  {
+    "nhanes_var": "OPXDGLAU",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 380001,
+    "notes": "Glaucoma diagnosis in right eye"
+  },
+  {
+    "nhanes_var": "OPXDHEME",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Disc hemorrhage presence in right eye"
+  },
+  {
+    "nhanes_var": "OPXDSIZE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Optic disc size in right eye"
+  },
+  {
+    "nhanes_var": "OPDDEXC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Optic disc excavation in right eye"
+  },
+  {
+    "nhanes_var": "OPDDNOT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Optic disc notch in right eye"
+  },
+  {
+    "nhanes_var": "OPDDTIL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Optic disc tilt in right eye"
+  },
+  {
+    "nhanes_var": "OPXSCOMP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Presence of fields 1 & 2 in left eye"
+  },
+  {
+    "nhanes_var": "OPXSF1",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Field 1 present in left eye"
+  },
+  {
+    "nhanes_var": "OPXSF1FO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Field 1 focus in left eye"
+  },
+  {
+    "nhanes_var": "OPXSF2",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Field 2 present in left eye"
+  },
+  {
+    "nhanes_var": "OPXSF2FO",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Field 2 focus in left eye"
+  },
+  {
+    "nhanes_var": "OPXSGRBL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Gradability of images in left eye"
+  },
+  {
+    "nhanes_var": "OPXSPMM",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Pupil size in left eye"
+  },
+  {
+    "nhanes_var": "OPXSPHPR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Photo problems in left eye"
+  },
+  {
+    "nhanes_var": "OPXSPHIL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Photo illumination problems in left eye"
+  },
+  {
+    "nhanes_var": "OPXSPHFD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of photo field definition quality for left eye; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPXSPHHZ",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of haze in left eye photo; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPXSPHDD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of dust/dirt in left eye photo; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPXSPHLA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of lashes in left eye photo; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPXSPHAR",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of arc in left eye photo; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPXSPHRC",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of red channel quality in left eye photo; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPXSPHOT",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of other photo quality issues in left eye; no standard OMOP concept"
+  },
+  {
+    "nhanes_var": "OPDSRET",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Ordinal retinopathy severity level for left eye; mapped to concept 'Diabetic retinopathy'"
+  },
+  {
+    "nhanes_var": "OPDSRL4",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000107,
+    "notes": "Four\u2011level retinopathy severity for left eye; same concept as OPDSRET"
+  },
+  {
+    "nhanes_var": "OPDSARMA",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000107,
+    "notes": "Binary indicator of any retinopathy in left eye; mapped to 'Diabetic retinopathy'"
+  },
+  {
+    "nhanes_var": "OPDSHMA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000108,
+    "notes": "Ordinal severity of microaneurysms/hemorrhages in left eye; concept 'Retinal microaneurysms'"
+  },
+  {
+    "nhanes_var": "OPDSMA",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000108,
+    "notes": "Binary presence of retinal microaneurysms in left eye"
+  },
+  {
+    "nhanes_var": "OPDSHEM",
+    "omop_table": "ConditionOccurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 38000109,
+    "notes": "Binary presence of retinal blot hemorrhages in left eye"
+  },
+  {
+    "nhanes_var": "OPDSHE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000110,
+    "notes": "Ordinal severity of hard exudates in left eye; concept 'Retinal hard exudate'"
+  },
+  {
+    "nhanes_var": "OPDSSE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 38000111,
+    "notes": "Ordinal severity of soft exudates in left eye; concept 'Retinal soft exudate'"
+  },
+  {
+    "nhanes_var": "OPDSIRMA",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000000,
+    "notes": "Intraretinal microvascular abnormalities (IRMA) in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSVB",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000001,
+    "notes": "Retinal venous beading in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSNVO",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000002,
+    "notes": "New vessels on disc in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSNVE",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000003,
+    "notes": "New vessels elsewhere in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSRFP",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000004,
+    "notes": "Retinal fibrous proliferation in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSPHVH",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000005,
+    "notes": "Pre\u2011retinal/vitreous hemorrhage in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSME",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000006,
+    "notes": "Macular edema in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSMEC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000007,
+    "notes": "Macular edema in center of left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSPPS",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000008,
+    "notes": "Panretinal photocoagulation scar in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSFOC",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000009,
+    "notes": "Focal photocoagulation scars for macular edema in left eye; ordinal severity"
+  },
+  {
+    "nhanes_var": "OPDSARM",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000010,
+    "notes": "Age\u2011related macular degeneration (ARM) severity levels in left eye; ordinal"
+  },
+  {
+    "nhanes_var": "OPDSPIGA",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000011,
+    "notes": "Retinal pigmentary abnormalities in left eye; binary (present/absent)"
+  },
+  {
+    "nhanes_var": "OPDSLARM",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000012,
+    "notes": "Late stage ARM in left eye; binary"
+  },
+  {
+    "nhanes_var": "OPDSGA",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000013,
+    "notes": "Geographic atrophy in left eye; binary"
+  },
+  {
+    "nhanes_var": "OPDSEXU",
+    "omop_table": "Observation",
+    "omop_field": "value_as_number",
+    "concept_id": 38000014,
+    "notes": "Exudative ARM in left eye; binary"
+  },
+  {
+    "nhanes_var": "OPDSAREX",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800020,
+    "notes": "Binary flag indicating exclusion for Age-Related Macular Degeneration (ARM) in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSREA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800019,
+    "notes": "Categorical reason for ARM exclusion in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSHD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800010,
+    "notes": "Presence of hard distinct drusen in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSD125",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800021,
+    "notes": "Drusen \u2265125 microns present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSD500",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800022,
+    "notes": "Drusen \u2265500 microns present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSASD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800025,
+    "notes": "Any soft drusen present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSSDD",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800024,
+    "notes": "Soft distinct drusen present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSSID",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800023,
+    "notes": "Soft indistinct drusen present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSIRP",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800016,
+    "notes": "Increased retinal pigment noted in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSRPE",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800017,
+    "notes": "RPE depigmentation observed in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSAGA",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800026,
+    "notes": "Any geographic atrophy present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSPED",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800018,
+    "notes": "RPE/sensory retinal detachment noted in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSSNV",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800027,
+    "notes": "Subretinal new vessels present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSSUBH",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800028,
+    "notes": "Subretinal hemorrhage observed in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSSFS",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 3800029,
+    "notes": "Subretinal fibrous scar present in the left eye."
+  },
+  {
+    "nhanes_var": "OPDSARMX",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 386675002,
+    "notes": "Treatment for retinal artery occlusion (ARM) mapped to procedure concept"
+  },
+  {
+    "nhanes_var": "OPDSBCO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386661006,
+    "notes": "Retinal artery occlusion (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSBVO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386662003,
+    "notes": "Retinal branch vein occlusion (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSCVO",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386663001,
+    "notes": "Retinal central vein occlusion (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSAVN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386664000,
+    "notes": "Retinal arteriovenous nicking (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSFAN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386665004,
+    "notes": "Focal arteriolar narrowing (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSHOLL",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386666003,
+    "notes": "Hollenhorst plaque (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSPPA",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386667009,
+    "notes": "Peripapillary atrophy (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSASHY",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386668005,
+    "notes": "Asteroid hyalosis (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSCHRA",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386669002,
+    "notes": "Chorioretinal abnormality (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSMACH",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386670001,
+    "notes": "Macular hole (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSCHN",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386671002,
+    "notes": "Choroidal nevus (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSOTRX",
+    "omop_table": "procedure_occurrence",
+    "omop_field": "procedure_concept_id",
+    "concept_id": 386676001,
+    "notes": "Any other ocular treatment (left eye) mapped to procedure"
+  },
+  {
+    "nhanes_var": "OPDSPOHS",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386672009,
+    "notes": "Histoplasmosis syndrome of eye (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSRDET",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": 386673004,
+    "notes": "Retinal detachment (left eye) condition"
+  },
+  {
+    "nhanes_var": "OPDSSWR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Cellophane changes in left eye, ordinal observation"
+  },
+  {
+    "nhanes_var": "OPDSSWRT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Traction changes in left eye, ordinal observation"
+  },
+  {
+    "nhanes_var": "OPDSOTHC",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Other ocular conditions in left eye, coded as condition"
+  },
+  {
+    "nhanes_var": "OPDSVCDR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vertical cup-to-disc ratio in left eye, continuous measurement"
+  },
+  {
+    "nhanes_var": "OPXSQUAL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Image quality for left eye, ordinal measurement"
+  },
+  {
+    "nhanes_var": "OPXSRCDR",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Vertical cup-to-disc ratio from re-read images, left eye, continuous measurement"
+  },
+  {
+    "nhanes_var": "OPXSGLAU",
+    "omop_table": "condition_occurrence",
+    "omop_field": "condition_concept_id",
+    "concept_id": null,
+    "notes": "Glaucoma diagnosis in left eye, coded as condition"
+  },
+  {
+    "nhanes_var": "OPXSHEME",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Disc hemorrhage in left eye, ordinal observation"
+  },
+  {
+    "nhanes_var": "OPXSSIZE",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Disc size in left eye, ordinal observation"
+  },
+  {
+    "nhanes_var": "OPDSEXC",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Disc excavation in left eye, ordinal observation"
+  },
+  {
+    "nhanes_var": "OPDSNOT",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Disc notch in left eye, categorical observation"
+  },
+  {
+    "nhanes_var": "OPDSTIL",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Disc tilt in left eye, binary observation"
+  }
+]

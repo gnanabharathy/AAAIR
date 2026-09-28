@@ -83,7 +83,7 @@ BINARY_FLAG_FIELDS = [
 SOURCE_VALUE_ONLY_FIELDS = ["nurse", "site", "device", "validated_by"]
 
 # Free-text-as-string observation fields
-STRING_OBSERVATION_FIELDS = ["heart_axis", "infarction_stadium1", "infarction_stadium2", "strat_fold"]
+STRING_OBSERVATION_FIELDS = ["heart_axis", "infarction_stadium1", "infarction_stadium2", "strat_fold", "extra_beats"]
 
 
 def load_mapping():
@@ -156,12 +156,21 @@ def build_person_rows(db, id_start):
 
 
 def build_measurement_rows(db, patient_to_person_id, id_start):
-    """age, height, weight, extra_beats -> value_as_number, per mapping."""
+    """age, height, weight -> value_as_number, per mapping.
+
+    extra_beats is deliberately excluded here -- its real values are
+    categorical beat-type codes (e.g. '1ES', 'VES', 'SVES'), not
+    numbers, so it's handled as a string observation instead (see
+    build_observation_rows). An earlier version of this function tried
+    safe_float() on extra_beats and silently dropped every one of its
+    1,949 non-null values as "malformed" -- they were never malformed,
+    just the wrong field type for this function.
+    """
     rows = []
     next_id = id_start
     skipped_malformed = 0
 
-    fields = [("height", "cm"), ("weight", "kg"), ("extra_beats", None), ("age", "years")]
+    fields = [("height", "cm"), ("weight", "kg"), ("age", "years")]
 
     for ecg_id, record in db.iterrows():
         person_id = patient_to_person_id[record["patient_id"]]
@@ -452,5 +461,81 @@ def main():
     print("\nDone.")
 
 
+def backfill_extra_beats():
+    """
+    One-off backfill: inserts the 1,949 extra_beats observation rows
+    that were silently dropped by an earlier version of
+    build_measurement_rows (which tried to convert extra_beats'
+    categorical beat-type codes to a number and failed on every one).
+
+    Does NOT touch person/measurement/condition_occurrence/note or any
+    already-correct observation rows -- it reuses the EXISTING
+    patient_id -> person_id mapping already in the database (via
+    person.person_source_value) rather than rebuilding person rows,
+    to avoid creating duplicate people.
+
+    Usage: python3 etl_ptbxl_v2.py --backfill-extra-beats
+    """
+    print("Loading ptbxl_database.csv ...")
+    db = pd.read_csv(DATABASE_CSV, index_col="ecg_id")
+
+    conn = psycopg2.connect(**DB_CONFIG)
+    cur = conn.cursor()
+
+    # Reuse the EXISTING person_id mapping from the database instead of
+    # regenerating new person rows.
+    cur.execute("SELECT person_source_value, person_id FROM person")
+    patient_to_person_id = {
+        int(source_value): person_id
+        for source_value, person_id in cur.fetchall()
+        if source_value is not None
+    }
+    print(f"Loaded {len(patient_to_person_id)} existing person mappings.")
+
+    # Guard against double-inserting if this is run more than once.
+    cur.execute(
+        "SELECT COUNT(*) FROM observation WHERE observation_source_value = 'extra_beats'"
+    )
+    existing = cur.fetchone()[0]
+    if existing > 0:
+        print(f"Found {existing} existing extra_beats rows already -- "
+              f"aborting to avoid duplicates. Delete them first if you "
+              f"intend to re-backfill.")
+        conn.close()
+        return
+
+    next_id = get_next_id_start(conn, "observation", "observation_id")
+    rows = []
+    for ecg_id, record in db.iterrows():
+        raw_value = record.get("extra_beats")
+        if pd.isna(raw_value):
+            continue
+        patient_id = record["patient_id"]
+        if patient_id not in patient_to_person_id:
+            print(f"  WARNING: no person_id found for patient_id={patient_id}, skipping")
+            continue
+        record_date = parse_date(record.get("recording_date")) or date(1970, 1, 1)
+        rows.append({
+            "observation_id": next_id,
+            "person_id": patient_to_person_id[patient_id],
+            "observation_concept_id": UNMAPPED_CONCEPT_ID,
+            "observation_date": record_date,
+            "observation_type_concept_id": UNMAPPED_CONCEPT_ID,
+            "value_as_number": None,
+            "value_as_string": str(raw_value),
+            "observation_source_value": "extra_beats",
+        })
+        next_id += 1
+
+    print(f"Prepared {len(rows)} extra_beats observation rows. Inserting...")
+    insert_observations(conn, rows)
+    conn.close()
+    print("Done.")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == '--backfill-extra-beats':
+        backfill_extra_beats()
+    else:
+        main()

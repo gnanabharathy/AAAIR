@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Review: nhanes-laboratory-pah_d-2005</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { padding: 0; }
+  /* Top bar */
+  .review-bar {
+    position: sticky; top: 0; z-index: 50;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 24px;
+    background: var(--bg);
+    border-bottom: 0.5px solid var(--border);
+  }
+  .review-bar-left { display: flex; align-items: center; gap: 12px; }
+  .review-badge {
+    font-size: 10px; font-weight: 600; letter-spacing: .06em;
+    text-transform: uppercase; padding: 3px 9px; border-radius: 20px;
+    background: var(--bg3); color: var(--text2);
+  }
+  .review-id { font-size: 14px; font-weight: 500; color: var(--text); }
+  .count-pill {
+    font-size: 11px; font-weight: 500; padding: 3px 10px;
+    border-radius: 20px; background:#E1F5EE;color:#0F6E56
+  }
+  .review-bar-right { display: flex; align-items: center; gap: 16px; font-size: 12px; color: var(--text3); }
+  .review-bar-right a { color: #378ADD; text-decoration: none; }
+  /* Split layout */
+  .split { display: flex; height: calc(100vh - 45px); overflow: hidden; }
+  .left-pane {
+    flex: 1.1; border-right: 0.5px solid var(--border);
+    display: flex; flex-direction: column;
+  }
+  .pane-label {
+    padding: 7px 14px; font-size: 10px; font-weight: 500; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--text3);
+    border-bottom: 0.5px solid var(--border);
+    background: var(--bg2);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .pane-label a { font-size: 11px; color: #378ADD; text-decoration: none; text-transform: none; letter-spacing: 0; }
+  iframe { flex: 1; border: none; width: 100%; }
+  .right-pane { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+  .right-pane-inner { flex: 1; overflow-y: auto; padding: 0 }
+  /* Search */
+  .tbl-toolbar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 14px; border-bottom: 0.5px solid var(--border);
+    background: var(--bg2);
+  }
+  .tbl-search {
+    flex: 1; max-width: 280px;
+    padding: 5px 10px; border: 0.5px solid var(--border);
+    border-radius: 6px; font-size: 12px;
+    background: var(--bg); color: var(--text); outline: none;
+  }
+  .tbl-search:focus { border-color: #378ADD; }
+  .var-count { font-size: 11px; color: var(--text3); }
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  thead th {
+    position: sticky; top: 0; z-index: 5;
+    padding: 7px 10px; text-align: left;
+    font-size: 10px; font-weight: 500; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--text2);
+    background: var(--bg2); border-bottom: 0.5px solid var(--border);
+    white-space: nowrap;
+  }
+  tbody tr { border-bottom: 0.5px solid var(--border); }
+  tbody tr:hover { background: var(--bg2); }
+  td { padding: 7px 10px; vertical-align: top; line-height: 1.5; }
+  code {
+    background: var(--bg3); padding: 1px 4px;
+    border-radius: 3px; font-size: 10px; color: var(--text2);
+  }
+</style>
+</head>
+<body>
+
+<div class="review-bar">
+  <div class="review-bar-left">
+    <span class="review-badge">Review</span>
+    <span class="review-id">nhanes-laboratory-pah_d-2005</span>
+    <span class="count-pill">Count matches: 23 / 23</span>
+  </div>
+  <div class="review-bar-right">
+    <span>Last Updated: <strong style="color:var(--text)">November 2024</strong></span>
+    <a href="https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAH_D.htm" target="_blank">https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAH_D.htm ↗</a>
+  </div>
+</div>
+
+<div class="split">
+  <div class="left-pane">
+    <div class="pane-label">
+      Original documentation page
+      <a href="https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAH_D.htm" target="_blank">open in new tab ↗</a>
+    </div>
+    <iframe src="https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAH_D.htm"></iframe>
+  </div>
+
+  <div class="right-pane">
+    <div class="tbl-toolbar">
+      <input class="tbl-search" id="srch" placeholder="Filter variables…"
+             oninput="filterTable(this.value)">
+      <span class="var-count">23 variables extracted</span>
+    </div>
+    <div class="right-pane-inner">
+      <table id="vtbl">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Label / English Text</th>
+            <th>Target</th>
+            <th>Values</th>
+            <th>Type</th>
+            <th>Unit</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>SEQN</td><td><strong>Respondent sequence number</strong><br><span style='color:var(--text3);font-size:11px'>Respondent sequence number.</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'>—</td><td><span class='tb tb-i'>Identifier</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Use as unique respondent ID for merging datasets.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>WTSB2YR</td><td><strong>Environmental B 2 year weights</strong><br><span style='color:var(--text3);font-size:11px'>Environmental B 2 year weights</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0 to 486352.50255</code>&nbsp;Range of Values&nbsp;(n=2,638)<br><code>.</code>&nbsp;Missing&nbsp;(n=0)</td><td><span class='tb tb-i'>Weight/Design</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Apply to analyses to account for survey design; use with appropriate variance estimation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP01</td><td><strong>1-hydroxynaphthalene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>1-hydroxynaphthalene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>33.9 to 27066310.1</code>&nbsp;Range of Values&nbsp;(n=2,385)<br><code>.</code>&nbsp;Missing&nbsp;(n=253)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Highly skewed; consider log transformation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP01LC</td><td><strong>1-hydroxynaphthalene comment code</strong><br><span style='color:var(--text3);font-size:11px'>1-hydroxynaphthalene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,381)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=4)<br><code>.</code>&nbsp;Missing&nbsp;(n=253)</td><td><span class='tb tb-c'>Binary</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>0 = detected, 1 = below LOD; use to flag censored values.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP02</td><td><strong>2-hydroxynaphthalene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>2-hydroxynaphthalene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>9.3 to 590676</code>&nbsp;Range of Values&nbsp;(n=2,446)<br><code>.</code>&nbsp;Missing&nbsp;(n=192)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Consider log transformation due to skewness.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP02LC</td><td><strong>2-hydroxynaphthalene comment code</strong><br><span style='color:var(--text3);font-size:11px'>2-hydroxynaphthalene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,445)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=1)<br><code>.</code>&nbsp;Missing&nbsp;(n=192)</td><td><span class='tb tb-c'>Binary</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>0 = detected, 1 = below LOD.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP03</td><td><strong>3-hydroxyfluorene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>3-hydroxyfluorene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>3.5 to 23854.6</code>&nbsp;Range of Values&nbsp;(n=2,398)<br><code>.</code>&nbsp;Missing&nbsp;(n=240)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Consider log transformation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP03LC</td><td><strong>3-hydroxyfluorene comment code</strong><br><span style='color:var(--text3);font-size:11px'>3-hydroxyfluorene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,393)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=5)<br><code>.</code>&nbsp;Missing&nbsp;(n=240)</td><td><span class='tb tb-c'>Binary</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>0 = detected, 1 = below LOD.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP04</td><td><strong>2-hydroxyfluorene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>2-hydroxyfluorene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>6.6 to 16311.8</code>&nbsp;Range of Values&nbsp;(n=2,431)<br><code>.</code>&nbsp;Missing&nbsp;(n=207)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Consider log transformation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP04LC</td><td><strong>2-hydroxyfluorene comment code</strong><br><span style='color:var(--text3);font-size:11px'>2-hydroxyfluorene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,431)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=0)<br><code>.</code>&nbsp;Missing&nbsp;(n=207)</td><td><span class='tb tb-c'>Binary</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>0 = detected, 1 = below LOD.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP05</td><td><strong>3-hydroxyphenanthrene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>3-hydroxyphenanthrene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>3.5 to 11027.9</code>&nbsp;Range of Values&nbsp;(n=2,448)<br><code>.</code>&nbsp;Missing&nbsp;(n=190)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Consider log transformation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP05LC</td><td><strong>3-hydroxyphenanthrene comment code</strong><br><span style='color:var(--text3);font-size:11px'>3-hydroxyphenanthrene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,444)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=4)<br><code>.</code>&nbsp;Missing&nbsp;(n=190)</td><td><span class='tb tb-c'>Binary</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>0 = detected, 1 = below LOD.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP06</td><td><strong>1-hydroxyphenanthrene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>1-hydroxyphenanthrene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>3.5 to 10427.4</code>&nbsp;Range of Values&nbsp;(n=2,449)<br><code>.</code>&nbsp;Missing&nbsp;(n=189)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Consider log transformation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP06LC</td><td><strong>1-hydroxyphenanthrene comment code</strong><br><span style='color:var(--text3);font-size:11px'>1-hydroxyphenanthrene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,448)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=1)<br><code>.</code>&nbsp;Missing&nbsp;(n=189)</td><td><span class='tb tb-c'>Binary</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>0 = detected, 1 = below LOD.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP07</td><td><strong>2-hydroxyphenanthrene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>2-hydroxyphenanthrene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>3.5 to 6336.7</code>&nbsp;Range of Values&nbsp;(n=2,410)<br><code>.</code>&nbsp;Missing&nbsp;(n=228)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Consider log transformation.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP07LC</td><td><strong>2-hydroxyphenanthrene comment code</strong><br><span style='color:var(--text3);font-size:11px'>2-hydroxyphenanthrene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,402)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=8)<br><code>.</code>&nbsp;Missing&nbsp;(n=228)</td><td><span class='tb tb-c'>Categorical</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Use the comment code to identify values at or below the detection limit; treat code 1 as below LOD and code 0 as detectable.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP10</td><td><strong>1-hydroxypyrene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>1-hydroxypyrene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>3.5 to 12517.9</code>&nbsp;Range of Values&nbsp;(n=2,415)<br><code>.</code>&nbsp;Missing&nbsp;(n=223)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Values are reported in ng/L; consider censoring or imputation for values below the detection limit indicated by the comment code.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP10LC</td><td><strong>1-hydroxypyrene comment code</strong><br><span style='color:var(--text3);font-size:11px'>1-hydroxypyrene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,411)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=4)<br><code>.</code>&nbsp;Missing&nbsp;(n=223)</td><td><span class='tb tb-c'>Categorical</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Comment code indicates detection status; code 1 means the measured value is below the lower detection limit.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP17</td><td><strong>9-hydroxyfluorene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>9-hydroxyfluorene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>12.3 to 30562.7</code>&nbsp;Range of Values&nbsp;(n=2,422)<br><code>.</code>&nbsp;Missing&nbsp;(n=216)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Range of values provided; apply appropriate handling for values below LOD using the associated comment code.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP17LC</td><td><strong>9-hydroxyfluorene comment code</strong><br><span style='color:var(--text3);font-size:11px'>9-hydroxyfluorene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,422)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=0)<br><code>.</code>&nbsp;Missing&nbsp;(n=216)</td><td><span class='tb tb-c'>Categorical</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>All values are at or above the detection limit; no values below LOD for this analyte.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXP19</td><td><strong>4-hydroxyphenanthrene (ng/L)</strong><br><span style='color:var(--text3);font-size:11px'>4-hydroxyphenanthrene (ng/L)</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>3.5 to 2235.1</code>&nbsp;Range of Values&nbsp;(n=2,131)<br><code>.</code>&nbsp;Missing&nbsp;(n=507)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>ng/L</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Values span a wide range; consider log transformation for statistical analysis.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URDP19LC</td><td><strong>4-hydroxyphenanthrene comment code</strong><br><span style='color:var(--text3);font-size:11px'>4-hydroxyphenanthrene comment code</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>0</code>&nbsp;At or above the detection limit&nbsp;(n=2,049)<br><code>1</code>&nbsp;Below lower detection limit&nbsp;(n=82)<br><code>.</code>&nbsp;Missing&nbsp;(n=507)</td><td><span class='tb tb-c'>Categorical</span></td><td style='color:var(--text2)'>—</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Comment code indicates detection status; code 1 denotes values below the lower detection limit.</td></tr><tr><td style='font-family:monospace;font-weight:500;white-space:nowrap'>URXUCR</td><td><strong>Urinary creatinine</strong><br><span style='color:var(--text3);font-size:11px'>Urinary creatinine</span></td><td style='color:var(--text2)'>Both males and females 6 YEARS -
+			150 YEARS</td><td style='font-size:11px'><code>5 to 608</code>&nbsp;Range of Values&nbsp;(n=2,565)<br><code>.</code>&nbsp;Missing&nbsp;(n=73)</td><td><span class='tb tb-f'>Continuous</span></td><td style='color:var(--text2)'>mg/dL</td><td style='color:var(--text3);font-size:11px;font-style:italic'>Urinary creatinine is reported in mg/dL; use it to adjust for urine dilution when analyzing other urinary biomarkers.</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+  function filterTable(q) {
+    q = q.toLowerCase();
+    document.querySelectorAll('#vtbl tbody tr').forEach(function(tr) {
+      tr.style.display = tr.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+</script>
+</body>
+</html>

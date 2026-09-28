@@ -111,6 +111,8 @@
         <div style="display:flex;align-items:center;gap:12px">
           <!-- <a class="doc-link" id="dqd-link" href="#" style="display:none">View DQD Report →</a> -->
           <a class="doc-link" id="doc-link" href="#" target="_blank">View documentation ↗</a>
+          <a class="doc-link" id="fuji-link" href="#" target="_blank"
+             style="cursor:pointer" onclick="return checkFairness()">Check FAIRness ↗</a>
           <button id="dqd-btn" onclick="runDQD()"
             style="font-size:12px;padding:4px 12px;border-radius:6px;
                    border:0.5px solid var(--border);background:var(--bg2);
@@ -179,6 +181,16 @@
     }
 
     function fetchSchema(ds) {
+      if (ds.source === 'MIMIC-IV') {
+        document.getElementById('dqd-btn').style.display = 'none';
+        document.getElementById('schema-body').innerHTML =
+          '<div class="empty" style="padding:32px 24px;line-height:1.6">' +
+          'This dataset requires credentialed access through PhysioNet and its data ' +
+          'cannot be redistributed here. Its variable schema and data quality report ' +
+          'are not available in this tool — use the "View documentation" link above ' +
+          'to view the official dataset page and request access.</div>';
+        return;
+      }
       if (ds.source === 'PHIDU') {
         fetch('http://localhost:8765/api/phidu/data/' + encodeURIComponent(ds.id))
         .then(async r => {
@@ -490,6 +502,32 @@ function categoryCard(label, total, failed, passed) {
 
 function closeDQD() {
   document.getElementById('dqd-pane').style.width = '0';
+}
+
+function checkFairness() {
+  if (!ds || !ds.docUrl) return false;
+  const link = document.getElementById('fuji-link');
+  const originalText = link.textContent;
+
+  const showCopied = () => {
+    link.textContent = 'Copied — paste it in ↗';
+    setTimeout(() => { link.textContent = originalText; }, 2000);
+  };
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(ds.docUrl).then(showCopied).catch(() => {});
+  } else {
+    // fallback for older browsers
+    const tmp = document.createElement('textarea');
+    tmp.value = ds.docUrl;
+    document.body.appendChild(tmp);
+    tmp.select();
+    try { document.execCommand('copy'); showCopied(); } catch (e) {}
+    document.body.removeChild(tmp);
+  }
+
+  link.href = 'https://www.f-uji.net/?action=test';
+  return true; // let the link's normal navigation (target="_blank") proceed
 }
 
   </script>

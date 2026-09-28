@@ -1,0 +1,107 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Respondent sequence number mapped to OMOP person identifier"
+  },
+  {
+    "nhanes_var": "PAXDAYD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Day number of PAM measurements stored as a measurement concept"
+  },
+  {
+    "nhanes_var": "PAXDAYWD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Day of week stored as a measurement concept"
+  },
+  {
+    "nhanes_var": "PAXSSNDP",
+    "omop_table": "measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Starting sample number for the day stored as a measurement concept"
+  },
+  {
+    "nhanes_var": "PAXMSTD",
+    "omop_table": "measurement",
+    "omop_field": "measurement_datetime",
+    "concept_id": null,
+    "notes": "Start time (HH:MM:SS) stored as measurement datetime"
+  },
+  {
+    "nhanes_var": "PAXTMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Total minutes with data for this day stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXAISMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "80Hz idle sleep mode minutes stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXVMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Valid data minutes (no QC flag) stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXMTSD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "MIMS triaxial value sum stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXWWMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Valid wake wear minutes sum stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXSWMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Valid sleep wear minutes sum stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXNWMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Valid non-wear minutes sum stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXUMD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Valid unknown minutes sum stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXLXSD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Lux values for valid minutes sum stored as numeric value"
+  },
+  {
+    "nhanes_var": "PAXQFD",
+    "omop_table": "measurement",
+    "omop_field": "value_as_number",
+    "concept_id": null,
+    "notes": "Data quality flag count stored as numeric value"
+  }
+]

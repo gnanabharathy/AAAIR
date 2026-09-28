@@ -1,0 +1,65 @@
+[
+  {
+    "nhanes_var": "SEQN",
+    "omop_table": "Person",
+    "omop_field": "person_id",
+    "concept_id": null,
+    "notes": "Unique respondent identifier mapped to OMOP Person ID"
+  },
+  {
+    "nhanes_var": "TBQ070",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": 380001,
+    "notes": "Binary yes/no for ever having a reaction to TB test; mapped to Tuberculin skin test reaction concept"
+  },
+  {
+    "nhanes_var": "TBABCG",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary indicator of BCG scar; concept not available in standard vocab, use custom concept if needed"
+  },
+  {
+    "nhanes_var": "TBDPPDS",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous PPDS induration in mm; map to measurement concept for PPDS induration if available"
+  },
+  {
+    "nhanes_var": "TBDPPDB",
+    "omop_table": "Measurement",
+    "omop_field": "measurement_concept_id",
+    "concept_id": null,
+    "notes": "Continuous PPDB induration in mm; map to measurement concept for PPDB induration if available"
+  },
+  {
+    "nhanes_var": "TBDPPDSV",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary PPDS vesiculation; concept not in standard vocab, use custom concept if needed"
+  },
+  {
+    "nhanes_var": "TBDPPDSU",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary PPDS ulceration; concept not in standard vocab, use custom concept if needed"
+  },
+  {
+    "nhanes_var": "TBDPPDBV",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary PPDB vesiculation; concept not in standard vocab, use custom concept if needed"
+  },
+  {
+    "nhanes_var": "TBDPPDBU",
+    "omop_table": "Observation",
+    "omop_field": "observation_concept_id",
+    "concept_id": null,
+    "notes": "Binary PPDB ulceration; concept not in standard vocab, use custom concept if needed"
+  }
+]
