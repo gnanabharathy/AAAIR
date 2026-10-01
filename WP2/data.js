@@ -14714,7 +14714,7 @@ const DATASETS = [
     "desc": "This dataset lists the number of males in each five‑year age group—from 0–4 up to 85+—for every Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14729,7 +14729,7 @@ const DATASETS = [
     "desc": "The dataset details the count of females in Australia across age brackets from 0‑4 to 85+ years, segmented by population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14744,7 +14744,7 @@ const DATASETS = [
     "desc": "This dataset lists the number of persons in each five‑year age group—from 0‑4 years to 85 years and over—by population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14760,7 +14760,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of Australian males in each age group—0‑14, 15‑24, 25‑44, 45‑64, 65 years and over, 70 years and over, 75 years and over, and 85 years and over—for every Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14775,7 +14775,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of females in each age group—0-14, 15-24, 25-44, 45-64, 65+, 70+, 75+, and 85+—for each population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -14788,10 +14788,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-age-distribution-persons-broad",
     "name": "Australian Population Health Area Age Distribution",
-    "desc": "This dataset provides the age distribution of the Australian population across health areas, detailing the number of persons in each age group from",
+    "desc": "This dataset provides the age distribution of the Australian population across health areas, detailing the number of persons in each age group from 0 to 100 years, enabling demographic analysis and health resource planning.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -14804,10 +14804,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-aboriginal-males",
     "name": "Aboriginal Male Age Distribution by Population Health Area",
-    "desc": "This dataset provides",
+    "desc": "This dataset contains health statistics for Aboriginal males across Population Health Areas in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -14819,10 +14819,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-aboriginal-females",
     "name": "Aboriginal Female Age Distribution by Population Health Area",
-    "desc": "This dataset lists the number of",
+    "desc": "This dataset provides the count of Aboriginal females in each Population Health Area across Australia, including demographic details such as age group and health indicators.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -14834,10 +14834,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-aboriginal-persons",
     "name": "Aboriginal Population by Age Group in PHAs",
-    "desc": "This dataset provides the count of",
+    "desc": "This dataset provides the count of Aboriginal persons by Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -14852,7 +14852,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of Aboriginal residents relative to the total population for each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -14867,7 +14867,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of Aboriginal residents within each age group (0‑14, 15‑24, 25‑34, 35‑44, 45‑54, 55 +) across Australian Primary Health Areas (PHAs).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -14883,7 +14883,7 @@ const DATASETS = [
     "desc": "This dataset provides projected counts of Australian males across age groups—0‑14, 15‑24, 25‑44, 45‑64, 65+, 70+, 75+, and 85+—for future census years.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14898,7 +14898,7 @@ const DATASETS = [
     "desc": "This dataset provides projected counts of Australian females across broad age groups by Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14913,7 +14913,7 @@ const DATASETS = [
     "desc": "This dataset provides projected population counts across broad age groups by Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14928,7 +14928,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of residents born in non-English-speaking countries by Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -14944,7 +14944,7 @@ const DATASETS = [
     "desc": "This dataset lists the top ten countries of origin by population health area, including India, China (excluding Hong Kong, Macau, and Taiwan), the Philippines, Vietnam, Malaysia, Italy, Sri Lanka, Nepal, South Korea, and Germany.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -14957,10 +14957,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-migrants-humanitarian",
     "name": "Migrants Humanitarian Program Counts by PHA",
-    "desc": "This dataset provides cumulative counts of permanent migrants who entered Australia under the Offshore Humanitarian Program by PHA, with totals up to 9 August",
+    "desc": "This dataset contains cumulative counts of permanent migrants who entered Australia under the Offshore Humanitarian Program, broken down by Population Health Area, with totals recorded up to 9 August.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14976,7 +14976,7 @@ const DATASETS = [
     "desc": "This dataset provides counts of permanent migrants who entered Australia on a Family stream visa between 2000 and 9 August 2011, 2016, and 2021, aggregated by population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -14992,7 +14992,7 @@ const DATASETS = [
     "desc": "This dataset provides counts of permanent skilled migrants who entered Australia between 2000 and 9 August 2011, 2016, and 2021, broken down by Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -15005,10 +15005,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-migrants-total",
     "name": "Permanent Migrant Arrivals in Australia by Population Health Area (2000-2021)",
-    "desc": "This dataset provides counts of permanent migrants who entered Australia by Population Health Area up to 9 August 2011, 9 August 2016, and 10 August 2021, covering",
+    "desc": "This dataset provides counts of permanent migrants who entered Australia by Population Health Area up to 9 August 2011, 9 August 2016, and 10 August 2021, covering the total number of migrants for each area across those dates.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15037,10 +15037,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-education",
     "name": "PHIDU Education Indicators by Population Health Area",
-    "desc": "PHIDU Education Indicators by Population Health Area",
+    "desc": "The dataset provides education indicators for each Population Health Area in Australia, enabling analysis of educational outcomes at a granular geographic level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15071,7 +15071,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of 15-24 year olds who are either learning or earning, broken down by population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15084,10 +15084,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-families",
     "name": "PHIDU Families by Population Health Area (2026)",
-    "desc": "The PHIDU Families by Population Health Area (2026) dataset provides",
+    "desc": "The PHIDU Families by Population Health Area (2026) dataset provides detailed information on family composition, health indicators, and socioeconomic factors for each Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15103,7 +15103,7 @@ const DATASETS = [
     "desc": "This dataset details the number of hours of unpaid child care provided to one's own children, to other children, and the total hours, broken down by population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -15119,7 +15119,7 @@ const DATASETS = [
     "desc": "The PHIDU dataset provides counts of voluntary work for organisations or groups, broken down by population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15135,7 +15135,7 @@ const DATASETS = [
     "desc": "This dataset provides housing and transport indicators including rental stress, overcrowding, and vehicle access by Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15151,7 +15151,7 @@ const DATASETS = [
     "desc": "This dataset provides the estimated number of people experiencing homelessness in each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -15163,10 +15163,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-income-support",
     "name": "Income Support by Population Health Area (Australia)",
-    "desc": "Income Support by Population Health Area (Australia)",
+    "desc": "This dataset details the amount of income support received by residents in each Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15182,7 +15182,7 @@ const DATASETS = [
     "desc": "This dataset provides unemployment rates and labour force participation rates, broken down by gender, for each Australian Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -15198,7 +15198,7 @@ const DATASETS = [
     "desc": "This dataset shows the proportion of residents in each Australian population health area who hold private health insurance.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -15214,7 +15214,7 @@ const DATASETS = [
     "desc": "This dataset provides the SEIFA Index of Relative Socio-economic Disadvantage for each Population Health Area, indicating the relative level of socio-economic disadvantage across regions.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -15243,7 +15243,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-child-youth-health",
     "name": "Child and Youth Health Indicators by Population Health Area",
-    "desc": "This dataset provides key child and youth health indicators by population health",
+    "desc": "This dataset provides key child and youth health indicators at the Population Health Area level across Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15262,7 +15262,7 @@ const DATASETS = [
     "desc": "This dataset provides participation and outcome rates for cancer screening programs by Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -15276,10 +15276,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-screening-age",
     "name": "Australian Screening Ages by Birth Origin",
-    "desc": "This dataset provides the average screening ages for individuals",
+    "desc": "This dataset provides the average age at which individuals undergo health screenings within each Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -15340,7 +15340,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-census-health-condition-total",
     "name": "Census Health Condition Total by Population Health Area",
-    "desc": "This dataset provides age‑standardised estimates of the total number of self‑reported long‑",
+    "desc": "This dataset provides age‑standardised estimates of the total number of self‑reported long‑term health conditions across Australian Population Health Areas, enabling comparisons of health burden by region.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15370,7 +15370,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-census-health-condition-child",
     "name": "Child Long-Term Health Conditions by Population Health Area",
-    "desc": "This dataset provides age‑standardised,",
+    "desc": "This dataset contains age‑standardised rates of various health conditions among children, aggregated by Population Health Area across Australia, derived from the national census.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15386,7 +15386,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-census-condition-type-total",
     "name": "Australian Population Health Area Long-Term Condition Prevalence",
-    "desc": "This dataset provides age‑",
+    "desc": "This dataset contains the total number of individuals in each Australian Population Health Area classified by type of health condition as recorded in the national census.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15402,7 +15402,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-census-condition-type-adults",
     "name": "Adult Long-Term Health Condition Prevalence by Population Health Area",
-    "desc": "This dataset provides age‑standardised estimates of the prevalence of self‑reported long‑term health conditions among adults, broken down by Population Health Area as published by",
+    "desc": "This dataset provides age‑standardised estimates of the prevalence of self‑reported long‑term health conditions among adults, broken down by Population Health Area, as published by the Australian Bureau of Statistics.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15464,7 +15464,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-estimates-mental-health-persons",
     "name": "Australian Mental Health Estimates by Population Health Area",
-    "desc": "This dataset provides modelled estimates of the number of Australians aged 16‑85 living in private dwellings who have affective, anxiety, or substance use disorders, as well as overall mental health disorder prevalence,",
+    "desc": "This dataset provides modelled estimates of the number of Australians aged 16‑85 living in private dwellings who have affective, anxiety, or substance use disorders, as well as overall mental health disorder prevalence, broken down by Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15525,7 +15525,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-census-disability",
     "name": "Census Disability Indicators by Population Health Area",
-    "desc": "This dataset provides census-based counts",
+    "desc": "This dataset contains census-derived counts of individuals with disabilities, disaggregated by Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15572,7 +15572,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-premature-mortality-by-cause",
     "name": "Premature Mortality by Cause – Population Health Areas (Australia)",
-    "desc": "This dataset provides counts of premature deaths (aged 0–74) by specific causes—including various cancers, diabetes, circulatory and respiratory diseases, liver disease, external causes, and suicide—across Australian population health",
+    "desc": "This dataset presents the number of deaths before age 75, broken down by specific causes such as cancers, cardiovascular diseases, respiratory illnesses, liver disease, external causes, and suicide, for each Population Health Area across Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15603,7 +15603,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-avoidable-mortality-by-cause",
     "name": "Avoidable Mortality by Cause in Australian Population Health Areas",
-    "desc": "This dataset lists the number of avoidable deaths by specific causes—including cancer (overall, colorectal, breast), diabetes, circulatory and respiratory diseases, external causes, and suicide—within Australian Population Health Areas for people aged 0 to 74",
+    "desc": "This dataset provides the count of avoidable deaths by specific causes—including cancer (overall, colorectal, breast), diabetes, circulatory and respiratory diseases, external causes, and suicide—within Australian Population Health Areas for individuals aged 0 to 74 years.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15698,7 +15698,7 @@ const DATASETS = [
     "desc": "This dataset lists the number of residential aged care places available in each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -15714,7 +15714,7 @@ const DATASETS = [
     "desc": "This dataset provides the count of National Disability Insurance Scheme participants across nine age brackets for each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -15729,7 +15729,7 @@ const DATASETS = [
     "desc": "This dataset lists the number of National Disability Insurance Scheme participants with autism in each Population Health Area, broken down into four age groups: 0‑8 years, 9‑14 years, 15‑24 years, and 25 years and over.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -15744,7 +15744,7 @@ const DATASETS = [
     "desc": "The PHIDU dataset “Community Mental Health Care Patients by Sex (PHAs)” provides annual counts of community mental health care patients, broken down by male, female, and total persons.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -15760,7 +15760,7 @@ const DATASETS = [
     "desc": "This dataset lists the number of Community Mental Health Care Service contacts, broken down by principal diagnosis, for each Public Health Authority.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -15773,10 +15773,10 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-chsp",
     "name": "CHSP: Population Health Area Client Service Utilisation (Australia)",
-    "desc": "CHSP: Population Health Area Client Service Utilisation (Australia)",
+    "desc": "The CHSP dataset provides detailed client service utilisation statistics for each Population Health Area across Australia, enabling comprehensive analysis of health service usage patterns at a regional level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -15804,7 +15804,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-admiss-principal-diag-males",
     "name": "Male Hospital Admissions by Disease Category in Australian PHAs",
-    "desc": "This dataset records the number of male admissions to Australian public hospitals across a range of disease categories, including infectious and parasitic diseases, all cancers, endocrine, nutritional and metabolic diseases, diabetes, mental health–related conditions, affective disorders, nervous system diseases, eye and adnexa diseases, ear and mastoid process diseases, circulatory system diseases, ischaemic heart",
+    "desc": "This dataset provides the number of male admissions to Australian public hospitals, categorized by principal diagnosis across all disease groups, aggregated at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15819,7 +15819,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-admiss-principal-diag-females",
     "name": "Female Principal Diagnosis Hospital Admissions by PHA",
-    "desc": "This dataset lists the annual number of female admissions to public hospitals by principal diagnosis, covering categories such as infectious and parasitic diseases, cancers, endocrine and metabolic disorders, diabetes, mental health and affective disorders, nervous system, eye and ear conditions, circulatory and heart diseases (including ischaemic heart disease, heart failure, and stroke),",
+    "desc": "This dataset contains the number of hospital admissions by principal diagnosis for females across Population Health Areas in Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15850,7 +15850,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-admiss-principal-ext-males",
     "name": "Male Public Hospital Admissions by Injury Type (PHAs)",
-    "desc": "This dataset records male public hospital admissions by injury",
+    "desc": "This dataset provides the number of male admissions to public hospitals in Australia, categorized by principal external cause of injury, at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15865,7 +15865,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-admiss-principal-ext-females",
     "name": "Female Hospital Admissions by Injury Type (PHAs)",
-    "desc": "The PHIDU dataset records the number of female admissions to public hospitals for various injury types, including transport crash injuries, falls, injuries from inanimate and animate mechanical forces, intentional self‑harm, assault",
+    "desc": "The dataset provides counts of female patients admitted to public hospitals in Australia, broken down by principal external cause of injury across Population Health Areas, covering categories such as transport crashes, falls, mechanical forces, self-harm, and assault.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15897,7 +15897,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-admissions-procedures",
     "name": "PHIDU Hospital Admissions by Procedure and Hospital Type",
-    "desc": "The PHIDU dataset records the number of admissions for specific procedures—tonsillectomy, myringotomy (0–9 years), hysterectomy (30–59 years), Caesarean section (15–44 years), hip fracture, and fibre‑optic colonoscopy—",
+    "desc": "The PHIDU dataset records the number of admissions for specific procedures—tonsillectomy, myringotomy (0–9 years), hysterectomy (30–59 years), Caesarean section (15–44 years), hip fracture, and fibre‑optic colonoscopy—by Population Health Area across Australia, providing a detailed view of procedure-specific admission rates at the local health area level.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -15997,7 +15997,7 @@ const DATASETS = [
     "desc": "This dataset lists the number of emergency department presentations by sex—male, female, and total—for each population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -16012,7 +16012,7 @@ const DATASETS = [
     "desc": "The PHIDU dataset provides counts of emergency department presentations broken down by sex and age groups, including combined totals for each age range.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -16027,7 +16027,7 @@ const DATASETS = [
     "desc": "This dataset provides counts of emergency department presentations by triage category—resuscitation, emergency, urgent, semi‑urgent, non‑urgent, and total—across population health areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -16042,7 +16042,7 @@ const DATASETS = [
     "desc": "This dataset provides counts of Australian emergency department presentations by diagnosis category, aggregated for each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -16103,7 +16103,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-aust-ed-respiratory-age",
     "name": "Emergency Department Respiratory Presentations by Age Group",
-    "desc": "The dataset provides counts of emergency department presentations for respiratory diseases broken down by seven age groups: 0–",
+    "desc": "The dataset contains the number of emergency department presentations for respiratory diseases in Australia, categorized by seven age groups and aggregated at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -16153,7 +16153,7 @@ const DATASETS = [
     "desc": "This dataset provides annual counts of emergency department presentations for genitourinary diseases in Australia, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -16168,7 +16168,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of emergency department presentations for injury, poisoning and other external causes, stratified by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -16184,38 +16184,7 @@ const DATASETS = [
     "desc": "This dataset provides emergency department presentation counts by health status contact type and age group by Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering"
-    ],
-    "last_updated": "June 2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_aust.xlsx"
-  },
-  {
-    "id": "phidu-pha-aust-phas",
-    "name": "PHIDU Population Health Areas (Australia)",
-    "desc": "The PHIDU Population Health Areas dataset provides geospatial boundaries and associated demographic statistics for Australian population health regions, enabling analysis of health outcomes across the country.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "clustering"
-    ],
-    "last_updated": "June 2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_aust.xlsx"
-  },
-  {
-    "id": "phidu-pha-aust-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas: Population Health Area Indicators",
-    "desc": "The PHIDU Social Health Atlas provides area-level population health indicators, mapping social determinants and health outcomes across regions.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -16231,7 +16200,7 @@ const DATASETS = [
     "desc": "Counts of male residents in each 5‑year age band for every Population Health Area in New South Wales, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16247,7 +16216,7 @@ const DATASETS = [
     "desc": "Age distribution of females across 0-64 age groups for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16263,7 +16232,7 @@ const DATASETS = [
     "desc": "Counts of persons in each 5-year age band for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16278,7 +16247,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of males in various age brackets for each Population Health Area in New South Wales, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16294,7 +16263,7 @@ const DATASETS = [
     "desc": "Distribution of female population across age groups in NSW Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16310,7 +16279,7 @@ const DATASETS = [
     "desc": "Provides counts of persons in broad age categories for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16325,7 +16294,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in New South Wales Population Health Areas, broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -16340,7 +16309,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in NSW Population Health Areas broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -16356,7 +16325,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in NSW Population Health Areas broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -16371,7 +16340,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents relative to total population for each Population Health Area in New South Wales, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression"
@@ -16385,7 +16354,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of Aboriginal residents within each Population Health Area in New South Wales, broken down by six age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -16401,7 +16370,7 @@ const DATASETS = [
     "desc": "Projected male population counts by age group for each Population Health Area in New South Wales for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16417,7 +16386,7 @@ const DATASETS = [
     "desc": "Projected female population counts for various age groups across NSW Population Health Areas for 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16432,7 +16401,7 @@ const DATASETS = [
     "desc": "Projected number of persons in each age group for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16448,7 +16417,7 @@ const DATASETS = [
     "desc": "Counts of Australian-born and overseas-born residents, including NES country origins and English proficiency, aggregated at the Population Health Area level in NSW.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16464,7 +16433,7 @@ const DATASETS = [
     "desc": "Counts of newborns by country of origin for the top ten countries in each NSW Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16480,7 +16449,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia under the Offshore Humanitarian Program by Population Health Area in NSW for three time periods (2011, 2016, 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16496,7 +16465,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on family stream visas by Population Health Area in NSW for three time periods (2011, 2016, 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16512,7 +16481,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a Skill stream visa by Population Health Area in NSW for three cumulative periods up to 2011, 2016, and 2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16528,7 +16497,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia by Population Health Area in NSW for three time periods: 2000-2011, 2000-2016, and 2000-2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16545,7 +16514,7 @@ const DATASETS = [
     "desc": "Dataset of total fertility rates for each Population Health Area in New South Wales, Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16560,7 +16529,7 @@ const DATASETS = [
     "desc": "This dataset provides a range of education-related indicators, such as preschool enrolments, school leavers, and vocational training participation, for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16592,7 +16561,7 @@ const DATASETS = [
     "desc": "Dataset provides the proportion of individuals aged 15-24 who are either learning or earning, aggregated by Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16608,7 +16577,7 @@ const DATASETS = [
     "desc": "Dataset of family composition and socioeconomic indicators for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16624,7 +16593,7 @@ const DATASETS = [
     "desc": "Dataset of unpaid child care counts for own and other children, and total, aggregated at the Population Health Area level in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16639,7 +16608,7 @@ const DATASETS = [
     "desc": "Dataset of voluntary work participation rates by Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16655,7 +16624,7 @@ const DATASETS = [
     "desc": "Cross‑sectional dataset of housing and transport indicators for each Population Health Area in New South Wales, Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16671,7 +16640,7 @@ const DATASETS = [
     "desc": "Estimated number of people experiencing homelessness in each NSW Population Health Area, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -16687,7 +16656,7 @@ const DATASETS = [
     "desc": "Dataset of various income support payments and benefits received by residents in NSW Population Health Areas, including pensions, disability support, parenting payments, unemployment benefits, and low-income family indicators.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16703,7 +16672,7 @@ const DATASETS = [
     "desc": "Dataset of unemployment and labour force participation rates by gender for NSW Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16719,7 +16688,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates for each Population Health Area in New South Wales, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -16735,7 +16704,7 @@ const DATASETS = [
     "desc": "Dataset of SEIFA Index of Relative Socio-economic Disadvantage values for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -16799,7 +16768,7 @@ const DATASETS = [
     "desc": "Age distribution of health screening uptake for Australian-born and NES-born residents in NSW Population Health Areas, broken down by residency duration.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -16984,7 +16953,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-estimates-mental-health-persons",
-    "name": "Estimated Mental Health Disorder Prevalence by Population Health Area",
+    "name": "Estimated Mental Health Disorder Prevalence by Population Health Area (NSW)",
     "desc": "Provides modelled estimates of the number of persons aged 16‑85 with various mental health disorders and severity levels across NSW Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -17031,7 +17000,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-estimates-risk-factors-children",
-    "name": "Child Overweight and Obesity Estimates by PHA",
+    "name": "Child Overweight and Obesity Estimates by PHA (NSW)",
     "desc": "Modelled estimates of overweight and obese children aged 2-17, broken down by gender, for each Population Health Area in NSW.",
     "source": "PHIDU",
     "subtypes": [
@@ -17219,7 +17188,7 @@ const DATASETS = [
     "desc": "Dataset of the number of residential aged care places available in each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17234,7 +17203,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants across ten age groups for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17265,7 +17234,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients by sex for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17280,7 +17249,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care service contacts by principal diagnosis for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -17296,7 +17265,7 @@ const DATASETS = [
     "desc": "Dataset of client demographics and service usage across NSW Population Health Areas from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -17405,7 +17374,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-admiss-principal-ext-persons",
-    "name": "Public Hospital Injury Admissions by Population Health Area",
+    "name": "Public Hospital Injury Admissions by Population Health Area (NSW)",
     "desc": "Counts of public hospital admissions for various injury and poisoning causes in NSW Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -17421,7 +17390,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-admissions-procedures",
-    "name": "PHIDU Admissions Procedures by Hospital and Age Group",
+    "name": "PHIDU Admissions Procedures by Hospital and Age Group (NSW)",
     "desc": "Counts of admissions for specific surgical procedures (tonsillectomy, myringotomy, hysterectomy, Caesarean section, hip fracture) across public, private, and all hospitals in NSW Population Health Areas, segmented by age and gender.",
     "source": "PHIDU",
     "subtypes": [
@@ -17436,7 +17405,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-admissions-same-day-renal",
-    "name": "Same-Day Renal Dialysis Admissions by Population Health Area",
+    "name": "Same-Day Renal Dialysis Admissions by Population Health Area (NSW)",
     "desc": "Counts of same-day admissions for dialysis in public hospitals for kidney disease, aggregated by Population Health Area in NSW.",
     "source": "PHIDU",
     "subtypes": [
@@ -17517,11 +17486,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-ed-total-sex",
-    "name": "ED Presentations by Sex per Population Health Area",
+    "name": "ED Presentations by Sex per Population Health Area (NSW)",
     "desc": "Counts of emergency department presentations for males, females, and total persons within each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17536,7 +17505,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in NSW population health areas, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17547,11 +17516,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nsw-ed-total-triage-category",
-    "name": "ED Triage Category Presentations by Population Health Area",
+    "name": "ED Triage Category Presentations by Population Health Area (NSW)",
     "desc": "Counts of emergency department presentations by triage category (Resuscitation, Emergency, Urgent, Semi-urgent, Non-urgent, Total) for each Population Health Area in New South Wales, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -17567,7 +17536,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by disease category for each Population Health Area in New South Wales, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17583,7 +17552,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases in NSW Population Health Areas, broken down by age group.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17599,7 +17568,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for mental and behavioural disorders, broken down by age groups, for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17630,7 +17599,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for respiratory diseases across age groups within NSW Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17661,7 +17630,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for musculoskeletal diseases and connective tissue disorders, broken down by age group, for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -17677,7 +17646,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases in NSW Population Health Areas, disaggregated by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -17693,7 +17662,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and other external causes, broken down by age group and sex, for NSW Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -17708,7 +17677,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for factors influencing health status, broken down by six age groups, for each Population Health Area in New South Wales.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -17719,44 +17688,12 @@ const DATASETS = [
     "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_nsw.xlsx"
   },
   {
-    "id": "phidu-pha-nsw-phas",
-    "name": "Phas",
-    "desc": "PHIDU PHA by location data for Population Health Area",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "regression",
-      "classification"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_nsw.xlsx"
-  },
-  {
-    "id": "phidu-pha-nsw-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas: NSW Population Health Area Notes",
-    "desc": "Dataset containing notes and metadata on Population Health Areas in New South Wales from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_nsw.xlsx"
-  },
-  {
     "id": "phidu-pha-vic-age-distribution-males",
     "name": "Male Age Distribution by Population Health Area (Vic)",
     "desc": "This dataset provides the number of males in each age group (0-4 to 60-64) for every Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17771,7 +17708,7 @@ const DATASETS = [
     "desc": "Dataset of female population counts across age groups 0-64 years for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17787,7 +17724,7 @@ const DATASETS = [
     "desc": "Counts of persons in 0-4 to 60-64 age groups for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17802,7 +17739,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of males in various age groups for each Population Health Area in Victoria, Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17817,7 +17754,7 @@ const DATASETS = [
     "desc": "Counts of females in various age groups for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17832,7 +17769,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of persons in various age groups for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -17848,7 +17785,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in Victoria Population Health Areas broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -17863,7 +17800,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in six age groups for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -17878,7 +17815,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in Victoria's Population Health Areas, broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -17893,7 +17830,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents relative to total population for each Population Health Area in Victoria, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -17909,7 +17846,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents in each age group for every Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -17925,7 +17862,7 @@ const DATASETS = [
     "desc": "Projected male population counts by age group for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17940,7 +17877,7 @@ const DATASETS = [
     "desc": "Projected female population counts for Victoria's Population Health Areas across multiple age brackets for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17955,7 +17892,7 @@ const DATASETS = [
     "desc": "Projected population counts for Victoria Population Health Areas broken down by age groups (0-14, 15-24, 25-44, 45-64, 65+, 70+, 75+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -17971,7 +17908,7 @@ const DATASETS = [
     "desc": "Aggregated counts of residents in Victoria's Population Health Areas by birthplace and English proficiency, including Australian-born, overseas-born from English-speaking and non-English-speaking countries, NES residents by length of stay, and overseas-born with poor English proficiency.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -17987,7 +17924,7 @@ const DATASETS = [
     "desc": "Counts of newborns by the top ten countries of birth for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18003,7 +17940,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia under the Offshore Humanitarian Program by Population Health Area in Victoria for three time periods (2011, 2016, 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18015,11 +17952,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-migrants-family",
-    "name": "Migrants Family Visa Counts by Population Health Area",
+    "name": "Migrants Family Visa Counts by Population Health Area (Vic)",
     "desc": "Counts of permanent migrants entering Australia on Family stream visas in Victoria, aggregated by Population Health Area for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18035,7 +17972,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a skilled visa, aggregated by Population Health Area in Victoria for three arrival periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18051,7 +17988,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia up to 2011, 2016, and 2021 for each Population Health Area in Victoria.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18083,7 +18020,7 @@ const DATASETS = [
     "desc": "This dataset provides education-related indicators for each Population Health Area in Victoria, including preschool enrolments, school leaving rates, secondary and vocational participation, and completion rates.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18115,7 +18052,7 @@ const DATASETS = [
     "desc": "Dataset of learning or earning status for individuals aged 15-24 across Population Health Areas in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18131,7 +18068,7 @@ const DATASETS = [
     "desc": "Dataset of family demographics in Victorian Population Health Areas, including counts of single-parent families, jobless families, children in jobless families, and children in families with mothers of low educational attainment.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18147,7 +18084,7 @@ const DATASETS = [
     "desc": "Counts of unpaid child care provided to own and other children, and total unpaid child care, for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18163,7 +18100,7 @@ const DATASETS = [
     "desc": "Dataset of voluntary work participation rates for organisations or groups across Victorian Population Health Areas, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18179,7 +18116,7 @@ const DATASETS = [
     "desc": "This dataset provides key housing and transport-related indicators for each Population Health Area in Victoria, including crowding, rent assistance, rental housing, housing stress, and vehicle availability.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18195,7 +18132,7 @@ const DATASETS = [
     "desc": "Estimated number of people experiencing homelessness by Population Health Area in Victoria, Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -18211,7 +18148,7 @@ const DATASETS = [
     "desc": "Snapshot of various income support program participation rates across Victorian Population Health Areas, including pensions, disability, unemployment, and low‑income family indicators.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18227,7 +18164,7 @@ const DATASETS = [
     "desc": "Dataset of unemployment and labour force participation rates by gender for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18243,7 +18180,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates for each Population Health Area in Victoria, Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -18259,7 +18196,7 @@ const DATASETS = [
     "desc": "A dataset providing the SEIFA Index of Relative Socio-economic Disadvantage for each Population Health Area in Victoria, Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -18271,7 +18208,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-mothers-babies",
-    "name": "Mothers Babies Health Indicators by Population Health Area",
+    "name": "Mothers Babies Health Indicators by Population Health Area (Vic)",
     "desc": "Dataset of low birthweight rates, smoking during pregnancy prevalence, and antenatal visit counts for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -18324,7 +18261,7 @@ const DATASETS = [
     "desc": "Dataset of average screening ages for Australian-born and non-English-speaking-born residents across Population Health Areas in Victoria, broken down by residency duration.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -18541,7 +18478,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-estimates-risk-factors-adults",
-    "name": "Adult Risk Factor Estimates by Population Health Area",
+    "name": "Adult Risk Factor Estimates by Population Health Area (Vic)",
     "desc": "Modelled estimates of adult psychological distress, blood pressure, weight status, and waist risk by gender and overall population within Victorian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -18556,7 +18493,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-estimates-risk-factors-children",
-    "name": "Child Overweight and Obesity Estimates by PHA",
+    "name": "Child Overweight and Obesity Estimates by PHA (Vic)",
     "desc": "Modelled estimates of the number of children aged 2-17 years who are overweight (but not obese) and obese, broken down by gender, for each Population Health Area in Victoria.",
     "source": "PHIDU",
     "subtypes": [
@@ -18744,7 +18681,7 @@ const DATASETS = [
     "desc": "Counts of residential aged care places available in each Population Health Area of Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -18760,7 +18697,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants across ten age groups for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -18771,11 +18708,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-ndis-autism-age",
-    "name": "NDIS Autism Age Distribution by Population Health Area",
+    "name": "NDIS Autism Age Distribution by Population Health Area (Vic)",
     "desc": "Counts of National Disability Insurance Scheme participants with autism across four age groups for each Population Health Area in Victoria.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -18791,7 +18728,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients by sex at Population Health Area level in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -18802,11 +18739,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-cmhcs-by-principal-diag",
-    "name": "CMHCS Principal Diagnosis Contacts by PHA",
+    "name": "CMHCS Principal Diagnosis Contacts by PHA (Vic)",
     "desc": "Dataset of community mental health care service contacts aggregated by principal diagnosis for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -18821,7 +18758,7 @@ const DATASETS = [
     "desc": "This dataset provides counts and proportions of various client groups (e.g., Indigenous, non‑English speaking, clients with carers) for each Population Health Area in Victoria, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -18941,7 +18878,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-admissions-procedures",
-    "name": "PHIDU Hospital Admissions Procedures by Location",
+    "name": "PHIDU Hospital Admissions Procedures by Location (Vic)",
     "desc": "Counts of admissions for specific surgical procedures in public, private, and all hospitals within Population Health Areas of Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -19043,7 +18980,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by sex for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19059,7 +18996,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in Victoria's Population Health Areas, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19070,11 +19007,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-ed-total-triage-category",
-    "name": "ED Triage Category Counts by Population Health Area",
+    "name": "ED Triage Category Counts by Population Health Area (Vic)",
     "desc": "Aggregated counts of emergency department presentations by triage category for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -19090,7 +19027,7 @@ const DATASETS = [
     "desc": "Dataset of emergency department presentation counts by disease category for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19102,11 +19039,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-vic-ed-infectious-age",
-    "name": "ED Infectious Disease Presentations by Age Group (PHIDU)",
+    "name": "ED Infectious Disease Presentations by Age Group (PHIDU) (Vic)",
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases in Victoria, broken down by age groups, at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19122,7 +19059,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for mental and behavioural disorders in Victoria, Australia, broken down by six age groups.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19152,7 +19089,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for respiratory diseases, stratified by age groups, for each Population Health Area in Victoria.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19183,7 +19120,7 @@ const DATASETS = [
     "desc": "Number of emergency department presentations for musculoskeletal diseases in Victoria, Australia, broken down by age groups.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19198,7 +19135,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases in Victoria, broken down by age group and sex at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -19214,7 +19151,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and other external causes, broken down by age group and sex, for each Population Health Area in Victoria, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -19230,7 +19167,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for factors influencing health status, broken down by age groups, for each Population Health Area in Victoria.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -19241,46 +19178,12 @@ const DATASETS = [
     "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_vic.xlsx"
   },
   {
-    "id": "phidu-pha-vic-phas",
-    "name": "PHAs - Population Health Areas (Vic)",
-    "desc": "Dataset of Population Health Areas in Victoria, Australia, sourced from the PHIDU Social Health Atlas, providing location-based health information.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_vic.xlsx"
-  },
-  {
-    "id": "phidu-pha-vic-notes-on-the-data",
-    "name": "PHIDU Population Health Area Indicators – Victoria",
-    "desc": "Dataset of health indicators aggregated at the Population Health Area level for Victoria, sourced from the PHIDU Social Health Atlas of Australia.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_vic.xlsx"
-  },
-  {
     "id": "phidu-pha-qld-age-distribution-males",
     "name": "Male Age Distribution by Population Health Area (Qld)",
     "desc": "Dataset of male population counts by 5-year age groups for each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19295,7 +19198,7 @@ const DATASETS = [
     "desc": "Age distribution of females by 5-year age groups for each Population Health Area in Queensland, Australia, for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19310,7 +19213,7 @@ const DATASETS = [
     "desc": "Counts of persons in 0-64 age groups for each Population Health Area in Queensland, Australia, as of 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19325,7 +19228,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of males in various age groups for each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19341,7 +19244,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of females in various age groups for each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19357,7 +19260,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of persons in various age groups for each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19373,7 +19276,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in Queensland Population Health Areas, broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -19389,7 +19292,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in Queensland Population Health Areas, broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -19404,7 +19307,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in Queensland Population Health Areas, broken down by six age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -19420,7 +19323,7 @@ const DATASETS = [
     "desc": "Dataset showing the proportion of Aboriginal people within each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -19435,7 +19338,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents in each age group for every Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -19450,7 +19353,7 @@ const DATASETS = [
     "desc": "Projected male population counts by age group for each Population Health Area in Queensland for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19465,7 +19368,7 @@ const DATASETS = [
     "desc": "Projected female population counts by age group for each Population Health Area in Queensland for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19480,7 +19383,7 @@ const DATASETS = [
     "desc": "Projected population counts by age group for each Population Health Area in Queensland for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19495,7 +19398,7 @@ const DATASETS = [
     "desc": "Snapshot of Queensland Population Health Areas showing counts of residents by birthplace, including Australian-born, overseas from English-speaking and non-English-speaking countries, NES residents by length of stay, and overseas residents with poor English proficiency.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19511,7 +19414,7 @@ const DATASETS = [
     "desc": "Counts of newborns born in Queensland by their country of origin, listing the top ten countries for each Population Health Area in 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19522,11 +19425,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-qld-migrants-humanitarian",
-    "name": "Migrants Humanitarian",
-    "desc": "PHIDU PHA by location data for Population Health Area",
+    "name": "Humanitarian Program Migrants by PHA (Qld)",
+    "desc": "Counts of humanitarian program migrant arrivals by Population Health Area in Queensland.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19541,7 +19444,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on Family stream visas by Population Health Area in Queensland for three time periods (2011, 2016, 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19557,7 +19460,7 @@ const DATASETS = [
     "desc": "Cumulative counts of permanent migrants entering Australia on a Skill stream visa by Population Health Area in Queensland for three cut‑off dates (2011, 2016, 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19573,7 +19476,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia by Population Health Area in Queensland for three time periods (9 Aug 2011, 9 Aug 2016, 10 Aug 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19589,7 +19492,7 @@ const DATASETS = [
     "desc": "Dataset of total fertility rates for each Population Health Area in Queensland for the year 2026, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19604,7 +19507,7 @@ const DATASETS = [
     "desc": "Dataset of education-related indicators for each Population Health Area in Queensland, including enrolments, participation, and completion rates.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19635,7 +19538,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of individuals aged 15 to 24 who are either learning or earning, aggregated by Population Health Area in Queensland, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19651,7 +19554,7 @@ const DATASETS = [
     "desc": "Dataset of family demographics and socioeconomic indicators for Queensland Population Health Areas, including single-parent, jobless families, and children in low-education households.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19667,7 +19570,7 @@ const DATASETS = [
     "desc": "Dataset of unpaid child care hours provided to own and other children across Population Health Areas in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19683,7 +19586,7 @@ const DATASETS = [
     "desc": "Dataset of voluntary work participation rates by Population Health Area in Queensland, Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19699,7 +19602,7 @@ const DATASETS = [
     "desc": "This dataset provides key housing and transport indicators for Queensland Population Health Areas, including crowding, rent assistance, rental housing, housing stress, and vehicle availability.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19715,7 +19618,7 @@ const DATASETS = [
     "desc": "Estimated number of people experiencing homelessness in each Queensland Population Health Area for 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -19730,7 +19633,7 @@ const DATASETS = [
     "desc": "Dataset of counts of individuals receiving various income support payments in each Population Health Area of Queensland for 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19746,7 +19649,7 @@ const DATASETS = [
     "desc": "Dataset of unemployment and labour force participation rates by gender for Queensland Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19762,7 +19665,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates across Queensland Population Health Areas, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -19778,7 +19681,7 @@ const DATASETS = [
     "desc": "Contains the SEIFA Index of Relative Socio-economic Disadvantage for each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -19838,7 +19741,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-qld-screening-age",
-    "name": "Screening Ages by Birth Origin and Residency",
+    "name": "Screening Ages by Birth Origin and Residency (Qld)",
     "desc": "Dataset of average screening ages for Australian-born and non-English-speaking-born residents, broken down by length of residency in Queensland Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -20007,7 +19910,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-qld-estimates-mental-health-females",
-    "name": "Female Mental Health Disorder Estimates by PHA",
+    "name": "Female Mental Health Disorder Estimates by PHA (Qld)",
     "desc": "Estimated counts of females aged 16-85 in Queensland PHAs with various mental health disorders and severity levels, based on modelled data.",
     "source": "PHIDU",
     "subtypes": [
@@ -20070,7 +19973,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-qld-estimates-risk-factors-children",
-    "name": "Child Overweight/Obesity Estimates by Population Health Area",
+    "name": "Child Overweight/Obesity Estimates by Population Health Area (Qld)",
     "desc": "Provides modelled counts of overweight and obese children aged 2-17, broken down by gender, for each Population Health Area in Queensland.",
     "source": "PHIDU",
     "subtypes": [
@@ -20252,7 +20155,7 @@ const DATASETS = [
     "desc": "Number of residential aged care places available in each Population Health Area of Queensland.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20268,7 +20171,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants across ten age groups for each Queensland Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20299,7 +20202,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients by sex and total population for each Queensland Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20314,7 +20217,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care service contacts in Queensland Population Health Areas, grouped by principal diagnosis.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20329,7 +20232,7 @@ const DATASETS = [
     "desc": "A snapshot of client demographics and service usage across Queensland Population Health Areas, detailing counts of clients by living situation, carer status, Indigenous status, language, and various support services.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -20552,7 +20455,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for males, females, and total persons per Population Health Area in Queensland.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20567,7 +20470,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in Queensland Population Health Areas broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20582,7 +20485,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by triage category for each Population Health Area in Queensland, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20597,7 +20500,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for various disease categories across Queensland Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20613,7 +20516,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases in Queensland, broken down by age group and Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -20629,7 +20532,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for mental and behavioural disorders in Queensland Population Health Areas, broken down by age groups.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20676,7 +20579,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for digestive system diseases, broken down by six age groups, for each Population Health Area in Queensland.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20691,7 +20594,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for musculoskeletal diseases in Queensland Population Health Areas, broken down by age group.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20722,7 +20625,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and external causes by age group and sex for Queensland Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20737,7 +20640,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for various age groups across Queensland Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -20748,41 +20651,12 @@ const DATASETS = [
     "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_qld.xlsx"
   },
   {
-    "id": "phidu-pha-qld-phas",
-    "name": "PHAs: Population Health Areas in Queensland",
-    "desc": "Dataset of Population Health Areas (PHAs) in Queensland, Australia, sourced from the PHIDU Social Health Atlas, providing geographic identifiers for health analysis.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_qld.xlsx"
-  },
-  {
-    "id": "phidu-pha-qld-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas Notes – Queensland PHA",
-    "desc": "Dataset contains descriptive notes and metadata for the PHIDU Social Health Atlas of Australia, focusing on Population Health Areas in Queensland.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_qld.xlsx"
-  },
-  {
     "id": "phidu-pha-sa-age-distribution-males",
     "name": "Male Age Distribution by SA",
     "desc": "Dataset of male population counts by age group for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -20797,7 +20671,7 @@ const DATASETS = [
     "desc": "Age distribution of females across age groups 0-64 years for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -20812,7 +20686,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of persons in each 5-year age group for every Population Health Area (SA) in Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -20823,11 +20697,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-age-distribution-males-broad",
-    "name": "Male Age Distribution by Population Health Area",
+    "name": "Male Age Distribution by Population Health Area (SA)",
     "desc": "Dataset showing the number of males in various age groups for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -20839,11 +20713,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-age-distribution-females-broad",
-    "name": "Female Age Distribution by Population Health Area",
+    "name": "Female Age Distribution by Population Health Area (SA)",
     "desc": "Dataset showing the number of females in various age groups for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -20855,11 +20729,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-age-distribution-persons-broad",
-    "name": "Age Distribution by Population Health Area",
+    "name": "Age Distribution by Population Health Area (SA)",
     "desc": "Provides counts of persons in various age brackets for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -20871,11 +20745,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-aboriginal-males",
-    "name": "Aboriginal Male Age Distribution by Population Health Area",
+    "name": "Aboriginal Male Age Distribution by Population Health Area (SA)",
     "desc": "Counts of Aboriginal males in six age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -20886,11 +20760,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-aboriginal-females",
-    "name": "Aboriginal Female Age Distribution by Population Health Area",
+    "name": "Aboriginal Female Age Distribution by Population Health Area (SA)",
     "desc": "Counts of Aboriginal females in six age groups (0‑14, 15‑24, 25‑34, 35‑44, 45‑54, 55+ years) for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -20901,11 +20775,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-aboriginal-persons",
-    "name": "Aboriginal Persons by Age Group in Population Health Areas",
+    "name": "Aboriginal Persons by Age Group in Population Health Areas (SA)",
     "desc": "Counts of Aboriginal persons in six age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area (SA) in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -20917,11 +20791,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-population-proportion",
-    "name": "Aboriginal Population Proportion by Population Health Area",
+    "name": "Aboriginal Population Proportion by Population Health Area (SA)",
     "desc": "Dataset of the proportion of Aboriginal people relative to total population for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -20936,7 +20810,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of Aboriginal residents within each age group (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area in Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -20948,11 +20822,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-pop-projections-males",
-    "name": "Male Population Projections by Age Group (PHIDU)",
+    "name": "Male Population Projections by Age Group (PHIDU) (SA)",
     "desc": "Projected male population counts by age group for each Population Health Area in Australia, as provided by PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -20967,7 +20841,7 @@ const DATASETS = [
     "desc": "Projected female population counts for Australian Population Health Areas across multiple age brackets.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -20978,11 +20852,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-pop-projections-persons",
-    "name": "Population Projections by Age Group for Australian Population Health Areas",
+    "name": "Population Projections by Age Group for South Australian Population Health Areas",
     "desc": "Projected population counts by age group for each Australian Population Health Area (SA) as of 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -20994,11 +20868,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-birthplace-nes-residents",
-    "name": "Birthplace of NES Residents by Population Health Area",
+    "name": "Birthplace of NES Residents by Population Health Area (SA)",
     "desc": "Counts of Australian residents by birthplace category (Australian-born, overseas from English-speaking or non-English-speaking countries, NES residents >5 years, NES residents <5 years, overseas with poor English proficiency) at the SA level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21010,11 +20884,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-birthplace-top-ten-nes",
-    "name": "Top 10 Birthplace Countries by Population Health Area",
+    "name": "Top 10 Birthplace Countries by Population Health Area (SA)",
     "desc": "Dataset lists the top ten countries of origin for births in each Australian Population Health Area (SA) as of 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21026,11 +20900,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-migrants-humanitarian",
-    "name": "Permanent Migrants under Offshore Humanitarian Program by Population Health Area",
+    "name": "Permanent Migrants under Offshore Humanitarian Program by Population Health Area (SA)",
     "desc": "Cumulative counts of permanent migrants entering Australia under the Offshore Humanitarian Program by Population Health Area (SA) for three cut‑off dates (2011, 2016, 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21046,7 +20920,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a Family stream visa by Population Health Area (SA) for three cumulative periods up to 9 August 2011, 9 August 2016, and 10 August 2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21062,7 +20936,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a skilled visa, aggregated by Population Health Area (SA) for three periods: 2000‑2011, 2000‑2016, and 2000‑2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21078,7 +20952,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia by Population Health Area (SA) for three periods: 2000-9 Aug 2011, 2000-9 Aug 2016, and 2000-10 Aug 2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21105,11 +20979,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-education",
-    "name": "PHIDU Education Indicators by Population Health Area",
+    "name": "PHIDU Education Indicators by Population Health Area (SA)",
     "desc": "Cross‑sectional dataset of education metrics (enrolments, participation, completion rates, and school leavers) for Australian Population Health Areas, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21121,7 +20995,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-early-childhood-development",
-    "name": "Early Childhood Development AEDC Scores by Population Health Area",
+    "name": "Early Childhood Development AEDC Scores by Population Health Area (SA)",
     "desc": "AEDC early childhood development scores for each Population Health Area (SA) in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21141,7 +21015,7 @@ const DATASETS = [
     "desc": "Dataset of learning or earning status for individuals aged 15-24 across Australian Population Health Areas (SA) from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21156,7 +21030,7 @@ const DATASETS = [
     "desc": "Counts of single-parent, jobless, and low-education families and children under 15 across Australian Population Health Areas (SA) for 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21168,11 +21042,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-child-care",
-    "name": "Unpaid Child Care by Population Health Area",
+    "name": "Unpaid Child Care by Population Health Area (SA)",
     "desc": "Counts of unpaid child care provided to own and other children, and total unpaid child care, aggregated at the Population Health Area (SA) level in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21184,11 +21058,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-volunteering",
-    "name": "Volunteering by Population Health Area",
+    "name": "Volunteering by Population Health Area (SA)",
     "desc": "Counts of voluntary work for an organisation or group at the Population Health Area level across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21200,11 +21074,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-housing-transport",
-    "name": "Housing and Transport Indicators by Population Health Area",
+    "name": "Housing and Transport Indicators by Population Health Area (SA)",
     "desc": "This dataset provides key housing and transport indicators for each Population Health Area in Australia, including crowding, rent assistance, rental housing, housing stress, and vehicle availability.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21216,11 +21090,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-homelessness",
-    "name": "Homelessness by Population Health Area",
+    "name": "Homelessness by Population Health Area (SA)",
     "desc": "Dataset of estimated counts of people experiencing homelessness across Australian Population Health Areas (SA) from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression"
@@ -21234,7 +21108,7 @@ const DATASETS = [
     "desc": "Dataset of counts of various income support payments received by residents in each Population Health Area (SA) in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21246,11 +21120,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-labour-force",
-    "name": "Australian Labour Force by Population Health Area",
+    "name": "South Australian Labour Force by Population Health Area",
     "desc": "Dataset of unemployment and labour force participation rates (overall, female, male) for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -21262,11 +21136,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-private-health-insurance",
-    "name": "Private Health Insurance Coverage by Population Health Area",
+    "name": "Private Health Insurance Coverage by Population Health Area (SA)",
     "desc": "Dataset of private health insurance coverage rates across Australian Population Health Areas (SAs) from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -21282,7 +21156,7 @@ const DATASETS = [
     "desc": "Dataset of SEIFA Index of Relative Socio-economic Disadvantage values for each Population Health Area (SA) in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -21294,7 +21168,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-mothers-babies",
-    "name": "Mothers and Babies Health Indicators by Population Health Area",
+    "name": "Mothers and Babies Health Indicators by Population Health Area (SA)",
     "desc": "Dataset of low birthweight rates, smoking during pregnancy prevalence, and antenatal visit counts for each Population Health Area in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21310,7 +21184,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-child-youth-health",
-    "name": "Child and Youth Health Indicators by Population Health Area",
+    "name": "Child and Youth Health Indicators by Population Health Area (SA)",
     "desc": "Dataset of immunisation coverage, HPV uptake, infant and youth mortality rates across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21326,11 +21200,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-screening",
-    "name": "PHIDU Screening Participation & Outcomes by Population Health Area",
+    "name": "PHIDU Screening Participation & Outcomes by Population Health Area (SA)",
     "desc": "Dataset of participation rates and screening outcomes for NBCSP and breast screening across Australian Population Health Areas, including gender breakdowns and positive results.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -21343,11 +21217,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-screening-age",
-    "name": "Australian Screening Ages by Birth Origin and Residency",
+    "name": "South Australian Screening Ages by Birth Origin and Residency",
     "desc": "Dataset of average screening ages for Australian-born and non-English-speaking-born residents, segmented by length of residency.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -21436,7 +21310,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-census-health-condition-child",
-    "name": "Census Child Health Conditions by Population Health Area",
+    "name": "Census Child Health Conditions by Population Health Area (SA)",
     "desc": "Age-standardised estimates of long-term health conditions among children, reported by the Australian Census and aggregated at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
@@ -21451,7 +21325,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-census-condition-type-total",
-    "name": "Census Long-Term Health Conditions by Population Health Area",
+    "name": "Census Long-Term Health Conditions by Population Health Area (SA)",
     "desc": "Age-standardised counts of self-reported long-term health conditions per Population Health Area in Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21499,7 +21373,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-estimates-mental-health-males",
-    "name": "Male Mental Health Estimates by Population Health Area",
+    "name": "Male Mental Health Estimates by Population Health Area (SA)",
     "desc": "Provides modelled estimates of the number of males aged 16-85 in private dwellings with various mental health disorders, severity levels, and comorbidity across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21545,7 +21419,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-estimates-self-assessed-health",
-    "name": "Estimated Fair/Poor Self-Assessed Health by Population Health Area",
+    "name": "Estimated Fair/Poor Self-Assessed Health by Population Health Area (SA)",
     "desc": "Modelled estimates of the number of people aged 15+ with fair or poor self-assessed health in each Population Health Area (SA) in Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -21560,7 +21434,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-estimates-risk-factors-adults",
-    "name": "Adult Risk Factor Estimates by Population Health Area",
+    "name": "Adult Risk Factor Estimates by Population Health Area (SA)",
     "desc": "Modelled estimates of adult psychological distress, blood pressure, obesity, overweight and waist risk indicators by gender and overall population for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -21576,7 +21450,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-estimates-risk-factors-children",
-    "name": "Child Overweight and Obesity Estimates by Population Health Area",
+    "name": "Child Overweight and Obesity Estimates by Population Health Area (SA)",
     "desc": "Aggregated modelled estimates of overweight and obesity counts for males, females, and all children aged 2-17 years across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21592,7 +21466,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-census-disability",
-    "name": "Census Disability by Population Health Area",
+    "name": "Census Disability by Population Health Area (SA)",
     "desc": "Cross‑sectional data on unpaid assistance and prevalence of profound or severe disability across Australian Population Health Areas, including age and household status.",
     "source": "PHIDU",
     "subtypes": [
@@ -21608,8 +21482,8 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-median-age-death",
-    "name": "Median Age at Death by Population Health Area",
-    "desc": "Dataset of median age at death for males, females, and all persons across Australian Population Health Areas.",
+    "name": "Median Age at Death by Population Health Area (SA)",
+    "desc": "Dataset of median age at death for males, females, and all persons by Population Health Area in South Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -21731,7 +21605,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-years-life-lost-persons-age",
-    "name": "Potential Years of Life Lost by Age Group in Australian Population Health Areas",
+    "name": "Potential Years of Life Lost by Age Group in South Australian Population Health Areas",
     "desc": "Dataset provides potential years of life lost for persons in five age groups across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -21748,7 +21622,7 @@ const DATASETS = [
   {
     "id": "phidu-pha-sa-years-life-lost-by-cause",
     "name": "Years of Life Lost by Cause in Australian SA Areas",
-    "desc": "Dataset of potential years of life lost before age 75 for various causes across Australian Population Health Areas.",
+    "desc": "Dataset of potential years of life lost before age 75 for various causes by Population Health Area in South Australia.",
     "source": "PHIDU",
     "subtypes": [
       "health-status"
@@ -21767,7 +21641,7 @@ const DATASETS = [
     "desc": "Counts of residential aged care places available in each Population Health Area (SA) across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -21779,11 +21653,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ndis-disability",
-    "name": "NDIS Disability Participants by Age Group per Population Health Area",
-    "desc": "Counts of National Disability Insurance Scheme participants across nine age brackets for each Population Health Area in Australia.",
+    "name": "NDIS Disability Participants by Age Group per Population Health Area (SA)",
+    "desc": "Counts of National Disability Insurance Scheme participants across nine age brackets by Population Health Area in South Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -21794,7 +21668,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ndis-autism-age",
-    "name": "NDIS Autism Age Distribution by Population Health Area",
+    "name": "NDIS Autism Age Distribution by Population Health Area (SA)",
     "desc": "Counts of National Disability Insurance Scheme participants with autism across four age groups (0-8, 9-14, 15-24, 25+) for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -21809,11 +21683,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-cmhcs-by-sex",
-    "name": "CMHCS by Sex: Community Mental Health Care Patients",
+    "name": "CMHCS by Sex: Community Mental Health Care Patients (SA)",
     "desc": "Counts of community mental health care patients by sex at the Population Health Area level in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -21828,7 +21702,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care service contacts by principal diagnosis at the Population Health Area level in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -21844,7 +21718,7 @@ const DATASETS = [
     "desc": "Dataset of client demographics and service usage indicators for Population Health Areas in Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -21856,7 +21730,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-hosp-type-sex",
-    "name": "Hospital Admissions by Sex and Type in Australian Population Health Areas",
+    "name": "Hospital Admissions by Sex and Type in South Australian Population Health Areas",
     "desc": "Counts of male and female hospital admissions, by public/private status, across Australian Population Health Areas, excluding same-day renal dialysis.",
     "source": "PHIDU",
     "subtypes": [
@@ -21965,7 +21839,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-admissions-procedures",
-    "name": "PHIDU Admissions Procedures by Hospital Type and Age Group",
+    "name": "PHIDU Admissions Procedures by Hospital Type and Age Group (SA)",
     "desc": "Counts of admissions for specific surgical procedures (tonsillectomy, myringotomy, hysterectomy, Caesarean section, hip fracture) across public, private, and all hospitals within Population Health Areas in Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -22065,7 +21939,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by male, female, and total persons for each Population Health Area (SA) in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22080,7 +21954,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in each Population Health Area, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22092,11 +21966,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ed-total-triage-category",
-    "name": "ED Triage Category Counts by Population Health Area",
+    "name": "ED Triage Category Counts by Population Health Area (SA)",
     "desc": "Counts of emergency department presentations by triage category for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -22113,7 +21987,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for various disease categories across Australian Population Health Areas (SA) from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -22129,7 +22003,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases, broken down by age group, for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22141,11 +22015,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ed-mental-disorders-age",
-    "name": "ED Mental Disorder Presentations by Age Group",
+    "name": "ED Mental Disorder Presentations by Age Group (SA)",
     "desc": "Counts of emergency department presentations for mental and behavioural disorders in Australian Population Health Areas, broken down by six age groups.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22160,7 +22034,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for circulatory system diseases across four age groups within Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22171,11 +22045,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ed-respiratory-age",
-    "name": "ED Respiratory Presentations by Age (PHIDU)",
+    "name": "ED Respiratory Presentations by Age (PHIDU) (SA)",
     "desc": "Counts of emergency department presentations for respiratory diseases across age groups within Population Health Areas in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22186,11 +22060,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ed-digestive-age",
-    "name": "ED Digestive System Presentations by Age Group",
+    "name": "ED Digestive System Presentations by Age Group (SA)",
     "desc": "Counts of emergency department presentations for digestive system diseases across six age groups in Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -22204,7 +22078,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for musculoskeletal diseases, broken down by age group, at the Population Health Area level in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -22218,7 +22092,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases, stratified by age group and sex at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22230,11 +22104,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-sa-ed-injury-age-sex",
-    "name": "ED Injury Presentations by Age and Sex",
+    "name": "ED Injury Presentations by Age and Sex (SA)",
     "desc": "Counts of emergency department presentations for injury, poisoning and external causes, broken down by sex and age group for each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -22249,40 +22123,10 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for factors influencing health status, broken down by age groups, at the Population Health Area level in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_sa.xlsx"
-  },
-  {
-    "id": "phidu-pha-sa-phas",
-    "name": "PHAs: Population Health Areas by Location",
-    "desc": "Dataset of Population Health Areas (PHAs) in Australia with geographic identifiers and basic attributes from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_sa.xlsx"
-  },
-  {
-    "id": "phidu-pha-sa-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas Notes – Population Health Areas",
-    "desc": "A dataset of notes and annotations for each Population Health Area (SA) in Australia, sourced from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
       "clustering"
     ],
     "last_updated": "2026",
@@ -22294,7 +22138,7 @@ const DATASETS = [
     "desc": "Dataset of male population counts by age group for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22310,7 +22154,7 @@ const DATASETS = [
     "desc": "Dataset of female population counts across age groups 0-64 years for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22325,7 +22169,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of persons in each 5-year age group for every Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22341,7 +22185,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of males in various age brackets for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22357,7 +22201,7 @@ const DATASETS = [
     "desc": "Dataset provides counts of females in various age groups for each Population Health Area in Western Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22372,7 +22216,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of persons in various age groups for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22387,7 +22231,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in six age groups for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -22402,7 +22246,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in six age groups for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -22417,7 +22261,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in six age groups for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -22432,7 +22276,7 @@ const DATASETS = [
     "desc": "Dataset of the proportion of Aboriginal residents relative to total population across Population Health Areas in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -22447,7 +22291,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of Aboriginal residents in each age group (0-14, 15-24, 25-34, 35-44, 45-54, 55+) across Population Health Areas in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -22463,7 +22307,7 @@ const DATASETS = [
     "desc": "Projected male population counts for each Population Health Area in Western Australia, broken down by age groups (0-14, 15-24, 25-44, 45-64, 65+, 70+, 75+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22478,7 +22322,7 @@ const DATASETS = [
     "desc": "Projected female population counts by age group for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22493,7 +22337,7 @@ const DATASETS = [
     "desc": "Projected counts of persons in various age brackets for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22509,7 +22353,7 @@ const DATASETS = [
     "desc": "Counts of Australian-born and overseas-born residents in WA Population Health Areas, broken down by language background and length of residence.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22525,7 +22369,7 @@ const DATASETS = [
     "desc": "Counts of births by the top ten countries of origin for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22540,7 +22384,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia under the Offshore Humanitarian Program by Population Health Area in Western Australia, aggregated for three cumulative periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22555,7 +22399,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a Family stream visa by Population Health Area in Western Australia for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22571,7 +22415,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a skill stream visa for each Population Health Area in Western Australia for three time periods (2000‑2011, 2000‑2016, 2000‑2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22587,7 +22431,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia by Population Health Area in Western Australia for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22618,7 +22462,7 @@ const DATASETS = [
     "desc": "Dataset of education-related indicators for each Population Health Area in Western Australia, covering preschool enrolments, school completion, vocational training, and university enrollment for 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22649,7 +22493,7 @@ const DATASETS = [
     "desc": "Dataset of learning or earning status for individuals aged 15-24 across Population Health Areas in Western Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22665,7 +22509,7 @@ const DATASETS = [
     "desc": "This dataset provides counts of single-parent, jobless, and low-education families and their children under 15 across Population Health Areas in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22681,7 +22525,7 @@ const DATASETS = [
     "desc": "Dataset of unpaid child care hours per Population Health Area in Western Australia, including care for own children, other children, and total unpaid care.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22697,7 +22541,7 @@ const DATASETS = [
     "desc": "Counts of voluntary work for an organisation or group per Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22713,7 +22557,7 @@ const DATASETS = [
     "desc": "Dataset of housing and transport-related indicators for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22729,7 +22573,7 @@ const DATASETS = [
     "desc": "Dataset of estimated number of people experiencing homelessness in each Population Health Area in Western Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -22744,7 +22588,7 @@ const DATASETS = [
     "desc": "Counts of residents receiving various income support benefits by Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22760,7 +22604,7 @@ const DATASETS = [
     "desc": "Dataset of unemployment and labour force participation rates by gender for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22776,7 +22620,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates across Population Health Areas in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -22792,7 +22636,7 @@ const DATASETS = [
     "desc": "This dataset provides the SEIFA Index of Relative Socio-economic Disadvantage scores for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -22853,11 +22697,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-screening-age",
-    "name": "Screening Age by Birth Origin and Residency Duration",
+    "name": "Screening Age by Birth Origin and Residency Duration (WA)",
     "desc": "Dataset of average screening ages for Australian-born and NES-born individuals, segmented by residency duration.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23042,7 +22886,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-estimates-mental-health-persons",
-    "name": "Estimated Mental Health Disorder Prevalence by Population Health Area",
+    "name": "Estimated Mental Health Disorder Prevalence by Population Health Area (WA)",
     "desc": "Aggregated modelled estimates of the number of adults aged 16-85 living in private dwellings with various mental health disorders, severity levels, and comorbidity across Population Health Areas in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -23072,7 +22916,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-estimates-risk-factors-adults",
-    "name": "Adult Risk Factor Estimates by Population Health Area",
+    "name": "Adult Risk Factor Estimates by Population Health Area (WA)",
     "desc": "Modelled estimates of adult psychological distress, blood pressure, obesity, overweight, and waist‑risk counts by gender and overall for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -23088,7 +22932,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-estimates-risk-factors-children",
-    "name": "Child Overweight/Obesity Estimates by PHA",
+    "name": "Child Overweight/Obesity Estimates by PHA (WA)",
     "desc": "Aggregated modelled estimates of overweight and obesity counts for males, females, and all children aged 2-17 across Population Health Areas in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -23275,7 +23119,7 @@ const DATASETS = [
     "desc": "Number of residential aged care places available in each Population Health Area of Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23291,7 +23135,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants across nine age groups for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23323,7 +23167,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients by sex and total population for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23339,7 +23183,7 @@ const DATASETS = [
     "desc": "Counts of community mental health service contacts by principal diagnosis for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23355,7 +23199,7 @@ const DATASETS = [
     "desc": "Dataset of client counts and demographic indicators for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23476,7 +23320,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-admissions-procedures",
-    "name": "PHIDU Hospital Admissions by Procedure and Location",
+    "name": "PHIDU Hospital Admissions by Procedure and Location (WA)",
     "desc": "Counts of admissions for selected surgical procedures (tonsillectomy, myringotomy, hysterectomy, Caesarean section, hip fracture) across public, private, and all hospitals within Population Health Areas in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -23575,7 +23419,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by male and female patients in each Population Health Area of Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23591,7 +23435,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in Western Australian Population Health Areas, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23602,11 +23446,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-ed-total-triage-category",
-    "name": "ED Triage Category by Population Health Area",
+    "name": "ED Triage Category by Population Health Area (WA)",
     "desc": "Counts of emergency department presentations by triage category for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23622,7 +23466,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by disease category for each Population Health Area in Western Australia, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23653,7 +23497,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for mental and behavioural disorders in Western Australia population health areas, broken down by six age categories.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23665,11 +23509,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-wa-ed-circulatory-age",
-    "name": "ED Circulatory System Presentations by Age Group",
+    "name": "ED Circulatory System Presentations by Age Group (WA)",
     "desc": "Counts of emergency department presentations for circulatory system diseases, stratified by age groups, for each Population Health Area in Western Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23685,7 +23529,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for respiratory diseases across age groups within Western Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23715,7 +23559,7 @@ const DATASETS = [
     "desc": "Number of emergency department presentations for musculoskeletal diseases in WA Population Health Areas, broken down by age group.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23730,7 +23574,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases in Western Australia, broken down by age group and sex at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -23746,7 +23590,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and other external causes in Western Australia, broken down by age group and sex at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -23761,46 +23605,12 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for various age groups in Western Australia population health areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
       "clustering",
       "classification",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_wa.xlsx"
-  },
-  {
-    "id": "phidu-pha-wa-phas",
-    "name": "Population Health Areas (WA) – PHIDU Social Health Atlas",
-    "desc": "Dataset of Population Health Areas in Western Australia from the PHIDU Social Health Atlas, providing spatial identifiers for health analysis.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_wa.xlsx"
-  },
-  {
-    "id": "phidu-pha-wa-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas: Population Health Area (WA) PHA by Location",
-    "desc": "Dataset of Population Health Areas in Western Australia containing social health indicators from the PHIDU Social Health Atlas, organized by geographic location.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
       "time-series"
     ],
     "last_updated": "2026",
@@ -23812,7 +23622,7 @@ const DATASETS = [
     "desc": "Counts of male residents in each 5‑year age group for each Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -23827,7 +23637,7 @@ const DATASETS = [
     "desc": "Counts of females in each 5-year age group for every Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -23842,7 +23652,7 @@ const DATASETS = [
     "desc": "Counts of persons in 0-4 to 60-64 age groups for each Population Health Area in Tasmania, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -23858,7 +23668,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of males in various age brackets for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -23874,7 +23684,7 @@ const DATASETS = [
     "desc": "Dataset showing the number of females in various age groups for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -23890,7 +23700,7 @@ const DATASETS = [
     "desc": "A cross‑sectional dataset showing the number of persons in various age groups for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -23906,7 +23716,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in Tasmania's Population Health Areas, broken down by age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -23921,7 +23731,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in Tasmania broken down into six age categories (0-14, 15-24, 25-34, 35-44, 45-54, 55+).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression"
@@ -23935,7 +23745,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in Tasmania by age group at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -23950,7 +23760,7 @@ const DATASETS = [
     "desc": "Dataset showing the proportion of Aboriginal residents relative to the total population within each Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -23965,7 +23775,7 @@ const DATASETS = [
     "desc": "This dataset provides the proportion of Aboriginal residents within each age group (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for every Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -23981,7 +23791,7 @@ const DATASETS = [
     "desc": "Projected male population counts for each Population Health Area in Tasmania across multiple age brackets.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -23997,7 +23807,7 @@ const DATASETS = [
     "desc": "Projected counts of females in various age brackets for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24012,7 +23822,7 @@ const DATASETS = [
     "desc": "Projected population counts by age group for each Population Health Area in Tasmania, used for health planning and resource allocation.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24024,11 +23834,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-tas-birthplace-nes-residents",
-    "name": "Birthplace NES Residents by PHA",
+    "name": "Birthplace NES Residents by PHA (Tas)",
     "desc": "Counts of Australian residents by birthplace category for each Population Health Area in Tasmania, including Australian-born, overseas-born from English- and non-English-speaking countries, NES residents of varying duration, and those reporting poor English proficiency.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -24044,7 +23854,7 @@ const DATASETS = [
     "desc": "Counts of births by top ten countries of origin for each Population Health Area in Tasmania, Australia, for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24059,7 +23869,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia under the Offshore Humanitarian Program by Population Health Area in Tasmania for three periods between 2000 and 2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24075,7 +23885,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a Family stream visa by Population Health Area in Tasmania for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24091,7 +23901,7 @@ const DATASETS = [
     "desc": "Counts of permanent skilled migrants arriving in Australia between 2000 and 2011, 2016, and 2021, aggregated by Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24103,11 +23913,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-tas-migrants-total",
-    "name": "Migrants Total",
-    "desc": "PHIDU PHA by location data for Population Health Area",
+    "name": "Total Migrant Arrivals by PHA (Tas)",
+    "desc": "Total counts of migrant arrivals by Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24122,7 +23932,7 @@ const DATASETS = [
     "desc": "Dataset of total fertility rates for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24138,7 +23948,7 @@ const DATASETS = [
     "desc": "This dataset provides a range of education-related indicators for each Population Health Area in Tasmania, including preschool enrolments, school leaving rates, secondary and vocational participation, and completion rates.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -24169,7 +23979,7 @@ const DATASETS = [
     "desc": "Dataset of learning or earning rates for individuals aged 15-24 across Population Health Areas in Tasmania, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -24185,7 +23995,7 @@ const DATASETS = [
     "desc": "Dataset of family composition indicators for Population Health Areas in Tasmania, Australia, for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -24201,7 +24011,7 @@ const DATASETS = [
     "desc": "Dataset of unpaid child care hours by Population Health Area in Tasmania, including care for own and other children, and total unpaid care.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -24217,7 +24027,7 @@ const DATASETS = [
     "desc": "Counts of voluntary work participation by Population Health Area in Tasmania, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24233,7 +24043,7 @@ const DATASETS = [
     "desc": "Cross‑sectional dataset of housing and transport indicators for each Population Health Area in Tasmania, Australia, for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -24249,7 +24059,7 @@ const DATASETS = [
     "desc": "Estimated number of people experiencing homelessness in each Population Health Area of Tasmania, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24265,7 +24075,7 @@ const DATASETS = [
     "desc": "Counts of various income support recipients (pensioners, disability, parenting, unemployment, etc.) by Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24280,7 +24090,7 @@ const DATASETS = [
     "desc": "Dataset of unemployment and labour force participation rates by gender for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24296,7 +24106,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -24312,7 +24122,7 @@ const DATASETS = [
     "desc": "A dataset of SEIFA Relative Socio-economic Disadvantage scores for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -24360,7 +24170,7 @@ const DATASETS = [
     "desc": "Dataset of breast and national breast cancer screening participation and outcomes by gender and population health area in Tasmania, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -24376,7 +24186,7 @@ const DATASETS = [
     "desc": "Dataset of average screening ages for Australian-born and non-English-speaking-born residents in Tasmania, broken down by length of residence.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -24796,7 +24606,7 @@ const DATASETS = [
     "desc": "Number of residential aged care places available in each Population Health Area of Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -24810,7 +24620,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants in Tasmania across age groups, aggregated at Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -24826,7 +24636,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants with autism in four age groups for each Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -24841,7 +24651,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients in Tasmanian Population Health Areas, broken down by male, female, and total.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -24856,7 +24666,7 @@ const DATASETS = [
     "desc": "Aggregated counts of community mental health care service contacts by principal diagnosis for each Population Health Area in Tasmania, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -24871,7 +24681,7 @@ const DATASETS = [
     "desc": "Dataset of client counts and demographic indicators for each Population Health Area in Tasmania, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -24991,7 +24801,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-tas-admissions-procedures",
-    "name": "PHIDU Admissions Procedures by Hospital Type and Age Group",
+    "name": "PHIDU Admissions Procedures by Hospital Type and Age Group (Tas)",
     "desc": "Counts of admissions for specific surgical procedures in Tasmania, broken down by public/private/all hospitals and relevant age or gender groups.",
     "source": "PHIDU",
     "subtypes": [
@@ -25091,7 +24901,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by male, female, and total persons for each Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -25107,7 +24917,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in Tasmania by age group and sex at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -25122,7 +24932,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in Tasmania's Population Health Areas, broken down by triage category (Resuscitation, Emergency, Urgent, Semi-urgent, Non-urgent, and total).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -25139,7 +24949,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by disease category for each Population Health Area in Tasmania, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -25154,7 +24964,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases in Tasmania, broken down by age group.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -25202,7 +25012,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for respiratory diseases across age groups in Tasmania's Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -25233,7 +25043,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for musculoskeletal diseases in Tasmania, broken down by age group for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -25249,7 +25059,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases in Tasmania, broken down by age groups and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -25263,7 +25073,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and other external causes in Tasmania, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -25279,44 +25089,11 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for factors influencing health status, broken down by age groups, for each Population Health Area in Tasmania.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
       "classification",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_tas.xlsx"
-  },
-  {
-    "id": "phidu-pha-tas-phas",
-    "name": "PHAs: Population Health Areas in Tasmania (PHIDU Atlas)",
-    "desc": "Dataset of Population Health Areas in Tasmania from the PHIDU Social Health Atlas, providing geographic identifiers for health analysis.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_tas.xlsx"
-  },
-  {
-    "id": "phidu-pha-tas-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas: Population Health Area (Tas)",
-    "desc": "Dataset of population health area indicators for Tasmania from the PHIDU Social Health Atlas, providing location-based health metrics.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
       "clustering"
     ],
     "last_updated": "2026",
@@ -25328,7 +25105,7 @@ const DATASETS = [
     "desc": "Dataset of male population counts by 5-year age groups for each Population Health Area in the Northern Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25343,7 +25120,7 @@ const DATASETS = [
     "desc": "Counts of females in each 5-year age group for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25358,7 +25135,7 @@ const DATASETS = [
     "desc": "Counts of persons in 0-4 to 60-64 age groups for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25370,11 +25147,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-age-distribution-males-broad",
-    "name": "Male Age Distribution by Population Health Area",
+    "name": "Male Age Distribution by Population Health Area (NT)",
     "desc": "Counts of males in various age brackets for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25390,7 +25167,7 @@ const DATASETS = [
     "desc": "Dataset of female population counts across age groups for each Population Health Area in the Northern Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25406,7 +25183,7 @@ const DATASETS = [
     "desc": "Provides counts of persons in various age brackets for each Population Health Area in the Northern Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25422,7 +25199,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in each age group (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area in the Northern Territory, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -25438,7 +25215,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in the Northern Territory by age group within each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -25453,7 +25230,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in each age group for every Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -25468,7 +25245,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents relative to total population within each Population Health Area in the Northern Territory, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression"
@@ -25482,7 +25259,7 @@ const DATASETS = [
     "desc": "Dataset of Aboriginal population proportions across age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area in the Northern Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -25497,7 +25274,7 @@ const DATASETS = [
     "desc": "Projected male population counts by age group for each Population Health Area in the Northern Territory for the year 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25512,7 +25289,7 @@ const DATASETS = [
     "desc": "Projected female population counts by age group for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25528,7 +25305,7 @@ const DATASETS = [
     "desc": "Projected population counts for each age group within each Population Health Area in the Northern Territory, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25539,11 +25316,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-birthplace-nes-residents",
-    "name": "Birthplace NES Residents by Population Health Area",
+    "name": "Birthplace NES Residents by Population Health Area (NT)",
     "desc": "Counts of Australian-born and overseas-born residents by language background and length of stay in each Population Health Area of the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25559,7 +25336,7 @@ const DATASETS = [
     "desc": "Top ten countries of origin for births in each Population Health Area in the Northern Territory, with counts for each country.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25574,7 +25351,7 @@ const DATASETS = [
     "desc": "Dataset of cumulative counts of permanent migrants entering Australia under the Offshore Humanitarian Program for each Population Health Area in the Northern Territory, aggregated for three time periods up to 2011, 2016, and 2021.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25590,7 +25367,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a Family stream visa in the Northern Territory, aggregated by Population Health Area for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25606,7 +25383,7 @@ const DATASETS = [
     "desc": "Counts of permanent skilled migrants arriving in Australia between 2000 and 2021, aggregated by Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25623,7 +25400,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia by Population Health Area in the Northern Territory for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25655,7 +25432,7 @@ const DATASETS = [
     "desc": "Dataset of education-related indicators for each Population Health Area in the Northern Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25687,7 +25464,7 @@ const DATASETS = [
     "desc": "Dataset of learning or earning status for individuals aged 15-24 across Population Health Areas in the Northern Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25702,7 +25479,7 @@ const DATASETS = [
     "desc": "Dataset of counts of single-parent, jobless, and low-education families and children in each Population Health Area of the Northern Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25718,7 +25495,7 @@ const DATASETS = [
     "desc": "Dataset of unpaid child care hours for own and other children, plus totals, aggregated at the Population Health Area level in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25733,7 +25510,7 @@ const DATASETS = [
     "desc": "Dataset of voluntary work participation rates for organisations or groups across Population Health Areas in the Northern Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25749,7 +25526,7 @@ const DATASETS = [
     "desc": "Dataset of housing and transport-related indicators for Population Health Areas in the Northern Territory, including crowding, rent assistance, rental dwellings, housing stress, and vehicle availability.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25765,7 +25542,7 @@ const DATASETS = [
     "desc": "Estimated number of people experiencing homelessness in each Population Health Area in the Northern Territory, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25780,7 +25557,7 @@ const DATASETS = [
     "desc": "Dataset of various income support payments and benefits received by residents within Population Health Areas in the Northern Territory, including pensions, disability support, parenting payments, unemployment benefits, and low‑income family indicators.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25796,7 +25573,7 @@ const DATASETS = [
     "desc": "Dataset of unemployment and labour force participation rates by gender for each Population Health Area in the Northern Territory, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -25812,7 +25589,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates for each Population Health Area in the Northern Territory, sourced from the PHIDU Social Health Atlas of Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -25828,7 +25605,7 @@ const DATASETS = [
     "desc": "Dataset of SEIFA Relative Socio-economic Disadvantage scores for each Population Health Area in the Northern Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -25876,7 +25653,7 @@ const DATASETS = [
     "desc": "Dataset of participation rates and screening outcomes for the National Breast and Cervical Screening Program and breast screening in the Northern Territory, broken down by gender and population health area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -25892,7 +25669,7 @@ const DATASETS = [
     "desc": "Contains average screening ages for Australian-born and non-English-speaking-born residents in NT population health areas, broken down by residency duration.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -26044,7 +25821,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-estimates-mental-health-males",
-    "name": "Estimated Mental Health Disorder Counts for Males in PHA",
+    "name": "Estimated Mental Health Disorder Counts for Males in PHA (NT)",
     "desc": "Cross‑sectional estimates of the number of males aged 16‑85 living in private dwellings with various mental health disorders, severity levels, and comorbidities at the Population Health Area level in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -26059,7 +25836,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-estimates-mental-health-females",
-    "name": "Female Mental Health Disorder Estimates by PHA",
+    "name": "Female Mental Health Disorder Estimates by PHA (NT)",
     "desc": "Provides modelled estimates of the number of females aged 16-85 in private dwellings with various mental health disorders, severity levels, and comorbidity across Population Health Areas in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -26074,7 +25851,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-estimates-mental-health-persons",
-    "name": "Estimated Mental Health Disorder Prevalence by Population Health Area",
+    "name": "Estimated Mental Health Disorder Prevalence by Population Health Area (NT)",
     "desc": "Cross‑sectional estimates of the number of adults aged 16‑85 with various mental health disorders and severity levels in each Population Health Area of the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -26105,7 +25882,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-estimates-risk-factors-adults",
-    "name": "Adult Risk Factor Estimates by Population Health Area",
+    "name": "Adult Risk Factor Estimates by Population Health Area (NT)",
     "desc": "Provides modelled estimates of adult psychological distress, blood pressure, weight status, and waist risk for males, females, and all persons aged 18+ across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -26120,7 +25897,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-estimates-risk-factors-children",
-    "name": "Child Overweight & Obesity Estimates by PHA",
+    "name": "Child Overweight & Obesity Estimates by PHA (NT)",
     "desc": "Modelled estimates of overweight and obese children aged 2-17 by gender and Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -26199,7 +25976,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-avoidable-mortality-by-sex",
-    "name": "Avoidable Mortality by Sex (0-74) – Population Health Areas",
+    "name": "Avoidable Mortality by Sex (0-74) – Population Health Areas (NT)",
     "desc": "Counts of deaths from all avoidable causes for males, females, and persons aged 0 to 74 years across Population Health Areas in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -26311,7 +26088,7 @@ const DATASETS = [
     "desc": "Number of residential aged care places available in each Population Health Area of the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26326,7 +26103,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants across ten age groups for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26341,7 +26118,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants with autism across four age groups for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -26357,7 +26134,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients, broken down by male, female, and total, for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26372,7 +26149,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care service contacts by principal diagnosis for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26388,7 +26165,7 @@ const DATASETS = [
     "desc": "Dataset of client demographics and service usage counts for Population Health Areas in the Northern Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26509,7 +26286,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-nt-admissions-procedures",
-    "name": "PHIDU Admissions Procedures by Hospital Type and Population Health Area",
+    "name": "PHIDU Admissions Procedures by Hospital Type and Population Health Area (NT)",
     "desc": "Counts of admissions for selected surgical procedures by hospital type and population health area in the Northern Territory, Australia.",
     "source": "PHIDU",
     "subtypes": [
@@ -26608,7 +26385,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by male, female, and total persons for each Population Health Area in the Northern Territory, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26623,7 +26400,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in the Northern Territory by population health area, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26638,7 +26415,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in the Northern Territory, broken down by triage category (Resuscitation, Emergency, Urgent, Semi-urgent, Non-urgent) at the Population Health Area level.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -26654,7 +26431,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by disease category for each Population Health Area in the Northern Territory, Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26669,7 +26446,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases in the Northern Territory, broken down by age group and Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26685,7 +26462,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for mental and behavioural disorders across age groups within Population Health Areas in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -26718,7 +26495,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for respiratory diseases across age groups within Population Health Areas in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26748,7 +26525,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for musculoskeletal diseases, broken down by age groups, for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26763,7 +26540,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases in Northern Territory population health areas, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26778,7 +26555,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and other external causes, broken down by sex and age group, for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -26794,42 +26571,10 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by age group for each Population Health Area in the Northern Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_nt.xlsx"
-  },
-  {
-    "id": "phidu-pha-nt-phas",
-    "name": "Population Health Areas (PHAs) in Northern Territory",
-    "desc": "A spatial dataset listing all Population Health Areas (PHAs) in the Northern Territory, sourced from the PHIDU Social Health Atlas of Australia.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_nt.xlsx"
-  },
-  {
-    "id": "phidu-pha-nt-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas: Population Health Areas (NT)",
-    "desc": "Dataset provides a list of Population Health Areas in the Northern Territory with associated metadata from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
       "clustering"
     ],
     "last_updated": "2026",
@@ -26841,7 +26586,7 @@ const DATASETS = [
     "desc": "Dataset of male population counts by 5-year age groups for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -26856,7 +26601,7 @@ const DATASETS = [
     "desc": "Counts of females in 0-4 to 60-64 age groups for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -26871,7 +26616,7 @@ const DATASETS = [
     "desc": "Counts of persons in 0-4 to 60-64 age groups for each Population Health Area in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas (2026).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "clustering",
@@ -26886,7 +26631,7 @@ const DATASETS = [
     "desc": "Provides counts of male residents in the Australian Capital Territory across broad age brackets, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -26901,7 +26646,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of females in various age groups for each Population Health Area in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -26916,7 +26661,7 @@ const DATASETS = [
     "desc": "This dataset provides the number of persons in various age groups for each Population Health Area in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "clustering",
@@ -26931,7 +26676,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in six age groups (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -26946,7 +26691,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in the ACT by age group for each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -26961,7 +26706,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in the Australian Capital Territory by age group (0-14, 15-24, 25-34, 35-44, 45-54, 55+) for each Population Health Area.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "classification",
@@ -26977,7 +26722,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents relative to total population within each Population Health Area in the Australian Capital Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression"
@@ -26991,7 +26736,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents by age group for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -27006,7 +26751,7 @@ const DATASETS = [
     "desc": "Projected male population counts by age group for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27022,7 +26767,7 @@ const DATASETS = [
     "desc": "Projected female population counts by age group for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27038,7 +26783,7 @@ const DATASETS = [
     "desc": "Projected population counts by age group for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27049,11 +26794,11 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-act-birthplace-nes-residents",
-    "name": "Birthplace NES Residents by PHA (Australia)",
+    "name": "Birthplace NES Residents by PHA (ACT)",
     "desc": "Dataset of population counts by birthplace category for each Population Health Area in the Australian Capital Territory, including Australian-born, overseas-born from English-speaking and non-English-speaking countries, and proficiency in English.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27069,7 +26814,7 @@ const DATASETS = [
     "desc": "Counts of births by the top ten countries of origin for each Population Health Area in the Australian Capital Territory for 2026.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27085,7 +26830,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia under the Offshore Humanitarian Program by Population Health Area in the ACT for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27102,7 +26847,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a Family stream visa by Population Health Area in the Australian Capital Territory for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27118,7 +26863,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia on a skill stream visa, aggregated by Population Health Area in the ACT for three arrival periods (2000‑Aug 2011, 2000‑Aug 2016, 2000‑Aug 2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27134,7 +26879,7 @@ const DATASETS = [
     "desc": "Counts of permanent migrants entering Australia for each Population Health Area in the Australian Capital Territory, aggregated for three time periods (2000-2011, 2000-2016, 2000-2021).",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27165,7 +26910,7 @@ const DATASETS = [
     "desc": "This dataset provides a range of education-related indicators for each Population Health Area in the Australian Capital Territory, including enrolments, participation, and completion rates across primary, secondary, and vocational sectors.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27197,7 +26942,7 @@ const DATASETS = [
     "desc": "Dataset of the proportion of 15‑24 year olds who are learning or earning in each Population Health Area of the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27213,7 +26958,7 @@ const DATASETS = [
     "desc": "Dataset of counts of single-parent, jobless, and low-education families and children under 15 in each Population Health Area of the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27229,7 +26974,7 @@ const DATASETS = [
     "desc": "Counts of unpaid child care provided to own and other children, and total, for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "regression",
@@ -27245,7 +26990,7 @@ const DATASETS = [
     "desc": "Dataset of voluntary work participation rates for organisations or groups across Population Health Areas in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27261,7 +27006,7 @@ const DATASETS = [
     "desc": "This dataset provides key housing and transport indicators for each Population Health Area in the Australian Capital Territory, including crowding, rent assistance, rental housing, housing stress, and vehicle availability.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27277,7 +27022,7 @@ const DATASETS = [
     "desc": "Dataset of estimated counts of people experiencing homelessness in each Population Health Area of the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27293,7 +27038,7 @@ const DATASETS = [
     "desc": "Dataset of counts of various income support recipients across Population Health Areas in the Australian Capital Territory, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27309,7 +27054,7 @@ const DATASETS = [
     "desc": "This dataset provides unemployment and labour force participation rates, broken down by gender, for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27325,7 +27070,7 @@ const DATASETS = [
     "desc": "Dataset of private health insurance coverage rates for each Population Health Area in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -27341,7 +27086,7 @@ const DATASETS = [
     "desc": "Contains SEIFA Relative Socio-economic Disadvantage index values for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "social-determinants"
     ],
     "tasks": [
       "classification",
@@ -27385,7 +27130,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-act-screening",
-    "name": "PHIDU Screening Participation & Outcomes by Population Health Area",
+    "name": "PHIDU Screening Participation & Outcomes by Population Health Area (ACT)",
     "desc": "Dataset of National Breast and Cervical Screening Program participation rates, positive results, and breast cancer outcomes for males and females across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
@@ -27406,7 +27151,7 @@ const DATASETS = [
     "desc": "Dataset of average screening ages for Australian-born and NES-born residents in ACT, broken down by residency duration.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -27560,7 +27305,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-act-estimates-mental-health-males",
-    "name": "Estimated Mental Health Disorder Counts for Males in Australian PHAs",
+    "name": "Estimated Mental Health Disorder Counts for Males in ACT PHAs",
     "desc": "Provides modelled estimates of the number of males aged 16-85 living in private dwellings with various mental health disorders, severity levels, and comorbidities at the Population Health Area level in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -27575,7 +27320,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-act-estimates-mental-health-females",
-    "name": "Estimated Mental Health Disorder Counts for Females in Australian PHAs",
+    "name": "Estimated Mental Health Disorder Counts for Females in ACT PHAs",
     "desc": "Dataset provides modelled estimates of the number of females aged 16-85 living in private dwellings with various mental health disorders, severity levels, and comorbidities across Population Health Areas in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -27636,7 +27381,7 @@ const DATASETS = [
   },
   {
     "id": "phidu-pha-act-estimates-risk-factors-children",
-    "name": "Child Overweight & Obesity Estimates by Population Health Area",
+    "name": "Child Overweight & Obesity Estimates by Population Health Area (ACT)",
     "desc": "Modelled estimates of overweight and obese children aged 2-17, broken down by gender, for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
@@ -27825,7 +27570,7 @@ const DATASETS = [
     "desc": "Dataset of the number of residential aged care places available in each Population Health Area within the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -27841,7 +27586,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants across ten age groups for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -27856,7 +27601,7 @@ const DATASETS = [
     "desc": "Counts of National Disability Insurance Scheme participants with autism across four age groups for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -27872,7 +27617,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care patients in ACT population health areas, broken down by sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -27887,7 +27632,7 @@ const DATASETS = [
     "desc": "Counts of community mental health care service contacts per principal diagnosis for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -27903,7 +27648,7 @@ const DATASETS = [
     "desc": "Snapshot of client demographics and service usage across Population Health Areas in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -28030,7 +27775,7 @@ const DATASETS = [
     "desc": "Dataset of hospital admissions for specific surgical procedures (tonsillectomy, myringotomy, hysterectomy, Caesarean section, hip fracture) in the Australian Capital Territory, broken down by public, private, and all hospitals.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -28126,7 +27871,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations by male, female, and total persons for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -28142,7 +27887,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations in the Australian Capital Territory, broken down by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -28157,7 +27902,7 @@ const DATASETS = [
     "desc": "Aggregated counts of emergency department presentations by triage category for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -28174,7 +27919,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for various disease categories across Population Health Areas in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -28190,7 +27935,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for infectious and parasitic diseases, broken down by age group, for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -28239,7 +27984,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for respiratory diseases across age groups within ACT Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -28268,7 +28013,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for musculoskeletal diseases, broken down by age groups, for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -28283,7 +28028,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for genitourinary diseases in the Australian Capital Territory, disaggregated by age group and sex.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression",
@@ -28298,7 +28043,7 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for injury, poisoning and other external causes, broken down by age group and sex, for Population Health Areas in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "regression"
@@ -28312,44 +28057,12 @@ const DATASETS = [
     "desc": "Counts of emergency department presentations for factors influencing health status, broken down by six age groups, for each Population Health Area in the Australian Capital Territory.",
     "source": "PHIDU",
     "subtypes": [
-      "health-status"
+      "health-services"
     ],
     "tasks": [
       "classification",
       "regression",
       "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_act.xlsx"
-  },
-  {
-    "id": "phidu-pha-act-phas",
-    "name": "PHAs by Location (ACT)",
-    "desc": "Dataset of Population Health Areas in the Australian Capital Territory from the PHIDU Social Health Atlas, listing each PHA's geographic boundaries and identifiers.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_act.xlsx"
-  },
-  {
-    "id": "phidu-pha-act-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas Notes – ACT PHA",
-    "desc": "Notes and metadata for Population Health Areas in the Australian Capital Territory, sourced from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
     ],
     "last_updated": "2026",
     "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_act.xlsx"
@@ -28823,39 +28536,6 @@ const DATASETS = [
     "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_health_status_aust.xlsx"
   },
   {
-    "id": "phidu-pha-health-status-phas",
-    "name": "PHAs: Population Health Area Atlas by Topic",
-    "desc": "A dataset of Australian Population Health Areas (PHAs) grouped by health topic from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "clustering",
-      "regression",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_health_status_aust.xlsx"
-  },
-  {
-    "id": "phidu-pha-health-status-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas: PHA Topics",
-    "desc": "Dataset of topic-based indicators for Population Health Areas across Australia from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-status"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_health_status_aust.xlsx"
-  },
-  {
     "id": "phidu-pha-health-services-aged-care-places",
     "name": "Residential Aged Care Places by Population Health Area",
     "desc": "Number of residential aged care places available in each Population Health Area across Australia, sourced from PHIDU Social Health Atlas.",
@@ -28956,7 +28636,7 @@ const DATASETS = [
     "desc": "Counts of male and female hospital admissions, by public, private, and all hospitals, excluding same-day renal dialysis, at the Population Health Area level in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -28971,7 +28651,7 @@ const DATASETS = [
     "desc": "Dataset of male admissions for various disease categories in public hospitals across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "classification",
@@ -28987,7 +28667,7 @@ const DATASETS = [
     "desc": "Dataset of public hospital admissions for females across Australian Population Health Areas, categorized by principal diagnosis for various disease groups.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "classification",
@@ -29003,7 +28683,7 @@ const DATASETS = [
     "desc": "Counts of public hospital admissions for various disease categories per Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29018,7 +28698,7 @@ const DATASETS = [
     "desc": "Dataset of male admissions to public hospitals in Australia by Population Health Area, detailing principal external causes such as transport crashes, falls, mechanical forces, self-harm, assault, and all injury/poisoning diagnoses.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29034,7 +28714,7 @@ const DATASETS = [
     "desc": "Dataset of female admissions to public hospitals in Australia, broken down by injury type and external cause at the Population Health Area level, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29049,7 +28729,7 @@ const DATASETS = [
     "desc": "Dataset of public hospital admissions for various injury and poisoning causes at the Population Health Area level in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29064,7 +28744,7 @@ const DATASETS = [
     "desc": "Counts of admissions for specific surgical procedures across public, private, and all hospitals in Australia, broken down by age and gender groups.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29079,7 +28759,7 @@ const DATASETS = [
     "desc": "Counts of same-day admissions for dialysis in public hospitals, aggregated at the Population Health Area level across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29096,7 +28776,7 @@ const DATASETS = [
     "desc": "Counts of public hospital admissions for potentially preventable conditions across six age groups in Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29111,7 +28791,7 @@ const DATASETS = [
     "desc": "This dataset provides counts of public hospital admissions for vaccine‑preventable pneumonia and influenza, as well as total vaccine‑preventable conditions, aggregated at the Population Health Area level across Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "classification",
@@ -29127,7 +28807,7 @@ const DATASETS = [
     "desc": "Counts of public hospital admissions for a range of potentially preventable acute conditions across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "classification",
@@ -29143,7 +28823,7 @@ const DATASETS = [
     "desc": "Counts of public hospital admissions for various potentially preventable chronic conditions by Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "health-services"
+      "health-status"
     ],
     "tasks": [
       "regression",
@@ -29356,38 +29036,6 @@ const DATASETS = [
     "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_use_provision_health_aust.xlsx"
   },
   {
-    "id": "phidu-pha-health-services-phas",
-    "name": "Australian PHA Social Health Atlas",
-    "desc": "Dataset of health indicators by topic for each Population Health Area across Australia, sourced from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-services"
-    ],
-    "tasks": [
-      "classification",
-      "regression",
-      "clustering",
-      "time-series"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_use_provision_health_aust.xlsx"
-  },
-  {
-    "id": "phidu-pha-health-services-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas Australia – Population Health Area Notes",
-    "desc": "Notes and metadata for the PHIDU Social Health Atlas of Australia, covering Population Health Areas and topic-based indicators.",
-    "source": "PHIDU",
-    "subtypes": [
-      "health-services"
-    ],
-    "tasks": [
-      "classification",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_use_provision_health_aust.xlsx"
-  },
-  {
     "id": "phidu-pha-demographics-age-distribution-males",
     "name": "Australian Male Age Distribution by Population Health Area",
     "desc": "Dataset of male population counts by 5-year age groups for each Population Health Area in Australia.",
@@ -29487,7 +29135,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal males in six age groups (0‑14, 15‑24, 25‑34, 35‑44, 45‑54, 55+) for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -29502,7 +29150,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal females in six age groups for each Population Health Area in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -29518,7 +29166,7 @@ const DATASETS = [
     "desc": "Counts of Aboriginal persons in six age groups for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -29533,7 +29181,7 @@ const DATASETS = [
     "desc": "Dataset showing the proportion of Aboriginal residents relative to the total population for each Population Health Area in Australia.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -29548,7 +29196,7 @@ const DATASETS = [
     "desc": "Proportion of Aboriginal residents within each age group for every Population Health Area in Australia, sourced from PHIDU Social Health Atlas.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "indigenous-health"
     ],
     "tasks": [
       "regression",
@@ -29737,7 +29385,7 @@ const DATASETS = [
     "desc": "Dataset of Australian Population Health Areas with Australian Early Development Census (AEDC) scores and related indicators.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "health-status"
     ],
     "tasks": [
       "classification",
@@ -29879,7 +29527,7 @@ const DATASETS = [
     "desc": "Dataset showing the proportion of residents with private health insurance across Australian Population Health Areas.",
     "source": "PHIDU",
     "subtypes": [
-      "social-determinants"
+      "health-services"
     ],
     "tasks": [
       "classification",
@@ -29900,36 +29548,6 @@ const DATASETS = [
     "tasks": [
       "classification",
       "regression",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_demographic_social_aust.xlsx"
-  },
-  {
-    "id": "phidu-pha-demographics-phas",
-    "name": "PHIDU Population Health Area Topics Atlas",
-    "desc": "Atlas of Population Health Areas in Australia with topic-based health indicators from PHIDU.",
-    "source": "PHIDU",
-    "subtypes": [
-      "social-determinants"
-    ],
-    "tasks": [
-      "classification",
-      "clustering"
-    ],
-    "last_updated": "2026",
-    "docUrl": "https://phidu.torrens.edu.au/current/data/sha-aust/pha/phidu_data_pha_demographic_social_aust.xlsx"
-  },
-  {
-    "id": "phidu-pha-demographics-notes-on-the-data",
-    "name": "PHIDU Social Health Atlas PHA Notes",
-    "desc": "Dataset contains notes and metadata for Population Health Area (PHA) level indicators across various health topics in Australia, sourced from the PHIDU Social Health Atlas.",
-    "source": "PHIDU",
-    "subtypes": [
-      "social-determinants"
-    ],
-    "tasks": [
-      "classification",
       "clustering"
     ],
     "last_updated": "2026",
@@ -40401,7 +40019,7 @@ const DATASETS = [
     "desc": "Patient demographics: subject_id, gender, anchor age/year for de-identified date alignment, and date of death.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40414,7 +40032,7 @@ const DATASETS = [
     "desc": "Hospital admission and discharge records, including admission type, insurance, language, and admitting/discharge providers.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40427,7 +40045,7 @@ const DATASETS = [
     "desc": "Intra-hospital ward/unit transfer records for each patient stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40440,7 +40058,7 @@ const DATASETS = [
     "desc": "Laboratory measurements for a patient, including tests from outpatient and emergency department visits.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40453,7 +40071,7 @@ const DATASETS = [
     "desc": "Dictionary of laboratory test items referenced by labevents (itemid, label, fluid, category).",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40466,7 +40084,7 @@ const DATASETS = [
     "desc": "Microbiology culture results, organisms identified, and antibiotic sensitivity testing.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40479,7 +40097,7 @@ const DATASETS = [
     "desc": "Dictionary of microbiology test, organism, and antibiotic codes referenced by microbiologyevents.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40492,7 +40110,7 @@ const DATASETS = [
     "desc": "Provider order entry records -- orders placed for medications, labs, imaging, and other care.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40505,7 +40123,7 @@ const DATASETS = [
     "desc": "Additional key-value detail fields associated with provider order entries in poe.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40518,7 +40136,7 @@ const DATASETS = [
     "desc": "Electronic medication administration record -- when medications were actually given to a patient.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40531,7 +40149,7 @@ const DATASETS = [
     "desc": "Additional detail fields (dose, route, site) associated with medication administration events in emar.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40544,7 +40162,7 @@ const DATASETS = [
     "desc": "Medication orders prescribed to a patient, including dose, route, and frequency.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40557,7 +40175,7 @@ const DATASETS = [
     "desc": "Detailed pharmacy-dispensed prescription information: formulary dose, route, frequency, and duration.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40570,7 +40188,7 @@ const DATASETS = [
     "desc": "Billed ICD-9/ICD-10 diagnosis codes assigned to each hospitalization.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40583,7 +40201,7 @@ const DATASETS = [
     "desc": "Dictionary of ICD diagnosis codes and their text descriptions, referenced by diagnoses_icd.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40596,7 +40214,7 @@ const DATASETS = [
     "desc": "Billed ICD-9/ICD-10 procedure codes assigned to each hospitalization.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40609,7 +40227,7 @@ const DATASETS = [
     "desc": "Dictionary of ICD procedure codes and their text descriptions, referenced by procedures_icd.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40622,7 +40240,7 @@ const DATASETS = [
     "desc": "Billed HCPCS procedure/service codes for a hospitalization.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40635,7 +40253,7 @@ const DATASETS = [
     "desc": "Dictionary of HCPCS codes and their descriptions, referenced by hcpcsevents.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40648,7 +40266,7 @@ const DATASETS = [
     "desc": "Diagnosis-related group (DRG) codes used for hospital billing and case-mix classification.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40661,7 +40279,7 @@ const DATASETS = [
     "desc": "Online Medical Record data: blood pressure, height, weight, BMI, and eGFR from inpatient and outpatient visits.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40674,7 +40292,7 @@ const DATASETS = [
     "desc": "Clinical service (e.g. medicine, surgery, cardiology) a patient was assigned to during their hospitalization.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40687,7 +40305,7 @@ const DATASETS = [
     "desc": "De-identified provider/caregiver identifiers referenced across hosp module tables.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40700,7 +40318,7 @@ const DATASETS = [
     "desc": "ICU stay records, derived from transfers -- each stay's ICU unit, admit/discharge time, and length of stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40713,7 +40331,7 @@ const DATASETS = [
     "desc": "Dictionary of MetaVision item identifiers referenced across all icu module event tables.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40726,7 +40344,7 @@ const DATASETS = [
     "desc": "Charted vital signs and other bedside-documented observations during an ICU stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40739,7 +40357,7 @@ const DATASETS = [
     "desc": "Intravenous and fluid inputs administered during an ICU stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40752,7 +40370,7 @@ const DATASETS = [
     "desc": "Ingredient-level breakdown (e.g. water content, calories) of the inputs recorded in inputevents.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40765,7 +40383,7 @@ const DATASETS = [
     "desc": "Patient outputs (e.g. urine output) recorded during an ICU stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40778,7 +40396,7 @@ const DATASETS = [
     "desc": "Procedures performed and documented during an ICU stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40791,7 +40409,7 @@ const DATASETS = [
     "desc": "Observations documented as a date or time value during an ICU stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40804,7 +40422,7 @@ const DATASETS = [
     "desc": "De-identified caregiver identifiers referenced across icu module event tables.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "October 2024",
@@ -40817,7 +40435,7 @@ const DATASETS = [
     "desc": "Patient tracking table for the emergency department: admit/discharge time, demographics, and disposition for each ED stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "January 2023",
@@ -40830,7 +40448,7 @@ const DATASETS = [
     "desc": "Billed diagnoses (ICD codes) assigned during an emergency department stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "January 2023",
@@ -40843,7 +40461,7 @@ const DATASETS = [
     "desc": "Medication reconciliation: medications a patient was taking at the time of ED admission.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "January 2023",
@@ -40856,7 +40474,7 @@ const DATASETS = [
     "desc": "Medications dispensed via automated dispensing (Pyxis) machines during an ED stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "January 2023",
@@ -40869,7 +40487,7 @@ const DATASETS = [
     "desc": "Initial triage assessment on arrival: vital signs, chief complaint, and acuity score.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "January 2023",
@@ -40882,7 +40500,7 @@ const DATASETS = [
     "desc": "Routine vital signs recorded every 1-4 hours during an emergency department stay.",
     "source": "MIMIC-IV",
     "subtypes": [
-        "ehr"
+      "ehr"
     ],
     "tasks": [],
     "last_updated": "January 2023",

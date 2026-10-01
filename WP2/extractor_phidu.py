@@ -34,9 +34,36 @@ TMP_DIR = "/tmp/phidu"
 os.makedirs(TMP_DIR, exist_ok=True)
 
 SKIP_SHEETS = {
-    "Front_page", "Topics", "Contents", "Key", "Notes",
-    "front_page", "topics", "contents", "key", "notes",
+    "front_page", "topics", "contents", "key",
 }
+
+def is_skippable_sheet(sheet_name):
+    """Whether a sheet is a reference/documentation page rather than
+    actual indicator data, and should not become its own dataset entry.
+
+    This used to be an exact-match check against SKIP_SHEETS, which
+    silently failed to catch real-world sheet name variants -- e.g.
+    PHIDU's actual "Notes_on_the_data" sheet doesn't exactly equal the
+    old list's "Notes" entry, and "PHAs" (the area code/name lookup
+    list -- not indicator data) wasn't in the list at all. Both slipped
+    through and became 24 zero-variable "datasets" in schema.json that
+    are really just documentation or lookup tables, not analyzable
+    data (see generate_nhanes_linkage.py's STRUCTURAL_NOT_APPLICABLE
+    handling for the same underlying pattern with NHANES reference
+    tables).
+
+    Matches by substring/prefix, case-insensitively, against a small
+    set of known non-data sheet name patterns.
+    """
+    normalized = sheet_name.strip().lower().replace(" ", "_")
+    if normalized in SKIP_SHEETS:
+        return True
+    non_data_keywords = ["notes", "front_page", "topics", "contents", "key"]
+    if any(normalized.startswith(kw) or normalized == kw for kw in non_data_keywords):
+        return True
+    if normalized == "phas":
+        return True
+    return False
 
 # One representative file per category
 TEST_FILES = [
@@ -177,9 +204,65 @@ TEST_FILES = [
         "category": "ATSI",
     },
     {
+        "url": "https://phidu.torrens.edu.au/current/data/atsi-sha/phidu_atsi_data_phn_aust.xlsx",
+        "source": "phidu-atsi-phn",
+        "geo": "Primary Health Network",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "ATSI",
+    },
+    {
+        "url": "https://phidu.torrens.edu.au/current/data/atsi-sha/phidu_atsi_data_quintiles_aust.xlsx",
+        "source": "phidu-atsi-quintiles",
+        "geo": "Socioeconomic Disadvantage",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "ATSI",
+    },
+    {
+        "url": "https://phidu.torrens.edu.au/current/data/atsi-sha/phidu_atsi_data_quintiles_time_series_aust.xlsx",
+        "source": "phidu-atsi-quintiles-time-series",
+        "geo": "Socioeconomic Disadvantage",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "ATSI",
+    },
+    {
+        "url": "https://phidu.torrens.edu.au/current/data/atsi-sha/phidu_atsi_data_remoteness_aust.xlsx",
+        "source": "phidu-atsi-remoteness",
+        "geo": "Remoteness Area",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "ATSI",
+    },
+    {
+        "url": "https://phidu.torrens.edu.au/current/data/atsi-sha/phidu_atsi_data_remoteness_time_series_aust.xlsx",
+        "source": "phidu-atsi-remoteness-time-series",
+        "geo": "Remoteness Area",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "ATSI",
+    },
+    {
         "url": "https://phidu.torrens.edu.au/current/data/sha-topics/Indigenous-status-comparison/phidu_Indigenous_status_comparison_data_ia_aust.xlsx",
         "source": "phidu-indigenous-comparison-ia",
         "geo": "Indigenous Area",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "Indigenous Comparison",
+    },
+    {
+        "url": "https://phidu.torrens.edu.au/current/data/sha-topics/Indigenous-status-comparison/phidu_Indigenous_status_comparison_data_quintiles_aust.xlsx",
+        "source": "phidu-indigenous-comparison-quintiles",
+        "geo": "Socioeconomic Outcomes",
+        "subtype": "indigenous-health",
+        "region": "Australia",
+        "category": "Indigenous Comparison",
+    },
+    {
+        "url": "https://phidu.torrens.edu.au/current/data/sha-topics/Indigenous-status-comparison/phidu_Indigenous_status_comparison_data_remoteness_aust.xlsx",
+        "source": "phidu-indigenous-comparison-remoteness",
+        "geo": "Remoteness Area",
         "subtype": "indigenous-health",
         "region": "Australia",
         "category": "Indigenous Comparison",
@@ -253,6 +336,57 @@ def get_sheet_columns(path, sheet_name):
 # LLM generates metadata for one sheet
 # ---------------------------------------------------------------------------
 
+VALID_PHIDU_SUBTYPES = ["health-status", "health-services", "social-determinants", "indigenous-health"]
+
+SUBTYPE_DEFINITIONS = """
+- health-status: disease prevalence, mortality/death rates, hospital admissions
+  by diagnosis, disability, life expectancy, years of life lost, birth outcomes,
+  immunisation rates -- outcomes or conditions affecting people's health
+- health-services: use of health/welfare services and programs -- Medicare/PBS
+  use, mental health service contacts (e.g. CMHCS), aged/disability care program
+  participation (e.g. CHSP, NDIS), GP/hospital service provision and workforce
+- social-determinants: non-health-outcome social/economic/demographic factors
+  that INFLUENCE health -- income, employment, education, housing, migration,
+  family structure, socioeconomic disadvantage (SEIFA/IRSD), age/sex population
+  structure
+- indigenous-health: any of the above, but specific to the Aboriginal and/or
+  Torres Strait Islander population rather than the general population
+"""
+
+def llm_classify_subtype(sheet_name, desc, geo, region):
+    """Classifies ONE sheet's actual subject matter into exactly one of
+    VALID_PHIDU_SUBTYPES, based on this sheet's own name/description --
+    NOT inherited wholesale from the workbook file it came from.
+
+    This replaces the old behaviour, where every sheet in a workbook
+    silently inherited a single hardcoded subtype from that workbook's
+    entry in TEST_FILES, regardless of what that individual sheet was
+    actually about (e.g. a workbook tagged 'health-status' might contain
+    a sheet about migrant arrivals, which is really a social-determinants
+    topic, not a health-status one).
+    """
+    prompt = f"""Classify this Australian health-related dataset into EXACTLY ONE category.
+
+Dataset: {sheet_name.replace('_', ' ')}
+Description: {desc}
+Geography: {geo} ({region})
+
+Categories (choose exactly one):
+{SUBTYPE_DEFINITIONS}
+
+Return ONLY a JSON object: {{"subtype": "<one of: health-status, health-services, social-determinants, indigenous-health>"}}"""
+
+    reply = nim_chat([
+        {"role": "system", "content": "You are a health data classification expert. Return ONLY valid JSON, no markdown."},
+        {"role": "user", "content": prompt},
+    ], max_tokens=50)
+    result = safe_json(reply, default={"subtype": "health-status"})
+    subtype = result.get("subtype", "health-status")
+    if subtype not in VALID_PHIDU_SUBTYPES:
+        subtype = "health-status"  # safe fallback if the LLM returns garbage
+    return subtype
+
+
 def llm_generate_metadata(sheet_name, col_names, file_info):
     col_str = ", ".join(col_names[:15]) if col_names else "not available"
     prompt = f"""Generate metadata for this Australian health dataset.
@@ -266,7 +400,7 @@ Columns/Indicators: {col_str}
 Return ONLY a JSON object with these fields:
 {{
   "name": "short descriptive name (max 80 chars)",
-  "desc": "one sentence description of what this dataset contains",
+  "desc": "one sentence description of what this dataset contains -- if this data is scoped to a specific state/territory ({file_info['region']}), the description MUST say so explicitly rather than implying national coverage",
   "tasks": ["list", "of", "applicable", "ML", "tasks", "from: classification, regression, clustering, time-series"]
 }}"""
 
@@ -276,7 +410,7 @@ Return ONLY a JSON object with these fields:
     ])
     return safe_json(reply, default={
         "name": sheet_name.replace("_", " ").title(),
-        "desc": f"PHIDU {file_info['category']} data for {file_info['geo']}",
+        "desc": f"PHIDU {file_info['category']} data for {file_info['geo']} ({file_info['region']})",
         "tasks": ["regression", "classification"],
     })
 
@@ -313,7 +447,7 @@ def process_file(file_info, schema):
 
     path = download_file(url, filename)
     xl = pd.ExcelFile(path)
-    data_sheets = [s for s in xl.sheet_names if s not in SKIP_SHEETS]
+    data_sheets = [s for s in xl.sheet_names if not is_skippable_sheet(s)]
     print(f"  {len(data_sheets)} data sheets found")
 
     added = 0
@@ -336,15 +470,23 @@ def process_file(file_info, schema):
             print(f"    LLM failed: {e}, using defaults")
             meta = {
                 "name": sheet.replace("_", " ").title(),
-                "desc": f"PHIDU {file_info['category']} data — {file_info['geo']}",
+                "desc": f"PHIDU {file_info['category']} data for {file_info['geo']} ({file_info['region']})",
                 "tasks": ["regression", "classification"],
             }
+
+        try:
+            subtype = llm_classify_subtype(
+                sheet, meta.get("desc", ""), file_info["geo"], file_info["region"])
+            time.sleep(5)
+        except Exception as e:
+            print(f"    Subtype classification failed: {e}, falling back to file default")
+            subtype = file_info["subtype"]
 
         schema[ds_id] = {
             "name": meta.get("name", sheet.replace("_", " ").title()),
             "desc": meta.get("desc", ""),
             "source": "PHIDU",
-            "subtypes": [file_info["subtype"]],
+            "subtypes": [subtype],
             "tasks": meta.get("tasks", ["regression"]),
             "url": url,
             "sheet": sheet,

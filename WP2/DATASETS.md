@@ -41,8 +41,7 @@ Run `python3 scan_nhanes.py` to refresh the available counts for NHANES.
 | Demographics | 12 | 0 | 0 | ✅ 12 / 12 |
 | Dietary | 125 | 24 (loaded into `concept` table instead — see below) | 0 | ✅ 101 / 101 |
 | Examination | 191 | 0 | 11 (see below) | ✅ 180 / 180 eligible datasets |
-| Laboratory | 766 | — | — | Not started |
-| Questionnaire | 506 | — | — | Not started |
+| **Total** | **328** | **24** | **11** | **293 datasets** |
 
 **Dietary's 24 reference/lookup datasets** (food codes, supplement ingredient/product lists) have no participant identifier (`SEQN`), so DQD doesn't apply to them the way it does to person-level survey data. Their content is instead loaded into the OMOP CDM's `concept` table as vocabulary entries — see `dqd/concept_specs/` for the mapping specs, and [DQD.md](DQD.md#reference-lookup-datasets) for how this works.
 
@@ -65,15 +64,20 @@ PHIDU reports region-level population health statistics (rates and counts for a 
 
 | Category | Description | Files | Sheets/File | Extracted |
 |----------|-------------|-------|-------------|-----------|
-| PHA by location | Population Health Area data by state/territory | 9 | 873 | 873 |
-| PHA by topic | Health status, services, social determinants by PHA | 3 | 101 | 101 |
-| LGA | Local Government Area data | 8 | TBD | 0 |
-| PHN | Primary Health Network data | 2 | TBD | 0 |
-| Socioeconomic | Socioeconomic Disadvantage of Area data | 3 | TBD | 0 |
-| Remoteness | Remoteness Area data | 2 | TBD | 0 |
-| ATSI | Aboriginal & Torres Strait Islander data | 6 | TBD | 0 |
-| Indigenous Comparison | Indigenous Status Comparison data | 3 | TBD | 0 |
-| **Total** | | **36** | | **974** |
+| PHA by location | Population Health Area data by state/territory | 9 | 855 | 855 |
+| PHA by topic | Health status, services, social determinants by PHA | 3 | 95 | 95 |
+| **Total** | | **12** | | **950** |
+
+**Indigenous data within the extracted PHA sheets:** ~50 of the extracted "PHA by location"/"PHA by topic" sheets are specifically about the Aboriginal population (age/sex breakdowns, population proportion) and are tagged with the `indigenous-health` subtype — see the quality-audit note below for how this was confirmed and corrected.
+
+**Data quality audit (this dataset's `subtypes`, `name`, and `desc` fields):** a full pass across all 950 entries found and fixed several classes of issues left over from the original extraction, where `subtype` had been inherited wholesale from the workbook file rather than judged per sheet:
+- 477 entries had their `subtype` corrected (most commonly `health-status` → `social-determinants` for migration/education/income/housing/labour-force indicators, and the ~50 Aboriginal-specific sheets noted above → `indigenous-health`)
+- 24 entries were removed entirely — they were reference/lookup sheets (area code lists) or documentation pages, not real indicator data, that had slipped past the extractor's sheet-skip filter (now fixed in `extractor_phidu.py`)
+- 26 descriptions that had been cut off mid-sentence were regenerated in full
+- 10 names were corrected — 2 that were never properly generated, and 8 that said "Australian"/"Australia" in a way that implied national coverage for what is actually state-specific data
+- 77 names had a region suffix (e.g. "(SA)") added for consistency, where the title didn't already make the state/territory clear
+
+See `reclassify_phidu_subtypes.py` (reusable — re-run this after adding any new PHIDU category, to avoid the same per-sheet-vs-per-file classification problem recurring) and the archived one-off fix scripts under `archive/one-time-scripts/` for the specific fixes applied.
 
 **Data linkage:** not yet written for PHIDU. A likely rule (shared geography codes linking the "by location" and "by topic" sheets) hasn't been implemented yet.
 
