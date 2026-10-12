@@ -192,7 +192,7 @@
         return;
       }
       if (ds.source === 'PHIDU') {
-        fetch('http://localhost:8765/api/phidu/data/' + encodeURIComponent(ds.id))
+        fetch('/api/phidu/data/' + encodeURIComponent(ds.id))
         .then(async r => {
           const data = await r.json();
           if (!r.ok || data.error) {
@@ -222,7 +222,7 @@
           document.getElementById('schema-body').innerHTML = '<div class="empty">Error: ' + (err.message || err) + '</div>';
         });
       } else {
-        fetch('http://localhost:8765/api/schema/' + encodeURIComponent(ds.id))
+        fetch('/api/schema/' + encodeURIComponent(ds.id))
         .then(async r => {
           const entry = await r.json();
           if (!r.ok) {
@@ -303,7 +303,7 @@ function runDQD() {
   btn.disabled = true;
   btn.textContent = 'Loading…';
 
-  fetch(`http://localhost:8765/api/dqd/result?ds_id=${encodeURIComponent(ds.id)}`)
+  fetch(`/api/dqd/result?ds_id=${encodeURIComponent(ds.id)}`)
   .then(r => r.json())
   .then(data => {
     btn.disabled = false;

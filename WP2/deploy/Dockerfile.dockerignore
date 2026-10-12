@@ -1,0 +1,15 @@
+# Allowlist: exclude everything in WP2, then re-include only what the explorer
+# needs. api.py serves every file in its directory, so anything let through
+# here becomes publicly downloadable from the running site.
+*
+
+!api.py
+!index.html
+!schema.html
+!app.js
+!data.js
+!style.css
+!schema.json
+!dqd/raw/*.json
+!phidu_data/*.xlsx
+!deploy/requirements.txt

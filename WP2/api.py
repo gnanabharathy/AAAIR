@@ -1,4 +1,4 @@
-import os, json
+import os, json, gzip
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
@@ -8,13 +8,30 @@ CORS(app)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCHEMA_PATH = os.path.join(BASE_DIR, 'schema.json')
 
-def load_schema():
-    if os.path.exists(SCHEMA_PATH):
-        with open(SCHEMA_PATH, 'r', encoding='utf-8') as f:
+# The container image (deploy/Dockerfile) ships data files gzipped: schema.json
+# drops from 45 MB to about 3 MB and DQD reports compress roughly 29x. Plain
+# files are tried first, so a normal checkout of WP2 runs unchanged.
+def read_json(path):
+    if os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
-    return {}
+    if os.path.exists(path + '.gz'):
+        with gzip.open(path + '.gz', 'rt', encoding='utf-8') as f:
+            return json.load(f)
+    return None
+
+def json_exists(path):
+    return os.path.exists(path) or os.path.exists(path + '.gz')
+
+def load_schema():
+    return read_json(SCHEMA_PATH) or {}
 
 SCHEMA_DATA = load_schema()
+
+@app.route('/healthz')
+def healthz():
+    # Liveness probe for the container healthcheck and any load balancer.
+    return jsonify({'status': 'ok', 'datasets': len(SCHEMA_DATA)})
 
 @app.route('/')
 def index():
@@ -148,11 +165,10 @@ def get_dqd_result():
         })
 
     result_path = os.path.join(BASE_DIR, 'dqd/raw', f'{ds_id}.json')
-    if not os.path.exists(result_path):
+    if not json_exists(result_path):
         return jsonify({'ok': False, 'error': 'DQD not run yet for this dataset'}), 404
 
-    with open(result_path, 'r', encoding='utf-8') as f:
-        dqd_data = json.load(f)
+    dqd_data = read_json(result_path)
 
     return jsonify({'ok': True, 'result': dqd_data})
 
@@ -171,13 +187,10 @@ def get_phidu_data(ds_id):
         local_path = os.path.join(BASE_DIR, 'phidu_data', filename)
         
         if not os.path.exists(local_path):
-            import urllib.request, ssl
+            import urllib.request
             os.makedirs(os.path.join(BASE_DIR, 'phidu_data'), exist_ok=True)
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            ctx = ssl.create_default_context()
-            ctx.check_hostname = False
-            ctx.verify_mode = ssl.CERT_NONE
-            with urllib.request.urlopen(req, timeout=120, context=ctx) as r:
+            with urllib.request.urlopen(req, timeout=120) as r:
                 with open(local_path, 'wb') as f:
                     f.write(r.read())
         
@@ -219,4 +232,10 @@ def get_phidu_data(ds_id):
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8765)
+    # Defaults keep `python api.py` serving http://localhost:8765 as the README
+    # describes, without exposing the dev server to the local network. The
+    # container runs gunicorn instead and never reaches this block.
+    port = int(os.environ.get('PORT', 8765))
+    host = os.environ.get('HOST', '127.0.0.1')
+    debug = os.environ.get('FLASK_DEBUG', '').lower() in ('1', 'true', 'yes')
+    app.run(debug=debug, host=host, port=port)

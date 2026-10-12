@@ -1,0 +1,14 @@
+# SITE_ADDRESS is a DNS name for automatic HTTPS, or :80 for plain HTTP.
+{$SITE_ADDRESS} {
+	# DQD reports are a few MB of JSON each; compression cuts that roughly 29x
+	# for visitors.
+	encode zstd gzip
+
+	reverse_proxy explorer:8765
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+}
