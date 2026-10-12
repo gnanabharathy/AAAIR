@@ -1,0 +1,24 @@
+# Each address is a DNS name for automatic HTTPS, or a bare :port for plain
+# HTTP before DNS is set up. See docker-compose.yml.
+
+(common) {
+	# The explorer's DQD reports and the course dashboards (3 MB of HTML each)
+	# compress heavily.
+	encode zstd gzip
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+}
+
+{$EXPLORER_ADDRESS} {
+	import common
+	reverse_proxy explorer:8765
+}
+
+{$COURSES_ADDRESS} {
+	import common
+	reverse_proxy courses:8080
+}

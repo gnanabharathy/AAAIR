@@ -1,0 +1,15 @@
+# Internal static server. Plain HTTP on 8080; the shared Caddy in front
+# (deploy/Caddyfile at the repo root) terminates HTTPS and compresses.
+{
+	admin off
+	auto_https off
+}
+
+:8080 {
+	respond /healthz "ok" 200
+
+	root * /srv
+	file_server
+
+	header -Server
+}

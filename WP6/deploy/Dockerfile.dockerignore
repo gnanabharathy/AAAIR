@@ -1,0 +1,10 @@
+# Allowlist: only the three prototypes and this image's own files. Everything
+# let through here becomes publicly downloadable from the running site, so the
+# reports, course database and extraction materials stay out.
+*
+
+!06 Resources & Training (WP6)/WP6.4/Wizard_prototype1.html
+!06 Resources & Training (WP6)/WP6.4/dashboard_prototype1.html
+!06 Resources & Training (WP6)/WP6.4/dashboard_prototype2.html
+!deploy/index.html
+!deploy/Caddyfile
