@@ -31,9 +31,17 @@ in [`WP2/README.md`](../README.md) still work unchanged.
 Two WP2 files changed. Both changes are backward compatible: `python api.py`
 from a plain checkout behaves as before.
 
-**`schema.html`** had `http://localhost:8765` hardcoded in its three API calls.
-Hosted anywhere, the page would have called port 8765 on the *visitor's own
-computer* and failed. The calls are now relative (`/api/...`).
+**`schema.html`:**
+
+- Had `http://localhost:8765` hardcoded in its three API calls. Hosted
+  anywhere, the page would have called port 8765 on the *visitor's own
+  computer* and failed. The calls are now relative (`/api/...`).
+- Now shows PHIDU's required attribution above every PHIDU table. PHIDU content
+  is licensed CC BY-NC-SA 3.0 AU, and the explorer previously republished it
+  without attribution. The wording follows PHIDU's form for modified material,
+  since the explorer reshapes the source tables. When the spreadsheets in
+  `phidu_data/` are re-downloaded, update `PHIDU_ACCESSED` (and
+  `PHIDU_ATLAS` if the year changes) at the top of the PHIDU code.
 
 **`api.py`:**
 

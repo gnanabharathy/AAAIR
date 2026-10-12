@@ -180,6 +180,23 @@
       fetchSchema(ds);
     }
 
+    // PHIDU content is licensed CC BY-NC-SA 3.0 AU, which requires attribution
+    // in PHIDU's specified form. The table here is reshaped from the source
+    // workbook, so this uses PHIDU's wording for modified material. Update
+    // PHIDU_ACCESSED whenever the workbooks in phidu_data/ are re-downloaded.
+    // https://phidu.torrens.edu.au/help-and-information/copyright-disclaimer/licensing-and-attribution-of-phidu-content
+    const PHIDU_ATLAS = 'Social Health Atlas of Australia (online) 2026';
+    const PHIDU_ACCESSED = 'September 2026';
+
+    function phiduAttribution(ds) {
+      return '<div style="padding:10px 16px;border-bottom:0.5px solid var(--border);font-size:12px;line-height:1.5;color:var(--text2)">' +
+        'Based on Public Health Information Development Unit (PHIDU), Torrens University Australia material from: ' +
+        PHIDU_ATLAS + '. Accessed ' + PHIDU_ACCESSED + ', ' +
+        '<a href="' + ds.docUrl + '" target="_blank" rel="noopener">' + ds.docUrl + '</a>. ' +
+        'Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/au/" target="_blank" rel="noopener">CC BY-NC-SA 3.0 AU</a>.' +
+        '</div>';
+    }
+
     function fetchSchema(ds) {
       if (ds.source === 'MIMIC-IV') {
         document.getElementById('dqd-btn').style.display = 'none';
@@ -216,6 +233,7 @@
           document.getElementById('schema-body').innerHTML =
             '<div style="display:flex;align-items:center;padding:12px 16px;border-bottom:0.5px solid var(--border);background:var(--bg2)">' +
             '<span style="font-size:12px;color:var(--text3)">' + rows.length + ' rows (first 100)</span></div>' +
+            phiduAttribution(ds) +
             '<div style="overflow-x:auto"><table class="sch-tbl phidu-tbl" style="table-layout:fixed;width:max-content"><thead>' + thead + '</thead><tbody>' + tbody + '</tbody></table></div>';
         })
         .catch((err) => {

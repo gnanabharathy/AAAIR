@@ -11,15 +11,16 @@ ethics and governance material, see [WP5](../WP5).
 
 ```
 WP6/
-└── 06 Resources & Training (WP6)/
-    ├── WP6.1/              Training needs analysis from the community survey
-    ├── WP6.2_and_6.3/      Course search and extraction protocol, and the course database
-    │   └── WP6.2_Extraction_Protocol/
-    ├── WP6.4/              PRS design options and two working prototypes
-    └── WP6.5/              Prototype user testing, hosting and sustainability
+├── 06 Resources & Training (WP6)/
+│   ├── WP6.1/              Training needs analysis from the community survey
+│   ├── WP6.2_and_6.3/      Course search and extraction protocol, and the course database
+│   │   └── WP6.2_Extraction_Protocol/
+│   ├── WP6.4/              PRS design options and two working prototypes
+│   └── WP6.5/              Prototype user testing, hosting and sustainability
+└── deploy/                 Container image that serves the WP6.4 prototypes as a website
 ```
 
-16 files in total.
+16 project files, plus the hosting files in `deploy/`.
 
 ## Sub-packages
 
@@ -96,7 +97,7 @@ Approaches 1 and 2 were built as working prototypes.
 |------|-----------|
 | `Wizard_prototype1.html` | Approach 1, "ARDC Course Finder, Guided Needs Assessment" |
 | `dashboard_prototype1.html` | Approach 2, "Health Research Analytics & AI, Course Finder" |
-| `dashboard_prototype2.html` | Approach 2, second variant |
+| `dashboard_prototype2.html` | Approach 2, second variant, adding enrolment status |
 | `dashboard_prototype2.qmd` | Quarto source for `dashboard_prototype2.html` |
 
 Both dashboards embed the 738 selected courses directly in the page as a `COURSES`
@@ -139,6 +140,9 @@ xdg-open wizard.html  # Linux
 No installation, server or internet connection is needed once downloaded. The wizard
 fetches Google Fonts and the ARDC logo from the web for styling only, so it will
 still work offline with slightly different typography.
+
+To serve the prototypes as a website instead, locally with Docker or publicly on
+Nectar, see [`deploy/README.md`](deploy/README.md).
 
 To check out WP6 alone rather than cloning the full repository (approximately
 537 MB):
@@ -195,10 +199,13 @@ To make the pipeline reproducible, three changes are needed:
 - **No WP6.3 deliverable is separately identifiable.** The folder is named
   `WP6.2_and_6.3` but every file inside is labelled 6.2. Whether WP6.3 is folded into
   the WP6.2 reports or still outstanding is not recorded anywhere in the repository.
-- **The two dashboard variants are undocumented.** `dashboard_prototype1.html` and
-  `dashboard_prototype2.html` are 3,014,988 and 3,016,045 bytes respectively and
-  carry the same page title. What differs between them, and which one supersedes the
-  other, is not stated. Only variant 2 has committed Quarto source.
+- **The authors have not recorded which dashboard variant supersedes the other.**
+  Comparing the two files shows that `dashboard_prototype2.html` adds enrolment status
+  to each course card ("Enrol anytime", a scheduled start date, or "Enrolment closed")
+  and hides one-time events that have already passed unless the user filters for
+  them, so it shows 731 of 738 courses by default. The two are otherwise the same.
+  This suggests variant 2 is the later version, and only variant 2 has committed
+  Quarto source, but the authors should confirm.
 - **No `.gitignore`.** `.DS_Store` files are committed at the WP6 root and in three
   subdirectories.
 

@@ -18,6 +18,7 @@ already public.
 | `docker-compose.yml` | Builds both images and runs them behind Caddy |
 | `Caddyfile` | Routes each address to its tool; handles HTTPS, compression and security headers |
 | `nectar-setup.sh` | One-command install and update on a fresh Ubuntu VM |
+| `verify.sh` | Checks the deployment from outside: ports, DNS, certificates, health, and that private files stay unpublished |
 
 ## How it fits together
 
@@ -117,6 +118,32 @@ containers restart automatically after a reboot.
 
 The first build takes a few minutes, mostly gzipping about 1.1 GB of WP2 data
 quality reports.
+
+### 6. Check it from outside
+
+Run `verify.sh` from your own computer, not the VM, so it sees what a visitor
+sees. Each failed check names the step above that most likely needs fixing.
+
+Before DNS is in place, check over plain HTTP on the public IP:
+
+```bash
+bash deploy/verify.sh --ip <public-ip>
+```
+
+Once both names resolve and the setup script has been run with them:
+
+```bash
+bash deploy/verify.sh explorer.<your-zone> courses.<your-zone>
+```
+
+This checks that both names resolve, ports 80 and 443 are open, each site has
+a valid certificate and redirects HTTP to HTTPS, private files return 404, and
+the internal ports are closed.
+
+### 7. Remove the temporary port
+
+Once HTTPS works, delete the port 8081 rule from the security group. The final
+`verify.sh` run fails until you do.
 
 ## Operating it
 
