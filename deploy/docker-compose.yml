@@ -1,0 +1,69 @@
+# AAAIR public tools on one host, behind one Caddy:
+#
+#   explorer  WP2 Open Healthcare Dataset Explorer   (WP2/deploy/Dockerfile)
+#   courses   WP6.4 Course Finder prototypes         (WP6/deploy/Dockerfile)
+#
+# Run from this directory:
+#
+#   docker compose up -d --build
+#
+# Set each address to a DNS name pointing at this host and Caddy obtains and
+# renews Let's Encrypt certificates automatically:
+#
+#   EXPLORER_ADDRESS=explorer.<your-zone>.cloud.edu.au \
+#   COURSES_ADDRESS=courses.<your-zone>.cloud.edu.au \
+#   docker compose up -d
+#
+# Unset, they default to plain HTTP on ports 80 (explorer) and 8081 (courses),
+# which is enough to check a new VM before DNS is in place.
+#
+# Note: WP2/docker-compose.yml is a different file. That one runs the
+# PostgreSQL OMOP CDM database used by the WP2 ETL and DQD pipeline.
+
+services:
+  explorer:
+    build:
+      context: ../WP2
+      dockerfile: deploy/Dockerfile
+    image: aaair-explorer:latest
+    restart: unless-stopped
+    # No published ports: only Caddy can reach the apps.
+    expose:
+      - "8765"
+
+  courses:
+    build:
+      context: ../WP6
+      dockerfile: deploy/Dockerfile
+    image: aaair-courses:latest
+    restart: unless-stopped
+    expose:
+      - "8080"
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      explorer:
+        condition: service_healthy
+      courses:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+      # Only used before DNS is set up; see COURSES_ADDRESS above.
+      - "8081:8081"
+    environment:
+      EXPLORER_ADDRESS: ${EXPLORER_ADDRESS:-:80}
+      COURSES_ADDRESS: ${COURSES_ADDRESS:-:8081}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      # Certificates live here. Losing this volume forces re-issuance, and
+      # Let's Encrypt rate-limits repeated issuance for the same name.
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
