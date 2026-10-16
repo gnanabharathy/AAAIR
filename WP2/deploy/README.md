@@ -9,6 +9,7 @@ at the repository root.
 | `Dockerfile` | Multi-stage build with `WP2/` as the build context |
 | `Dockerfile.dockerignore` | Allowlist of the only WP2 files that enter the image |
 | `requirements.txt` | Pinned Python dependencies |
+| `app/api.py`, `app/schema.html` | Hosting versions of the WP2 originals, used only by the image |
 
 The image is self-contained, at about 560 MB. The build gzips `schema.json` and
 all DQD reports (about 1.1 GB of JSON becomes about 40 MB) and keeps only the 12
@@ -26,12 +27,23 @@ docker run -p 8765:8765 aaair-explorer
 Then open <http://localhost:8765>. Or, without Docker, the original instructions
 in [`WP2/README.md`](../README.md) still work unchanged.
 
-## Changes made to WP2 for hosting
+## Hosting versions of WP2 files
 
-Two WP2 files changed. Both changes are backward compatible: `python api.py`
-from a plain checkout behaves as before.
+The original `WP2/api.py` and `WP2/schema.html` are unchanged. Hosting needs
+modified versions, so these live in `deploy/app/` and the Dockerfile copies them
+over the originals inside the image only.
 
-**`schema.html`:**
+If the originals change, apply the same change to the copies in `deploy/app/`
+(or re-derive the copies from the new originals), then rebuild. Otherwise the
+website will keep serving the old behaviour. To see the differences:
+
+```bash
+cd WP2
+diff api.py deploy/app/api.py
+diff schema.html deploy/app/schema.html
+```
+
+**`app/schema.html`:**
 
 - Had `http://localhost:8765` hardcoded in its three API calls. Hosted
   anywhere, the page would have called port 8765 on the *visitor's own
@@ -43,7 +55,7 @@ from a plain checkout behaves as before.
   `phidu_data/` are re-downloaded, update `PHIDU_ACCESSED` (and
   `PHIDU_ATLAS` if the year changes) at the top of the PHIDU code.
 
-**`api.py`:**
+**`app/api.py`:**
 
 - Reads `.json` or `.json.gz`, so the image can ship compressed data.
 - Adds a `/healthz` endpoint for the container health check.

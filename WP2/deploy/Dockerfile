@@ -60,7 +60,10 @@ RUN useradd --create-home --uid 10001 explorer
 # phidu_data is writable, so api.py can fetch a spreadsheet if a future
 # schema.json references one that was not baked in. Setting ownership in the
 # COPY, rather than a later chown, avoids storing the 214 MB twice.
-COPY api.py index.html schema.html app.js data.js style.css ./
+# api.py and schema.html come from deploy/app/, hosting versions kept apart
+# so the original WP2 files stay untouched (see deploy/README.md).
+COPY index.html app.js data.js style.css ./
+COPY deploy/app/api.py deploy/app/schema.html ./
 COPY --from=data /build/schema.json.gz ./
 COPY --from=data /build/dqd/ dqd/
 COPY --from=data --chown=explorer:explorer /build/phidu_data/ phidu_data/

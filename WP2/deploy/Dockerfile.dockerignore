@@ -3,9 +3,9 @@
 # here becomes publicly downloadable from the running site.
 *
 
-!api.py
 !index.html
-!schema.html
+!deploy/app/api.py
+!deploy/app/schema.html
 !app.js
 !data.js
 !style.css

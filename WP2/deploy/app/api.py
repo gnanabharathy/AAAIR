@@ -1,0 +1,241 @@
+import os, json, gzip
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+
+app = Flask(__name__, static_folder='.', static_url_path='')
+CORS(app)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SCHEMA_PATH = os.path.join(BASE_DIR, 'schema.json')
+
+# The container image (deploy/Dockerfile) ships data files gzipped: schema.json
+# drops from 45 MB to about 3 MB and DQD reports compress roughly 29x. Plain
+# files are tried first, so a normal checkout of WP2 runs unchanged.
+def read_json(path):
+    if os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    if os.path.exists(path + '.gz'):
+        with gzip.open(path + '.gz', 'rt', encoding='utf-8') as f:
+            return json.load(f)
+    return None
+
+def json_exists(path):
+    return os.path.exists(path) or os.path.exists(path + '.gz')
+
+def load_schema():
+    return read_json(SCHEMA_PATH) or {}
+
+SCHEMA_DATA = load_schema()
+
+@app.route('/healthz')
+def healthz():
+    # Liveness probe for the container healthcheck and any load balancer.
+    return jsonify({'status': 'ok', 'datasets': len(SCHEMA_DATA)})
+
+@app.route('/')
+def index():
+    return app.send_static_file('index.html')
+
+@app.route('/<path:path>')
+def static_files(path):
+    return app.send_static_file(path)
+
+@app.route('/api/schema/<ds_id>', methods=['GET'])
+def get_schema(ds_id):
+    try:
+        entry = SCHEMA_DATA.get(ds_id)
+        if entry:
+            return jsonify(entry)
+        return jsonify({'error': 'not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+STRUCTURAL_NOT_APPLICABLE = {
+    "nhanes-dietary-drxfcd_c-2003", "nhanes-dietary-drxfcd_d-2005",
+    "nhanes-dietary-drxfcd_e-2007", "nhanes-dietary-drxfcd_f-2009",
+    "nhanes-dietary-drxfcd_g-2011", "nhanes-dietary-drxfcd_h-2013",
+    "nhanes-dietary-drxfcd_i-2015", "nhanes-dietary-drxfcd_j-2017",
+    "nhanes-dietary-drxfcd_l-2021", "nhanes-dietary-drxfmt-1999",
+    "nhanes-dietary-drxfmt_b-2001", "nhanes-dietary-drxmcd_c-2003",
+    "nhanes-dietary-drxmcd_d-2005", "nhanes-dietary-drxmcd_e-2007",
+    "nhanes-dietary-drxmcd_f-2009", "nhanes-dietary-drxmcd_g-2011",
+    "nhanes-dietary-dsbi-1999", "nhanes-dietary-dsii-1999",
+    "nhanes-dietary-dspi-1999", "nhanes-dietary-foodlk_c-2003",
+    "nhanes-dietary-foodlk_d-2005", "nhanes-dietary-p_drxfcd-2017",
+    "nhanes-dietary-varlk_c-2003", "nhanes-dietary-varlk_d-2005",
+}
+
+STRUCTURAL_MESSAGE = (
+    "DQD is not applicable to this dataset. It's a reference/lookup "
+    "table (e.g. a food code or supplement-ingredient list), not "
+    "person-level survey data -- it has no participant identifier "
+    "(SEQN) linking rows to individual people, so it doesn't fit the "
+    "OMOP CDM's person-centric tables that DQD checks. This dataset's "
+    "content is loaded into the CDM's concept table (vocabulary) "
+    "instead."
+)
+
+PHIDU_MESSAGE = (
+    "DQD is not applicable to this dataset. PHIDU data reports "
+    "region-level population health statistics (e.g. rates and counts "
+    "for a state or health area), not individual-person records -- it "
+    "has no participant-level rows to map into the OMOP CDM's "
+    "person-centric tables, so it isn't loaded into the CDM at all."
+)
+
+# NHANES accelerometer/spirometer files where the raw data was never
+# published as a single per-person .xpt table -- each participant's
+# data is a separate archive on CDC's FTP server (PAX80/PAXLUX/PAXMIN,
+# 2011-2014 cycle, ~1TB total compressed). Not recoverable with this
+# project's current single-file ETL approach.
+DATA_NOT_TABULAR = {
+    "nhanes-examination-pax80_g-2011", "nhanes-examination-pax80_h-2013",
+    "nhanes-examination-paxlux_g-2011", "nhanes-examination-paxlux_h-2013",
+    "nhanes-examination-paxmin_g-2011", "nhanes-examination-paxmin_h-2013",
+}
+
+DATA_NOT_TABULAR_MESSAGE = (
+    "DQD is not applicable to this dataset. Unlike most NHANES files, "
+    "this data was never published as a single per-person table -- CDC "
+    "distributes it as one archive per participant on their FTP server "
+    "(the full release is roughly 1 TB compressed). This project's ETL "
+    "pipeline processes single tabular files and cannot currently ingest "
+    "this per-participant archive format."
+)
+
+# NHANES accelerometer/spirometer files that DO have a real, standard
+# SEQN-linked table (confirmed via their documentation's codebook), but
+# are packaged as a large .ZIP archive rather than a bare .xpt at the
+# URL this project's extractor expects. Recoverable in principle --
+# needs the download step taught to fetch and unzip these instead of
+# assuming a direct .xpt. Not yet implemented.
+DATA_ZIPPED_NOT_YET_SUPPORTED = {
+    "nhanes-examination-paxraw_c-2003", "nhanes-examination-paxraw_d-2005",
+    "nhanes-examination-spxraw_e-2007", "nhanes-examination-spxraw_f-2009",
+    "nhanes-examination-spxraw_g-2011",
+}
+
+DATA_ZIPPED_MESSAGE = (
+    "DQD is not applicable to this dataset yet. It has a normal, "
+    "SEQN-linked table structure, but CDC distributes it as a large "
+    ".ZIP archive rather than the plain .xpt file this project's ETL "
+    "currently expects. The underlying data hasn't changed -- this is "
+    "a pipeline limitation, not a data availability issue -- and "
+    "support for zipped downloads is a planned improvement."
+)
+
+@app.route('/api/dqd/result', methods=['GET'])
+def get_dqd_result():
+    ds_id = request.args.get('ds_id', '').strip()
+    if not ds_id:
+        return jsonify({'ok': False, 'error': 'Missing ds_id'}), 400
+
+    if ds_id in STRUCTURAL_NOT_APPLICABLE:
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'panel',
+            'message': STRUCTURAL_MESSAGE,
+        })
+
+    if ds_id in DATA_NOT_TABULAR:
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'panel',
+            'message': DATA_NOT_TABULAR_MESSAGE,
+        })
+
+    if ds_id in DATA_ZIPPED_NOT_YET_SUPPORTED:
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'panel',
+            'message': DATA_ZIPPED_MESSAGE,
+        })
+
+    entry = SCHEMA_DATA.get(ds_id)
+    if entry and entry.get('source') == 'PHIDU':
+        return jsonify({
+            'ok': False,
+            'structural': True,
+            'display': 'modal',
+            'message': PHIDU_MESSAGE,
+        })
+
+    result_path = os.path.join(BASE_DIR, 'dqd/raw', f'{ds_id}.json')
+    if not json_exists(result_path):
+        return jsonify({'ok': False, 'error': 'DQD not run yet for this dataset'}), 404
+
+    dqd_data = read_json(result_path)
+
+    return jsonify({'ok': True, 'result': dqd_data})
+
+
+@app.route('/api/phidu/data/<ds_id>', methods=['GET'])
+def get_phidu_data(ds_id):
+    try:
+        entry = SCHEMA_DATA.get(ds_id)
+        if not entry or entry.get('source') != 'PHIDU':
+            return jsonify({'error': 'not a PHIDU dataset'}), 404
+        
+        import pandas as pd
+        url = entry['url']
+        sheet = entry['sheet']
+        filename = url.split('/')[-1]
+        local_path = os.path.join(BASE_DIR, 'phidu_data', filename)
+        
+        if not os.path.exists(local_path):
+            import urllib.request
+            os.makedirs(os.path.join(BASE_DIR, 'phidu_data'), exist_ok=True)
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                with open(local_path, 'wb') as f:
+                    f.write(r.read())
+        
+        # Read header rows to build column names
+        df_h = pd.read_excel(local_path, sheet_name=sheet, header=None, nrows=5)
+        
+        # Row 0: age group names (e.g. Males, 0-4 years)
+        # Row 3: sub-column names (Number, Total males, %)
+        # Build combined column names
+        col_names = []
+        current_group = ''
+        for i, (h0, h3) in enumerate(zip(df_h.iloc[0], df_h.iloc[3])):
+            if pd.notna(h0) and not str(h0).startswith('Unnamed') and not str(h0).startswith('Link') and not str(h0).startswith('BACK') and not str(h0).startswith('©'):
+                current_group = str(h0).strip()
+            sub = str(h3).strip() if pd.notna(h3) else ''
+            if i == 0:
+                col_names.append('Code')
+            elif i == 1:
+                col_names.append('Name')
+            elif sub and sub not in ['nan', '']:
+                col_names.append(f'{current_group} — {sub}' if current_group else sub)
+            else:
+                col_names.append(f'col_{i}')
+        
+        # Read actual data
+        df = pd.read_excel(local_path, sheet_name=sheet, header=None, skiprows=5)
+        df.columns = col_names[:len(df.columns)]
+        
+        # Remove empty rows and header-like rows
+        df = df[df['Code'].notna() & (df['Code'] != '') & (df['Code'] != 'Code')]
+        df = df.head(100)
+        
+        # Convert to list of dicts
+        records = df.fillna('').astype(str).to_dict(orient='records')
+        columns = col_names[:len(df.columns)]
+        
+        return jsonify({'columns': columns, 'rows': records})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+if __name__ == '__main__':
+    # Defaults keep `python api.py` serving http://localhost:8765 as the README
+    # describes, without exposing the dev server to the local network. The
+    # container runs gunicorn instead and never reaches this block.
+    port = int(os.environ.get('PORT', 8765))
+    host = os.environ.get('HOST', '127.0.0.1')
+    debug = os.environ.get('FLASK_DEBUG', '').lower() in ('1', 'true', 'yes')
+    app.run(debug=debug, host=host, port=port)
