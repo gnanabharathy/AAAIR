@@ -1,0 +1,313 @@
+# Narrative field values for the AAAIR DReSA catalogue records (R0 to R5).
+# Field names match the first column of the DReSA template tables exactly.
+# Placeholders in {braces} are filled by build_dresa_records.py from the source files.
+# Text marked [To confirm] or [Drafted] needs checking before submission to DReSA.
+
+defaults:
+  Licence: "CC BY 4.0 (documents); MIT (software). Third-party data, guides and courses keep their own licences."
+  Status: "Active"
+  Contact: "AAAIR project team, ARDC: gnana.bharathy@ardc.edu.au [To confirm]"
+  DOI: "None yet. Recommend minting one through a GitHub release archived to Zenodo."
+  Content provider: "Australian Research Data Commons (ARDC) [To confirm]"
+  Events: "Not applicable"
+  Date published: "Not yet published in DReSA"
+  Subsets: "AAAIR Advanced Analytics and AI Resource Hub (record R0)"
+
+records:
+
+- id: R0
+  file: R0_AAAIR_Resource_Hub_overview
+  Title: "AAAIR Advanced Analytics and AI Resource Hub"
+  Description: >-
+    The ARDC-ADSN Advanced Analytics and AI Resource Hub (AAAIR) is a curated set of data,
+    tools, governance guidance and training for health and medical researchers who use
+    advanced analytics and artificial intelligence (AI). The project followed a
+    curation-first approach: it reviewed and organised existing resources rather than
+    building new ones, with attention to FAIR principles and to deployment in
+    Nectar-backed virtual research environments (VREs). This record is the entry point to
+    five catalogue records: an open health dataset explorer (WP2), a directory of
+    recommended analytics and AI tools (WP3 and WP4), an ethics and governance matrix and
+    checklist (WP5), a course finder for health analytics and AI training (WP6.4), and a
+    training needs and gap analysis (WP6.1 to WP6.3).
+  Keywords: "health research; advanced analytics; artificial intelligence; machine learning; FAIR data; research data; virtual research environment; Nectar; training; ethics and governance; People RDC"
+  URL: "https://github.com/gnanabharathy/AAAIR (update to the hosted landing page when available)"
+  Version: "Repository main branch, commit {git_head} ({git_last_date})"
+  Authors: "AAAIR project team [To confirm individual authors and ORCID iDs]"
+  Contributors: "Australian Research Data Commons (ARDC), funder and coordinator; ADSN [To confirm full partner name]; Queensland University of Technology (QUT), WP5 and WP6 delivery [To confirm]"
+  Target audiences: "Researcher; Early career researcher; PhD candidate; Research support staff; Professional"
+  Prerequisites: "None for browsing. Individual components state their own prerequisites."
+  Competency level: "Awareness"
+  Learning objectives: >-
+    After using this hub, users will be able to: (1) find open health datasets suited to an
+    analytics or machine learning task and judge their quality; (2) choose analytics and AI
+    tools suited to a VRE; (3) identify the ethics, governance and licensing rules that
+    apply at each stage of an AI-enabled health research project; (4) find self-paced or
+    regularly scheduled training that matches their needs. [Drafted]
+  Date created: "{git_first_date} (repository); project deliverables from December 2025"
+  Date modified: "{git_last_date}"
+  Fields of research: "4203 Health services and systems; 4206 Public health; 4605 Data management and data science; 4611 Machine learning"
+  Resource types: "Guide"
+  Other types: "Collection; Resource hub"
+  Subsets: "Parent collection for records R1 to R5"
+  Syllabus: "See the component table below. Each component has its own DReSA record."
+  External resources: "Project repository: https://github.com/gnanabharathy/AAAIR"
+  breakdown: components
+
+- id: R1
+  file: R1_WP2_Open_Healthcare_Dataset_Explorer
+  Title: "Open Healthcare Dataset Explorer and Quality Check"
+  Description: >-
+    A web application for finding and assessing open health datasets for analytics and
+    machine learning research. It catalogues {n_entries:,} dataset entries from {n_sources}
+    sources: US NHANES survey tables, the Social Health Atlas of Australia (PHIDU),
+    pointer records for MIMIC-IV clinical data, and the PTB-XL ECG dataset. Users can
+    search and filter datasets by data type and machine learning task, read variable-level
+    metadata (labels, codes, units and value counts), view OHDSI Data Quality Dashboard
+    results for each dataset, read data linkage notes, and run a live FAIR assessment
+    through F-UJI. Datasets are grouped in this record by source, domain and level of
+    data rather than listed one by one; the full list is in the explorer.
+  Keywords: "open data; health data; dataset catalogue; data quality; OHDSI; OMOP CDM; Data Quality Dashboard; FAIR assessment; NHANES; PHIDU; Social Health Atlas; MIMIC-IV; PTB-XL; machine learning datasets"
+  URL: "https://github.com/gnanabharathy/AAAIR/tree/main/WP2 (update to the Nectar-hosted explorer address when live)"
+  Licence: "MIT (software). Data keep their upstream licences: PHIDU CC BY-NC-SA 3.0 AU; PTB-XL CC BY 4.0; NHANES US public-use data [To confirm]; MIMIC-IV credentialed access, not redistributed."
+  Version: "Not formally versioned. Repository commit {git_head_wp2} ({git_last_date_wp2})."
+  Authors: "jennyVVei (GitHub handle) [To confirm full name and ORCID iD]"
+  Contributors: "Gnana Bharathy, ARDC: containerisation, hosting and PHIDU attribution [To confirm role wording]"
+  Target audiences: "Researcher; Early career researcher; PhD candidate; Research support staff"
+  Prerequisites: "None to browse. Running the data quality pipeline needs Python 3.9 or later, R 4.0 or later, Java 8 or later and PostgreSQL."
+  Competency level: "Beginner"
+  Learning objectives: >-
+    Users will be able to: (1) find open health datasets that suit a planned analysis or
+    machine learning task; (2) read variable-level metadata to judge whether a dataset
+    contains the needed measures; (3) interpret OHDSI Data Quality Dashboard results;
+    (4) check how FAIR a dataset is; (5) understand how NHANES tables link through a
+    shared participant identifier. Advanced users can learn to add new sources and run
+    OMOP ETL and data quality checks. [Drafted]
+  Date created: "{git_first_date_wp2}"
+  Date modified: "{git_last_date_wp2}"
+  Fields of research: "4202 Epidemiology; 4206 Public health; 4605 Data management and data science; 4611 Machine learning"
+  Resource types: "Interactive"
+  Other types: "Data catalogue; Web application"
+  Syllabus: >-
+    Level 1, browse (user guide WP2/README.md): search, filter, read variable metadata and
+    data quality results. Level 2, contribute (WP2/EXTRACTION.md): add dataset metadata
+    with the LLM-assisted extractor. Level 3, operate (WP2/DQD.md and deploy/DEPLOY.md):
+    run OMOP ETL, per-dataset Data Quality Dashboard checks, and host the explorer.
+    Dataset categories are summarised in the tables below.
+  External resources: "NHANES: https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx; PHIDU Social Health Atlas: https://phidu.torrens.edu.au/social-health-atlases/data; MIMIC-IV: https://physionet.org/content/mimiciv/3.1/; PTB-XL: https://physionet.org/content/ptb-xl/1.0.3/; OHDSI Data Quality Dashboard: https://github.com/OHDSI/DataQualityDashboard; F-UJI: https://www.f-uji.net/"
+  breakdown: datasets
+
+- id: R2
+  file: R2_WP3-4_Recommended_Analytics_and_AI_Tools
+  Title: "Recommended Analytics and AI Tools for Health Research"
+  Description: >-
+    A curated directory of {n_tools} analytics and AI tools for health and medical
+    researchers, grouped into {n_tool_cats} categories, with a short description, licence
+    and cost, suitability for a Nectar-backed VRE, and a training link for each tool. The
+    recommended core VRE package is R and Python, used through Jupyter, RStudio or
+    Positron, backed by PostgreSQL and command-line Git, with KNIME as the low-code option.
+    SAS and Stata are optional paid additions, and Mistral is the open-weight large
+    language model to consider for in-house hosting. Generative AI tools are recommended
+    as assistants for tasks such as summarising and coding help, not as analysis engines.
+    Tools were assessed for maturity, licensing, cost, sustainability and container
+    deployment, informed by a national survey of 89 researchers.
+  Keywords: "analytics tools; AI tools; statistical software; R; Python; Jupyter; RStudio; KNIME; PostgreSQL; generative AI; large language models; virtual research environment; tool selection"
+  URL: "https://github.com/gnanabharathy/AAAIR/tree/main/WP3%264"
+  Version: "D3.2/4.2 report v3 (2 July 2026)"
+  Authors: "Nettel-Aguirre, Alberto [To confirm ORCID iD]"
+  Contributors: "Survey design reviewers named in the deliverable [To confirm names and roles]"
+  Target audiences: "Researcher; Early career researcher; PhD candidate; Research support staff"
+  Prerequisites: "None"
+  Competency level: "Awareness"
+  Learning objectives: >-
+    Users will be able to: (1) identify which analytics and AI tools are recommended for
+    health research in a VRE and why; (2) compare tools by licence, cost and container
+    support; (3) find training for each recommended tool; (4) recognise appropriate and
+    inappropriate uses of generative AI assistants in research. [Drafted]
+  Date created: "2026-07-02"
+  Date modified: "{git_last_date_wp34}"
+  Fields of research: "4605 Data management and data science; 4611 Machine learning; 4905 Statistics; 4203 Health services and systems"
+  Resource types: "Guide"
+  Other types: "Tool directory"
+  Syllabus: "Tool directory by category, shown in the table below. Bold-equivalent 'Core' flag marks the recommended VRE package; 'Optional' marks tools with trade-offs; 'Listed' marks tools listed for users only."
+  External resources: "D3.3/4.3 VRE customisation needs (recommended R and Python packages): WP3&4 folder of the repository"
+  breakdown: tools
+
+- id: R3
+  file: R3_WP5_Ethics_and_Governance_Matrix_and_Checklist
+  Title: "Ethics and Governance Matrix and Checklist for AI in Health Research"
+  Description: >-
+    Practical guidance on the ethics, governance and licensing rules that apply to health
+    researchers using data analytics and AI in Australia. It has three parts: a checklist
+    of six recommendations; an Ethics and Governance Matrix that ranks 41 laws, policies,
+    frameworks and guides in four tiers and records, for each, whether it binds, who it
+    applies to, the research lifecycle stage, why it matters, currency, watch points and
+    reuse licensing; and a report assessing and prioritising these assets with tables of
+    Australian Government and state AI guidance. Third-party guides are linked at their
+    source.
+  Keywords: "research ethics; data governance; AI governance; responsible AI; health data; Indigenous data governance; generative AI; privacy; Five Safes; licensing; checklist"
+  URL: "https://github.com/gnanabharathy/AAAIR/tree/main/WP5"
+  Version: "Matrix v1.1 (position as at 15 June 2026); WP5.2 report v1.0"
+  Authors: "Hyland-Wood, Bernadette; Guihot, Michael; Mengersen, Kerrie [To confirm names and ORCID iDs]"
+  Contributors: "Queensland University of Technology (QUT) [To confirm]"
+  Target audiences: "Researcher; Early career researcher; PhD candidate; Research support staff; Professional"
+  Prerequisites: "None"
+  Competency level: "Awareness"
+  Learning objectives: >-
+    Users will be able to: (1) identify which ethics and governance instruments bind their
+    project and at which research stage; (2) apply a tiered, risk-based approach to using
+    generative AI with health data; (3) recognise data that must not be entered into
+    commercial AI tools; (4) check whether a guidance document can be reused under its
+    licence. [Drafted]
+  Date created: "2025-12-16 (WP5.2 report)"
+  Date modified: "2026-06-15 (matrix v1.1)"
+  Fields of research: "5001 Applied ethics; 4203 Health services and systems; 4602 Artificial intelligence"
+  Resource types: "Guide"
+  Other types: "Checklist; Governance matrix; Report"
+  Syllabus: "The six checklist recommendations and the four matrix tiers are shown in the tables below."
+  External resources: "Australia's AI Ethics Principles: https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles; AIHW Five Safes framework: https://www.aihw.gov.au/about-our-data/data-governance/the-five-safes-framework; NHMRC guidance on research involving AI [To confirm URL]"
+  breakdown: ethics
+
+- id: R4
+  file: R4_WP6-4_Health_Analytics_and_AI_Course_Finder
+  Title: "Health Research Analytics and AI Course Finder"
+  Description: >-
+    An interactive course finder that helps health and medical researchers choose
+    training in data analytics and AI. It searches {n_selected} curated courses from
+    {n_providers} providers, mapped to {n_tools_taught} tools across six domains, and
+    filters them by domain, level, format, delivery, cost, health research context and
+    enrolment status. A guided wizard asks about the user's needs and returns a ranked
+    shortlist. Of the curated courses, {n_async} are self-paced online courses that can be
+    started at any time (for example on Coursera, edX, DataCamp, DeepLearning.AI and Kaggle).
+    This record features a selection of these by domain. The other {n_sched} are scheduled,
+    instructor-led or one-off offerings such as workshops and cohorts ({n_sched_au} of them
+    Australian); these are summarised here and can be browsed in the course finder, which
+    hides past one-off events by default. Course details were current at 30 June 2026;
+    check with the provider before enrolling.
+  Keywords: "training; course finder; learning pathway; self-paced courses; MOOC; health data science; machine learning; R; Python; generative AI; research skills"
+  URL: "https://github.com/gnanabharathy/AAAIR/tree/main/WP6 (update to the Nectar-hosted course finder address when live)"
+  Licence: "MIT (software); CC BY 4.0 (course database compiled by the project) [To confirm]. Course content belongs to each provider."
+  Version: "Dashboard prototype 2 and wizard prototype 1; course database dated 30 June 2026"
+  Authors: "Roberts, Jessie [To confirm ORCID iD]"
+  Contributors: "Queensland University of Technology (QUT) user testers [To confirm]; Gnana Bharathy, ARDC: hosting [To confirm role wording]"
+  Target audiences: "Researcher; Early career researcher; PhD candidate; Research support staff"
+  Prerequisites: "None"
+  Competency level: "Beginner"
+  Learning objectives: >-
+    Users will be able to: (1) identify their own analytics and AI training needs;
+    (2) find courses that match their domain, level, budget and available time;
+    (3) compare self-paced and scheduled options; (4) plan a training pathway. [Drafted]
+  Date created: "2026-06-29"
+  Date modified: "{git_last_date_wp6}"
+  Fields of research: "4605 Data management and data science; 4611 Machine learning; 4203 Health services and systems"
+  Resource types: "Interactive"
+  Other types: "Course finder; Learning pathway"
+  Syllabus: "Featured self-paced courses by domain, an aggregate summary of scheduled and one-off offerings, and providers that run courses regularly are shown in the tables below."
+  External resources: "Australian courses that are easy to access have their own DReSA records (records R6 onwards)."
+  breakdown: courses
+
+- id: R5
+  file: R5_WP6_Training_Needs_and_Priority_Tool_Recommendations
+  Title: "Training Needs and Priority Tool Training Recommendations for Health Analytics and AI"
+  Description: >-
+    Findings from a national survey of 99 health researchers on their analytics and AI
+    training needs, and a gap analysis of available training for the 11 priority tools the
+    survey identified. Australian-delivered and health-specific training was limited for
+    most tools, and most available training is online and on demand, which matches what
+    researchers prefer. The analysis recommends developing new training for EHR analytics
+    and data linkage, SQL and database management, NLP models, and model interpretability
+    and explainability, and finds R, GitHub and clustering adequately served. It also
+    documents the LLM-assisted search protocol, the inclusion and exclusion criteria, and
+    user testing of the course finder.
+  Keywords: "training needs analysis; skills survey; gap analysis; health research; data linkage; SQL; NLP; explainable AI; training recommendations; search protocol"
+  URL: "https://github.com/gnanabharathy/AAAIR/tree/main/WP6"
+  Version: "WP6.1 report (4 July 2026); WP6.2 search protocol v1.7; WP6.2 priority tools report (July 2026); WP6.5 user testing report"
+  Authors: "Roberts, Jessie [To confirm ORCID iD]"
+  Contributors: "ARDC Learning Needs Project Team [To confirm]"
+  Target audiences: "Research support staff; Professional; Researcher"
+  Prerequisites: "None"
+  Competency level: "Awareness"
+  Learning objectives: >-
+    Users will be able to: (1) describe the analytics and AI training needs of Australian
+    health researchers; (2) identify where available training falls short; (3) apply the
+    priorities when planning new training. [Drafted]
+  Date created: "2026-07-04"
+  Date modified: "{git_last_date_wp6}"
+  Fields of research: "4203 Health services and systems; 4605 Data management and data science"
+  Resource types: "Guide"
+  Other types: "Report; Training needs analysis"
+  Syllabus: "Priority tools and recommendations are shown in the table below."
+  External resources: "Health Research Analytics and AI Course Finder (record R4)"
+  breakdown: needs
+
+# ---------------------------------------------------------------------------
+# R2 tool directory. Descriptions, tiers and licences come from D3.2/4.2 v3.
+# Home page and training links are read from Alltogethertoolsnoborrar.xlsx by
+# matching `xlsx` against its `tool` column; a `training` value here overrides it.
+tool_categories:
+  - Programming languages
+  - IDEs and notebook environments
+  - Low-code and visual analytics
+  - Commercial statistical software
+  - Web-based domain platforms
+  - Databases
+  - Version control and collaboration
+  - Business intelligence
+  - Generative AI assistants
+
+tools:
+  - {name: R, xlsx: R, category: Programming languages, tier: Core, desc: "Open-source language for statistics and machine learning, with a large package ecosystem including Bioconductor.", licence: "GPL; free", training: "https://cran.r-project.org/manuals.html"}
+  - {name: Python, xlsx: Python, category: Programming languages, tier: Core, desc: "General-purpose language and the main choice for advanced machine learning and data science (for example PyTorch and TensorFlow).", licence: "PSF licence; free"}
+  - {name: Julia, xlsx: Julia, category: Programming languages, tier: Optional, desc: "High-performance language for scientific and machine learning computing.", licence: "MIT; free", training: "https://julialang.org/learning/"}
+  - {name: RStudio (Posit), xlsx: "Rstudio/posit (free)", category: IDEs and notebook environments, tier: Core, desc: "IDE for R with R Markdown, Quarto, Shiny and Git; a server edition runs in containers. Posit Workbench is the paid enterprise edition.", licence: "AGPL v3 (open source edition); paid Workbench"}
+  - {name: Positron, xlsx: Positron, category: IDEs and notebook environments, tier: Core, desc: "Newer Posit IDE that combines R and Python in one analysis.", licence: "Elastic Licence 2.0; free"}
+  - {name: Jupyter Notebook and JupyterHub, xlsx: Jupyterhub, category: IDEs and notebook environments, tier: Core, desc: "Interactive notebooks with R, Python, Julia and other kernels; JupyterHub is the multi-user server.", licence: "BSD-3; free"}
+  - {name: VS Code, xlsx: "Vs code", category: IDEs and notebook environments, tier: Listed, desc: "General-purpose code editor with extensions and remote development; named as a main recommendation in the report's key findings.", licence: "MIT; free"}
+  - {name: KNIME, xlsx: Knime, category: Low-code and visual analytics, tier: Core, desc: "Open-source visual workflow analytics that can run R and Python and connect to many data sources; the recommended low-code option.", licence: "Open-source core plus commercial tiers"}
+  - {name: Weka, xlsx: Weka, category: Low-code and visual analytics, tier: Optional, desc: "Open-source Java workbench for machine learning and data mining.", licence: "GPL; free"}
+  - {name: RapidMiner, xlsx: Rapidminer, category: Low-code and visual analytics, tier: Optional, desc: "Commercial machine learning and analytics platform; KNIME is a free alternative.", licence: "Commercial (free tier available)"}
+  - {name: SAS (Analytics Pro, Viya, Studio), xlsx: "Sas analytics pro", category: Commercial statistical software, tier: Optional, desc: "Commercial statistics suite, strong for classical and survival analysis; Viya is the cloud-native edition.", licence: "Proprietary; paid"}
+  - {name: Stata, xlsx: Stata, category: Commercial statistical software, tier: Optional, desc: "Commercial statistics package, strong for epidemiology, causal inference and panel data.", licence: "Proprietary; paid"}
+  - {name: Mplus, xlsx: Mplus, category: Commercial statistical software, tier: Listed, desc: "Commercial software for latent variable and longitudinal modelling.", licence: "Proprietary; paid"}
+  - {name: Galaxy, xlsx: Galaxy, category: Web-based domain platforms, tier: Optional, desc: "Web platform for reproducible bioinformatics workflows; can be self-hosted.", licence: "MIT; free"}
+  - {name: PostgreSQL, xlsx: Postgresql, category: Databases, tier: Core, desc: "Open-source relational database with extensions such as PostGIS and vector search; preferred over MySQL.", licence: "PostgreSQL licence; free"}
+  - {name: MySQL, xlsx: Mysql, category: Databases, tier: Listed, desc: "Relational database with open-source and commercial editions.", licence: "GPL v2 community edition plus commercial"}
+  - {name: GitHub, xlsx: "Github (free)", category: Version control and collaboration, tier: Listed, desc: "Hosted Git service for code sharing and collaboration; the report recommends command-line Git inside the VRE.", licence: "Proprietary service; free and paid plans"}
+  - {name: GitLab, xlsx: Gitlab, category: Version control and collaboration, tier: Listed, desc: "Git hosting available as a service or self-hosted.", licence: "MIT community edition; proprietary enterprise edition"}
+  - {name: Power BI, xlsx: "Power bi", category: Business intelligence, tier: Listed, desc: "Microsoft business intelligence and dashboards; not Linux-native, so not recommended for VRE hosting.", licence: "Proprietary; free desktop and paid plans"}
+  - {name: Mistral, xlsx: Mistral, category: Generative AI assistants, tier: Listed, desc: "Open-weight large language models with a chat assistant and API; the open model named for possible in-house hosting.", licence: "Mixed: open-weight models and paid services"}
+  - {name: Claude, xlsx: "Claude (free)", category: Generative AI assistants, tier: Listed, desc: "Anthropic's AI assistant, also available through an API and a command-line coding tool.", licence: "Proprietary; free and paid plans", training: "https://www.anthropic.com/learn"}
+  - {name: ChatGPT, xlsx: "Chatgpt (free)", category: Generative AI assistants, tier: Listed, desc: "OpenAI's AI assistant, with free and paid plans.", licence: "Proprietary; free and paid plans"}
+  - {name: Google Gemini (CLI), xlsx: "Google gemini (cli)", category: Generative AI assistants, tier: Listed, desc: "Google's AI assistant with a command-line coding agent.", licence: "Proprietary service; CLI described as open source"}
+
+tools_not_recommended: "Also assessed but not recommended for the VRE: Bioconductor (covered through R), WGCNA, EpiSurv, Tableau, Snakemake, Nexa AI, Vertex AI, GitHub Copilot, Google Antigravity, Grok, NotebookLM, OpenDataFit, Llama, Ollama and Singularity/Apptainer (left to the VRE team), Perplexity, Microsoft 365 Copilot, OpenAI Platform, SPSS and Excel."
+
+# ---------------------------------------------------------------------------
+ethics_recommendations:
+  - "Take a tiered, risk-based approach to using generative AI."
+  - "Do not put protected health, Indigenous or classified data into commercial large language models."
+  - "Run a pre-analysis check for Indigenous data."
+  - "Verify AI outputs and keep human oversight."
+  - "Provide training, guidance and shared tools for researchers."
+  - "Use a tiered architecture for analytics and AI tools."
+
+ethics_tiers:
+  - ["Tier 1", "Core research ethics and health data access", 17]
+  - ["Tier 2", "Clinical AI, translation and liability", 9]
+  - ["Tier 3", "AI governance frameworks and policy direction", 9]
+  - ["Tier 4", "Adjacent and situational", 6]
+
+ethics_licensing_key: "(a) open; (b) open with attribution; (c) permission needed; (d) procurement or legal review needed."
+
+# ---------------------------------------------------------------------------
+priority_tools:
+  - ["EHR analytics and data linkage", "Develop new training"]
+  - ["SQL and database management", "Develop new training"]
+  - ["NLP models", "Develop new training"]
+  - ["Model interpretability and explainability", "Develop new training"]
+  - ["Clinical trial design and analysis", "Investigate further (gap may reflect search limits)"]
+  - ["R programming", "Adequately served"]
+  - ["GitHub", "Adequately served"]
+  - ["Clustering and pattern recognition", "Adequately served; re-evaluate later"]
+  - ["Causal analysis", "Adequately served (low demand; existing courses match skill levels)"]
+  - ["Regression", "If developed, frame as applied regression in health research"]
+  - ["Community engagement methods", "No recommendation stated in the report summary"]
